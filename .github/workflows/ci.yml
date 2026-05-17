@@ -63,3 +63,35 @@ jobs:
 
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  build-apk:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+      - name: Start static server
+        run: npx -y serve dist -l 8080 &
+
+      - name: Wait for server
+        run: npx -y wait-on http://localhost:8080/manifest.webmanifest
+
+      - name: Build APK with Bubblewrap
+        run: |
+          docker run --rm \
+            --network host \
+            -v "$PWD:/app" \
+            -w /app \
+            ghcr.io/googlechromelabs/bubblewrap:latest \
+            build --skipSigning --skipPwaValidation --metaquest
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: apk-unsigned
+          path: app-release-unsigned.apk

@@ -1,0 +1,27 @@
+{
+  "appVersion": "1.0.0",
+  "appVersionCode": 1,
+  "host": "localhost:8080",
+  "name": "BabylonJS WebXR",
+  "launcherName": "BabylonXR",
+  "display": "standalone",
+  "themeColor": "#4B0082",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#000000",
+  "enableNotifications": false,
+  "isMetaQuest": true,
+  "startUrl": "/",
+  "iconUrl": "http://localhost:8080/icons/icon-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "/tmp/keystore.jks",
+    "alias": "release"
+  },
+  "packageId": "com.example.babylonxr",
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "http://localhost:8080/manifest.webmanifest"
+}
