@@ -89,7 +89,7 @@ jobs:
             -v "$PWD:/app" \
             -w /app \
             ghcr.io/googlechromelabs/bubblewrap:latest \
-            build --skipSigning --skipPwaValidation --metaquest
+            sh -c "yes | bubblewrap doctor; yes | bubblewrap build --skipSigning --skipPwaValidation --metaquest"
 
       - uses: actions/upload-artifact@v4
         with:
