@@ -1,0 +1,23 @@
+{
+  "name": "babylonjs-webxr-template",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babylonjs/addons": "^9.7.0",
+    "@babylonjs/core": "^9.7.0",
+    "@babylonjs/gui": "^9.7.0",
+    "@babylonjs/inspector": "^9.7.0",
+    "@babylonjs/loaders": "^9.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.8.0",
+    "typescript": "^5.7.0",
+    "vite": "^6.0.0"
+  }
+}

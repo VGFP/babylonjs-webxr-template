@@ -1,0 +1,27 @@
+{
+  "name": "BabylonJS WebXR Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [
+    5173
+  ],
+  "runArgs": [
+    "--publish",
+    "0.0.0.0:5173:5173"
+  ],
+  "portsAttributes": {
+    "5173": {
+      "label": "Vite Dev Server",
+      "onAutoForward": "silent"
+    }
+  },
+  "postCreateCommand": "bash scripts/generate-cert.sh && pnpm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}
