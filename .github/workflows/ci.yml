@@ -90,7 +90,8 @@ jobs:
 
       - name: Reinitialize TWA manifest with --metaquest
         run: |
-          node /tmp/bubblewrap-repo/bubblewrap/packages/cli/bin/bubblewrap.js init \
+          (sleep 3; echo y; sleep 3; echo y) | \
+            node /tmp/bubblewrap-repo/bubblewrap/packages/cli/bin/bubblewrap.js init \
             --manifest=http://localhost:8080/manifest.webmanifest \
             --metaquest
 
