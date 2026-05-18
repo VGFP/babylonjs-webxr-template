@@ -1,4 +1,4 @@
-.PHONY: setup-ai help
+.PHONY: setup-ai generate-docs help
 
 help: ## Show this help
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | \
@@ -7,7 +7,7 @@ help: ## Show this help
 # ---------------------------------------------------------------------------
 # AI coding tools – Claude Code / OpenCode / Kilo Code + BabylonJS MCP
 # ---------------------------------------------------------------------------
-setup-ai: ## Install AI coding tools (args: all|claude|opencode|kilo) with BabylonJS MCP
+setup-ai: ## Install AI coding tools (args: all|claude|opencode|kilo) with BabylonJS Docs MCP
 	@bash scripts/setup-ai-tools.sh $(filter-out $@,$(MAKECMDGOALS))
 
 # allow arbitrary args to pass through to the script
@@ -17,3 +17,11 @@ ifeq ($(filter setup-ai,$(MAKECMDGOALS)),setup-ai)
 	@:
   endif
 endif
+
+# ---------------------------------------------------------------------------
+# Documentation generation
+# ---------------------------------------------------------------------------
+generate-docs: ## Generate BabylonJS docs for MCP (clones repos if needed)
+	@bash scripts/clone-babylonjs-source.sh
+	@bash scripts/clone-babylonjs-docs.sh
+	@bash scripts/generate-docs-for-mcp.sh

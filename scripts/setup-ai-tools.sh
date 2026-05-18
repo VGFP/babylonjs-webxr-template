@@ -4,8 +4,8 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 
-MCP_URL="https://mcp.docfork.com/mcp"
-MCP_NAME="docfork"
+MCP_NAME="babylonjs-docs"
+DOCS_DIR="$PROJECT_DIR/docs-for-mcp"
 
 BOLD='\033[1m'
 GREEN='\033[0;32m'
@@ -19,7 +19,7 @@ usage() {
   cat <<EOF
 Usage: $(basename "$0") [tool ...]
 
-Install CLI AI coding tools and configure the DocFork MCP server.
+Install CLI AI coding tools and configure the BabylonJS Docs MCP server.
 
 Available tools:
   claude     Install Claude Code (@anthropic-ai/claude-code)
@@ -34,6 +34,133 @@ Examples:
 EOF
 }
 
+ensure_docs() {
+  if [ ! -d "$DOCS_DIR" ]; then
+    info "docs-for-mcp/ not found. Generating documentation..."
+    bash "$SCRIPT_DIR/generate-docs-for-mcp.sh"
+  else
+    local count
+    count=$(find "$DOCS_DIR" -name "*.md" | wc -l)
+    if [ "$count" -lt 10 ]; then
+      info "docs-for-mcp/ seems incomplete ($count files). Regenerating..."
+      bash "$SCRIPT_DIR/generate-docs-for-mcp.sh"
+    else
+      ok "docs-for-mcp/ ready ($count markdown files)"
+    fi
+  fi
+}
+
+add_mcp_claude() {
+  local mcp_file="$PROJECT_DIR/.mcp.json"
+  if [ ! -f "$mcp_file" ]; then
+    cat > "$mcp_file" <<EOF
+{
+  "mcpServers": {
+    "$MCP_NAME": {
+      "command": "node",
+      "args": ["mcp/server.mjs"]
+    }
+  }
+}
+EOF
+    ok "Created .mcp.json with BabylonJS Docs MCP server"
+  else
+    if grep -q "$MCP_NAME" "$mcp_file" 2>/dev/null; then
+      ok ".mcp.json already has $MCP_NAME – skipped"
+    else
+      info "Adding $MCP_NAME to existing .mcp.json"
+      node -e "
+        const fs = require('fs');
+        const f = '$mcp_file';
+        const cfg = JSON.parse(fs.readFileSync(f, 'utf8'));
+        cfg.mcpServers = cfg.mcpServers || {};
+        cfg.mcpServers['$MCP_NAME'] = { command: 'node', args: ['mcp/server.mjs'] };
+        fs.writeFileSync(f, JSON.stringify(cfg, null, 2) + '\n');
+      "
+      ok "Added $MCP_NAME to .mcp.json"
+    fi
+  fi
+}
+
+add_mcp_opencode() {
+  local cfg="$PROJECT_DIR/opencode.json"
+  if [ ! -f "$cfg" ]; then
+    cat > "$cfg" <<EOF
+{
+  "mcp": {
+    "$MCP_NAME": {
+      "type": "local",
+      "command": ["node", "mcp/server.mjs"]
+    }
+  }
+}
+EOF
+    ok "Created opencode.json with BabylonJS Docs MCP server"
+  else
+    if grep -q "$MCP_NAME" "$cfg" 2>/dev/null; then
+      ok "opencode.json already has $MCP_NAME – skipped"
+    else
+      info "Adding $MCP_NAME to existing opencode.json"
+      node -e "
+        const fs = require('fs');
+        const f = '$cfg';
+        const cfg = JSON.parse(fs.readFileSync(f, 'utf8'));
+        cfg.mcp = cfg.mcp || {};
+        cfg.mcp['$MCP_NAME'] = { type: 'local', command: ['node', 'mcp/server.mjs'] };
+        fs.writeFileSync(f, JSON.stringify(cfg, null, 2) + '\n');
+      "
+      ok "Added $MCP_NAME to opencode.json"
+    fi
+  fi
+}
+
+add_mcp_kilo() {
+  local cfg
+  for cfg in "$PROJECT_DIR/kilo.json" "$PROJECT_DIR/.kilo/kilo.json"; do
+    if [ -f "$cfg" ]; then
+      if grep -q "$MCP_NAME" "$cfg" 2>/dev/null; then
+        ok "${cfg#"$PROJECT_DIR/"} already has $MCP_NAME – skipped"
+        return
+      fi
+      info "Adding $MCP_NAME to ${cfg#"$PROJECT_DIR/"}"
+      node -e "
+        const fs = require('fs');
+        const f = '$cfg';
+        const cfg = JSON.parse(fs.readFileSync(f, 'utf8'));
+        cfg.mcp = cfg.mcp || {};
+        cfg.mcp['$MCP_NAME'] = { type: 'local', command: ['node', 'mcp/server.mjs'], enabled: true };
+        cfg.permission = cfg.permission || {};
+        cfg.permission['${MCP_NAME}_search_docs'] = 'allow';
+        cfg.permission['${MCP_NAME}_read_doc'] = 'allow';
+        cfg.permission['${MCP_NAME}_list_docs'] = 'allow';
+        fs.writeFileSync(f, JSON.stringify(cfg, null, 2) + '\n');
+      "
+      ok "Added $MCP_NAME to ${cfg#"$PROJECT_DIR/"}"
+      return
+    fi
+  done
+
+  local cfg_dir="$PROJECT_DIR/.kilo"
+  mkdir -p "$cfg_dir"
+  cat > "$cfg_dir/kilo.json" <<EOF
+{
+  "mcp": {
+    "$MCP_NAME": {
+      "type": "local",
+      "command": ["node", "mcp/server.mjs"],
+      "enabled": true
+    }
+  },
+  "permission": {
+    "${MCP_NAME}_search_docs": "allow",
+    "${MCP_NAME}_read_doc": "allow",
+    "${MCP_NAME}_list_docs": "allow"
+  }
+}
+EOF
+  ok "Created .kilo/kilo.json with BabylonJS Docs MCP server"
+}
+
 # ── Tool installers ──────────────────────────────────────────────────────────
 
 install_claude() {
@@ -41,13 +168,7 @@ install_claude() {
   npm install -g @anthropic-ai/claude-code
   ok "Claude Code installed ($(claude --version 2>/dev/null || echo 'ok'))"
 
-  local mcp_file="$PROJECT_DIR/.mcp.json"
-  if [ ! -f "$mcp_file" ]; then
-    echo '{"mcpServers":{"'"$MCP_NAME"'":{"url":"'"$MCP_URL"'"}}}' > "$mcp_file"
-    ok "Created .mcp.json with DocFork MCP server"
-  else
-    ok ".mcp.json already exists – skipped (add MCP server manually if needed)"
-  fi
+  add_mcp_claude
 }
 
 install_opencode() {
@@ -55,22 +176,7 @@ install_opencode() {
   npm install -g opencode-ai
   ok "OpenCode installed"
 
-  local cfg="$PROJECT_DIR/opencode.json"
-  if [ ! -f "$cfg" ]; then
-    cat > "$cfg" <<EOF
-{
-  "mcp": {
-    "$MCP_NAME": {
-      "type": "url",
-      "url": "$MCP_URL"
-    }
-  }
-}
-EOF
-    ok "Created opencode.json with DocFork MCP server"
-  else
-    ok "opencode.json already exists – skipped"
-  fi
+  add_mcp_opencode
 }
 
 install_kilo() {
@@ -82,31 +188,7 @@ install_kilo() {
   npm install -g typescript-language-server typescript
   ok "TypeScript language server installed"
 
-  local mcp_entry='"'"$MCP_NAME"'":{"type":"remote","url":"'"$MCP_URL"'"}'
-  local lsp_entry='"typescript":{"command":["typescript-language-server","--stdio"],"extensions":[".ts",".tsx",".js",".jsx",".mts",".cts",".mjs",".cjs"]}'
-  local cfg
-
-  for cfg in "$PROJECT_DIR/.kilo/kilo.json" "$PROJECT_DIR/kilo.json"; do
-    if [ ! -f "$cfg" ]; then
-      local cfg_dir
-      cfg_dir="$(dirname "$cfg")"
-      mkdir -p "$cfg_dir"
-      cat > "$cfg" <<EOF
-{
-  "mcp": {
-    $mcp_entry
-  },
-  "lsp": {
-    $lsp_entry
-  }
-}
-EOF
-      ok "Created ${cfg#"$PROJECT_DIR/"} with DocFork MCP server and TypeScript LSP"
-      return
-    fi
-  done
-
-  ok "kilo.json and .kilo/kilo.json already exist – skipped (add MCP/LSP config manually if needed)"
+  add_mcp_kilo
 }
 
 # ── Main ─────────────────────────────────────────────────────────────────────
@@ -128,6 +210,9 @@ fi
 echo -e "${BOLD}Setting up AI coding tools in devcontainer${NC}"
 echo ""
 
+ensure_docs
+echo ""
+
 for tool in "${TOOLS[@]}"; do
   case "$tool" in
     claude)   install_claude   ;;
@@ -137,4 +222,5 @@ for tool in "${TOOLS[@]}"; do
   echo ""
 done
 
-echo -e "${BOLD}Done! MCP server '$MCP_NAME' → $MCP_URL${NC}"
+echo -e "${BOLD}Done! MCP server configured:${NC}"
+echo -e "  ${CYAN}$MCP_NAME${NC} → local (mcp/server.mjs)"
