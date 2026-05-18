@@ -82,17 +82,39 @@ jobs:
       - name: Wait for server
         run: npx -y wait-on http://localhost:8080/manifest.webmanifest
 
-      - name: Build APK with Bubblewrap
+      - name: Install Meta's Bubblewrap fork
         run: |
-          docker run --rm \
-            --network host \
-            --entrypoint sh \
-            -v "$PWD:/app" \
-            -w /app \
-            ghcr.io/googlechromelabs/bubblewrap:latest \
-            -c "bubblewrap doctor; (sleep 5; echo y; sleep 3; echo y; sleep 3; echo n; sleep 3; echo y) | bubblewrap build --manifest twa-manifest.json --skipSigning --skipPwaValidation"
+          git clone https://github.com/meta-quest/bubblewrap /tmp/bubblewrap
+          cd /tmp/bubblewrap
+          npm install && npm run build
+
+      - name: Reinitialize TWA manifest with --metaquest
+        run: |
+          node /tmp/bubblewrap/packages/cli/bin/bubblewrap.js init \
+            --manifest=http://localhost:8080/manifest.webmanifest \
+            --metaquest
+
+      - name: Generate debug keystore
+        run: |
+          keytool -genkey -noprompt \
+            -keystore android.keystore \
+            -alias androiddebugkey \
+            -keyalg RSA -keysize 2048 -validity 10000 \
+            -storepass android -keypass android \
+            -dname 'CN=Android Debug,O=Android,C=US'
+
+      - name: Build and sign APK with Bubblewrap
+        run: |
+          (sleep 5; echo y; sleep 3; echo y; sleep 3; echo n; sleep 3; echo y) | \
+            node /tmp/bubblewrap/packages/cli/bin/bubblewrap.js build \
+              --manifest twa-manifest.json \
+              --skipPwaValidation \
+              --ks android.keystore \
+              --ksAlias androiddebugkey \
+              --ksKeyPass android \
+              --ksPass android
 
       - uses: actions/upload-artifact@v4
         with:
-          name: apk-unsigned
-          path: app-release-unsigned-aligned.apk
+          name: apk-signed
+          path: app-release-signed.apk
