@@ -137,3 +137,9 @@ echo "=== Done! Output in $OUTPUT_DIR/ ==="
 echo "    API:       $API_COUNT markdown files"
 echo "    Examples:  $EXAMPLE_COUNT markdown files"
 echo "    Total:     $((API_COUNT + EXAMPLE_COUNT)) files"
+
+# ─── Part 4: Clean up intermediate repos ───
+echo ""
+echo ">>> Cleaning up intermediate repos..."
+rm -rf "$BABYLON_SOURCE" "$BABYLON_DOCS"
+echo "    Removed babylonjs-source/ and babylonjs-docs/"
