@@ -58,46 +58,110 @@ On first visit, browsers will show a certificate warning — accept it to procee
 
 | Command | Description |
 |---|---|
-| `make setup-ai` | Install AI coding tools (Claude Code, OpenCode, Kilo Code) with BabylonJS MCP |
-| `make setup-ai claude` | Install only Claude Code |
-| `make setup-ai opencode` | Install only OpenCode |
-| `make setup-ai kilo` | Install only Kilo Code |
+| `make setup-ai` | Install AI coding tools + generate docs + configure MCP |
+| `make generate-docs` | Generate BabylonJS docs for MCP (offline) |
 | `make help` | List all available Makefile targets |
 
 ## AI Coding Tools
 
-The `make setup-ai` command installs CLI AI coding assistants inside the devcontainer and configures the [DocFork MCP server](https://mcp.docfork.com/mcp) for BabylonJS documentation and assistance.
+The `make setup-ai` command installs CLI AI coding assistants and configures a local BabylonJS documentation MCP server for offline API reference and guides.
 
 Supported tools:
 - **Claude Code** — `@anthropic-ai/claude-code` (creates `.mcp.json`)
 - **OpenCode** — `opencode` (creates `opencode.json`)
 - **Kilo Code** — `kilocode` (creates `kilo.json`)
 
-Each tool gets a project-level config file with the DocFork MCP server:
+Each tool gets a project-level config file with the local BabylonJS Docs MCP server:
 
 ```json
 {
   "mcpServers": {
-    "docfork": {
-      "url": "https://mcp.docfork.com/mcp"
+    "babylonjs-docs": {
+      "command": "node",
+      "args": ["mcp/server.mjs"]
     }
   }
 }
 ```
 
+The local MCP server (`mcp/server.mjs`) exposes three tools for searching and reading BabylonJS documentation offline:
+
+| Tool | Description |
+|---|---|
+| `search_docs` | Search API docs and guides by keyword (e.g. "Scene", "WebXR", "shadow") |
+| `read_doc` | Read a specific documentation file by path |
+| `list_docs` | Browse the documentation directory structure |
+
+The docs are generated from two sources:
+- **API reference** — TypeDoc output from the BabylonJS TypeScript source (`babylonjs-source/`)
+- **Guides & examples** — Markdown content from the BabylonJS Documentation repo (`babylonjs-docs/`)
+
+Both repos are cloned and processed by the generation script.
+
+### Generating / Updating Docs
+
+```bash
+# Full pipeline: clone repos + generate docs
+bash scripts/clone-babylonjs-source.sh
+bash scripts/generate-docs-for-mcp.sh
+
+# Or via Makefile
+make generate-docs
+```
+
+This creates `docs-for-mcp/` with ~3,400 markdown files (~2,700 API + ~650 guides).
+
+### How It Works
+
+1. `scripts/clone-babylonjs-source.sh` — Clones `BabylonJS/Babylon.js` at the version in `package.json`
+2. `scripts/generate-docs-for-mcp.sh` — Clones the Documentation repo, runs TypeDoc with `typedoc-plugin-markdown`, copies guides, outputs to `docs-for-mcp/`
+3. `mcp/server.mjs` — Stdio MCP server that indexes all markdown on startup and serves search/read/list tools
+
+### Configuring for Other AI Tools
+
+The MCP server is a standard stdio server. To add it to any MCP-compatible tool:
+
+```json
+{
+  "mcpServers": {
+    "babylonjs-docs": {
+      "command": "node",
+      "args": ["mcp/server.mjs"]
+    }
+  }
+}
+```
+
+For tools that use a different config format, the server command is:
+
+```
+node mcp/server.mjs
+```
+
+Set `BABYLONJS_DOCS_ROOT` env var if the docs directory is not at `./docs-for-mcp` relative to the project root.
+
 ## Project Structure
 
 ```
 ├── .certs/               # Local HTTPS certs (gitignored, auto-generated)
-├── .devcontainer/       # Devcontainer config (Dockerfile + features)
+├── .devcontainer/        # Devcontainer config (Dockerfile + features)
+├── babylonjs-source/     # BabylonJS monorepo clone (gitignored)
+├── babylonjs-docs/       # BabylonJS Documentation repo clone (gitignored)
+├── docs-for-mcp/         # Generated markdown docs (gitignored)
+│   ├── api/              # TypeDoc-generated API reference
+│   └── examples/         # Guides and tutorials
+├── mcp/
+│   └── server.mjs        # Local MCP server for AI tools
 ├── public/
-│   ├── icons/           # PWA icons (replace with your own)
+│   ├── icons/            # PWA icons (replace with your own)
 │   ├── manifest.webmanifest
-│   └── sw.js            # Service worker
+│   └── sw.js             # Service worker
 ├── scripts/
-│   ├── generate-cert.sh # Self-signed cert generator
+│   ├── generate-cert.sh  # Self-signed cert generator
 │   ├── generate-icons.cjs
-│   └── setup-ai-tools.sh # AI tools installer + MCP config
+│   ├── clone-babylonjs-source.sh  # Clone BabylonJS source repo
+│   ├── generate-docs-for-mcp.sh   # Generate markdown docs
+│   └── setup-ai-tools.sh          # AI tools installer + MCP config
 ├── src/
 │   ├── core/             # Engine/scene setup, shared types
 │   ├── lighting/         # Lights and shadow generator
@@ -106,7 +170,7 @@ Each tool gets a project-level config file with the DocFork MCP server:
 │   ├── main.ts           # App entry point
 │   └── style.css
 ├── index.html
-├── Makefile             # AI tools setup targets
+├── Makefile              # AI tools + docs generation targets
 ├── package.json
 ├── tsconfig.json
 └── vite.config.ts

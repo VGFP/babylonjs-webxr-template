@@ -147,3 +147,7 @@ vite.config.ts.timestamp-*
 .certs/
 
 .kilo/
+
+babylonjs-source/
+babylonjs-docs/
+docs-for-mcp/
