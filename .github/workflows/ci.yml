@@ -95,4 +95,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: apk-unsigned
-          path: app-release-unsigned.apk
+          path: app-release-unsigned-aligned.apk
