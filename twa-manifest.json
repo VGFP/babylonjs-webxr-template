@@ -23,5 +23,6 @@
   "packageId": "com.example.babylonxr",
   "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
-  "webManifestUrl": "http://localhost:8080/manifest.webmanifest"
+  "webManifestUrl": "http://localhost:8080/manifest.webmanifest",
+  "fullScopeUrl": "https://your-pwa-domain.com/"
 }
