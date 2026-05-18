@@ -90,7 +90,7 @@ jobs:
             -v "$PWD:/app" \
             -w /app \
             ghcr.io/googlechromelabs/bubblewrap:latest \
-            -c "yes | bubblewrap doctor; yes | bubblewrap build --skipSigning --skipPwaValidation"
+            -c "bubblewrap doctor; (sleep 5; echo y; sleep 10; echo y) | bubblewrap build --manifest twa-manifest.json --skipSigning --skipPwaValidation"
 
       - uses: actions/upload-artifact@v4
         with:
