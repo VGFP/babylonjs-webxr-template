@@ -103,6 +103,7 @@ Both repos are cloned and processed by the generation script.
 ```bash
 # Full pipeline: clone repos + generate docs
 bash scripts/clone-babylonjs-source.sh
+bash scripts/clone-babylonjs-docs.sh
 bash scripts/generate-docs-for-mcp.sh
 
 # Or via Makefile
@@ -114,7 +115,8 @@ This creates `docs-for-mcp/` with ~3,400 markdown files (~2,700 API + ~650 guide
 ### How It Works
 
 1. `scripts/clone-babylonjs-source.sh` — Clones `BabylonJS/Babylon.js` at the version in `package.json`
-2. `scripts/generate-docs-for-mcp.sh` — Clones the Documentation repo, runs TypeDoc with `typedoc-plugin-markdown`, copies guides, outputs to `docs-for-mcp/`
+2. `scripts/clone-babylonjs-docs.sh` — Clones the BabylonJS Documentation repo to `babylonjs-docs/`
+3. `scripts/generate-docs-for-mcp.sh` — Runs TypeDoc with `typedoc-plugin-markdown`, copies guides from `babylonjs-docs/`, outputs to `docs-for-mcp/`
 3. `mcp/server.mjs` — Stdio MCP server that indexes all markdown on startup and serves search/read/list tools
 
 ### Configuring for Other AI Tools
