@@ -10,12 +10,5 @@
 <body>
   <canvas id="renderCanvas" touch-action="none"></canvas>
   <script type="module" src="/src/main.ts"></script>
-  <script type="module">
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function () {
-        navigator.serviceWorker.register(import.meta.env.BASE_URL + 'sw.js');
-      });
-    }
-  </script>
 </body>
 </html>

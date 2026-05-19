@@ -36,3 +36,9 @@ engine.runRenderLoop(() => {
 window.addEventListener('resize', () => {
     engine.resize();
 });
+
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register(import.meta.env.BASE_URL + 'sw.js');
+    });
+}
