@@ -1,5 +1,6 @@
 const CACHE_NAME = 'babylonxr-v1';
-const ASSETS = ['/', '/index.html', '/manifest.webmanifest'];
+const BASE = new URL('.', self.location).pathname;
+const ASSETS = [BASE, BASE + 'index.html', BASE + 'manifest.webmanifest'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(

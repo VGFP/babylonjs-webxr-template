@@ -9,6 +9,7 @@ const pemPath = path.resolve(__dirname, '.certs/localhost.pem');
 const hasCerts = fs.existsSync(keyPath) && fs.existsSync(pemPath);
 
 export default defineConfig({
+  base: '/babylonjs-webxr-template/',
   root: '.',
   publicDir: 'public',
   build: {
