@@ -1,0 +1,448 @@
+[**@babylonjs/root v1.0.0**](../../../README.md)
+
+***
+
+[@babylonjs/root](../../../README.md) / [core/src](../README.md) / WebXROculusTouchMotionController
+
+# Class: WebXROculusTouchMotionController
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXROculusTouchMotionController.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXROculusTouchMotionController.ts#L18)
+
+The motion controller class for oculus touch (quest, rift).
+This class supports legacy mapping as well the standard xr mapping
+
+## Extends
+
+- [`WebXRAbstractMotionController`](WebXRAbstractMotionController.md)
+
+## Constructors
+
+### Constructor
+
+> **new WebXROculusTouchMotionController**(`scene`, `gamepadObject`, `handedness`, `_legacyMapping?`, `_forceLegacyControllers?`): `WebXROculusTouchMotionController`
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXROculusTouchMotionController.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXROculusTouchMotionController.ts#L40)
+
+#### Parameters
+
+##### scene
+
+[`Scene`](Scene.md)
+
+##### gamepadObject
+
+[`IMinimalMotionControllerObject`](../interfaces/IMinimalMotionControllerObject.md)
+
+##### handedness
+
+[`MotionControllerHandedness`](../type-aliases/MotionControllerHandedness.md)
+
+##### \_legacyMapping?
+
+`boolean` = `false`
+
+##### \_forceLegacyControllers?
+
+`boolean` = `false`
+
+#### Returns
+
+`WebXROculusTouchMotionController`
+
+#### Overrides
+
+[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md).[`constructor`](WebXRAbstractMotionController.md#constructor)
+
+## Properties
+
+### components
+
+> `readonly` **components**: `object` = `{}`
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:254](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L254)
+
+A map of components (WebXRControllerComponent) in this motion controller
+Components have a ComponentType and can also have both button and axis definitions
+
+#### Index Signature
+
+\[`id`: `string`\]: [`WebXRControllerComponent`](WebXRControllerComponent.md)
+
+#### Inherited from
+
+[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md).[`components`](WebXRAbstractMotionController.md#components)
+
+***
+
+### disableAnimation
+
+> **disableAnimation**: `boolean` = `false`
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L261)
+
+Disable the model's animation. Can be set at any time.
+
+#### Inherited from
+
+[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md).[`disableAnimation`](WebXRAbstractMotionController.md#disableanimation)
+
+***
+
+### gamepadObject
+
+> **gamepadObject**: [`IMinimalMotionControllerObject`](../interfaces/IMinimalMotionControllerObject.md)
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:292](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L292)
+
+The gamepad object correlating to this controller
+
+#### Inherited from
+
+[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md).[`gamepadObject`](WebXRAbstractMotionController.md#gamepadobject)
+
+***
+
+### handedness
+
+> **handedness**: [`MotionControllerHandedness`](../type-aliases/MotionControllerHandedness.md)
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:296](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L296)
+
+handedness (left/right/none) of this controller
+
+#### Inherited from
+
+[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md).[`handedness`](WebXRAbstractMotionController.md#handedness)
+
+***
+
+### onModelLoadedObservable
+
+> **onModelLoadedObservable**: [`Observable`](Observable.md)\<[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md)\>
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:265](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L265)
+
+Observers registered here will be triggered when the model of this controller is done loading
+
+#### Inherited from
+
+[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md).[`onModelLoadedObservable`](WebXRAbstractMotionController.md#onmodelloadedobservable)
+
+***
+
+### profileId
+
+> **profileId**: `string` = `"oculus-touch"`
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXROculusTouchMotionController.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXROculusTouchMotionController.ts#L38)
+
+The profile id of this motion controller
+
+#### Overrides
+
+[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md).[`profileId`](WebXRAbstractMotionController.md#profileid)
+
+***
+
+### rootMesh
+
+> **rootMesh**: [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:273](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L273)
+
+The root mesh of the model. It is null if the model was not yet initialized
+
+#### Inherited from
+
+[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md).[`rootMesh`](WebXRAbstractMotionController.md#rootmesh)
+
+***
+
+### MODEL\_BASE\_URL
+
+> `static` **MODEL\_BASE\_URL**: `string` = `"https://controllers.babylonjs.com/oculus/"`
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXROculusTouchMotionController.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXROculusTouchMotionController.ts#L24)
+
+The base url used to load the left and right controller models
+
+***
+
+### MODEL\_LEFT\_FILENAME
+
+> `static` **MODEL\_LEFT\_FILENAME**: `string` = `"left.babylon"`
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXROculusTouchMotionController.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXROculusTouchMotionController.ts#L28)
+
+The name of the left controller model file
+
+***
+
+### MODEL\_RIGHT\_FILENAME
+
+> `static` **MODEL\_RIGHT\_FILENAME**: `string` = `"right.babylon"`
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXROculusTouchMotionController.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXROculusTouchMotionController.ts#L32)
+
+The name of the right controller model file
+
+***
+
+### QUEST\_MODEL\_BASE\_URL
+
+> `static` **QUEST\_MODEL\_BASE\_URL**: `string` = `"https://controllers.babylonjs.com/oculusQuest/"`
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXROculusTouchMotionController.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXROculusTouchMotionController.ts#L36)
+
+Base Url for the Quest controller model.
+
+## Accessors
+
+### handness
+
+#### Get Signature
+
+> **get** **handness**(): [`MotionControllerHandedness`](../type-aliases/MotionControllerHandedness.md)
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:461](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L461)
+
+Backwards compatibility due to a deeply-integrated typo
+
+##### Returns
+
+[`MotionControllerHandedness`](../type-aliases/MotionControllerHandedness.md)
+
+#### Inherited from
+
+[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md).[`handness`](WebXRAbstractMotionController.md#handness)
+
+## Methods
+
+### dispose()
+
+> **dispose**(): `void`
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:321](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L321)
+
+Dispose this controller, the model mesh and all its components
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md).[`dispose`](WebXRAbstractMotionController.md#dispose)
+
+***
+
+### getAllComponentsOfType()
+
+> **getAllComponentsOfType**(`type`): [`WebXRControllerComponent`](WebXRControllerComponent.md)[]
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:341](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L341)
+
+Returns all components of specific type
+
+#### Parameters
+
+##### type
+
+[`MotionControllerComponentType`](../type-aliases/MotionControllerComponentType.md)
+
+the type to search for
+
+#### Returns
+
+[`WebXRControllerComponent`](WebXRControllerComponent.md)[]
+
+an array of components with this type
+
+#### Inherited from
+
+[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md).[`getAllComponentsOfType`](WebXRAbstractMotionController.md#getallcomponentsoftype)
+
+***
+
+### getComponent()
+
+> **getComponent**(`id`): [`WebXRControllerComponent`](WebXRControllerComponent.md)
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:352](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L352)
+
+get a component based an its component id as defined in layout.components
+
+#### Parameters
+
+##### id
+
+`string`
+
+the id of the component
+
+#### Returns
+
+[`WebXRControllerComponent`](WebXRControllerComponent.md)
+
+the component correlates to the id or undefined if not found
+
+#### Inherited from
+
+[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md).[`getComponent`](WebXRAbstractMotionController.md#getcomponent)
+
+***
+
+### getComponentIds()
+
+> **getComponentIds**(): `string`[]
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:360](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L360)
+
+Get the list of components available in this motion controller
+
+#### Returns
+
+`string`[]
+
+an array of strings correlating to available components
+
+#### Inherited from
+
+[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md).[`getComponentIds`](WebXRAbstractMotionController.md#getcomponentids)
+
+***
+
+### getComponentOfType()
+
+> **getComponentOfType**(`type`): [`Nullable`](../type-aliases/Nullable.md)\<[`WebXRControllerComponent`](WebXRControllerComponent.md)\>
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:369](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L369)
+
+Get the first component of specific type
+
+#### Parameters
+
+##### type
+
+[`MotionControllerComponentType`](../type-aliases/MotionControllerComponentType.md)
+
+type of component to find
+
+#### Returns
+
+[`Nullable`](../type-aliases/Nullable.md)\<[`WebXRControllerComponent`](WebXRControllerComponent.md)\>
+
+a controller component or null if not found
+
+#### Inherited from
+
+[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md).[`getComponentOfType`](WebXRAbstractMotionController.md#getcomponentoftype)
+
+***
+
+### getMainComponent()
+
+> **getMainComponent**(): [`WebXRControllerComponent`](WebXRControllerComponent.md)
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:377](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L377)
+
+Get the main (Select) component of this controller as defined in the layout
+
+#### Returns
+
+[`WebXRControllerComponent`](WebXRControllerComponent.md)
+
+the main component of this controller
+
+#### Inherited from
+
+[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md).[`getMainComponent`](WebXRAbstractMotionController.md#getmaincomponent)
+
+***
+
+### loadModel()
+
+> **loadModel**(): `Promise`\<`boolean`\>
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:387](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L387)
+
+Loads the model correlating to this controller
+When the mesh is loaded, the onModelLoadedObservable will be triggered
+
+#### Returns
+
+`Promise`\<`boolean`\>
+
+A promise fulfilled with the result of the model loading
+
+#### Inherited from
+
+[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md).[`loadModel`](WebXRAbstractMotionController.md#loadmodel)
+
+***
+
+### pulse()
+
+> **pulse**(`value`, `duration`, `hapticActuatorIndex?`): `Promise`\<`boolean`\>
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:476](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L476)
+
+Pulse (vibrate) this controller
+If the controller does not support pulses, this function will fail silently and return Promise<false> directly after called
+Consecutive calls to this function will cancel the last pulse call
+
+#### Parameters
+
+##### value
+
+`number`
+
+the strength of the pulse in 0.0...1.0 range
+
+##### duration
+
+`number`
+
+Duration of the pulse in milliseconds
+
+##### hapticActuatorIndex?
+
+`number` = `0`
+
+optional index of actuator (will usually be 0)
+
+#### Returns
+
+`Promise`\<`boolean`\>
+
+a promise that will send true when the pulse has ended and false if the device doesn't support pulse or an error accrued
+
+#### Inherited from
+
+[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md).[`pulse`](WebXRAbstractMotionController.md#pulse)
+
+***
+
+### updateFromXRFrame()
+
+> **updateFromXRFrame**(`xrFrame`): `void`
+
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:451](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L451)
+
+Update this model using the current XRFrame
+
+#### Parameters
+
+##### xrFrame
+
+`XRFrame`
+
+the current xr frame to use and update the model
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md).[`updateFromXRFrame`](WebXRAbstractMotionController.md#updatefromxrframe)

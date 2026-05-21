@@ -5,7 +5,6 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 
 MCP_NAME="babylonjs-docs"
-DOCS_DIR="$PROJECT_DIR/docs-for-mcp"
 
 BOLD='\033[1m'
 GREEN='\033[0;32m'
@@ -32,22 +31,6 @@ Examples:
   $(basename "$0") claude       # install only Claude Code
   $(basename "$0") claude kilo  # install Claude Code + Kilo Code
 EOF
-}
-
-ensure_docs() {
-  if [ ! -d "$DOCS_DIR" ]; then
-    info "docs-for-mcp/ not found. Generating documentation..."
-    bash "$SCRIPT_DIR/generate-docs-for-mcp.sh"
-  else
-    local count
-    count=$(find "$DOCS_DIR" -name "*.md" | wc -l)
-    if [ "$count" -lt 10 ]; then
-      info "docs-for-mcp/ seems incomplete ($count files). Regenerating..."
-      bash "$SCRIPT_DIR/generate-docs-for-mcp.sh"
-    else
-      ok "docs-for-mcp/ ready ($count markdown files)"
-    fi
-  fi
 }
 
 add_mcp_claude() {
@@ -208,9 +191,6 @@ else
 fi
 
 echo -e "${BOLD}Setting up AI coding tools in devcontainer${NC}"
-echo ""
-
-ensure_docs
 echo ""
 
 for tool in "${TOOLS[@]}"; do

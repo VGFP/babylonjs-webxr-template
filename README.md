@@ -58,13 +58,13 @@ On first visit, browsers will show a certificate warning — accept it to procee
 
 | Command | Description |
 |---|---|
-| `make setup-ai` | Install AI coding tools + generate docs + configure MCP |
-| `make generate-docs` | Generate BabylonJS docs for MCP (offline) |
+| `make setup-ai` | Install AI coding tools + configure MCP |
+| `make generate-docs` | Regenerate BabylonJS docs from source (for updates) |
 | `make help` | List all available Makefile targets |
 
 ## AI Coding Tools
 
-The `make setup-ai` command installs CLI AI coding assistants and configures a local BabylonJS documentation MCP server for offline API reference and guides.
+The `make setup-ai` command installs CLI AI coding assistants and configures the BabylonJS Docs MCP server. The docs are included in the repo in `docs-for-mcp/` — no generation step needed.
 
 Supported tools:
 - **Claude Code** — `@anthropic-ai/claude-code` (creates `.mcp.json`)
@@ -92,13 +92,13 @@ The local MCP server (`mcp/server.mjs`) exposes three tools for searching and re
 | `read_doc` | Read a specific documentation file by path |
 | `list_docs` | Browse the documentation directory structure |
 
-The docs are generated from two sources:
+### Regenerating / Updating Docs
+
+The docs in `docs-for-mcp/` were generated from two sources:
 - **API reference** — TypeDoc output from the BabylonJS TypeScript source (`babylonjs-source/`)
 - **Guides & examples** — Markdown content from the BabylonJS Documentation repo (`babylonjs-docs/`)
 
-Both repos are cloned and processed by the generation script.
-
-### Generating / Updating Docs
+To regenerate (e.g. after a BabylonJS version bump):
 
 ```bash
 # Full pipeline: clone repos + generate docs
@@ -110,14 +110,7 @@ bash scripts/generate-docs-for-mcp.sh
 make generate-docs
 ```
 
-This creates `docs-for-mcp/` with ~3,400 markdown files (~2,700 API + ~650 guides).
-
-### How It Works
-
-1. `scripts/clone-babylonjs-source.sh` — Clones `BabylonJS/Babylon.js` at the version in `package.json`
-2. `scripts/clone-babylonjs-docs.sh` — Clones the BabylonJS Documentation repo to `babylonjs-docs/`
-3. `scripts/generate-docs-for-mcp.sh` — Runs TypeDoc with `typedoc-plugin-markdown`, copies guides from `babylonjs-docs/`, outputs to `docs-for-mcp/`
-3. `mcp/server.mjs` — Stdio MCP server that indexes all markdown on startup and serves search/read/list tools
+This regenerates `docs-for-mcp/` with ~3,400 markdown files (~2,700 API + ~650 guides). Commit the updated docs after regeneration.
 
 ### Configuring for Other AI Tools
 
@@ -147,9 +140,7 @@ Set `BABYLONJS_DOCS_ROOT` env var if the docs directory is not at `./docs-for-mc
 ```
 ├── .certs/               # Local HTTPS certs (gitignored, auto-generated)
 ├── .devcontainer/        # Devcontainer config (Dockerfile + features)
-├── babylonjs-source/     # BabylonJS monorepo clone (gitignored)
-├── babylonjs-docs/       # BabylonJS Documentation repo clone (gitignored)
-├── docs-for-mcp/         # Generated markdown docs (gitignored)
+├── docs-for-mcp/         # BabylonJS docs for MCP server
 │   ├── api/              # TypeDoc-generated API reference
 │   └── examples/         # Guides and tutorials
 ├── mcp/
@@ -162,6 +153,7 @@ Set `BABYLONJS_DOCS_ROOT` env var if the docs directory is not at `./docs-for-mc
 │   ├── generate-cert.sh  # Self-signed cert generator
 │   ├── generate-icons.cjs
 │   ├── clone-babylonjs-source.sh  # Clone BabylonJS source repo
+│   ├── clone-babylonjs-docs.sh    # Clone BabylonJS docs repo
 │   ├── generate-docs-for-mcp.sh   # Generate markdown docs
 │   └── setup-ai-tools.sh          # AI tools installer + MCP config
 ├── src/

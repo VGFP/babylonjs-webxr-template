@@ -1,0 +1,24 @@
+babylon-mcp
+Copyright (c) 2026
+
+This product includes content derived from the following third-party
+open-source projects, each licensed under the Apache License, Version 2.0.
+
+-----------------------------------------------------------------------
+BabylonJS / Babylon.js
+  Source:    https://github.com/BabylonJS/Babylon.js
+  License:   Apache License 2.0 (https://github.com/BabylonJS/Babylon.js/blob/master/license.md)
+  Copyright: Microsoft Corporation and the Babylon.js contributors
+
+BabylonJS / Documentation
+  Source:    https://github.com/BabylonJS/Documentation
+  License:   Apache License 2.0
+  Copyright: Microsoft Corporation and the Babylon.js contributors
+-----------------------------------------------------------------------
+
+You may obtain a copy of the Apache License 2.0 at:
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under these licenses is provided on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
