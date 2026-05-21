@@ -1,0 +1,267 @@
+---
+title: Gaussian Splatting
+image:
+description: Learn how use Gaussian Splatting.
+keywords: diving deeper, meshes, gaussian, splatting, nerf
+further-reading:
+video-overview:
+video-content:
+---
+
+## What is Gaussian Splatting?
+
+Gaussian Splatting is a volume rendering method. It's useful to capture real-life data. The difference with other technics like photogrammetry is the end result consists in a point cloud with each point rendered as a semi transparent ellipsoid projected onto a billboard. Gaussian Splatting is more suitable for rendering reflective and transparent surfaces.
+
+## Supported formats
+
+Supported formats are :
+
+- .PLY https://en.wikipedia.org/wiki/PLY_(file_format)
+- .splat that is Javascript types serialized version of .PLY datas
+- Niantic Labs .spz format https://scaniverse.com/news/spz-gaussian-splat-open-source-file-format
+- .SOG/SOGS Self-Organizing Gaussian https://github.com/fraunhoferhhi/Self-Organizing-Gaussians
+
+**Note: Triangular meshes stored in .PLY are also supported and used by Triangular Splatting**
+
+The .SPZ file import supports the flipY option to handle vertically flipped file outputs. This option is also available with the `updateData` method but not with other formats.
+
+```javascript
+const pit = await BABYLON.ImportMeshAsync("https://assets.babylonjs.com/splats/hornedlizard.spz", scene, {pluginOptions:{splat:{flipY:true}}})
+```
+
+## Triangular Splatting
+
+Triangular splatting produces opaque geometry that can be used like a regular mesh. By default, triangulated geometry is lit. To Make the TriSplat mesh to be rendered correctly, it must use only the vertex color. Apply the following material to get the expected rendering:
+
+```javascript
+const material = new BABYLON.StandardMaterial("unlitVertexColorMat", scene);
+material.disableLighting = true;              
+material.emissiveColor = new BABYLON.Color3(1, 1, 1);
+material.diffuseColor = new BABYLON.Color3(1, 1, 1);
+material.backFaceCulling = false;
+plyTriangularSplatmesh.material = material;
+```
+
+## Loading a Gaussian Splatting
+
+Load asynchronously the splat or PLY file like any other supported file format:
+
+```javascript
+BABYLON.ImportMeshAsync("https://assets.babylonjs.com/splats/gs_Skull.splat", scene).then((result) =>{
+    const gaussianSplattingMesh = result.meshes[0]; });
+```
+
+**Note: Gaussian splatting files do not have a standard on handness or orientation. No space change operation will happen. Some scene might appear updside down or mirrored.**
+
+<Playground id="#M05L0C#0" title="Nianticlabs .SPZ examples need a rotation." description="Nianticlabs .SPZ examples up is not the same as Babylon.js default."/>
+
+## Updating datas of a Gaussian Splatting
+
+User can update or generate new Splats with the `updateData`method.
+Mandatory values are splat center position, size, orientation and color.
+The following example updates the Gaussian Splatting with 1 single splat.
+
+```javascript
+var gs = new BABYLON.GaussianSplattingMesh("GS", undefined, scene, true);
+
+// size of a single splat, in bytes
+const rowLength = 32;
+
+// chunck size of splats
+const splatCount = 1;
+
+const uBuffer = new Uint8Array(splatCount * rowLength);
+const fBuffer = new Float32Array(uBuffer.buffer);
+
+// center position
+fBuffer[0] = 0; // x
+fBuffer[1] = 0; // y
+fBuffer[2] = 0; // z
+
+// size
+fBuffer[3 + 0] = 0.1;
+fBuffer[3 + 1] = 0.1;
+fBuffer[3 + 2] = 0.1;
+
+// orientation quaternion. Values are remapped from -1..1 to 0..255. 128 is 0. 255 is 1
+uBuffer[28 + 1] = 128; 
+uBuffer[28 + 2] = 128;
+uBuffer[28 + 3] = 128;
+uBuffer[28 + 0] = 255;
+
+// color
+uBuffer[24 + 0] = 128;
+uBuffer[24 + 1] = 128;
+uBuffer[24 + 2] = 128;
+uBuffer[24 + 3] = 255;
+gs.updateData(uBuffer);
+```
+
+## Updating and downloading datas of a Gaussian Splatting
+
+An access to the kept in memory splats data allows to modify loaded splats and download it after.
+A simple call to `updateData` will show the change.
+
+```javascript
+function modifyMesh(gs) {
+    // Get GS data
+    const arrayBuffer = gs.splatsData;
+    // Make a float32 access. A splat is 32bytes (8floats)
+    var positions = new Float32Array(arrayBuffer);
+    // Do a change to the first 30000 splats
+    for (let i = 0; i < 30000; i++) {
+        // Translate splats a little. GS shown here is upside down
+        positions[i * 8 + 1] -= 2.0;
+    }
+    // Make that change visible
+    gs.updateData(arrayBuffer, undefined, { flipY: false });
+    // Create a blob with array buffer and download it. It can be used directly with the sandbox
+    const blob = new Blob([arrayBuffer], { type: 'application/octet-stream' });
+    BABYLON.Tools.DownloadBlob(blob, "newGSplat.splat");
+}
+```
+
+<Playground id="#CID4NN#203" title="Simple Example of Gaussian Splatting" description="Simple example of setting a Gaussian Splatting."/>
+
+<Playground id="#45KYTJ#123" title="Loading and displaying different Gaussian Splatting scenes" description="Loading and displaying different Gaussian Splatting scenes."/>
+
+<Playground id="#EILZ5L#27" title="10000 splats updated" description="Creating and updating a Gaussian Splatting made of 10000 individual splats"/>
+
+<Playground id="#RKKCHG#15" title="Download and modify a GS" description="Download a Gaussian Splatting and modify a bunch splats. Then, downloads it."/>
+
+<Playground id="#QA2662#12" title="SOG Gaussian splats" description="SOG Gaussian splats with Spherical Harmonics."/>
+
+## Shadows
+
+Gaussian splatting supports shadow casting. Because they are rendered using alpha blending, the shadow generator needs to have transparency shadow enabled:
+
+```javascript
+var shadowGenerator = new BABYLON.ShadowGenerator(1024, light);
+light.shadowMaxZ = 10;
+light.shadowMinZ = 1;
+shadowGenerator.useContactHardeningShadow = true;
+shadowGenerator.setDarkness(0.2);
+shadowGenerator.setTransparencyShadow(true); // This call is necessary to render GS
+```
+
+<Playground id="#OE54M5#15" title="Spotlight shadow" description="Gaussian Splatting cast shadows from a spotlight light source."/>
+
+## Parts and Scene construction
+
+It is possible to combine multiple Gaussian Splatting assets into a single scene while maintaining a global splat sorting order.
+
+To enable this workflow:
+
+- Create an empty Gaussian Splatting container :
+    Initialize an empty Gaussian Splatting object that will act as the root container for the scene.
+- Populate the container :
+    Add content to this container, either procedurally generated or loaded from external assets.
+- Add parts to the main mesh :
+    Each Gaussian Splatting component is attached to the main mesh using the addPart method.
+
+The addPart method returns a mesh instance, which can then be independently transformed or otherwise manipulated (e.g., positioning, scaling, animation) while still participating in the global splat sorting.
+
+**Note: User is responsible to check the maximum part count that can be displayed but a Gaussian Splatting.**
+
+```javascript
+const maxPartCount = BABYLON.GetGaussianSplattingMaxPartCount(scene.getEngine());
+```
+
+<Playground id="#PUWLG4#0" title="Manipulate Splats" description="Two Gaussian Splatting elements in a single scene."/>
+
+Each part can have an independent visibility value through the `visibility` property, which influences each individual splat. This means the overall transparency of the Gaussian Splatting is greatly influenced by splat density and overdraw. A visibility of 0.1 may leave the Gaussian Splatting almost opaque if enough splats share the same pixel.
+
+Added parts can be removed by index using the `removePart` method.
+
+<Playground id="#BTS11N#0" title="Parts visibility and suppression" description="Add parts, change their visibility and remove one of them."/>
+
+## Picking
+
+Gaussian Splatting does not have triangle geometry, so standard ray-based picking falls back to bounding volume intersection. For accurate picking, Gaussian Splatting uses GPU picking. Individual parts added with `addPart` return proxy meshes that can be included in the `GPUPicker` picking list. This allows each part to be selected and manipulated independently.
+
+```javascript
+const gpuPicker = new BABYLON.GPUPicker();
+gpuPicker.setPickingList([part1, part2, otherMeshes]);
+
+scene.onPointerDown = async (evt) => {
+    const pickResult = await gpuPicker.pickAsync(evt.offsetX, evt.offsetY);
+    if (pickResult) {
+        console.log("Picked:", pickResult.mesh.name);
+    }
+};
+```
+
+<Playground id="#3LNCE6#36" title="Picking Gaussian Splatting Parts" description="GPU picking with individual Gaussian Splatting parts and gizmo manipulation."/>
+
+## Material Plugin
+
+`GaussianSplattingMaterial` supports the Babylon.js material plugin system via `MaterialPluginBase`. However, there are some important differences compared to standard material plugins.
+
+The following example can be used as a reference for a custom fragment shader extension:
+
+```javascript
+class GSPlugin extends BABYLON.MaterialPluginBase {
+    constructor(material) {
+        super(material, 'GSPlugin', 200);
+
+        this._enable(true);
+        this._material.onCompiled = (effect) => console.log(effect.fragmentSourceCode);
+    }
+
+    getCustomCode(shaderType) {
+        if (shaderType === 'fragment') {
+            return {
+                CUSTOM_FRAGMENT_MAIN_END: `gl_FragColor = vec4(opacity, 0.0, 0.0, 0.05);`,
+                CUSTOM_FRAGMENT_DEFINITIONS: `uniform float opacity;`
+            };
+        }
+        return null;
+    }
+
+    getClassName() {
+        return 'GSPlugin';
+    }
+
+
+    getUniforms() {
+        return {
+            externalUniforms: ['opacity'],
+        };
+    }
+
+    bindForSubMesh(uniformBuffer, scene, engine, subMesh) {
+        const effect = subMesh.effect;
+        if (!effect) {
+            return;
+        }
+        effect.setFloat('opacity', 1.);
+    }
+}
+
+var gsMat = new BABYLON.GaussianSplattingMaterial('GSMat', scene);
+new GsPlugin(gsMat);
+gs.material = gsMat;
+gsMat.setSourceMesh(gs);
+```
+
+Other fragment preprocessors are : 
+ 
+- CUSTOM_FRAGMENT_DEFINITIONS
+- CUSTOM_FRAGMENT_MAIN_BEGIN
+- CUSTOM_FRAGMENT_BEFORE_FRAGCOLOR
+- CUSTOM_FRAGMENT_MAIN_END
+
+Vertex preprocessors are:
+
+- CUSTOM_VERTEX_DEFINITIONS
+- CUSTOM_VERTEX_MAIN_BEGIN
+- CUSTOM_VERTEX_UPDATE
+- CUSTOM_VERTEX_MAIN_END
+
+<Playground id="#CQH0FN#9" title="Gaussian Splatting Material Plugin" description="Demonstrates a working material plugin on a GaussianSplattingMaterial and how custom uniforms differ from standard materials."/>
+
+## File format conversion
+
+SplatTransform is a CLI tool for converting and editing Gaussian splats: https://github.com/playcanvas/splat-transform
+
+Check the project page for features and file import/export formats.
