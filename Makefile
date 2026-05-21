@@ -7,7 +7,7 @@ help: ## Show this help
 # ---------------------------------------------------------------------------
 # AI coding tools – Claude Code / OpenCode / Kilo Code + BabylonJS MCP
 # ---------------------------------------------------------------------------
-setup-ai: ## Install AI coding tools (args: all|claude|opencode|kilo) with BabylonJS Docs MCP
+setup-ai: ## Install AI coding tools (args: all|claude|opencode|kilo) and configure MCP
 	@bash scripts/setup-ai-tools.sh $(filter-out $@,$(MAKECMDGOALS))
 
 # allow arbitrary args to pass through to the script
@@ -19,9 +19,9 @@ ifeq ($(filter setup-ai,$(MAKECMDGOALS)),setup-ai)
 endif
 
 # ---------------------------------------------------------------------------
-# Documentation generation
+# Documentation regeneration (docs are tracked in git; run this to update)
 # ---------------------------------------------------------------------------
-generate-docs: ## Generate BabylonJS docs for MCP (clones repos if needed)
+generate-docs: ## Regenerate BabylonJS docs from source (clones repos if needed)
 	@bash scripts/clone-babylonjs-source.sh
 	@bash scripts/clone-babylonjs-docs.sh
 	@bash scripts/generate-docs-for-mcp.sh
