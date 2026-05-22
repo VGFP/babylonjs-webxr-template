@@ -5,6 +5,8 @@ on:
     workflows: ["Deploy to Pages"]
     types: [completed]
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
     inputs:
       pages_url:
@@ -15,6 +17,7 @@ jobs:
   build-apk:
     runs-on: ubuntu-latest
     if: >
+      github.event_name == 'pull_request' ||
       github.event_name == 'workflow_dispatch' ||
       github.event.workflow_run.conclusion == 'success'
 
@@ -26,8 +29,10 @@ jobs:
         run: |
           if [ -n "${{ github.event.inputs.pages_url }}" ]; then
             echo "url=${{ github.event.inputs.pages_url }}" >> $GITHUB_OUTPUT
-          else
+          elif [ -n "${{ secrets.PAGES_URL }}" ]; then
             echo "url=${{ secrets.PAGES_URL }}" >> $GITHUB_OUTPUT
+          else
+            echo "url=https://vgfp.github.io/babylonjs-webxr-template/" >> $GITHUB_OUTPUT
           fi
 
       - name: Setup Java
@@ -86,7 +91,6 @@ jobs:
             echo "signing_mode=debug"           >> $GITHUB_OUTPUT
           fi
 
-      # Bug 1 fix — create directory before setting it as working-directory
       - name: Create build directory
         run: mkdir -p /tmp/pwa-build
 
@@ -109,7 +113,6 @@ jobs:
             cp twa-manifest.json "$GITHUB_WORKSPACE/twa-manifest.json"
           fi
 
-      # Bug 3 fix — glob pattern for hashFiles
       - name: Upload twa-manifest.json artifact (first run only)
         if: ${{ !hashFiles('**/twa-manifest.json') }}
         uses: actions/upload-artifact@v4
@@ -117,7 +120,6 @@ jobs:
           name: twa-manifest
           path: ${{ github.workspace }}/twa-manifest.json
 
-      # Bug 2 fix — fallback via shell ${VAR:-default} instead of || in env
       - name: Build APK
         working-directory: /tmp/pwa-build
         env:
