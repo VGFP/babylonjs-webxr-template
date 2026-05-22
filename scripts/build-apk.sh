@@ -83,30 +83,6 @@ if [ "$DO_SETUP" = true ]; then
   bash "$SCRIPT_DIR/setup-android-tools.sh"
 fi
 
-BUILD_DIR=$(mktemp -d "${TMPDIR:-/tmp}/pwa-build.XXXXXX")
-trap 'rm -rf "$BUILD_DIR"' EXIT
-
-if [ -z "$KEYSTORE_PATH" ]; then
-  warn "No keystore provided — generating a debug keystore."
-  KEYSTORE_PATH="${HOME}/.local/share/babylonxr/debug.keystore"
-  if [ ! -f "$KEYSTORE_PATH" ]; then
-    mkdir -p "$(dirname "$KEYSTORE_PATH")"
-    keytool -genkeypair \
-      -keystore  "$KEYSTORE_PATH" \
-      -alias     "$KEY_ALIAS" \
-      -keyalg    RSA \
-      -keysize   2048 \
-      -validity  10000 \
-      -storepass "$STORE_PASSWORD" \
-      -keypass   "$KEY_PASSWORD" \
-      -dname     "CN=Debug, OU=Debug, O=Debug, L=Debug, ST=Debug, C=US" \
-      -noprompt
-    log "Debug keystore created at $KEYSTORE_PATH"
-  else
-    log "Reusing existing debug keystore at $KEYSTORE_PATH"
-  fi
-fi
-
 for cmd in java keytool bubblewrap; do
   if ! command -v "$cmd" &>/dev/null; then
     err "'$cmd' not found. Run:  bash scripts/setup-android-tools.sh"
@@ -132,6 +108,30 @@ if [ -z "${ANDROID_SDK_ROOT:-}" ]; then
   fi
 fi
 
+BUILD_DIR=$(mktemp -d "${TMPDIR:-/tmp}/pwa-build.XXXXXX")
+trap 'rm -rf "$BUILD_DIR"' EXIT
+
+if [ -z "$KEYSTORE_PATH" ]; then
+  warn "No keystore provided — generating a debug keystore."
+  KEYSTORE_PATH="${HOME}/.local/share/babylonxr/debug.keystore"
+  if [ ! -f "$KEYSTORE_PATH" ]; then
+    mkdir -p "$(dirname "$KEYSTORE_PATH")"
+    keytool -genkeypair \
+      -keystore  "$KEYSTORE_PATH" \
+      -alias     "$KEY_ALIAS" \
+      -keyalg    RSA \
+      -keysize   2048 \
+      -validity  10000 \
+      -storepass "$STORE_PASSWORD" \
+      -keypass   "$KEY_PASSWORD" \
+      -dname     "CN=Debug, OU=Debug, O=Debug, L=Debug, ST=Debug, C=US" \
+      -noprompt
+    log "Debug keystore created at $KEYSTORE_PATH"
+  else
+    log "Reusing existing debug keystore at $KEYSTORE_PATH"
+  fi
+fi
+
 MANIFEST_SRC="${MANIFEST_URL:-}"
 HOST=""
 START_URL="/"
@@ -152,9 +152,9 @@ SHORT_NAME=$(node -e "const m=JSON.parse(require('fs').readFileSync('$MANIFEST_F
 PKG_NAME=$(node -e "const m=JSON.parse(require('fs').readFileSync('$MANIFEST_FILE','utf8')); process.stdout.write(m.ovr_package_name || 'com.devlocal.babylonxr')")
 
 if [ -z "$HOST" ]; then
-  warn "No --manifest URL provided. Using placeholder host vgfp.github.io"
+  warn "No --manifest URL provided. Using placeholder host example.com"
   warn "Set --manifest to your deployed PWA URL for production builds."
-  HOST="vgfp.github.io"
+  HOST="example.com"
   START_URL="/"
 fi
 
@@ -226,6 +226,11 @@ TWAEOF
 fi
 
 log "Building APK ..."
+log "Updating bubblewrap config (jdkPath=$JAVA_HOME, androidSdkPath=$ANDROID_SDK_ROOT) ..."
+mkdir -p "${HOME}/.bubblewrap"
+printf '{"jdkPath":"%s","androidSdkPath":"%s"}\n' "$JAVA_HOME" "$ANDROID_SDK_ROOT" \
+  > "${HOME}/.bubblewrap/config.json"
+
 bubblewrap build \
   --skipPwaValidation \
   --signingKeyPath="$KEYSTORE_PATH" \
