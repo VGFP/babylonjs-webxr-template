@@ -89,27 +89,78 @@ trap 'rm -rf "$BUILD_DIR"' EXIT
 if [ -z "$KEYSTORE_PATH" ]; then
   warn "No keystore provided — generating a debug keystore."
   KEYSTORE_PATH="${HOME}/.local/share/babylonxr/debug.keystore"
-  mkdir -p "$(dirname "$KEYSTORE_PATH")"
-  keytool -genkeypair \
-    -keystore  "$KEYSTORE_PATH" \
-    -alias     "$KEY_ALIAS" \
-    -keyalg    RSA \
-    -keysize   2048 \
-    -validity  10000 \
-    -storepass "$STORE_PASSWORD" \
-    -keypass   "$KEY_PASSWORD" \
-    -dname     "CN=Debug, OU=Debug, O=Debug, L=Debug, ST=Debug, C=US" \
-    -noprompt
-  log "Debug keystore created at $KEYSTORE_PATH"
+  if [ ! -f "$KEYSTORE_PATH" ]; then
+    mkdir -p "$(dirname "$KEYSTORE_PATH")"
+    keytool -genkeypair \
+      -keystore  "$KEYSTORE_PATH" \
+      -alias     "$KEY_ALIAS" \
+      -keyalg    RSA \
+      -keysize   2048 \
+      -validity  10000 \
+      -storepass "$STORE_PASSWORD" \
+      -keypass   "$KEY_PASSWORD" \
+      -dname     "CN=Debug, OU=Debug, O=Debug, L=Debug, ST=Debug, C=US" \
+      -noprompt
+    log "Debug keystore created at $KEYSTORE_PATH"
+  else
+    log "Reusing existing debug keystore at $KEYSTORE_PATH"
+  fi
+fi
+
+for cmd in java keytool bubblewrap; do
+  if ! command -v "$cmd" &>/dev/null; then
+    err "'$cmd' not found. Run:  bash scripts/setup-android-tools.sh"
+    exit 1
+  fi
+done
+
+if [ -z "${JAVA_HOME:-}" ]; then
+  export JAVA_HOME
+  JAVA_HOME="$(dirname "$(dirname "$(readlink -f "$(which java)")")")"
+fi
+
+if [ -z "${ANDROID_SDK_ROOT:-}" ]; then
+  BW_CONFIG="${HOME}/.bubblewrap/config.json"
+  if [ -f "$BW_CONFIG" ]; then
+    ANDROID_SDK_ROOT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('$BW_CONFIG','utf8')).androidSdkPath)")
+    export ANDROID_SDK_ROOT
+  elif [ -d "${HOME}/Android/Sdk" ]; then
+    export ANDROID_SDK_ROOT="${HOME}/Android/Sdk"
+  else
+    err "ANDROID_SDK_ROOT not set and no Android SDK found. Run: bash scripts/setup-android-tools.sh"
+    exit 1
+  fi
 fi
 
 MANIFEST_SRC="${MANIFEST_URL:-}"
-if [ -z "$MANIFEST_SRC" ]; then
-  MANIFEST_SRC="https://raw.githubusercontent.com/VGFP/babylonjs-webxr-template/refs/heads/feat/generate-apk-ci/public/manifest.webmanifest"
-  log "Using default manifest URL"
+HOST=""
+START_URL="/"
+
+if [ -n "$MANIFEST_SRC" ]; then
+  HOST=$(echo "$MANIFEST_SRC" | sed -E 's|https?://([^/]+).*|\1|')
+  START_URL="/"
 fi
 
-info "Manifest:  $MANIFEST_SRC"
+MANIFEST_FILE="${PROJECT_ROOT}/public/manifest.webmanifest"
+if [ ! -f "$MANIFEST_FILE" ]; then
+  err "No manifest found at $MANIFEST_FILE. Create one or pass --manifest URL."
+  exit 1
+fi
+
+APP_NAME=$(node -e "const m=JSON.parse(require('fs').readFileSync('$MANIFEST_FILE','utf8')); process.stdout.write(m.name || 'BabylonJS WebXR')")
+SHORT_NAME=$(node -e "const m=JSON.parse(require('fs').readFileSync('$MANIFEST_FILE','utf8')); process.stdout.write(m.short_name || 'BabylonXR')")
+PKG_NAME=$(node -e "const m=JSON.parse(require('fs').readFileSync('$MANIFEST_FILE','utf8')); process.stdout.write(m.ovr_package_name || 'com.devlocal.babylonxr')")
+
+if [ -z "$HOST" ]; then
+  warn "No --manifest URL provided. Using placeholder host vgfp.github.io"
+  warn "Set --manifest to your deployed PWA URL for production builds."
+  HOST="vgfp.github.io"
+  START_URL="/"
+fi
+
+info "Host:      $HOST"
+info "App:       $APP_NAME"
+info "Package:   $PKG_NAME"
 info "Keystore:  $KEYSTORE_PATH"
 info "Key alias: $KEY_ALIAS"
 info "Output:    $OUTPUT_DIR"
@@ -121,33 +172,54 @@ if [ -f "${PROJECT_ROOT}/twa-manifest.json" ]; then
   cd "$BUILD_DIR"
   bubblewrap update --skipPwaValidation
 else
-  log "Running bubblewrap init ..."
+  log "Generating twa-manifest.json ..."
   cd "$BUILD_DIR"
 
-  PWA_FLAG=""
-  if [ "$SKIP_PWA_VALIDATION" = true ]; then
-    PWA_FLAG="--skipPwaValidation"
-  fi
+  KEYSTORE_SHA256=$(keytool -exportcert -keystore "$KEYSTORE_PATH" -alias "$KEY_ALIAS" -storepass "$STORE_PASSWORD" 2>/dev/null | openssl x509 -inform der -outform der 2>/dev/null | openssl dgst -sha256 -binary | openssl base64 | tr -d '\n' || echo "")
 
-  bubblewrap init \
-    --manifest="$MANIFEST_SRC" \
-    --directory=. \
-    --metaquest \
-    --signingKeyPath="$KEYSTORE_PATH" \
-    --signingKeyAlias="$KEY_ALIAS" \
-    $PWA_FLAG \
-    --appName="BabylonJS WebXR" \
-    --appVersionName="$APP_VERSION" \
-    --appVersionCode="$APP_VERSION_CODE" \
-    --backgroundColor="#000000" \
-    --themeColor="#4B0082" \
-    --navigationColor="#000000" \
-    --navigationColorDark="#000000" \
-    --navigationDividerColor="#000000" \
-    --navigationDividerColorDark="#000000" \
-    --enableNotifications=false \
-    --startUrl="/" \
-    --splashScreenFadeOutDuration=0
+  cat > twa-manifest.json <<TWAEOF
+{
+  "packageId": "$PKG_NAME",
+  "host": "$HOST",
+  "name": "$APP_NAME",
+  "launcherName": "$SHORT_NAME",
+  "display": "fullscreen",
+  "themeColor": "#4B0082",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#000000",
+  "enableNotifications": false,
+  "startUrl": "$START_URL",
+  "iconUrl": "https://$HOST/icons/icon-512.png",
+  "splashScreenFadeOutDuration": 0,
+  "signingKey": {
+    "path": "$KEYSTORE_PATH",
+    "alias": "$KEY_ALIAS"
+  },
+  "appVersionName": "$APP_VERSION",
+  "appVersionCode": $APP_VERSION_CODE,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://$HOST/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "shareTarget": {},
+  "orientation": "landscape",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBubbles": [],
+  "metaquest": true
+}
+TWAEOF
+
+  if [ -n "$KEYSTORE_SHA256" ]; then
+    log "Signing key SHA256: $KEYSTORE_SHA256"
+  fi
 
   cp twa-manifest.json "${PROJECT_ROOT}/twa-manifest.json"
   log "Saved twa-manifest.json to project root"

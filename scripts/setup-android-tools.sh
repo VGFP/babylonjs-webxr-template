@@ -10,13 +10,6 @@ log()  { echo -e "${GREEN}[setup]${NC} $*"; }
 warn() { echo -e "${YELLOW}[setup]${NC} WARNING: $*" >&2; }
 err()  { echo -e "${RED}[setup]${NC} ERROR: $*" >&2; }
 
-require_cmd() {
-  if ! command -v "$1" &>/dev/null; then
-    err "$1 is not installed. Please install it first."
-    exit 1
-  fi
-}
-
 check_java() {
   if command -v java &>/dev/null; then
     local ver
@@ -45,7 +38,10 @@ check_java() {
     exit 1
   fi
 
-  export JAVA_HOME="${JAVA_HOME:-$(dirname "$(dirname "$(readlink -f "$(which java)")")")"}"
+  export JAVA_HOME
+  local _java
+  _java=$(readlink -f "$(which java)")
+  JAVA_HOME=$(dirname "$(dirname "$_java")")
   log "Java $(java -version 2>&1 | head -1) — installed"
 }
 
@@ -108,24 +104,22 @@ check_bubblewrap() {
 
 seed_bubblewrap_config() {
   mkdir -p "${HOME}/.bubblewrap"
-  local jdk_path="${JAVA_HOME:-$(dirname "$(dirname "$(readlink -f "$(which java)")")")"}"
+  local _java
+  _java=$(readlink -f "$(which java)")
+  local jdk_path="${JAVA_HOME:-$(dirname "$(dirname "$_java")")}"
   local sdk_path="${ANDROID_SDK_ROOT:-${HOME}/Android/Sdk}"
   printf '{"jdkPath":"%s","androidSdkPath":"%s"}\n' "$jdk_path" "$sdk_path" \
     > "${HOME}/.bubblewrap/config.json"
   log "Bubblewrap config seeded at ~/.bubblewrap/config.json"
 }
 
-main() {
-  log "Checking prerequisites for Meta Quest APK build ..."
-  check_java
-  check_android_sdk
-  check_node
-  check_bubblewrap
-  seed_bubblewrap_config
-  log "All prerequisites satisfied."
-  echo ""
-  echo "  JAVA_HOME=$JAVA_HOME"
-  echo "  ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT"
-}
-
-main "$@"
+log "Checking prerequisites for Meta Quest APK build ..."
+check_java
+check_android_sdk
+check_node
+check_bubblewrap
+seed_bubblewrap_config
+log "All prerequisites satisfied."
+echo ""
+echo "  JAVA_HOME=$JAVA_HOME"
+echo "  ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT"
