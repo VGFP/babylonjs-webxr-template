@@ -11,8 +11,8 @@
   "navigationDividerColorDark": "#000000",
   "backgroundColor": "#000000",
   "enableNotifications": false,
-  "startUrl": "/",
-  "iconUrl": "https://vgfp.github.io/icons/icon-512.png",
+  "startUrl": "/babylonjs-webxr-template/",
+  "iconUrl": "https://vgfp.github.io/babylonjs-webxr-template/icons/icon-512.png",
   "splashScreenFadeOutDuration": 0,
   "signingKey": {
     "path": "/home/node/.local/share/babylonxr/debug.keystore",
@@ -22,7 +22,7 @@
   "appVersionCode": 1,
   "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
-  "webManifestUrl": "https://vgfp.github.io/manifest.webmanifest",
+  "webManifestUrl": "https://vgfp.github.io/babylonjs-webxr-template/manifest.webmanifest",
   "fallbackType": "customtabs",
   "features": {},
   "alphaDependencies": {
