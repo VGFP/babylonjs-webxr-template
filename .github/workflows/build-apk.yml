@@ -104,12 +104,24 @@ jobs:
           else
             echo "::notice::No twa-manifest.json found — running bubblewrap init."
             bubblewrap init \
-              --manifest="${{ steps.pages.outputs.url }}/manifest.webmanifest" \
-              --metaquest \
+              --manifest="https://raw.githubusercontent.com/VGFP/babylonjs-webxr-template/refs/heads/feat/generate-apk-ci/public/manifest.webmanifest?token=GHSAT0AAAAAAD4IN4FTZ72JWLLXGH2N67S22QQZDUQ" \
               --directory=. \
+              --metaquest \
               --signingKeyPath="${{ steps.signing.outputs.keystore_path }}" \
               --signingKeyAlias="${{ steps.signing.outputs.key_alias }}" \
-              --skipPwaValidation
+              --skipPwaValidation \
+              --appName="BabylonJS WebXR" \
+              --appVersionName="1.0.0" \
+              --appVersionCode="1" \
+              --backgroundColor="#000000" \
+              --themeColor="#4B0082" \
+              --navigationColor="#000000" \
+              --navigationColorDark="#000000" \
+              --navigationDividerColor="#000000" \
+              --navigationDividerColorDark="#000000" \
+              --enableNotifications=false \
+              --startUrl="/" \
+              --splashScreenFadeOutDuration=0
             cp twa-manifest.json "$GITHUB_WORKSPACE/twa-manifest.json"
           fi
 
