@@ -135,6 +135,53 @@ node mcp/server.mjs
 
 Set `BABYLONJS_DOCS_ROOT` env var if the docs directory is not at `./docs-for-mcp` relative to the project root.
 
+## Building the Meta Quest APK
+
+The project includes scripts to build a Meta Quest APK from the PWA using [Bubblewrap](https://github.com/nicolo-nicoli/nicolo-nicoli).
+
+### Setup (first time)
+
+```bash
+bash scripts/setup-android-tools.sh
+```
+
+This installs `@bubblewrap/cli`, downloads the Android SDK via `bubblewrap init`, and installs Temurin JDK 17.
+
+### Build
+
+```bash
+# Debug-signed APK (default)
+bash scripts/build-apk.sh
+
+# Production-signed APK
+bash scripts/build-apk.sh \
+  --manifest https://your-pwa-domain.example.com \
+  --keystore /path/to/release.keystore \
+  --key-alias my-key \
+  --store-pass SECRET \
+  --key-pass SECRET
+```
+
+The APK is output to `dist-apk/`. A `twa-manifest.json` is saved to the project root on first build and reused on subsequent runs.
+
+### Options
+
+| Flag | Description | Default |
+|---|---|---|
+| `--manifest URL` | Deployed PWA URL (host for twa-manifest.json) | Placeholder from `manifest.webmanifest` |
+| `--keystore PATH` | Path to `.keystore` file | Auto-generates debug keystore |
+| `--key-alias ALIAS` | Keystore key alias | `androiddebugkey` |
+| `--store-pass PASS` | Keystore store password | `android` |
+| `--key-pass PASS` | Key password | `android` |
+| `--output DIR` | Output directory for APK | `./dist-apk` |
+| `--app-version NAME` | Version name (e.g. `1.0.0`) | `1.0.0` |
+| `--app-version-code N` | Version code | `1` |
+| `--setup` | Run prerequisites setup before building | off |
+
+### CI
+
+The `.github/workflows/build-apk.yml` workflow calls `bash scripts/build-apk.sh` on every push to `main`. Signing keys are read from GitHub Secrets (`KEYSTORE_BASE64`, `KEY_ALIAS`, `KEY_STORE_PASSWORD`, `KEY_PASSWORD`).
+
 ## Project Structure
 
 ```
@@ -150,12 +197,14 @@ Set `BABYLONJS_DOCS_ROOT` env var if the docs directory is not at `./docs-for-mc
 │   ├── manifest.webmanifest
 │   └── sw.js             # Service worker
 ├── scripts/
-│   ├── generate-cert.sh  # Self-signed cert generator
+│   ├── build-apk.sh                # Build Meta Quest APK
+│   ├── setup-android-tools.sh      # Install JDK, Android SDK, Bubblewrap
+│   ├── generate-cert.sh            # Self-signed cert generator
 │   ├── generate-icons.cjs
-│   ├── clone-babylonjs-source.sh  # Clone BabylonJS source repo
-│   ├── clone-babylonjs-docs.sh    # Clone BabylonJS docs repo
-│   ├── generate-docs-for-mcp.sh   # Generate markdown docs
-│   └── setup-ai-tools.sh          # AI tools installer + MCP config
+│   ├── clone-babylonjs-source.sh   # Clone BabylonJS source repo
+│   ├── clone-babylonjs-docs.sh     # Clone BabylonJS docs repo
+│   ├── generate-docs-for-mcp.sh    # Generate markdown docs
+│   └── setup-ai-tools.sh           # AI tools installer + MCP config
 ├── src/
 │   ├── core/             # Engine/scene setup, shared types
 │   ├── lighting/         # Lights and shadow generator

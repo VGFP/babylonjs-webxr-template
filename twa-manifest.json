@@ -1,0 +1,36 @@
+{
+  "packageId": "com.devlocal.babylonxr",
+  "host": "vgfp.github.io",
+  "name": "BabylonJS WebXR",
+  "launcherName": "BabylonXR",
+  "display": "fullscreen",
+  "themeColor": "#4B0082",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#000000",
+  "enableNotifications": false,
+  "startUrl": "/babylonjs-webxr-template/",
+  "iconUrl": "https://example.com/icons/icon-512.png",
+  "splashScreenFadeOutDuration": 0,
+  "signingKey": {
+    "path": "",
+    "alias": "androiddebugkey"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "webManifestUrl": "https://example.com/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "shareTarget": {},
+  "orientation": "landscape",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBubbles": [],
+  "metaquest": true
+}

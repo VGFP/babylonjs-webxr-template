@@ -1,23 +1,48 @@
 {
   "name": "BabylonJS WebXR",
   "short_name": "BabylonXR",
+  "description": "An immersive WebXR experience built with BabylonJS for Meta Quest 3.",
+  "lang": "en",
   "start_url": "/",
-  "display": "standalone",
+  "scope": "/",
+  "display": "fullscreen",
+  "orientation": "landscape",
   "background_color": "#000000",
   "theme_color": "#4B0082",
-  "ovr_package_name": "com.example.babylonxr",
+  "ovr_package_name": "com.devlocal.babylonxr",
+  "categories": ["games", "entertainment"],
   "icons": [
     {
       "src": "/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/screenshot-1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Main experience"
     }
   ]
 }
