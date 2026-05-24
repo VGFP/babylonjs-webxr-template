@@ -12,16 +12,16 @@
   "backgroundColor": "#000000",
   "enableNotifications": false,
   "startUrl": "/babylonjs-webxr-template/",
-  "iconUrl": "https://<your-domain>/babylonjs-webxr-template/icons/icon-512.png",
+  "iconUrl": "https://example.com/icons/icon-512.png",
   "splashScreenFadeOutDuration": 0,
   "signingKey": {
-    "path": "/home/node/.local/share/babylonxr/debug.keystore",
+    "path": "",
     "alias": "androiddebugkey"
   },
   "appVersionName": "1.0.0",
   "appVersionCode": 1,
   "shortcuts": [],
-  "webManifestUrl": "https://<your-domain>/babylonjs-webxr-template/manifest.webmanifest",
+  "webManifestUrl": "https://example.com/manifest.webmanifest",
   "fallbackType": "customtabs",
   "features": {},
   "alphaDependencies": {

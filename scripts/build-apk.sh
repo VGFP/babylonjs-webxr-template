@@ -4,6 +4,12 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 
+if [ -f "${PROJECT_ROOT}/.env" ]; then
+  set -a
+  source "${PROJECT_ROOT}/.env"
+  set +a
+fi
+
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
@@ -34,12 +40,19 @@ Options:
   --skip-pwa-validation Skip PWA validation checks
   -h, --help            Show this help
 
-Environment variables (override flags):
+Environment variables (loaded from .env if present):
+  HOST                  Deployment domain (e.g. example.com)
+  START_URL             Path prefix (default: /)
+  APP_NAME              Full app name
+  SHORT_NAME            Launcher name
+  PKG_NAME              Android package ID
+  APP_VERSION           Version name (default: 1.0.0)
+  APP_VERSION_CODE      Version code (default: 1)
   KEYSTORE_PATH         Path to keystore
-  KEY_ALIAS             Keystore alias
-  STORE_PASSWORD        Store password
-  KEY_PASSWORD          Key password
-  MANIFEST_URL          Manifest URL
+  KEY_ALIAS             Keystore alias (default: androiddebugkey)
+  STORE_PASSWORD        Store password (default: android)
+  KEY_PASSWORD          Key password (default: android)
+  MANIFEST_URL          Manifest URL (overrides HOST)
 EOF
   exit 0
 }
@@ -72,10 +85,10 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
-KEYSTORE_PATH="${KEYSTORE_PATH:-${KEYSTORE_PATH_ENV:-}}"
-KEY_ALIAS="${KEY_ALIAS:-${KEY_ALIAS:-androiddebugkey}}"
-STORE_PASSWORD="${STORE_PASSWORD:-${STORE_PASSWORD:-android}}"
-KEY_PASSWORD="${KEY_PASSWORD:-${KEY_PASSWORD:-android}}"
+KEYSTORE_PATH="${KEYSTORE_PATH:-}"
+KEY_ALIAS="${KEY_ALIAS:-androiddebugkey}"
+STORE_PASSWORD="${STORE_PASSWORD:-android}"
+KEY_PASSWORD="${KEY_PASSWORD:-android}"
 OUTPUT_DIR="${OUTPUT_DIR:-${PROJECT_ROOT}/dist-apk}"
 
 if [ "$DO_SETUP" = true ]; then
@@ -133,12 +146,11 @@ if [ -z "$KEYSTORE_PATH" ]; then
 fi
 
 MANIFEST_SRC="${MANIFEST_URL:-}"
-HOST=""
-START_URL="/"
+HOST="${HOST:-}"
+START_URL="${START_URL:-/}"
 
 if [ -n "$MANIFEST_SRC" ]; then
   HOST=$(echo "$MANIFEST_SRC" | sed -E 's|https?://([^/]+).*|\1|')
-  START_URL="/"
 fi
 
 MANIFEST_FILE="${PROJECT_ROOT}/public/manifest.webmanifest"
@@ -147,15 +159,14 @@ if [ ! -f "$MANIFEST_FILE" ]; then
   exit 1
 fi
 
-APP_NAME=$(node -e "const m=JSON.parse(require('fs').readFileSync('$MANIFEST_FILE','utf8')); process.stdout.write(m.name || 'BabylonJS WebXR')")
-SHORT_NAME=$(node -e "const m=JSON.parse(require('fs').readFileSync('$MANIFEST_FILE','utf8')); process.stdout.write(m.short_name || 'BabylonXR')")
-PKG_NAME=$(node -e "const m=JSON.parse(require('fs').readFileSync('$MANIFEST_FILE','utf8')); process.stdout.write(m.ovr_package_name || 'com.devlocal.babylonxr')")
+APP_NAME="${APP_NAME:-$(node -e "const m=JSON.parse(require('fs').readFileSync('$MANIFEST_FILE','utf8')); process.stdout.write(m.name || 'BabylonJS WebXR')")}"
+SHORT_NAME="${SHORT_NAME:-$(node -e "const m=JSON.parse(require('fs').readFileSync('$MANIFEST_FILE','utf8')); process.stdout.write(m.short_name || 'BabylonXR')")}"
+PKG_NAME="${PKG_NAME:-$(node -e "const m=JSON.parse(require('fs').readFileSync('$MANIFEST_FILE','utf8')); process.stdout.write(m.ovr_package_name || 'com.devlocal.babylonxr')")}"
 
 if [ -z "$HOST" ]; then
-  warn "No --manifest URL provided. Using placeholder host example.com"
-  warn "Set --manifest to your deployed PWA URL for production builds."
+  warn "No HOST set. Using placeholder host example.com"
+  warn "Set HOST in .env or pass --manifest to your deployed PWA URL."
   HOST="example.com"
-  START_URL="/"
 fi
 
 info "Host:      $HOST"
@@ -192,7 +203,7 @@ else
   "backgroundColor": "#000000",
   "enableNotifications": false,
   "startUrl": "$START_URL",
-  "iconUrl": "https://$HOST/icons/icon-512.png",
+  "iconUrl": "https://$HOST${START_URL%/}icons/icon-512.png",
   "splashScreenFadeOutDuration": 0,
   "signingKey": {
     "path": "$KEYSTORE_PATH",
@@ -202,7 +213,7 @@ else
   "appVersionCode": $APP_VERSION_CODE,
   "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
-  "webManifestUrl": "https://$HOST/manifest.webmanifest",
+  "webManifestUrl": "https://$HOST${START_URL%/}/manifest.webmanifest",
   "fallbackType": "customtabs",
   "features": {},
   "alphaDependencies": {
