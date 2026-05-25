@@ -23,6 +23,7 @@ export async function createXrExperience(
             },
         },
         optionalFeatures: config.optionalFeatures,
+        disableDefaultUI: true,
     });
 
     if (!xr.baseExperience) {
