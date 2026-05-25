@@ -4,9 +4,22 @@ import { FontAsset, TextRenderer } from '@babylonjs/addons/msdfText';
 const FONT_DEFINITION_URL = 'https://assets.babylonjs.com/fonts/roboto-regular.json';
 const FONT_TEXTURE_URL = 'https://assets.babylonjs.com/fonts/roboto-regular.png';
 
+let _fontAsset: FontAsset | null = null;
+
+export async function loadFontAsset(): Promise<FontAsset> {
+    if (_fontAsset && !_fontAsset.textures[0]?.isReady()) {
+        _fontAsset.dispose();
+        _fontAsset = null;
+    }
+    if (!_fontAsset) {
+        const sdfFontDefinition = await (await fetch(FONT_DEFINITION_URL)).text();
+        _fontAsset = new FontAsset(sdfFontDefinition, FONT_TEXTURE_URL);
+    }
+    return _fontAsset;
+}
+
 export async function createTextRenderer(engine: Engine, scene: Scene): Promise<TextRenderer> {
-    const sdfFontDefinition = await (await fetch(FONT_DEFINITION_URL)).text();
-    const fontAsset = new FontAsset(sdfFontDefinition, FONT_TEXTURE_URL);
+    const fontAsset = await loadFontAsset();
     const textRenderer = await TextRenderer.CreateTextRendererAsync(fontAsset, engine);
 
     textRenderer.addParagraph('Hello World', {
@@ -21,14 +34,14 @@ export async function createTextRenderer(engine: Engine, scene: Scene): Promise<
     return textRenderer;
 }
 
-export function attachTextRenderer(scene: import('@babylonjs/core').Scene, textRenderer: TextRenderer): void {
-    scene.onAfterCameraRenderObservable.add(() => {
+export function attachTextRenderer(scene: import('@babylonjs/core').Scene, textRenderer: TextRenderer): () => void {
+    const o1 = scene.onAfterCameraRenderObservable.add(() => {
         const camera = scene.activeCamera as Camera;
         if (!camera) return;
         textRenderer.render(camera.getViewMatrix(), camera.getProjectionMatrix());
     });
 
-    scene.onAfterRenderingGroupObservable.add((info) => {
+    const o2 = scene.onAfterRenderingGroupObservable.add((info) => {
         if (info.renderingGroupId === 0) {
             const camera = scene.activeCamera as Camera;
             if (camera) {
@@ -36,4 +49,9 @@ export function attachTextRenderer(scene: import('@babylonjs/core').Scene, textR
             }
         }
     });
+
+    return () => {
+        if (o1) scene.onAfterCameraRenderObservable.remove(o1);
+        if (o2) scene.onAfterRenderingGroupObservable.remove(o2);
+    };
 }

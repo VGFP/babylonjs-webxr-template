@@ -1,1 +1,1 @@
-export { createTextRenderer, attachTextRenderer } from './textRenderer';
+export { createTextRenderer, attachTextRenderer, loadFontAsset } from './textRenderer';
