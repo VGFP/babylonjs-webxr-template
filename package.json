@@ -13,7 +13,8 @@
     "@babylonjs/core": "^9.7.0",
     "@babylonjs/gui": "^9.7.0",
     "@babylonjs/inspector": "^9.7.0",
-    "@babylonjs/loaders": "^9.7.0"
+    "@babylonjs/loaders": "^9.7.0",
+    "@babylonjs/materials": "^9.7.0"
   },
   "devDependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",

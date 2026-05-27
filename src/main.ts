@@ -1,4 +1,4 @@
-import { Engine, Scene } from '@babylonjs/core';
+import { Engine, Scene, Vector3 } from '@babylonjs/core';
 import { WebXRState } from '@babylonjs/core/XR/webXRTypes';
 import '@babylonjs/loaders/glTF';
 
@@ -6,7 +6,7 @@ import './style.css';
 import { createEngineAndScene } from './core';
 import { createShadowGenerator } from './lighting';
 import { createXrExperience } from './xr';
-import { createTextRenderer, attachTextRenderer } from './text';
+import { createTextRenderer, attachTextRenderer, addTextParagraph } from './text';
 import { getDemos, createDemoScene, type DemoDescriptor } from './demos';
 import { createDemoUi, type DemoUi } from './demos/demoUi';
 
@@ -24,7 +24,8 @@ if (!Engine.isSupported()) {
 
 const { engine, scene: homeScene } = createEngineAndScene();
 createShadowGenerator(homeScene);
-const textRenderer = await createTextRenderer(engine, homeScene);
+const textRenderer = await createTextRenderer(engine);
+addTextParagraph(textRenderer, 'Hello World', new Vector3(0, 1.5, -0.55), 0.2);
 
 if (DEBUG) {
     const { Inspector } = await import('@babylonjs/inspector');
@@ -84,7 +85,7 @@ async function switchToDemo(demo: DemoDescriptor) {
         detachHomeText();
         homeUi.setVisible(false);
 
-        homeScene.metadata = { goBack: switchToHome };
+        homeScene.metadata = { goBack: switchToHome, xr: homeXr };
         const teardown = demo.build(homeScene);
         activeTeardown = teardown ?? null;
 

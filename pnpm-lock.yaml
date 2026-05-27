@@ -23,6 +23,9 @@ importers:
       '@babylonjs/loaders':
         specifier: ^9.7.0
         version: 9.7.0(@babylonjs/core@9.7.0)(babylonjs-gltf2interface@9.7.0)
+      '@babylonjs/materials':
+        specifier: ^9.7.0
+        version: 9.7.0(@babylonjs/core@9.7.0)
     devDependencies:
       '@modelcontextprotocol/sdk':
         specifier: ^1.29.0

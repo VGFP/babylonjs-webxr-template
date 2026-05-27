@@ -1,37 +1,40 @@
-import { Camera, Engine, Scene, TransformNode, Vector3 } from '@babylonjs/core';
+import { AbstractEngine, Camera, Matrix, Quaternion, Vector3 } from '@babylonjs/core';
 import { FontAsset, TextRenderer } from '@babylonjs/addons/msdfText';
 
 const FONT_DEFINITION_URL = 'https://assets.babylonjs.com/fonts/roboto-regular.json';
 const FONT_TEXTURE_URL = 'https://assets.babylonjs.com/fonts/roboto-regular.png';
 
-let _fontAsset: FontAsset | null = null;
+let cachedFontAsset: FontAsset | null = null;
 
 export async function loadFontAsset(): Promise<FontAsset> {
-    if (_fontAsset && !_fontAsset.textures[0]?.isReady()) {
-        _fontAsset.dispose();
-        _fontAsset = null;
+    if (cachedFontAsset && !cachedFontAsset.textures[0]?.isReady()) {
+        cachedFontAsset.dispose();
+        cachedFontAsset = null;
     }
-    if (!_fontAsset) {
+    if (!cachedFontAsset) {
         const sdfFontDefinition = await (await fetch(FONT_DEFINITION_URL)).text();
-        _fontAsset = new FontAsset(sdfFontDefinition, FONT_TEXTURE_URL);
+        cachedFontAsset = new FontAsset(sdfFontDefinition, FONT_TEXTURE_URL);
     }
-    return _fontAsset;
+    return cachedFontAsset;
 }
 
-export async function createTextRenderer(engine: Engine, scene: Scene): Promise<TextRenderer> {
+export async function createTextRenderer(engine: AbstractEngine): Promise<TextRenderer> {
     const fontAsset = await loadFontAsset();
-    const textRenderer = await TextRenderer.CreateTextRendererAsync(fontAsset, engine);
+    return TextRenderer.CreateTextRendererAsync(fontAsset, engine);
+}
 
-    textRenderer.addParagraph('Hello World', {
-        textAlign: 'center',
-    });
-
-    const anchor = new TransformNode('textAnchor', scene);
-    anchor.position = new Vector3(0, 1.5, -0.55);
-    anchor.scaling = new Vector3(0.2, 0.2, 0.2);
-    textRenderer.parent = anchor;
-
-    return textRenderer;
+export function addTextParagraph(
+    renderer: TextRenderer,
+    text: string,
+    position: Vector3,
+    scale: number = 0.04,
+): void {
+    const matrix = Matrix.Compose(
+        new Vector3(scale, scale, scale),
+        Quaternion.Identity(),
+        position,
+    );
+    renderer.addParagraph(text, { textAlign: 'center' }, matrix);
 }
 
 export function attachTextRenderer(scene: import('@babylonjs/core').Scene, textRenderer: TextRenderer): () => void {

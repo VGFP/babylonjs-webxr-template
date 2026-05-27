@@ -1,20 +1,12 @@
 import {
-    ActionManager,
-    Color3,
     Engine,
-    ExecuteCodeAction,
     Mesh,
-    MeshBuilder,
-    Matrix,
-    Quaternion,
     Scene,
     Vector3,
 } from '@babylonjs/core';
-import '@babylonjs/core/Collisions';
-import { AdvancedDynamicTexture } from '@babylonjs/gui/2D/advancedDynamicTexture';
 import { Rectangle } from '@babylonjs/gui/2D/controls/rectangle';
-import { TextRenderer } from '@babylonjs/addons/msdfText';
-import { loadFontAsset, attachTextRenderer } from '../text/textRenderer';
+import { createTextRenderer, addTextParagraph, attachTextRenderer } from '../text/textRenderer';
+import { createUiButton, type CreateUiButtonResult } from '../core/uiButton';
 import type { DemoDescriptor } from './index';
 
 export interface DemoUi {
@@ -26,13 +18,27 @@ export interface DemoUi {
 interface ButtonEntry {
     plane: Mesh;
     rect: Rectangle;
-    defaultColor: string;
-    activeColor: string;
     defaultBg: string;
     activeBg: string;
     defaultBorder: string;
     activeBorder: string;
 }
+
+const BTN_WIDTH = 0.5;
+const BTN_HEIGHT = 0.08;
+const BTN_GAP = 0.02;
+const ORIGIN_Y = 1.35;
+const ORIGIN_X = 0;
+const ORIGIN_Z = -0.55;
+const CORNER_RADIUS = 25;
+const BORDER_THICKNESS = 8;
+const TEXT_SCALE = 0.04;
+const BACK_TEXT_SCALE = 0.032;
+const BACK_WIDTH_RATIO = 0.8;
+const BACK_HEIGHT_RATIO = 0.85;
+const BACK_TOP_MARGIN = 0.01;
+const TEXT_Y_OFFSET = -0.005;
+const TEXT_Z_OFFSET = -0.005;
 
 export async function createDemoUi(
     engine: Engine,
@@ -41,120 +47,71 @@ export async function createDemoUi(
     onDemoClick: (demo: DemoDescriptor) => void,
     onBackClick: (() => void) | null,
 ): Promise<DemoUi> {
-    const fontAsset = await loadFontAsset();
-    const textRenderer = await TextRenderer.CreateTextRendererAsync(fontAsset, engine);
-
-    const btnW = 0.5;
-    const btnH = 0.08;
-    const gap = 0.02;
-    const originY = 1.35;
-    const originX = 0;
-    const originZ = -0.55;
-    const cornerRadius = 25;
-    const borderThickness = 8;
+    const textRenderer = await createTextRenderer(engine);
 
     const buttons: Map<string, ButtonEntry> = new Map();
-    const planes: Mesh[] = [];
-    const textures: AdvancedDynamicTexture[] = [];
-
-    function makeButtonMesh(
-        name: string,
-        width: number,
-        height: number,
-        position: Vector3,
-        bgColor: string,
-        borderColor: string,
-    ): { plane: Mesh; texture: AdvancedDynamicTexture; rect: Rectangle } {
-        const plane = MeshBuilder.CreatePlane(name, { width, height }, scene);
-        plane.position = position;
-        plane.billboardMode = Mesh.BILLBOARDMODE_NONE;
-
-        const texture = AdvancedDynamicTexture.CreateForMesh(plane, 512, 256);
-        texture.background = 'transparent';
-
-        const rect = new Rectangle(`${name}_rect`);
-        rect.width = 1;
-        rect.height = 1;
-        rect.cornerRadius = cornerRadius;
-        rect.thickness = borderThickness;
-        rect.color = borderColor;
-        rect.background = bgColor;
-        texture.addControl(rect);
-
-        return { plane, texture, rect };
-    }
+    const buttonResults: CreateUiButtonResult[] = [];
 
     for (let i = 0; i < demos.length; i++) {
         const demo = demos[i];
-        const y = originY - i * (btnH + gap);
-        const pos = new Vector3(originX, y, originZ);
+        const y = ORIGIN_Y - i * (BTN_HEIGHT + BTN_GAP);
+        const position = new Vector3(ORIGIN_X, y, ORIGIN_Z);
 
-        const { plane, texture, rect } = makeButtonMesh(
-            `btn_${demo.id}`,
-            btnW,
-            btnH,
-            pos,
-            '#1a1a1add',
-            '#ffffff18',
-        );
+        const result = createUiButton(scene, {
+            name: `btn_${demo.id}`,
+            width: BTN_WIDTH,
+            height: BTN_HEIGHT,
+            position,
+            bgColor: '#1a1a1add',
+            borderColor: '#ffffff18',
+            cornerRadius: CORNER_RADIUS,
+            borderThickness: BORDER_THICKNESS,
+            onClick: () => onDemoClick(demo),
+        });
 
-        plane.actionManager = new ActionManager(scene);
-        plane.actionManager.registerAction(
-            new ExecuteCodeAction(ActionManager.OnPickTrigger, () => onDemoClick(demo)),
+        addTextParagraph(
+            textRenderer,
+            demo.label,
+            new Vector3(ORIGIN_X, y + TEXT_Y_OFFSET, ORIGIN_Z + TEXT_Z_OFFSET),
+            TEXT_SCALE,
         );
-
-        const textScale = 0.04;
-        const textMatrix = Matrix.Compose(
-            new Vector3(textScale, textScale, textScale),
-            Quaternion.Identity(),
-            new Vector3(originX, y - 0.005, originZ - 0.005),
-        );
-        textRenderer.addParagraph(demo.label, { textAlign: 'center' }, textMatrix);
 
         buttons.set(demo.id, {
-            plane,
-            rect,
-            defaultColor: '#d0d0d0',
-            activeColor: '#ffb450',
+            plane: result.plane,
+            rect: result.rect,
             defaultBg: '#1a1a1add',
             activeBg: '#2a1a0add',
             defaultBorder: '#ffffff18',
             activeBorder: '#ffb45044',
         });
-        planes.push(plane);
-        textures.push(texture);
+        buttonResults.push(result);
     }
 
     let backPlane: Mesh | null = null;
 
     if (onBackClick) {
-        const backY = originY - demos.length * (btnH + gap) - 0.01;
+        const backY = ORIGIN_Y - demos.length * (BTN_HEIGHT + BTN_GAP) - BACK_TOP_MARGIN;
 
-        const { plane, texture } = makeButtonMesh(
-            'btn_back',
-            btnW * 0.8,
-            btnH * 0.85,
-            new Vector3(originX, backY, originZ),
-            '#111111bb',
-            '#ffffff12',
+        const result = createUiButton(scene, {
+            name: 'btn_back',
+            width: BTN_WIDTH * BACK_WIDTH_RATIO,
+            height: BTN_HEIGHT * BACK_HEIGHT_RATIO,
+            position: new Vector3(ORIGIN_X, backY, ORIGIN_Z),
+            bgColor: '#111111bb',
+            borderColor: '#ffffff12',
+            cornerRadius: CORNER_RADIUS,
+            borderThickness: BORDER_THICKNESS,
+            onClick: () => onBackClick(),
+        });
+        backPlane = result.plane;
+        buttonResults.push(result);
+
+        addTextParagraph(
+            textRenderer,
+            'Return to Main Scene',
+            new Vector3(ORIGIN_X, backY + TEXT_Y_OFFSET, ORIGIN_Z + TEXT_Z_OFFSET),
+            BACK_TEXT_SCALE,
         );
-        backPlane = plane;
-
-        plane.actionManager = new ActionManager(scene);
-        plane.actionManager.registerAction(
-            new ExecuteCodeAction(ActionManager.OnPickTrigger, () => onBackClick()),
-        );
-
-        const backTextScale = 0.032;
-        const backTextMatrix = Matrix.Compose(
-            new Vector3(backTextScale, backTextScale, backTextScale),
-            Quaternion.Identity(),
-            new Vector3(originX, backY, originZ - 0.005),
-        );
-        textRenderer.addParagraph('Return to Main Scene', { textAlign: 'center' }, backTextMatrix);
-
-        planes.push(plane);
-        textures.push(texture);
     }
 
     let detachText: (() => void) | null = attachTextRenderer(scene, textRenderer);
@@ -191,8 +148,10 @@ export async function createDemoUi(
                 detachText = null;
             }
             textRenderer.dispose();
-            for (const t of textures) t.dispose();
-            for (const m of planes) m.dispose();
+            for (const r of buttonResults) {
+                r.texture.dispose();
+                r.plane.dispose();
+            }
         },
     };
 }

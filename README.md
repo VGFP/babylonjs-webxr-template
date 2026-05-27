@@ -206,7 +206,7 @@ The `.github/workflows/build-apk.yml` workflow calls `bash scripts/build-apk.sh`
 │   ├── generate-docs-for-mcp.sh    # Generate markdown docs
 │   └── setup-ai-tools.sh           # AI tools installer + MCP config
 ├── src/
-│   ├── core/             # Engine/scene setup, shared types
+│   ├── core/             # Engine/scene setup, shared types, UI utilities
 │   ├── lighting/         # Lights and shadow generator
 │   ├── xr/               # WebXR experience helper
 │   ├── text/             # MSDF text renderer
