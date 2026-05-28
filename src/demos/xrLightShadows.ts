@@ -4,37 +4,18 @@ import {
     DirectionalLight,
     HemisphericLight,
     IShadowLight,
-    Material,
-    Matrix,
-    Mesh,
     MeshBuilder,
-    PolygonMeshBuilder,
-    Quaternion,
     Scene,
     ShadowGenerator,
     StandardMaterial,
     TransformNode,
-    Vector2,
     Vector3,
-    WebXRDefaultExperience,
 } from '@babylonjs/core';
-import '@babylonjs/core/XR/webXRDefaultExperience';
-import '@babylonjs/core/XR/features/WebXRPlaneDetector';
 import '@babylonjs/core/Collisions';
 import '@babylonjs/core/Materials/standardMaterial';
 
-import { ShadowOnlyMaterial } from '@babylonjs/materials';
-
 import { createTextRenderer, addTextParagraph, attachTextRenderer } from '../text/textRenderer';
 import { createUiButton } from '../core/uiButton';
-
-interface XrPlaneData {
-    id: number;
-    polygonDefinition: Vector3[];
-    transformationMatrix: Matrix;
-    xrPlane: { orientation: string };
-    mesh?: Mesh;
-}
 
 const BTN_WIDTH = 0.44;
 const BTN_HEIGHT = 0.07;
@@ -52,7 +33,6 @@ export function buildXrLightShadowsDemo(scene: Scene): () => void {
     scene.clearColor = new Color4(0, 0, 0, 0);
 
     const cleanup: { dispose(): void }[] = [];
-    const planeMeshes: Map<number, Mesh> = new Map();
     let detachText: (() => void) | null = null;
     let disposed = false;
 
@@ -82,11 +62,6 @@ export function buildXrLightShadowsDemo(scene: Scene): () => void {
     shadowGen.addShadowCaster(cube);
     cleanup.push(cube);
     cleanup.push(cubeMat);
-
-    const xr = (scene.metadata as Record<string, unknown>)?.xr as WebXRDefaultExperience | undefined;
-    if (xr) {
-        wirePlaneObservables(scene, xr, directional as IShadowLight, planeMeshes, cleanup);
-    }
 
     const panelRoot = new TransformNode('ls_panel_root', scene);
     panelRoot.position = PANEL_POSITION.clone();
@@ -136,120 +111,10 @@ export function buildXrLightShadowsDemo(scene: Scene): () => void {
             detachText();
             detachText = null;
         }
-        planeMeshes.forEach((mesh) => mesh.dispose());
-        planeMeshes.clear();
         shadowGen.dispose();
         for (const item of cleanup) item.dispose();
         if (homeDirectional) homeDirectional.setEnabled(true);
         if (homeHemispheric) homeHemispheric.setEnabled(true);
         scene.clearColor = prevClearColor;
     };
-}
-
-function buildPlanePolygon(scene: Scene, plane: XrPlaneData, mat?: Material): Mesh {
-    plane.polygonDefinition.push(plane.polygonDefinition[0]);
-    const builder = new PolygonMeshBuilder(
-        plane.xrPlane.orientation,
-        plane.polygonDefinition.map((p) => new Vector2(p.x, p.z)),
-        scene,
-    );
-    const polygon = builder.build(false, 0.01);
-    polygon.createNormals(false);
-    if (mat) {
-        polygon.material = mat;
-    }
-    polygon.rotationQuaternion = new Quaternion();
-    polygon.checkCollisions = true;
-    polygon.receiveShadows = true;
-    plane.transformationMatrix.decompose(polygon.scaling, polygon.rotationQuaternion, polygon.position);
-    return polygon;
-}
-
-function applyShadowMaterialFacing(
-    mesh: Mesh,
-    shadowMat: ShadowOnlyMaterial,
-    light: IShadowLight,
-): void {
-    let lightDirection: Vector3 | null = null;
-    if ((light as any).direction) {
-        lightDirection = ((light as any).direction as Vector3).clone().normalize();
-    } else if ((light as any).getAbsolutePosition) {
-        const lightPosition = (light as any).getAbsolutePosition() as Vector3;
-        const meshCenter = mesh.getBoundingInfo().boundingBox.centerWorld;
-        lightDirection = meshCenter.subtract(lightPosition).normalize();
-    }
-    if (lightDirection) {
-        const normal = Vector3.TransformNormal(Vector3.Up(), mesh.getWorldMatrix()).normalize();
-        const facing = Vector3.Dot(normal, lightDirection) < 0;
-        shadowMat.activeLight = light;
-        shadowMat.alpha = facing ? 0.4 : 0;
-    }
-}
-
-function wirePlaneObservables(
-    scene: Scene,
-    xr: WebXRDefaultExperience,
-    activeLight: IShadowLight,
-    planeMeshes: Map<number, Mesh>,
-    cleanup: { dispose(): void }[],
-): void {
-    const featuresManager = xr.baseExperience.featuresManager;
-    let planeDetector: any;
-    try {
-        planeDetector = featuresManager.enableFeature('xr-plane-detection', 'latest');
-    } catch (e) {
-        console.warn('Plane detection not available:', e);
-        return;
-    }
-
-    const addedObs = planeDetector.onPlaneAddedObservable.add((plane: XrPlaneData) => {
-        const shadowMat = new ShadowOnlyMaterial('ls_shadowMat_' + plane.id, scene);
-        shadowMat.alpha = 0.4;
-        shadowMat.shadowColor = new Color3(0, 0, 0);
-        shadowMat.disableDepthWrite = true;
-
-        const poly = buildPlanePolygon(scene, plane, shadowMat);
-        applyShadowMaterialFacing(poly, shadowMat, activeLight);
-
-        planeMeshes.set(plane.id, poly);
-    });
-
-    const updatedObs = planeDetector.onPlaneUpdatedObservable.add((plane: XrPlaneData) => {
-        const existingMesh = planeMeshes.get(plane.id);
-        const mat = existingMesh?.material;
-        if (existingMesh) {
-            existingMesh.dispose(false, false);
-        }
-        if (plane.polygonDefinition.some((p) => !p)) return;
-
-        const poly = buildPlanePolygon(scene, plane, mat!);
-
-        if (mat instanceof ShadowOnlyMaterial) {
-            applyShadowMaterialFacing(poly, mat, activeLight);
-        }
-
-        planeMeshes.set(plane.id, poly);
-    });
-
-    const removedObs = planeDetector.onPlaneRemovedObservable.add((plane: XrPlaneData) => {
-        const mesh = planeMeshes.get(plane.id);
-        if (mesh) {
-            mesh.dispose();
-            planeMeshes.delete(plane.id);
-        }
-    });
-
-    const sessionObs = xr.baseExperience.sessionManager.onXRSessionInit.add(() => {
-        planeMeshes.forEach((m) => m.dispose());
-        planeMeshes.clear();
-    });
-
-    cleanup.push({
-        dispose: () => {
-            planeDetector.onPlaneAddedObservable.remove(addedObs);
-            planeDetector.onPlaneUpdatedObservable.remove(updatedObs);
-            planeDetector.onPlaneRemovedObservable.remove(removedObs);
-            xr.baseExperience.sessionManager.onXRSessionInit.remove(sessionObs);
-        },
-    });
 }

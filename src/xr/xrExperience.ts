@@ -1,6 +1,7 @@
-import { Scene, WebXRDefaultExperience } from '@babylonjs/core';
-
+import { Scene, WebXRDefaultExperience, WebXRFeaturesManager } from '@babylonjs/core';
 import '@babylonjs/core/XR/webXRDefaultExperience';
+import '@babylonjs/core/XR/features/WebXRPlaneDetector';
+import '@babylonjs/core/XR/features/WebXRAnchorSystem';
 
 import type { XrConfig } from '../core/types';
 
@@ -31,4 +32,26 @@ export async function createXrExperience(
     }
 
     return xr;
+}
+
+export function getFeaturesManager(xr: WebXRDefaultExperience): WebXRFeaturesManager {
+    return xr.baseExperience.featuresManager;
+}
+
+export function enablePlaneDetection(fm: WebXRFeaturesManager): any | null {
+    try {
+        return fm.enableFeature('xr-plane-detection', 'latest');
+    } catch (e) {
+        console.warn('Plane detection not available:', e);
+        return null;
+    }
+}
+
+export function enableAnchors(fm: WebXRFeaturesManager): any | null {
+    try {
+        return fm.enableFeature('xr-anchor-system', 'latest');
+    } catch (e) {
+        console.warn('Anchors not available:', e);
+        return null;
+    }
 }
