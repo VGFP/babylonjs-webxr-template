@@ -14,10 +14,12 @@
     "@babylonjs/gui": "^9.7.0",
     "@babylonjs/inspector": "^9.7.0",
     "@babylonjs/loaders": "^9.7.0",
-    "@babylonjs/materials": "^9.7.0"
+    "@babylonjs/materials": "^9.7.0",
+    "earcut": "^3.0.2"
   },
   "devDependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
+    "@types/earcut": "^3.0.0",
     "@types/node": "^25.8.0",
     "typescript": "^5.7.0",
     "vite": "^6.0.0",
