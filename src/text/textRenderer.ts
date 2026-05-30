@@ -48,18 +48,8 @@ export class TextManager {
             renderer.render(camera.getViewMatrix(), camera.getProjectionMatrix());
         });
 
-        const o2 = scene.onAfterRenderingGroupObservable.add((info) => {
-            if (info.renderingGroupId === 0) {
-                const camera = scene.activeCamera as Camera;
-                if (camera) {
-                    renderer.render(camera.getViewMatrix(), camera.getProjectionMatrix());
-                }
-            }
-        });
-
         return () => {
             if (o1) scene.onAfterCameraRenderObservable.remove(o1);
-            if (o2) scene.onAfterRenderingGroupObservable.remove(o2);
         };
     }
 
