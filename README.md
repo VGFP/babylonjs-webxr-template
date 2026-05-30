@@ -188,11 +188,17 @@ The app uses a `SceneManager` to switch between a home scene and demo scenes. Th
 
 **Lights & Shadows Demo** — places a shadow-casting cube in the room and renders dynamic shadows on detected planes. Users can add/remove point lights, toggle default lighting, and persist light positions via localStorage. Requires WebXR with plane detection support.
 
+## Guides
+
+- **[MSDF Text Rendering for XR Buttons](docs/msdf-text-buttons-guide.md)** — How to create high-resolution buttons with MSDF text, why it outperforms GUI TextBlock for XR, positioning, font customization, and troubleshooting.
+- **[Scene Management in WebXR](docs/scene-management-guide.md)** — Why you can't switch scenes in WebXR, the two strategies (reused vs own scene), state machine architecture, and how to add new demo scenes.
+
 ## Project Structure
 
 ```
 ├── .certs/               # Local HTTPS certs (gitignored, auto-generated)
 ├── .devcontainer/        # Devcontainer config (Dockerfile + features)
+├── docs/                 # Project guides (MSDF text, scene management)
 ├── docs-for-mcp/         # BabylonJS docs for MCP server
 │   ├── api/              # TypeDoc-generated API reference
 │   └── examples/         # Guides and tutorials
