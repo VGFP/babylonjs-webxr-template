@@ -1,0 +1,1 @@
+export { applyShadowMaterialFacing } from './shadowMaterial';

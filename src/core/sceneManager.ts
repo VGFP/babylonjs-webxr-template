@@ -96,7 +96,8 @@ export class SceneManager {
                 break;
             case 'reused_scene':
                 this._state.teardown();
-                this._home.scene.metadata = {};
+                delete (this._home.scene.metadata as Record<string, unknown>).goBack;
+                delete (this._home.scene.metadata as Record<string, unknown>).xr;
                 break;
             case 'own_scene':
                 this._state.ui.dispose();
@@ -115,6 +116,7 @@ export class SceneManager {
 
     private _enterReusedScene(demo: DemoDescriptor): void {
         this._home.scene.metadata = {
+            ...((this._home.scene.metadata as Record<string, unknown>) || {}),
             goBack: () => this.switchToHome(),
             xr: this._home.xr,
         };

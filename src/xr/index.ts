@@ -1,3 +1,3 @@
 export { XrExperience } from './xrExperience';
-export { PlaneManager } from './planes';
-export type { XrPlaneData } from './planes';
+export { PlaneDetectionManager } from './planeDetectionManager';
+export type { XrPlaneData } from './planeDetectionManager';

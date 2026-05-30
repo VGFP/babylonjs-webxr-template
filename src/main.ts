@@ -5,7 +5,7 @@ import '@babylonjs/loaders/glTF';
 import './style.css';
 import { SceneManager } from './core';
 import { ShadowManager } from './lighting';
-import { XrExperience } from './xr';
+import { XrExperience, PlaneDetectionManager } from './xr';
 import { TextManager } from './text';
 import { DemoRegistry } from './demos';
 import { DemoUiController } from './demos/demoUi';
@@ -18,6 +18,7 @@ class App {
     private _xrExperience: XrExperience | null = null;
     private _sceneManager: SceneManager | null = null;
     private _textManager: TextManager | null = null;
+    private _planeDetectionManager: PlaneDetectionManager | null = null;
     private _detachHomeText: (() => void) | null = null;
 
     constructor(config: { debug: boolean }) {
@@ -51,11 +52,17 @@ class App {
         this._scene.metadata = {
             ...((this._scene.metadata as Record<string, unknown>) || {}),
             xrAnchors: this._xrExperience.anchors,
+            planeDetectionManager: this._planeDetectionManager,
         };
     }
 
     async createScene(): Promise<void> {
         new ShadowManager(this._scene);
+
+        this._planeDetectionManager = new PlaneDetectionManager(this._scene, this._xrExperience!.xr, this._xrExperience!.planes);
+        this._planeDetectionManager.wireObservables();
+
+        (this._scene.metadata as Record<string, unknown>).planeDetectionManager = this._planeDetectionManager;
 
         if (this._debug) {
             await import('@babylonjs/inspector');
