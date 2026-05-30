@@ -1,27 +1,23 @@
-import { Engine, Scene, TransformNode, Vector3, WebXRDefaultExperience, WebXRFeaturesManager } from '@babylonjs/core';
+import { Engine, Scene, TransformNode, Vector3, WebXRDefaultExperience } from '@babylonjs/core';
 import { WebXRState } from '@babylonjs/core/XR/webXRTypes';
-import { TextRenderer } from '@babylonjs/addons/msdfText';
 import '@babylonjs/loaders/glTF';
 
 import './style.css';
 import { SceneManager } from './core';
-import { createShadowGenerator } from './lighting';
-import { createXrExperience, getFeaturesManager, enablePlaneDetection, enableAnchors } from './xr';
-import { createTextRenderer, attachTextRenderer } from './text';
-import { getDemos } from './demos';
-import { createDemoUi } from './demos/demoUi';
+import { ShadowManager } from './lighting';
+import { XrExperience } from './xr';
+import { TextManager } from './text';
+import { DemoRegistry } from './demos';
+import { DemoUiController } from './demos/demoUi';
 
 class App {
     private _canvas: HTMLCanvasElement;
     private _engine: Engine;
     private _scene: Scene;
     private _debug: boolean;
-    private _xr: WebXRDefaultExperience | null = null;
-    private _fm: WebXRFeaturesManager | null = null;
-    private _xrPlanes: any | null = null;
-    private _xrAnchors: any | null = null;
+    private _xrExperience: XrExperience | null = null;
     private _sceneManager: SceneManager | null = null;
-    private _textRenderer: TextRenderer | null = null;
+    private _textManager: TextManager | null = null;
     private _detachHomeText: (() => void) | null = null;
 
     constructor(config: { debug: boolean }) {
@@ -50,37 +46,36 @@ class App {
     }
 
     async bootstrapXr(): Promise<void> {
-        this._xr = await createXrExperience(this._scene);
-        this._fm = getFeaturesManager(this._xr);
-        this._xrPlanes = enablePlaneDetection(this._fm);
-        this._xrAnchors = enableAnchors(this._fm);
+        this._xrExperience = new XrExperience(this._scene);
+        await this._xrExperience.init();
         this._scene.metadata = {
             ...((this._scene.metadata as Record<string, unknown>) || {}),
-            xrAnchors: this._xrAnchors,
+            xrAnchors: this._xrExperience.anchors,
         };
     }
 
     async createScene(): Promise<void> {
-        createShadowGenerator(this._scene);
+        new ShadowManager(this._scene);
 
         if (this._debug) {
             await import('@babylonjs/inspector');
         }
 
-        this._textRenderer = await createTextRenderer(this._engine);
+        this._textManager = new TextManager(this._engine);
+        await this._textManager.init();
         const textAnchor = new TransformNode('textAnchor', this._scene);
         textAnchor.position = new Vector3(0, 1.5, -0.55);
         textAnchor.scaling = new Vector3(0.2, 0.2, 0.2);
-        this._textRenderer.parent = textAnchor;
-        this._textRenderer.addParagraph('Hello World', { textAlign: 'center' });
+        this._textManager.renderer.parent = textAnchor;
+        this._textManager.renderer.addParagraph('Hello World', { textAlign: 'center' });
 
         if (this._debug) {
             const { Inspector } = await import('@babylonjs/inspector');
             Inspector.Show(this._scene, { overlay: true });
         }
 
-        this._detachHomeText = attachTextRenderer(this._scene, this._textRenderer);
-        const demos = getDemos();
+        this._detachHomeText = this._textManager.attachToScene(this._scene);
+        const demos = DemoRegistry.getAll();
 
         const xrButton = document.getElementById('xr-button') as HTMLButtonElement;
         const xrOverlay = document.getElementById('xr-overlay') as HTMLDivElement;
@@ -96,16 +91,16 @@ class App {
 
         this._sceneManager = new SceneManager({
             engine: this._engine,
-            textRenderer: this._textRenderer,
+            textManager: this._textManager,
             homeScene: this._scene,
-            homeXr: this._xr!,
-            homeDetachText: this._detachHomeText,
+            homeXr: this._xrExperience!.xr,
+            homeDetachText: this._detachHomeText!,
             demos,
             debug: this._debug,
             onWireXrState: wireXrState,
         });
 
-        const homeUi = await createDemoUi(
+        const homeUi = await DemoUiController.create(
             this._engine,
             this._scene,
             demos,
@@ -123,7 +118,7 @@ class App {
                 }
             });
 
-            wireXrState(this._xr!);
+            wireXrState(this._xrExperience!.xr);
         }
 
         if ('serviceWorker' in navigator) {

@@ -14,107 +14,114 @@ import {
 import '@babylonjs/core/Collisions';
 import '@babylonjs/core/Materials/standardMaterial';
 
-import { createTextRenderer, addTextParagraph, attachTextRenderer } from '../text/textRenderer';
+import { TextManager } from '../text/textRenderer';
 import { createUiButton } from '../core/uiButton';
 
-const BTN_WIDTH = 0.44;
-const BTN_HEIGHT = 0.07;
-const PANEL_POSITION = new Vector3(0, 1.35, -0.55);
-const CORNER_RADIUS = 25;
-const BORDER_THICKNESS = 8;
-const TEXT_SCALE = 0.028;
-const TEXT_Y_OFFSET = -0.005;
-const TEXT_Z_OFFSET = -0.005;
-const BACK_WIDTH_RATIO = 0.8;
-const BACK_HEIGHT_RATIO = 0.85;
+export class XrLightShadowsDemo {
+    private static readonly _btnWidth = 0.44;
+    private static readonly _btnHeight = 0.07;
+    private static readonly _panelPosition = new Vector3(0, 1.35, -0.55);
+    private static readonly _cornerRadius = 25;
+    private static readonly _borderThickness = 8;
+    private static readonly _textScale = 0.028;
+    private static readonly _textYOffset = -0.005;
+    private static readonly _textZOffset = -0.005;
+    private static readonly _backWidthRatio = 0.8;
+    private static readonly _backHeightRatio = 0.85;
 
-export function buildXrLightShadowsDemo(scene: Scene): () => void {
-    const prevClearColor = scene.clearColor.clone();
-    scene.clearColor = new Color4(0, 0, 0, 0);
+    private _scene: Scene;
+    private _cleanup: { dispose(): void }[] = [];
+    private _detachText: (() => void) | null = null;
+    private _disposed = false;
+    private _prevClearColor: Color4;
+    private _homeDirectional: any;
+    private _homeHemispheric: any;
+    private _shadowGen: ShadowGenerator;
 
-    const cleanup: { dispose(): void }[] = [];
-    let detachText: (() => void) | null = null;
-    let disposed = false;
+    constructor(scene: Scene) {
+        this._scene = scene;
+        this._prevClearColor = scene.clearColor.clone();
+        scene.clearColor = new Color4(0, 0, 0, 0);
 
-    const homeDirectional = scene.getLightByName('directionalLight');
-    const homeHemispheric = scene.getLightByName('hemisphericLight');
-    if (homeDirectional) homeDirectional.setEnabled(false);
-    if (homeHemispheric) homeHemispheric.setEnabled(false);
+        this._homeDirectional = scene.getLightByName('directionalLight');
+        this._homeHemispheric = scene.getLightByName('hemisphericLight');
+        if (this._homeDirectional) this._homeDirectional.setEnabled(false);
+        if (this._homeHemispheric) this._homeHemispheric.setEnabled(false);
 
-    const directional = new DirectionalLight('ls_directional', new Vector3(0, -1, 1), scene);
-    directional.intensity = 0.7;
-    directional.position = new Vector3(0, 2, 0);
-    cleanup.push(directional);
+        const directional = new DirectionalLight('ls_directional', new Vector3(0, -1, 1), scene);
+        directional.intensity = 0.7;
+        directional.position = new Vector3(0, 2, 0);
+        this._cleanup.push(directional);
 
-    const hemispheric = new HemisphericLight('ls_hemispheric', new Vector3(0, 1, 0), scene);
-    hemispheric.intensity = 0.7;
-    cleanup.push(hemispheric);
+        const hemispheric = new HemisphericLight('ls_hemispheric', new Vector3(0, 1, 0), scene);
+        hemispheric.intensity = 0.7;
+        this._cleanup.push(hemispheric);
 
-    const shadowGen = new ShadowGenerator(1024, directional as IShadowLight);
-    shadowGen.useBlurExponentialShadowMap = true;
-    shadowGen.blurKernel = 32;
+        this._shadowGen = new ShadowGenerator(1024, directional as IShadowLight);
+        this._shadowGen.useBlurExponentialShadowMap = true;
+        this._shadowGen.blurKernel = 32;
 
-    const cube = MeshBuilder.CreateBox('ls_cube', { size: 0.5 }, scene);
-    cube.position = new Vector3(0, 0.3, 2);
-    const cubeMat = new StandardMaterial('ls_cubeMat', scene);
-    cubeMat.diffuseColor = new Color3(0.2, 0.6, 1);
-    cube.material = cubeMat;
-    shadowGen.addShadowCaster(cube);
-    cleanup.push(cube);
-    cleanup.push(cubeMat);
+        const cube = MeshBuilder.CreateBox('ls_cube', { size: 0.5 }, scene);
+        cube.position = new Vector3(0, 0.3, 2);
+        const cubeMat = new StandardMaterial('ls_cubeMat', scene);
+        cubeMat.diffuseColor = new Color3(0.2, 0.6, 1);
+        cube.material = cubeMat;
+        this._shadowGen.addShadowCaster(cube);
+        this._cleanup.push(cube);
+        this._cleanup.push(cubeMat);
 
-    const panelRoot = new TransformNode('ls_panel_root', scene);
-    panelRoot.position = PANEL_POSITION.clone();
-    cleanup.push(panelRoot);
+        const panelRoot = new TransformNode('ls_panel_root', scene);
+        panelRoot.position = XrLightShadowsDemo._panelPosition.clone();
+        this._cleanup.push(panelRoot);
 
-    const goBack = (scene.metadata as Record<string, unknown> | undefined)?.goBack as (() => void) | undefined;
-    if (goBack) {
-        const btnResult = createUiButton(scene, {
-            name: 'ls_back',
-            width: BTN_WIDTH * BACK_WIDTH_RATIO,
-            height: BTN_HEIGHT * BACK_HEIGHT_RATIO,
-            position: new Vector3(0, 0, 0),
-            parent: panelRoot,
-            bgColor: '#2a1a0aee',
-            borderColor: '#ffb45044',
-            cornerRadius: CORNER_RADIUS,
-            borderThickness: BORDER_THICKNESS,
-            onClick: () => goBack(),
-        });
-        cleanup.push(btnResult.texture);
-        cleanup.push(btnResult.plane);
+        const goBack = (scene.metadata as Record<string, unknown> | undefined)?.goBack as (() => void) | undefined;
+        if (goBack) {
+            const btnResult = createUiButton(scene, {
+                name: 'ls_back',
+                width: XrLightShadowsDemo._btnWidth * XrLightShadowsDemo._backWidthRatio,
+                height: XrLightShadowsDemo._btnHeight * XrLightShadowsDemo._backHeightRatio,
+                position: new Vector3(0, 0, 0),
+                parent: panelRoot,
+                bgColor: '#2a1a0aee',
+                borderColor: '#ffb45044',
+                cornerRadius: XrLightShadowsDemo._cornerRadius,
+                borderThickness: XrLightShadowsDemo._borderThickness,
+                onClick: () => goBack(),
+            });
+            this._cleanup.push(btnResult.texture);
+            this._cleanup.push(btnResult.plane);
 
-        createTextRenderer(scene.getEngine())
-            .then((tr) => {
-                if (disposed) {
-                    tr.dispose();
+            const textManager = new TextManager(scene.getEngine());
+            textManager.init().then(() => {
+                if (this._disposed) {
+                    textManager.dispose();
                     return;
                 }
-                addTextParagraph(
-                    tr,
+                textManager.addParagraph(
                     'Return to Main Scene',
                     new Vector3(
-                        PANEL_POSITION.x,
-                        PANEL_POSITION.y + TEXT_Y_OFFSET,
-                        PANEL_POSITION.z + TEXT_Z_OFFSET,
+                        XrLightShadowsDemo._panelPosition.x,
+                        XrLightShadowsDemo._panelPosition.y + XrLightShadowsDemo._textYOffset,
+                        XrLightShadowsDemo._panelPosition.z + XrLightShadowsDemo._textZOffset,
                     ),
-                    TEXT_SCALE,
+                    XrLightShadowsDemo._textScale,
                 );
-                detachText = attachTextRenderer(scene, tr);
-                cleanup.push(tr);
+                this._detachText = textManager.attachToScene(scene);
+                this._cleanup.push(textManager);
             });
+        }
     }
 
-    return () => {
-        disposed = true;
-        if (detachText) {
-            detachText();
-            detachText = null;
+    teardown(): void {
+        this._disposed = true;
+        if (this._detachText) {
+            this._detachText();
+            this._detachText = null;
         }
-        shadowGen.dispose();
-        for (const item of cleanup) item.dispose();
-        if (homeDirectional) homeDirectional.setEnabled(true);
-        if (homeHemispheric) homeHemispheric.setEnabled(true);
-        scene.clearColor = prevClearColor;
-    };
+        this._shadowGen.dispose();
+        for (const item of this._cleanup) item.dispose();
+        if (this._homeDirectional) this._homeDirectional.setEnabled(true);
+        if (this._homeHemispheric) this._homeHemispheric.setEnabled(true);
+        this._scene.clearColor = this._prevClearColor;
+    }
 }

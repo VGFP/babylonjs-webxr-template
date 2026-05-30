@@ -1,60 +1,74 @@
 import { AbstractEngine, Camera, Matrix, Quaternion, Vector3 } from '@babylonjs/core';
 import { FontAsset, TextRenderer } from '@babylonjs/addons/msdfText';
 
-const FONT_DEFINITION_URL = 'https://assets.babylonjs.com/fonts/roboto-regular.json';
-const FONT_TEXTURE_URL = 'https://assets.babylonjs.com/fonts/roboto-regular.png';
+export class TextManager {
+    private static readonly _fontDefinitionUrl = 'https://assets.babylonjs.com/fonts/roboto-regular.json';
+    private static readonly _fontTextureUrl = 'https://assets.babylonjs.com/fonts/roboto-regular.png';
+    private static _cachedFontAsset: FontAsset | null = null;
 
-let cachedFontAsset: FontAsset | null = null;
+    private _engine: AbstractEngine;
+    private _renderer: TextRenderer | null = null;
 
-export async function loadFontAsset(): Promise<FontAsset> {
-    if (cachedFontAsset && !cachedFontAsset.textures[0]?.isReady()) {
-        cachedFontAsset.dispose();
-        cachedFontAsset = null;
+    constructor(engine: AbstractEngine) {
+        this._engine = engine;
     }
-    if (!cachedFontAsset) {
-        const sdfFontDefinition = await (await fetch(FONT_DEFINITION_URL)).text();
-        cachedFontAsset = new FontAsset(sdfFontDefinition, FONT_TEXTURE_URL);
+
+    async init(): Promise<void> {
+        const fontAsset = await TextManager._loadFontAsset();
+        this._renderer = await TextRenderer.CreateTextRendererAsync(fontAsset, this._engine);
     }
-    return cachedFontAsset;
-}
 
-export async function createTextRenderer(engine: AbstractEngine): Promise<TextRenderer> {
-    const fontAsset = await loadFontAsset();
-    return TextRenderer.CreateTextRendererAsync(fontAsset, engine);
-}
-
-export function addTextParagraph(
-    renderer: TextRenderer,
-    text: string,
-    position: Vector3,
-    scale: number = 0.04,
-): void {
-    const matrix = Matrix.Compose(
-        new Vector3(scale, scale, scale),
-        Quaternion.Identity(),
-        position,
-    );
-    renderer.addParagraph(text, { textAlign: 'center' }, matrix);
-}
-
-export function attachTextRenderer(scene: import('@babylonjs/core').Scene, textRenderer: TextRenderer): () => void {
-    const o1 = scene.onAfterCameraRenderObservable.add(() => {
-        const camera = scene.activeCamera as Camera;
-        if (!camera) return;
-        textRenderer.render(camera.getViewMatrix(), camera.getProjectionMatrix());
-    });
-
-    const o2 = scene.onAfterRenderingGroupObservable.add((info) => {
-        if (info.renderingGroupId === 0) {
-            const camera = scene.activeCamera as Camera;
-            if (camera) {
-                textRenderer.render(camera.getViewMatrix(), camera.getProjectionMatrix());
-            }
+    private static async _loadFontAsset(): Promise<FontAsset> {
+        if (TextManager._cachedFontAsset && !TextManager._cachedFontAsset.textures[0]?.isReady()) {
+            TextManager._cachedFontAsset.dispose();
+            TextManager._cachedFontAsset = null;
         }
-    });
+        if (!TextManager._cachedFontAsset) {
+            const sdfFontDefinition = await (await fetch(TextManager._fontDefinitionUrl)).text();
+            TextManager._cachedFontAsset = new FontAsset(sdfFontDefinition, TextManager._fontTextureUrl);
+        }
+        return TextManager._cachedFontAsset;
+    }
 
-    return () => {
-        if (o1) scene.onAfterCameraRenderObservable.remove(o1);
-        if (o2) scene.onAfterRenderingGroupObservable.remove(o2);
-    };
+    addParagraph(text: string, position: Vector3, scale: number = 0.04): void {
+        const matrix = Matrix.Compose(
+            new Vector3(scale, scale, scale),
+            Quaternion.Identity(),
+            position,
+        );
+        this._renderer!.addParagraph(text, { textAlign: 'center' }, matrix);
+    }
+
+    attachToScene(scene: import('@babylonjs/core').Scene): () => void {
+        const renderer = this._renderer!;
+
+        const o1 = scene.onAfterCameraRenderObservable.add(() => {
+            const camera = scene.activeCamera as Camera;
+            if (!camera) return;
+            renderer.render(camera.getViewMatrix(), camera.getProjectionMatrix());
+        });
+
+        const o2 = scene.onAfterRenderingGroupObservable.add((info) => {
+            if (info.renderingGroupId === 0) {
+                const camera = scene.activeCamera as Camera;
+                if (camera) {
+                    renderer.render(camera.getViewMatrix(), camera.getProjectionMatrix());
+                }
+            }
+        });
+
+        return () => {
+            if (o1) scene.onAfterCameraRenderObservable.remove(o1);
+            if (o2) scene.onAfterRenderingGroupObservable.remove(o2);
+        };
+    }
+
+    get renderer(): TextRenderer { return this._renderer!; }
+
+    dispose(): void {
+        if (this._renderer) {
+            this._renderer.dispose();
+            this._renderer = null;
+        }
+    }
 }

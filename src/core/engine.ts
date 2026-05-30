@@ -1,10 +1,18 @@
 import { Engine, Scene } from '@babylonjs/core';
 
-export function createEngineAndScene(): { engine: Engine; scene: Scene } {
-    const canvas = document.getElementById('renderCanvas') as HTMLCanvasElement;
-    const engine = new Engine(canvas, true);
-    const scene = new Scene(engine);
-    scene.useRightHandedSystem = true;
+export class EngineFactory {
+    private _canvas: HTMLCanvasElement;
+    private _engine: Engine;
+    private _scene: Scene;
 
-    return { engine, scene };
+    constructor() {
+        this._canvas = document.getElementById('renderCanvas') as HTMLCanvasElement;
+        this._engine = new Engine(this._canvas, true);
+        this._scene = new Scene(this._engine);
+        this._scene.useRightHandedSystem = true;
+    }
+
+    get canvas(): HTMLCanvasElement { return this._canvas; }
+    get engine(): Engine { return this._engine; }
+    get scene(): Scene { return this._scene; }
 }

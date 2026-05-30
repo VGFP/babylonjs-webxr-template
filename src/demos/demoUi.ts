@@ -5,7 +5,7 @@ import {
     Vector3,
 } from '@babylonjs/core';
 import { Rectangle } from '@babylonjs/gui/2D/controls/rectangle';
-import { createTextRenderer, addTextParagraph, attachTextRenderer } from '../text/textRenderer';
+import { TextManager } from '../text/textRenderer';
 import { createUiButton, type CreateUiButtonResult } from '../core/uiButton';
 import type { DemoDescriptor } from './index';
 
@@ -24,134 +24,156 @@ interface ButtonEntry {
     activeBorder: string;
 }
 
-const BTN_WIDTH = 0.5;
-const BTN_HEIGHT = 0.08;
-const BTN_GAP = 0.02;
-const ORIGIN_Y = 1.35;
-const ORIGIN_X = 0;
-const ORIGIN_Z = -0.55;
-const CORNER_RADIUS = 25;
-const BORDER_THICKNESS = 8;
-const TEXT_SCALE = 0.04;
-const BACK_TEXT_SCALE = 0.032;
-const BACK_WIDTH_RATIO = 0.8;
-const BACK_HEIGHT_RATIO = 0.85;
-const BACK_TOP_MARGIN = 0.01;
-const TEXT_Y_OFFSET = -0.005;
-const TEXT_Z_OFFSET = -0.005;
+export class DemoUiController implements DemoUi {
+    private static readonly _btnWidth = 0.5;
+    private static readonly _btnHeight = 0.08;
+    private static readonly _btnGap = 0.02;
+    private static readonly _originY = 1.35;
+    private static readonly _originX = 0;
+    private static readonly _originZ = -0.55;
+    private static readonly _cornerRadius = 25;
+    private static readonly _borderThickness = 8;
+    private static readonly _textScale = 0.04;
+    private static readonly _backTextScale = 0.032;
+    private static readonly _backWidthRatio = 0.8;
+    private static readonly _backHeightRatio = 0.85;
+    private static readonly _backTopMargin = 0.01;
+    private static readonly _textYOffset = -0.005;
+    private static readonly _textZOffset = -0.005;
 
-export async function createDemoUi(
-    engine: Engine,
-    scene: Scene,
-    demos: readonly DemoDescriptor[],
-    onDemoClick: (demo: DemoDescriptor) => void,
-    onBackClick: (() => void) | null,
-): Promise<DemoUi> {
-    const textRenderer = await createTextRenderer(engine);
+    private readonly _scene: Scene;
+    private readonly _textManager: TextManager;
+    private readonly _buttons: Map<string, ButtonEntry>;
+    private readonly _buttonResults: CreateUiButtonResult[];
+    private _backPlane: Mesh | null;
+    private _detachText: (() => void) | null;
 
-    const buttons: Map<string, ButtonEntry> = new Map();
-    const buttonResults: CreateUiButtonResult[] = [];
-
-    for (let i = 0; i < demos.length; i++) {
-        const demo = demos[i];
-        const y = ORIGIN_Y - i * (BTN_HEIGHT + BTN_GAP);
-        const position = new Vector3(ORIGIN_X, y, ORIGIN_Z);
-
-        const result = createUiButton(scene, {
-            name: `btn_${demo.id}`,
-            width: BTN_WIDTH,
-            height: BTN_HEIGHT,
-            position,
-            bgColor: '#1a1a1add',
-            borderColor: '#ffffff18',
-            cornerRadius: CORNER_RADIUS,
-            borderThickness: BORDER_THICKNESS,
-            onClick: () => onDemoClick(demo),
-        });
-
-        addTextParagraph(
-            textRenderer,
-            demo.label,
-            new Vector3(ORIGIN_X, y + TEXT_Y_OFFSET, ORIGIN_Z + TEXT_Z_OFFSET),
-            TEXT_SCALE,
-        );
-
-        buttons.set(demo.id, {
-            plane: result.plane,
-            rect: result.rect,
-            defaultBg: '#1a1a1add',
-            activeBg: '#2a1a0add',
-            defaultBorder: '#ffffff18',
-            activeBorder: '#ffb45044',
-        });
-        buttonResults.push(result);
+    private constructor(
+        scene: Scene,
+        textManager: TextManager,
+        buttons: Map<string, ButtonEntry>,
+        buttonResults: CreateUiButtonResult[],
+        backPlane: Mesh | null,
+        detachText: (() => void) | null,
+    ) {
+        this._scene = scene;
+        this._textManager = textManager;
+        this._buttons = buttons;
+        this._buttonResults = buttonResults;
+        this._backPlane = backPlane;
+        this._detachText = detachText;
     }
 
-    let backPlane: Mesh | null = null;
+    static async create(
+        engine: Engine,
+        scene: Scene,
+        demos: readonly DemoDescriptor[],
+        onDemoClick: (demo: DemoDescriptor) => void,
+        onBackClick: (() => void) | null,
+    ): Promise<DemoUiController> {
+        const textManager = new TextManager(engine);
+        await textManager.init();
 
-    if (onBackClick) {
-        const backY = ORIGIN_Y - demos.length * (BTN_HEIGHT + BTN_GAP) - BACK_TOP_MARGIN;
+        const buttons: Map<string, ButtonEntry> = new Map();
+        const buttonResults: CreateUiButtonResult[] = [];
 
-        const result = createUiButton(scene, {
-            name: 'btn_back',
-            width: BTN_WIDTH * BACK_WIDTH_RATIO,
-            height: BTN_HEIGHT * BACK_HEIGHT_RATIO,
-            position: new Vector3(ORIGIN_X, backY, ORIGIN_Z),
-            bgColor: '#111111bb',
-            borderColor: '#ffffff12',
-            cornerRadius: CORNER_RADIUS,
-            borderThickness: BORDER_THICKNESS,
-            onClick: () => onBackClick(),
-        });
-        backPlane = result.plane;
-        buttonResults.push(result);
+        for (let i = 0; i < demos.length; i++) {
+            const demo = demos[i];
+            const y = DemoUiController._originY - i * (DemoUiController._btnHeight + DemoUiController._btnGap);
+            const position = new Vector3(DemoUiController._originX, y, DemoUiController._originZ);
 
-        addTextParagraph(
-            textRenderer,
-            'Return to Main Scene',
-            new Vector3(ORIGIN_X, backY + TEXT_Y_OFFSET, ORIGIN_Z + TEXT_Z_OFFSET),
-            BACK_TEXT_SCALE,
-        );
+            const result = createUiButton(scene, {
+                name: `btn_${demo.id}`,
+                width: DemoUiController._btnWidth,
+                height: DemoUiController._btnHeight,
+                position,
+                bgColor: '#1a1a1add',
+                borderColor: '#ffffff18',
+                cornerRadius: DemoUiController._cornerRadius,
+                borderThickness: DemoUiController._borderThickness,
+                onClick: () => onDemoClick(demo),
+            });
+
+            textManager.addParagraph(
+                demo.label,
+                new Vector3(DemoUiController._originX, y + DemoUiController._textYOffset, DemoUiController._originZ + DemoUiController._textZOffset),
+                DemoUiController._textScale,
+            );
+
+            buttons.set(demo.id, {
+                plane: result.plane,
+                rect: result.rect,
+                defaultBg: '#1a1a1add',
+                activeBg: '#2a1a0add',
+                defaultBorder: '#ffffff18',
+                activeBorder: '#ffb45044',
+            });
+            buttonResults.push(result);
+        }
+
+        let backPlane: Mesh | null = null;
+
+        if (onBackClick) {
+            const backY = DemoUiController._originY - demos.length * (DemoUiController._btnHeight + DemoUiController._btnGap) - DemoUiController._backTopMargin;
+
+            const result = createUiButton(scene, {
+                name: 'btn_back',
+                width: DemoUiController._btnWidth * DemoUiController._backWidthRatio,
+                height: DemoUiController._btnHeight * DemoUiController._backHeightRatio,
+                position: new Vector3(DemoUiController._originX, backY, DemoUiController._originZ),
+                bgColor: '#111111bb',
+                borderColor: '#ffffff12',
+                cornerRadius: DemoUiController._cornerRadius,
+                borderThickness: DemoUiController._borderThickness,
+                onClick: () => onBackClick(),
+            });
+            backPlane = result.plane;
+            buttonResults.push(result);
+
+            textManager.addParagraph(
+                'Return to Main Scene',
+                new Vector3(DemoUiController._originX, backY + DemoUiController._textYOffset, DemoUiController._originZ + DemoUiController._textZOffset),
+                DemoUiController._backTextScale,
+            );
+        }
+
+        const detachText = textManager.attachToScene(scene);
+
+        return new DemoUiController(scene, textManager, buttons, buttonResults, backPlane, detachText);
     }
 
-    let detachText: (() => void) | null = attachTextRenderer(scene, textRenderer);
-
-    const setVisible = (visible: boolean) => {
-        for (const [, entry] of buttons) {
-            entry.plane.setEnabled(visible);
-        }
-        if (backPlane) backPlane.setEnabled(visible);
-
-        if (!visible && detachText) {
-            detachText();
-            detachText = null;
-        } else if (visible && !detachText) {
-            detachText = attachTextRenderer(scene, textRenderer);
-        }
-    };
-
-    const setActiveDemo = (id: string | null) => {
-        for (const [demoId, entry] of buttons) {
+    setActiveDemo(id: string | null): void {
+        for (const [demoId, entry] of this._buttons) {
             const isActive = demoId === id;
             entry.rect.background = isActive ? entry.activeBg : entry.defaultBg;
             entry.rect.color = isActive ? entry.activeBorder : entry.defaultBorder;
         }
-        if (backPlane) backPlane.setEnabled(id !== null);
-    };
+        if (this._backPlane) this._backPlane.setEnabled(id !== null);
+    }
 
-    return {
-        setActiveDemo,
-        setVisible,
-        dispose: () => {
-            if (detachText) {
-                detachText();
-                detachText = null;
-            }
-            textRenderer.dispose();
-            for (const r of buttonResults) {
-                r.texture.dispose();
-                r.plane.dispose();
-            }
-        },
-    };
+    setVisible(visible: boolean): void {
+        for (const [, entry] of this._buttons) {
+            entry.plane.setEnabled(visible);
+        }
+        if (this._backPlane) this._backPlane.setEnabled(visible);
+
+        if (!visible && this._detachText) {
+            this._detachText();
+            this._detachText = null;
+        } else if (visible && !this._detachText) {
+            this._detachText = this._textManager.attachToScene(this._scene);
+        }
+    }
+
+    dispose(): void {
+        if (this._detachText) {
+            this._detachText();
+            this._detachText = null;
+        }
+        this._textManager.dispose();
+        for (const r of this._buttonResults) {
+            r.texture.dispose();
+            r.plane.dispose();
+        }
+    }
 }

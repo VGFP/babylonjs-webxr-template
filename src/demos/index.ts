@@ -8,31 +8,36 @@ export interface DemoDescriptor {
     reuseScene?: boolean;
 }
 
-const demos: DemoDescriptor[] = [];
+export class DemoRegistry {
+    private static _demos: DemoDescriptor[] = [];
 
-export function registerDemo(demo: DemoDescriptor): void {
-    demos.push(demo);
-}
+    static register(demo: DemoDescriptor): void {
+        DemoRegistry._demos.push(demo);
+    }
 
-export function getDemos(): readonly DemoDescriptor[] {
-    return demos;
-}
+    static getAll(): readonly DemoDescriptor[] {
+        return DemoRegistry._demos;
+    }
 
-export function createDemoScene(engine: Engine, demo: DemoDescriptor, meta?: Record<string, unknown>): Scene {
-    const scene = new Scene(engine);
-    scene.useRightHandedSystem = true;
-    if (meta) scene.metadata = meta;
-    demo.build(scene);
-    return scene;
+    static createScene(engine: Engine, demo: DemoDescriptor, meta?: Record<string, unknown>): Scene {
+        const scene = new Scene(engine);
+        scene.useRightHandedSystem = true;
+        if (meta) scene.metadata = meta;
+        demo.build(scene);
+        return scene;
+    }
 }
 
 import './xrLightShadows';
-import { buildXrLightShadowsDemo } from './xrLightShadows';
+import { XrLightShadowsDemo } from './xrLightShadows';
 
-registerDemo({
+DemoRegistry.register({
     id: 'xr-light-shadows',
     label: 'XR Light & Shadows',
-    build: buildXrLightShadowsDemo,
+    build: (scene) => {
+        const demo = new XrLightShadowsDemo(scene);
+        return () => demo.teardown();
+    },
     ownUi: true,
     reuseScene: true,
 });

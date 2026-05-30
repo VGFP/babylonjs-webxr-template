@@ -24,61 +24,70 @@ export interface WindowLightConfig {
     showDebugMesh?: boolean;
 }
 
-export interface WindowLightResult {
-    light: RectAreaLight;
-    debugMesh: Mesh | null;
-    rootNode: TransformNode;
-}
+export class WindowLight {
+    private static readonly _defaultColor = new Color3(1, 0.95, 0.85);
+    private static readonly _defaultIntensity = 2.0;
+    private static readonly _defaultRange = 50;
 
-export function createWindowLight(
-    scene: Scene,
-    config: WindowLightConfig,
-): WindowLightResult {
-    const {
-        name = 'windowLight',
-        position,
-        width,
-        height,
-        rotationX = 0,
-        rotationY = 0,
-        rotationZ = 0,
-        intensity = 2.0,
-        color = new Color3(1, 0.95, 0.85),
-        range = 50,
-        showDebugMesh = true,
-    } = config;
+    private _light: RectAreaLight;
+    private _debugMesh: Mesh | null;
+    private _rootNode: TransformNode;
 
-    const rootNode = new TransformNode(`${name}_root`, scene);
-    rootNode.position = position;
-    rootNode.rotation.x = rotationX;
-    rootNode.rotation.y = rotationY;
-    rootNode.rotation.z = rotationZ;
+    constructor(scene: Scene, config: WindowLightConfig) {
+        const {
+            name = 'windowLight',
+            position,
+            width,
+            height,
+            rotationX = 0,
+            rotationY = 0,
+            rotationZ = 0,
+            intensity = WindowLight._defaultIntensity,
+            color = WindowLight._defaultColor,
+            range = WindowLight._defaultRange,
+            showDebugMesh = true,
+        } = config;
 
-    const lightOrigin = new Vector3(0, 0, 0);
-    const light = new RectAreaLight(name, lightOrigin, width, height, scene);
-    light.diffuse = color;
-    light.intensity = intensity;
-    light.range = range;
-    light.parent = rootNode;
+        this._rootNode = new TransformNode(`${name}_root`, scene);
+        this._rootNode.position = position;
+        this._rootNode.rotation.x = rotationX;
+        this._rootNode.rotation.y = rotationY;
+        this._rootNode.rotation.z = rotationZ;
 
-    let debugMesh: Mesh | null = null;
+        const lightOrigin = new Vector3(0, 0, 0);
+        this._light = new RectAreaLight(name, lightOrigin, width, height, scene);
+        this._light.diffuse = color;
+        this._light.intensity = intensity;
+        this._light.range = range;
+        this._light.parent = this._rootNode;
 
-    if (showDebugMesh) {
-        debugMesh = MeshBuilder.CreatePlane(
-            `${name}_debug`,
-            { width, height },
-            scene,
-        );
+        this._debugMesh = null;
 
-        const mat = new StandardMaterial(`${name}_mat`, scene);
-        mat.diffuseColor = color;
-        mat.emissiveColor = color.scale(0.4);
-        mat.alpha = 0.3;
-        mat.backFaceCulling = false;
-        mat.disableLighting = true;
-        debugMesh.material = mat;
-        debugMesh.parent = rootNode;
+        if (showDebugMesh) {
+            this._debugMesh = MeshBuilder.CreatePlane(
+                `${name}_debug`,
+                { width, height },
+                scene,
+            );
+
+            const mat = new StandardMaterial(`${name}_mat`, scene);
+            mat.diffuseColor = color;
+            mat.emissiveColor = color.scale(0.4);
+            mat.alpha = 0.3;
+            mat.backFaceCulling = false;
+            mat.disableLighting = true;
+            this._debugMesh.material = mat;
+            this._debugMesh.parent = this._rootNode;
+        }
     }
 
-    return { light, debugMesh, rootNode };
+    get light(): RectAreaLight { return this._light; }
+    get debugMesh(): Mesh | null { return this._debugMesh; }
+    get rootNode(): TransformNode { return this._rootNode; }
+
+    dispose(): void {
+        this._light.dispose();
+        if (this._debugMesh) this._debugMesh.dispose();
+        this._rootNode.dispose();
+    }
 }

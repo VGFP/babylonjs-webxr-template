@@ -1,9 +1,8 @@
 import { Engine, Scene, WebXRDefaultExperience } from '@babylonjs/core';
-import { TextRenderer } from '@babylonjs/addons/msdfText';
-import { attachTextRenderer } from '../text/textRenderer';
-import { createXrExperience } from '../xr/xrExperience';
-import { createDemoScene, type DemoDescriptor } from '../demos';
-import { createDemoUi, type DemoUi } from '../demos/demoUi';
+import { TextManager } from '../text/textRenderer';
+import { XrExperience } from '../xr/xrExperience';
+import { DemoRegistry, type DemoDescriptor } from '../demos';
+import { DemoUiController, type DemoUi } from '../demos/demoUi';
 
 type SceneState =
     | { type: 'home' }
@@ -19,7 +18,7 @@ interface HomeResources {
 
 export interface SceneManagerConfig {
     engine: Engine;
-    textRenderer: TextRenderer;
+    textManager: TextManager;
     homeScene: Scene;
     homeXr: WebXRDefaultExperience;
     homeDetachText: () => void;
@@ -35,22 +34,22 @@ const NOOP_UI: DemoUi = {
 };
 
 export class SceneManager {
-    private readonly engine: Engine;
-    private readonly textRenderer: TextRenderer;
-    private readonly demos: readonly DemoDescriptor[];
-    private readonly debug: boolean;
-    private readonly onWireXrState: (xr: WebXRDefaultExperience) => void;
-    private readonly home: HomeResources;
-    private state: SceneState = { type: 'home' };
+    private readonly _engine: Engine;
+    private readonly _textManager: TextManager;
+    private readonly _demos: readonly DemoDescriptor[];
+    private readonly _debug: boolean;
+    private readonly _onWireXrState: (xr: WebXRDefaultExperience) => void;
+    private readonly _home: HomeResources;
+    private _state: SceneState = { type: 'home' };
 
     constructor(config: SceneManagerConfig) {
-        this.engine = config.engine;
-        this.textRenderer = config.textRenderer;
-        this.demos = config.demos;
-        this.debug = config.debug ?? false;
-        this.onWireXrState = config.onWireXrState;
+        this._engine = config.engine;
+        this._textManager = config.textManager;
+        this._demos = config.demos;
+        this._debug = config.debug ?? false;
+        this._onWireXrState = config.onWireXrState;
 
-        this.home = {
+        this._home = {
             scene: config.homeScene,
             xr: config.homeXr,
             ui: NOOP_UI,
@@ -59,101 +58,103 @@ export class SceneManager {
     }
 
     setHomeUi(ui: DemoUi): void {
-        this.home.ui = ui;
+        this._home.ui = ui;
     }
 
     get activeScene(): Scene {
-        return this.state.type === 'own_scene' ? this.state.scene : this.home.scene;
+        return this._state.type === 'own_scene' ? this._state.scene : this._home.scene;
     }
 
     get activeXr(): WebXRDefaultExperience {
-        return this.state.type === 'own_scene' ? this.state.xr : this.home.xr;
+        return this._state.type === 'own_scene' ? this._state.xr : this._home.xr;
     }
 
     async switchToDemo(demo: DemoDescriptor): Promise<void> {
-        if (this.state.type !== 'home' && this.state.demoId === demo.id) return;
+        if (this._state.type !== 'home' && this._state.demoId === demo.id) return;
 
-        this.cleanupCurrentState();
+        this._cleanupCurrentState();
 
         if (demo.reuseScene) {
-            this.enterReusedScene(demo);
+            this._enterReusedScene(demo);
         } else {
-            await this.enterOwnScene(demo);
+            await this._enterOwnScene(demo);
         }
     }
 
     async switchToHome(): Promise<void> {
-        if (this.state.type === 'home') return;
+        if (this._state.type === 'home') return;
 
-        this.cleanupCurrentState();
-        this.enterHome();
+        this._cleanupCurrentState();
+        this._enterHome();
     }
 
-    private cleanupCurrentState(): void {
-        switch (this.state.type) {
+    private _cleanupCurrentState(): void {
+        switch (this._state.type) {
             case 'home':
-                this.home.detachText();
-                this.home.ui.setVisible(false);
+                this._home.detachText();
+                this._home.ui.setVisible(false);
                 break;
             case 'reused_scene':
-                this.state.teardown();
-                this.home.scene.metadata = {};
+                this._state.teardown();
+                this._home.scene.metadata = {};
                 break;
             case 'own_scene':
-                this.state.ui.dispose();
-                this.state.scene.dispose();
+                this._state.ui.dispose();
+                this._state.scene.dispose();
                 break;
         }
     }
 
-    private enterHome(): void {
-        const detachText = attachTextRenderer(this.home.scene, this.textRenderer);
-        this.home.ui.setVisible(true);
-        this.home.ui.setActiveDemo(null);
-        this.home.detachText = detachText;
-        this.state = { type: 'home' };
+    private _enterHome(): void {
+        const detachText = this._textManager.attachToScene(this._home.scene);
+        this._home.ui.setVisible(true);
+        this._home.ui.setActiveDemo(null);
+        this._home.detachText = detachText;
+        this._state = { type: 'home' };
     }
 
-    private enterReusedScene(demo: DemoDescriptor): void {
-        this.home.scene.metadata = {
+    private _enterReusedScene(demo: DemoDescriptor): void {
+        this._home.scene.metadata = {
             goBack: () => this.switchToHome(),
-            xr: this.home.xr,
+            xr: this._home.xr,
         };
-        const teardown = demo.build(this.home.scene);
-        this.state = {
+        const teardown = demo.build(this._home.scene);
+        this._state = {
             type: 'reused_scene',
             demoId: demo.id,
             teardown: teardown ?? (() => {}),
         };
     }
 
-    private async enterOwnScene(demo: DemoDescriptor): Promise<void> {
-        const newScene = createDemoScene(this.engine, demo, {
+    private async _enterOwnScene(demo: DemoDescriptor): Promise<void> {
+        const newScene = DemoRegistry.createScene(this._engine, demo, {
             goBack: () => this.switchToHome(),
         });
-        const newXr = await createXrExperience(newScene);
+        const xrExperience = new XrExperience(newScene);
+        await xrExperience.init();
+        const newXr = xrExperience.xr;
 
         let ui: DemoUi;
         if (demo.ownUi) {
             ui = NOOP_UI;
         } else {
-            const otherDemos = this.demos.filter(d => d.id !== demo.id);
-            ui = await createDemoUi(
-                this.engine,
+            const otherDemos = this._demos.filter((d: DemoDescriptor) => d.id !== demo.id);
+            ui = await DemoUiController.create(
+                this._engine,
                 newScene,
                 otherDemos,
-                (d) => this.switchToDemo(d),
+                (d: DemoDescriptor) => this.switchToDemo(d),
                 () => this.switchToHome(),
             );
         }
 
         if (!demo.ownUi) {
-            attachTextRenderer(newScene, this.textRenderer);
+            this._textManager.attachToScene(newScene);
         }
 
-        this.onWireXrState(newXr);
+        this._onWireXrState(newXr);
 
-        if (this.debug) {
+        if (this._debug) {
             import('@babylonjs/inspector').then(({ Inspector }) => {
                 Inspector.Show(newScene, { overlay: true });
             });
@@ -161,7 +162,7 @@ export class SceneManager {
 
         ui.setActiveDemo(demo.id);
 
-        this.state = {
+        this._state = {
             type: 'own_scene',
             demoId: demo.id,
             scene: newScene,
