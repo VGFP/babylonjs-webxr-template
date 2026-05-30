@@ -182,6 +182,12 @@ The APK is output to `dist-apk/`. A `twa-manifest.json` is saved to the project 
 
 The `.github/workflows/build-apk.yml` workflow calls `bash scripts/build-apk.sh` on every push to `main`. Signing keys are read from GitHub Secrets (`KEYSTORE_BASE64`, `KEY_ALIAS`, `KEY_STORE_PASSWORD`, `KEY_PASSWORD`).
 
+## Scenes & Demos
+
+The app uses a `SceneManager` to switch between a home scene and demo scenes. The home scene shows a Hello World text anchor. Each demo is a self-contained class that sets up its own lights, meshes, and UI, and can be entered/exited via in-world buttons.
+
+**Lights & Shadows Demo** — places a shadow-casting cube in the room and renders dynamic shadows on detected planes. Users can add/remove point lights, toggle default lighting, and persist light positions via localStorage. Requires WebXR with plane detection support.
+
 ## Project Structure
 
 ```
@@ -206,10 +212,13 @@ The `.github/workflows/build-apk.yml` workflow calls `bash scripts/build-apk.sh`
 │   ├── generate-docs-for-mcp.sh    # Generate markdown docs
 │   └── setup-ai-tools.sh           # AI tools installer + MCP config
 ├── src/
-│   ├── core/             # Engine/scene setup, shared types, UI utilities
-│   ├── lighting/         # Lights and shadow generator
-│   ├── xr/               # WebXR experience helper
-│   ├── text/             # MSDF text renderer
+│   ├── core/             # Engine/scene setup, SceneManager, shared types, UI utilities
+│   ├── demos/            # Demo scenes (lights/shadows) and registry
+│   ├── lighting/         # ShadowManager, WindowLight
+│   ├── materials/        # Shadow-only material helpers
+│   ├── meshes/           # Polygon mesh builder for detected planes
+│   ├── xr/               # WebXR experience, plane detection, anchors
+│   ├── text/             # MSDF text renderer (TextManager)
 │   ├── main.ts           # App entry point
 │   └── style.css
 ├── index.html
