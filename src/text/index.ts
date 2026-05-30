@@ -1,1 +1,1 @@
-export { createTextRenderer, attachTextRenderer } from './textRenderer';
+export { TextManager } from './textRenderer';

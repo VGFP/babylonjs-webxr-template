@@ -1,1 +1,3 @@
-export { createShadowGenerator, createLights } from './shadows';
+export { ShadowManager } from './shadows';
+export { WindowLight } from './windowLight';
+export type { WindowLightConfig } from './windowLight';

@@ -131,3 +131,10 @@ body {
   fill: currentColor;
   flex-shrink: 0;
 }
+
+.xr-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}

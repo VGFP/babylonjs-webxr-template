@@ -1,34 +1,72 @@
-import { Scene, WebXRDefaultExperience } from '@babylonjs/core';
-
+import { Scene, WebXRDefaultExperience, WebXRFeaturesManager } from '@babylonjs/core';
 import '@babylonjs/core/XR/webXRDefaultExperience';
+import '@babylonjs/core/XR/features/WebXRPlaneDetector';
+import '@babylonjs/core/XR/features/WebXRAnchorSystem';
 
 import type { XrConfig } from '../core/types';
 
-const DEFAULT_CONFIG: XrConfig = {
-    sessionMode: "immersive-ar",
-    referenceSpaceType: "local-floor",
-    optionalFeatures: true,
-};
+export class XrExperience {
+    private static readonly _defaultConfig: XrConfig = {
+        sessionMode: "immersive-ar",
+        referenceSpaceType: "local-floor",
+        optionalFeatures: true,
+    };
 
-export async function createXrExperience(
-    scene: Scene,
-    config: XrConfig = DEFAULT_CONFIG,
-): Promise<WebXRDefaultExperience> {
-    const xr = await WebXRDefaultExperience.CreateAsync(scene, {
-        uiOptions: {
-            sessionMode: config.sessionMode,
-            referenceSpaceType: config.referenceSpaceType,
-            onError: (error) => {
-                alert(error);
-            },
-        },
-        optionalFeatures: config.optionalFeatures,
-        disableDefaultUI: true,
-    });
+    private _scene: Scene;
+    private _config: XrConfig;
+    private _xr: WebXRDefaultExperience | null = null;
+    private _fm: WebXRFeaturesManager | null = null;
+    private _xrPlanes: any | null = null;
+    private _xrAnchors: any | null = null;
 
-    if (!xr.baseExperience) {
-        throw new Error('Unable to create XR experience');
+    constructor(scene: Scene, config?: XrConfig) {
+        this._scene = scene;
+        this._config = config ?? XrExperience._defaultConfig;
     }
 
-    return xr;
+    async init(): Promise<void> {
+        this._xr = await WebXRDefaultExperience.CreateAsync(this._scene, {
+            uiOptions: {
+                sessionMode: this._config.sessionMode,
+                referenceSpaceType: this._config.referenceSpaceType,
+                onError: (error) => {
+                    alert(error);
+                },
+            },
+            optionalFeatures: this._config.optionalFeatures,
+            disableDefaultUI: true,
+        });
+
+        if (!this._xr.baseExperience) {
+            throw new Error('Unable to create XR experience');
+        }
+
+        this._fm = this._xr.baseExperience.featuresManager;
+        this._xrPlanes = this._enablePlaneDetection();
+        this._xrAnchors = this._enableAnchors();
+    }
+
+    private _enablePlaneDetection(): any | null {
+        try {
+            return this._fm!.enableFeature('xr-plane-detection', 'latest');
+        } catch (e) {
+            console.warn('Plane detection not available:', e);
+            return null;
+        }
+    }
+
+    private _enableAnchors(): any | null {
+        try {
+            return this._fm!.enableFeature('xr-anchor-system', 'latest');
+        } catch (e) {
+            console.warn('Anchors not available:', e);
+            return null;
+        }
+    }
+
+    get xr(): WebXRDefaultExperience { return this._xr!; }
+    get fm(): WebXRFeaturesManager { return this._fm!; }
+    get planes(): any { return this._xrPlanes; }
+    get anchors(): any { return this._xrAnchors; }
+    get scene(): Scene { return this._scene; }
 }
