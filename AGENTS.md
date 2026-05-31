@@ -4,7 +4,13 @@
 
 - `pnpm dev` - Vite dev server on port 5173 (HTTPS auto-enabled if `.certs/` exists)
 - `pnpm build` - production build to `dist/`
-- No test, lint, format, or typecheck commands are configured.
+- `pnpm lint` - ESLint check (`pnpm lint:fix` to auto-fix)
+- `pnpm format` - Prettier check (`pnpm format:fix` to auto-fix)
+- `pnpm typecheck` - TypeScript `tsc --noEmit`
+- `pnpm check` - runs lint + format + typecheck together
+- No test commands are configured.
+
+A **pre-commit hook** (via Husky + lint-staged) runs `tsc --noEmit` on the full project, then `eslint --fix` and `prettier --write` on staged `.ts` files.
 
 ## Architecture
 

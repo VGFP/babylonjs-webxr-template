@@ -31,11 +31,7 @@ export class TextManager {
     }
 
     addParagraph(text: string, position: Vector3, scale: number = 0.04): void {
-        const matrix = Matrix.Compose(
-            new Vector3(scale, scale, scale),
-            Quaternion.Identity(),
-            position,
-        );
+        const matrix = Matrix.Compose(new Vector3(scale, scale, scale), Quaternion.Identity(), position);
         this._renderer!.addParagraph(text, { textAlign: 'center' }, matrix);
     }
 
@@ -53,7 +49,9 @@ export class TextManager {
         };
     }
 
-    get renderer(): TextRenderer { return this._renderer!; }
+    get renderer(): TextRenderer {
+        return this._renderer!;
+    }
 
     dispose(): void {
         if (this._renderer) {

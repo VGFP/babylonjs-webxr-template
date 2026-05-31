@@ -32,18 +32,20 @@ class App {
         this._scene = new Scene(this._engine);
         this._scene.useRightHandedSystem = true;
 
-        this.bootstrapXr().then(() => {
-            this.createScene().then(() => {
-                this._engine.runRenderLoop(() => {
-                    this._sceneManager!.activeScene.render();
+        this.bootstrapXr()
+            .then(() => {
+                this.createScene().then(() => {
+                    this._engine.runRenderLoop(() => {
+                        this._sceneManager!.activeScene.render();
+                    });
+                    window.addEventListener('resize', () => {
+                        this._engine.resize();
+                    });
                 });
-                window.addEventListener('resize', () => {
-                    this._engine.resize();
-                });
+            })
+            .catch((error) => {
+                console.error(error);
             });
-        }).catch((error) => {
-            console.error(error);
-        });
     }
 
     async bootstrapXr(): Promise<void> {
@@ -59,7 +61,11 @@ class App {
     async createScene(): Promise<void> {
         new ShadowManager(this._scene);
 
-        this._planeDetectionManager = new PlaneDetectionManager(this._scene, this._xrExperience!.xr, this._xrExperience!.planes);
+        this._planeDetectionManager = new PlaneDetectionManager(
+            this._scene,
+            this._xrExperience!.xr,
+            this._xrExperience!.planes,
+        );
         this._planeDetectionManager.wireObservables();
 
         (this._scene.metadata as Record<string, unknown>).planeDetectionManager = this._planeDetectionManager;

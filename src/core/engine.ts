@@ -12,7 +12,13 @@ export class EngineFactory {
         this._scene.useRightHandedSystem = true;
     }
 
-    get canvas(): HTMLCanvasElement { return this._canvas; }
-    get engine(): Engine { return this._engine; }
-    get scene(): Scene { return this._scene; }
+    get canvas(): HTMLCanvasElement {
+        return this._canvas;
+    }
+    get engine(): Engine {
+        return this._engine;
+    }
+    get scene(): Scene {
+        return this._scene;
+    }
 }

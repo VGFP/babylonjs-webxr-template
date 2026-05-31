@@ -1,11 +1,4 @@
-import {
-    Material,
-    Mesh,
-    PolygonMeshBuilder,
-    Quaternion,
-    Scene,
-    Vector2,
-} from '@babylonjs/core';
+import { Material, Mesh, PolygonMeshBuilder, Quaternion, Scene, Vector2 } from '@babylonjs/core';
 import earcut from 'earcut';
 
 export interface PolygonPlaneData {
@@ -14,11 +7,7 @@ export interface PolygonPlaneData {
     orientation: string;
 }
 
-export function buildPolygonMesh(
-    plane: PolygonPlaneData,
-    scene: Scene,
-    mat?: Material,
-): Mesh {
+export function buildPolygonMesh(plane: PolygonPlaneData, scene: Scene, mat?: Material): Mesh {
     const closedPoints = [...plane.polygonDefinition, plane.polygonDefinition[0]];
     const builder = new PolygonMeshBuilder(
         plane.orientation,
