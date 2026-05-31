@@ -13,6 +13,8 @@
     "format:fix": "prettier --write src/",
     "typecheck": "tsc --noEmit",
     "check": "pnpm lint && pnpm format && pnpm typecheck",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "prepare": "husky"
   },
   "lint-staged": {
@@ -44,6 +46,7 @@
     "typescript": "^5.7.0",
     "typescript-eslint": "^8.60.0",
     "vite": "^6.0.0",
+    "vitest": "^4.1.7",
     "zod": "^4.4.3"
   }
 }

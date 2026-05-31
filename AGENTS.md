@@ -8,7 +8,7 @@
 - `pnpm format` - Prettier check (`pnpm format:fix` to auto-fix)
 - `pnpm typecheck` - TypeScript `tsc --noEmit`
 - `pnpm check` - runs lint + format + typecheck together
-- No test commands are configured.
+- `pnpm test` - runs unit tests with vitest (`pnpm test:watch` for watch mode)
 
 A **pre-commit hook** (via Husky + lint-staged) runs `tsc --noEmit` on the full project, then `eslint --fix` and `prettier --write` on staged `.ts` files.
 
