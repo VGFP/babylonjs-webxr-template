@@ -8,7 +8,7 @@ KEY_FILE="$PROJECT_DIR/.certs/localhost.key"
 PEM_FILE="$PROJECT_DIR/.certs/localhost.pem"
 
 if [ -f "$KEY_FILE" ] && [ -f "$PEM_FILE" ]; then
-  echo "Certificates already exist at .certs/ — skipping."
+  echo "Certificates already exist at .certs/ - skipping."
   exit 0
 fi
 

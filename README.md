@@ -9,7 +9,7 @@ Template for creating WebXR apps on Meta Quest 3 with BabylonJS.
 ## Quick Start
 
 1. Open this repo in VS Code and select **Reopen in Container** when prompted
-2. The container builds automatically — pnpm and dependencies are installed
+2. The container builds automatically - pnpm and dependencies are installed
 3. Run the dev server:
 
 ```bash
@@ -26,7 +26,7 @@ To open the [BabylonJS Inspector](https://doc.babylonjs.com/toolsAndResources/in
 VITE_DEBUG=true pnpm dev
 ```
 
-This adds a collapsible overlay on the right side of the page for inspecting scene nodes, materials, textures, and performance. The inspector is dynamically imported — it adds zero overhead when `VITE_DEBUG` is not set.
+This adds a collapsible overlay on the right side of the page for inspecting scene nodes, materials, textures, and performance. The inspector is dynamically imported - it adds zero overhead when `VITE_DEBUG` is not set.
 
 ## Scripts
 
@@ -52,7 +52,7 @@ Vite automatically uses these when present (`vite.config.ts` detects `.certs/` a
 bash scripts/generate-cert.sh
 ```
 
-On first visit, browsers will show a certificate warning — accept it to proceed. On Meta Quest, you may need to accept the warning in the browser before entering VR.
+On first visit, browsers will show a certificate warning - accept it to proceed. On Meta Quest, you may need to accept the warning in the browser before entering VR.
 
 ## Makefile Targets
 
@@ -64,12 +64,12 @@ On first visit, browsers will show a certificate warning — accept it to procee
 
 ## AI Coding Tools
 
-The `make setup-ai` command installs CLI AI coding assistants and configures the BabylonJS Docs MCP server. The docs are included in the repo in `docs-for-mcp/` — no generation step needed.
+The `make setup-ai` command installs CLI AI coding assistants and configures the BabylonJS Docs MCP server. The docs are included in the repo in `docs-for-mcp/` - no generation step needed.
 
 Supported tools:
-- **Claude Code** — `@anthropic-ai/claude-code` (creates `.mcp.json`)
-- **OpenCode** — `opencode` (creates `opencode.json`)
-- **Kilo Code** — `kilocode` (creates `kilo.json`)
+- **Claude Code** - `@anthropic-ai/claude-code` (creates `.mcp.json`)
+- **OpenCode** - `opencode` (creates `opencode.json`)
+- **Kilo Code** - `kilocode` (creates `kilo.json`)
 
 Each tool gets a project-level config file with the local BabylonJS Docs MCP server:
 
@@ -95,8 +95,8 @@ The local MCP server (`mcp/server.mjs`) exposes three tools for searching and re
 ### Regenerating / Updating Docs
 
 The docs in `docs-for-mcp/` were generated from two sources:
-- **API reference** — TypeDoc output from the BabylonJS TypeScript source (`babylonjs-source/`)
-- **Guides & examples** — Markdown content from the BabylonJS Documentation repo (`babylonjs-docs/`)
+- **API reference** - TypeDoc output from the BabylonJS TypeScript source (`babylonjs-source/`)
+- **Guides & examples** - Markdown content from the BabylonJS Documentation repo (`babylonjs-docs/`)
 
 To regenerate (e.g. after a BabylonJS version bump):
 
@@ -186,13 +186,19 @@ The `.github/workflows/build-apk.yml` workflow calls `bash scripts/build-apk.sh`
 
 The app uses a `SceneManager` to switch between a home scene and demo scenes. The home scene shows a Hello World text anchor. Each demo is a self-contained class that sets up its own lights, meshes, and UI, and can be entered/exited via in-world buttons.
 
-**Lights & Shadows Demo** — places a shadow-casting cube in the room and renders dynamic shadows on detected planes. Users can add/remove point lights, toggle default lighting, and persist light positions via localStorage. Requires WebXR with plane detection support.
+**Lights & Shadows Demo** - places a shadow-casting cube in the room and renders dynamic shadows on detected planes. Users can add/remove point lights, toggle default lighting, and persist light positions via localStorage. Requires WebXR with plane detection support.
+
+## Guides
+
+- **[MSDF Text Rendering for XR Buttons](docs/msdf-text-buttons-guide.md)** - How to create high-resolution buttons with MSDF text, why it outperforms GUI TextBlock for XR, positioning, font customization, and troubleshooting.
+- **[Scene Management in WebXR](docs/scene-management-guide.md)** - Why you can't switch scenes in WebXR, the two strategies (reused vs own scene), state machine architecture, and how to add new demo scenes.
 
 ## Project Structure
 
 ```
 ├── .certs/               # Local HTTPS certs (gitignored, auto-generated)
 ├── .devcontainer/        # Devcontainer config (Dockerfile + features)
+├── docs/                 # Project guides (MSDF text, scene management)
 ├── docs-for-mcp/         # BabylonJS docs for MCP server
 │   ├── api/              # TypeDoc-generated API reference
 │   └── examples/         # Guides and tutorials

@@ -125,7 +125,7 @@ BUILD_DIR=$(mktemp -d "${TMPDIR:-/tmp}/pwa-build.XXXXXX")
 trap 'rm -rf "$BUILD_DIR"' EXIT
 
 if [ -z "$KEYSTORE_PATH" ]; then
-  warn "No keystore provided — generating a debug keystore."
+  warn "No keystore provided - generating a debug keystore."
   KEYSTORE_PATH="${HOME}/.local/share/babylonxr/debug.keystore"
   if [ ! -f "$KEYSTORE_PATH" ]; then
     mkdir -p "$(dirname "$KEYSTORE_PATH")"
@@ -178,7 +178,7 @@ info "Output:    $OUTPUT_DIR"
 echo ""
 
 if [ -f "${PROJECT_ROOT}/twa-manifest.json" ]; then
-  log "Found twa-manifest.json — running bubblewrap update"
+  log "Found twa-manifest.json - running bubblewrap update"
   cp "${PROJECT_ROOT}/twa-manifest.json" "$BUILD_DIR/"
   cd "$BUILD_DIR"
   bubblewrap update --skipPwaValidation
