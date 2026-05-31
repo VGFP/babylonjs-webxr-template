@@ -1,6 +1,6 @@
 # Scene Management in WebXR
 
-This guide explains how this project manages multiple "scenes" (home view, demos) within a single WebXR session — why traditional scene switching doesn't work in XR, the architecture used here, and how to add your own scenes.
+This guide explains how this project manages multiple "scenes" (home view, demos) within a single WebXR session - why traditional scene switching doesn't work in XR, the architecture used here, and how to add your own scenes.
 
 ## Table of Contents
 
@@ -17,9 +17,9 @@ This guide explains how this project manages multiple "scenes" (home view, demos
 
 ## The Problem: Why You Can't Just Switch Scenes in WebXR
 
-In a standard BabylonJS application, you can freely create and dispose `Scene` objects — just call `scene.dispose()` and create a new one. But in **WebXR**, this breaks:
+In a standard BabylonJS application, you can freely create and dispose `Scene` objects - just call `scene.dispose()` and create a new one. But in **WebXR**, this breaks:
 
-1. **The XR session is bound to a scene.** When you call `WebXRDefaultExperience.CreateAsync(scene, ...)`, the XR session, camera, controllers, plane detection, anchors — all are bound to that specific `Scene` instance.
+1. **The XR session is bound to a scene.** When you call `WebXRDefaultExperience.CreateAsync(scene, ...)`, the XR session, camera, controllers, plane detection, anchors - all are bound to that specific `Scene` instance.
 
 2. **Disposing the scene kills the XR session.** Calling `scene.dispose()` tears down the WebGL resources and the XR session with it. The user gets kicked out of immersive-AR mode.
 
@@ -31,10 +31,10 @@ This means: **once the user is in XR, you must keep the same scene alive** (or a
 
 | Approach | XR session | Complexity | Performance | Use case |
 |---|---|---|---|---|
-| **Reload the page** | New session | Trivial | Terrible — full reload | Never |
-| **Separate scenes with separate XR sessions** | One per scene | High — duplicate XR setup | Medium — two sessions active briefly | Complex standalone experiences |
-| **Reuse the same scene, swap content** | Same session | Medium — manual cleanup | Best — no XR overhead | Demos, menus, multi-feature apps |
-| **Reuse the same scene + XR, via `metadata` injection** | Same session | Low — framework handles it | Best | This project's approach |
+| **Reload the page** | New session | Trivial | Terrible - full reload | Never |
+| **Separate scenes with separate XR sessions** | One per scene | High - duplicate XR setup | Medium - two sessions active briefly | Complex standalone experiences |
+| **Reuse the same scene, swap content** | Same session | Medium - manual cleanup | Best - no XR overhead | Demos, menus, multi-feature apps |
+| **Reuse the same scene + XR, via `metadata` injection** | Same session | Low - framework handles it | Best | This project's approach |
 
 ---
 
@@ -75,11 +75,11 @@ This project uses the **scene reuse** strategy with a state machine (`SceneManag
 
 | File | Role |
 |---|---|
-| `src/core/sceneManager.ts` | `SceneManager` — state machine that switches between home and demos |
-| `src/demos/index.ts` | `DemoRegistry` — catalog of available demos + `DemoDescriptor` type |
-| `src/demos/demoUi.ts` | `DemoUiController` — creates the floating button menu for navigation |
-| `src/xr/xrExperience.ts` | `XrExperience` — wraps WebXR session creation (planes, anchors) |
-| `src/main.ts` | Entry point — wires everything together |
+| `src/core/sceneManager.ts` | `SceneManager` - state machine that switches between home and demos |
+| `src/demos/index.ts` | `DemoRegistry` - catalog of available demos + `DemoDescriptor` type |
+| `src/demos/demoUi.ts` | `DemoUiController` - creates the floating button menu for navigation |
+| `src/xr/xrExperience.ts` | `XrExperience` - wraps WebXR session creation (planes, anchors) |
+| `src/main.ts` | Entry point - wires everything together |
 
 ---
 
@@ -117,13 +117,13 @@ DemoRegistry.register({
 ```
 
 **Pros:**
-- Zero overhead — no new XR session, no scene creation
+- Zero overhead - no new XR session, no scene creation
 - Access to existing XR features (planes, anchors) immediately
-- Fast transitions — just add/remove objects
+- Fast transitions - just add/remove objects
 
 **Cons:**
 - Must be careful not to conflict with home scene objects
-- Manual cleanup is critical — any leaked object persists
+- Manual cleanup is critical - any leaked object persists
 - Shares camera, clearColor, and render settings with home
 
 ### Strategy 2: Own Scene (`reuseScene: false`)
@@ -158,13 +158,13 @@ DemoRegistry.register({
 ```
 
 **Pros:**
-- Complete isolation — no risk of interfering with other scenes
+- Complete isolation - no risk of interfering with other scenes
 - Fresh camera, lighting, render settings
 - Scene disposal cleans up everything at once
 
 **Cons:**
 - Creates a second XR session (brief overlap during transition)
-- Slower transition — must initialize XR features (plane detection, anchors)
+- Slower transition - must initialize XR features (plane detection, anchors)
 - XR features must be re-enabled for the new scene
 
 ---
@@ -309,19 +309,19 @@ type SceneState =
 ```
 
 Exposes:
-- `activeScene` — the `Scene` the render loop should render
-- `activeXr` — the `WebXRDefaultExperience` for the active scene
-- `switchToDemo(demo)` — transition from current state to a demo
-- `switchToHome()` — transition back to home
+- `activeScene` - the `Scene` the render loop should render
+- `activeXr` - the `WebXRDefaultExperience` for the active scene
+- `switchToDemo(demo)` - transition from current state to a demo
+- `switchToHome()` - transition back to home
 
 ### `DemoRegistry` (catalog)
 
 Static registry of `DemoDescriptor` objects. Each descriptor defines:
-- `id` — unique identifier
-- `label` — display name for the UI button
-- `build(scene)` — factory function, returns optional teardown
-- `ownUi` — whether the demo manages its own UI
-- `reuseScene` — whether to reuse the home scene
+- `id` - unique identifier
+- `label` - display name for the UI button
+- `build(scene)` - factory function, returns optional teardown
+- `ownUi` - whether the demo manages its own UI
+- `reuseScene` - whether to reuse the home scene
 
 ### `DemoUiController` (navigation UI)
 
@@ -409,7 +409,7 @@ class MyDemo {
 
 ### "Kicked out of XR when switching scenes"
 
-This happens if you dispose the home scene while in XR. With `reuseScene: true`, the home scene is never disposed — only objects added by the demo are cleaned up. With `reuseScene: false`, a new XR session is created for the new scene before the old one is disposed.
+This happens if you dispose the home scene while in XR. With `reuseScene: true`, the home scene is never disposed - only objects added by the demo are cleaned up. With `reuseScene: false`, a new XR session is created for the new scene before the old one is disposed.
 
 ### Objects from a previous demo are still visible
 

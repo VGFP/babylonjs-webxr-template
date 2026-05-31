@@ -19,16 +19,16 @@ When rendering text in a 3D/XR scene, you have several options. Here's how they 
 
 | Approach | Resolution | Performance | XR Suitability |
 |---|---|---|---|
-| **GUI TextBlock** (AdvancedDynamicTexture) | Fixed texture resolution — blurs when viewed up close | Good for small UIs | Poor — users walk close to buttons in XR and see blurry text |
-| **Bitmap fonts** (sprite sheets) | Pixelates at any scale other than native | Fast | Poor — need multiple resolution variants |
-| **Single-channel SDF** | Scalable but loses sharp corners | Fast | Decent — but corners and serifs round off |
-| **MSDF** (this project) | Resolution-independent — crisp at any scale | Fast — GPU shader-based | Excellent — perfect for XR where viewing distance varies |
+| **GUI TextBlock** (AdvancedDynamicTexture) | Fixed texture resolution - blurs when viewed up close | Good for small UIs | Poor - users walk close to buttons in XR and see blurry text |
+| **Bitmap fonts** (sprite sheets) | Pixelates at any scale other than native | Fast | Poor - need multiple resolution variants |
+| **Single-channel SDF** | Scalable but loses sharp corners | Fast | Decent - but corners and serifs round off |
+| **MSDF** (this project) | Resolution-independent - crisp at any scale | Fast - GPU shader-based | Excellent - perfect for XR where viewing distance varies |
 
 ### Why this matters for XR
 
-In a WebXR immersive-AR session, the user is physically present in the scene. They can walk right up to a floating button and examine it from centimeters away. Traditional GUI textures (like `AdvancedDynamicTexture` with a `TextBlock`) use a fixed-resolution bitmap — typically 512x89 pixels for a button. At arm's length the text looks fine, but up close it becomes a blurry mess.
+In a WebXR immersive-AR session, the user is physically present in the scene. They can walk right up to a floating button and examine it from centimeters away. Traditional GUI textures (like `AdvancedDynamicTexture` with a `TextBlock`) use a fixed-resolution bitmap - typically 512x89 pixels for a button. At arm's length the text looks fine, but up close it becomes a blurry mess.
 
-MSDF solves this by encoding glyph shapes as mathematical distance fields in three color channels (RGB). A GPU shader reconstructs perfect vector-quality outlines at **any scale** — the same technique used by modern game engines for HUD text. Whether the button is 2 meters away or 20 centimeters from the user's eyes, the text remains razor-sharp.
+MSDF solves this by encoding glyph shapes as mathematical distance fields in three color channels (RGB). A GPU shader reconstructs perfect vector-quality outlines at **any scale** - the same technique used by modern game engines for HUD text. Whether the button is 2 meters away or 20 centimeters from the user's eyes, the text remains razor-sharp.
 
 ---
 
@@ -51,13 +51,13 @@ This project separates the button into two independent layers:
 
 ### Key files
 
-- **`src/text/textRenderer.ts`** — `TextManager` class. Wraps the BabylonJS `TextRenderer` addon. Loads an MSDF font, provides `addParagraph()` to place text at world positions, and `attachToScene()` to hook rendering into the scene's render loop.
+- **`src/text/textRenderer.ts`** - `TextManager` class. Wraps the BabylonJS `TextRenderer` addon. Loads an MSDF font, provides `addParagraph()` to place text at world positions, and `attachToScene()` to hook rendering into the scene's render loop.
 
-- **`src/core/uiButton.ts`** — `createUiButton()` function. Creates a 3D `Mesh` plane, attaches an `AdvancedDynamicTexture` with a `Rectangle` control (for background color, border, rounded corners), and wires up click handlers via `ActionManager`.
+- **`src/core/uiButton.ts`** - `createUiButton()` function. Creates a 3D `Mesh` plane, attaches an `AdvancedDynamicTexture` with a `Rectangle` control (for background color, border, rounded corners), and wires up click handlers via `ActionManager`.
 
-- **`src/demos/demoUi.ts`** — `DemoUiController`. A full example that creates multiple buttons, each with MSDF text labels, and manages visibility/active states.
+- **`src/demos/demoUi.ts`** - `DemoUiController`. A full example that creates multiple buttons, each with MSDF text labels, and manages visibility/active states.
 
-- **`src/demos/xrLightShadows.ts`** — `XrLightShadowsDemo`. Another example with action buttons (Add Light, Delete Light, etc.) using the same pattern.
+- **`src/demos/xrLightShadows.ts`** - `XrLightShadowsDemo`. Another example with action buttons (Add Light, Delete Light, etc.) using the same pattern.
 
 ### Rendering flow
 
@@ -245,10 +245,10 @@ Buttons are stacked vertically downward from the origin. The gap gives visual se
 
 The `scale` parameter in `addParagraph()` is a uniform scale applied to the MSDF text. Since MSDF is resolution-independent, you can use any value:
 
-- `0.016` — small text for compact action buttons (used in the XR Light & Shadows demo)
-- `0.028` — medium text for standard buttons
-- `0.032` — slightly smaller for "back" buttons
-- `0.04` — default for main menu items
+- `0.016` - small text for compact action buttons (used in the XR Light & Shadows demo)
+- `0.028` - medium text for standard buttons
+- `0.032` - slightly smaller for "back" buttons
+- `0.04` - default for main menu items
 
 ---
 
@@ -299,7 +299,7 @@ textManager.renderer.strokeOutsetWidth = 0.2;               // outline size
 ### Text is not visible
 
 - Make sure you called `await textManager.init()` before `addParagraph()`.
-- Make sure you called `textManager.attachToScene(scene)` — without it, the text renderer has no render loop hook.
+- Make sure you called `textManager.attachToScene(scene)` - without it, the text renderer has no render loop hook.
 - Check that the text position is in front of the camera and not behind other geometry.
 
 ### Text appears blurry
@@ -318,7 +318,7 @@ textManager.renderer.strokeOutsetWidth = 0.2;               // outline size
   ```ts
   import { FontAsset, TextRenderer } from '@babylonjs/addons/msdfText';
   ```
-- Do **not** import from `@babylonjs/addons` barrel export — tree-shaking may drop the registration side effects.
+- Do **not** import from `@babylonjs/addons` barrel export - tree-shaking may drop the registration side effects.
 
 ### Multiple TextManagers sharing one scene
 

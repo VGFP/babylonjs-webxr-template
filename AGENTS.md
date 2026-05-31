@@ -2,8 +2,8 @@
 
 ## Commands
 
-- `pnpm dev` — Vite dev server on port 5173 (HTTPS auto-enabled if `.certs/` exists)
-- `pnpm build` — production build to `dist/`
+- `pnpm dev` - Vite dev server on port 5173 (HTTPS auto-enabled if `.certs/` exists)
+- `pnpm build` - production build to `dist/`
 - No test, lint, format, or typecheck commands are configured.
 
 ## Architecture
@@ -12,7 +12,7 @@ Single-page app: `index.html` loads `src/main.ts` (top-level await). BabylonJS s
 
 ## BabylonJS Import Convention
 
-Deep imports are required for tree-shaking — do not import everything from `@babylonjs/core`:
+Deep imports are required for tree-shaking - do not import everything from `@babylonjs/core`:
 
 ```ts
 import { Engine } from '@babylonjs/core';
