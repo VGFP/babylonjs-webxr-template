@@ -1,9 +1,4 @@
-import {
-    Engine,
-    Mesh,
-    Scene,
-    Vector3,
-} from '@babylonjs/core';
+import { Engine, Mesh, Scene, Vector3 } from '@babylonjs/core';
 import { Rectangle } from '@babylonjs/gui/2D/controls/rectangle';
 import { TextManager } from '../text/textRenderer';
 import { createUiButton, type CreateUiButtonResult } from '../core/uiButton';
@@ -96,7 +91,11 @@ export class DemoUiController implements DemoUi {
 
             textManager.addParagraph(
                 demo.label,
-                new Vector3(DemoUiController._originX, y + DemoUiController._textYOffset, DemoUiController._originZ + DemoUiController._textZOffset),
+                new Vector3(
+                    DemoUiController._originX,
+                    y + DemoUiController._textYOffset,
+                    DemoUiController._originZ + DemoUiController._textZOffset,
+                ),
                 DemoUiController._textScale,
             );
 
@@ -114,7 +113,10 @@ export class DemoUiController implements DemoUi {
         let backPlane: Mesh | null = null;
 
         if (onBackClick) {
-            const backY = DemoUiController._originY - demos.length * (DemoUiController._btnHeight + DemoUiController._btnGap) - DemoUiController._backTopMargin;
+            const backY =
+                DemoUiController._originY -
+                demos.length * (DemoUiController._btnHeight + DemoUiController._btnGap) -
+                DemoUiController._backTopMargin;
 
             const result = createUiButton(scene, {
                 name: 'btn_back',
@@ -132,7 +134,11 @@ export class DemoUiController implements DemoUi {
 
             textManager.addParagraph(
                 'Return to Main Scene',
-                new Vector3(DemoUiController._originX, backY + DemoUiController._textYOffset, DemoUiController._originZ + DemoUiController._textZOffset),
+                new Vector3(
+                    DemoUiController._originX,
+                    backY + DemoUiController._textYOffset,
+                    DemoUiController._originZ + DemoUiController._textZOffset,
+                ),
                 DemoUiController._backTextScale,
             );
         }

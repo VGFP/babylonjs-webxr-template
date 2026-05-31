@@ -1,14 +1,6 @@
 import { RectAreaLight } from '@babylonjs/core/Lights/rectAreaLight';
 import '@babylonjs/core/Lights/index';
-import {
-    Color3,
-    Mesh,
-    MeshBuilder,
-    Scene,
-    StandardMaterial,
-    TransformNode,
-    Vector3,
-} from '@babylonjs/core';
+import { Color3, Mesh, MeshBuilder, Scene, StandardMaterial, TransformNode, Vector3 } from '@babylonjs/core';
 
 export interface WindowLightConfig {
     name?: string;
@@ -64,11 +56,7 @@ export class WindowLight {
         this._debugMesh = null;
 
         if (showDebugMesh) {
-            this._debugMesh = MeshBuilder.CreatePlane(
-                `${name}_debug`,
-                { width, height },
-                scene,
-            );
+            this._debugMesh = MeshBuilder.CreatePlane(`${name}_debug`, { width, height }, scene);
 
             const mat = new StandardMaterial(`${name}_mat`, scene);
             mat.diffuseColor = color;
@@ -81,9 +69,15 @@ export class WindowLight {
         }
     }
 
-    get light(): RectAreaLight { return this._light; }
-    get debugMesh(): Mesh | null { return this._debugMesh; }
-    get rootNode(): TransformNode { return this._rootNode; }
+    get light(): RectAreaLight {
+        return this._light;
+    }
+    get debugMesh(): Mesh | null {
+        return this._debugMesh;
+    }
+    get rootNode(): TransformNode {
+        return this._rootNode;
+    }
 
     dispose(): void {
         this._light.dispose();

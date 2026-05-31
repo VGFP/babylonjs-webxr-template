@@ -1,12 +1,4 @@
-import {
-    ActionManager,
-    ExecuteCodeAction,
-    Mesh,
-    MeshBuilder,
-    Scene,
-    TransformNode,
-    Vector3,
-} from '@babylonjs/core';
+import { ActionManager, ExecuteCodeAction, Mesh, MeshBuilder, Scene, TransformNode, Vector3 } from '@babylonjs/core';
 import '@babylonjs/core/Collisions';
 import { AdvancedDynamicTexture } from '@babylonjs/gui/2D/advancedDynamicTexture';
 import { Rectangle } from '@babylonjs/gui/2D/controls/rectangle';
@@ -33,10 +25,7 @@ export interface CreateUiButtonResult {
     rect: Rectangle;
 }
 
-export function createUiButton(
-    scene: Scene,
-    options: CreateUiButtonOptions,
-): CreateUiButtonResult {
+export function createUiButton(scene: Scene, options: CreateUiButtonOptions): CreateUiButtonResult {
     const {
         name,
         width,
@@ -78,9 +67,7 @@ export function createUiButton(
 
     if (onClick) {
         plane.actionManager = new ActionManager(scene);
-        plane.actionManager.registerAction(
-            new ExecuteCodeAction(ActionManager.OnPickTrigger, onClick),
-        );
+        plane.actionManager.registerAction(new ExecuteCodeAction(ActionManager.OnPickTrigger, onClick));
     }
 
     return { plane, texture, rect };

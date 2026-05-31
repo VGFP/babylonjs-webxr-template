@@ -112,7 +112,9 @@ export class XrLightShadowsDemo {
         this._gizmoManager.usePointerToAttachGizmos = false;
         this._gizmoManager.attachToMesh(this._cube);
 
-        const pdm = (scene.metadata as Record<string, unknown> | undefined)?.planeDetectionManager as PlaneDetectionManager | undefined;
+        const pdm = (scene.metadata as Record<string, unknown> | undefined)?.planeDetectionManager as
+            | PlaneDetectionManager
+            | undefined;
         if (pdm) {
             const createWallMesh = (planeData: import('../xr').XrPlaneData) => {
                 const shadowMat = new ShadowOnlyMaterial(`ls_wall_shadow_${planeData.id}`, scene);
@@ -255,7 +257,9 @@ export class XrLightShadowsDemo {
                 const json = JSON.parse(stored);
                 this._loadFromJson(json);
             }
-        } catch {}
+        } catch {
+            // ignore corrupt stored state
+        }
     }
 
     private _addPointLight(position?: Vector3): void {
@@ -266,8 +270,7 @@ export class XrLightShadowsDemo {
         light.intensity = 1.2;
         light.range = 8;
 
-        let shadowGen: ShadowGenerator | undefined;
-        shadowGen = new ShadowGenerator(1024, light);
+        const shadowGen = new ShadowGenerator(1024, light);
         shadowGen.useBlurExponentialShadowMap = true;
         shadowGen.blurKernel = 16;
         shadowGen.bias = 0.001;
@@ -315,10 +318,15 @@ export class XrLightShadowsDemo {
 
         const xrAnchors = (scene.metadata as Record<string, unknown> | undefined)?.xrAnchors as any | undefined;
         if (xrAnchors && typeof xrAnchors.addAnchorAtPositionAndRotationAsync === 'function') {
-            const rq = root.rotationQuaternion || Quaternion.FromEulerAngles(root.rotation.x, root.rotation.y, root.rotation.z);
-            xrAnchors.addAnchorAtPositionAndRotationAsync(root.getAbsolutePosition(), rq).then((a: any) => {
-                a.attachedNode = root;
-            }).catch(() => {});
+            const rq =
+                root.rotationQuaternion ||
+                Quaternion.FromEulerAngles(root.rotation.x, root.rotation.y, root.rotation.z);
+            xrAnchors
+                .addAnchorAtPositionAndRotationAsync(root.getAbsolutePosition(), rq)
+                .then((a: any) => {
+                    a.attachedNode = root;
+                })
+                .catch(() => {});
         }
 
         const entry: CreatedPointLight = { light, shadowGenerator: shadowGen, anchor, gizmo, root };
@@ -377,12 +385,15 @@ export class XrLightShadowsDemo {
 
         try {
             localStorage.setItem('xr_lightShadows_state', JSON.stringify(data));
-        } catch {}
+        } catch {
+            // ignore storage quota errors
+        }
     }
 
     private _buildStateData(): Record<string, unknown> {
         const pointsWorld = this._createdPointLights.map((pl) => {
-            const pos = pl.anchor?.getAbsolutePosition() || (pl.light as any).getAbsolutePosition?.() || pl.light.position;
+            const pos =
+                pl.anchor?.getAbsolutePosition() || (pl.light as any).getAbsolutePosition?.() || pl.light.position;
             return { x: pos.x, y: pos.y, z: pos.z };
         });
 
@@ -394,7 +405,8 @@ export class XrLightShadowsDemo {
             const inv = refResult.refWorldMatrix.clone();
             inv.invert();
             const pointsLocal = this._createdPointLights.map((pl) => {
-                const pos = pl.anchor?.getAbsolutePosition() || (pl.light as any).getAbsolutePosition?.() || pl.light.position;
+                const pos =
+                    pl.anchor?.getAbsolutePosition() || (pl.light as any).getAbsolutePosition?.() || pl.light.position;
                 const pLocal = Vector3.TransformCoordinates(pos, inv);
                 return { x: pLocal.x, y: pLocal.y, z: pLocal.z };
             });
@@ -413,7 +425,9 @@ export class XrLightShadowsDemo {
         try {
             const data = this._buildStateData();
             localStorage.setItem('xr_lightShadows_state', JSON.stringify(data));
-        } catch {}
+        } catch {
+            // ignore storage quota errors
+        }
     }
 
     private _downloadJson(data: unknown, filename: string): void {
@@ -451,7 +465,11 @@ export class XrLightShadowsDemo {
                 }
             }
         } else {
-            const points = Array.isArray(json.pointsWorld) ? json.pointsWorld : (Array.isArray(json.points) ? json.points : []);
+            const points = Array.isArray(json.pointsWorld)
+                ? json.pointsWorld
+                : Array.isArray(json.points)
+                  ? json.points
+                  : [];
             for (const p of points) {
                 if (p && typeof p.x === 'number' && typeof p.y === 'number' && typeof p.z === 'number') {
                     this._addPointLight(new Vector3(p.x, p.y, p.z));
@@ -483,7 +501,9 @@ export class XrLightShadowsDemo {
                 try {
                     const json = JSON.parse(String(reader.result || '{}'));
                     this._loadFromJson(json);
-                } catch {}
+                } catch {
+                    // ignore corrupt file data
+                }
             };
             reader.readAsText(file);
         };
@@ -539,7 +559,9 @@ export class XrLightShadowsDemo {
             this._detachText = null;
         }
         if (this._planeObserver) {
-            const pdm = (this._scene.metadata as Record<string, unknown> | undefined)?.planeDetectionManager as PlaneDetectionManager | undefined;
+            const pdm = (this._scene.metadata as Record<string, unknown> | undefined)?.planeDetectionManager as
+                | PlaneDetectionManager
+                | undefined;
             if (pdm) pdm.onPlaneAdded.remove(this._planeObserver);
             this._planeObserver = null;
         }

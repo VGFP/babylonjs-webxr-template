@@ -7,8 +7,8 @@ import type { XrConfig } from '../core/types';
 
 export class XrExperience {
     private static readonly _defaultConfig: XrConfig = {
-        sessionMode: "immersive-ar",
-        referenceSpaceType: "local-floor",
+        sessionMode: 'immersive-ar',
+        referenceSpaceType: 'local-floor',
         optionalFeatures: true,
     };
 
@@ -64,9 +64,19 @@ export class XrExperience {
         }
     }
 
-    get xr(): WebXRDefaultExperience { return this._xr!; }
-    get fm(): WebXRFeaturesManager { return this._fm!; }
-    get planes(): any { return this._xrPlanes; }
-    get anchors(): any { return this._xrAnchors; }
-    get scene(): Scene { return this._scene; }
+    get xr(): WebXRDefaultExperience {
+        return this._xr!;
+    }
+    get fm(): WebXRFeaturesManager {
+        return this._fm!;
+    }
+    get planes(): any {
+        return this._xrPlanes;
+    }
+    get anchors(): any {
+        return this._xrAnchors;
+    }
+    get scene(): Scene {
+        return this._scene;
+    }
 }

@@ -1,12 +1,5 @@
-import {
-    Mesh,
-    Observable,
-    Scene,
-    Vector3,
-    WebXRDefaultExperience,
-} from '@babylonjs/core';
+import { Mesh, Observable, Scene, Vector3, WebXRDefaultExperience } from '@babylonjs/core';
 
-import { applyShadowMaterialFacing } from '../materials';
 import { buildPolygonMesh } from '../meshes';
 
 export interface XrPlaneData {
@@ -71,7 +64,9 @@ export class PlaneDetectionManager {
         });
     }
 
-    get planes(): Mesh[] { return this._planes; }
+    get planes(): Mesh[] {
+        return this._planes;
+    }
 
     get detectedPlanes(): XrPlaneData[] {
         return Array.from(this._detectedPlanes.values());
