@@ -64,11 +64,14 @@ export class XrLightShadowsDemo {
     private _gizmoManager: GizmoManager | null = null;
     private _wallMeshes: Mesh[] = [];
     private _wallMaterials: ShadowOnlyMaterial[] = [];
+    private _debugMaterials: StandardMaterial[] = [];
     private _planeObserver: Observer<import('../xr').XrPlaneData> | null = null;
     private _createdPointLights: CreatedPointLight[] = [];
     private _defaultLightsOn = true;
     private _gizmosVisible = true;
+    private _debugPlanesVisible = false;
     private static readonly _devFileIo = import.meta.env.VITE_DEV_FILE_IO === 'true';
+    private static readonly _debug = import.meta.env.VITE_DEBUG === 'true';
 
     constructor(scene: Scene) {
         this._scene = scene;
@@ -83,6 +86,9 @@ export class XrLightShadowsDemo {
         this._directional = new DirectionalLight('ls_directional', new Vector3(0, -1, -1), scene);
         this._directional.intensity = 0.7;
         this._directional.position = new Vector3(0, 2, 0);
+        this._directional.shadowFrustumSize = 20;
+        this._directional.shadowMinZ = 0;
+        this._directional.shadowMaxZ = 25;
         this._cleanup.push(this._directional);
 
         this._hemispheric = new HemisphericLight('ls_hemispheric', new Vector3(0, 1, 0), scene);
@@ -115,6 +121,20 @@ export class XrLightShadowsDemo {
         const pdm = (scene.metadata as Record<string, unknown> | undefined)?.planeDetectionManager as
             | PlaneDetectionManager
             | undefined;
+        const debugPalette = [
+            new Color3(1, 0.2, 0.2),
+            new Color3(0.2, 1, 0.2),
+            new Color3(0.3, 0.3, 1),
+            new Color3(1, 1, 0.2),
+            new Color3(1, 0.2, 1),
+            new Color3(0.2, 1, 1),
+            new Color3(1, 0.6, 0.2),
+            new Color3(0.6, 0.2, 1),
+            new Color3(0.2, 1, 0.6),
+            new Color3(1, 0.4, 0.6),
+        ];
+        let planeColorIdx = 0;
+
         if (pdm) {
             const createWallMesh = (planeData: import('../xr').XrPlaneData) => {
                 const shadowMat = new ShadowOnlyMaterial(`ls_wall_shadow_${planeData.id}`, scene);
@@ -129,8 +149,22 @@ export class XrLightShadowsDemo {
                 );
                 applyShadowMaterialFacing(wallMesh, shadowMat, this._directional as IShadowLight);
                 wallMesh.receiveShadows = true;
+
+                const debugMat = new StandardMaterial(`ls_debug_${planeData.id}`, scene);
+                const baseColor = debugPalette[planeColorIdx % debugPalette.length];
+                planeColorIdx++;
+                debugMat.diffuseColor = baseColor;
+                debugMat.emissiveColor = baseColor.scale(0.3);
+                debugMat.alpha = 0.35;
+                debugMat.backFaceCulling = false;
+                debugMat.disableLighting = true;
+                if (this._debugPlanesVisible) {
+                    wallMesh.material = debugMat;
+                }
+
                 this._wallMeshes.push(wallMesh);
                 this._wallMaterials.push(shadowMat);
+                this._debugMaterials.push(debugMat);
             };
 
             for (const planeData of pdm.detectedPlanes) {
@@ -150,11 +184,15 @@ export class XrLightShadowsDemo {
             { name: 'ls_addLight', label: 'Add Light' },
             { name: 'ls_deleteLight', label: 'Delete Light' },
             { name: 'ls_turnOffDefault', label: 'Turn Off default lighting' },
+            { name: 'ls_debugPlanes', label: 'Debug Planes' },
             { name: 'ls_saveResults', label: 'Save results' },
             { name: 'ls_loadResults', label: 'Load results' },
             { name: 'ls_hideGizmos', label: 'Hide light gizmos' },
         ].filter((def) => {
             if (!XrLightShadowsDemo._devFileIo && (def.name === 'ls_saveResults' || def.name === 'ls_loadResults')) {
+                return false;
+            }
+            if (!XrLightShadowsDemo._debug && def.name === 'ls_debugPlanes') {
                 return false;
             }
             return true;
@@ -170,6 +208,7 @@ export class XrLightShadowsDemo {
             ls_addLight: () => this._addPointLight(),
             ls_deleteLight: () => this._deleteLastPointLight(),
             ls_turnOffDefault: () => this._toggleDefaultLights(),
+            ls_debugPlanes: () => this._toggleDebugPlanes(),
             ls_saveResults: () => this._saveResults(),
             ls_loadResults: () => this._loadResults(),
             ls_hideGizmos: () => this._toggleGizmoVisibility(),
@@ -276,8 +315,6 @@ export class XrLightShadowsDemo {
         shadowGen.bias = 0.001;
         shadowGen.addShadowCaster(this._cube);
         shadowGen.getShadowMap()!.renderList = [this._cube];
-
-        this._updateShadowOnlyMaterialsForLight(light as unknown as IShadowLight);
 
         light.shadowMinZ = 0.1;
         light.shadowMaxZ = Math.max(light.range, 12);
@@ -512,25 +549,10 @@ export class XrLightShadowsDemo {
         document.body.removeChild(input);
     }
 
-    private _updateShadowOnlyMaterialsForLight(light: IShadowLight): void {
-        for (const m of this._scene.meshes) {
-            const mat = m.material;
-            if (mat && mat instanceof ShadowOnlyMaterial) {
-                let ld: Vector3 | null = null;
-                if ((light as any).direction) {
-                    ld = ((light as any).direction as Vector3).clone().normalize();
-                } else if ((light as any).getAbsolutePosition) {
-                    const lp = (light as any).getAbsolutePosition() as Vector3;
-                    const mc = m.getBoundingInfo().boundingBox.centerWorld;
-                    ld = mc.subtract(lp).normalize();
-                }
-                if (ld) {
-                    const n = Vector3.TransformNormal(Vector3.Up(), m.getWorldMatrix()).normalize();
-                    const facing = Vector3.Dot(n, ld) < 0;
-                    (mat as ShadowOnlyMaterial).activeLight = light;
-                    (mat as ShadowOnlyMaterial).alpha = facing ? 0.4 : 0;
-                }
-            }
+    private _toggleDebugPlanes(): void {
+        this._debugPlanesVisible = !this._debugPlanesVisible;
+        for (let i = 0; i < this._wallMeshes.length; i++) {
+            this._wallMeshes[i].material = this._debugPlanesVisible ? this._debugMaterials[i] : this._wallMaterials[i];
         }
     }
 
@@ -575,8 +597,10 @@ export class XrLightShadowsDemo {
         this._createdPointLights = [];
         for (const mesh of this._wallMeshes) mesh.dispose();
         for (const mat of this._wallMaterials) mat.dispose();
+        for (const mat of this._debugMaterials) mat.dispose();
         this._wallMeshes = [];
         this._wallMaterials = [];
+        this._debugMaterials = [];
         if (this._gizmoManager) {
             this._gizmoManager.dispose();
             this._gizmoManager = null;
