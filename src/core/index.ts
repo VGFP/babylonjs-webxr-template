@@ -4,3 +4,7 @@ export { createUiButton } from './uiButton';
 export type { CreateUiButtonOptions, CreateUiButtonResult } from './uiButton';
 export { SceneManager } from './sceneManager';
 export type { SceneManagerConfig } from './sceneManager';
+export { createGizmoManager } from './gizmoManagerFactory';
+export type { CreateGizmoManagerOptions } from './gizmoManagerFactory';
+export { DisposableStack } from './disposableStack';
+export type { Disposable } from './disposableStack';

@@ -1,6 +1,7 @@
 import { Mesh, Observable, Scene, Vector3, WebXRDefaultExperience } from '@babylonjs/core';
 
 import { buildPolygonMesh } from '../meshes';
+import { DisposableStack } from '../core/disposableStack';
 
 export interface XrPlaneData {
     id: number;
@@ -14,7 +15,7 @@ export class PlaneDetectionManager {
     private _scene: Scene;
     private _xr: WebXRDefaultExperience;
     private _xrPlanes: any;
-    private _cleanup: { dispose(): void }[] = [];
+    private _cleanup = new DisposableStack();
     private _planes: Mesh[] = [];
     private _detectedPlanes: Map<number, XrPlaneData> = new Map();
     public onPlaneAdded: Observable<XrPlaneData> = new Observable();
@@ -55,12 +56,10 @@ export class PlaneDetectionManager {
             this._detectedPlanes.delete(plane.id);
         });
 
-        this._cleanup.push({
-            dispose: () => {
-                this._xrPlanes.onPlaneAddedObservable.remove(addedObs);
-                this._xrPlanes.onPlaneUpdatedObservable.remove(updatedObs);
-                this._xrPlanes.onPlaneRemovedObservable.remove(removedObs);
-            },
+        this._cleanup.register(() => {
+            this._xrPlanes.onPlaneAddedObservable.remove(addedObs);
+            this._xrPlanes.onPlaneUpdatedObservable.remove(updatedObs);
+            this._xrPlanes.onPlaneRemovedObservable.remove(removedObs);
         });
     }
 
@@ -73,8 +72,7 @@ export class PlaneDetectionManager {
     }
 
     dispose(): void {
-        for (const item of this._cleanup) item.dispose();
-        this._cleanup = [];
+        this._cleanup.dispose();
         for (const mesh of this._planes) mesh.dispose();
         this._planes = [];
     }
