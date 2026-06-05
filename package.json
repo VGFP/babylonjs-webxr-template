@@ -30,6 +30,8 @@
     "@babylonjs/inspector": "^9.7.0",
     "@babylonjs/loaders": "^9.7.0",
     "@babylonjs/materials": "^9.7.0",
+    "@colyseus/schema": "4.0.26",
+    "@colyseus/sdk": "0.17.42",
     "earcut": "^3.0.2"
   },
   "devDependencies": {
