@@ -18,14 +18,30 @@ export class TextManager {
         this._renderer = await TextRenderer.CreateTextRendererAsync(fontAsset, this._engine);
     }
 
+    private static async _waitForTexture(texture: import('@babylonjs/core').Texture): Promise<void> {
+        if (texture.isReady()) return;
+        await new Promise<void>((resolve) => {
+            texture.onLoadObservable.addOnce(() => resolve());
+        });
+    }
+
     private static async _loadFontAsset(): Promise<FontAsset> {
-        if (TextManager._cachedFontAsset && !TextManager._cachedFontAsset.textures[0]?.isReady()) {
+        if (TextManager._cachedFontAsset) {
+            const tex = TextManager._cachedFontAsset.textures[0];
+            if (tex) {
+                await TextManager._waitForTexture(tex);
+            }
+            if (tex?.isReady()) {
+                return TextManager._cachedFontAsset;
+            }
             TextManager._cachedFontAsset.dispose();
             TextManager._cachedFontAsset = null;
         }
-        if (!TextManager._cachedFontAsset) {
-            const sdfFontDefinition = await (await fetch(TextManager._fontDefinitionUrl)).text();
-            TextManager._cachedFontAsset = new FontAsset(sdfFontDefinition, TextManager._fontTextureUrl);
+        const sdfFontDefinition = await (await fetch(TextManager._fontDefinitionUrl)).text();
+        TextManager._cachedFontAsset = new FontAsset(sdfFontDefinition, TextManager._fontTextureUrl);
+        const tex = TextManager._cachedFontAsset.textures[0];
+        if (tex) {
+            await TextManager._waitForTexture(tex);
         }
         return TextManager._cachedFontAsset;
     }

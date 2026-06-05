@@ -1,4 +1,5 @@
-import { DirectionalLight, HemisphericLight, IShadowLight, ShadowGenerator, Vector3, Scene } from '@babylonjs/core';
+import { DirectionalLight, HemisphericLight, IShadowLight, Scene, ShadowGenerator, Vector3 } from '@babylonjs/core';
+import { createShadowGenerator } from './shadowGeneratorFactory';
 
 export class ShadowManager {
     private _scene: Scene;
@@ -10,7 +11,7 @@ export class ShadowManager {
         this._scene = scene;
         this._directionalLight = this._createDirectionalLight();
         this._hemisphericLight = this._createHemisphericLight();
-        this._shadowGenerator = this._createShadowGenerator();
+        this._shadowGenerator = createShadowGenerator(this._directionalLight as IShadowLight);
     }
 
     private _createDirectionalLight(): DirectionalLight {
@@ -25,11 +26,9 @@ export class ShadowManager {
         return hemispheric;
     }
 
-    private _createShadowGenerator(): ShadowGenerator {
-        const shadows = new ShadowGenerator(1024, this._directionalLight as IShadowLight);
-        shadows.useBlurExponentialShadowMap = true;
-        shadows.blurKernel = 32;
-        return shadows;
+    setEnabled(enabled: boolean): void {
+        this._directionalLight.setEnabled(enabled);
+        this._hemisphericLight.setEnabled(enabled);
     }
 
     get shadowGenerator(): ShadowGenerator {
