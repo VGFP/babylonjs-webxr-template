@@ -108,6 +108,22 @@ describe('PlaneDetectionManager', () => {
             expect(plane!.polygonDefinition.length).toBe(3);
         });
 
+        it('fires onPlaneUpdated when XR refines an existing plane', () => {
+            pdm.wireObservables();
+            mockXrPlanes._fire('added', makePlaneData({ id: 1 }));
+
+            const listener = vi.fn();
+            pdm.onPlaneUpdated.add(listener);
+
+            const updatedData = makePlaneData({
+                id: 1,
+                polygonDefinition: [new Vector3(0, 0, 0), new Vector3(3, 0, 0), new Vector3(3, 0, 3)],
+            });
+            mockXrPlanes._fire('updated', updatedData);
+
+            expect(listener).toHaveBeenCalledWith(updatedData, expect.anything());
+        });
+
         it('removes plane from detectedPlanes on remove event', () => {
             pdm.wireObservables();
 

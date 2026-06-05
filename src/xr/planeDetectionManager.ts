@@ -19,6 +19,7 @@ export class PlaneDetectionManager {
     private _planes: Mesh[] = [];
     private _detectedPlanes: Map<number, XrPlaneData> = new Map();
     public onPlaneAdded: Observable<XrPlaneData> = new Observable();
+    public onPlaneUpdated: Observable<XrPlaneData> = new Observable();
 
     constructor(scene: Scene, xr: WebXRDefaultExperience, xrPlanes: any) {
         this._scene = scene;
@@ -50,6 +51,7 @@ export class PlaneDetectionManager {
 
         const updatedObs = this._xrPlanes.onPlaneUpdatedObservable.add((plane: XrPlaneData) => {
             this._detectedPlanes.set(plane.id, plane);
+            this.onPlaneUpdated.notifyObservers(plane);
         });
 
         const removedObs = this._xrPlanes.onPlaneRemovedObservable.add((plane: XrPlaneData) => {

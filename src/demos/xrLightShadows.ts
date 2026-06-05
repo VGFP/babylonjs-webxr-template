@@ -5,6 +5,7 @@ import {
     GizmoManager,
     HemisphericLight,
     IShadowLight,
+    Matrix,
     Mesh,
     MeshBuilder,
     Observer,
@@ -76,7 +77,9 @@ export class XrLightShadowsDemo {
     private _wallMeshes: Mesh[] = [];
     private _wallMaterials: ShadowOnlyMaterial[] = [];
     private _debugMaterials: StandardMaterial[] = [];
+    private _wallMeshByPlaneId: Map<number, Mesh> = new Map();
     private _planeObserver: Observer<import('../xr').XrPlaneData> | null = null;
+    private _planeUpdatedObserver: Observer<import('../xr').XrPlaneData> | null = null;
     private _createdPointLights: CreatedPointLight[] = [];
     private _defaultLightsOn = true;
     private _gizmosVisible = true;
@@ -198,6 +201,39 @@ export class XrLightShadowsDemo {
             this._wallMeshes.push(wallMesh);
             this._wallMaterials.push(shadowMat);
             this._debugMaterials.push(debugMat);
+            this._wallMeshByPlaneId.set(planeData.id, wallMesh);
+        };
+
+        const updateWallMesh = (planeData: import('../xr').XrPlaneData) => {
+            const oldMesh = this._wallMeshByPlaneId.get(planeData.id);
+            if (!oldMesh) return;
+
+            const idx = this._wallMeshes.indexOf(oldMesh);
+            const shadowMat = idx >= 0 ? this._wallMaterials[idx] : undefined;
+            const debugMat = idx >= 0 ? this._debugMaterials[idx] : undefined;
+
+            const newMesh = buildPolygonMesh(
+                {
+                    polygonDefinition: planeData.polygonDefinition,
+                    transformationMatrix: planeData.transformationMatrix,
+                    orientation: planeData.xrPlane.orientation,
+                },
+                scene,
+                shadowMat,
+            );
+            if (shadowMat) {
+                applyShadowMaterialFacing(newMesh, shadowMat, this._directional as IShadowLight);
+            }
+            newMesh.receiveShadows = true;
+            if (this._debugPlanesVisible && debugMat) {
+                newMesh.material = debugMat;
+            }
+
+            oldMesh.dispose();
+            this._wallMeshByPlaneId.set(planeData.id, newMesh);
+            if (idx >= 0) {
+                this._wallMeshes[idx] = newMesh;
+            }
         };
 
         for (const planeData of pdm.detectedPlanes) {
@@ -205,6 +241,7 @@ export class XrLightShadowsDemo {
         }
 
         this._planeObserver = pdm.onPlaneAdded.add((planeData) => createWallMesh(planeData));
+        this._planeUpdatedObserver = pdm.onPlaneUpdated.add((planeData) => updateWallMesh(planeData));
     }
 
     private _createActionButtons(scene: Scene, panelRoot: TransformNode): void {
@@ -480,19 +517,69 @@ export class XrLightShadowsDemo {
         }
     }
 
+    private _findFloorReference(): { transformationMatrix: Matrix } | null {
+        const pdm = (this._scene.metadata as Record<string, unknown> | undefined)?.planeDetectionManager as
+            | PlaneDetectionManager
+            | undefined;
+        if (!pdm || pdm.detectedPlanes.length === 0) return null;
+
+        let bestMatrix: Matrix | null = null;
+        let bestScore = -Infinity;
+
+        for (const plane of pdm.detectedPlanes) {
+            const n = Vector3.TransformNormal(Vector3.Up(), plane.transformationMatrix).normalize();
+            const score = Vector3.Dot(n, Vector3.Up());
+            if (score <= 0.85) continue;
+
+            const area = this._polygonArea(plane.polygonDefinition);
+            if (area > bestScore) {
+                bestScore = area;
+                bestMatrix = plane.transformationMatrix;
+            }
+        }
+
+        return bestMatrix ? { transformationMatrix: bestMatrix } : null;
+    }
+
+    private _polygonArea(points: Vector3[]): number {
+        let area = 0;
+        for (let i = 0; i < points.length; i++) {
+            const j = (i + 1) % points.length;
+            area += points[i].x * points[j].z;
+            area -= points[j].x * points[i].z;
+        }
+        return Math.abs(area / 2);
+    }
+
     private _buildStateData(): Record<string, unknown> {
-        const points = this._createdPointLights.map((pl) => {
+        const pointsWorld = this._createdPointLights.map((pl) => {
             const pos =
                 pl.anchor?.getAbsolutePosition() || (pl.light as any).getAbsolutePosition?.() || pl.light.position;
             return { x: pos.x, y: pos.y, z: pos.z };
         });
 
-        return {
-            points,
-            schemaVersion: 4,
+        const data: Record<string, unknown> = {
+            pointsWorld,
+            schemaVersion: 6,
             gizmosVisible: this._gizmosVisible,
             defaultLightsOn: this._defaultLightsOn,
         };
+
+        const floor = this._findFloorReference();
+        if (floor && this._createdPointLights.length > 0) {
+            const inv = floor.transformationMatrix.clone();
+            inv.invert();
+            const pointsLocal = this._createdPointLights.map((pl) => {
+                const pos =
+                    pl.anchor?.getAbsolutePosition() || (pl.light as any).getAbsolutePosition?.() || pl.light.position;
+                const pLocal = Vector3.TransformCoordinates(pos, inv);
+                return { x: pLocal.x, y: pLocal.y, z: pLocal.z };
+            });
+            data.pointsLocal = pointsLocal;
+            data.refMatrix = Array.from(floor.transformationMatrix.toArray());
+        }
+
+        return data;
     }
 
     private _saveToLocalStorage(): void {
@@ -517,15 +604,37 @@ export class XrLightShadowsDemo {
     }
 
     private _loadFromJson(json: Record<string, any>): void {
-        const points = Array.isArray(json.points)
-            ? json.points
-            : Array.isArray(json.pointsWorld)
-              ? json.pointsWorld
-              : [];
+        const pointsLocal = Array.isArray(json.pointsLocal) ? json.pointsLocal : [];
+        const refMatrixArr = Array.isArray(json.refMatrix) && json.refMatrix.length === 16 ? json.refMatrix : null;
 
-        for (const p of points) {
-            if (p && typeof p.x === 'number' && typeof p.y === 'number' && typeof p.z === 'number') {
-                this._addPointLight(new Vector3(p.x, p.y, p.z));
+        const floor = this._findFloorReference();
+
+        if (floor && pointsLocal.length > 0) {
+            const wm = floor.transformationMatrix;
+            for (const p of pointsLocal) {
+                if (p && typeof p.x === 'number' && typeof p.y === 'number' && typeof p.z === 'number') {
+                    const w = Vector3.TransformCoordinates(new Vector3(p.x, p.y, p.z), wm);
+                    this._addPointLight(w);
+                }
+            }
+        } else if (refMatrixArr && pointsLocal.length > 0) {
+            const wm = Matrix.FromArray(refMatrixArr);
+            for (const p of pointsLocal) {
+                if (p && typeof p.x === 'number' && typeof p.y === 'number' && typeof p.z === 'number') {
+                    const w = Vector3.TransformCoordinates(new Vector3(p.x, p.y, p.z), wm);
+                    this._addPointLight(w);
+                }
+            }
+        } else {
+            const points = Array.isArray(json.pointsWorld)
+                ? json.pointsWorld
+                : Array.isArray(json.points)
+                  ? json.points
+                  : [];
+            for (const p of points) {
+                if (p && typeof p.x === 'number' && typeof p.y === 'number' && typeof p.z === 'number') {
+                    this._addPointLight(new Vector3(p.x, p.y, p.z));
+                }
             }
         }
 
@@ -603,6 +712,13 @@ export class XrLightShadowsDemo {
             if (pdm) pdm.onPlaneAdded.remove(this._planeObserver);
             this._planeObserver = null;
         }
+        if (this._planeUpdatedObserver) {
+            const pdm = (this._scene.metadata as Record<string, unknown> | undefined)?.planeDetectionManager as
+                | PlaneDetectionManager
+                | undefined;
+            if (pdm) pdm.onPlaneUpdated.remove(this._planeUpdatedObserver);
+            this._planeUpdatedObserver = null;
+        }
         for (const pl of this._createdPointLights) {
             pl.shadowGenerator?.dispose();
             pl.light.dispose();
@@ -617,6 +733,7 @@ export class XrLightShadowsDemo {
         this._wallMeshes = [];
         this._wallMaterials = [];
         this._debugMaterials = [];
+        this._wallMeshByPlaneId.clear();
         if (this._gizmoManager) {
             this._gizmoManager.dispose();
             this._gizmoManager = null;

@@ -72,6 +72,7 @@ describe('XrLightShadowsDemo', () => {
             planeDetectionManager: {
                 detectedPlanes: [],
                 onPlaneAdded: { add: vi.fn(() => null), remove: vi.fn() },
+                onPlaneUpdated: { add: vi.fn(() => null), remove: vi.fn() },
             },
         };
     });
@@ -225,11 +226,11 @@ describe('XrLightShadowsDemo', () => {
             (demo as any)._addPointLight(new Vector3(1.5, 2.0, -3.0));
 
             const data = (demo as any)._buildStateData();
-            expect(data.points).toHaveLength(1);
-            expect(data.points[0].x).toBeCloseTo(1.5);
-            expect(data.points[0].y).toBeCloseTo(2.0);
-            expect(data.points[0].z).toBeCloseTo(-3.0);
-            expect(data.schemaVersion).toBe(4);
+            expect(data.pointsWorld).toHaveLength(1);
+            expect(data.pointsWorld[0].x).toBeCloseTo(1.5);
+            expect(data.pointsWorld[0].y).toBeCloseTo(2.0);
+            expect(data.pointsWorld[0].z).toBeCloseTo(-3.0);
+            expect(data.schemaVersion).toBe(6);
             demo.teardown();
         });
 
@@ -280,8 +281,8 @@ describe('XrLightShadowsDemo', () => {
             const stored = localStorage.getItem('xr_lightShadows_state');
             expect(stored).toBeTruthy();
             const data = JSON.parse(stored!);
-            expect(data.points).toHaveLength(1);
-            expect(data.schemaVersion).toBe(4);
+            expect(data.pointsWorld).toHaveLength(1);
+            expect(data.schemaVersion).toBe(6);
         });
 
         it('defaultLightsOn state is saved and restored', () => {
