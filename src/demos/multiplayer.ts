@@ -85,8 +85,6 @@ export class MultiplayerDemo {
     private _cleanup = new DisposableStack();
     private _disposed = false;
     private _prevClearColor: Color4;
-    private _homeDirectional: { setEnabled: (b: boolean) => void } | null = null;
-    private _homeHemispheric: { setEnabled: (b: boolean) => void } | null = null;
 
     private _panelRoot: TransformNode;
 
@@ -125,13 +123,6 @@ export class MultiplayerDemo {
         this._scene = scene;
         this._prevClearColor = scene.clearColor.clone();
         scene.clearColor = new Color4(0, 0, 0, 0);
-
-        this._homeDirectional =
-            (scene.getLightByName('directionalLight') as { setEnabled: (b: boolean) => void } | null) ?? null;
-        this._homeHemispheric =
-            (scene.getLightByName('hemisphericLight') as { setEnabled: (b: boolean) => void } | null) ?? null;
-        if (this._homeDirectional) this._homeDirectional.setEnabled(false);
-        if (this._homeHemispheric) this._homeHemispheric.setEnabled(false);
 
         this._playerGroup = new TransformNode('mp_players_root', scene);
         this._cleanup.add(this._playerGroup);
@@ -804,8 +795,6 @@ export class MultiplayerDemo {
             this._detachText = null;
         }
         this._cleanup.dispose();
-        if (this._homeDirectional) this._homeDirectional.setEnabled(true);
-        if (this._homeHemispheric) this._homeHemispheric.setEnabled(true);
         this._scene.clearColor = this._prevClearColor;
     }
 }
