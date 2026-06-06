@@ -188,12 +188,101 @@ The app uses a `SceneManager` to switch between a home scene and demo scenes. Th
 
 **Lights & Shadows Demo** - places a shadow-casting cube in the room and renders dynamic shadows on detected planes. Users can add/remove point lights, toggle default lighting, and persist light positions via localStorage. Requires WebXR with plane detection support.
 
+**Multiplayer Demo** - connects to a Colyseus server and renders remote players as colored head + hand avatars. See the [Multiplayer Server Setup](#multiplayer-server-setup) section below.
+
 ## Guides
 
 - **[MSDF Text Rendering for XR Buttons](docs/msdf-text-buttons-guide.md)** - How to create high-resolution buttons with MSDF text, why it outperforms GUI TextBlock for XR, positioning, font customization, and troubleshooting.
 - **[Scene Management in WebXR](docs/scene-management-guide.md)** - Why you can't switch scenes in WebXR, the two strategies (reused vs own scene), state machine architecture, and how to add new demo scenes.
 
-## Project Structure
+## Multiplayer Server Setup
+
+The Multiplayer demo connects to a [Colyseus](https://colyseus.io/) server. The server code lives in a separate repo, included here as a git submodule at `server/`.
+
+### First-time setup
+
+If you opened the devcontainer normally, the submodule is cloned and dependencies are installed automatically. If you cloned the repo without submodules:
+
+```bash
+git submodule update --init --recursive
+pnpm --dir server install
+```
+
+### Running both client and server
+
+Use the combined dev script to start both the Vite client (port 5173) and the Colyseus server (port 2567) with a single command:
+
+```bash
+pnpm dev:full
+```
+
+Or run them individually:
+
+```bash
+pnpm dev          # client only (port 5173)
+pnpm dev:server   # server only (port 2567)
+```
+
+### Connecting from the client
+
+1. Open the app in your browser / Quest
+2. Enter the **Multiplayer** demo
+3. In the server URL field, enter `localhost:2567` (or your server's address)
+4. Click **Connect**, then **Create Room** or join an existing room
+
+### Editing the server
+
+The `server/` directory is a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) — a full git repository nested inside the main template repo. It has its own remote, branches, and history. This means you effectively have **two repos in one directory**: commits inside `server/` go to the server repo, while commits at the project root go to the main template repo.
+
+By default the submodule points to the original server template (`VGFP/babylonjs-webxr-multiplayer-server-template`). You can pull updates from it, but you cannot push without write access. To make your own changes you need your own copy.
+
+#### Pointing the submodule to your own server repo
+
+Either fork the server repo on GitHub or create a new one, then update the submodule:
+
+```bash
+# Update the URL recorded in .gitmodules
+git submodule set-url server https://github.com/YOUR_USERNAME/your-server-repo.git
+
+# Update the remote inside the submodule itself
+cd server
+git remote set-url origin https://github.com/YOUR_USERNAME/your-server-repo.git
+cd ..
+```
+
+Now you can edit, commit, and push from inside `server/`:
+
+```bash
+cd server
+# edit files...
+git add . && git commit -m "my change"
+git push
+```
+
+After pushing server changes, bump the submodule pointer in the parent repo so it tracks the new commit:
+
+```bash
+cd ..
+git add server
+git commit -m "bump server submodule"
+```
+
+#### Syncing upstream server updates
+
+To pull the latest changes from the original server template into your fork:
+
+```bash
+cd server
+git remote add upstream https://github.com/VGFP/babylonjs-webxr-multiplayer-server-template.git  # one-time
+git fetch upstream
+git merge upstream/main
+git push  # push merged changes to your fork
+cd ..
+git add server
+git commit -m "sync upstream server changes"
+```
+
+
 
 ```
 ├── .certs/               # Local HTTPS certs (gitignored, auto-generated)
@@ -217,9 +306,10 @@ The app uses a `SceneManager` to switch between a home scene and demo scenes. Th
 │   ├── clone-babylonjs-docs.sh     # Clone BabylonJS docs repo
 │   ├── generate-docs-for-mcp.sh    # Generate markdown docs
 │   └── setup-ai-tools.sh           # AI tools installer + MCP config
+├── server/               # Multiplayer server (git submodule - Colyseus)
 ├── src/
 │   ├── core/             # Engine/scene setup, SceneManager, shared types, UI utilities
-│   ├── demos/            # Demo scenes (lights/shadows) and registry
+│   ├── demos/            # Demo scenes (lights/shadows, multiplayer) and registry
 │   ├── lighting/         # ShadowManager, WindowLight
 │   ├── materials/        # Shadow-only material helpers
 │   ├── meshes/           # Polygon mesh builder for detected planes

@@ -30,12 +30,25 @@ export class DemoRegistry {
 
 import './xrLightShadows';
 import { XrLightShadowsDemo } from './xrLightShadows';
+import './multiplayer';
+import { MultiplayerDemo } from './multiplayer';
 
 DemoRegistry.register({
     id: 'xr-light-shadows',
     label: 'XR Light & Shadows',
     build: (scene) => {
         const demo = new XrLightShadowsDemo(scene);
+        return () => demo.teardown();
+    },
+    ownUi: true,
+    reuseScene: true,
+});
+
+DemoRegistry.register({
+    id: 'multiplayer',
+    label: 'Multiplayer',
+    build: (scene) => {
+        const demo = new MultiplayerDemo(scene);
         return () => demo.teardown();
     },
     ownUi: true,

@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:server": "pnpm --dir server install && pnpm --dir server exec vite",
+    "dev:full": "concurrently -n client,server -c blue,green \"pnpm dev\" \"pnpm dev:server\"",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint src/",
@@ -30,6 +32,8 @@
     "@babylonjs/inspector": "^9.7.0",
     "@babylonjs/loaders": "^9.7.0",
     "@babylonjs/materials": "^9.7.0",
+    "@colyseus/schema": "4.0.26",
+    "@colyseus/sdk": "0.17.42",
     "earcut": "^3.0.2"
   },
   "devDependencies": {
@@ -37,6 +41,7 @@
     "@modelcontextprotocol/sdk": "^1.29.0",
     "@types/earcut": "^3.0.0",
     "@types/node": "^25.8.0",
+    "concurrently": "^10.0.3",
     "eslint": "^10.4.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.6",

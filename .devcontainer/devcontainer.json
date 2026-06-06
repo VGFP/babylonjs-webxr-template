@@ -4,19 +4,26 @@
     "dockerfile": "Dockerfile"
   },
   "forwardPorts": [
-    5173
+    5173,
+    2567
   ],
   "runArgs": [
     "--publish",
-    "0.0.0.0:5173:5173"
+    "0.0.0.0:5173:5173",
+    "--publish",
+    "0.0.0.0:2567:2567"
   ],
   "portsAttributes": {
     "5173": {
-      "label": "Vite Dev Server",
+      "label": "Vite Dev Server (client)",
+      "onAutoForward": "silent"
+    },
+    "2567": {
+      "label": "Colyseus Server (multiplayer)",
       "onAutoForward": "silent"
     }
   },
-  "postCreateCommand": "bash scripts/generate-cert.sh && pnpm install",
+  "postCreateCommand": "git submodule update --init --recursive && bash scripts/generate-cert.sh && pnpm install && pnpm --dir server install",
   "customizations": {
     "vscode": {
       "extensions": [

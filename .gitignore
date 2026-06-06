@@ -151,6 +151,4 @@ vite.config.ts.timestamp-*
 babylonjs-source/
 babylonjs-docs/
 
-other/
-
 opencode.json
