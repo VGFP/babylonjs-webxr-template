@@ -44,6 +44,9 @@ interface RemotePlayerVisuals {
     rightHand: Mesh;
     material: StandardMaterial;
     onChangeDetach: () => void;
+    targetHead: Vector3;
+    targetLeftHand: Vector3;
+    targetRightHand: Vector3;
 }
 
 interface RoomSummary {
@@ -58,6 +61,7 @@ type MpState = 'disconnected' | 'connected' | 'in-room';
 
 const DEFAULT_URL_STORAGE_KEY = 'mp_server_url';
 const UPDATE_INTERVAL_MS = 50;
+const LERP_SPEED = 12;
 
 export class MultiplayerDemo {
     private static readonly _panelPosition = new Vector3(0, 1.35, -0.55);
@@ -75,7 +79,7 @@ export class MultiplayerDemo {
     private static readonly _backWidthRatio = 0.85;
     private static readonly _backHeightRatio = 0.85;
     private static readonly _headDiameter = 0.12;
-    private static readonly _handDiameter = 0.06;
+    private static readonly _handSize = 0.035;
     private static readonly _maxRoomButtons = 4;
     private static readonly _roomBtnHeight = 0.055;
     private static readonly _roomBtnGap = 0.01;
@@ -566,25 +570,35 @@ export class MultiplayerDemo {
         this._roomButtons = [];
     }
 
+    private _roomOperationInProgress = false;
+
     private async _createRoom(): Promise<void> {
-        if (!this._client) return;
+        if (!this._client || this._roomOperationInProgress) return;
+        this._roomOperationInProgress = true;
+        await this._leaveRoom();
         this._setStatus('Creating room…');
         try {
             const room = await this._client.create<MyRoomState>('my_room');
             await this._onJoined(room);
         } catch (err) {
             this._setStatus(`Failed to create: ${this._errorMessage(err)}`);
+        } finally {
+            this._roomOperationInProgress = false;
         }
     }
 
     private async _joinRoom(roomId: string): Promise<void> {
-        if (!this._client) return;
+        if (!this._client || this._roomOperationInProgress) return;
+        this._roomOperationInProgress = true;
+        await this._leaveRoom();
         this._setStatus(`Joining ${roomId.slice(0, 6)}…`);
         try {
             const room = await this._client.joinById<MyRoomState>(roomId);
             await this._onJoined(room);
         } catch (err) {
             this._setStatus(`Failed to join: ${this._errorMessage(err)}`);
+        } finally {
+            this._roomOperationInProgress = false;
         }
     }
 
@@ -594,10 +608,12 @@ export class MultiplayerDemo {
         this._applyState('in-room');
 
         room.onLeave((_code: number, reason?: string) => {
+            if (this._room !== room) return;
             this._setStatus(`Left room (${reason ?? 'unknown'})`);
             this._cleanupRoom();
         });
         room.onError((code: number, message?: string) => {
+            if (this._room !== room) return;
             this._setStatus(`Room error (${code}): ${message ?? 'unknown'}`);
             this._cleanupRoom();
         });
@@ -649,38 +665,50 @@ export class MultiplayerDemo {
         head.material = material;
         head.parent = this._playerGroup;
 
-        const leftHand = MeshBuilder.CreateSphere(
+        const leftHand = MeshBuilder.CreateBox(
             `mp_left_${sessionId}`,
-            { diameter: MultiplayerDemo._handDiameter },
+            { size: MultiplayerDemo._handSize },
             this._scene,
         );
         leftHand.material = material;
         leftHand.parent = this._playerGroup;
 
-        const rightHand = MeshBuilder.CreateSphere(
+        const rightHand = MeshBuilder.CreateBox(
             `mp_right_${sessionId}`,
-            { diameter: MultiplayerDemo._handDiameter },
+            { size: MultiplayerDemo._handSize },
             this._scene,
         );
         rightHand.material = material;
         rightHand.parent = this._playerGroup;
 
         const updateFromState = () => {
-            head.position.set(player.x, player.y, player.z);
-            leftHand.position.set(player.lx, player.ly, player.lz);
-            rightHand.position.set(player.rx, player.ry, player.rz);
+            entry.targetHead.set(player.x, player.y, player.z);
+            entry.targetLeftHand.set(player.lx, player.ly, player.lz);
+            entry.targetRightHand.set(player.rx, player.ry, player.rz);
         };
-        updateFromState();
 
-        const detach = cb(player).onChange(updateFromState);
+        const targetHead = new Vector3(player.x, player.y, player.z);
+        const targetLeftHand = new Vector3(player.lx, player.ly, player.lz);
+        const targetRightHand = new Vector3(player.rx, player.ry, player.rz);
 
         const entry: RemotePlayerVisuals = {
             head,
             leftHand,
             rightHand,
             material,
-            onChangeDetach: detach,
+            onChangeDetach: () => {},
+            targetHead,
+            targetLeftHand,
+            targetRightHand,
         };
+
+        const detach = cb(player).onChange(updateFromState);
+        entry.onChangeDetach = detach;
+
+        head.position.copyFrom(targetHead);
+        leftHand.position.copyFrom(targetLeftHand);
+        rightHand.position.copyFrom(targetRightHand);
+
         this._remotePlayers.set(sessionId, entry);
         this._cleanup.add(material);
         this._cleanup.add(head);
@@ -708,6 +736,7 @@ export class MultiplayerDemo {
     private _startSending(): void {
         this._stopSending();
         this._onBeforeRenderObserver = this._scene.onBeforeRenderObservable.add(() => {
+            this._interpolateRemotePlayers();
             this._sendLocalState();
         });
         this._sendIntervalId = window.setInterval(() => {
@@ -723,6 +752,16 @@ export class MultiplayerDemo {
         if (this._onBeforeRenderObserver) {
             this._scene.onBeforeRenderObservable.remove(this._onBeforeRenderObserver);
             this._onBeforeRenderObserver = null;
+        }
+    }
+
+    private _interpolateRemotePlayers(): void {
+        const dt = this._scene.getEngine().getDeltaTime() / 1000;
+        const factor = Math.min(1, LERP_SPEED * dt);
+        for (const entry of this._remotePlayers.values()) {
+            entry.head.position = Vector3.Lerp(entry.head.position, entry.targetHead, factor);
+            entry.leftHand.position = Vector3.Lerp(entry.leftHand.position, entry.targetLeftHand, factor);
+            entry.rightHand.position = Vector3.Lerp(entry.rightHand.position, entry.targetRightHand, factor);
         }
     }
 
