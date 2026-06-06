@@ -232,23 +232,54 @@ pnpm dev:server   # server only (port 2567)
 
 ### Editing the server
 
-The server repo is a full git checkout at `server/`. You can edit files, commit, and push from inside it:
+The `server/` directory is a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) — a full git repository nested inside the main template repo. It has its own remote, branches, and history. This means you effectively have **two repos in one directory**: commits inside `server/` go to the server repo, while commits at the project root go to the main template repo.
+
+By default the submodule points to the original server template (`VGFP/babylonjs-webxr-multiplayer-server-template`). You can pull updates from it, but you cannot push without write access. To make your own changes you need your own copy.
+
+#### Pointing the submodule to your own server repo
+
+Either fork the server repo on GitHub or create a new one, then update the submodule:
+
+```bash
+# Update the URL recorded in .gitmodules
+git submodule set-url server https://github.com/YOUR_USERNAME/your-server-repo.git
+
+# Update the remote inside the submodule itself
+cd server
+git remote set-url origin https://github.com/YOUR_USERNAME/your-server-repo.git
+cd ..
+```
+
+Now you can edit, commit, and push from inside `server/`:
 
 ```bash
 cd server
 # edit files...
-git add . && git commit -m "change"
+git add . && git commit -m "my change"
 git push
 ```
 
-To pull the latest server changes from upstream into the submodule:
+After pushing server changes, bump the submodule pointer in the parent repo so it tracks the new commit:
+
+```bash
+cd ..
+git add server
+git commit -m "bump server submodule"
+```
+
+#### Syncing upstream server updates
+
+To pull the latest changes from the original server template into your fork:
 
 ```bash
 cd server
-git pull
+git remote add upstream https://github.com/VGFP/babylonjs-webxr-multiplayer-server-template.git  # one-time
+git fetch upstream
+git merge upstream/main
+git push  # push merged changes to your fork
 cd ..
-git add server  # update the submodule pointer in the parent repo
-git commit -m "bump server submodule"
+git add server
+git commit -m "sync upstream server changes"
 ```
 
 

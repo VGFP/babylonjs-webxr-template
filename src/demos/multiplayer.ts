@@ -6,6 +6,7 @@ import {
     Observer,
     Scene,
     StandardMaterial,
+    TargetCamera,
     TransformNode,
     Vector3,
 } from '@babylonjs/core';
@@ -32,6 +33,15 @@ interface PlayerSchema {
     rx: number;
     ry: number;
     rz: number;
+    hrx: number;
+    hry: number;
+    hrz: number;
+    lrx: number;
+    lry: number;
+    lrz: number;
+    rrx: number;
+    rry: number;
+    rrz: number;
 }
 
 interface MyRoomState {
@@ -47,6 +57,9 @@ interface RemotePlayerVisuals {
     targetHead: Vector3;
     targetLeftHand: Vector3;
     targetRightHand: Vector3;
+    targetHeadRot: Vector3;
+    targetLeftHandRot: Vector3;
+    targetRightHandRot: Vector3;
 }
 
 interface RoomSummary {
@@ -657,9 +670,13 @@ export class MultiplayerDemo {
         material.emissiveColor = color.scale(0.4);
         material.specularColor = new Color3(0.1, 0.1, 0.1);
 
-        const head = MeshBuilder.CreateSphere(
+        const head = MeshBuilder.CreateBox(
             `mp_head_${sessionId}`,
-            { diameter: MultiplayerDemo._headDiameter },
+            {
+                width: MultiplayerDemo._headDiameter,
+                height: MultiplayerDemo._headDiameter * 1.2,
+                depth: MultiplayerDemo._headDiameter * 0.6,
+            },
             this._scene,
         );
         head.material = material;
@@ -685,11 +702,17 @@ export class MultiplayerDemo {
             entry.targetHead.set(player.x, player.y, player.z);
             entry.targetLeftHand.set(player.lx, player.ly, player.lz);
             entry.targetRightHand.set(player.rx, player.ry, player.rz);
+            entry.targetHeadRot.set(player.hrx, player.hry, player.hrz);
+            entry.targetLeftHandRot.set(player.lrx, player.lry, player.lrz);
+            entry.targetRightHandRot.set(player.rrx, player.rry, player.rrz);
         };
 
         const targetHead = new Vector3(player.x, player.y, player.z);
         const targetLeftHand = new Vector3(player.lx, player.ly, player.lz);
         const targetRightHand = new Vector3(player.rx, player.ry, player.rz);
+        const targetHeadRot = new Vector3(player.hrx, player.hry, player.hrz);
+        const targetLeftHandRot = new Vector3(player.lrx, player.lry, player.lrz);
+        const targetRightHandRot = new Vector3(player.rrx, player.rry, player.rrz);
 
         const entry: RemotePlayerVisuals = {
             head,
@@ -700,6 +723,9 @@ export class MultiplayerDemo {
             targetHead,
             targetLeftHand,
             targetRightHand,
+            targetHeadRot,
+            targetLeftHandRot,
+            targetRightHandRot,
         };
 
         const detach = cb(player).onChange(updateFromState);
@@ -708,6 +734,9 @@ export class MultiplayerDemo {
         head.position.copyFrom(targetHead);
         leftHand.position.copyFrom(targetLeftHand);
         rightHand.position.copyFrom(targetRightHand);
+        head.rotation.copyFrom(targetHeadRot);
+        leftHand.rotation.copyFrom(targetLeftHandRot);
+        rightHand.rotation.copyFrom(targetRightHandRot);
 
         this._remotePlayers.set(sessionId, entry);
         this._cleanup.add(material);
@@ -762,6 +791,9 @@ export class MultiplayerDemo {
             entry.head.position = Vector3.Lerp(entry.head.position, entry.targetHead, factor);
             entry.leftHand.position = Vector3.Lerp(entry.leftHand.position, entry.targetLeftHand, factor);
             entry.rightHand.position = Vector3.Lerp(entry.rightHand.position, entry.targetRightHand, factor);
+            entry.head.rotation = Vector3.Lerp(entry.head.rotation, entry.targetHeadRot, factor);
+            entry.leftHand.rotation = Vector3.Lerp(entry.leftHand.rotation, entry.targetLeftHandRot, factor);
+            entry.rightHand.rotation = Vector3.Lerp(entry.rightHand.rotation, entry.targetRightHandRot, factor);
         }
     }
 
@@ -771,24 +803,58 @@ export class MultiplayerDemo {
         const camera = this._scene.activeCamera;
         if (!camera) return;
         const headPos = camera.position;
+        const targetCam = camera as TargetCamera;
+        const headRot = targetCam.rotationQuaternion
+            ? targetCam.rotationQuaternion.toEulerAngles()
+            : targetCam.rotation;
 
         const xr = this._getXr();
         let leftPos = Vector3.Zero();
         let rightPos = Vector3.Zero();
+        let leftRot = Vector3.Zero();
+        let rightRot = Vector3.Zero();
         if (xr) {
             for (const c of xr.input.controllers) {
                 const handedness = c.inputSource.handedness;
                 const source = c.grip ?? c.pointer;
                 if (!source) continue;
-                if (handedness === 'left') leftPos = source.getAbsolutePosition();
-                else if (handedness === 'right') rightPos = source.getAbsolutePosition();
+                const rotQuat = source.absoluteRotationQuaternion;
+                const rotEuler = rotQuat ? rotQuat.toEulerAngles() : source.rotation;
+                if (handedness === 'left') {
+                    leftPos = source.getAbsolutePosition();
+                    leftRot = rotEuler;
+                } else if (handedness === 'right') {
+                    rightPos = source.getAbsolutePosition();
+                    rightRot = rotEuler;
+                }
             }
         }
 
         try {
-            room.send('position', { x: headPos.x, y: headPos.y, z: headPos.z });
-            room.send('leftController', { x: leftPos.x, y: leftPos.y, z: leftPos.z });
-            room.send('rightController', { x: rightPos.x, y: rightPos.y, z: rightPos.z });
+            room.send('position', {
+                x: headPos.x,
+                y: headPos.y,
+                z: headPos.z,
+                rx: headRot.x,
+                ry: headRot.y,
+                rz: headRot.z,
+            });
+            room.send('leftController', {
+                x: leftPos.x,
+                y: leftPos.y,
+                z: leftPos.z,
+                rx: leftRot.x,
+                ry: leftRot.y,
+                rz: leftRot.z,
+            });
+            room.send('rightController', {
+                x: rightPos.x,
+                y: rightPos.y,
+                z: rightPos.z,
+                rx: rightRot.x,
+                ry: rightRot.y,
+                rz: rightRot.z,
+            });
         } catch {
             // ignore send errors while reconnecting
         }
