@@ -41,6 +41,7 @@ export class DemoUiController implements DemoUi {
     private readonly _buttons: Map<string, ButtonEntry>;
     private readonly _buttonResults: CreateUiButtonResult[];
     private _backPlane: Mesh | null;
+    private _exitPlane: Mesh | null;
     private _detachText: (() => void) | null;
 
     private constructor(
@@ -49,6 +50,7 @@ export class DemoUiController implements DemoUi {
         buttons: Map<string, ButtonEntry>,
         buttonResults: CreateUiButtonResult[],
         backPlane: Mesh | null,
+        exitPlane: Mesh | null,
         detachText: (() => void) | null,
     ) {
         this._scene = scene;
@@ -56,6 +58,7 @@ export class DemoUiController implements DemoUi {
         this._buttons = buttons;
         this._buttonResults = buttonResults;
         this._backPlane = backPlane;
+        this._exitPlane = exitPlane;
         this._detachText = detachText;
     }
 
@@ -65,6 +68,7 @@ export class DemoUiController implements DemoUi {
         demos: readonly DemoDescriptor[],
         onDemoClick: (demo: DemoDescriptor) => void,
         onBackClick: (() => void) | null,
+        onExitXr: (() => void) | null = null,
     ): Promise<DemoUiController> {
         const textManager = new TextManager(engine);
         await textManager.init();
@@ -111,12 +115,12 @@ export class DemoUiController implements DemoUi {
         }
 
         let backPlane: Mesh | null = null;
+        let exitPlane: Mesh | null = null;
+
+        let nextY = DemoUiController._originY - demos.length * (DemoUiController._btnHeight + DemoUiController._btnGap);
 
         if (onBackClick) {
-            const backY =
-                DemoUiController._originY -
-                demos.length * (DemoUiController._btnHeight + DemoUiController._btnGap) -
-                DemoUiController._backTopMargin;
+            const backY = nextY - DemoUiController._backTopMargin;
 
             const result = createUiButton(scene, {
                 name: 'btn_back',
@@ -141,11 +145,42 @@ export class DemoUiController implements DemoUi {
                 ),
                 DemoUiController._backTextScale,
             );
+
+            nextY = backY - DemoUiController._btnHeight * DemoUiController._backHeightRatio * 0.5;
+        }
+
+        if (onExitXr) {
+            const exitGap = 0.02;
+            const exitY = nextY - exitGap;
+
+            const result = createUiButton(scene, {
+                name: 'btn_exit_xr',
+                width: DemoUiController._btnWidth * DemoUiController._backWidthRatio,
+                height: DemoUiController._btnHeight * DemoUiController._backHeightRatio,
+                position: new Vector3(DemoUiController._originX, exitY, DemoUiController._originZ),
+                bgColor: '#3a1a1abb',
+                borderColor: '#ff505066',
+                cornerRadius: DemoUiController._cornerRadius,
+                borderThickness: DemoUiController._borderThickness,
+                onClick: () => onExitXr(),
+            });
+            exitPlane = result.plane;
+            buttonResults.push(result);
+
+            textManager.addParagraph(
+                'Exit XR',
+                new Vector3(
+                    DemoUiController._originX,
+                    exitY + DemoUiController._textYOffset,
+                    DemoUiController._originZ + DemoUiController._textZOffset,
+                ),
+                DemoUiController._backTextScale,
+            );
         }
 
         const detachText = textManager.attachToScene(scene);
 
-        return new DemoUiController(scene, textManager, buttons, buttonResults, backPlane, detachText);
+        return new DemoUiController(scene, textManager, buttons, buttonResults, backPlane, exitPlane, detachText);
     }
 
     setActiveDemo(id: string | null): void {
@@ -162,6 +197,7 @@ export class DemoUiController implements DemoUi {
             entry.plane.setEnabled(visible);
         }
         if (this._backPlane) this._backPlane.setEnabled(visible);
+        if (this._exitPlane) this._exitPlane.setEnabled(visible);
 
         if (!visible && this._detachText) {
             this._detachText();

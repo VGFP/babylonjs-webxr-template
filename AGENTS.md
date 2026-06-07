@@ -143,8 +143,8 @@ PDF.js is too slow to run inside an XR session on standalone headsets (Meta Ques
 | File | Role |
 |---|---|
 | `src/demos/pdfPreprocessor.ts` | `preprocessPdf()` (PDF.js → JPEG blob URLs), `serializePages()` / `deserializePages()` (`.pre` format I/O). Only this file imports `pdfjs-dist`. |
-| `src/demos/pdfReader.ts` | `PdfReaderDemo` — XR scene. **No PDF.js dependency.** Loads from `scene.metadata.pdfPages` (blob URLs). `_renderPage()` creates `Texture` from blob URL — synchronous, no canvas. |
-| `src/main.ts` | HTML overlay wiring — detects `.pdf` vs `.pre` uploads, runs Convert, stores pages in `scene.metadata.pdfPages`. |
+| `src/demos/pdfReader.ts` | `PdfReaderDemo` - XR scene. **No PDF.js dependency.** Loads from `scene.metadata.pdfPages` (blob URLs). `_renderPage()` creates `Texture` from blob URL - synchronous, no canvas. |
+| `src/main.ts` | HTML overlay wiring - detects `.pdf` vs `.pre` uploads, runs Convert, stores pages in `scene.metadata.pdfPages`. |
 
 ### `.pre` file format
 
@@ -152,7 +152,7 @@ JSON with base64-encoded JPEG pages + dimensions. See `docs/pdf-preprocessing-gu
 
 ### Race condition note
 
-`_drawPlaceholder()` in `PdfReaderDemo` uses async `canvas.toBlob`. If pre-processed pages are available, the placeholder must be **skipped** — otherwise its async `toBlob` callback overwrites the first page texture after it loads.
+`_drawPlaceholder()` in `PdfReaderDemo` uses async `canvas.toBlob`. If pre-processed pages are available, the placeholder must be **skipped** - otherwise its async `toBlob` callback overwrites the first page texture after it loads.
 
 ## Project Directory Layout
 

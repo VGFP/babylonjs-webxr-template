@@ -20,8 +20,8 @@ import { DisposableStack } from '../core/disposableStack';
 import { createGizmoManager } from '../core/gizmoManagerFactory';
 import type { PreProcessedPage } from './pdfPreprocessor';
 
-const MAX_DISPLAY_WIDTH = 0.3;
-const MAX_DISPLAY_HEIGHT = 0.42;
+const MAX_DISPLAY_WIDTH = 0.5175;
+const MAX_DISPLAY_HEIGHT = 0.7245;
 
 export class PdfReaderDemo {
     private static readonly _panelPosition = new Vector3(0, 1.35, -0.55);
@@ -80,7 +80,7 @@ export class PdfReaderDemo {
 
         this._gizmoAnchor = new Mesh('pdf_gizmo_anchor', scene);
         this._gizmoAnchor.parent = this._panelRoot;
-        this._gizmoAnchor.position = new Vector3(0, 0.06, 0);
+        this._gizmoAnchor.position = new Vector3(0, 0.22, -0.05);
         this._gizmoAnchor.isVisible = false;
         this._cleanup.add(this._gizmoAnchor);
 

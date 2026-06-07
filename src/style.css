@@ -146,6 +146,22 @@ body {
     gap: 16px;
 }
 
+.section-divider {
+    width: 320px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #444, transparent);
+    margin: 4px 0;
+}
+
+.section-header {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #999;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
 .pdf-upload-wrapper {
     display: flex;
     flex-direction: column;
@@ -266,4 +282,71 @@ body {
 
 .pdf-progress:empty {
     display: none;
+}
+
+.mp-url-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    pointer-events: auto;
+}
+
+.mp-url-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.mp-url-input {
+    width: 240px;
+    padding: 10px 16px;
+    font-size: 14px;
+    color: #e6e6e6;
+    background: linear-gradient(145deg, #181818, #0d0d0d);
+    border: 1px solid #333;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.mp-url-input:focus {
+    border-color: #555;
+    background: linear-gradient(145deg, #222, #161616);
+}
+
+.mp-url-input::placeholder {
+    color: #777;
+}
+
+.mp-paste-button {
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ccc;
+    background: linear-gradient(145deg, #1a2a3a, #0d1a2a);
+    border: 1px solid #2a4a6a;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.mp-paste-button:hover {
+    background: linear-gradient(145deg, #22334a, #16223a);
+    color: #fff;
+    border-color: #3a6a9a;
+}
+
+.mp-paste-button:active {
+    transform: scale(0.97);
+}
+
+.mp-url-note {
+    font-size: 11px;
+    color: #888;
+    text-align: center;
+    max-width: 300px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }

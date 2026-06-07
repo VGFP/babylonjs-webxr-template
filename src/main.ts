@@ -120,6 +120,13 @@ class App {
             demos,
             (demo) => this._sceneManager!.switchToDemo(demo),
             null,
+            async () => {
+                try {
+                    await this._sceneManager!.activeXr.baseExperience.exitXRAsync();
+                } catch (err) {
+                    console.error('Failed to exit XR:', err);
+                }
+            },
         );
         this._sceneManager.setHomeUi(homeUi);
 
@@ -225,6 +232,39 @@ class App {
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register(import.meta.env.BASE_URL + 'sw.js');
             });
+        }
+
+        const mpServerUrlInput = document.getElementById('mp-server-url') as HTMLInputElement | null;
+        const mpPasteBtn = document.getElementById('mp-paste-btn') as HTMLButtonElement | null;
+        if (mpServerUrlInput) {
+            try {
+                const saved = localStorage.getItem('mp_server_url');
+                if (saved) mpServerUrlInput.value = saved;
+            } catch {
+                // ignore storage errors
+            }
+            mpServerUrlInput.addEventListener('input', () => {
+                try {
+                    localStorage.setItem('mp_server_url', mpServerUrlInput.value);
+                } catch {
+                    // ignore storage errors
+                }
+            });
+            if (mpPasteBtn) {
+                mpPasteBtn.addEventListener('click', async () => {
+                    try {
+                        const text = await navigator.clipboard.readText();
+                        mpServerUrlInput.value = text.trim();
+                        try {
+                            localStorage.setItem('mp_server_url', mpServerUrlInput.value);
+                        } catch {
+                            // ignore storage errors
+                        }
+                    } catch {
+                        // clipboard not available
+                    }
+                });
+            }
         }
     }
 }
