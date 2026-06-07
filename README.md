@@ -192,6 +192,8 @@ The app uses a `SceneManager` to switch between a home scene and demo scenes. Th
 
 **PDF Reader Demo** - displays PDF documents in XR with page navigation and bounding-box gizmos (scale + rotate). PDFs must be pre-processed before entering XR - upload a `.pdf`, click Convert, then enter XR. Download the resulting `.pre` file to skip conversion on future visits. See the [PDF Pre-processing Guide](docs/pdf-preprocessing-guide.md) for details.
 
+**Dice Roller Demo** - roll polyhedral dice (d4, d6, d8, d12, d20) in three modes: **Simple** (pre-determined RNG with slerp animation to the target face), **Physics** (Havok-powered die drops into a tray with random impulse and bounces to rest), and **Manual** (grab the die with XR controllers or hand tracking pinch, then throw it with tracked velocity into the physics tray). The d4 reads the face pointing down as the result; all others read the face pointing up.
+
 ## Guides
 
 - **[MSDF Text Rendering for XR Buttons](docs/msdf-text-buttons-guide.md)** - How to create high-resolution buttons with MSDF text, why it outperforms GUI TextBlock for XR, positioning, font customization, and troubleshooting.
@@ -315,7 +317,8 @@ git commit -m "sync upstream server changes"
 │   │                      UI_LAYOUT, sceneMetadata, domWiring, storage, clipboard, fileDownload,
 │   │                      errors, gizmoManagerFactory, types
 │   ├── demos/            # DemoRegistry, DemoUiController, individual demo classes
-│   │                      (xrLightShadows, multiplayer, pdfReader, pdfPreprocessor)
+│   │                      (xrLightShadows, multiplayer, pdfReader, pdfPreprocessor,
+│   │                       diceRoller, diceMeshes, dicePhysics)
 │   ├── lighting/         # ShadowManager, WindowLight, createShadowGenerator
 │   ├── materials/        # applyShadowMaterialFacing (shadow-only material helper)
 │   ├── meshes/           # buildPolygonMesh (polygon mesh builder for detected planes),

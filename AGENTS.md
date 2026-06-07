@@ -38,6 +38,48 @@ Do **not** import from the `@babylonjs/addons` barrel - tree-shaking may drop re
 
 WebXR requires HTTPS. `vite.config.ts` auto-detects `.certs/localhost.key` + `.certs/localhost.pem`. Regenerate with `bash scripts/generate-cert.sh`.
 
+## Havok Physics (Dice Roller)
+
+The Dice Roller's physics and manual modes use Havok via `@babylonjs/havok`. The Havok ESM bundle expects to fetch `HavokPhysics.wasm` next to its own JS file, but Vite pre-bundles `node_modules` and the relative URL resolves to a 404 (returning the SPA `index.html`).
+
+`vite.config.ts` registers a middleware that serves the WASM from `node_modules/@babylonjs/havok/lib/esm/` at the path `/havok-internal/HavokPhysics.wasm`, and a `closeBundle` hook that copies it to `dist/havok-internal/` in production builds. `getHavokPlugin()` in `src/demos/dicePhysics.ts` passes the URL via `locateFile`, prefixed with `import.meta.env.BASE_URL` so it works under both the dev server (`/`) and production sub-paths.
+
+**Important:** Do NOT call `scene.disablePhysicsEngine()` in `teardown()`. Doing so disposes the HavokPlugin singleton; `getHavokPlugin()` returns a cached-but-destroyed plugin on re-entry and physics becomes permanently unavailable. The demo's `teardown()` relies on `DisposableStack` to dispose individual physics bodies and meshes — the engine itself stays alive for reuse.
+
+## Dice Roller Architecture
+
+The Dice Roller (`src/demos/diceRoller.ts`) supports three roll modes cycled by a single toggle button:
+
+| Mode | Mechanism | Result detection |
+|---|---|---|
+| **Simple** | Pre-determined RNG → slerp animation to target face | `getResultFaceIndex()` on final rotation |
+| **Physics** | Die drops into Havok physics tray with random impulse + angular impulse | `_tickPhysicsSettle()` waits for rest, then reads face |
+| **Manual** | Die spawns at rest → user grabs via pointer pick → releases with tracked velocity | Same settle logic as physics after throw |
+
+### Roll mode constants and helpers
+
+- Die geometry and face logic: `src/demos/diceMeshes.ts` (exports `DIE_RADIUS`, `DICE_SIDES`, `buildDieMesh`, `getResultFaceIndex`, `getResultRotation`).
+- Die physics constants and aggregate creation: `src/demos/dicePhysics.ts` (exports `createDieAggregate()`, `DIE_MASS`, `DIE_RESTITUTION`, etc.). Use `createDieAggregate(mesh, scene)` — do not inline `new PhysicsAggregate(...)` with die parameters.
+- Tray dimensions and settle thresholds remain in `diceRoller.ts` (demo-specific).
+
+### Manual grab system
+
+The manual mode uses `scene.onPointerObservable` (not per-controller trigger observers) so it works uniformly with XR controllers, hand tracking pinch, and screen touch:
+
+1. **POINTERDOWN** → ray-pick the die mesh → find the closest XR controller by matching the pick ray origin against controller grip positions → dispose die aggregate, record grab offset.
+2. **Per-frame** (`_tickManual`) → track smoothed velocities for all controllers (exponential moving average); if grabbed, move die to controller position + offset and copy grip rotation.
+3. **POINTERUP** → read the tracked velocity for the grabbing controller → create new `PhysicsAggregate` via `createDieAggregate()` → apply linear velocity (scaled by `MANUAL_THROW_VEL_SCALE`) + random angular velocity → `_tickPhysicsSettle()` handles the rest.
+
+**`_rolling` flag in manual mode:** Set to `false` right after spawning the die (the user hasn't thrown yet — they should be free to toggle mode or select dice). Set to `true` only when the die is released (`_onPointerUp`). This prevents the mode/die-type buttons from being locked while the die sits idle.
+
+### Tray meshes must be non-pickable
+
+All tray wall/floor meshes are created with `isPickable = false`. The tray's far wall is coplanar with the back button (both at Z = panel position); without this flag it intercepts the pointer pick ray and blocks the button.
+
+### d4 result rule
+
+The d4 uses the face pointing **down** as the result (opposite of all other dice). `getResultFaceIndex()` and `getResultRotation()` handle this automatically via `isD4()`.
+
 ## Scene Management (WebXR Constraint)
 
 **You cannot freely dispose/switch `Scene` objects in WebXR** - the XR session, camera, controllers, plane detection, and anchors are all bound to the `Scene` instance used to create them. Disposing the scene kills the XR session, and re-entering requires a user gesture + permission flow.
@@ -80,6 +122,9 @@ This project uses a state machine (`SceneManager`) that switches between "virtua
 | `src/demos/xrLightShadows.ts` | `XrLightShadowsDemo` - shadows on detected planes, point lights, gizmos |
 | `src/demos/multiplayer.ts` | `MultiplayerDemo` - Colyseus client, remote player avatars |
 | `src/demos/pdfReader.ts` | `PdfReaderDemo` - texture-based PDF display in XR |
+| `src/demos/diceRoller.ts` | `DiceRollerDemo` - dice selection, simple-RNG + Havok physics + manual grab-and-throw roll modes |
+| `src/demos/diceMeshes.ts` | Polyhedron mesh builders (d4–d20) + face-normal extraction + `findUpFaceIndex`, `DIE_RADIUS` |
+| `src/demos/dicePhysics.ts` | Lazy `getHavokPlugin()` singleton, `createDieAggregate()` helper, die physics constants (`DIE_MASS`, `DIE_RESTITUTION`, etc.) |
 | `src/xr/xrExperience.ts` | `XrExperience` - wraps WebXR (plane detection, anchors) |
 | `src/xr/planeDetectionManager.ts` | `PlaneDetectionManager` - tracks detected planes, `findFloorReference()` |
 | `src/core/uiButton.ts` | `createUiButton()` - 3D mesh plane + GUI rectangle background |
@@ -212,7 +257,8 @@ src/
                 UI_LAYOUT, sceneMetadata, domWiring, storage, clipboard, fileDownload,
                 errors, gizmoManagerFactory, types
   demos/      - DemoRegistry, DemoUiController, individual demo classes
-                (xrLightShadows, multiplayer, pdfReader, pdfPreprocessor)
+                (xrLightShadows, multiplayer, pdfReader, pdfPreprocessor,
+                 diceRoller, diceMeshes, dicePhysics)
   xr/         - XrExperience, PlaneDetectionManager
   text/       - TextManager (MSDF wrapper)
   lighting/   - ShadowManager, WindowLight, createShadowGenerator

@@ -31,6 +31,7 @@ export class DemoRegistry {
 import { XrLightShadowsDemo } from './xrLightShadows';
 import { MultiplayerDemo } from './multiplayer';
 import { PdfReaderDemo } from './pdfReader';
+import { DiceRollerDemo } from './diceRoller';
 
 DemoRegistry.register({
     id: 'xr-light-shadows',
@@ -59,6 +60,17 @@ DemoRegistry.register({
     label: 'PDF Reader',
     build: (scene) => {
         const demo = new PdfReaderDemo(scene);
+        return () => demo.teardown();
+    },
+    ownUi: true,
+    reuseScene: true,
+});
+
+DemoRegistry.register({
+    id: 'dice-roller',
+    label: 'Dice Roller',
+    build: (scene) => {
+        const demo = new DiceRollerDemo(scene);
         return () => demo.teardown();
     },
     ownUi: true,

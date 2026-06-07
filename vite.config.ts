@@ -9,6 +9,8 @@ const pemPath = path.resolve(__dirname, '.certs/localhost.pem');
 const hasCerts = fs.existsSync(keyPath) && fs.existsSync(pemPath);
 
 const pdfjsDir = path.resolve(__dirname, 'node_modules/pdfjs-dist');
+const havokDir = path.resolve(__dirname, 'node_modules/@babylonjs/havok/lib/esm');
+const havokPublicPath = '/havok-internal';
 
 function pdfjsAssetsPlugin(): Plugin {
     const mimeTypes: Record<string, string> = {
@@ -21,23 +23,37 @@ function pdfjsAssetsPlugin(): Plugin {
 
     const serveAsset = (req: { url?: string }, res: any, next: () => void) => {
         const url = (req.url || '').split('?')[0];
-        const idx = url.indexOf('/pdfjs-assets/');
-        if (idx === -1) return next();
+        const pdfjsIdx = url.indexOf('/pdfjs-assets/');
+        if (pdfjsIdx !== -1) {
+            const relativePath = decodeURIComponent(url.substring(pdfjsIdx + '/pdfjs-assets/'.length));
+            const filePath = path.join(pdfjsDir, relativePath);
 
-        const relativePath = decodeURIComponent(url.substring(idx + '/pdfjs-assets/'.length));
-        const filePath = path.join(pdfjsDir, relativePath);
-
-        if (!filePath.startsWith(pdfjsDir) || !fs.existsSync(filePath) || !fs.statSync(filePath).isFile()) {
-            return next();
+            if (filePath.startsWith(pdfjsDir) && fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
+                const ext = path.extname(filePath).toLowerCase();
+                res.setHeader('Content-Type', mimeTypes[ext] || 'application/octet-stream');
+                fs.createReadStream(filePath).pipe(res);
+                return;
+            }
         }
 
-        const ext = path.extname(filePath).toLowerCase();
-        res.setHeader('Content-Type', mimeTypes[ext] || 'application/octet-stream');
-        fs.createReadStream(filePath).pipe(res);
+        const havokIdx = url.indexOf(havokPublicPath + '/');
+        if (havokIdx !== -1) {
+            const relativePath = decodeURIComponent(url.substring(havokIdx + havokPublicPath.length + 1));
+            const filePath = path.join(havokDir, relativePath);
+
+            if (filePath.startsWith(havokDir) && fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
+                const ext = path.extname(filePath).toLowerCase();
+                res.setHeader('Content-Type', mimeTypes[ext] || 'application/octet-stream');
+                fs.createReadStream(filePath).pipe(res);
+                return;
+            }
+        }
+
+        next();
     };
 
     return {
-        name: 'pdfjs-assets',
+        name: 'pdfjs-havok-assets',
         configureServer(server) {
             server.middlewares.use(serveAsset);
         },
@@ -49,6 +65,12 @@ function pdfjsAssetsPlugin(): Plugin {
                 if (fs.existsSync(src)) {
                     fs.cpSync(src, dest, { recursive: true });
                 }
+            }
+            const havokSrc = path.join(havokDir, 'HavokPhysics.wasm');
+            const havokDest = path.resolve(__dirname, 'dist', 'havok-internal', 'HavokPhysics.wasm');
+            if (fs.existsSync(havokSrc)) {
+                fs.mkdirSync(path.dirname(havokDest), { recursive: true });
+                fs.copyFileSync(havokSrc, havokDest);
             }
         },
     };
