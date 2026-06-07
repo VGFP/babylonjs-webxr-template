@@ -1,15 +1,12 @@
 import { Engine, Scene, TransformNode, Vector3, WebXRDefaultExperience } from '@babylonjs/core';
-import { WebXRState } from '@babylonjs/core/XR/webXRTypes';
-import '@babylonjs/loaders/glTF';
-
 import './style.css';
-import { SceneManager } from './core';
+import { SceneManager, setMetadata } from './core';
+import { wireXrOverlay, wireXrToggle, wirePdfInput, wireMpServerInput } from './core/domWiring';
 import { ShadowManager } from './lighting';
 import { XrExperience, PlaneDetectionManager } from './xr';
 import { TextManager } from './text';
 import { DemoRegistry } from './demos';
 import { DemoUiController } from './demos/demoUi';
-import { preprocessPdf, serializePages, deserializePages } from './demos/pdfPreprocessor';
 
 class App {
     private _canvas: HTMLCanvasElement;
@@ -52,11 +49,8 @@ class App {
     async bootstrapXr(): Promise<void> {
         this._xrExperience = new XrExperience(this._scene);
         await this._xrExperience.init();
-        this._scene.metadata = {
-            ...((this._scene.metadata as Record<string, unknown>) || {}),
-            xrAnchors: this._xrExperience.anchors,
-            planeDetectionManager: this._planeDetectionManager,
-        };
+        setMetadata(this._scene, 'xrAnchors', this._xrExperience.anchors);
+        setMetadata(this._scene, 'planeDetectionManager', this._planeDetectionManager ?? undefined);
     }
 
     async createScene(): Promise<void> {
@@ -69,7 +63,7 @@ class App {
         );
         this._planeDetectionManager.wireObservables();
 
-        (this._scene.metadata as Record<string, unknown>).planeDetectionManager = this._planeDetectionManager;
+        setMetadata(this._scene, 'planeDetectionManager', this._planeDetectionManager ?? undefined);
 
         if (this._debug) {
             await import('@babylonjs/inspector');
@@ -91,18 +85,6 @@ class App {
         this._detachHomeText = this._textManager.attachToScene(this._scene);
         const demos = DemoRegistry.getAll();
 
-        const xrButton = document.getElementById('xr-button') as HTMLButtonElement;
-        const xrOverlay = document.getElementById('xr-overlay') as HTMLDivElement;
-        const xrFrost = document.getElementById('xr-frost') as HTMLDivElement;
-
-        const wireXrState = (xr: WebXRDefaultExperience) => {
-            xr.baseExperience.onStateChangedObservable.add((state) => {
-                const inXR = state === WebXRState.IN_XR;
-                xrOverlay.classList.toggle('hidden', inXR);
-                xrFrost.classList.toggle('hidden', inXR);
-            });
-        };
-
         this._sceneManager = new SceneManager({
             engine: this._engine,
             textManager: this._textManager,
@@ -111,7 +93,11 @@ class App {
             homeDetachText: this._detachHomeText!,
             demos,
             debug: this._debug,
-            onWireXrState: wireXrState,
+            onWireXrState: (xr: WebXRDefaultExperience) => {
+                const overlay = document.getElementById('xr-overlay') as HTMLDivElement | null;
+                const frost = document.getElementById('xr-frost') as HTMLDivElement | null;
+                if (overlay && frost) wireXrOverlay(xr, overlay, frost);
+            },
         });
 
         const homeUi = await DemoUiController.create(
@@ -130,142 +116,45 @@ class App {
         );
         this._sceneManager.setHomeUi(homeUi);
 
-        if (xrButton && xrOverlay && xrFrost) {
-            xrButton.addEventListener('click', async () => {
-                try {
-                    await this._sceneManager!.activeXr.baseExperience.enterXRAsync('immersive-ar', 'local-floor');
-                } catch (err) {
-                    console.error('Failed to enter XR:', err);
-                }
-            });
-
-            wireXrState(this._xrExperience!.xr);
-        }
-
-        const pdfInput = document.getElementById('pdf-input') as HTMLInputElement | null;
-        const pdfFilename = document.getElementById('pdf-filename') as HTMLSpanElement | null;
-        const pdfConvertBtn = document.getElementById('pdf-convert') as HTMLButtonElement | null;
-        const pdfDownloadBtn = document.getElementById('pdf-download') as HTMLButtonElement | null;
-        const pdfProgress = document.getElementById('pdf-progress') as HTMLSpanElement | null;
-
-        let selectedPdfFile: File | null = null;
-
-        if (pdfInput && pdfFilename) {
-            pdfInput.addEventListener('change', () => {
-                const file = pdfInput.files?.[0];
-                if (!file) return;
-                pdfFilename.textContent = file.name;
-                if (pdfDownloadBtn) pdfDownloadBtn.hidden = true;
-
-                if (file.name.endsWith('.pre')) {
-                    selectedPdfFile = null;
-                    if (pdfConvertBtn) pdfConvertBtn.hidden = true;
-                    if (pdfProgress) pdfProgress.textContent = 'Loading...';
-                    const reader = new FileReader();
-                    reader.onload = () => {
-                        try {
-                            const pages = deserializePages(reader.result as string);
-                            (this._scene.metadata as Record<string, unknown>).pdfPages = pages;
-                            if (pdfProgress) pdfProgress.textContent = `Loaded: ${pages.length} pages`;
-                        } catch (err) {
-                            if (pdfProgress)
-                                pdfProgress.textContent = `Error: ${err instanceof Error ? err.message : 'invalid .pre file'}`;
-                        }
-                    };
-                    reader.onerror = () => {
-                        if (pdfProgress) pdfProgress.textContent = 'Error: failed to read file';
-                    };
-                    reader.readAsText(file);
-                } else {
-                    selectedPdfFile = file;
-                    if (pdfConvertBtn) pdfConvertBtn.hidden = false;
-                    if (pdfProgress) pdfProgress.textContent = '';
-                }
-            });
-        }
-
-        if (pdfConvertBtn) {
-            pdfConvertBtn.addEventListener('click', async () => {
-                if (!selectedPdfFile) return;
-                pdfConvertBtn.disabled = true;
-                if (pdfProgress) pdfProgress.textContent = 'Converting...';
-                try {
-                    const pages = await preprocessPdf(selectedPdfFile, (current, total) => {
-                        if (pdfProgress) pdfProgress.textContent = `Converting page ${current} of ${total}...`;
-                    });
-                    (this._scene.metadata as Record<string, unknown>).pdfPages = pages;
-                    if (pdfProgress) pdfProgress.textContent = `Ready: ${pages.length} pages`;
-                    if (pdfDownloadBtn) pdfDownloadBtn.hidden = false;
-                    pdfConvertBtn.hidden = true;
-                } catch (err) {
-                    if (pdfProgress)
-                        pdfProgress.textContent = `Error: ${err instanceof Error ? err.message : 'unknown'}`;
-                    pdfConvertBtn.disabled = false;
-                }
-            });
-        }
-
-        if (pdfDownloadBtn) {
-            pdfDownloadBtn.addEventListener('click', async () => {
-                const pages = (this._scene.metadata as Record<string, unknown>)?.pdfPages as
-                    | { url: string; width: number; height: number }[]
-                    | undefined;
-                if (!pages) return;
-                pdfDownloadBtn.disabled = true;
-                try {
-                    const json = await serializePages(pages);
-                    const blob = new Blob([json], { type: 'application/json' });
-                    const url = URL.createObjectURL(blob);
-                    const a = document.createElement('a');
-                    a.href = url;
-                    a.download = (selectedPdfFile?.name ?? 'document').replace(/\.pdf$/i, '') + '.pre';
-                    a.click();
-                    URL.revokeObjectURL(url);
-                } catch (err) {
-                    console.error('Failed to download:', err);
-                }
-                pdfDownloadBtn.disabled = false;
-            });
-        }
+        this._wireXrButton();
+        this._wirePdfControls();
+        this._wireMpServerInput();
 
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register(import.meta.env.BASE_URL + 'sw.js');
             });
         }
+    }
 
-        const mpServerUrlInput = document.getElementById('mp-server-url') as HTMLInputElement | null;
-        const mpPasteBtn = document.getElementById('mp-paste-btn') as HTMLButtonElement | null;
-        if (mpServerUrlInput) {
-            try {
-                const saved = localStorage.getItem('mp_server_url');
-                if (saved) mpServerUrlInput.value = saved;
-            } catch {
-                // ignore storage errors
-            }
-            mpServerUrlInput.addEventListener('input', () => {
-                try {
-                    localStorage.setItem('mp_server_url', mpServerUrlInput.value);
-                } catch {
-                    // ignore storage errors
-                }
-            });
-            if (mpPasteBtn) {
-                mpPasteBtn.addEventListener('click', async () => {
-                    try {
-                        const text = await navigator.clipboard.readText();
-                        mpServerUrlInput.value = text.trim();
-                        try {
-                            localStorage.setItem('mp_server_url', mpServerUrlInput.value);
-                        } catch {
-                            // ignore storage errors
-                        }
-                    } catch {
-                        // clipboard not available
-                    }
-                });
-            }
-        }
+    private _wireXrButton(): void {
+        const xrButton = document.getElementById('xr-button') as HTMLButtonElement | null;
+        const xrOverlay = document.getElementById('xr-overlay') as HTMLDivElement | null;
+        const xrFrost = document.getElementById('xr-frost') as HTMLDivElement | null;
+        if (!xrButton || !xrOverlay || !xrFrost) return;
+
+        wireXrToggle(xrButton, xrOverlay, xrFrost, this._xrExperience!.xr, async () => {
+            await this._sceneManager!.activeXr.baseExperience.enterXRAsync('immersive-ar', 'local-floor');
+        });
+    }
+
+    private _wirePdfControls(): void {
+        const input = document.getElementById('pdf-input') as HTMLInputElement | null;
+        const filename = document.getElementById('pdf-filename') as HTMLSpanElement | null;
+        const convertBtn = document.getElementById('pdf-convert') as HTMLButtonElement | null;
+        const downloadBtn = document.getElementById('pdf-download') as HTMLButtonElement | null;
+        const progress = document.getElementById('pdf-progress') as HTMLSpanElement | null;
+        if (!input || !filename || !convertBtn || !downloadBtn || !progress) return;
+
+        wirePdfInput(this._scene, input, filename, convertBtn, downloadBtn, progress);
+    }
+
+    private _wireMpServerInput(): void {
+        const input = document.getElementById('mp-server-url') as HTMLInputElement | null;
+        const pasteBtn = document.getElementById('mp-paste-btn') as HTMLButtonElement | null;
+        if (!input) return;
+
+        wireMpServerInput(input, pasteBtn);
     }
 }
 

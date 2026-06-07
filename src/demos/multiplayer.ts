@@ -4,6 +4,7 @@ import {
     Mesh,
     MeshBuilder,
     Observer,
+    Quaternion,
     Scene,
     StandardMaterial,
     TargetCamera,
@@ -18,8 +19,23 @@ import { InputText } from '@babylonjs/gui/2D/controls/inputText';
 import { VirtualKeyboard } from '@babylonjs/gui/2D/controls/virtualKeyboard';
 
 import { TextManager } from '../text/textRenderer';
-import { createUiButton, type CreateUiButtonResult } from '../core/uiButton';
-import { DisposableStack } from '../core/disposableStack';
+import { type CreateUiButtonResult } from '../core/uiButton';
+import {
+    DisposableStack,
+    createBackButton,
+    createPanelButton,
+    createPanelRoot,
+    getGoBackCallback,
+    getMetadata,
+    initPanelText,
+    saveAndTransparentClearColor,
+    UI_LAYOUT,
+    formatError,
+    readClipboardText,
+    readStorage,
+    writeStorage,
+    STORAGE_KEYS,
+} from '../core';
 import type { WebXRDefaultExperience } from '@babylonjs/core/XR/webXRDefaultExperience';
 
 interface PlayerSchema {
@@ -57,9 +73,9 @@ interface RemotePlayerVisuals {
     targetHead: Vector3;
     targetLeftHand: Vector3;
     targetRightHand: Vector3;
-    targetHeadRot: Vector3;
-    targetLeftHandRot: Vector3;
-    targetRightHandRot: Vector3;
+    targetHeadRot: Quaternion;
+    targetLeftHandRot: Quaternion;
+    targetRightHandRot: Quaternion;
 }
 
 interface RoomSummary {
@@ -72,32 +88,17 @@ interface RoomSummary {
 
 type MpState = 'disconnected' | 'connected' | 'in-room';
 
-const DEFAULT_URL_STORAGE_KEY = 'mp_server_url';
 const UPDATE_INTERVAL_MS = 50;
-const LERP_SPEED = 12;
+const LERP_SPEED = 20;
+const SNAP_DISTANCE = 0.5;
+const HEAD_DIAMETER = 0.12;
+const HAND_SIZE = 0.035;
+const MAX_ROOM_BUTTONS = 4;
+const ROOM_BTN_HEIGHT = 0.055;
+const ROOM_BTN_GAP = 0.01;
+const ROOM_LIST_START_Y = 0.1;
 
 export class MultiplayerDemo {
-    private static readonly _panelPosition = new Vector3(0, 1.35, -0.55);
-    private static readonly _btnWidth = 0.44;
-    private static readonly _btnHeight = 0.07;
-    private static readonly _smallBtnWidth = 0.14;
-    private static readonly _smallBtnHeight = 0.06;
-    private static readonly _cornerRadius = 25;
-    private static readonly _borderThickness = 8;
-    private static readonly _textScale = 0.028;
-    private static readonly _smallTextScale = 0.016;
-    private static readonly _statusTextScale = 0.018;
-    private static readonly _textYOffset = -0.005;
-    private static readonly _textZOffset = -0.005;
-    private static readonly _backWidthRatio = 0.85;
-    private static readonly _backHeightRatio = 0.85;
-    private static readonly _headDiameter = 0.12;
-    private static readonly _handSize = 0.035;
-    private static readonly _maxRoomButtons = 4;
-    private static readonly _roomBtnHeight = 0.055;
-    private static readonly _roomBtnGap = 0.01;
-    private static readonly _roomListStartY = 0.1;
-
     private _scene: Scene;
     private _cleanup = new DisposableStack();
     private _disposed = false;
@@ -135,192 +136,203 @@ export class MultiplayerDemo {
 
     private _state: MpState = 'disconnected';
     private _statusText = 'Disconnected';
+    private _lastRooms: RoomSummary[] | null = null;
+    private _roomOperationInProgress = false;
 
     constructor(scene: Scene) {
         this._scene = scene;
-        this._prevClearColor = scene.clearColor.clone();
-        scene.clearColor = new Color4(0, 0, 0, 0);
+        this._prevClearColor = saveAndTransparentClearColor(scene);
 
         this._playerGroup = new TransformNode('mp_players_root', scene);
         this._cleanup.add(this._playerGroup);
 
-        this._panelRoot = new TransformNode('mp_panel_root', scene);
-        this._panelRoot.position = MultiplayerDemo._panelPosition.clone();
-        this._cleanup.add(this._panelRoot);
+        this._panelRoot = createPanelRoot(scene, 'mp_panel_root', this._cleanup);
 
-        this._urlInputPlane = MeshBuilder.CreatePlane('mp_url_input', { width: 0.36, height: 0.06 }, scene);
-        this._urlInputPlane.parent = this._panelRoot;
-        this._urlInputPlane.position = new Vector3(0, 0.12, 0);
-        this._cleanup.add(this._urlInputPlane);
+        const urlInput = this._createUrlInput();
+        this._urlInputPlane = urlInput.plane;
+        this._urlInputTexture = urlInput.texture;
+        this._urlInput = urlInput.input;
 
-        this._urlInputTexture = AdvancedDynamicTexture.CreateForMesh(this._urlInputPlane, 512, 80);
-        this._urlInputTexture.background = '#222226';
-
-        this._urlInput = new InputText('mp_url');
-        this._urlInput.width = '100%';
-        this._urlInput.height = '100%';
-        this._urlInput.color = '#e6e6e6';
-        this._urlInput.background = '#222226';
-        this._urlInput.placeholderText = 'Enter server URL...';
-        this._urlInput.placeholderColor = '#999999';
-        this._urlInput.focusedBackground = '#2a2a30';
-        this._urlInput.fontSize = 22;
-        this._urlInput.thickness = 1;
-        this._urlInput.color = '#ffffff33';
-        this._urlInputTexture.addControl(this._urlInput);
-
-        const saved = (() => {
-            try {
-                return localStorage.getItem(DEFAULT_URL_STORAGE_KEY);
-            } catch {
-                return null;
-            }
-        })();
-        if (saved) this._urlInput.text = saved;
-
-        this._keyboardPlane = MeshBuilder.CreatePlane('mp_keyboard', { width: 0.64, height: 0.28 }, scene);
-        this._keyboardPlane.parent = this._panelRoot;
-        this._keyboardPlane.position = new Vector3(0, -0.36, 0.005);
-        this._keyboardPlane.setEnabled(false);
-        this._cleanup.add(this._keyboardPlane);
-
-        this._keyboardTexture = AdvancedDynamicTexture.CreateForMesh(this._keyboardPlane, 740, 320);
-        this._keyboardTexture.background = '#111116ee';
-
-        this._keyboard = new VirtualKeyboard('mp_keyboard');
-        this._keyboard.addKeysRow([':', '-', '_', '.', '~', '@']);
-        this._keyboard.addKeysRow(['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '\u2190']);
-        this._keyboard.addKeysRow(['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p']);
-        this._keyboard.addKeysRow(['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', "'", '\u21B5']);
-        this._keyboard.addKeysRow(['\u21E7', 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/']);
-        this._keyboard.addKeysRow([' '], [{ width: '200px' }]);
-        this._keyboard.defaultButtonWidth = '60px';
-        this._keyboard.defaultButtonHeight = '50px';
-        this._keyboard.defaultButtonColor = '#DDD';
-        this._keyboard.defaultButtonBackground = '#2a2a32';
-        this._keyboard.shiftButtonColor = '#7799FF';
-        this._keyboard.width = '100%';
-        this._keyboardTexture.addControl(this._keyboard);
-
+        const keyboard = this._createVirtualKeyboard();
+        this._keyboardPlane = keyboard.plane;
+        this._keyboardTexture = keyboard.texture;
+        this._keyboard = keyboard.keyboard;
         this._keyboard.connect(this._urlInput);
         this._urlInput.onBlurObservable.clear();
-
         this._urlInput.onFocusObservable.add(() => {
             this._keyboard.isVisible = true;
             this._keyboardPlane.setEnabled(true);
         });
 
-        this._pasteBtn = this._createBtn(
-            'Paste',
-            0.12,
-            0.06,
-            new Vector3(0.26, 0.12, 0),
-            '#1a2a3a',
-            '#50a0ff44',
-            () => {
-                void this._pasteClipboard();
-            },
-        );
-
-        this._connectBtn = this._createBtn(
-            'Connect',
-            0.22,
-            0.07,
-            new Vector3(0, 0.03, 0),
-            '#1a2a4a',
-            '#5070ff44',
-            () => {
+        this._pasteBtn = createPanelButton({
+            scene,
+            cleanup: this._cleanup,
+            namePrefix: 'mp',
+            label: 'Paste',
+            width: 0.12,
+            height: 0.06,
+            position: new Vector3(0.26, 0.12, 0),
+            parent: this._panelRoot,
+            bgColor: '#1a2a3a',
+            borderColor: '#50a0ff44',
+            onClick: () => void this._pasteClipboard(),
+        });
+        this._connectBtn = createPanelButton({
+            scene,
+            cleanup: this._cleanup,
+            namePrefix: 'mp',
+            label: 'Connect',
+            width: 0.22,
+            height: 0.07,
+            position: new Vector3(0, 0.03, 0),
+            parent: this._panelRoot,
+            bgColor: '#1a2a4a',
+            borderColor: '#5070ff44',
+            onClick: () => {
                 this._dismissKeyboard();
                 void this._connect();
             },
-        );
-
-        this._leaveRoomBtn = this._createBtn(
-            'Leave Room',
-            0.3,
-            0.07,
-            new Vector3(0, 0.06, 0),
-            '#3a1a1a',
-            '#ff505044',
-            () => {
-                void this._leaveRoom();
-            },
-        );
+        });
+        this._leaveRoomBtn = createPanelButton({
+            scene,
+            cleanup: this._cleanup,
+            namePrefix: 'mp',
+            label: 'Leave Room',
+            width: 0.3,
+            height: 0.07,
+            position: new Vector3(0, 0.06, 0),
+            parent: this._panelRoot,
+            bgColor: '#3a1a1a',
+            borderColor: '#ff505044',
+            onClick: () => void this._leaveRoom(),
+        });
 
         const actionY = -0.05;
-        this._createRoomBtn = this._createBtn(
-            'Create Room',
-            MultiplayerDemo._smallBtnWidth,
-            MultiplayerDemo._smallBtnHeight,
-            new Vector3(-0.16, actionY, 0),
-            '#1a3a2a',
-            '#50ff8044',
-            () => void this._createRoom(),
-        );
+        this._createRoomBtn = createPanelButton({
+            scene,
+            cleanup: this._cleanup,
+            namePrefix: 'mp',
+            label: 'Create Room',
+            width: 0.14,
+            height: 0.06,
+            position: new Vector3(-0.16, actionY, 0),
+            parent: this._panelRoot,
+            bgColor: '#1a3a2a',
+            borderColor: '#50ff8044',
+            onClick: () => void this._createRoom(),
+        });
+        this._refreshBtn = createPanelButton({
+            scene,
+            cleanup: this._cleanup,
+            namePrefix: 'mp',
+            label: 'Refresh',
+            width: 0.14,
+            height: 0.06,
+            position: new Vector3(0, actionY, 0),
+            parent: this._panelRoot,
+            bgColor: '#222226',
+            borderColor: '#ffffff22',
+            onClick: () => void this._refreshRooms(),
+        });
+        this._disconnectBtn = createPanelButton({
+            scene,
+            cleanup: this._cleanup,
+            namePrefix: 'mp',
+            label: 'Disconnect',
+            width: 0.14,
+            height: 0.06,
+            position: new Vector3(0.16, actionY, 0),
+            parent: this._panelRoot,
+            bgColor: '#3a1a1a',
+            borderColor: '#ff505044',
+            onClick: () => void this._disconnect(),
+        });
 
-        this._refreshBtn = this._createBtn(
-            'Refresh',
-            MultiplayerDemo._smallBtnWidth,
-            MultiplayerDemo._smallBtnHeight,
-            new Vector3(0, actionY, 0),
-            '#222226',
-            '#ffffff22',
-            () => void this._refreshRooms(),
-        );
-
-        this._disconnectBtn = this._createBtn(
-            'Disconnect',
-            MultiplayerDemo._smallBtnWidth,
-            MultiplayerDemo._smallBtnHeight,
-            new Vector3(0.16, actionY, 0),
-            '#3a1a1a',
-            '#ff505044',
-            () => void this._disconnect(),
-        );
-
-        const goBack = this._getGoBack();
-        this._backBtn = this._createBtn(
-            'Return to Main Scene',
-            MultiplayerDemo._btnWidth * MultiplayerDemo._backWidthRatio,
-            MultiplayerDemo._btnHeight * MultiplayerDemo._backHeightRatio,
-            new Vector3(0, -0.14, 0),
-            '#2a1a0a',
-            '#ffb45044',
-            () => {
+        this._backBtn = createBackButton({
+            scene,
+            cleanup: this._cleanup,
+            parent: this._panelRoot,
+            position: new Vector3(0, -0.14, 0),
+            onGoBack: () => {
                 this._dismissKeyboard();
+                const goBack = getGoBackCallback(this._scene);
                 if (goBack) goBack();
             },
-        );
+            namePrefix: 'mp',
+        });
 
-        this._setupText();
+        initPanelText({
+            scene,
+            cleanup: this._cleanup,
+            isDisposed: () => this._disposed,
+            onReady: (tm) => {
+                this._textManager = tm;
+                this._detachText = tm.attachToScene(scene);
+                this._rebuildText();
+            },
+        });
 
         this._applyState('disconnected');
     }
 
-    private _createBtn(
-        label: string,
-        width: number,
-        height: number,
-        position: Vector3,
-        bgColor: string,
-        borderColor: string,
-        onClick: () => void,
-    ): CreateUiButtonResult {
-        const result = createUiButton(this._scene, {
-            name: `mp_${label.replace(/\s+/g, '_')}`,
-            width,
-            height,
-            position,
-            parent: this._panelRoot,
-            bgColor,
-            borderColor,
-            cornerRadius: MultiplayerDemo._cornerRadius,
-            borderThickness: MultiplayerDemo._borderThickness,
-            onClick,
-        });
-        this._cleanup.add(result.texture);
-        this._cleanup.add(result.plane);
-        return result;
+    private _createUrlInput(): { plane: Mesh; texture: AdvancedDynamicTexture; input: InputText } {
+        const plane = MeshBuilder.CreatePlane('mp_url_input', { width: 0.36, height: 0.06 }, this._scene);
+        plane.parent = this._panelRoot;
+        plane.position = new Vector3(0, 0.12, 0);
+        this._cleanup.add(plane);
+
+        const texture = AdvancedDynamicTexture.CreateForMesh(plane, 512, 80);
+        texture.background = '#222226';
+
+        const input = new InputText('mp_url');
+        input.width = '100%';
+        input.height = '100%';
+        input.color = '#e6e6e6';
+        input.background = '#222226';
+        input.placeholderText = 'Enter server URL...';
+        input.placeholderColor = '#999999';
+        input.focusedBackground = '#2a2a30';
+        input.fontSize = 22;
+        input.thickness = 1;
+        input.color = '#ffffff33';
+        texture.addControl(input);
+
+        const saved = readStorage(STORAGE_KEYS.mpServerUrl);
+        if (saved) input.text = saved;
+
+        return { plane, texture, input };
+    }
+
+    private _createVirtualKeyboard(): {
+        plane: Mesh;
+        texture: AdvancedDynamicTexture;
+        keyboard: VirtualKeyboard;
+    } {
+        const plane = MeshBuilder.CreatePlane('mp_keyboard', { width: 0.64, height: 0.28 }, this._scene);
+        plane.parent = this._panelRoot;
+        plane.position = new Vector3(0, -0.36, 0.005);
+        plane.setEnabled(false);
+        this._cleanup.add(plane);
+
+        const texture = AdvancedDynamicTexture.CreateForMesh(plane, 740, 320);
+        texture.background = '#111116ee';
+
+        const keyboard = new VirtualKeyboard('mp_keyboard');
+        keyboard.addKeysRow([':', '-', '_', '.', '~', '@']);
+        keyboard.addKeysRow(['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '\u2190']);
+        keyboard.addKeysRow(['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p']);
+        keyboard.addKeysRow(['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', "'", '\u21B5']);
+        keyboard.addKeysRow(['\u21E7', 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/']);
+        keyboard.addKeysRow([' '], [{ width: '200px' }]);
+        keyboard.defaultButtonWidth = '60px';
+        keyboard.defaultButtonHeight = '50px';
+        keyboard.defaultButtonColor = '#DDD';
+        keyboard.defaultButtonBackground = '#2a2a32';
+        keyboard.shiftButtonColor = '#7799FF';
+        keyboard.width = '100%';
+        texture.addControl(keyboard);
+
+        return { plane, texture, keyboard };
     }
 
     private _dismissKeyboard(): void {
@@ -328,56 +340,39 @@ export class MultiplayerDemo {
         this._keyboardPlane.setEnabled(false);
     }
 
-    private _setupText(): void {
-        const textManager = new TextManager(this._scene.getEngine());
-        this._textManager = textManager;
-        textManager.init().then(() => {
-            if (this._disposed) {
-                textManager.dispose();
-                this._textManager = null;
-                return;
-            }
-            this._rebuildText();
-            this._detachText = textManager.attachToScene(this._scene);
-            this._cleanup.add(textManager);
-        });
-    }
-
     private _rebuildText(): void {
         if (!this._textManager?.renderer) return;
         this._textManager.renderer.clearParagraphs();
 
-        const px = MultiplayerDemo._panelPosition.x;
-        const py = MultiplayerDemo._panelPosition.y;
-        const pz = MultiplayerDemo._panelPosition.z;
-        const ty = MultiplayerDemo._textYOffset;
-        const tz = MultiplayerDemo._textZOffset;
+        const { x: px, y: py, z: pz } = UI_LAYOUT.panelPosition;
+        const ty = UI_LAYOUT.textYOffset;
+        const tz = UI_LAYOUT.textZOffset;
 
         if (this._state === 'disconnected') {
             if (this._pasteBtn.plane.isEnabled()) {
                 this._textManager.addParagraph(
                     'Paste',
                     new Vector3(px + 0.26, py + 0.12 + ty, pz + tz),
-                    MultiplayerDemo._smallTextScale,
+                    UI_LAYOUT.panel.smallTextScale,
                 );
             }
             if (this._connectBtn.plane.isEnabled()) {
                 this._textManager.addParagraph(
                     'Connect',
                     new Vector3(px, py + 0.03 + ty, pz + tz),
-                    MultiplayerDemo._textScale,
+                    UI_LAYOUT.panel.textScale,
                 );
             }
             this._textManager.addParagraph(
                 this._statusText,
                 new Vector3(px, py - 0.05 + ty, pz + tz),
-                MultiplayerDemo._statusTextScale,
+                UI_LAYOUT.panel.statusTextScale,
             );
         } else if (this._state === 'connected') {
             this._textManager.addParagraph(
                 this._statusText,
                 new Vector3(px, py + 0.18 + ty, pz + tz),
-                MultiplayerDemo._statusTextScale,
+                UI_LAYOUT.panel.statusTextScale,
             );
 
             for (const { result, roomId } of this._roomButtons) {
@@ -393,7 +388,7 @@ export class MultiplayerDemo {
                         result.plane.position.y + py + ty,
                         result.plane.position.z + pz + tz,
                     ),
-                    MultiplayerDemo._smallTextScale,
+                    UI_LAYOUT.panel.smallTextScale,
                 );
             }
 
@@ -401,30 +396,30 @@ export class MultiplayerDemo {
             this._textManager.addParagraph(
                 'Create',
                 new Vector3(px - 0.16, py + actionY + ty, pz + tz),
-                MultiplayerDemo._smallTextScale,
+                UI_LAYOUT.panel.smallTextScale,
             );
             this._textManager.addParagraph(
                 'Refresh',
                 new Vector3(px, py + actionY + ty, pz + tz),
-                MultiplayerDemo._smallTextScale,
+                UI_LAYOUT.panel.smallTextScale,
             );
             this._textManager.addParagraph(
                 'Disconnect',
                 new Vector3(px + 0.16, py + actionY + ty, pz + tz),
-                MultiplayerDemo._smallTextScale,
+                UI_LAYOUT.panel.smallTextScale,
             );
         } else if (this._state === 'in-room') {
             if (this._leaveRoomBtn.plane.isEnabled()) {
                 this._textManager.addParagraph(
                     'Leave Room',
                     new Vector3(px, py + 0.06 + ty, pz + tz),
-                    MultiplayerDemo._textScale,
+                    UI_LAYOUT.panel.textScale,
                 );
             }
             this._textManager.addParagraph(
                 this._statusText,
                 new Vector3(px, py - 0.02 + ty, pz + tz),
-                MultiplayerDemo._statusTextScale,
+                UI_LAYOUT.panel.statusTextScale,
             );
         }
 
@@ -432,12 +427,10 @@ export class MultiplayerDemo {
             this._textManager.addParagraph(
                 'Return to Main Scene',
                 new Vector3(px, py - 0.14 + ty, pz + tz),
-                MultiplayerDemo._textScale,
+                UI_LAYOUT.panel.textScale,
             );
         }
     }
-
-    private _lastRooms: RoomSummary[] | null = null;
 
     private _applyState(state: MpState): void {
         this._state = state;
@@ -467,14 +460,8 @@ export class MultiplayerDemo {
         this._rebuildText();
     }
 
-    private _getGoBack(): (() => void) | null {
-        const meta = this._scene.metadata as Record<string, unknown> | undefined;
-        return (meta?.goBack as (() => void) | undefined) ?? null;
-    }
-
     private _getXr(): WebXRDefaultExperience | null {
-        const meta = this._scene.metadata as Record<string, unknown> | undefined;
-        return (meta?.xr as WebXRDefaultExperience | undefined) ?? null;
+        return getMetadata(this._scene).xr ?? null;
     }
 
     private _setStatus(text: string): void {
@@ -493,11 +480,11 @@ export class MultiplayerDemo {
     }
 
     private async _pasteClipboard(): Promise<void> {
-        try {
-            const text = await navigator.clipboard.readText();
-            this._urlInput.text = text.trim();
+        const text = await readClipboardText();
+        if (text !== null) {
+            this._urlInput.text = text;
             this._setStatus('Pasted from clipboard');
-        } catch {
+        } else {
             this._setStatus('Clipboard not available');
         }
     }
@@ -509,11 +496,7 @@ export class MultiplayerDemo {
             return;
         }
 
-        try {
-            localStorage.setItem(DEFAULT_URL_STORAGE_KEY, this._urlInput.text);
-        } catch {
-            // ignore storage errors
-        }
+        writeStorage(STORAGE_KEYS.mpServerUrl, this._urlInput.text);
 
         this._setStatus('Connecting…');
 
@@ -526,7 +509,7 @@ export class MultiplayerDemo {
             this._applyState('connected');
             await this._refreshRooms();
         } catch (err) {
-            this._setStatus(`Connection failed: ${this._errorMessage(err)}`);
+            this._setStatus(`Connection failed: ${formatError(err)}`);
             console.warn('Multiplayer connect failed:', err);
             this._applyState('disconnected');
         }
@@ -550,7 +533,7 @@ export class MultiplayerDemo {
             this._renderRoomList(rooms);
             this._setStatus(rooms.length === 0 ? 'No rooms yet. Create one!' : `${rooms.length} room(s) available`);
         } catch (err) {
-            this._setStatus(`Failed to list rooms: ${this._errorMessage(err)}`);
+            this._setStatus(`Failed to list rooms: ${formatError(err)}`);
             this._renderRoomList([]);
         }
     }
@@ -558,21 +541,24 @@ export class MultiplayerDemo {
     private _renderRoomList(rooms: RoomSummary[]): void {
         this._disposeRoomButtons();
 
-        const visibleRooms = rooms.slice(0, MultiplayerDemo._maxRoomButtons);
+        const visibleRooms = rooms.slice(0, MAX_ROOM_BUTTONS);
 
         for (let i = 0; i < visibleRooms.length; i++) {
             const room = visibleRooms[i];
-            const y =
-                MultiplayerDemo._roomListStartY - i * (MultiplayerDemo._roomBtnHeight + MultiplayerDemo._roomBtnGap);
-            const result = this._createBtn(
-                '',
-                MultiplayerDemo._btnWidth,
-                MultiplayerDemo._roomBtnHeight,
-                new Vector3(0, y, 0),
-                '#1a2a3a',
-                '#50a0ff33',
-                () => void this._joinRoom(room.roomId),
-            );
+            const y = ROOM_LIST_START_Y - i * (ROOM_BTN_HEIGHT + ROOM_BTN_GAP);
+            const result = createPanelButton({
+                scene: this._scene,
+                cleanup: this._cleanup,
+                namePrefix: 'mp',
+                label: '',
+                width: UI_LAYOUT.panel.btnWidth,
+                height: ROOM_BTN_HEIGHT,
+                position: new Vector3(0, y, 0),
+                parent: this._panelRoot,
+                bgColor: '#1a2a3a',
+                borderColor: '#50a0ff33',
+                onClick: () => void this._joinRoom(room.roomId),
+            });
             this._roomButtons.push({ result, roomId: room.roomId });
         }
 
@@ -587,8 +573,6 @@ export class MultiplayerDemo {
         this._roomButtons = [];
     }
 
-    private _roomOperationInProgress = false;
-
     private async _createRoom(): Promise<void> {
         if (!this._client || this._roomOperationInProgress) return;
         this._roomOperationInProgress = true;
@@ -598,7 +582,7 @@ export class MultiplayerDemo {
             const room = await this._client.create<MyRoomState>('my_room');
             await this._onJoined(room);
         } catch (err) {
-            this._setStatus(`Failed to create: ${this._errorMessage(err)}`);
+            this._setStatus(`Failed to create: ${formatError(err)}`);
         } finally {
             this._roomOperationInProgress = false;
         }
@@ -613,7 +597,7 @@ export class MultiplayerDemo {
             const room = await this._client.joinById<MyRoomState>(roomId);
             await this._onJoined(room);
         } catch (err) {
-            this._setStatus(`Failed to join: ${this._errorMessage(err)}`);
+            this._setStatus(`Failed to join: ${formatError(err)}`);
         } finally {
             this._roomOperationInProgress = false;
         }
@@ -661,6 +645,51 @@ export class MultiplayerDemo {
         });
     }
 
+    private _createPlayerMaterial(name: string, hexColor: string): StandardMaterial {
+        const color = Color3.FromHexString(hexColor || '#ffffff');
+        const mat = new StandardMaterial(name, this._scene);
+        mat.diffuseColor = color;
+        mat.emissiveColor = color.scale(0.4);
+        mat.specularColor = new Color3(0.1, 0.1, 0.1);
+        return mat;
+    }
+
+    private _createPlayerMesh(
+        name: string,
+        options: { width?: number; height?: number; depth?: number; size?: number },
+        mat: StandardMaterial,
+    ): Mesh {
+        const mesh = MeshBuilder.CreateBox(name, options, this._scene);
+        mesh.material = mat;
+        mesh.parent = this._playerGroup;
+        return mesh;
+    }
+
+    private _createNose(sessionId: string, head: Mesh): void {
+        const noseMat = new StandardMaterial(`mp_nose_mat_${sessionId}`, this._scene);
+        noseMat.emissiveColor = new Color3(1, 1, 1);
+        noseMat.diffuseColor = new Color3(1, 1, 1);
+        noseMat.specularColor = new Color3(0, 0, 0);
+        this._cleanup.add(noseMat);
+
+        const nose = MeshBuilder.CreateCylinder(
+            `mp_nose_${sessionId}`,
+            {
+                height: HEAD_DIAMETER * 0.35,
+                diameterTop: 0,
+                diameterBottom: HEAD_DIAMETER * 0.25,
+                tessellation: 4,
+            },
+            this._scene,
+        );
+        nose.material = noseMat;
+        nose.parent = head;
+        nose.rotation.x = -Math.PI / 2;
+        nose.rotation.y = 0;
+        nose.rotation.z = 0;
+        nose.position.z = -(HEAD_DIAMETER * 0.6) / 2 - (HEAD_DIAMETER * 0.35) / 2;
+    }
+
     private _addRemotePlayer(
         sessionId: string,
         player: PlayerSchema,
@@ -668,55 +697,33 @@ export class MultiplayerDemo {
             ? never
             : (instance: unknown) => { onChange: (cb: () => void) => () => void },
     ): void {
-        const color = Color3.FromHexString(player.color || '#ffffff');
-        const material = new StandardMaterial(`mp_mat_${sessionId}`, this._scene);
-        material.diffuseColor = color;
-        material.emissiveColor = color.scale(0.4);
-        material.specularColor = new Color3(0.1, 0.1, 0.1);
+        const material = this._createPlayerMaterial(`mp_mat_${sessionId}`, player.color);
 
-        const head = MeshBuilder.CreateBox(
+        const head = this._createPlayerMesh(
             `mp_head_${sessionId}`,
-            {
-                width: MultiplayerDemo._headDiameter,
-                height: MultiplayerDemo._headDiameter * 1.2,
-                depth: MultiplayerDemo._headDiameter * 0.6,
-            },
-            this._scene,
+            { width: HEAD_DIAMETER, height: HEAD_DIAMETER * 1.2, depth: HEAD_DIAMETER * 0.6 },
+            material,
         );
-        head.material = material;
-        head.parent = this._playerGroup;
+        this._createNose(sessionId, head);
 
-        const leftHand = MeshBuilder.CreateBox(
-            `mp_left_${sessionId}`,
-            { size: MultiplayerDemo._handSize },
-            this._scene,
-        );
-        leftHand.material = material;
-        leftHand.parent = this._playerGroup;
-
-        const rightHand = MeshBuilder.CreateBox(
-            `mp_right_${sessionId}`,
-            { size: MultiplayerDemo._handSize },
-            this._scene,
-        );
-        rightHand.material = material;
-        rightHand.parent = this._playerGroup;
+        const leftHand = this._createPlayerMesh(`mp_left_${sessionId}`, { size: HAND_SIZE }, material);
+        const rightHand = this._createPlayerMesh(`mp_right_${sessionId}`, { size: HAND_SIZE }, material);
 
         const updateFromState = () => {
             entry.targetHead.set(player.x, player.y, player.z);
             entry.targetLeftHand.set(player.lx, player.ly, player.lz);
             entry.targetRightHand.set(player.rx, player.ry, player.rz);
-            entry.targetHeadRot.set(player.hrx, player.hry, player.hrz);
-            entry.targetLeftHandRot.set(player.lrx, player.lry, player.lrz);
-            entry.targetRightHandRot.set(player.rrx, player.rry, player.rrz);
+            Quaternion.FromEulerAnglesToRef(player.hrx, player.hry, player.hrz, entry.targetHeadRot);
+            Quaternion.FromEulerAnglesToRef(player.lrx, player.lry, player.lrz, entry.targetLeftHandRot);
+            Quaternion.FromEulerAnglesToRef(player.rrx, player.rry, player.rrz, entry.targetRightHandRot);
         };
 
         const targetHead = new Vector3(player.x, player.y, player.z);
         const targetLeftHand = new Vector3(player.lx, player.ly, player.lz);
         const targetRightHand = new Vector3(player.rx, player.ry, player.rz);
-        const targetHeadRot = new Vector3(player.hrx, player.hry, player.hrz);
-        const targetLeftHandRot = new Vector3(player.lrx, player.lry, player.lrz);
-        const targetRightHandRot = new Vector3(player.rrx, player.rry, player.rrz);
+        const targetHeadRot = Quaternion.FromEulerAngles(player.hrx, player.hry, player.hrz);
+        const targetLeftHandRot = Quaternion.FromEulerAngles(player.lrx, player.lry, player.lrz);
+        const targetRightHandRot = Quaternion.FromEulerAngles(player.rrx, player.rry, player.rrz);
 
         const entry: RemotePlayerVisuals = {
             head,
@@ -738,9 +745,9 @@ export class MultiplayerDemo {
         head.position.copyFrom(targetHead);
         leftHand.position.copyFrom(targetLeftHand);
         rightHand.position.copyFrom(targetRightHand);
-        head.rotation.copyFrom(targetHeadRot);
-        leftHand.rotation.copyFrom(targetLeftHandRot);
-        rightHand.rotation.copyFrom(targetRightHandRot);
+        head.rotationQuaternion = targetHeadRot.clone();
+        leftHand.rotationQuaternion = targetLeftHandRot.clone();
+        rightHand.rotationQuaternion = targetRightHandRot.clone();
 
         this._remotePlayers.set(sessionId, entry);
         this._cleanup.add(material);
@@ -770,10 +777,9 @@ export class MultiplayerDemo {
         this._stopSending();
         this._onBeforeRenderObserver = this._scene.onBeforeRenderObservable.add(() => {
             this._interpolateRemotePlayers();
-            this._sendLocalState();
         });
         this._sendIntervalId = window.setInterval(() => {
-            this._sendLocalState(true);
+            this._sendLocalState();
         }, UPDATE_INTERVAL_MS);
     }
 
@@ -792,16 +798,43 @@ export class MultiplayerDemo {
         const dt = this._scene.getEngine().getDeltaTime() / 1000;
         const factor = Math.min(1, LERP_SPEED * dt);
         for (const entry of this._remotePlayers.values()) {
-            entry.head.position = Vector3.Lerp(entry.head.position, entry.targetHead, factor);
-            entry.leftHand.position = Vector3.Lerp(entry.leftHand.position, entry.targetLeftHand, factor);
-            entry.rightHand.position = Vector3.Lerp(entry.rightHand.position, entry.targetRightHand, factor);
-            entry.head.rotation = Vector3.Lerp(entry.head.rotation, entry.targetHeadRot, factor);
-            entry.leftHand.rotation = Vector3.Lerp(entry.leftHand.rotation, entry.targetLeftHandRot, factor);
-            entry.rightHand.rotation = Vector3.Lerp(entry.rightHand.rotation, entry.targetRightHandRot, factor);
+            if (Vector3.DistanceSquared(entry.head.position, entry.targetHead) > SNAP_DISTANCE * SNAP_DISTANCE) {
+                entry.head.position.copyFrom(entry.targetHead);
+                entry.leftHand.position.copyFrom(entry.targetLeftHand);
+                entry.rightHand.position.copyFrom(entry.targetRightHand);
+            } else {
+                entry.head.position = Vector3.Lerp(entry.head.position, entry.targetHead, factor);
+                entry.leftHand.position = Vector3.Lerp(entry.leftHand.position, entry.targetLeftHand, factor);
+                entry.rightHand.position = Vector3.Lerp(entry.rightHand.position, entry.targetRightHand, factor);
+            }
+            if (entry.head.rotationQuaternion) {
+                Quaternion.SlerpToRef(
+                    entry.head.rotationQuaternion,
+                    entry.targetHeadRot,
+                    factor,
+                    entry.head.rotationQuaternion,
+                );
+            }
+            if (entry.leftHand.rotationQuaternion) {
+                Quaternion.SlerpToRef(
+                    entry.leftHand.rotationQuaternion,
+                    entry.targetLeftHandRot,
+                    factor,
+                    entry.leftHand.rotationQuaternion,
+                );
+            }
+            if (entry.rightHand.rotationQuaternion) {
+                Quaternion.SlerpToRef(
+                    entry.rightHand.rotationQuaternion,
+                    entry.targetRightHandRot,
+                    factor,
+                    entry.rightHand.rotationQuaternion,
+                );
+            }
         }
     }
 
-    private _sendLocalState(_force = false): void {
+    private _sendLocalState(): void {
         const room = this._room;
         if (!room) return;
         const camera = this._scene.activeCamera;
@@ -883,15 +916,6 @@ export class MultiplayerDemo {
             this._setStatus(this._client ? 'Connected' : 'Disconnected');
             this._applyState(this._client ? 'connected' : 'disconnected');
         }
-    }
-
-    private _errorMessage(err: unknown): string {
-        if (err instanceof Error) return err.message;
-        if (typeof err === 'string') return err;
-        if (err && typeof err === 'object' && 'message' in err) {
-            return String((err as { message: unknown }).message);
-        }
-        return 'unknown error';
     }
 
     teardown(): void {

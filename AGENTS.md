@@ -47,14 +47,13 @@ This project uses a state machine (`SceneManager`) that switches between "virtua
 ### Strategy 1: Reused Scene (`reuseScene: true`)
 - Runs inside the home scene - no new Scene or XR session.
 - Demo's `build()` adds objects to the existing scene; returns a `teardown()` for cleanup.
-- Access XR features via `scene.metadata` (injected before `build()`):
+- Access XR features via the typed metadata helpers (injected before `build()`):
   ```ts
-  const xr = scene.metadata.xr as WebXRDefaultExperience;
-  const xrAnchors = scene.metadata.xrAnchors;
-  const pdm = scene.metadata.planeDetectionManager as PlaneDetectionManager;
+  import { getMetadata } from '../core';
+  const { xr, xrAnchors, planeDetectionManager, goBack } = getMetadata(scene);
   ```
-- `goBack` callback is injected into `scene.metadata.goBack` - use it for "return" buttons.
-- **Every created object must be disposed in `teardown()`** - leaked objects persist in the shared scene.
+- `goBack` callback is injected into metadata - use `getGoBackCallback(scene)` or `getMetadata(scene).goBack` for "Return to Main Scene" buttons.
+- **Every created object must be disposed in `teardown()`** - leaked objects persist in the shared scene. Use `DisposableStack` to track them.
 
 ### Strategy 2: Own Scene (`reuseScene: false`)
 - Creates a brand new `Scene` + XR session. Full isolation but slower transitions.
@@ -66,16 +65,63 @@ This project uses a state machine (`SceneManager`) that switches between "virtua
 | File | Role |
 |---|---|
 | `src/core/sceneManager.ts` | `SceneManager` - state machine (`SceneState` discriminated union: `home`, `reused_scene`, `own_scene`) |
+| `src/core/sceneMetadata.ts` | Typed `SceneMetadata` interface + `getMetadata()` / `setMetadata()` helpers |
+| `src/core/demoPanel.ts` | Shared demo panel helpers: `createPanelButton`, `createBackButton`, `createPanelRoot`, `saveAndTransparentClearColor`, `getGoBackCallback`, `initPanelText` |
+| `src/core/uiLayout.ts` | `UI_LAYOUT` constants (button sizes, positions, text offsets) + `BACK_BUTTON_COLORS` |
+| `src/core/disposableStack.ts` | `DisposableStack` - tracks all created objects for bulk disposal in `teardown()` |
+| `src/core/domWiring.ts` | DOM overlay wiring: `wireXrOverlay`, `wireXrToggle`, `wirePdfInput`, `wireMpServerInput` |
+| `src/core/storage.ts` | `readStorage()` / `writeStorage()` + `STORAGE_KEYS` |
+| `src/core/clipboard.ts` | `readClipboardText()` |
+| `src/core/fileDownload.ts` | `downloadBlob()`, `downloadJson()`, `pickFile()` |
+| `src/core/errors.ts` | `formatError()` - safe unknown→string |
+| `src/core/gizmoManagerFactory.ts` | `createGizmoManager()` - positional/bounding-box gizmo helper |
 | `src/demos/index.ts` | `DemoRegistry` - static catalog of `DemoDescriptor` objects |
 | `src/demos/demoUi.ts` | `DemoUiController` - floating 3D button menu |
+| `src/demos/xrLightShadows.ts` | `XrLightShadowsDemo` - shadows on detected planes, point lights, gizmos |
+| `src/demos/multiplayer.ts` | `MultiplayerDemo` - Colyseus client, remote player avatars |
+| `src/demos/pdfReader.ts` | `PdfReaderDemo` - texture-based PDF display in XR |
 | `src/xr/xrExperience.ts` | `XrExperience` - wraps WebXR (plane detection, anchors) |
+| `src/xr/planeDetectionManager.ts` | `PlaneDetectionManager` - tracks detected planes, `findFloorReference()` |
 | `src/core/uiButton.ts` | `createUiButton()` - 3D mesh plane + GUI rectangle background |
 | `src/text/textRenderer.ts` | `TextManager` - wraps BabylonJS MSDF `TextRenderer` addon |
 | `src/main.ts` | Entry point - wires everything together |
 
 ### Adding a new demo
 
-1. Create a file in `src/demos/` with a class that accepts `Scene` in its constructor and has a `teardown()` method.
+1. Create a file in `src/demos/` with a class that accepts `Scene` in its constructor and has a `teardown()` method. Use `DisposableStack` for cleanup, and the shared panel helpers (`createPanelRoot`, `createPanelButton`, `createBackButton`, `initPanelText`):
+   ```ts
+   import { Scene, Vector3 } from '@babylonjs/core';
+   import {
+       DisposableStack, createPanelButton, createBackButton,
+       createPanelRoot, getGoBackCallback, initPanelText,
+       saveAndTransparentClearColor, UI_LAYOUT,
+   } from '../core';
+
+   export class MyDemo {
+       private _cleanup = new DisposableStack();
+       private _disposed = false;
+       private _prevClearColor: Color4;
+
+       constructor(scene: Scene) {
+           this._prevClearColor = saveAndTransparentClearColor(scene);
+           const panelRoot = createPanelRoot(scene, 'my_panel', this._cleanup);
+
+           const goBack = getGoBackCallback(scene);
+           if (goBack) {
+               createBackButton({ scene, cleanup: this._cleanup, parent: panelRoot,
+                   position: new Vector3(0, -0.14, 0), onGoBack: goBack });
+           }
+
+           initPanelText({ scene, cleanup: this._cleanup,
+               isDisposed: () => this._disposed,
+               onReady: (tm) => { tm.attachToScene(scene); /* addParagraph calls */ },
+           });
+       }
+
+       teardown() { this._disposed = true; this._cleanup.dispose();
+           this._scene.clearColor = this._prevClearColor; }
+   }
+   ```
 2. Register it in `src/demos/index.ts`:
    ```ts
    DemoRegistry.register({
@@ -92,11 +138,12 @@ This project uses a state machine (`SceneManager`) that switches between "virtua
 
 ### Cleanup discipline for reused scenes
 
-Save/restore any modified scene state (e.g., `clearColor`). Track all created objects and dispose them:
+Save/restore any modified scene state (e.g., `clearColor` - use `saveAndTransparentClearColor()`). Track all created objects with `DisposableStack` and dispose them:
 ```ts
-private _cleanup: { dispose(): void }[] = [];
-teardown() { for (const item of this._cleanup) item.dispose(); }
+private _cleanup = new DisposableStack();
+teardown() { this._cleanup.dispose(); }
 ```
+The `createPanelButton`, `createBackButton`, and `createPanelRoot` helpers auto-register objects with the stack. For manual objects, call `this._cleanup.add(obj)` or `this._cleanup.register(() => obj.dispose())`.
 
 ## MSDF Text Rendering
 
@@ -109,7 +156,10 @@ Each button is a 3-layer stack:
 2. **GUI Rectangle** - background color, border, rounded corners via `AdvancedDynamicTexture`
 3. **MSDF text** - crisp label rendered via `TextManager`
 
+For demo panels, prefer the shared helpers (`createPanelButton`, `initPanelText`) over raw `createUiButton` + manual `TextManager`. The helpers auto-register with `DisposableStack`, apply standard corner radius/border thickness, and handle disposal races during async font loading.
+
 ```ts
+// Shared helpers from '../core':
 const textManager = new TextManager(engine);
 await textManager.init(); // loads MSDF font from CDN (cached statically)
 
@@ -125,8 +175,8 @@ btn.texture.dispose();
 btn.plane.dispose();
 ```
 
-- Text position is offset from button center: Y `-0.005` (vertical centering), Z `-0.005` (prevent z-fighting).
-- Typical text scales: `0.016` (compact), `0.028` (standard), `0.04` (main menu).
+- Text position is offset from button center: Y `-0.005` (vertical centering), Z `-0.005` (prevent z-fighting). Use `UI_LAYOUT.textYOffset` and `UI_LAYOUT.textZOffset`.
+- Typical text scales: `UI_LAYOUT.panel.smallTextScale` (0.016, compact), `UI_LAYOUT.panel.textScale` (0.028, standard), `UI_LAYOUT.home.textScale` (0.04, main menu).
 - **Share one `TextManager` across multiple buttons** - paragraphs are batched into a single draw call.
 - Only one `attachToScene()` should be active per scene at a time.
 
@@ -143,8 +193,8 @@ PDF.js is too slow to run inside an XR session on standalone headsets (Meta Ques
 | File | Role |
 |---|---|
 | `src/demos/pdfPreprocessor.ts` | `preprocessPdf()` (PDF.js → JPEG blob URLs), `serializePages()` / `deserializePages()` (`.pre` format I/O). Only this file imports `pdfjs-dist`. |
-| `src/demos/pdfReader.ts` | `PdfReaderDemo` - XR scene. **No PDF.js dependency.** Loads from `scene.metadata.pdfPages` (blob URLs). `_renderPage()` creates `Texture` from blob URL - synchronous, no canvas. |
-| `src/main.ts` | HTML overlay wiring - detects `.pdf` vs `.pre` uploads, runs Convert, stores pages in `scene.metadata.pdfPages`. |
+| `src/demos/pdfReader.ts` | `PdfReaderDemo` - XR scene. **No PDF.js dependency.** Loads from `getMetadata(scene).pdfPages` (blob URLs). `_renderPage()` creates `Texture` from blob URL - synchronous, no canvas. |
+| `src/core/domWiring.ts` | `wirePdfInput()` - HTML overlay wiring: detects `.pdf` vs `.pre` uploads, runs Convert, stores pages in scene metadata via `setMetadata()`. |
 
 ### `.pre` file format
 
@@ -158,13 +208,17 @@ JSON with base64-encoded JPEG pages + dimensions. See `docs/pdf-preprocessing-gu
 
 ```
 src/
-  core/       - SceneManager, createUiButton, Engine setup, types
+  core/       - SceneManager, createUiButton, demoPanel helpers, DisposableStack,
+                UI_LAYOUT, sceneMetadata, domWiring, storage, clipboard, fileDownload,
+                errors, gizmoManagerFactory, types
   demos/      - DemoRegistry, DemoUiController, individual demo classes
+                (xrLightShadows, multiplayer, pdfReader, pdfPreprocessor)
   xr/         - XrExperience, PlaneDetectionManager
   text/       - TextManager (MSDF wrapper)
-  lighting/   - WindowLight, shadows
-  materials/  - ShadowMaterial
-  meshes/     - PolygonGenerator
+  lighting/   - ShadowManager, WindowLight, createShadowGenerator
+  materials/  - applyShadowMaterialFacing (shadow-only material helper)
+  meshes/     - buildPolygonMesh (polygon mesh builder for detected planes),
+                polygonMath (polygonArea)
 ```
 
 

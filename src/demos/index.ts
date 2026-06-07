@@ -28,11 +28,8 @@ export class DemoRegistry {
     }
 }
 
-import './xrLightShadows';
 import { XrLightShadowsDemo } from './xrLightShadows';
-import './multiplayer';
 import { MultiplayerDemo } from './multiplayer';
-import './pdfReader';
 import { PdfReaderDemo } from './pdfReader';
 
 DemoRegistry.register({

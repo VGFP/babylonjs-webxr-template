@@ -15,31 +15,26 @@ import '@babylonjs/core/Gizmos/gizmoManager';
 import '@babylonjs/core/Gizmos/boundingBoxGizmo';
 
 import { TextManager } from '../text/textRenderer';
-import { createUiButton, type CreateUiButtonResult } from '../core/uiButton';
-import { DisposableStack } from '../core/disposableStack';
-import { createGizmoManager } from '../core/gizmoManagerFactory';
+import { type CreateUiButtonResult } from '../core/uiButton';
+import {
+    DisposableStack,
+    createGizmoManager,
+    createBackButton,
+    createPanelButton,
+    createPanelRoot,
+    getGoBackCallback,
+    getMetadata,
+    initPanelText,
+    saveAndTransparentClearColor,
+    UI_LAYOUT,
+} from '../core';
 import type { PreProcessedPage } from './pdfPreprocessor';
 
 const MAX_DISPLAY_WIDTH = 0.5175;
 const MAX_DISPLAY_HEIGHT = 0.7245;
+const PLACEHOLDER_ASPECT = 1 / 1.414;
 
 export class PdfReaderDemo {
-    private static readonly _panelPosition = new Vector3(0, 1.35, -0.55);
-    private static readonly _btnWidth = 0.44;
-    private static readonly _btnHeight = 0.07;
-    private static readonly _smallBtnWidth = 0.14;
-    private static readonly _smallBtnHeight = 0.06;
-    private static readonly _cornerRadius = 25;
-    private static readonly _borderThickness = 8;
-    private static readonly _textScale = 0.028;
-    private static readonly _smallTextScale = 0.016;
-    private static readonly _statusTextScale = 0.018;
-    private static readonly _textYOffset = -0.005;
-    private static readonly _textZOffset = -0.005;
-    private static readonly _backWidthRatio = 0.85;
-    private static readonly _backHeightRatio = 0.85;
-    private static readonly _placeholderAspect = 1 / 1.414;
-
     private _scene: Scene;
     private _cleanup = new DisposableStack();
     private _disposed = false;
@@ -69,86 +64,80 @@ export class PdfReaderDemo {
 
     constructor(scene: Scene) {
         this._scene = scene;
-        this._prevClearColor = scene.clearColor.clone();
-        scene.clearColor = new Color4(0, 0, 0, 0);
+        this._prevClearColor = saveAndTransparentClearColor(scene);
 
-        this._panelRoot = new TransformNode('pdf_panel_root', scene);
-        this._panelRoot.position = PdfReaderDemo._panelPosition.clone();
-        this._cleanup.add(this._panelRoot);
+        this._panelRoot = createPanelRoot(scene, 'pdf_panel_root', this._cleanup);
 
         this._renderCanvas = document.createElement('canvas');
 
-        this._gizmoAnchor = new Mesh('pdf_gizmo_anchor', scene);
-        this._gizmoAnchor.parent = this._panelRoot;
-        this._gizmoAnchor.position = new Vector3(0, 0.22, -0.05);
-        this._gizmoAnchor.isVisible = false;
-        this._cleanup.add(this._gizmoAnchor);
+        this._gizmoAnchor = this._createGizmoAnchor();
+        this._displayPlane = this._createDisplayPlane();
+        this._displayMaterial = this._createDisplayMaterial();
 
-        this._displayPlane = MeshBuilder.CreatePlane('pdf_display', { width: 1, height: 1 }, scene);
-        this._displayPlane.parent = this._gizmoAnchor;
-        this._displayPlane.position = Vector3.Zero();
-        this._cleanup.add(this._displayPlane);
+        this._prevBtn = createPanelButton({
+            scene,
+            cleanup: this._cleanup,
+            namePrefix: 'pdf',
+            label: 'Prev',
+            width: 0.14,
+            height: 0.06,
+            position: new Vector3(-0.16, -0.19, 0),
+            parent: this._panelRoot,
+            bgColor: '#222226',
+            borderColor: '#ffffff22',
+            onClick: () => this._prevPage(),
+        });
+        this._nextBtn = createPanelButton({
+            scene,
+            cleanup: this._cleanup,
+            namePrefix: 'pdf',
+            label: 'Next',
+            width: 0.14,
+            height: 0.06,
+            position: new Vector3(0.16, -0.19, 0),
+            parent: this._panelRoot,
+            bgColor: '#222226',
+            borderColor: '#ffffff22',
+            onClick: () => this._nextPage(),
+        });
+        this._gizmosBtn = createPanelButton({
+            scene,
+            cleanup: this._cleanup,
+            namePrefix: 'pdf',
+            label: 'Gizmos On',
+            width: 0.16,
+            height: UI_LAYOUT.panel.btnHeight * 0.8,
+            position: new Vector3(0, -0.34, 0),
+            parent: this._panelRoot,
+            bgColor: '#1a3a1a',
+            borderColor: '#50ff5044',
+            onClick: () => this._toggleGizmos(),
+        });
 
-        const light = new HemisphericLight('pdf_light', new Vector3(0, 1, 0), scene);
-        light.intensity = 1;
-        light.diffuse = new Color3(1, 1, 1);
-        light.groundColor = new Color3(0.5, 0.5, 0.5);
-        light.includedOnlyMeshes = [this._displayPlane];
-        this._cleanup.add(light);
-
-        this._displayMaterial = new StandardMaterial('pdf_display_mat', scene);
-        this._displayMaterial.backFaceCulling = false;
-        this._displayMaterial.specularColor = new Color3(0, 0, 0);
-        this._displayMaterial.diffuseColor = new Color3(1, 1, 1);
-        this._displayPlane.material = this._displayMaterial;
-        this._cleanup.add(this._displayMaterial);
-
-        this._prevBtn = this._createBtn(
-            'Prev',
-            PdfReaderDemo._smallBtnWidth,
-            PdfReaderDemo._smallBtnHeight,
-            new Vector3(-0.16, -0.19, 0),
-            '#222226',
-            '#ffffff22',
-            () => this._prevPage(),
-        );
-
-        this._nextBtn = this._createBtn(
-            'Next',
-            PdfReaderDemo._smallBtnWidth,
-            PdfReaderDemo._smallBtnHeight,
-            new Vector3(0.16, -0.19, 0),
-            '#222226',
-            '#ffffff22',
-            () => this._nextPage(),
-        );
-
-        this._gizmosBtn = this._createBtn(
-            'Gizmos On',
-            0.16,
-            PdfReaderDemo._btnHeight * 0.8,
-            new Vector3(0, -0.34, 0),
-            '#1a3a1a',
-            '#50ff5044',
-            () => this._toggleGizmos(),
-        );
-
-        const goBack = this._getGoBack();
-        this._backBtn = this._createBtn(
-            'Return to Main Scene',
-            PdfReaderDemo._btnWidth * PdfReaderDemo._backWidthRatio,
-            PdfReaderDemo._btnHeight * PdfReaderDemo._backHeightRatio,
-            new Vector3(0, -0.27, 0),
-            '#2a1a0a',
-            '#ffb45044',
-            () => {
+        this._backBtn = createBackButton({
+            scene,
+            cleanup: this._cleanup,
+            parent: this._panelRoot,
+            position: new Vector3(0, -0.27, 0),
+            onGoBack: () => {
+                const goBack = getGoBackCallback(this._scene);
                 if (goBack) goBack();
             },
-        );
+            namePrefix: 'pdf',
+        });
 
-        this._setupText();
+        initPanelText({
+            scene,
+            cleanup: this._cleanup,
+            isDisposed: () => this._disposed,
+            onReady: (tm) => {
+                this._textManager = tm;
+                this._detachText = tm.attachToScene(scene);
+                this._rebuildText();
+            },
+        });
 
-        const presetPages = (scene.metadata as Record<string, unknown>)?.pdfPages as PreProcessedPage[] | undefined;
+        const presetPages = getMetadata(scene).pdfPages;
         if (presetPages) {
             this._loadPages(presetPages);
         } else {
@@ -157,30 +146,38 @@ export class PdfReaderDemo {
         }
     }
 
-    private _createBtn(
-        label: string,
-        width: number,
-        height: number,
-        position: Vector3,
-        bgColor: string,
-        borderColor: string,
-        onClick: () => void,
-    ): CreateUiButtonResult {
-        const result = createUiButton(this._scene, {
-            name: `pdf_${label.replace(/\s+/g, '_')}`,
-            width,
-            height,
-            position,
-            parent: this._panelRoot,
-            bgColor,
-            borderColor,
-            cornerRadius: PdfReaderDemo._cornerRadius,
-            borderThickness: PdfReaderDemo._borderThickness,
-            onClick,
-        });
-        this._cleanup.add(result.texture);
-        this._cleanup.add(result.plane);
-        return result;
+    private _createGizmoAnchor(): Mesh {
+        const anchor = new Mesh('pdf_gizmo_anchor', this._scene);
+        anchor.parent = this._panelRoot;
+        anchor.position = new Vector3(0, 0.22, -0.05);
+        anchor.isVisible = false;
+        this._cleanup.add(anchor);
+        return anchor;
+    }
+
+    private _createDisplayPlane(): Mesh {
+        const plane = MeshBuilder.CreatePlane('pdf_display', { width: 1, height: 1 }, this._scene);
+        plane.parent = this._gizmoAnchor;
+        plane.position = Vector3.Zero();
+        this._cleanup.add(plane);
+        return plane;
+    }
+
+    private _createDisplayMaterial(): StandardMaterial {
+        const light = new HemisphericLight('pdf_light', new Vector3(0, 1, 0), this._scene);
+        light.intensity = 1;
+        light.diffuse = new Color3(1, 1, 1);
+        light.groundColor = new Color3(0.5, 0.5, 0.5);
+        light.includedOnlyMeshes = [this._displayPlane];
+        this._cleanup.add(light);
+
+        const material = new StandardMaterial('pdf_display_mat', this._scene);
+        material.backFaceCulling = false;
+        material.specularColor = new Color3(0, 0, 0);
+        material.diffuseColor = new Color3(1, 1, 1);
+        this._displayPlane.material = material;
+        this._cleanup.add(material);
+        return material;
     }
 
     private _toggleGizmos(): void {
@@ -263,7 +260,7 @@ export class PdfReaderDemo {
 
     private _drawPlaceholder(): void {
         const w = 600;
-        const h = Math.round(w / PdfReaderDemo._placeholderAspect);
+        const h = Math.round(w / PLACEHOLDER_ASPECT);
         this._renderCanvas.width = w;
         this._renderCanvas.height = h;
 
@@ -282,39 +279,22 @@ export class PdfReaderDemo {
         ctx.fillText('Upload and Convert before entering XR', w / 2, h / 2 + 20);
 
         this._setTextureFromCanvas(this._renderCanvas);
-        this._updatePlaneSize(PdfReaderDemo._placeholderAspect);
-    }
-
-    private _setupText(): void {
-        const textManager = new TextManager(this._scene.getEngine());
-        this._textManager = textManager;
-        textManager.init().then(() => {
-            if (this._disposed) {
-                textManager.dispose();
-                this._textManager = null;
-                return;
-            }
-            this._rebuildText();
-            this._detachText = textManager.attachToScene(this._scene);
-            this._cleanup.add(textManager);
-        });
+        this._updatePlaneSize(PLACEHOLDER_ASPECT);
     }
 
     private _rebuildText(): void {
         if (!this._textManager?.renderer) return;
         this._textManager.renderer.clearParagraphs();
 
-        const px = PdfReaderDemo._panelPosition.x;
-        const py = PdfReaderDemo._panelPosition.y;
-        const pz = PdfReaderDemo._panelPosition.z;
-        const ty = PdfReaderDemo._textYOffset;
-        const tz = PdfReaderDemo._textZOffset;
+        const { x: px, y: py, z: pz } = UI_LAYOUT.panelPosition;
+        const ty = UI_LAYOUT.textYOffset;
+        const tz = UI_LAYOUT.textZOffset;
 
         if (this._preProcessedPages === null) {
             this._textManager.addParagraph(
                 'PDF Reader',
                 new Vector3(px, py + 0.22 + ty, pz + tz),
-                PdfReaderDemo._textScale,
+                UI_LAYOUT.panel.textScale,
             );
         }
 
@@ -322,26 +302,26 @@ export class PdfReaderDemo {
             this._textManager.addParagraph(
                 'Prev',
                 new Vector3(px - 0.16, py - 0.19 + ty, pz + tz),
-                PdfReaderDemo._smallTextScale,
+                UI_LAYOUT.panel.smallTextScale,
             );
             this._textManager.addParagraph(
                 'Next',
                 new Vector3(px + 0.16, py - 0.19 + ty, pz + tz),
-                PdfReaderDemo._smallTextScale,
+                UI_LAYOUT.panel.smallTextScale,
             );
         }
 
         this._textManager.addParagraph(
             this._statusText,
             new Vector3(px, py - 0.19 + ty, pz + tz),
-            PdfReaderDemo._statusTextScale,
+            UI_LAYOUT.panel.statusTextScale,
         );
 
         if (this._backBtn.plane.isEnabled()) {
             this._textManager.addParagraph(
                 'Return to Main Scene',
                 new Vector3(px, py - 0.27 + ty, pz + tz),
-                PdfReaderDemo._textScale,
+                UI_LAYOUT.panel.textScale,
             );
         }
 
@@ -349,7 +329,7 @@ export class PdfReaderDemo {
             this._textManager.addParagraph(
                 this._gizmosEnabled ? 'Gizmos Off' : 'Gizmos On',
                 new Vector3(px, py - 0.34 + ty, pz + tz),
-                PdfReaderDemo._smallTextScale,
+                UI_LAYOUT.panel.smallTextScale,
             );
         }
     }
@@ -359,11 +339,6 @@ export class PdfReaderDemo {
         this._prevBtn.plane.setEnabled(hasPdf);
         this._nextBtn.plane.setEnabled(hasPdf);
         this._rebuildText();
-    }
-
-    private _getGoBack(): (() => void) | null {
-        const meta = this._scene.metadata as Record<string, unknown> | undefined;
-        return (meta?.goBack as (() => void) | undefined) ?? null;
     }
 
     private _loadPages(pages: PreProcessedPage[]): void {
