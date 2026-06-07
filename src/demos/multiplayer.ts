@@ -178,24 +178,28 @@ export class MultiplayerDemo {
         })();
         if (saved) this._urlInput.text = saved;
 
-        this._keyboardPlane = MeshBuilder.CreatePlane('mp_keyboard', { width: 0.7, height: 0.25 }, scene);
+        this._keyboardPlane = MeshBuilder.CreatePlane('mp_keyboard', { width: 0.64, height: 0.28 }, scene);
         this._keyboardPlane.parent = this._panelRoot;
-        this._keyboardPlane.position = new Vector3(0, -0.28, 0.005);
+        this._keyboardPlane.position = new Vector3(0, -0.36, 0.005);
         this._keyboardPlane.setEnabled(false);
         this._cleanup.add(this._keyboardPlane);
 
-        this._keyboardTexture = AdvancedDynamicTexture.CreateForMesh(this._keyboardPlane, 800, 280);
+        this._keyboardTexture = AdvancedDynamicTexture.CreateForMesh(this._keyboardPlane, 740, 320);
         this._keyboardTexture.background = '#111116ee';
 
-        this._keyboard = VirtualKeyboard.CreateDefaultLayout('en');
+        this._keyboard = new VirtualKeyboard('mp_keyboard');
+        this._keyboard.addKeysRow([':', '-', '_', '.', '~', '@']);
+        this._keyboard.addKeysRow(['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '\u2190']);
+        this._keyboard.addKeysRow(['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p']);
+        this._keyboard.addKeysRow(['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', "'", '\u21B5']);
+        this._keyboard.addKeysRow(['\u21E7', 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/']);
+        this._keyboard.addKeysRow([' '], [{ width: '200px' }]);
         this._keyboard.defaultButtonWidth = '60px';
         this._keyboard.defaultButtonHeight = '50px';
         this._keyboard.defaultButtonColor = '#DDD';
         this._keyboard.defaultButtonBackground = '#2a2a32';
         this._keyboard.shiftButtonColor = '#7799FF';
         this._keyboard.width = '100%';
-        this._keyboard.horizontalAlignment = 0;
-        this._keyboard.verticalAlignment = 0;
         this._keyboardTexture.addControl(this._keyboard);
 
         this._keyboard.connect(this._urlInput);

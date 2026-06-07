@@ -32,6 +32,8 @@ import './xrLightShadows';
 import { XrLightShadowsDemo } from './xrLightShadows';
 import './multiplayer';
 import { MultiplayerDemo } from './multiplayer';
+import './pdfReader';
+import { PdfReaderDemo } from './pdfReader';
 
 DemoRegistry.register({
     id: 'xr-light-shadows',
@@ -49,6 +51,17 @@ DemoRegistry.register({
     label: 'Multiplayer',
     build: (scene) => {
         const demo = new MultiplayerDemo(scene);
+        return () => demo.teardown();
+    },
+    ownUi: true,
+    reuseScene: true,
+});
+
+DemoRegistry.register({
+    id: 'pdf-reader',
+    label: 'PDF Reader',
+    build: (scene) => {
+        const demo = new PdfReaderDemo(scene);
         return () => demo.teardown();
     },
     ownUi: true,

@@ -190,10 +190,13 @@ The app uses a `SceneManager` to switch between a home scene and demo scenes. Th
 
 **Multiplayer Demo** - connects to a Colyseus server and renders remote players as colored head + hand avatars. See the [Multiplayer Server Setup](#multiplayer-server-setup) section below.
 
+**PDF Reader Demo** - displays PDF documents in XR with page navigation and bounding-box gizmos (scale + rotate). PDFs must be pre-processed before entering XR - upload a `.pdf`, click Convert, then enter XR. Download the resulting `.pre` file to skip conversion on future visits. See the [PDF Pre-processing Guide](docs/pdf-preprocessing-guide.md) for details.
+
 ## Guides
 
 - **[MSDF Text Rendering for XR Buttons](docs/msdf-text-buttons-guide.md)** - How to create high-resolution buttons with MSDF text, why it outperforms GUI TextBlock for XR, positioning, font customization, and troubleshooting.
 - **[Scene Management in WebXR](docs/scene-management-guide.md)** - Why you can't switch scenes in WebXR, the two strategies (reused vs own scene), state machine architecture, and how to add new demo scenes.
+- **[PDF Pre-processing for WebXR](docs/pdf-preprocessing-guide.md)** - Why PDF.js is too slow for XR headsets, the `.pre` file format, two-stage conversion pipeline, and troubleshooting.
 
 ## Multiplayer Server Setup
 
@@ -232,7 +235,7 @@ pnpm dev:server   # server only (port 2567)
 
 ### Editing the server
 
-The `server/` directory is a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) — a full git repository nested inside the main template repo. It has its own remote, branches, and history. This means you effectively have **two repos in one directory**: commits inside `server/` go to the server repo, while commits at the project root go to the main template repo.
+The `server/` directory is a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) - a full git repository nested inside the main template repo. It has its own remote, branches, and history. This means you effectively have **two repos in one directory**: commits inside `server/` go to the server repo, while commits at the project root go to the main template repo.
 
 By default the submodule points to the original server template (`VGFP/babylonjs-webxr-multiplayer-server-template`). You can pull updates from it, but you cannot push without write access. To make your own changes you need your own copy.
 
