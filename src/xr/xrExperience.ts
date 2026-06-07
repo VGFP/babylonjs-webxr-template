@@ -1,4 +1,4 @@
-import { Scene, WebXRDefaultExperience, WebXRFeaturesManager } from '@babylonjs/core';
+import { Scene, WebXRDefaultExperience, WebXRFeaturesManager, WebXRFeatureNameType } from '@babylonjs/core';
 import '@babylonjs/core/XR/webXRDefaultExperience';
 import '@babylonjs/core/XR/features/WebXRPlaneDetector';
 import '@babylonjs/core/XR/features/WebXRAnchorSystem';
@@ -42,24 +42,15 @@ export class XrExperience {
         }
 
         this._fm = this._xr.baseExperience.featuresManager;
-        this._xrPlanes = this._enablePlaneDetection();
-        this._xrAnchors = this._enableAnchors();
+        this._xrPlanes = this._tryEnableFeature('xr-plane-detection', 'Plane detection');
+        this._xrAnchors = this._tryEnableFeature('xr-anchor-system', 'Anchors');
     }
 
-    private _enablePlaneDetection(): any | null {
+    private _tryEnableFeature(name: WebXRFeatureNameType, label: string): any | null {
         try {
-            return this._fm!.enableFeature('xr-plane-detection', 'latest');
+            return this._fm!.enableFeature(name, 'latest');
         } catch (e) {
-            console.warn('Plane detection not available:', e);
-            return null;
-        }
-    }
-
-    private _enableAnchors(): any | null {
-        try {
-            return this._fm!.enableFeature('xr-anchor-system', 'latest');
-        } catch (e) {
-            console.warn('Anchors not available:', e);
+            console.warn(`${label} not available:`, e);
             return null;
         }
     }

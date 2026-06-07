@@ -1,6 +1,7 @@
-import { Mesh, Observable, Scene, Vector3, WebXRDefaultExperience } from '@babylonjs/core';
+import { Matrix, Mesh, Observable, Scene, Vector3, WebXRDefaultExperience } from '@babylonjs/core';
 
 import { buildPolygonMesh } from '../meshes';
+import { polygonArea } from '../meshes/polygonMath';
 import { DisposableStack } from '../core/disposableStack';
 
 export interface XrPlaneData {
@@ -71,6 +72,31 @@ export class PlaneDetectionManager {
 
     get detectedPlanes(): XrPlaneData[] {
         return Array.from(this._detectedPlanes.values());
+    }
+
+    /**
+     * Finds the largest horizontal plane (up-facing normal, dot > 0.85)
+     * among detected planes. Returns its transformation matrix or null.
+     */
+    findFloorReference(): { transformationMatrix: Matrix } | null {
+        if (this._detectedPlanes.size === 0) return null;
+
+        let bestMatrix: Matrix | null = null;
+        let bestScore = -Infinity;
+
+        for (const plane of this.detectedPlanes) {
+            const n = Vector3.TransformNormal(Vector3.Up(), plane.transformationMatrix).normalize();
+            const dot = Vector3.Dot(n, Vector3.Up());
+            if (dot <= 0.85) continue;
+
+            const area = polygonArea(plane.polygonDefinition);
+            if (area > bestScore) {
+                bestScore = area;
+                bestMatrix = plane.transformationMatrix;
+            }
+        }
+
+        return bestMatrix ? { transformationMatrix: bestMatrix } : null;
     }
 
     dispose(): void {

@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "debug": "vite --mode debug",
     "dev:server": "pnpm --dir server install && pnpm --dir server exec vite",
     "dev:full": "concurrently -n client,server -c blue,green \"pnpm dev\" \"pnpm dev:server\"",
     "build": "vite build",

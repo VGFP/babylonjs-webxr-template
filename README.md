@@ -290,7 +290,7 @@ git commit -m "sync upstream server changes"
 ```
 ├── .certs/               # Local HTTPS certs (gitignored, auto-generated)
 ├── .devcontainer/        # Devcontainer config (Dockerfile + features)
-├── docs/                 # Project guides (MSDF text, scene management)
+├── docs/                 # Project guides (MSDF text, scene management, PDF preprocessing)
 ├── docs-for-mcp/         # BabylonJS docs for MCP server
 │   ├── api/              # TypeDoc-generated API reference
 │   └── examples/         # Guides and tutorials
@@ -311,13 +311,17 @@ git commit -m "sync upstream server changes"
 │   └── setup-ai-tools.sh           # AI tools installer + MCP config
 ├── server/               # Multiplayer server (git submodule - Colyseus)
 ├── src/
-│   ├── core/             # Engine/scene setup, SceneManager, shared types, UI utilities
-│   ├── demos/            # Demo scenes (lights/shadows, multiplayer) and registry
-│   ├── lighting/         # ShadowManager, WindowLight
-│   ├── materials/        # Shadow-only material helpers
-│   ├── meshes/           # Polygon mesh builder for detected planes
-│   ├── xr/               # WebXR experience, plane detection, anchors
-│   ├── text/             # MSDF text renderer (TextManager)
+│   ├── core/             # SceneManager, createUiButton, demoPanel helpers, DisposableStack,
+│   │                      UI_LAYOUT, sceneMetadata, domWiring, storage, clipboard, fileDownload,
+│   │                      errors, gizmoManagerFactory, types
+│   ├── demos/            # DemoRegistry, DemoUiController, individual demo classes
+│   │                      (xrLightShadows, multiplayer, pdfReader, pdfPreprocessor)
+│   ├── lighting/         # ShadowManager, WindowLight, createShadowGenerator
+│   ├── materials/        # applyShadowMaterialFacing (shadow-only material helper)
+│   ├── meshes/           # buildPolygonMesh (polygon mesh builder for detected planes),
+│   │                      polygonMath (polygonArea)
+│   ├── xr/               # XrExperience, PlaneDetectionManager
+│   ├── text/             # TextManager (MSDF wrapper)
 │   ├── main.ts           # App entry point
 │   └── style.css
 ├── index.html

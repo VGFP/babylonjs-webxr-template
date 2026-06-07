@@ -3,6 +3,7 @@ import { TextManager } from '../text/textRenderer';
 import { XrExperience } from '../xr/xrExperience';
 import { DemoRegistry, type DemoDescriptor } from '../demos';
 import { DemoUiController, type DemoUi } from '../demos/demoUi';
+import { setMetadata } from './sceneMetadata';
 
 type SceneState =
     | { type: 'home' }
@@ -96,8 +97,8 @@ export class SceneManager {
                 break;
             case 'reused_scene':
                 this._state.teardown();
-                delete (this._home.scene.metadata as Record<string, unknown>).goBack;
-                delete (this._home.scene.metadata as Record<string, unknown>).xr;
+                setMetadata(this._home.scene, 'goBack', undefined);
+                setMetadata(this._home.scene, 'xr', undefined);
                 break;
             case 'own_scene':
                 this._state.ui.dispose();
@@ -115,11 +116,8 @@ export class SceneManager {
     }
 
     private _enterReusedScene(demo: DemoDescriptor): void {
-        this._home.scene.metadata = {
-            ...((this._home.scene.metadata as Record<string, unknown>) || {}),
-            goBack: () => this.switchToHome(),
-            xr: this._home.xr,
-        };
+        setMetadata(this._home.scene, 'goBack', () => this.switchToHome());
+        setMetadata(this._home.scene, 'xr', this._home.xr);
         const teardown = demo.build(this._home.scene);
         this._state = {
             type: 'reused_scene',

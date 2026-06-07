@@ -76,6 +76,9 @@ This project uses the **scene reuse** strategy with a state machine (`SceneManag
 | File | Role |
 |---|---|
 | `src/core/sceneManager.ts` | `SceneManager` - state machine that switches between home and demos |
+| `src/core/sceneMetadata.ts` | Typed `SceneMetadata` interface + `getMetadata()` / `setMetadata()` helpers |
+| `src/core/demoPanel.ts` | Shared panel helpers: `createPanelButton`, `createBackButton`, `createPanelRoot`, `saveAndTransparentClearColor`, `getGoBackCallback`, `initPanelText` |
+| `src/core/disposableStack.ts` | `DisposableStack` - tracks objects for bulk disposal in `teardown()` |
 | `src/demos/index.ts` | `DemoRegistry` - catalog of available demos + `DemoDescriptor` type |
 | `src/demos/demoUi.ts` | `DemoUiController` - creates the floating button menu for navigation |
 | `src/xr/xrExperience.ts` | `XrExperience` - wraps WebXR session creation (planes, anchors) |
@@ -89,7 +92,7 @@ This project uses the **scene reuse** strategy with a state machine (`SceneManag
 
 The demo runs **inside the home scene**. No new `Scene` or XR session is created. Instead:
 
-1. The `SceneManager` injects a `goBack` callback into `scene.metadata`.
+1. The `SceneManager` injects a `goBack` callback and XR references into scene metadata (via `setMetadata()`).
 2. The demo's `build()` function adds meshes, lights, and UI to the existing scene.
 3. The demo returns a `teardown()` function that cleans up everything it created.
 4. On "Return to Main Scene", `teardown()` is called and the home scene is restored.
@@ -173,32 +176,60 @@ DemoRegistry.register({
 
 ### Step 1: Create the demo class
 
-Create a new file in `src/demos/`:
+Create a new file in `src/demos/`. Use `DisposableStack` for cleanup and the shared panel helpers from `../core`:
 
 ```ts
-import { Scene, Vector3, HemisphericLight, MeshBuilder } from '@babylonjs/core';
+import { Color4, Scene, Vector3 } from '@babylonjs/core';
+import {
+    DisposableStack, createPanelButton, createBackButton,
+    createPanelRoot, getGoBackCallback, initPanelText,
+    saveAndTransparentClearColor, UI_LAYOUT,
+} from '../core';
+import { TextManager } from '../text/textRenderer';
 
 export class MyDemo {
     private _scene: Scene;
-    private _light: HemisphericLight;
-    private _mesh: Mesh;
+    private _cleanup = new DisposableStack();
+    private _disposed = false;
+    private _prevClearColor: Color4;
 
     constructor(scene: Scene) {
         this._scene = scene;
+        this._prevClearColor = saveAndTransparentClearColor(scene);
 
-        const goBack = (scene.metadata as Record<string, unknown>)?.goBack as (() => void) | undefined;
+        const panelRoot = createPanelRoot(scene, 'my_panel', this._cleanup);
 
-        this._light = new HemisphericLight('my_light', Vector3.Up(), scene);
-        this._mesh = MeshBuilder.CreateBox('my_box', { size: 0.3 }, scene);
-        this._mesh.position = new Vector3(0, 1, -1);
+        const goBack = getGoBackCallback(scene);
+        if (goBack) {
+            createBackButton({
+                scene, cleanup: this._cleanup, parent: panelRoot,
+                position: new Vector3(0, -0.14, 0), onGoBack: goBack,
+            });
+        }
+
+        initPanelText({
+            scene, cleanup: this._cleanup,
+            isDisposed: () => this._disposed,
+            onReady: (tm: TextManager) => {
+                tm.attachToScene(scene);
+                // tm.addParagraph(...) for button labels
+            },
+        });
     }
 
     teardown(): void {
-        this._light.dispose();
-        this._mesh.dispose();
+        this._disposed = true;
+        this._cleanup.dispose();
+        this._scene.clearColor = this._prevClearColor;
     }
 }
 ```
+
+Key patterns:
+- **`DisposableStack`** tracks all created objects; `createPanelButton`, `createBackButton`, and `createPanelRoot` auto-register with it.
+- **`saveAndTransparentClearColor()`** saves the previous clear color for restoration in `teardown()`.
+- **`getGoBackCallback()`** reads the `goBack` callback injected by `SceneManager`.
+- **`initPanelText()`** handles async `TextManager.init()` with disposal-race protection (if the demo is torn down before font loading completes, the text manager is disposed silently).
 
 ### Step 2: Register it
 
@@ -231,15 +262,22 @@ DemoRegistry.register({
 
 ### Step 4: Access the "go back" callback
 
-For reused scenes, the `SceneManager` injects `goBack` into `scene.metadata` before calling `build()`:
+For reused scenes, the `SceneManager` injects `goBack` into scene metadata before calling `build()`. Use the typed helper:
 
 ```ts
-const goBack = (scene.metadata as Record<string, unknown>)?.goBack as (() => void) | undefined;
+import { getGoBackCallback } from '../core';
+
+const goBack = getGoBackCallback(scene);
 ```
 
-Use this to wire up a "Return to Main Scene" button or any exit trigger.
+Or access it alongside other XR features:
 
-For own scenes, `goBack` is passed via `DemoRegistry.createScene()` as `scene.metadata`.
+```ts
+import { getMetadata } from '../core';
+const { goBack, xr, xrAnchors, planeDetectionManager } = getMetadata(scene);
+```
+
+For own scenes, `goBack` is passed via `DemoRegistry.createScene()` as scene metadata.
 
 ---
 
@@ -253,7 +291,7 @@ For own scenes, `goBack` is passed via `DemoRegistry.createScene()` as `scene.me
    │   ├─ Detach home text renderer
    │   └─ Hide home UI buttons
    ├─ SceneManager._enterReusedScene(demo)
-   │   ├─ Inject goBack + xr into home scene metadata
+   │   ├─ Inject goBack + xr into home scene metadata (via setMetadata)
    │   ├─ demo.build(homeScene) → returns teardown()
    │   └─ State = { type: 'reused_scene', teardown }
    └─ Demo adds meshes/lights/UI to home scene
@@ -261,7 +299,7 @@ For own scenes, `goBack` is passed via `DemoRegistry.createScene()` as `scene.me
 2. User clicks "Return to Main Scene"
    ├─ SceneManager._cleanupCurrentState()
    │   └─ Call teardown() → demo cleans up its objects
-   │   └─ Remove goBack + xr from metadata
+   │   └─ Remove goBack + xr from metadata (via setMetadata)
    └─ SceneManager._enterHome()
        ├─ Reattach text renderer
        ├─ Show home UI buttons
@@ -342,25 +380,25 @@ Wraps `WebXRDefaultExperience.CreateAsync()` and enables features:
 
 ### Accessing XR features in a reused scene
 
-The home scene's XR experience is injected into `scene.metadata`:
+The home scene's XR experience is injected into scene metadata (via `setMetadata()`) before `build()` is called. Use the typed helper:
 
 ```ts
-const xr = (scene.metadata as Record<string, unknown>).xr as WebXRDefaultExperience;
-const xrAnchors = (scene.metadata as Record<string, unknown>).xrAnchors;
-const pdm = (scene.metadata as Record<string, unknown>).planeDetectionManager as PlaneDetectionManager;
+import { getMetadata } from '../core';
+const { xr, xrAnchors, planeDetectionManager } = getMetadata(scene);
 ```
 
 ### Storing and restoring scene state
 
-For reused scenes, save/restore anything you modify in the home scene:
+For reused scenes, save/restore anything you modify in the home scene. Use `saveAndTransparentClearColor()` for the standard pattern:
 
 ```ts
+import { saveAndTransparentClearColor } from '../core';
+
 class MyDemo {
     private _prevClearColor: Color4;
 
     constructor(scene: Scene) {
-        this._prevClearColor = scene.clearColor.clone();
-        scene.clearColor = new Color4(0, 0, 0, 0);
+        this._prevClearColor = saveAndTransparentClearColor(scene);
     }
 
     teardown(): void {
@@ -371,22 +409,29 @@ class MyDemo {
 
 ### Sharing data between scenes via metadata
 
-`scene.metadata` is a plain object you can use to pass data:
+`scene.metadata` is a plain object you can use to pass data. Use the typed helpers for safe access:
 
 ```ts
-scene.metadata = {
-    ...scene.metadata,
-    mySharedData: { foo: 'bar' },
-};
+import { getMetadata, setMetadata } from '../core';
+
+// Read:
+const pdfPages = getMetadata(scene).pdfPages;
+
+// Write:
+setMetadata(scene, 'mySharedData', { foo: 'bar' });
 ```
+
+The `SceneMetadata` interface (in `src/core/sceneMetadata.ts`) defines the known keys: `xr`, `xrAnchors`, `planeDetectionManager`, `goBack`, `pdfPages`.
 
 ### Cleanup discipline for reused scenes
 
-Every object you create in a reused scene **must** be tracked and disposed in `teardown()`:
+Every object you create in a reused scene **must** be tracked and disposed in `teardown()`. Use `DisposableStack`:
 
 ```ts
+import { DisposableStack } from '../core';
+
 class MyDemo {
-    private _cleanup: { dispose(): void }[] = [];
+    private _cleanup = new DisposableStack();
 
     constructor(scene: Scene) {
         const light = new HemisphericLight('demo_light', Vector3.Up(), scene);
@@ -394,14 +439,18 @@ class MyDemo {
         const mat = new StandardMaterial('demo_mat', scene);
         mesh.material = mat;
 
-        this._cleanup.push(light, mesh, mat);
+        this._cleanup.add(light);
+        this._cleanup.add(mesh);
+        this._cleanup.add(mat);
     }
 
     teardown(): void {
-        for (const item of this._cleanup) item.dispose();
+        this._cleanup.dispose();
     }
 }
 ```
+
+The shared panel helpers (`createPanelButton`, `createBackButton`, `createPanelRoot`) auto-register objects with the stack. For manual cleanup logic, use `this._cleanup.register(() => { /* custom cleanup */ })`.
 
 ---
 
@@ -421,10 +470,11 @@ The `DemoUiController.setVisible(false)` is called when leaving home, and `setVi
 
 ### Plane detection / anchors not working in a reused scene demo
 
-Make sure you access the XR features from `scene.metadata`, not by creating a new `XrExperience`. The home scene's features are injected before `build()` is called:
+Make sure you access the XR features from the typed metadata helper, not by creating a new `XrExperience`. The home scene's features are injected before `build()` is called:
 
 ```ts
-const pdm = scene.metadata?.planeDetectionManager;
+import { getMetadata } from '../core';
+const { planeDetectionManager } = getMetadata(scene);
 ```
 
 ### Memory leak after many scene switches

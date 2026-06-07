@@ -55,6 +55,10 @@ This project separates the button into two independent layers:
 
 - **`src/core/uiButton.ts`** - `createUiButton()` function. Creates a 3D `Mesh` plane, attaches an `AdvancedDynamicTexture` with a `Rectangle` control (for background color, border, rounded corners), and wires up click handlers via `ActionManager`.
 
+- **`src/core/demoPanel.ts`** - Shared panel helpers that wrap `createUiButton` with conventions used by every demo: `createPanelButton()` (auto-registers with `DisposableStack`), `createBackButton()` (standardized "Return to Main Scene" button), `createPanelRoot()` (TransformNode at `UI_LAYOUT.panelPosition`), `initPanelText()` (async `TextManager.init()` with disposal-race protection).
+
+- **`src/core/uiLayout.ts`** - `UI_LAYOUT` constants (button sizes, positions, text offsets, scales) and `BACK_BUTTON_COLORS`. Two contexts: `home` (top-level menu) and `panel` (in-demo panels).
+
 - **`src/demos/demoUi.ts`** - `DemoUiController`. A full example that creates multiple buttons, each with MSDF text labels, and manages visibility/active states.
 
 - **`src/demos/xrLightShadows.ts`** - `XrLightShadowsDemo`. Another example with action buttons (Add Light, Delete Light, etc.) using the same pattern.
@@ -72,6 +76,44 @@ This project separates the button into two independent layers:
 ---
 
 ## How to Create a Button with MSDF Text
+
+### Quick path: shared panel helpers
+
+For demo panels, prefer the shared helpers from `src/core/demoPanel.ts` over raw `createUiButton`. They handle naming, cleanup registration, and standard styling:
+
+```ts
+import {
+    DisposableStack, createPanelButton, createBackButton,
+    createPanelRoot, initPanelText, UI_LAYOUT, BACK_BUTTON_COLORS,
+} from '../core';
+
+const cleanup = new DisposableStack();
+const panelRoot = createPanelRoot(scene, 'my_panel', cleanup);
+
+const btn = createPanelButton({
+    scene, cleanup, namePrefix: 'my', label: 'My Button',
+    width: UI_LAYOUT.panel.btnWidth,
+    height: UI_LAYOUT.panel.btnHeight,
+    position: new Vector3(0, 0, 0),
+    parent: panelRoot,
+    bgColor: '#1a2a3aee',
+    borderColor: '#50a0ff44',
+    onClick: () => { /* ... */ },
+});
+
+initPanelText({
+    scene, cleanup,
+    isDisposed: () => false,
+    onReady: (tm) => {
+        tm.attachToScene(scene);
+        tm.addParagraph('My Button',
+            new Vector3(0, 0 + UI_LAYOUT.textYOffset, 0 + UI_LAYOUT.textZOffset),
+            UI_LAYOUT.panel.textScale);
+    },
+});
+```
+
+### Manual path: step by step
 
 ### Step 1: Initialize the TextManager
 
@@ -220,18 +262,27 @@ All paragraphs added to the same `TextRenderer` are batched into a single draw c
 
 ### Layout constants used in this project
 
-The demo UI uses these constants for a menu panel floating in front of the user:
+Layout values are centralized in `src/core/uiLayout.ts` as the `UI_LAYOUT` constant. Two contexts are defined:
 
-| Constant | Value | Purpose |
-|---|---|---|
-| `_btnWidth` | `0.5` | Button width in world units |
-| `_btnHeight` | `0.08` | Button height in world units |
-| `_btnGap` | `0.02` | Vertical gap between buttons |
-| `_originY` | `1.35` | Y position of first button (roughly eye height) |
-| `_originZ` | `-0.55` | Z offset (in front of user) |
-| `_textScale` | `0.04` | MSDF text scale for labels |
-| `_textYOffset` | `-0.005` | Vertical nudge for text centering |
-| `_textZOffset` | `-0.005` | Forward nudge to prevent z-fighting |
+| Context | Constant | Value | Purpose |
+|---|---|---|---|
+| **Home** | `UI_LAYOUT.home.btnWidth` | `0.5` | Button width in world units |
+| | `UI_LAYOUT.home.btnHeight` | `0.08` | Button height in world units |
+| | `UI_LAYOUT.home.btnGap` | `0.02` | Vertical gap between buttons |
+| | `UI_LAYOUT.home.originY` | `1.35` | Y position of first button (roughly eye height) |
+| | `UI_LAYOUT.home.originZ` | `-0.55` | Z offset (in front of user) |
+| | `UI_LAYOUT.home.textScale` | `0.04` | MSDF text scale for labels |
+| | `UI_LAYOUT.home.backTextScale` | `0.032` | Smaller scale for back button |
+| **Panel** | `UI_LAYOUT.panel.btnWidth` | `0.44` | In-demo panel button width |
+| | `UI_LAYOUT.panel.btnHeight` | `0.07` | In-demo panel button height |
+| | `UI_LAYOUT.panel.textScale` | `0.028` | Standard panel text |
+| | `UI_LAYOUT.panel.smallTextScale` | `0.016` | Compact action buttons |
+| | `UI_LAYOUT.panel.statusTextScale` | `0.018` | Status text |
+| **Shared** | `UI_LAYOUT.panelPosition` | `(0, 1.35, -0.55)` | Common anchor for floating panels |
+| | `UI_LAYOUT.cornerRadius` | `25` | Button corner radius |
+| | `UI_LAYOUT.borderThickness` | `8` | Button border thickness |
+| | `UI_LAYOUT.textYOffset` | `-0.005` | Vertical nudge for text centering |
+| | `UI_LAYOUT.textZOffset` | `-0.005` | Forward nudge to prevent z-fighting |
 
 ### Computing button Y positions
 
@@ -243,12 +294,13 @@ Buttons are stacked vertically downward from the origin. The gap gives visual se
 
 ### Scaling the text
 
-The `scale` parameter in `addParagraph()` is a uniform scale applied to the MSDF text. Since MSDF is resolution-independent, you can use any value:
+The `scale` parameter in `addParagraph()` is a uniform scale applied to the MSDF text. Since MSDF is resolution-independent, you can use any value. Prefer the constants from `UI_LAYOUT`:
 
-- `0.016` - small text for compact action buttons (used in the XR Light & Shadows demo)
-- `0.028` - medium text for standard buttons
-- `0.032` - slightly smaller for "back" buttons
-- `0.04` - default for main menu items
+- `UI_LAYOUT.panel.smallTextScale` (`0.016`) - compact action buttons (used in XR Light & Shadows demo)
+- `UI_LAYOUT.panel.statusTextScale` (`0.018`) - status messages
+- `UI_LAYOUT.panel.textScale` (`0.028`) - standard panel buttons
+- `UI_LAYOUT.home.backTextScale` (`0.032`) - back buttons
+- `UI_LAYOUT.home.textScale` (`0.04`) - main menu items
 
 ---
 

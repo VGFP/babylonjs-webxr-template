@@ -73,6 +73,7 @@ describe('XrLightShadowsDemo', () => {
                 detectedPlanes: [],
                 onPlaneAdded: { add: vi.fn(() => null), remove: vi.fn() },
                 onPlaneUpdated: { add: vi.fn(() => null), remove: vi.fn() },
+                findFloorReference: vi.fn(() => null),
             },
         };
     });

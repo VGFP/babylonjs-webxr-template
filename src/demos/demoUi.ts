@@ -2,6 +2,7 @@ import { Engine, Mesh, Scene, Vector3 } from '@babylonjs/core';
 import { Rectangle } from '@babylonjs/gui/2D/controls/rectangle';
 import { TextManager } from '../text/textRenderer';
 import { createUiButton, type CreateUiButtonResult } from '../core/uiButton';
+import { UI_LAYOUT } from '../core/uiLayout';
 import type { DemoDescriptor } from './index';
 
 export interface DemoUi {
@@ -19,23 +20,16 @@ interface ButtonEntry {
     activeBorder: string;
 }
 
-export class DemoUiController implements DemoUi {
-    private static readonly _btnWidth = 0.5;
-    private static readonly _btnHeight = 0.08;
-    private static readonly _btnGap = 0.02;
-    private static readonly _originY = 1.35;
-    private static readonly _originX = 0;
-    private static readonly _originZ = -0.55;
-    private static readonly _cornerRadius = 25;
-    private static readonly _borderThickness = 8;
-    private static readonly _textScale = 0.04;
-    private static readonly _backTextScale = 0.032;
-    private static readonly _backWidthRatio = 0.8;
-    private static readonly _backHeightRatio = 0.85;
-    private static readonly _backTopMargin = 0.01;
-    private static readonly _textYOffset = -0.005;
-    private static readonly _textZOffset = -0.005;
+const MAIN_BTN_BG = '#1a1a1add';
+const MAIN_BTN_BORDER = '#ffffff18';
+const MAIN_BTN_ACTIVE_BG = '#2a1a0add';
+const MAIN_BTN_ACTIVE_BORDER = '#ffb45044';
+const BACK_BTN_BG = '#111111bb';
+const BACK_BTN_BORDER = '#ffffff12';
+const EXIT_XR_BG = '#3a1a1abb';
+const EXIT_XR_BORDER = '#ff505066';
 
+export class DemoUiController implements DemoUi {
     private readonly _scene: Scene;
     private readonly _textManager: TextManager;
     private readonly _buttons: Map<string, ButtonEntry>;
@@ -78,38 +72,38 @@ export class DemoUiController implements DemoUi {
 
         for (let i = 0; i < demos.length; i++) {
             const demo = demos[i];
-            const y = DemoUiController._originY - i * (DemoUiController._btnHeight + DemoUiController._btnGap);
-            const position = new Vector3(DemoUiController._originX, y, DemoUiController._originZ);
+            const y = UI_LAYOUT.home.originY - i * (UI_LAYOUT.home.btnHeight + UI_LAYOUT.home.btnGap);
+            const position = new Vector3(UI_LAYOUT.home.originX, y, UI_LAYOUT.home.originZ);
 
             const result = createUiButton(scene, {
                 name: `btn_${demo.id}`,
-                width: DemoUiController._btnWidth,
-                height: DemoUiController._btnHeight,
+                width: UI_LAYOUT.home.btnWidth,
+                height: UI_LAYOUT.home.btnHeight,
                 position,
-                bgColor: '#1a1a1add',
-                borderColor: '#ffffff18',
-                cornerRadius: DemoUiController._cornerRadius,
-                borderThickness: DemoUiController._borderThickness,
+                bgColor: MAIN_BTN_BG,
+                borderColor: MAIN_BTN_BORDER,
+                cornerRadius: UI_LAYOUT.cornerRadius,
+                borderThickness: UI_LAYOUT.borderThickness,
                 onClick: () => onDemoClick(demo),
             });
 
             textManager.addParagraph(
                 demo.label,
                 new Vector3(
-                    DemoUiController._originX,
-                    y + DemoUiController._textYOffset,
-                    DemoUiController._originZ + DemoUiController._textZOffset,
+                    UI_LAYOUT.home.originX,
+                    y + UI_LAYOUT.textYOffset,
+                    UI_LAYOUT.home.originZ + UI_LAYOUT.textZOffset,
                 ),
-                DemoUiController._textScale,
+                UI_LAYOUT.home.textScale,
             );
 
             buttons.set(demo.id, {
                 plane: result.plane,
                 rect: result.rect,
-                defaultBg: '#1a1a1add',
-                activeBg: '#2a1a0add',
-                defaultBorder: '#ffffff18',
-                activeBorder: '#ffb45044',
+                defaultBg: MAIN_BTN_BG,
+                activeBg: MAIN_BTN_ACTIVE_BG,
+                defaultBorder: MAIN_BTN_BORDER,
+                activeBorder: MAIN_BTN_ACTIVE_BORDER,
             });
             buttonResults.push(result);
         }
@@ -117,20 +111,20 @@ export class DemoUiController implements DemoUi {
         let backPlane: Mesh | null = null;
         let exitPlane: Mesh | null = null;
 
-        let nextY = DemoUiController._originY - demos.length * (DemoUiController._btnHeight + DemoUiController._btnGap);
+        let nextY = UI_LAYOUT.home.originY - demos.length * (UI_LAYOUT.home.btnHeight + UI_LAYOUT.home.btnGap);
 
         if (onBackClick) {
-            const backY = nextY - DemoUiController._backTopMargin;
+            const backY = nextY - UI_LAYOUT.home.backTopMargin;
 
             const result = createUiButton(scene, {
                 name: 'btn_back',
-                width: DemoUiController._btnWidth * DemoUiController._backWidthRatio,
-                height: DemoUiController._btnHeight * DemoUiController._backHeightRatio,
-                position: new Vector3(DemoUiController._originX, backY, DemoUiController._originZ),
-                bgColor: '#111111bb',
-                borderColor: '#ffffff12',
-                cornerRadius: DemoUiController._cornerRadius,
-                borderThickness: DemoUiController._borderThickness,
+                width: UI_LAYOUT.home.btnWidth * UI_LAYOUT.home.backWidthRatio,
+                height: UI_LAYOUT.home.btnHeight * UI_LAYOUT.home.backHeightRatio,
+                position: new Vector3(UI_LAYOUT.home.originX, backY, UI_LAYOUT.home.originZ),
+                bgColor: BACK_BTN_BG,
+                borderColor: BACK_BTN_BORDER,
+                cornerRadius: UI_LAYOUT.cornerRadius,
+                borderThickness: UI_LAYOUT.borderThickness,
                 onClick: () => onBackClick(),
             });
             backPlane = result.plane;
@@ -139,14 +133,14 @@ export class DemoUiController implements DemoUi {
             textManager.addParagraph(
                 'Return to Main Scene',
                 new Vector3(
-                    DemoUiController._originX,
-                    backY + DemoUiController._textYOffset,
-                    DemoUiController._originZ + DemoUiController._textZOffset,
+                    UI_LAYOUT.home.originX,
+                    backY + UI_LAYOUT.textYOffset,
+                    UI_LAYOUT.home.originZ + UI_LAYOUT.textZOffset,
                 ),
-                DemoUiController._backTextScale,
+                UI_LAYOUT.home.backTextScale,
             );
 
-            nextY = backY - DemoUiController._btnHeight * DemoUiController._backHeightRatio * 0.5;
+            nextY = backY - UI_LAYOUT.home.btnHeight * UI_LAYOUT.home.backHeightRatio * 0.5;
         }
 
         if (onExitXr) {
@@ -155,13 +149,13 @@ export class DemoUiController implements DemoUi {
 
             const result = createUiButton(scene, {
                 name: 'btn_exit_xr',
-                width: DemoUiController._btnWidth * DemoUiController._backWidthRatio,
-                height: DemoUiController._btnHeight * DemoUiController._backHeightRatio,
-                position: new Vector3(DemoUiController._originX, exitY, DemoUiController._originZ),
-                bgColor: '#3a1a1abb',
-                borderColor: '#ff505066',
-                cornerRadius: DemoUiController._cornerRadius,
-                borderThickness: DemoUiController._borderThickness,
+                width: UI_LAYOUT.home.btnWidth * UI_LAYOUT.home.backWidthRatio,
+                height: UI_LAYOUT.home.btnHeight * UI_LAYOUT.home.backHeightRatio,
+                position: new Vector3(UI_LAYOUT.home.originX, exitY, UI_LAYOUT.home.originZ),
+                bgColor: EXIT_XR_BG,
+                borderColor: EXIT_XR_BORDER,
+                cornerRadius: UI_LAYOUT.cornerRadius,
+                borderThickness: UI_LAYOUT.borderThickness,
                 onClick: () => onExitXr(),
             });
             exitPlane = result.plane;
@@ -170,11 +164,11 @@ export class DemoUiController implements DemoUi {
             textManager.addParagraph(
                 'Exit XR',
                 new Vector3(
-                    DemoUiController._originX,
-                    exitY + DemoUiController._textYOffset,
-                    DemoUiController._originZ + DemoUiController._textZOffset,
+                    UI_LAYOUT.home.originX,
+                    exitY + UI_LAYOUT.textYOffset,
+                    UI_LAYOUT.home.originZ + UI_LAYOUT.textZOffset,
                 ),
-                DemoUiController._backTextScale,
+                UI_LAYOUT.home.backTextScale,
             );
         }
 
