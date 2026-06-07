@@ -2,6 +2,7 @@ import { Scene, WebXRDefaultExperience, WebXRFeaturesManager, WebXRFeatureNameTy
 import '@babylonjs/core/XR/webXRDefaultExperience';
 import '@babylonjs/core/XR/features/WebXRPlaneDetector';
 import '@babylonjs/core/XR/features/WebXRAnchorSystem';
+import '@babylonjs/loaders/glTF/2.0/glTFLoader';
 
 import type { XrConfig } from '../core/types';
 
