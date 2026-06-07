@@ -20,6 +20,14 @@
           Enter XR
         </button>
       </div>
+      <label id="pdf-upload-wrapper" class="pdf-upload-wrapper">
+        <input id="pdf-input" type="file" accept=".pdf,.pre,application/pdf" hidden>
+        <span class="pdf-upload-button">Upload PDF / .pre</span>
+        <span id="pdf-filename" class="pdf-filename"></span>
+      </label>
+      <button id="pdf-convert" class="pdf-convert-button" hidden>Convert PDF</button>
+      <button id="pdf-download" class="pdf-download-button" hidden>Download .pre</button>
+      <span id="pdf-progress" class="pdf-progress"></span>
     </div>
   </div>
   <script type="module" src="/src/main.ts"></script>

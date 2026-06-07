@@ -9,6 +9,7 @@ import { XrExperience, PlaneDetectionManager } from './xr';
 import { TextManager } from './text';
 import { DemoRegistry } from './demos';
 import { DemoUiController } from './demos/demoUi';
+import { preprocessPdf, serializePages, deserializePages } from './demos/pdfPreprocessor';
 
 class App {
     private _canvas: HTMLCanvasElement;
@@ -132,6 +133,92 @@ class App {
             });
 
             wireXrState(this._xrExperience!.xr);
+        }
+
+        const pdfInput = document.getElementById('pdf-input') as HTMLInputElement | null;
+        const pdfFilename = document.getElementById('pdf-filename') as HTMLSpanElement | null;
+        const pdfConvertBtn = document.getElementById('pdf-convert') as HTMLButtonElement | null;
+        const pdfDownloadBtn = document.getElementById('pdf-download') as HTMLButtonElement | null;
+        const pdfProgress = document.getElementById('pdf-progress') as HTMLSpanElement | null;
+
+        let selectedPdfFile: File | null = null;
+
+        if (pdfInput && pdfFilename) {
+            pdfInput.addEventListener('change', () => {
+                const file = pdfInput.files?.[0];
+                if (!file) return;
+                pdfFilename.textContent = file.name;
+                if (pdfDownloadBtn) pdfDownloadBtn.hidden = true;
+
+                if (file.name.endsWith('.pre')) {
+                    selectedPdfFile = null;
+                    if (pdfConvertBtn) pdfConvertBtn.hidden = true;
+                    if (pdfProgress) pdfProgress.textContent = 'Loading...';
+                    const reader = new FileReader();
+                    reader.onload = () => {
+                        try {
+                            const pages = deserializePages(reader.result as string);
+                            (this._scene.metadata as Record<string, unknown>).pdfPages = pages;
+                            if (pdfProgress) pdfProgress.textContent = `Loaded: ${pages.length} pages`;
+                        } catch (err) {
+                            if (pdfProgress)
+                                pdfProgress.textContent = `Error: ${err instanceof Error ? err.message : 'invalid .pre file'}`;
+                        }
+                    };
+                    reader.onerror = () => {
+                        if (pdfProgress) pdfProgress.textContent = 'Error: failed to read file';
+                    };
+                    reader.readAsText(file);
+                } else {
+                    selectedPdfFile = file;
+                    if (pdfConvertBtn) pdfConvertBtn.hidden = false;
+                    if (pdfProgress) pdfProgress.textContent = '';
+                }
+            });
+        }
+
+        if (pdfConvertBtn) {
+            pdfConvertBtn.addEventListener('click', async () => {
+                if (!selectedPdfFile) return;
+                pdfConvertBtn.disabled = true;
+                if (pdfProgress) pdfProgress.textContent = 'Converting...';
+                try {
+                    const pages = await preprocessPdf(selectedPdfFile, (current, total) => {
+                        if (pdfProgress) pdfProgress.textContent = `Converting page ${current} of ${total}...`;
+                    });
+                    (this._scene.metadata as Record<string, unknown>).pdfPages = pages;
+                    if (pdfProgress) pdfProgress.textContent = `Ready: ${pages.length} pages`;
+                    if (pdfDownloadBtn) pdfDownloadBtn.hidden = false;
+                    pdfConvertBtn.hidden = true;
+                } catch (err) {
+                    if (pdfProgress)
+                        pdfProgress.textContent = `Error: ${err instanceof Error ? err.message : 'unknown'}`;
+                    pdfConvertBtn.disabled = false;
+                }
+            });
+        }
+
+        if (pdfDownloadBtn) {
+            pdfDownloadBtn.addEventListener('click', async () => {
+                const pages = (this._scene.metadata as Record<string, unknown>)?.pdfPages as
+                    | { url: string; width: number; height: number }[]
+                    | undefined;
+                if (!pages) return;
+                pdfDownloadBtn.disabled = true;
+                try {
+                    const json = await serializePages(pages);
+                    const blob = new Blob([json], { type: 'application/json' });
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = (selectedPdfFile?.name ?? 'document').replace(/\.pdf$/i, '') + '.pre';
+                    a.click();
+                    URL.revokeObjectURL(url);
+                } catch (err) {
+                    console.error('Failed to download:', err);
+                }
+                pdfDownloadBtn.disabled = false;
+            });
         }
 
         if ('serviceWorker' in navigator) {
