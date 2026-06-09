@@ -27,6 +27,7 @@ import {
     TTS_PROVIDER,
     TTS_VOICE,
 } from './llmConfig';
+import { AiAvatar } from './aiAvatar';
 
 export class AgentHelperDemo {
     private _scene: Scene;
@@ -45,6 +46,7 @@ export class AgentHelperDemo {
     private _statusLines: string[];
     private _btnLabel: string;
 
+    private _avatar: AiAvatar;
     private _isRecording = false;
     private _isProcessing = false;
     private _mediaRecorder: MediaRecorder | null = null;
@@ -55,6 +57,11 @@ export class AgentHelperDemo {
         { role: 'system', content: SYSTEM_PROMPT },
     ];
     private _currentAudio: HTMLAudioElement | null = null;
+    private _audioCtx: AudioContext | null = null;
+    private _audioSourceNode: MediaElementAudioSourceNode | null = null;
+    private _audioAnalyserNode: AnalyserNode | null = null;
+    private _micSourceNode: MediaStreamAudioSourceNode | null = null;
+    private _micAnalyserNode: AnalyserNode | null = null;
 
     constructor(scene: Scene) {
         this._scene = scene;
@@ -65,6 +72,10 @@ export class AgentHelperDemo {
         this._btnLabel = 'Talk';
 
         this._panelRoot = createPanelRoot(scene, 'agent_panel_root', this._cleanup);
+
+        const avatarPos = UI_LAYOUT.panelPosition.add(new Vector3(0, 0.22, 0.05));
+        this._avatar = new AiAvatar(scene, avatarPos, () => void this._toggleRecording());
+        this._cleanup.register(() => this._avatar.dispose());
 
         this._recordBtn = createPanelButton({
             scene,
@@ -165,6 +176,7 @@ export class AgentHelperDemo {
 
             this._mediaRecorder.onstop = () => {
                 for (const track of stream.getTracks()) track.stop();
+                this._disconnectMic();
                 const blob = new Blob(this._audioChunks, { type: this._mediaRecorder!.mimeType });
                 void this._processAudio(blob);
             };
@@ -173,6 +185,19 @@ export class AgentHelperDemo {
             this._isRecording = true;
             this._setBtnLabel('Stop');
             this._setStatus(['Listening...']);
+            this._avatar.setState('listening');
+
+            if (!this._audioCtx) {
+                this._audioCtx = new AudioContext();
+            }
+            if (this._audioCtx.state === 'suspended') {
+                void this._audioCtx.resume();
+            }
+            this._micAnalyserNode = this._audioCtx.createAnalyser();
+            this._micAnalyserNode.fftSize = 256;
+            this._micSourceNode = this._audioCtx.createMediaStreamSource(stream);
+            this._micSourceNode.connect(this._micAnalyserNode);
+            this._avatar.setAudioAnalyser(this._micAnalyserNode);
         } catch (err) {
             this._setStatus(['Mic error:', formatError(err)]);
         }
@@ -186,9 +211,18 @@ export class AgentHelperDemo {
         this._setBtnLabel('Talk');
     }
 
+    private _disconnectMic(): void {
+        this._avatar.setAudioAnalyser(null);
+        this._micSourceNode?.disconnect();
+        this._micSourceNode = null;
+        this._micAnalyserNode?.disconnect();
+        this._micAnalyserNode = null;
+    }
+
     private async _processAudio(blob: Blob): Promise<void> {
         this._isProcessing = true;
         this._recordBtn.plane.setEnabled(false);
+        this._avatar.setState('thinking');
 
         const apiKey = getMetadata(this._scene).agentApiKey;
         if (!apiKey) {
@@ -211,11 +245,14 @@ export class AgentHelperDemo {
             const audioDataUri = await this._synthesize(apiKey, responseText);
 
             this._setStatus([`You: ${transcript}`, 'Speaking...']);
+            this._avatar.setState('speaking');
             await this._playAudio(audioDataUri);
 
             this._setStatus([`You: ${transcript}`, `AI: ${responseText}`]);
+            this._avatar.setState('idle');
         } catch (err) {
             this._setStatus(['Error:', formatError(err)]);
+            this._avatar.setState('idle');
         } finally {
             this._isProcessing = false;
             this._recordBtn.plane.setEnabled(true);
@@ -292,13 +329,41 @@ export class AgentHelperDemo {
         return new Promise((resolve, reject) => {
             const audio = new Audio(audioSrc);
             this._currentAudio = audio;
+
+            try {
+                if (!this._audioCtx) {
+                    this._audioCtx = new AudioContext();
+                }
+                if (this._audioCtx.state === 'suspended') {
+                    void this._audioCtx.resume();
+                }
+                if (!this._audioAnalyserNode) {
+                    this._audioAnalyserNode = this._audioCtx.createAnalyser();
+                    this._audioAnalyserNode.fftSize = 256;
+                    this._audioAnalyserNode.connect(this._audioCtx.destination);
+                }
+                const analyser = this._audioAnalyserNode!;
+                this._audioSourceNode?.disconnect();
+                this._audioSourceNode = this._audioCtx.createMediaElementSource(audio);
+                this._audioSourceNode.connect(analyser);
+                this._avatar.setAudioAnalyser(analyser);
+            } catch {
+                this._avatar.setAudioAnalyser(null);
+            }
+
             audio.onended = () => {
                 this._currentAudio = null;
+                this._avatar.setAudioAnalyser(null);
+                this._audioSourceNode?.disconnect();
+                this._audioSourceNode = null;
                 if (isBlob) URL.revokeObjectURL(audioSrc);
                 resolve();
             };
             audio.onerror = () => {
                 this._currentAudio = null;
+                this._avatar.setAudioAnalyser(null);
+                this._audioSourceNode?.disconnect();
+                this._audioSourceNode = null;
                 if (isBlob) URL.revokeObjectURL(audioSrc);
                 reject(new Error('Audio playback failed'));
             };
@@ -310,6 +375,18 @@ export class AgentHelperDemo {
         this._disposed = true;
         this._currentAudio?.pause();
         this._currentAudio = null;
+        this._disconnectMic();
+        this._avatar.setAudioAnalyser(null);
+        this._audioSourceNode?.disconnect();
+        this._audioSourceNode = null;
+        if (this._audioAnalyserNode) {
+            this._audioAnalyserNode.disconnect();
+            this._audioAnalyserNode = null;
+        }
+        if (this._audioCtx) {
+            void this._audioCtx.close();
+            this._audioCtx = null;
+        }
         if (this._mediaRecorder?.state === 'recording') {
             this._mediaRecorder.stop();
         }
