@@ -9,6 +9,11 @@ export interface SceneMetadata {
     planeDetectionManager?: PlaneDetectionManager;
     goBack?: () => void;
     pdfPages?: PreProcessedPage[];
+    /**
+     * LLM API key for the AI Agent demo. Held only in memory - never
+     * persisted to localStorage. Cleared when the page unloads.
+     */
+    agentApiKey?: string;
 }
 
 export function getMetadata(scene: Scene): SceneMetadata {

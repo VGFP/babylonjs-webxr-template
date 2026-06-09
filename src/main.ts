@@ -1,7 +1,14 @@
 import { Engine, Scene, TransformNode, Vector3, WebXRDefaultExperience } from '@babylonjs/core';
 import './style.css';
 import { SceneManager, setMetadata } from './core';
-import { wireXrOverlay, wireXrToggle, wirePdfInput, wireMpServerInput } from './core/domWiring';
+import {
+    wireXrOverlay,
+    wireXrToggle,
+    wirePdfInput,
+    wireMpServerInput,
+    wireAgentKeyInput,
+    consumeAgentApiKey,
+} from './core/domWiring';
 import { ShadowManager } from './lighting';
 import { XrExperience, PlaneDetectionManager } from './xr';
 import { TextManager } from './text';
@@ -119,6 +126,7 @@ class App {
         this._wireXrButton();
         this._wirePdfControls();
         this._wireMpServerInput();
+        this._wireAgentKeyInput();
 
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
@@ -134,8 +142,25 @@ class App {
         if (!xrButton || !xrOverlay || !xrFrost) return;
 
         wireXrToggle(xrButton, xrOverlay, xrFrost, this._xrExperience!.xr, async () => {
+            await this._prepareForXr();
             await this._sceneManager!.activeXr.baseExperience.enterXRAsync('immersive-ar', 'local-floor');
         });
+    }
+
+    /**
+     * Runs synchronously before each XR entry while we still have a user
+     * gesture. If the user typed/pasted an API key, move it from the DOM
+     * input into scene metadata (in-memory only) and blank the input
+     * field. This guarantees the key is never visible in the DOM during
+     * XR and never touches persistent storage.
+     *
+     * Microphone permission is requested earlier - on the API key input's
+     * focus event and on its Paste button click - so it is not requested
+     * here.
+     */
+    private async _prepareForXr(): Promise<void> {
+        const keyInput = document.getElementById('agent-api-key') as HTMLInputElement | null;
+        if (keyInput) consumeAgentApiKey(keyInput, this._scene);
     }
 
     private _wirePdfControls(): void {
@@ -155,6 +180,15 @@ class App {
         if (!input) return;
 
         wireMpServerInput(input, pasteBtn);
+    }
+
+    private _wireAgentKeyInput(): void {
+        const input = document.getElementById('agent-api-key') as HTMLInputElement | null;
+        const pasteBtn = document.getElementById('agent-paste-btn') as HTMLButtonElement | null;
+        const note = document.getElementById('agent-key-note') as HTMLSpanElement | null;
+        if (!input) return;
+
+        wireAgentKeyInput(input, pasteBtn, note);
     }
 }
 
