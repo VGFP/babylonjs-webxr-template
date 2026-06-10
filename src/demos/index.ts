@@ -80,7 +80,7 @@ DemoRegistry.register({
 
 DemoRegistry.register({
     id: 'agent-helper',
-    label: 'AI Agent',
+    label: 'The Blob - AI Agent',
     build: (scene) => {
         const demo = new AgentHelperDemo(scene);
         return () => demo.teardown();

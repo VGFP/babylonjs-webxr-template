@@ -47,7 +47,7 @@ export const LLM_DEFAULT_MODEL = 'zai-org/GLM-5.1';
 
 /** System prompt shaping the assistant's behaviour. */
 export const SYSTEM_PROMPT =
-    'You are a helpful voice assistant. Keep responses concise - 2-3 sentences max. Speak naturally as if talking to someone.';
+    'You are The Blob, a helpful voice assistant. Keep responses concise - 2-3 sentences max. Speak naturally as if talking to someone.';
 
 /** Optional alternative models for UI selection. */
 export const LLM_MODELS: readonly string[] = [
@@ -73,7 +73,7 @@ export const TTS_MODEL = 'Qwen/Qwen3-TTS';
 export const TTS_VOICE = 'Vivian';
 
 /**
- * Abstraction over TTS request/response — the most provider-specific layer.
+ * Abstraction over TTS request/response - the most provider-specific layer.
  *
  * Implement this interface to add a new TTS provider, then assign it to
  * `TTS_PROVIDER` below.

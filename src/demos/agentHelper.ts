@@ -68,7 +68,9 @@ export class AgentHelperDemo {
         this._prevClearColor = saveAndTransparentClearColor(scene);
 
         const key = getMetadata(scene).agentApiKey;
-        this._statusLines = key ? ['Ready. Press Talk to begin.'] : ['No API key.', 'Exit XR, enter a key, re-enter.'];
+        this._statusLines = key
+            ? ['The Blob - AI Agent', 'Tap the blob or press Talk.']
+            : ['No API key.', 'Exit XR, enter a key, re-enter.'];
         this._btnLabel = 'Talk';
 
         this._panelRoot = createPanelRoot(scene, 'agent_panel_root', this._cleanup);
@@ -184,7 +186,7 @@ export class AgentHelperDemo {
             this._mediaRecorder.start();
             this._isRecording = true;
             this._setBtnLabel('Stop');
-            this._setStatus(['Listening...']);
+            this._setStatus(['Listening...', 'Tap again to stop.']);
             this._avatar.setState('listening');
 
             if (!this._audioCtx) {
