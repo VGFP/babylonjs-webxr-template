@@ -37,6 +37,7 @@
     "@colyseus/schema": "4.0.26",
     "@colyseus/sdk": "0.17.42",
     "earcut": "^3.0.2",
+    "openai": "^6.42.0",
     "pdfjs-dist": "^6.0.227"
   },
   "devDependencies": {

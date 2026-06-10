@@ -30,6 +30,15 @@
         <span class="mp-url-note">Clipboard is not available in WebXR. Paste the server URL here before entering XR.</span>
       </div>
       <div class="section-divider"></div>
+      <div class="section-header">AI Agent</div>
+      <div class="mp-url-wrapper">
+        <div class="mp-url-row">
+          <input id="agent-api-key" type="password" placeholder="LLM API key" class="mp-url-input" autocomplete="off">
+          <button id="agent-paste-btn" class="mp-paste-button" type="button">Paste</button>
+        </div>
+        <span id="agent-key-note" class="mp-url-note">Key is held only in memory and wiped on reload. Mic access is requested on Enter XR.</span>
+      </div>
+      <div class="section-divider"></div>
       <div class="section-header">PDF Viewer</div>
       <label id="pdf-upload-wrapper" class="pdf-upload-wrapper">
         <input id="pdf-input" type="file" accept=".pdf,.pre,application/pdf" hidden>

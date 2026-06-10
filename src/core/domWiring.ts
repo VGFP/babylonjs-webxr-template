@@ -156,3 +156,83 @@ export function wireMpServerInput(input: HTMLInputElement, pasteBtn: HTMLButtonE
         });
     }
 }
+
+/**
+ * Wires the AI Agent API key input.
+ *
+ * Unlike the multiplayer URL, the key is **never persisted** to localStorage.
+ * It lives only in the input field until `consumeAgentApiKey()` moves it
+ * into scene metadata (in-memory) and clears the field. This keeps the
+ * secret out of any storage that survives a page reload.
+ *
+ * Microphone access is requested eagerly - on input focus and on paste
+ * button click. Both are user gestures, which `getUserMedia` requires,
+ * and requesting early means permission is already in place by the time
+ * the user enters XR (where the prompt may not surface on standalone
+ * headsets). Subsequent calls after a grant are silent and cheap.
+ */
+export function wireAgentKeyInput(
+    input: HTMLInputElement,
+    pasteBtn: HTMLButtonElement | null,
+    note: HTMLSpanElement | null,
+): void {
+    input.addEventListener('focus', () => {
+        void requestMicrophoneAccess();
+    });
+
+    if (pasteBtn) {
+        pasteBtn.addEventListener('click', async () => {
+            void requestMicrophoneAccess();
+            const text = await readClipboardText();
+            if (text !== null) {
+                input.value = text.trim();
+                if (note) note.textContent = 'Pasted from clipboard. Key is held only in memory.';
+            } else if (note) {
+                note.textContent = 'Clipboard not available.';
+            }
+        });
+    }
+}
+
+/**
+ * Moves the API key from the DOM input into scene metadata, then blanks
+ * the input field. Returns true if a key (newly consumed or previously
+ * stored) is now available in metadata. Safe to call multiple times -
+ * if metadata already holds a key, that key is preserved unless the input
+ * has a new value.
+ */
+export function consumeAgentApiKey(input: HTMLInputElement, scene: Scene): boolean {
+    const typed = input.value.trim();
+    if (typed) {
+        setMetadata(scene, 'agentApiKey', typed);
+        input.value = '';
+    }
+    return !!getMetadata(scene).agentApiKey;
+}
+
+/**
+ * Requests microphone permission via `getUserMedia`. The resulting stream
+ * is released immediately - the call exists only to surface the browser
+ * permission prompt while we still have a clean user gesture. Inside an
+ * XR session `getUserMedia` may not prompt correctly on standalone
+ * headsets.
+ *
+ * Triggered by `wireAgentKeyInput` on input focus and paste-button click.
+ *
+ * Returns true if access was granted, false otherwise. Errors are logged
+ * but never thrown - the caller should continue into XR either way and
+ * let the demo report mic unavailability through its own UI.
+ */
+export async function requestMicrophoneAccess(): Promise<boolean> {
+    if (typeof navigator === 'undefined' || !navigator.mediaDevices?.getUserMedia) {
+        return false;
+    }
+    try {
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        for (const track of stream.getTracks()) track.stop();
+        return true;
+    } catch (err) {
+        console.warn('Microphone access denied or unavailable:', err);
+        return false;
+    }
+}

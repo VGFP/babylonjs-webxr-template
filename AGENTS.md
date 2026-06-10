@@ -44,7 +44,7 @@ The Dice Roller's physics and manual modes use Havok via `@babylonjs/havok`. The
 
 `vite.config.ts` registers a middleware that serves the WASM from `node_modules/@babylonjs/havok/lib/esm/` at the path `/havok-internal/HavokPhysics.wasm`, and a `closeBundle` hook that copies it to `dist/havok-internal/` in production builds. `getHavokPlugin()` in `src/demos/dicePhysics.ts` passes the URL via `locateFile`, prefixed with `import.meta.env.BASE_URL` so it works under both the dev server (`/`) and production sub-paths.
 
-**Important:** Do NOT call `scene.disablePhysicsEngine()` in `teardown()`. Doing so disposes the HavokPlugin singleton; `getHavokPlugin()` returns a cached-but-destroyed plugin on re-entry and physics becomes permanently unavailable. The demo's `teardown()` relies on `DisposableStack` to dispose individual physics bodies and meshes — the engine itself stays alive for reuse.
+**Important:** Do NOT call `scene.disablePhysicsEngine()` in `teardown()`. Doing so disposes the HavokPlugin singleton; `getHavokPlugin()` returns a cached-but-destroyed plugin on re-entry and physics becomes permanently unavailable. The demo's `teardown()` relies on `DisposableStack` to dispose individual physics bodies and meshes - the engine itself stays alive for reuse.
 
 ## Dice Roller Architecture
 
@@ -59,7 +59,7 @@ The Dice Roller (`src/demos/diceRoller.ts`) supports three roll modes cycled by 
 ### Roll mode constants and helpers
 
 - Die geometry and face logic: `src/demos/diceMeshes.ts` (exports `DIE_RADIUS`, `DICE_SIDES`, `buildDieMesh`, `getResultFaceIndex`, `getResultRotation`).
-- Die physics constants and aggregate creation: `src/demos/dicePhysics.ts` (exports `createDieAggregate()`, `DIE_MASS`, `DIE_RESTITUTION`, etc.). Use `createDieAggregate(mesh, scene)` — do not inline `new PhysicsAggregate(...)` with die parameters.
+- Die physics constants and aggregate creation: `src/demos/dicePhysics.ts` (exports `createDieAggregate()`, `DIE_MASS`, `DIE_RESTITUTION`, etc.). Use `createDieAggregate(mesh, scene)` - do not inline `new PhysicsAggregate(...)` with die parameters.
 - Tray dimensions and settle thresholds remain in `diceRoller.ts` (demo-specific).
 
 ### Manual grab system
@@ -70,7 +70,7 @@ The manual mode uses `scene.onPointerObservable` (not per-controller trigger obs
 2. **Per-frame** (`_tickManual`) → track smoothed velocities for all controllers (exponential moving average); if grabbed, move die to controller position + offset and copy grip rotation.
 3. **POINTERUP** → read the tracked velocity for the grabbing controller → create new `PhysicsAggregate` via `createDieAggregate()` → apply linear velocity (scaled by `MANUAL_THROW_VEL_SCALE`) + random angular velocity → `_tickPhysicsSettle()` handles the rest.
 
-**`_rolling` flag in manual mode:** Set to `false` right after spawning the die (the user hasn't thrown yet — they should be free to toggle mode or select dice). Set to `true` only when the die is released (`_onPointerUp`). This prevents the mode/die-type buttons from being locked while the die sits idle.
+**`_rolling` flag in manual mode:** Set to `false` right after spawning the die (the user hasn't thrown yet - they should be free to toggle mode or select dice). Set to `true` only when the die is released (`_onPointerUp`). This prevents the mode/die-type buttons from being locked while the die sits idle.
 
 ### Tray meshes must be non-pickable
 
@@ -79,6 +79,121 @@ All tray wall/floor meshes are created with `isPickable = false`. The tray's far
 ### d4 result rule
 
 The d4 uses the face pointing **down** as the result (opposite of all other dice). `getResultFaceIndex()` and `getResultRotation()` handle this automatically via `isD4()`.
+
+## AI Voice Assistant (Agent Helper)
+
+A browser-based voice assistant running entirely in XR: **record → ASR → LLM → TTS → play**.
+
+### Pipeline
+
+1. User presses **Talk** → `MediaRecorder` captures audio via `getUserMedia`
+2. Audio blob → ASR (Whisper via `fetch` + `FormData`)
+3. Transcript → LLM chat completion (`openai` SDK, OpenAI-compatible endpoint)
+4. Response text → TTS (`TtsProvider` abstraction)
+5. Audio data-URI or blob URL → `new Audio(src).play()`
+
+### Key files
+
+| File | Role |
+|---|---|
+| `src/demos/agentHelper.ts` | `AgentHelperDemo` - UI (record/stop button, status text), pipeline orchestration, audio playback |
+| `src/demos/llmConfig.ts` | All provider/model constants, `TtsProvider` interface, pre-built provider implementations (`DEEPINFRA_TTS`, `OPENAI_TTS`) |
+| `src/core/sceneMetadata.ts` | `agentApiKey` field - API key stored in scene metadata, entered via HTML overlay before XR entry |
+| `src/core/domWiring.ts` | `wireAgentKeyInput()` / `consumeAgentApiKey()` - DOM overlay wiring for the API key input |
+
+### Status display
+
+The status lines show the current pipeline stage:
+- `The Blob - AI Agent` / `Tap the blob or press Talk.` - ready
+- `Listening...` / `Tap again to stop.` - recording in progress
+- `Transcribing...` - ASR API call
+- `Thinking...` - LLM API call
+- `Generating speech...` - TTS API call
+- `Speaking...` - audio playback in progress
+- `You: … / AI: …` - final result (truncated to 36 chars)
+
+### Switching providers
+
+All provider-specific configuration is in `src/demos/llmConfig.ts`. The pipeline logic in `agentHelper.ts` never touches URLs or model names directly.
+
+**To change the LLM/ASR provider** (e.g., DeepInfra → OpenAI):
+
+```ts
+// llmConfig.ts - change these values:
+export const LLM_BASE_URL = 'https://api.openai.com/v1';
+export const ASR_MODEL = 'whisper-1';
+export const LLM_DEFAULT_MODEL = 'gpt-4o-mini';
+```
+
+The ASR endpoint path (`ASR_PATH`) defaults to `/audio/transcriptions` which is the same across all OpenAI-compatible providers.
+
+**To change the TTS provider**, swap the `TTS_PROVIDER` export:
+
+```ts
+// Use OpenAI's TTS (returns raw audio bytes):
+export const TTS_PROVIDER: TtsProvider = OPENAI_TTS;
+
+// Or use DeepInfra's native TTS (returns JSON with base64 audio):
+export const TTS_PROVIDER: TtsProvider = DEEPINFRA_TTS;
+```
+
+**To add a completely new TTS provider**, implement the `TtsProvider` interface:
+
+```ts
+export interface TtsProvider {
+    buildUrl(baseUrl: string, inferenceBaseUrl: string, model: string): string;
+    buildBody(text: string, voice: string): string;
+    parseResponse(response: Response): Promise<string>; // return data-URI or blob URL
+}
+```
+
+Then assign it to `TTS_PROVIDER` in `llmConfig.ts`. No changes to `agentHelper.ts` are needed.
+
+**To change the system prompt** (assistant personality):
+
+```ts
+export const SYSTEM_PROMPT = 'You are The Blob, a helpful voice assistant.';
+```
+
+### Architecture notes
+
+- **ASR** uses raw `fetch` (not the `openai` SDK) because the `FormData` upload is straightforward and avoids SDK model-name typing issues.
+- **LLM** uses the `openai` SDK with `dangerouslyAllowBrowser: true` and a custom `baseURL` - works with any OpenAI-compatible endpoint.
+- **TTS** uses raw `fetch` via the `TtsProvider` abstraction - the response format varies significantly between providers (JSON with data-URI vs. raw bytes).
+- Chat history (`_chatHistory`) is maintained per-session; the system prompt is the first entry.
+- `_playAudio` handles both data-URIs (DeepInfra) and blob URLs (OpenAI) - blob URLs are revoked on playback end.
+
+### The Blob (AiAvatar)
+
+The AI agent is visualized as "The Blob" - a 3D animated orb floating above the demo panel. It uses custom GLSL shaders for all animation (no CPU mesh manipulation), keeping it lightweight for standalone XR headsets.
+
+**Architecture**: Two ico-sphere meshes with separate `ShaderMaterial` instances:
+
+| Layer | Vertices | Role |
+|---|---|---|
+| Main orb | 642 (subdivisions 3) | Noise-deformed sphere with Fresnel rim glow |
+| Aura shell | 162 (subdivisions 2) | Larger, static Fresnel-only glow (additive blending) |
+
+**Animation states** (smooth exponential interpolation between targets):
+
+| State | Noise amplitude | Colors | Audio-reactive? |
+|---|---|---|---|
+| `idle` | 0.06 (gentle) | Blue-violet → cyan | No |
+| `listening` | 0 (still) | Teal → electric green | Yes (mic waveform via `AnalyserNode`) |
+| `thinking` | 0.07 (subtle) | Amber → orange | No |
+| `speaking` | 0 (still) | Pink → white-pink | Yes (TTS audio via `AnalyserNode`) |
+
+During `listening` and `speaking`, the orb has zero automatic noise deformation - all movement comes from the audio waveform driving both mesh scale (±25%) and a `audioPulse` uniform that adds noise displacement proportional to RMS volume.
+
+**Vertex shader**: 3-octave gradient noise displacement + optional `audioPulse` modulation.
+**Fragment shader**: Fresnel rim glow (power 2.8), displacement-modulated core brightness, subtle energy lines. Alpha `mix(0.3, 0.7, fresnel * glowIntensity)` for XR passthrough transparency.
+
+**Interaction**: The orb mesh is pickable with an `ActionManager` `OnPickTrigger` that toggles recording (same as the Talk button). Works with XR controllers, hand tracking pinch, and screen touch.
+
+**Audio routing** (in `agentHelper.ts`):
+- **Mic** (listening): `getUserMedia` stream → `MediaStreamAudioSourceNode` → separate `AnalyserNode` (not connected to `destination` to avoid feedback) → `avatar.setAudioAnalyser()`
+- **TTS** (speaking): `Audio` element → `MediaElementAudioSourceNode` → `AnalyserNode` → `AudioContext.destination` (so user hears the response) → `avatar.setAudioAnalyser()`
+- The `AudioContext` is shared between mic and TTS; the `AnalyserNode` instances are separate and lazily created.
 
 ## Scene Management (WebXR Constraint)
 
@@ -125,6 +240,9 @@ This project uses a state machine (`SceneManager`) that switches between "virtua
 | `src/demos/diceRoller.ts` | `DiceRollerDemo` - dice selection, simple-RNG + Havok physics + manual grab-and-throw roll modes |
 | `src/demos/diceMeshes.ts` | Polyhedron mesh builders (d4–d20) + face-normal extraction + `findUpFaceIndex`, `DIE_RADIUS` |
 | `src/demos/dicePhysics.ts` | Lazy `getHavokPlugin()` singleton, `createDieAggregate()` helper, die physics constants (`DIE_MASS`, `DIE_RESTITUTION`, etc.) |
+| `src/demos/agentHelper.ts` | `AgentHelperDemo` - "The Blob" voice assistant UI, pipeline orchestration (record → ASR → LLM → TTS → play), mic & TTS audio routing to avatar |
+| `src/demos/aiAvatar.ts` | `AiAvatar` - animated 3D orb ("The Blob") with custom GLSL shaders, 4 state animations, audio-reactive deformation, clickable |
+| `src/demos/llmConfig.ts` | Provider/model constants, `TtsProvider` interface, pre-built TTS providers (`DEEPINFRA_TTS`, `OPENAI_TTS`) |
 | `src/xr/xrExperience.ts` | `XrExperience` - wraps WebXR (plane detection, anchors) |
 | `src/xr/planeDetectionManager.ts` | `PlaneDetectionManager` - tracks detected planes, `findFloorReference()` |
 | `src/core/uiButton.ts` | `createUiButton()` - 3D mesh plane + GUI rectangle background |
@@ -258,7 +376,8 @@ src/
                 errors, gizmoManagerFactory, types
   demos/      - DemoRegistry, DemoUiController, individual demo classes
                 (xrLightShadows, multiplayer, pdfReader, pdfPreprocessor,
-                 diceRoller, diceMeshes, dicePhysics)
+                 diceRoller, diceMeshes, dicePhysics, agentHelper, aiAvatar,
+                 llmConfig)
   xr/         - XrExperience, PlaneDetectionManager
   text/       - TextManager (MSDF wrapper)
   lighting/   - ShadowManager, WindowLight, createShadowGenerator

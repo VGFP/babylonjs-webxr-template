@@ -32,6 +32,7 @@ import { XrLightShadowsDemo } from './xrLightShadows';
 import { MultiplayerDemo } from './multiplayer';
 import { PdfReaderDemo } from './pdfReader';
 import { DiceRollerDemo } from './diceRoller';
+import { AgentHelperDemo } from './agentHelper';
 
 DemoRegistry.register({
     id: 'xr-light-shadows',
@@ -71,6 +72,17 @@ DemoRegistry.register({
     label: 'Dice Roller',
     build: (scene) => {
         const demo = new DiceRollerDemo(scene);
+        return () => demo.teardown();
+    },
+    ownUi: true,
+    reuseScene: true,
+});
+
+DemoRegistry.register({
+    id: 'agent-helper',
+    label: 'The Blob - AI Agent',
+    build: (scene) => {
+        const demo = new AgentHelperDemo(scene);
         return () => demo.teardown();
     },
     ownUi: true,

@@ -194,6 +194,8 @@ The app uses a `SceneManager` to switch between a home scene and demo scenes. Th
 
 **Dice Roller Demo** - roll polyhedral dice (d4, d6, d8, d12, d20) in three modes: **Simple** (pre-determined RNG with slerp animation to the target face), **Physics** (Havok-powered die drops into a tray with random impulse and bounces to rest), and **Manual** (grab the die with XR controllers or hand tracking pinch, then throw it with tracked velocity into the physics tray). The d4 reads the face pointing down as the result; all others read the face pointing up.
 
+**AI Voice Assistant ("The Blob")** - a browser-based voice assistant running entirely in XR: press Talk or tap the floating orb to record audio, which is transcribed (Whisper ASR), sent to an LLM chat model, converted to speech (TTS), and played back. The orb animates in sync with your voice while recording and with the AI's voice during playback - it breathes gently when idle and swirls while thinking. The pipeline uses DeepInfra by default but is fully configurable - swap providers by changing a few constants in `src/demos/llmConfig.ts`. An API key must be entered in the pre-XR overlay (the key is held in memory only and wiped on reload). See AGENTS.md for the full architecture and provider-switching guide.
+
 ## Guides
 
 - **[MSDF Text Rendering for XR Buttons](docs/msdf-text-buttons-guide.md)** - How to create high-resolution buttons with MSDF text, why it outperforms GUI TextBlock for XR, positioning, font customization, and troubleshooting.
@@ -318,7 +320,8 @@ git commit -m "sync upstream server changes"
 │   │                      errors, gizmoManagerFactory, types
 │   ├── demos/            # DemoRegistry, DemoUiController, individual demo classes
 │   │                      (xrLightShadows, multiplayer, pdfReader, pdfPreprocessor,
-│   │                       diceRoller, diceMeshes, dicePhysics)
+│   │                       diceRoller, diceMeshes, dicePhysics, agentHelper, aiAvatar,
+│   │                       llmConfig)
 │   ├── lighting/         # ShadowManager, WindowLight, createShadowGenerator
 │   ├── materials/        # applyShadowMaterialFacing (shadow-only material helper)
 │   ├── meshes/           # buildPolygonMesh (polygon mesh builder for detected planes),
