@@ -1,6 +1,12 @@
 import { Scene, WebXRDefaultExperience } from '@babylonjs/core';
 import { WebXRState } from '@babylonjs/core/XR/webXRTypes';
-import { preprocessPdf, serializePages, deserializePages, type PreProcessedPage } from '../demos/pdfPreprocessor';
+import {
+    preprocessPdf,
+    serializePages,
+    deserializePages,
+    type PreProcessedPage,
+    type PdfImageFormat,
+} from '../demos/pdfPreprocessor';
 import { getMetadata, setMetadata } from './sceneMetadata';
 import { formatError } from './errors';
 import { downloadBlob } from './fileDownload';
@@ -56,6 +62,7 @@ export function wirePdfInput(
     convertBtn: HTMLButtonElement,
     downloadBtn: HTMLButtonElement,
     progress: HTMLSpanElement,
+    pngToggle: HTMLInputElement | null,
 ): void {
     let selectedPdfFile: File | null = null;
 
@@ -65,14 +72,14 @@ export function wirePdfInput(
         filenameLabel.textContent = file.name;
         downloadBtn.hidden = true;
 
-        if (file.name.endsWith('.pre')) {
+        if (file.name.endsWith('.pre') || file.name.endsWith('.pre.json')) {
             selectedPdfFile = null;
             convertBtn.hidden = true;
             progress.textContent = 'Loading...';
             const reader = new FileReader();
             reader.onload = () => {
                 try {
-                    const pages = deserializePages(reader.result as string);
+                    const pages = deserializePages(reader.result as ArrayBuffer);
                     setPdfPages(scene, pages);
                     progress.textContent = `Loaded: ${pages.length} pages`;
                 } catch (err) {
@@ -82,7 +89,7 @@ export function wirePdfInput(
             reader.onerror = () => {
                 progress.textContent = 'Error: failed to read file';
             };
-            reader.readAsText(file);
+            reader.readAsArrayBuffer(file);
         } else {
             selectedPdfFile = file;
             convertBtn.hidden = false;
@@ -94,10 +101,15 @@ export function wirePdfInput(
         if (!selectedPdfFile) return;
         convertBtn.disabled = true;
         progress.textContent = 'Converting...';
+        const format: PdfImageFormat = pngToggle?.checked ? 'png' : 'jpeg';
         try {
-            const pages = await preprocessPdf(selectedPdfFile, (current, total) => {
-                progress.textContent = `Converting page ${current} of ${total}...`;
-            });
+            const pages = await preprocessPdf(
+                selectedPdfFile,
+                (current, total) => {
+                    progress.textContent = `Converting page ${current} of ${total}...`;
+                },
+                format,
+            );
             setPdfPages(scene, pages);
             progress.textContent = `Ready: ${pages.length} pages`;
             downloadBtn.hidden = false;
@@ -113,8 +125,7 @@ export function wirePdfInput(
         if (!pages) return;
         downloadBtn.disabled = true;
         try {
-            const json = await serializePages(pages);
-            const blob = new Blob([json], { type: 'application/json' });
+            const blob = await serializePages(pages);
             downloadBlob(blob, (selectedPdfFile?.name ?? 'document').replace(/\.pdf$/i, '') + '.pre');
         } catch (err) {
             console.error('Failed to download:', err);
