@@ -33,6 +33,7 @@ import { MultiplayerDemo } from './multiplayer';
 import { PdfReaderDemo } from './pdfReader';
 import { DiceRollerDemo } from './diceRoller';
 import { AgentHelperDemo } from './agentHelper';
+import { GestureRecognitionDemo } from './gestureRecognition';
 
 DemoRegistry.register({
     id: 'xr-light-shadows',
@@ -83,6 +84,17 @@ DemoRegistry.register({
     label: 'The Blob - AI Agent',
     build: (scene) => {
         const demo = new AgentHelperDemo(scene);
+        return () => demo.teardown();
+    },
+    ownUi: true,
+    reuseScene: true,
+});
+
+DemoRegistry.register({
+    id: 'gesture-recognition',
+    label: 'Gesture Recognition',
+    build: (scene) => {
+        const demo = new GestureRecognitionDemo(scene);
         return () => demo.teardown();
     },
     ownUi: true,
