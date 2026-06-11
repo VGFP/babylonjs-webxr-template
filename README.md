@@ -196,6 +196,8 @@ The app uses a `SceneManager` to switch between a home scene and demo scenes. Th
 
 **AI Voice Assistant ("The Blob")** - a browser-based voice assistant running entirely in XR: press Talk or tap the floating orb to record audio, which is transcribed (Whisper ASR), sent to an LLM chat model, converted to speech (TTS), and played back. The orb animates in sync with your voice while recording and with the AI's voice during playback - it breathes gently when idle and swirls while thinking. The pipeline uses DeepInfra by default but is fully configurable - swap providers by changing a few constants in `src/demos/llmConfig.ts`. An API key must be entered in the pre-XR overlay (the key is held in memory only and wiped on reload). See AGENTS.md for the full architecture and provider-switching guide.
 
+**Gesture Recognition Demo** - uses WebXR hand tracking to detect Rock, Paper, Scissors poses in real time. Each hand's 25 joint positions are normalized (PCA rotation + min-max scaling) and fed into ONNX ML models for classification. Both left and right hands are tracked simultaneously with per-hand gesture labels displayed in XR. ONNX inference runs in a Web Worker via `onnxruntime-web` with SIMD-accelerated WASM.
+
 ## Guides
 
 - **[MSDF Text Rendering for XR Buttons](docs/msdf-text-buttons-guide.md)** - How to create high-resolution buttons with MSDF text, why it outperforms GUI TextBlock for XR, positioning, font customization, and troubleshooting.
@@ -321,7 +323,7 @@ git commit -m "sync upstream server changes"
 │   ├── demos/            # DemoRegistry, DemoUiController, individual demo classes
 │   │                      (xrLightShadows, multiplayer, pdfReader, pdfPreprocessor,
 │   │                       diceRoller, diceMeshes, dicePhysics, agentHelper, aiAvatar,
-│   │                       llmConfig)
+│   │                       llmConfig, gestureRecognition, gestureClassifier)
 │   ├── lighting/         # ShadowManager, WindowLight, createShadowGenerator
 │   ├── materials/        # applyShadowMaterialFacing (shadow-only material helper)
 │   ├── meshes/           # buildPolygonMesh (polygon mesh builder for detected planes),

@@ -37,8 +37,10 @@
     "@colyseus/schema": "4.0.26",
     "@colyseus/sdk": "0.17.42",
     "earcut": "^3.0.2",
+    "onnxruntime-web": "1.18.0",
     "openai": "^6.42.0",
-    "pdfjs-dist": "^6.0.227"
+    "pdfjs-dist": "^6.0.227",
+    "pnpm": "^11.5.3"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
