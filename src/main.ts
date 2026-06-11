@@ -169,9 +169,10 @@ class App {
         const convertBtn = document.getElementById('pdf-convert') as HTMLButtonElement | null;
         const downloadBtn = document.getElementById('pdf-download') as HTMLButtonElement | null;
         const progress = document.getElementById('pdf-progress') as HTMLSpanElement | null;
+        const pngToggle = document.getElementById('pdf-png-toggle') as HTMLInputElement | null;
         if (!input || !filename || !convertBtn || !downloadBtn || !progress) return;
 
-        wirePdfInput(this._scene, input, filename, convertBtn, downloadBtn, progress);
+        wirePdfInput(this._scene, input, filename, convertBtn, downloadBtn, progress, pngToggle);
     }
 
     private _wireMpServerInput(): void {
