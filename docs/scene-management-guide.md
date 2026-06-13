@@ -79,6 +79,7 @@ This project uses the **scene reuse** strategy with a state machine (`SceneManag
 | `src/core/sceneMetadata.ts` | Typed `SceneMetadata` interface + `getMetadata()` / `setMetadata()` helpers |
 | `src/core/demoPanel.ts` | Shared panel helpers: `createPanelButton`, `createBackButton`, `createPanelRoot`, `saveAndTransparentClearColor`, `getGoBackCallback`, `initPanelText` |
 | `src/core/disposableStack.ts` | `DisposableStack` - tracks objects for bulk disposal in `teardown()` |
+| `src/core/domWiring.ts` | HTML overlay wiring: `wireXrOverlay`, `wireXrToggle`, `wirePdfInput`, `wireMpServerInput`, `wireAgentKeyInput` |
 | `src/demos/index.ts` | `DemoRegistry` - catalog of available demos + `DemoDescriptor` type |
 | `src/demos/demoUi.ts` | `DemoUiController` - creates the floating button menu for navigation |
 | `src/xr/xrExperience.ts` | `XrExperience` - wraps WebXR session creation (planes, anchors) |
@@ -363,10 +364,13 @@ Static registry of `DemoDescriptor` objects. Each descriptor defines:
 
 ### `DemoUiController` (navigation UI)
 
-Creates floating 3D buttons (one per registered demo + an optional "back" button) with MSDF text labels. Manages:
+Creates floating 3D buttons (one per registered demo, plus optional "Return to Main Scene" and "Exit XR" buttons) with MSDF text labels. Manages:
 - Button creation and positioning
 - Active state highlighting
 - Visibility toggling when switching scenes
+- "Exit XR" button (optional) — calls `baseExperience.exitXRAsync()` to leave the immersive session
+
+The `DemoUiController.create()` factory accepts three callbacks: `onDemoClick`, `onBackClick` (nullable), and `onExitXr` (nullable, defaults to no button).
 
 ### `XrExperience` (WebXR wrapper)
 
@@ -421,7 +425,7 @@ const pdfPages = getMetadata(scene).pdfPages;
 setMetadata(scene, 'mySharedData', { foo: 'bar' });
 ```
 
-The `SceneMetadata` interface (in `src/core/sceneMetadata.ts`) defines the known keys: `xr`, `xrAnchors`, `planeDetectionManager`, `goBack`, `pdfPages`.
+The `SceneMetadata` interface (in `src/core/sceneMetadata.ts`) defines the known keys: `xr`, `xrAnchors`, `planeDetectionManager`, `goBack`, `pdfPages`, `agentApiKey`.
 
 ### Cleanup discipline for reused scenes
 

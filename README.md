@@ -24,6 +24,8 @@ To open the [BabylonJS Inspector](https://doc.babylonjs.com/toolsAndResources/in
 
 ```bash
 VITE_DEBUG=true pnpm dev
+# or equivalently:
+pnpm debug
 ```
 
 This adds a collapsible overlay on the right side of the page for inspecting scene nodes, materials, textures, and performance. The inspector is dynamically imported - it adds zero overhead when `VITE_DEBUG` is not set.
@@ -33,8 +35,16 @@ This adds a collapsible overlay on the right side of the page for inspecting sce
 | Command | Description |
 |---|---|
 | `pnpm dev` | Start Vite dev server on port 5173 (HTTPS) |
+| `pnpm debug` | Same as `dev` with `--mode debug` (enables `VITE_DEBUG`) |
+| `pnpm dev:server` | Start the Colyseus multiplayer server (port 2567) |
+| `pnpm dev:full` | Start both client and server concurrently |
 | `pnpm build` | Production build to `dist/` |
 | `pnpm preview` | Preview the production build locally |
+| `pnpm lint` | ESLint check (`pnpm lint:fix` to auto-fix) |
+| `pnpm format` | Prettier check (`pnpm format:fix` to auto-fix) |
+| `pnpm typecheck` | TypeScript `tsc --noEmit` |
+| `pnpm check` | Runs lint + format + typecheck together |
+| `pnpm test` | Run unit tests with vitest (`pnpm test:watch` for watch mode) |
 
 ## HTTPS / Local Certificates
 
@@ -135,52 +145,14 @@ node mcp/server.mjs
 
 Set `BABYLONJS_DOCS_ROOT` env var if the docs directory is not at `./docs-for-mcp` relative to the project root.
 
-## Building the Meta Quest APK
+## CI/CD
 
-The project includes scripts to build a Meta Quest APK from the PWA using [Bubblewrap](https://github.com/nicolo-nicoli/nicolo-nicoli).
+Two GitHub Actions workflows run on push/PR to `main`:
 
-### Setup (first time)
-
-```bash
-bash scripts/setup-android-tools.sh
-```
-
-This installs `@bubblewrap/cli`, downloads the Android SDK via `bubblewrap init`, and installs Temurin JDK 17.
-
-### Build
-
-```bash
-# Debug-signed APK (default)
-bash scripts/build-apk.sh
-
-# Production-signed APK
-bash scripts/build-apk.sh \
-  --manifest https://your-pwa-domain.example.com \
-  --keystore /path/to/release.keystore \
-  --key-alias my-key \
-  --store-pass SECRET \
-  --key-pass SECRET
-```
-
-The APK is output to `dist-apk/`. A `twa-manifest.json` is saved to the project root on first build and reused on subsequent runs.
-
-### Options
-
-| Flag | Description | Default |
+| Workflow | File | Description |
 |---|---|---|
-| `--manifest URL` | Deployed PWA URL (host for twa-manifest.json) | Placeholder from `manifest.webmanifest` |
-| `--keystore PATH` | Path to `.keystore` file | Auto-generates debug keystore |
-| `--key-alias ALIAS` | Keystore key alias | `androiddebugkey` |
-| `--store-pass PASS` | Keystore store password | `android` |
-| `--key-pass PASS` | Key password | `android` |
-| `--output DIR` | Output directory for APK | `./dist-apk` |
-| `--app-version NAME` | Version name (e.g. `1.0.0`) | `1.0.0` |
-| `--app-version-code N` | Version code | `1` |
-| `--setup` | Run prerequisites setup before building | off |
-
-### CI
-
-The `.github/workflows/build-apk.yml` workflow calls `bash scripts/build-apk.sh` on every push to `main`. Signing keys are read from GitHub Secrets (`KEYSTORE_BASE64`, `KEY_ALIAS`, `KEY_STORE_PASSWORD`, `KEY_PASSWORD`).
+| **CI** | `.github/workflows/ci.yml` | Lint + format check + typecheck, then production build. Uploads the `dist/` artifact. |
+| **Deploy** | `.github/workflows/deploy.yml` | Triggered after CI succeeds on `main`. Deploys the build artifact to GitHub Pages. |
 
 ## Scenes & Demos
 
@@ -296,6 +268,8 @@ git commit -m "sync upstream server changes"
 ```
 ├── .certs/               # Local HTTPS certs (gitignored, auto-generated)
 ├── .devcontainer/        # Devcontainer config (Dockerfile + features)
+├── .github/
+│   └── workflows/        # CI (lint+build) + Deploy (GitHub Pages)
 ├── docs/                 # Project guides (MSDF text, scene management, PDF preprocessing)
 ├── docs-for-mcp/         # BabylonJS docs for MCP server
 │   ├── api/              # TypeDoc-generated API reference
@@ -307,8 +281,6 @@ git commit -m "sync upstream server changes"
 │   ├── manifest.webmanifest
 │   └── sw.js             # Service worker
 ├── scripts/
-│   ├── build-apk.sh                # Build Meta Quest APK
-│   ├── setup-android-tools.sh      # Install JDK, Android SDK, Bubblewrap
 │   ├── generate-cert.sh            # Self-signed cert generator
 │   ├── generate-icons.cjs
 │   ├── clone-babylonjs-source.sh   # Clone BabylonJS source repo
