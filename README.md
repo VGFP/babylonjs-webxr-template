@@ -2,6 +2,12 @@
 
 Template for creating WebXR apps on Meta Quest 3 with BabylonJS.
 
+> Created with assistance from GLM 5.1 and GLM 5.2 via KiloCode and OpenCode.
+
+## License
+
+Licensed under the [Apache License 2.0](LICENSE).
+
 ## Prerequisites
 
 - [Docker](https://www.docker.com/) + [VS Code Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
@@ -276,11 +282,14 @@ git commit -m "sync upstream server changes"
 
 
 
+## Project Structure
+
 ```
 ├── .certs/               # Local HTTPS certs (gitignored, auto-generated)
 ├── .devcontainer/        # Devcontainer config (Dockerfile + features)
 ├── .github/
 │   └── workflows/        # CI (lint+build) + Deploy (GitHub Pages)
+├── .husky/               # Pre-commit hook (tsc + eslint + prettier on staged files)
 ├── docs/                 # Project guides (MSDF text, scene management, PDF preprocessing)
 ├── docs-for-mcp/         # BabylonJS docs for MCP server
 │   ├── api/              # TypeDoc-generated API reference
@@ -289,6 +298,8 @@ git commit -m "sync upstream server changes"
 │   └── server.mjs        # Local MCP server for AI tools
 ├── public/
 │   ├── icons/            # PWA icons (replace with your own)
+│   ├── onnx_models/      # Pre-trained gesture recognition models
+│   ├── screenshots/      # Demo preview images
 │   ├── manifest.webmanifest
 │   └── sw.js             # Service worker
 ├── scripts/
@@ -296,7 +307,8 @@ git commit -m "sync upstream server changes"
 │   ├── generate-icons.cjs
 │   ├── clone-babylonjs-source.sh   # Clone BabylonJS source repo
 │   ├── clone-babylonjs-docs.sh     # Clone BabylonJS docs repo
-│   ├── generate-docs-for-mcp.sh    # Generate markdown docs
+│   ├── generate-babylonjs-docs.sh  # Generate markdown docs from source
+│   ├── generate-docs-for-mcp.sh    # Generate markdown docs for MCP
 │   └── setup-ai-tools.sh           # AI tools installer + MCP config
 ├── server/               # Multiplayer server (git submodule - Colyseus)
 ├── src/
@@ -307,17 +319,24 @@ git commit -m "sync upstream server changes"
 │   │                      (xrLightShadows, multiplayer, pdfReader, pdfPreprocessor,
 │   │                       diceRoller, diceMeshes, dicePhysics, agentHelper, aiAvatar,
 │   │                       llmConfig, gestureRecognition, gestureClassifier)
-│   ├── lighting/         # ShadowManager, WindowLight, createShadowGenerator
-│   ├── materials/        # applyShadowMaterialFacing (shadow-only material helper)
-│   ├── meshes/           # buildPolygonMesh (polygon mesh builder for detected planes),
+│   ├── lighting/         # shadows, windowLight, shadowGeneratorFactory
+│   ├── materials/        # shadowMaterial (shadow-only material helper)
+│   ├── meshes/           # polygonGenerator (polygon mesh builder for detected planes),
 │   │                      polygonMath (polygonArea)
 │   ├── xr/               # XrExperience, PlaneDetectionManager
 │   ├── text/             # TextManager (MSDF wrapper)
+│   ├── __tests__/        # Shared test helpers (mocks, NullEngine)
 │   ├── main.ts           # App entry point
 │   └── style.css
+├── AGENTS.md             # AI coding assistant guide (architecture, conventions)
+├── LICENSE               # Apache 2.0
 ├── index.html
 ├── Makefile              # AI tools + docs generation targets
 ├── package.json
 ├── tsconfig.json
-└── vite.config.ts
+├── vite.config.ts
+├── vite-env.d.ts
+└── vitest.config.ts
 ```
+
+Unit tests (`*.test.ts`) live alongside their source files in each `src/` subdirectory.
