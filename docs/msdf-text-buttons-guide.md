@@ -270,14 +270,20 @@ Layout values are centralized in `src/core/uiLayout.ts` as the `UI_LAYOUT` const
 | | `UI_LAYOUT.home.btnHeight` | `0.08` | Button height in world units |
 | | `UI_LAYOUT.home.btnGap` | `0.02` | Vertical gap between buttons |
 | | `UI_LAYOUT.home.originY` | `1.35` | Y position of first button (roughly eye height) |
+| | `UI_LAYOUT.home.originX` | `0` | X position of buttons (centered) |
 | | `UI_LAYOUT.home.originZ` | `-0.55` | Z offset (in front of user) |
 | | `UI_LAYOUT.home.textScale` | `0.04` | MSDF text scale for labels |
 | | `UI_LAYOUT.home.backTextScale` | `0.032` | Smaller scale for back button |
+| | `UI_LAYOUT.home.backTopMargin` | `0.01` | Gap above the back button |
+| | `UI_LAYOUT.home.backWidthRatio` | `0.8` | Back button width as fraction of btnWidth |
+| | `UI_LAYOUT.home.backHeightRatio` | `0.85` | Back button height as fraction of btnHeight |
 | **Panel** | `UI_LAYOUT.panel.btnWidth` | `0.44` | In-demo panel button width |
 | | `UI_LAYOUT.panel.btnHeight` | `0.07` | In-demo panel button height |
 | | `UI_LAYOUT.panel.textScale` | `0.028` | Standard panel text |
 | | `UI_LAYOUT.panel.smallTextScale` | `0.016` | Compact action buttons |
 | | `UI_LAYOUT.panel.statusTextScale` | `0.018` | Status text |
+| | `UI_LAYOUT.panel.backWidthRatio` | `0.85` | Back button width as fraction of btnWidth |
+| | `UI_LAYOUT.panel.backHeightRatio` | `0.85` | Back button height as fraction of btnHeight |
 | **Shared** | `UI_LAYOUT.panelPosition` | `(0, 1.35, -0.55)` | Common anchor for floating panels |
 | | `UI_LAYOUT.cornerRadius` | `25` | Button corner radius |
 | | `UI_LAYOUT.borderThickness` | `8` | Button border thickness |

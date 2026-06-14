@@ -2,6 +2,12 @@
 
 Template for creating WebXR apps on Meta Quest 3 with BabylonJS.
 
+> Created with assistance from GLM 5.1 and GLM 5.2 via KiloCode and OpenCode.
+
+## License
+
+Licensed under the [Apache License 2.0](LICENSE).
+
 ## Prerequisites
 
 - [Docker](https://www.docker.com/) + [VS Code Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
@@ -24,17 +30,38 @@ To open the [BabylonJS Inspector](https://doc.babylonjs.com/toolsAndResources/in
 
 ```bash
 VITE_DEBUG=true pnpm dev
+# or equivalently:
+pnpm debug
 ```
 
 This adds a collapsible overlay on the right side of the page for inspecting scene nodes, materials, textures, and performance. The inspector is dynamically imported - it adds zero overhead when `VITE_DEBUG` is not set.
+
+## Testing Without a Headset (Immersive Web Emulator)
+
+You can test WebXR features on desktop without a Meta Quest or other XR device using the **[Immersive Web Emulator](https://chromewebstore.google.com/detail/immersive-web-emulator/cgffilbpcibhmcfbgggfhfolhkfbhmik)** Chrome extension.
+
+1. Install the extension in Chrome (or any Chromium-based browser)
+2. Open `https://localhost:5173` in the browser
+3. Click the Immersive Web Emulator toolbar icon to open its panel
+4. Use the panel to simulate XR sessions, controller poses, hand tracking, and room boundaries
+
+This lets you iterate on XR UI, controller interaction, and scene logic without deploying to a device. Some features that depend on real-world input (e.g., plane detection from passthrough, the camera feed) are emulated with synthetic data, so behavior may differ slightly from a headset.
 
 ## Scripts
 
 | Command | Description |
 |---|---|
 | `pnpm dev` | Start Vite dev server on port 5173 (HTTPS) |
+| `pnpm debug` | Same as `dev` with `--mode debug` (enables `VITE_DEBUG`) |
+| `pnpm dev:server` | Start the Colyseus multiplayer server (port 2567) |
+| `pnpm dev:full` | Start both client and server concurrently |
 | `pnpm build` | Production build to `dist/` |
 | `pnpm preview` | Preview the production build locally |
+| `pnpm lint` | ESLint check (`pnpm lint:fix` to auto-fix) |
+| `pnpm format` | Prettier check (`pnpm format:fix` to auto-fix) |
+| `pnpm typecheck` | TypeScript `tsc --noEmit` |
+| `pnpm check` | Runs lint + format + typecheck together |
+| `pnpm test` | Run unit tests with vitest (`pnpm test:watch` for watch mode) |
 
 ## HTTPS / Local Certificates
 
@@ -135,52 +162,14 @@ node mcp/server.mjs
 
 Set `BABYLONJS_DOCS_ROOT` env var if the docs directory is not at `./docs-for-mcp` relative to the project root.
 
-## Building the Meta Quest APK
+## CI/CD
 
-The project includes scripts to build a Meta Quest APK from the PWA using [Bubblewrap](https://github.com/nicolo-nicoli/nicolo-nicoli).
+Two GitHub Actions workflows run on push/PR to `main`:
 
-### Setup (first time)
-
-```bash
-bash scripts/setup-android-tools.sh
-```
-
-This installs `@bubblewrap/cli`, downloads the Android SDK via `bubblewrap init`, and installs Temurin JDK 17.
-
-### Build
-
-```bash
-# Debug-signed APK (default)
-bash scripts/build-apk.sh
-
-# Production-signed APK
-bash scripts/build-apk.sh \
-  --manifest https://your-pwa-domain.example.com \
-  --keystore /path/to/release.keystore \
-  --key-alias my-key \
-  --store-pass SECRET \
-  --key-pass SECRET
-```
-
-The APK is output to `dist-apk/`. A `twa-manifest.json` is saved to the project root on first build and reused on subsequent runs.
-
-### Options
-
-| Flag | Description | Default |
+| Workflow | File | Description |
 |---|---|---|
-| `--manifest URL` | Deployed PWA URL (host for twa-manifest.json) | Placeholder from `manifest.webmanifest` |
-| `--keystore PATH` | Path to `.keystore` file | Auto-generates debug keystore |
-| `--key-alias ALIAS` | Keystore key alias | `androiddebugkey` |
-| `--store-pass PASS` | Keystore store password | `android` |
-| `--key-pass PASS` | Key password | `android` |
-| `--output DIR` | Output directory for APK | `./dist-apk` |
-| `--app-version NAME` | Version name (e.g. `1.0.0`) | `1.0.0` |
-| `--app-version-code N` | Version code | `1` |
-| `--setup` | Run prerequisites setup before building | off |
-
-### CI
-
-The `.github/workflows/build-apk.yml` workflow calls `bash scripts/build-apk.sh` on every push to `main`. Signing keys are read from GitHub Secrets (`KEYSTORE_BASE64`, `KEY_ALIAS`, `KEY_STORE_PASSWORD`, `KEY_PASSWORD`).
+| **CI** | `.github/workflows/ci.yml` | Lint + format check + typecheck, then production build. Uploads the `dist/` artifact. |
+| **Deploy** | `.github/workflows/deploy.yml` | Triggered after CI succeeds on `main`. Deploys the build artifact to GitHub Pages. |
 
 ## Scenes & Demos
 
@@ -293,9 +282,14 @@ git commit -m "sync upstream server changes"
 
 
 
+## Project Structure
+
 ```
 ├── .certs/               # Local HTTPS certs (gitignored, auto-generated)
 ├── .devcontainer/        # Devcontainer config (Dockerfile + features)
+├── .github/
+│   └── workflows/        # CI (lint+build) + Deploy (GitHub Pages)
+├── .husky/               # Pre-commit hook (tsc + eslint + prettier on staged files)
 ├── docs/                 # Project guides (MSDF text, scene management, PDF preprocessing)
 ├── docs-for-mcp/         # BabylonJS docs for MCP server
 │   ├── api/              # TypeDoc-generated API reference
@@ -304,16 +298,17 @@ git commit -m "sync upstream server changes"
 │   └── server.mjs        # Local MCP server for AI tools
 ├── public/
 │   ├── icons/            # PWA icons (replace with your own)
+│   ├── onnx_models/      # Pre-trained gesture recognition models
+│   ├── screenshots/      # Demo preview images
 │   ├── manifest.webmanifest
 │   └── sw.js             # Service worker
 ├── scripts/
-│   ├── build-apk.sh                # Build Meta Quest APK
-│   ├── setup-android-tools.sh      # Install JDK, Android SDK, Bubblewrap
 │   ├── generate-cert.sh            # Self-signed cert generator
 │   ├── generate-icons.cjs
 │   ├── clone-babylonjs-source.sh   # Clone BabylonJS source repo
 │   ├── clone-babylonjs-docs.sh     # Clone BabylonJS docs repo
-│   ├── generate-docs-for-mcp.sh    # Generate markdown docs
+│   ├── generate-babylonjs-docs.sh  # Generate markdown docs from source
+│   ├── generate-docs-for-mcp.sh    # Generate markdown docs for MCP
 │   └── setup-ai-tools.sh           # AI tools installer + MCP config
 ├── server/               # Multiplayer server (git submodule - Colyseus)
 ├── src/
@@ -324,17 +319,24 @@ git commit -m "sync upstream server changes"
 │   │                      (xrLightShadows, multiplayer, pdfReader, pdfPreprocessor,
 │   │                       diceRoller, diceMeshes, dicePhysics, agentHelper, aiAvatar,
 │   │                       llmConfig, gestureRecognition, gestureClassifier)
-│   ├── lighting/         # ShadowManager, WindowLight, createShadowGenerator
-│   ├── materials/        # applyShadowMaterialFacing (shadow-only material helper)
-│   ├── meshes/           # buildPolygonMesh (polygon mesh builder for detected planes),
+│   ├── lighting/         # shadows, windowLight, shadowGeneratorFactory
+│   ├── materials/        # shadowMaterial (shadow-only material helper)
+│   ├── meshes/           # polygonGenerator (polygon mesh builder for detected planes),
 │   │                      polygonMath (polygonArea)
 │   ├── xr/               # XrExperience, PlaneDetectionManager
 │   ├── text/             # TextManager (MSDF wrapper)
+│   ├── __tests__/        # Shared test helpers (mocks, NullEngine)
 │   ├── main.ts           # App entry point
 │   └── style.css
+├── AGENTS.md             # AI coding assistant guide (architecture, conventions)
+├── LICENSE               # Apache 2.0
 ├── index.html
 ├── Makefile              # AI tools + docs generation targets
 ├── package.json
 ├── tsconfig.json
-└── vite.config.ts
+├── vite.config.ts
+├── vite-env.d.ts
+└── vitest.config.ts
 ```
+
+Unit tests (`*.test.ts`) live alongside their source files in each `src/` subdirectory.
