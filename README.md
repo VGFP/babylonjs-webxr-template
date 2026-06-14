@@ -30,6 +30,17 @@ pnpm debug
 
 This adds a collapsible overlay on the right side of the page for inspecting scene nodes, materials, textures, and performance. The inspector is dynamically imported - it adds zero overhead when `VITE_DEBUG` is not set.
 
+## Testing Without a Headset (Immersive Web Emulator)
+
+You can test WebXR features on desktop without a Meta Quest or other XR device using the **[Immersive Web Emulator](https://chromewebstore.google.com/detail/immersive-web-emulator/cgffilbpcibhmcfbgggfhfolhkfbhmik)** Chrome extension.
+
+1. Install the extension in Chrome (or any Chromium-based browser)
+2. Open `https://localhost:5173` in the browser
+3. Click the Immersive Web Emulator toolbar icon to open its panel
+4. Use the panel to simulate XR sessions, controller poses, hand tracking, and room boundaries
+
+This lets you iterate on XR UI, controller interaction, and scene logic without deploying to a device. Some features that depend on real-world input (e.g., plane detection from passthrough, the camera feed) are emulated with synthetic data, so behavior may differ slightly from a headset.
+
 ## Scripts
 
 | Command | Description |
