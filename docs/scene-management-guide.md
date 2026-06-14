@@ -368,7 +368,7 @@ Creates floating 3D buttons (one per registered demo, plus optional "Return to M
 - Button creation and positioning
 - Active state highlighting
 - Visibility toggling when switching scenes
-- "Exit XR" button (optional) — calls `baseExperience.exitXRAsync()` to leave the immersive session
+- "Exit XR" button (optional) - calls `baseExperience.exitXRAsync()` to leave the immersive session
 
 The `DemoUiController.create()` factory accepts three callbacks: `onDemoClick`, `onBackClick` (nullable), and `onExitXr` (nullable, defaults to no button).
 

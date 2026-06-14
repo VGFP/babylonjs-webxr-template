@@ -406,7 +406,7 @@ PDF.js is too slow to run inside an XR session on standalone headsets (Meta Ques
 
 ### `.pre` file format
 
-**Binary format (version 3)** — raw image blobs with dimensions and MIME type, no base64 overhead. The deserializer auto-detects legacy JSON files (v1–v2) by checking the first byte for `{`. See `docs/pdf-preprocessing-guide.md` for full spec.
+**Binary format (version 3)** - raw image blobs with dimensions and MIME type, no base64 overhead. The deserializer auto-detects legacy JSON files (v1–v2) by checking the first byte for `{`. See `docs/pdf-preprocessing-guide.md` for full spec.
 
 ### Race condition note
 

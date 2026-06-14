@@ -59,14 +59,14 @@ This separation means the XR bundle does not include the PDF.js worker or render
 
 A `.pre` file is a **binary** file (content type `application/octet-stream`) containing all pages as raw image blobs alongside their pixel dimensions and MIME type. The binary format avoids the ~33% size overhead of base64 encoding and is faster to serialize/deserialize than JSON.
 
-### Binary layout (version 3 — current)
+### Binary layout (version 3 - current)
 
 ```
-┌─────────────────────────────────────────────────────┐
+┌──────────────────────────────────────────────────────┐
 │ Header (8 bytes)                                     │
 │   uint32_le  version   = 3                           │
 │   uint32_le  page_count                              │
-├─────────────────────────────────────────────────────┤
+├──────────────────────────────────────────────────────┤
 │ Page 0                                               │
 │   uint32_le  width                                   │
 │   uint32_le  height                                  │
@@ -74,9 +74,9 @@ A `.pre` file is a **binary** file (content type `application/octet-stream`) con
 │   bytes      mime        (e.g. "image/jpeg")         │
 │   uint32_le  data_length                             │
 │   bytes      data        (raw JPEG or PNG blob)      │
-├─────────────────────────────────────────────────────┤
+├──────────────────────────────────────────────────────┤
 │ Page 1 ...                                           │
-└─────────────────────────────────────────────────────┘
+└──────────────────────────────────────────────────────┘
 ```
 
 ### Legacy JSON format (versions 1–2)
@@ -94,12 +94,12 @@ Older `.pre` files used JSON with base64-encoded images. The deserializer auto-d
 
 ### Image format: JPEG vs PNG
 
-By default, pages are encoded as JPEG — fast to encode, small files, and the quality difference is negligible for typical PDF content (white background + text/graphics). A PNG (lossless) option is available via the toggle in the pre-XR overlay. PNG produces larger files and uses more memory, so it should be reserved for PDFs where pixel-perfect fidelity matters (e.g. fine line art, small text).
+By default, pages are encoded as JPEG - fast to encode, small files, and the quality difference is negligible for typical PDF content (white background + text/graphics). A PNG (lossless) option is available via the toggle in the pre-XR overlay. PNG produces larger files and uses more memory, so it should be reserved for PDFs where pixel-perfect fidelity matters (e.g. fine line art, small text).
 
 | Format | MIME type | Use case |
 |---|---|---|
-| JPEG (default) | `image/jpeg` | Most PDFs — fast, compact |
-| PNG (lossless) | `image/png` | Fine detail / line art — larger files, higher memory |
+| JPEG (default) | `image/jpeg` | Most PDFs - fast, compact |
+| PNG (lossless) | `image/png` | Fine detail / line art - larger files, higher memory |
 
 ## Key Files
 
@@ -181,7 +181,7 @@ const blob = await serializePages(pages);
 const pages = deserializePages(arrayBuffer);
 ```
 
-`serializePages` builds a binary blob from the raw page blobs — no base64 encoding, no JSON parsing. Each page stores its MIME type so a single `.pre` file can contain a mix of JPEG and PNG pages. `deserializePages` checks the first byte: if it's `{` (0x7b), the file is legacy JSON (versions 1–2) and parsed accordingly; otherwise it reads the binary v3 format.
+`serializePages` builds a binary blob from the raw page blobs - no base64 encoding, no JSON parsing. Each page stores its MIME type so a single `.pre` file can contain a mix of JPEG and PNG pages. `deserializePages` checks the first byte: if it's `{` (0x7b), the file is legacy JSON (versions 1–2) and parsed accordingly; otherwise it reads the binary v3 format.
 
 ### XR scene (`pdfReader.ts`)
 
