@@ -8,7 +8,7 @@
 
 > **Hermite1stDerivative**(`value1`, `tangent1`, `value2`, `tangent2`, `time`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.scalar.functions.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.scalar.functions.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.scalar.functions.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.scalar.functions.ts#L120)
 
 Returns a new scalar which is the 1st derivative of the Hermite spline defined by the scalars "value1", "value2", "tangent1", "tangent2".
 

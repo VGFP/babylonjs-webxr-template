@@ -6,7 +6,7 @@
 
 # Class: StringDictionary\<T\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/stringDictionary.ts#L8)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/stringDictionary.ts#L8)
 
 This class implement a typical dictionary using a string as key and the generic type T as value.
 The underlying implementation relies on an associative array to ensure the best performances.
@@ -36,7 +36,7 @@ The value can be anything including 'null' but except 'undefined'
 
 > **get** **count**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/stringDictionary.ts#L148)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/stringDictionary.ts#L148)
 
 Gets the current count
 
@@ -50,7 +50,7 @@ Gets the current count
 
 > **add**(`key`, `value`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/stringDictionary.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/stringDictionary.ts#L85)
 
 Add a new key and its corresponding value
 
@@ -80,7 +80,7 @@ true if the operation completed successfully, false if we couldn't insert the ke
 
 > **clear**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/stringDictionary.ts#L140)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/stringDictionary.ts#L140)
 
 Clear the whole content of the dictionary
 
@@ -94,7 +94,7 @@ Clear the whole content of the dictionary
 
 > **contains**(`key`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/stringDictionary.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/stringDictionary.ts#L75)
 
 Check if there's a given key in the dictionary
 
@@ -118,7 +118,7 @@ true if the key is present, false otherwise
 
 > **copyFrom**(`source`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/stringDictionary.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/stringDictionary.ts#L14)
 
 This will clear this dictionary and copy the content from the 'source' one.
 If the T value is a custom object, it won't be copied/cloned, the same object will be used
@@ -141,7 +141,7 @@ the dictionary to take the content from and copy to this dictionary
 
 > **first**\<`TRes`\>(`callback`): `NonNullable`\<`TRes`\> \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/stringDictionary.ts#L172)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/stringDictionary.ts#L172)
 
 Execute a callback on every occurrence of the dictionary until it returns a valid TRes object.
 If the callback returns null or undefined the method will iterate to the next key/value pair
@@ -173,7 +173,7 @@ the first item
 
 > **forEach**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:157](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/stringDictionary.ts#L157)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:157](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/stringDictionary.ts#L157)
 
 Execute a callback on each key/val of the dictionary.
 Note that you can remove any element in this dictionary in the callback implementation
@@ -196,7 +196,7 @@ the callback to execute on a given key/value pair
 
 > **get**(`key`): `T` \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/stringDictionary.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/stringDictionary.ts#L24)
 
 Get a value based from its key
 
@@ -220,7 +220,7 @@ the value if found, otherwise undefined is returned
 
 > **getAndRemove**(`key`): [`Nullable`](../type-aliases/Nullable.md)\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/stringDictionary.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/stringDictionary.ts#L113)
 
 Get the element of the given key and remove it from the dictionary
 
@@ -244,7 +244,7 @@ the value associated with the key or null if not found
 
 > **getOrAdd**(`key`, `val`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/stringDictionary.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/stringDictionary.ts#L60)
 
 Get a value from its key if present in the dictionary otherwise add it
 
@@ -274,7 +274,7 @@ the value corresponding to the key
 
 > **getOrAddWithFactory**(`key`, `factory`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/stringDictionary.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/stringDictionary.ts#L40)
 
 Get a value from its key or add it if it doesn't exist.
 This method will ensure you that a given key/data will be present in the dictionary.
@@ -306,7 +306,7 @@ the value corresponding to the key.
 
 > **remove**(`key`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/stringDictionary.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/stringDictionary.ts#L128)
 
 Remove a key/value from the dictionary.
 
@@ -330,7 +330,7 @@ true if the item was successfully deleted, false if no item with such key exist 
 
 > **set**(`key`, `value`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/stringDictionary.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/stringDictionary.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/stringDictionary.ts#L100)
 
 Update a specific value associated to a key
 

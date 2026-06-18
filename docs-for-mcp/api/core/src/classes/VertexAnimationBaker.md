@@ -6,7 +6,7 @@
 
 # Class: VertexAnimationBaker
 
-Defined in: [babylonjs-source/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts#L17)
 
 **`Since`**
 
@@ -19,7 +19,7 @@ Class to bake vertex animation textures.
 
 > **new VertexAnimationBaker**(`scene`, `meshOrSkeleton`): `VertexAnimationBaker`
 
-Defined in: [babylonjs-source/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts#L27)
 
 Create a new VertexAnimationBaker object which can help baking animations into a texture.
 
@@ -47,7 +47,7 @@ Defines the skeleton or the mesh from which to retrieve the skeleton from.
 
 > **bakeVertexData**(`ranges`): `Promise`\<`Float32Array`\<`ArrayBufferLike`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts#L89)
 
 Bakes the animation into the texture. This should be called once, when the
 scene starts, so the VAT is generated and associated to the mesh.
@@ -72,7 +72,7 @@ The array of matrix transforms for each vertex (columns) and frame (rows), as a 
 
 > **bakeVertexDataSync**(`ranges`, `halfFloat`): `Float32Array`\<`ArrayBufferLike`\> \| `Uint16Array`\<`ArrayBufferLike`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts#L44)
 
 #### Parameters
 
@@ -100,7 +100,7 @@ The array of matrix transforms for each vertex (columns) and frame (rows), as a 
 
 > **loadBakedVertexDataFromJSON**(`json`): `Float32Array`
 
-Defined in: [babylonjs-source/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts:214](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts#L214)
+Defined in: [babylonjs-source/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts#L214)
 
 Loads previously baked data in string format.
 
@@ -124,7 +124,7 @@ The array of matrix transforms for each vertex (columns) and frame (rows), as a 
 
 > **loadBakedVertexDataFromObject**(`data`): `Float32Array`
 
-Defined in: [babylonjs-source/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts:197](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts#L197)
+Defined in: [babylonjs-source/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts#L197)
 
 Loads previously baked data.
 
@@ -148,7 +148,7 @@ The array of matrix transforms for each vertex (columns) and frame (rows), as a 
 
 > **serializeBakedVertexDataToJSON**(`vertexData`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts:206](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts#L206)
+Defined in: [babylonjs-source/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts:206](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts#L206)
 
 Serializes our vertexData to a JSON string, with a nice string for the vertexData.
 Should be called right after bakeVertexData().
@@ -173,7 +173,7 @@ This object serialized to a safe string.
 
 > **serializeBakedVertexDataToObject**(`vertexData`): `Record`\<`string`, `any`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts:175](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts#L175)
+Defined in: [babylonjs-source/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts:175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts#L175)
 
 Serializes our vertexData to an object, with a nice string for the vertexData.
 
@@ -197,7 +197,7 @@ This object serialized to a JS dict.
 
 > **textureFromBakedVertexData**(`vertexData`): [`RawTexture`](RawTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts:145](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts#L145)
+Defined in: [babylonjs-source/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/BakedVertexAnimation/vertexAnimationBaker.ts#L145)
 
 Builds a vertex animation texture given the vertexData in an array.
 

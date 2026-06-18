@@ -6,7 +6,7 @@
 
 # Class: Size
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L18)
 
 Size containing width and height
 
@@ -20,7 +20,7 @@ Size containing width and height
 
 > **new Size**(`width`, `height`): `Size`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L33)
 
 Creates a Size object from the given width and height (floats).
 
@@ -48,7 +48,7 @@ height of the new size
 
 > **height**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L26)
 
 Height
 
@@ -62,7 +62,7 @@ Height
 
 > **width**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L22)
 
 Width
 
@@ -78,7 +78,7 @@ Width
 
 > **get** **surface**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L119)
 
 The surface of the Size : width * height (float).
 
@@ -92,7 +92,7 @@ The surface of the Size : width * height (float).
 
 > **add**(`otherSize`): `Size`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L134)
 
 Sums the width and height of two sizes
 
@@ -116,7 +116,7 @@ a new Size set as the addition result of the current Size and the given one.
 
 > **clone**(): `Size`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L102)
 
 Clones the size
 
@@ -132,7 +132,7 @@ a new Size copied from the given one.
 
 > **copyFrom**(`src`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L65)
 
 Updates the current size from the given one.
 
@@ -154,7 +154,7 @@ the given size
 
 > **copyFromFloats**(`width`, `height`): `Size`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L75)
 
 Updates in place the current Size from the given floats.
 
@@ -184,7 +184,7 @@ the updated Size.
 
 > **equals**(`other`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:110](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L110)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L110)
 
 True if the current Size and the given one width and height are strictly equal.
 
@@ -208,7 +208,7 @@ True if the current Size and the given one width and height are strictly equal.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L49)
 
 "Size"
 
@@ -224,7 +224,7 @@ the string "Size"
 
 > **getHashCode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L56)
 
 Returns the Size hash code.
 
@@ -240,7 +240,7 @@ a hash code for a unique width and height
 
 > **multiplyByFloats**(`w`, `h`): `Size`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L95)
 
 Multiplies the width and height by numbers
 
@@ -270,7 +270,7 @@ a new Size set with the multiplication result of the current Size and the given 
 
 > **scale**(`scale`): `Size`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L152)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L152)
 
 Scales the width and height
 
@@ -294,7 +294,7 @@ a new Size set with the multiplication result of the current Size and the given 
 
 > **set**(`width`, `height`): `Size`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L86)
 
 Updates in place the current Size from the given floats.
 
@@ -324,7 +324,7 @@ the updated Size.
 
 > **subtract**(`otherSize`): `Size`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:143](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L143)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L143)
 
 Subtracts the width and height of two
 
@@ -348,7 +348,7 @@ a new Size set as the subtraction result of  the given one from the current Size
 
 > **toString**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L42)
 
 Returns a string with the Size width and height
 
@@ -364,7 +364,7 @@ a string with the Size width and height
 
 > `static` **Lerp**(`start`, `end`, `amount`): `Size`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L162)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L162)
 
 Creates a new Size set at the linear interpolation "amount" between "start" and "end"
 
@@ -400,7 +400,7 @@ a new Size set at the linear interpolation "amount" between "start" and "end"
 
 > `static` **Zero**(): `Size`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.size.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.size.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.size.ts#L126)
 
 Create a new size of zero
 

@@ -6,7 +6,7 @@
 
 # Class: PBRMetallicRoughnessBlock
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L65)
 
 Block used to implement the PBR metallic/roughness model
 
@@ -24,7 +24,7 @@ https://playground.babylonjs.com/#D8AK3Z#80
 
 > **new PBRMetallicRoughnessBlock**(`name`): `PBRMetallicRoughnessBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L107)
 
 Create a new ReflectionBlock
 
@@ -50,7 +50,7 @@ defines the block name
 
 > **alphaTestCutoff**: `number` = `0.5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L225)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L227)
 
 Defines the alpha limits in alpha test mode.
 
@@ -60,7 +60,7 @@ Defines the alpha limits in alpha test mode.
 
 > **baseDiffuseModel**: `number` = `Constants.MATERIAL_DIFFUSE_MODEL_E_OREN_NAYAR`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:286](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L286)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:288](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L288)
 
 Base Diffuse Model
 
@@ -70,7 +70,7 @@ Base Diffuse Model
 
 > **comments**: `string` = `""`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L104)
 
 Gets or sets the comments associated with this block
 
@@ -84,7 +84,7 @@ Gets or sets the comments associated with this block
 
 > **debugFactor**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:403](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L403)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:405](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L405)
 
 As the default viewing range might not be enough (if the ambient is really small for instance)
 You can use the factor to better multiply the final value.
@@ -95,7 +95,7 @@ You can use the factor to better multiply the final value.
 
 > **debugLimit**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:396](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L396)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:398](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L398)
 
 Specify from where on screen the debug mode should start.
 The value goes from -1 (full screen) to 1 (not visible)
@@ -108,7 +108,7 @@ This defaults to 0
 
 > **debugMode**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:387](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L387)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:389](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L389)
 
 Defines the material debug mode.
 It helps seeing only some components of the material while troubleshooting.
@@ -119,7 +119,7 @@ It helps seeing only some components of the material while troubleshooting.
 
 > **directIntensity**: `number` = `1.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L185)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L187)
 
 Intensity of the direct lights e.g. the four lights available in your scene.
 This impacts both the direct diffuse and specular highlights.
@@ -130,7 +130,7 @@ This impacts both the direct diffuse and specular highlights.
 
 > **enableSpecularAntiAliasing**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:253](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L253)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:255](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L255)
 
 Enables specular anti aliasing in the PBR shader.
 It will both interacts on the Geometry for analytical and IBL lighting.
@@ -142,7 +142,7 @@ It also prefilter the roughness map based on the bump values.
 
 > **environmentIntensity**: `number` = `1.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:192](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L192)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L194)
 
 Intensity of the environment e.g. how much the environment will light the object
 either through harmonics for rough material or through the reflection for shiny ones.
@@ -153,7 +153,7 @@ either through harmonics for rough material or through the reflection for shiny 
 
 > **forceNormalForward**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:318](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L318)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L320)
 
 Force normal to face away from face.
 
@@ -163,7 +163,7 @@ Force normal to face away from face.
 
 > **generateOnlyFragmentCode**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:324](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L324)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:326](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L326)
 
 Indicates that no code should be generated in the vertex shader. Can be useful in some specific circumstances (like when doing ray marching for eg)
 
@@ -173,7 +173,7 @@ Indicates that no code should be generated in the vertex shader. Can be useful i
 
 > **inputsAreExclusive**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L55)
 
 Gets or sets a boolean indicating that only one input can be connected at a time
 
@@ -187,7 +187,7 @@ Gets or sets a boolean indicating that only one input can be connected at a time
 
 > **light**: [`Nullable`](../type-aliases/Nullable.md)\<[`Light`](Light.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L69)
 
 Gets or sets the light associated with this block
 
@@ -197,7 +197,7 @@ Gets or sets the light associated with this block
 
 > **lightFalloff**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:213](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L213)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:215](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L215)
 
 Defines the  falloff type used in this material.
 It by default is Physical.
@@ -208,7 +208,7 @@ It by default is Physical.
 
 > **onCodeIsReadyObservable**: [`Observable`](Observable.md)\<[`NodeMaterialBlock`](NodeMaterialBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L52)
 
 Observable raised when the block code is ready (if the code loading is async)
 
@@ -222,7 +222,7 @@ Observable raised when the block code is ready (if the code loading is async)
 
 > **realTimeFiltering**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:259](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L259)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L261)
 
 Enables realtime filtering on the texture.
 
@@ -232,7 +232,7 @@ Enables realtime filtering on the texture.
 
 > **realTimeFilteringQuality**: `number` = `Constants.TEXTURE_FILTERING_QUALITY_LOW`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:272](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L272)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:274](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L274)
 
 Quality switch for realtime filtering
 
@@ -242,7 +242,7 @@ Quality switch for realtime filtering
 
 > **specularIntensity**: `number` = `1.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:199](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L199)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L201)
 
 This is a special control allowing the reduction of the specular highlights coming from the
 four lights of the scene. Those highlights may not be needed in full environment lighting.
@@ -253,7 +253,7 @@ four lights of the scene. Those highlights may not be needed in full environment
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L99)
 
 Gets or sets the unique id of the node
 
@@ -267,7 +267,7 @@ Gets or sets the unique id of the node
 
 > **unlit**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:312](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L312)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:314](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L314)
 
 If set to true, no lighting calculations will be applied.
 
@@ -277,7 +277,7 @@ If set to true, no lighting calculations will be applied.
 
 > **useAlphaBlending**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:231](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L231)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:233](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L233)
 
 Specifies that alpha blending should be used
 
@@ -287,7 +287,7 @@ Specifies that alpha blending should be used
 
 > **useAlphaTest**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L221)
 
 Specifies that alpha test should be used
 
@@ -297,7 +297,7 @@ Specifies that alpha test should be used
 
 > **useEnergyConservation**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:292](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L292)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:294](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L294)
 
 Defines if the material uses energy conservation.
 
@@ -307,7 +307,7 @@ Defines if the material uses energy conservation.
 
 > **useHorizonOcclusion**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:306](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L306)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:308](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L308)
 
 This parameters will enable/disable Horizon occlusion to prevent normal maps to look shiny when the normal
 makes the reflect vector face the model (under horizon).
@@ -318,7 +318,7 @@ makes the reflect vector face the model (under horizon).
 
 > **useRadianceOcclusion**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:299](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L299)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:301](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L301)
 
 This parameters will enable/disable radiance occlusion by preventing the radiance to lit
 too much the area relying on ambient texture to define their ambient occlusion.
@@ -329,7 +329,7 @@ too much the area relying on ambient texture to define their ambient occlusion.
 
 > **useRadianceOverAlpha**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:238](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L238)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:240](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L240)
 
 Specifies that the material will keeps the reflection highlights over a transparent surface (only the most luminous ones).
 A car glass is a good example of that. When the street lights reflects on it you can not see what is behind.
@@ -340,7 +340,7 @@ A car glass is a good example of that. When the street lights reflects on it you
 
 > **useSpecularOverAlpha**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L245)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:247](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L247)
 
 Specifies that the material will keeps the specular highlights over a transparent surface (only the most luminous ones).
 A car glass is a good example of that. When sun reflects on it you can not see what is behind.
@@ -351,7 +351,7 @@ A car glass is a good example of that. When sun reflects on it you can not see w
 
 > **visibleInInspector**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L216)
 
 Gets or sets a boolean indicating that this input can be edited in the Inspector (false by default)
 
@@ -365,7 +365,7 @@ Gets or sets a boolean indicating that this input can be edited in the Inspector
 
 > **visibleOnFrame**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L219)
 
 Gets or sets a boolean indicating that this input can be edited from a collapsed frame
 
@@ -381,7 +381,7 @@ Gets or sets a boolean indicating that this input can be edited from a collapsed
 
 > **get** **alpha**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:694](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L694)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:696](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L696)
 
 Gets the alpha output component
 
@@ -397,7 +397,7 @@ Gets the alpha output component
 
 > **get** **ambientClr**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:610](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L610)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:612](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L612)
 
 Gets the ambient output component
 
@@ -413,7 +413,7 @@ Gets the ambient output component
 
 > **get** **ambientColor**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:561](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L561)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:563](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L563)
 
 Gets the ambient color input component
 
@@ -429,7 +429,7 @@ Gets the ambient color input component
 
 > **get** **ambientOcc**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:540](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L540)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:542](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L542)
 
 Gets the ambient occlusion input component
 
@@ -445,7 +445,7 @@ Gets the ambient occlusion input component
 
 > **get** **anisotropy**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:596](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L596)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:598](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L598)
 
 Gets the anisotropy object parameters
 
@@ -461,7 +461,7 @@ Gets the anisotropy object parameters
 
 > **get** **baseColor**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:519](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L519)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:521](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L521)
 
 Gets the base color input component
 
@@ -477,7 +477,7 @@ Gets the base color input component
 
 > **get** **buildId**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L151)
 
 Gets or sets the build Id
 
@@ -489,7 +489,7 @@ Gets or sets the build Id
 
 > **set** **buildId**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L155)
 
 ##### Parameters
 
@@ -513,7 +513,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialB
 
 > **get** **cameraPosition**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:505](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L505)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:507](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L507)
 
 Gets the camera position input component
 
@@ -529,7 +529,7 @@ Gets the camera position input component
 
 > **get** **clearcoat**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:575](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L575)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:577](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L577)
 
 Gets the clear coat object parameters
 
@@ -545,7 +545,7 @@ Gets the clear coat object parameters
 
 > **get** **clearcoatDir**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:631](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L631)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:633](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L633)
 
 Gets the clear coat output component
 
@@ -561,7 +561,7 @@ Gets the clear coat output component
 
 > **get** **clearcoatInd**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:659](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L659)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:661](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L661)
 
 Gets the indirect clear coat output component
 
@@ -577,7 +577,7 @@ Gets the indirect clear coat output component
 
 > **get** **codeIsReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L81)
 
 Gets a boolean indicating that this block has is code ready to be used
 
@@ -597,7 +597,7 @@ Gets a boolean indicating that this block has is code ready to be used
 
 > **get** **diffuseDir**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:617](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L617)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:619](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L619)
 
 Gets the diffuse output component
 
@@ -613,7 +613,7 @@ Gets the diffuse output component
 
 > **get** **diffuseInd**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:645](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L645)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:647](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L647)
 
 Gets the indirect diffuse output component
 
@@ -629,7 +629,7 @@ Gets the indirect diffuse output component
 
 > **get** **indexOfRefraction**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:554](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L554)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:556](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L556)
 
 Gets the index of refraction input component
 
@@ -645,7 +645,7 @@ Gets the index of refraction input component
 
 > **get** **inputs**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L176)
 
 Gets the list of input points
 
@@ -665,7 +665,7 @@ Gets the list of input points
 
 > **get** **iridescence**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:603](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L603)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:605](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L605)
 
 Gets the iridescence object parameters
 
@@ -681,7 +681,7 @@ Gets the iridescence object parameters
 
 > **get** **isFinalMerger**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L116)
 
 Gets a boolean indicating that this block is an end block (e.g. it is generating a system value)
 
@@ -701,7 +701,7 @@ Gets a boolean indicating that this block is an end block (e.g. it is generating
 
 > **get** **isInput**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L123)
 
 Gets a boolean indicating that this block is an input (e.g. it sends data to the shader)
 
@@ -721,7 +721,7 @@ Gets a boolean indicating that this block is an input (e.g. it sends data to the
 
 > **get** **isLoop**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L144)
 
 Gets a boolean indicating if this block is a loop
 
@@ -741,7 +741,7 @@ Gets a boolean indicating if this block is a loop
 
 > **get** **isTeleportIn**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L137)
 
 Gets a boolean indicating if this block is a teleport in
 
@@ -761,7 +761,7 @@ Gets a boolean indicating if this block is a teleport in
 
 > **get** **isTeleportOut**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L130)
 
 Gets a boolean indicating if this block is a teleport out
 
@@ -781,7 +781,7 @@ Gets a boolean indicating if this block is a teleport out
 
 > **get** **isUnique**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L109)
 
 Gets a boolean indicating that this block can only be used once per NodeMaterial
 
@@ -801,7 +801,7 @@ Gets a boolean indicating that this block can only be used once per NodeMaterial
 
 > **get** **lighting**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:680](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L680)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:682](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L682)
 
 Gets the global lighting output component
 
@@ -817,7 +817,7 @@ Gets the global lighting output component
 
 > **get** **metallic**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:526](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L526)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:528](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L528)
 
 Gets the metallic input component
 
@@ -833,7 +833,7 @@ Gets the metallic input component
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L74)
 
 Gets the name of the block
 
@@ -845,7 +845,7 @@ Gets the name of the block
 
 > **set** **name**(`newName`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L88)
 
 Sets the name of the block. Will check if the name is valid.
 
@@ -871,7 +871,7 @@ Sets the name of the block. Will check if the name is valid.
 
 > **get** **opacity**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:547](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L547)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:549](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L549)
 
 Gets the opacity input component
 
@@ -887,7 +887,7 @@ Gets the opacity input component
 
 > **get** **outputs**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:181](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L181)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:181](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L181)
 
 Gets the list of output points
 
@@ -907,7 +907,7 @@ Gets the list of output points
 
 > **get** **perturbedNormal**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:512](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L512)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:514](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L514)
 
 Gets the perturbed normal input component
 
@@ -923,7 +923,7 @@ Gets the perturbed normal input component
 
 > **get** **reflection**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:568](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L568)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:570](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L570)
 
 Gets the reflection object parameters
 
@@ -939,7 +939,7 @@ Gets the reflection object parameters
 
 > **get** **refraction**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:673](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L673)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:675](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L675)
 
 Gets the refraction output component
 
@@ -955,7 +955,7 @@ Gets the refraction output component
 
 > **get** **roughness**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:533](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L533)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:535](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L535)
 
 Gets the roughness input component
 
@@ -971,7 +971,7 @@ Gets the roughness input component
 
 > **get** **shadow**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:687](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L687)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:689](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L689)
 
 Gets the shadow output component
 
@@ -987,7 +987,7 @@ Gets the shadow output component
 
 > **get** **sheen**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:582](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L582)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:584](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L584)
 
 Gets the sheen object parameters
 
@@ -1003,7 +1003,7 @@ Gets the sheen object parameters
 
 > **get** **sheenDir**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:638](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L638)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:640](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L640)
 
 Gets the sheen output component
 
@@ -1019,7 +1019,7 @@ Gets the sheen output component
 
 > **get** **sheenInd**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:666](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L666)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:668](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L668)
 
 Gets the indirect sheen output component
 
@@ -1035,7 +1035,7 @@ Gets the indirect sheen output component
 
 > **get** **specularDir**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:624](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L624)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:626](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L626)
 
 Gets the specular output component
 
@@ -1051,7 +1051,7 @@ Gets the specular output component
 
 > **get** **specularInd**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:652](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L652)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:654](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L654)
 
 Gets the indirect specular output component
 
@@ -1067,7 +1067,7 @@ Gets the indirect specular output component
 
 > **get** **subsurface**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:589](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L589)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:591](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L591)
 
 Gets the sub surface object parameters
 
@@ -1083,7 +1083,7 @@ Gets the sub surface object parameters
 
 > **get** **target**(): [`NodeMaterialBlockTargets`](../enumerations/NodeMaterialBlockTargets.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L162)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L162)
 
 Gets or sets the target of the block
 
@@ -1095,7 +1095,7 @@ Gets or sets the target of the block
 
 > **set** **target**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L166)
 
 ##### Parameters
 
@@ -1119,7 +1119,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialB
 
 > **get** **view**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:498](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L498)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:500](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L500)
 
 Gets the view matrix parameter
 
@@ -1135,7 +1135,7 @@ Gets the view matrix parameter
 
 > **get** **willBeGeneratedIntoVertexShaderFromFragmentShader**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:551](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L551)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:551](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L551)
 
 Gets a boolean indicating that the code of this block will be promoted to vertex shader even if connected to fragment output
 
@@ -1155,7 +1155,7 @@ Gets a boolean indicating that the code of this block will be promoted to vertex
 
 > **get** **worldNormal**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:491](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L491)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:493](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L493)
 
 Gets the world normal input component
 
@@ -1171,7 +1171,7 @@ Gets the world normal input component
 
 > **get** **worldPosition**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:484](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L484)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:486](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L486)
 
 Gets the world position input component
 
@@ -1185,7 +1185,7 @@ Gets the world position input component
 
 > **\_deserialize**(`serializationObject`, `scene`, `rootUrl`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:1631](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L1631)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:1633](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L1633)
 
 Deserializes the block
 
@@ -1223,7 +1223,7 @@ the root URL for assets
 
 > **autoConfigure**(`material`, `additionalFilteringInfo?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:703](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L703)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:705](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L705)
 
 Auto configure the block based on the material
 
@@ -1255,7 +1255,7 @@ additional filtering info
 
 > **bind**(`effect`, `nodeMaterial`, `mesh?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:906](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L906)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:908](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L908)
 
 Bind data to effect
 
@@ -1293,7 +1293,7 @@ the mesh to bind data for
 
 > **build**(`state`, `activeBlocks`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:686](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L686)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:686](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L686)
 
 Compile the current node and generate the shader code
 
@@ -1327,7 +1327,7 @@ true if already built
 
 > **clone**(`scene`, `rootUrl?`): [`NodeMaterialBlock`](NodeMaterialBlock.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:909](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L909)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:909](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L909)
 
 Clone the current block to a new identical block
 
@@ -1361,7 +1361,7 @@ a copy of the current block
 
 > **connectTo**(`other`, `options?`): `PBRMetallicRoughnessBlock` \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:444](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L444)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:444](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L444)
 
 Connect current block with another block
 
@@ -1405,7 +1405,7 @@ the current block
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:997](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L997)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:997](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L997)
 
 Release resources
 
@@ -1423,7 +1423,7 @@ Release resources
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:477](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L477)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:479](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L479)
 
 Gets the current class name
 
@@ -1443,7 +1443,7 @@ the class name
 
 > **getFirstAvailableInput**(`forOutput?`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:367](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L367)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:367](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L367)
 
 Will return the first available input e.g. the first one which is not an uniform or an attribute
 
@@ -1471,7 +1471,7 @@ the first available input or null
 
 > **getFirstAvailableOutput**(`forBlock?`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:389](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L389)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:389](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L389)
 
 Will return the first available output e.g. the first one which is not yet connected and not a varying
 
@@ -1499,7 +1499,7 @@ the first available input or null
 
 > **getInputByName**(`name`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L190)
 
 Find an input by its name
 
@@ -1527,7 +1527,7 @@ the input or null if not found
 
 > **getOutputByName**(`name`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L205)
 
 Find an output by its name
 
@@ -1555,7 +1555,7 @@ the output or null if not found
 
 > **getSiblingOutput**(`current`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:404](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L404)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:404](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L404)
 
 Gets the sibling of the given output
 
@@ -1583,7 +1583,7 @@ the next output in the list or null
 
 > **initialize**(`state`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:409](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L409)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:411](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L411)
 
 Initialize the block and prepare the context for build
 
@@ -1609,7 +1609,7 @@ defines the state that will be used for the build
 
 > **initializeDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:512](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L512)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:512](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L512)
 
 Initialize defines for shader compilation
 
@@ -1635,7 +1635,7 @@ defines the material defines to update
 
 > **isAnAncestorOf**(`block`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:419](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L419)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:419](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L419)
 
 Checks if the current block is an ancestor of a given block
 
@@ -1663,7 +1663,7 @@ true if block is a descendant
 
 > **isConnectedInFragmentShader**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:310](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L310)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L310)
 
 Gets a boolean indicating that this connection will be used in the fragment shader
 
@@ -1683,7 +1683,7 @@ true if connected in fragment shader
 
 > **isReady**(`mesh`, `nodeMaterial`, `defines`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:882](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L882)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:884](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L884)
 
 Checks if the block is ready
 
@@ -1723,7 +1723,7 @@ true if ready
 
 > **prepareDefines**(`defines`, `nodeMaterial`, `mesh?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:731](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L731)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:733](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L733)
 
 Prepare the list of defines
 
@@ -1761,7 +1761,7 @@ the mesh to prepare defines for
 
 > **provideFallbacks**(`fallbacks`, `mesh?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:503](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L503)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:503](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L503)
 
 Add potential fallbacks if shader compilation fails
 
@@ -1793,7 +1793,7 @@ defines the mesh to be rendered
 
 > **registerInput**(`name`, `type`, `isOptional?`, `target?`, `point?`): `PBRMetallicRoughnessBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L323)
 
 Register a new input. Must be called inside a block constructor
 
@@ -1845,7 +1845,7 @@ the current block
 
 > **registerOutput**(`name`, `type`, `target?`, `point?`): `PBRMetallicRoughnessBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:350](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L350)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L350)
 
 Register a new output. Must be called inside a block constructor
 
@@ -1891,7 +1891,7 @@ the current block
 
 > **replaceRepeatableContent**(`vertexShaderState`, `defines`, `mesh?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:546](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L546)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:546](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L546)
 
 Function called when a block is declared as repeatable content generator
 
@@ -1929,7 +1929,7 @@ defines the mesh to be rendered
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:1596](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L1596)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:1598](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L1598)
 
 Serializes the block
 
@@ -1949,7 +1949,7 @@ the serialized object
 
 > **updateUniformsAndSamples**(`state`, `nodeMaterial`, `defines`, `uniformBuffers`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts:854](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.ts#L854)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts:856](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/pbrMetallicRoughnessBlock.pure.ts#L856)
 
 Update the uniforms and samples
 
@@ -1993,7 +1993,7 @@ the uniform buffers
 
 > **validateBlockName**(`newName`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:643](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L643)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:643](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L643)
 
 Validates the new name for the block node.
 

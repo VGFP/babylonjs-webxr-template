@@ -6,7 +6,7 @@
 
 # Interface: IConnectable
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphConnection.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphConnection.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L14)
 
 An interface for a connectable point in the flow graph.
 
@@ -16,7 +16,7 @@ An interface for a connectable point in the flow graph.
 
 > **\_connectedPoint**: `IConnectable`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphConnection.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphConnection.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L22)
 
 An array of the points that this point is connected to.
 
@@ -26,7 +26,7 @@ An array of the points that this point is connected to.
 
 > **\_connectionType**: [`FlowGraphConnectionType`](../enumerations/FlowGraphConnectionType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphConnection.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphConnection.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L30)
 
 The type of the connection
 
@@ -36,7 +36,7 @@ The type of the connection
 
 > **uniqueId**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphConnection.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphConnection.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L18)
 
 A uniquely identifying string for the connection.
 
@@ -46,7 +46,7 @@ A uniquely identifying string for the connection.
 
 > **\_isSingularConnection**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphConnection.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphConnection.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L26)
 
 Returns if the connection can only be connected to one other point.
 
@@ -60,7 +60,7 @@ Returns if the connection can only be connected to one other point.
 
 > **connectTo**(`point`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphConnection.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphConnection.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L35)
 
 Connect this point to another point.
 

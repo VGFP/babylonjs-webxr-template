@@ -6,7 +6,7 @@
 
 # Interface: IExplorerAdditionalChild
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/debugLayer.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/debugLayer.pure.ts#L53)
 
 Defines a new node that will be displayed as top level node in the explorer
 
@@ -16,7 +16,7 @@ Defines a new node that will be displayed as top level node in the explorer
 
 > **inspectableCustomProperties**: [`IInspectable`](IInspectable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/debugLayer.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.pure.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/debugLayer.pure.ts#L66)
 
 List of inspectable custom properties (used by the Inspector)
 
@@ -30,7 +30,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/debugLayer.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/debugLayer.pure.ts#L57)
 
 Gets the name of the additional node
 
@@ -40,7 +40,7 @@ Gets the name of the additional node
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/debugLayer.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/debugLayer.pure.ts#L61)
 
 Function used to return the class name of the child node
 

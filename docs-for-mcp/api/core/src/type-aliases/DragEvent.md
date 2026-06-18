@@ -8,7 +8,7 @@
 
 > **DragEvent** = `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts#L8)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts#L8)
 
 Event type for drag move events
 
@@ -18,7 +18,7 @@ Event type for drag move events
 
 > **delta**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts#L12)
 
 Delta between last drag position and current drag position in world space
 
@@ -28,7 +28,7 @@ Delta between last drag position and current drag position in world space
 
 > **dragDistance**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts#L26)
 
 Distance along the drag axis
 
@@ -38,7 +38,7 @@ Distance along the drag axis
 
 > **dragPlaneNormal**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts#L22)
 
 Normal of the current drag plane used during the drag
 
@@ -48,7 +48,7 @@ Normal of the current drag plane used during the drag
 
 > **dragPlanePoint**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts#L18)
 
 Point in world space where the drag intersects the drag plane
 
@@ -60,7 +60,7 @@ Point in world space where the drag intersects the drag plane
 
 > **pointerId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts#L30)
 
 Pointer id to use
 
@@ -70,6 +70,6 @@ Pointer id to use
 
 > **pointerInfo**: [`Nullable`](Nullable.md)\<[`PointerInfo`](../classes/PointerInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts#L34)
 
 Pointer info for the event (if any)

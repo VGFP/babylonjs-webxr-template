@@ -6,7 +6,7 @@
 
 # Class: StorageBuffer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/storageBuffer.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/storageBuffer.ts#L9)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/storageBuffer.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/storageBuffer.ts#L9)
 
 This class is a small wrapper around a native buffer that can be read and/or written
 
@@ -16,7 +16,7 @@ This class is a small wrapper around a native buffer that can be read and/or wri
 
 > **new StorageBuffer**(`engine`, `size`, `creationFlags?`, `label?`): `StorageBuffer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/storageBuffer.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/storageBuffer.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/storageBuffer.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/storageBuffer.ts#L23)
 
 Creates a new storage buffer instance
 
@@ -56,7 +56,7 @@ defines the label of the buffer (for debug purpose)
 
 > **clear**(`byteOffset?`, `byteLength?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/storageBuffer.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/storageBuffer.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/storageBuffer.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/storageBuffer.ts#L54)
 
 Clears the storage buffer to zeros
 
@@ -84,7 +84,7 @@ the byte length to clear (optional)
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/storageBuffer.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/storageBuffer.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/storageBuffer.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/storageBuffer.ts#L88)
 
 Disposes the storage buffer
 
@@ -98,7 +98,7 @@ Disposes the storage buffer
 
 > **getBuffer**(): [`DataBuffer`](DataBuffer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/storageBuffer.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/storageBuffer.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/storageBuffer.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/storageBuffer.ts#L45)
 
 Gets underlying native buffer
 
@@ -114,7 +114,7 @@ underlying native buffer
 
 > **read**(`offset?`, `size?`, `buffer?`, `noDelay?`): `Promise`\<`ArrayBufferView`\<`ArrayBufferLike`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/storageBuffer.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/storageBuffer.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/storageBuffer.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/storageBuffer.ts#L81)
 
 Reads data from the storage buffer
 
@@ -156,7 +156,7 @@ If not undefined, returns the (promise) buffer (as provided by the 4th parameter
 
 > **update**(`data`, `byteOffset?`, `byteLength?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/storageBuffer.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/storageBuffer.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/storageBuffer.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/storageBuffer.ts#L64)
 
 Updates the storage buffer
 

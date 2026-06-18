@@ -6,7 +6,7 @@
 
 # Class: Octree\<T\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octree.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octree.ts#L13)
 
 Octrees are a really powerful data structure that can quickly select entities based on space coordinates.
 
@@ -26,7 +26,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/optimizeOctrees
 
 > **new Octree**\<`T`\>(`creationFunc`, `maxBlockCapacity?`, `maxDepth?`): `Octree`\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octree.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octree.ts#L34)
 
 Creates a octree
 
@@ -64,7 +64,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/optimizeOctrees
 
 > **blocks**: [`OctreeBlock`](OctreeBlock.md)\<`T`\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octree.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octree.ts#L17)
 
 Blocks within the octree containing objects
 
@@ -74,7 +74,7 @@ Blocks within the octree containing objects
 
 > **dynamicContent**: `T`[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octree.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octree.ts#L21)
 
 Content stored in the octree
 
@@ -84,7 +84,7 @@ Content stored in the octree
 
 > **maxDepth**: `number` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octree.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octree.ts#L38)
 
 [2] Defines the maximum depth (sub-levels) for your octree. Default value is 2, which means 8 8 8 = 512 blocks :) (This parameter takes precedence over capacity.)
 
@@ -94,7 +94,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:38
 
 > **addMesh**(`entry`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octree.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octree.ts#L60)
 
 Adds a mesh to the octree
 
@@ -116,7 +116,7 @@ Mesh to add to the octree
 
 > **intersects**(`sphereCenter`, `sphereRadius`, `allowDuplicate?`): [`SmartArray`](SmartArray.md)\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octree.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octree.ts#L108)
 
 Test if the octree intersect with the given bounding sphere and if yes, then add its content to the selection array
 
@@ -152,7 +152,7 @@ an array of objects that intersect the sphere
 
 > **intersectsRay**(`ray`): [`SmartArray`](SmartArray.md)\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octree.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octree.ts#L130)
 
 Test if the octree intersect with the given ray and if yes, then add its content to resulting array
 
@@ -176,7 +176,7 @@ array of intersected objects
 
 > **removeMesh**(`entry`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octree.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octree.ts#L71)
 
 Remove an element from the octree
 
@@ -198,7 +198,7 @@ defines the element to remove
 
 > **select**(`frustumPlanes`, `allowDuplicate?`): [`SmartArray`](SmartArray.md)\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octree.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octree.ts#L84)
 
 Selects an array of meshes within the frustum
 
@@ -228,7 +228,7 @@ array of meshes within the frustum
 
 > **update**(`worldMin`, `worldMax`, `entries`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octree.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octree.ts#L52)
 
 Updates the octree by adding blocks for the passed in meshes within the min and max world parameters
 
@@ -262,7 +262,7 @@ meshes to be added to the octree blocks
 
 > `static` **CreationFuncForMeshes**(`entry`, `block`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octree.ts#L148)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octree.ts#L148)
 
 Adds a mesh into the octree block if it intersects the block
 
@@ -290,7 +290,7 @@ defines the block where the mesh should be added
 
 > `static` **CreationFuncForSubMeshes**(`entry`, `block`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octree.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octree.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octree.ts#L160)
 
 Adds a submesh into the octree block if it intersects the block
 

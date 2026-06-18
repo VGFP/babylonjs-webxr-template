@@ -6,7 +6,7 @@
 
 # Class: RecastJSPlugin
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L18)
 
 RecastJS navigation plugin
 
@@ -20,7 +20,7 @@ RecastJS navigation plugin
 
 > **new RecastJSPlugin**(`recastInjection?`): `RecastJSPlugin`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L48)
 
 Initializes the recastJS plugin
 
@@ -42,7 +42,7 @@ can be used to inject your own recast reference
 
 > **bjsRECAST**: `any` = `{}`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L23)
 
 Reference to the Recast library
 
@@ -52,7 +52,7 @@ Reference to the Recast library
 
 > **name**: `string` = `"RecastJSPlugin"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L28)
 
 plugin name
 
@@ -66,7 +66,7 @@ plugin name
 
 > **navMesh**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L33)
 
 the first navmesh created. We might extend this to support multiple navmeshes
 
@@ -78,7 +78,7 @@ the first navmesh created. We might extend this to support multiple navmeshes
 
 > **get** **timeFactor**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L127)
 
 Get the time factor used for crowd agent update
 
@@ -92,7 +92,7 @@ the time factor
 
 > **set** **timeFactor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L119)
 
 Time factor applied when updating crowd agents (default 1). A value of 0 will pause crowd updates.
 
@@ -114,7 +114,7 @@ the time factor applied at update
 
 > **addBoxObstacle**(`position`, `extent`, `angle`): [`Nullable`](../type-aliases/Nullable.md)\<[`IObstacle`](../type-aliases/IObstacle.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:510](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L510)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:510](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L510)
 
 Creates an oriented box obstacle and add it to the navigation
 
@@ -154,7 +154,7 @@ the obstacle freshly created
 
 > **addCylinderObstacle**(`position`, `radius`, `height`): [`Nullable`](../type-aliases/Nullable.md)\<[`IObstacle`](../type-aliases/IObstacle.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:496](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L496)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:496](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L496)
 
 Creates a cylinder obstacle and add it to the navigation
 
@@ -194,7 +194,7 @@ the obstacle freshly created
 
 > **buildFromNavmeshData**(`data`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:436](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L436)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:436](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L436)
 
 build the navmesh from a previously saved state using getNavmeshData
 
@@ -220,7 +220,7 @@ the Uint8Array returned by getNavmeshData
 
 > **computePath**(`start`, `end`): [`Vector3`](Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:370](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L370)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:370](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L370)
 
 Compute a navigation path from start to end. Returns an empty array if no path can be computed
 Path is straight.
@@ -255,7 +255,7 @@ array containing world position composing the path
 
 > **computePathSmooth**(`start`, `end`): [`Vector3`](Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:388](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L388)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:388](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L388)
 
 Compute a navigation path from start to end. Returns an empty array if no path can be computed.
 Path follows navigation mesh geometry.
@@ -290,7 +290,7 @@ array containing world position composing the path
 
 > **createCrowd**(`maxAgents`, `maxAgentRadius`, `scene`): [`ICrowd`](../interfaces/ICrowd.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:405](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L405)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:405](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L405)
 
 Create a new Crowd so you can add agents
 
@@ -330,7 +330,7 @@ the crowd you can add agents to
 
 > **createDebugNavMesh**(`scene`): [`Mesh`](Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:234](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L234)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:234](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L234)
 
 Create a navigation mesh debug mesh
 
@@ -358,7 +358,7 @@ debug display mesh
 
 > **createNavMesh**(`meshes`, `parameters`, `completion?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L137)
 
 Creates a navigation mesh
 
@@ -396,7 +396,7 @@ callback when data is available from the worker. Not used without a worker
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:478](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L478)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:478](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L478)
 
 Disposes of the plugin resources
 
@@ -414,7 +414,7 @@ Disposes of the plugin resources
 
 > **getClosestPoint**(`position`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:266](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L266)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:266](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L266)
 
 Get a navigation mesh constrained position, closest to the parameter position
 
@@ -442,7 +442,7 @@ the closest point to position constrained by the navigation mesh
 
 > **getClosestPointToRef**(`position`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:280](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L280)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:280](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L280)
 
 Get a navigation mesh constrained position, closest to the parameter position
 
@@ -474,7 +474,7 @@ output the closest point to position constrained by the navigation mesh
 
 > **getDefaultQueryExtent**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:427](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L427)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:427](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L427)
 
 Get the Bounding box extent specified by setDefaultQueryExtent
 
@@ -494,7 +494,7 @@ the box extent values
 
 > **getDefaultQueryExtentToRef**(`result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:470](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L470)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:470](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L470)
 
 Get the Bounding box extent result specified by setDefaultQueryExtent
 
@@ -520,7 +520,7 @@ output the box extent values
 
 > **getMaximumSubStepCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L111)
 
 Get the maximum number of iterations per navigation tick update
 
@@ -540,7 +540,7 @@ the maximum number of iterations
 
 > **getNavmeshData**(): `Uint8Array`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:457](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L457)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:457](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L457)
 
 returns the navmesh data that can be used later. The navmesh must be built before retrieving the data
 
@@ -560,7 +560,7 @@ data the Uint8Array that can be saved and reused
 
 > **getRandomPointAround**(`position`, `maxRadius`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:294](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L294)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:294](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L294)
 
 Get a navigation mesh constrained position, within a particular radius
 
@@ -594,7 +594,7 @@ the closest point to position constrained by the navigation mesh
 
 > **getRandomPointAroundToRef**(`position`, `maxRadius`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:309](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L309)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:309](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L309)
 
 Get a navigation mesh constrained position, within a particular radius
 
@@ -632,7 +632,7 @@ output the closest point to position constrained by the navigation mesh
 
 > **getRandomSeed**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:540](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L540)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:540](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L540)
 
 Returns the seed used for randomized functions like `getRandomPointAround`
 
@@ -648,7 +648,7 @@ seed number
 
 > **getTimeStep**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L92)
 
 Get the time step of the navigation tick update.
 
@@ -668,7 +668,7 @@ the current time step
 
 > **isSupported**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:532](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L532)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:532](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L532)
 
 If this plugin is supported
 
@@ -688,7 +688,7 @@ true if plugin is supported
 
 > **moveAlong**(`position`, `destination`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L323)
 
 Compute the final position from a segment made of destination-position
 
@@ -722,7 +722,7 @@ the resulting point along the navmesh
 
 > **moveAlongToRef**(`position`, `destination`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:341](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L341)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:341](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L341)
 
 Compute the final position from a segment made of destination-position
 
@@ -760,7 +760,7 @@ output the resulting point along the navmesh
 
 > **removeObstacle**(`obstacle`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:524](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L524)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:524](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L524)
 
 Removes an obstacle created by addCylinderObstacle or addBoxObstacle
 
@@ -786,7 +786,7 @@ obstacle to remove from the navigation
 
 > **setDefaultQueryExtent**(`extent`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:416](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L416)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:416](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L416)
 
 Set the Bounding box extent for doing spatial queries (getClosestPoint, getRandomPointAround, ...)
 The queries will try to find a solution within those bounds
@@ -814,7 +814,7 @@ x,y,z value that define the extent around the queries point of reference
 
 > **setMaximumSubStepCount**(`newStepCount?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L103)
 
 If delta time in navigation tick update is greater than the time step
 a number of sub iterations are done. If more iterations are needed to reach deltatime
@@ -843,7 +843,7 @@ the maximum number of iterations
 
 > **setRandomSeed**(`seed`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:548](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L548)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:548](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L548)
 
 Set the seed used for randomized functions like `getRandomPointAround`
 
@@ -865,7 +865,7 @@ number used as seed for random functions
 
 > **setTimeStep**(`newTimeStep?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L84)
 
 Set the time step of the navigation tick update.
 Default is 1/60.
@@ -893,7 +893,7 @@ the new timestep to apply to this world.
 
 > **setWorkerURL**(`workerURL`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L70)
 
 Set worker URL to be used when generating a new navmesh
 

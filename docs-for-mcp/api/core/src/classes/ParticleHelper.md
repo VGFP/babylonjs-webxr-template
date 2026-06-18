@@ -6,7 +6,7 @@
 
 # Class: ParticleHelper
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleHelper.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleHelper.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleHelper.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleHelper.ts#L18)
 
 This class is made for on one-liner static method to help creating particle system set.
 
@@ -26,7 +26,7 @@ This class is made for on one-liner static method to help creating particle syst
 
 > `static` **BaseAssetsUrl**: `string` = `ParticleSystemSet.BaseAssetsUrl`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleHelper.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleHelper.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleHelper.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleHelper.ts#L22)
 
 Gets or sets base Assets URL
 
@@ -36,7 +36,7 @@ Gets or sets base Assets URL
 
 > `static` **CreateFromSnippetAsync**: (`snippetId`, `scene`, `gpu`, `rootUrl`, `capacity?`) => `Promise`\<[`IParticleSystem`](../interfaces/IParticleSystem.md)\> = `ParticleHelper.ParseFromSnippetAsync`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleHelper.ts:229](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleHelper.ts#L229)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleHelper.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleHelper.ts#L229)
 
 Creates a particle system from a snippet saved by the particle system editor
 
@@ -86,21 +86,31 @@ Please use ParseFromSnippetAsync instead
 
 #### Param
 
+**snippetId**
+
 defines the snippet to load (can be set to _BLANK to create a default one)
 
 #### Param
+
+**scene**
 
 defines the hosting scene
 
 #### Param
 
+**gpu**
+
 If the system will use gpu
 
 #### Param
 
+**rootUrl**
+
 defines the root URL to use to load textures and relative dependencies
 
 #### Param
+
+**capacity**
 
 defines the system capacity (if null or undefined the sotred capacity will be used)
 
@@ -114,7 +124,7 @@ a promise that will resolve to the new particle system
 
 > `static` **SnippetUrl**: `string` = `Constants.SnippetUrl`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleHelper.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleHelper.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleHelper.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleHelper.ts#L25)
 
 Define the Url to load snippets
 
@@ -124,7 +134,7 @@ Define the Url to load snippets
 
 > `static` **CreateAsync**(`type`, `scene`, `gpu?`, `capacity?`): `Promise`\<[`ParticleSystemSet`](ParticleSystemSet.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleHelper.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleHelper.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleHelper.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleHelper.ts#L79)
 
 This is the main static method (one-liner) of this helper to create different particle systems
 
@@ -166,7 +176,7 @@ the ParticleSystemSet created
 
 > `static` **CreateDefault**(`emitter`, `capacity?`, `scene?`, `useGPU?`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleHelper.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleHelper.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleHelper.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleHelper.ts#L35)
 
 Create a default particle system that you can tweak
 
@@ -208,7 +218,7 @@ the new Particle system
 
 > `static` **ExportSet**(`systems`): [`ParticleSystemSet`](ParticleSystemSet.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleHelper.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleHelper.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleHelper.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleHelper.ts#L120)
 
 Static function used to export a particle system to a ParticleSystemSet variable.
 Please note that the emitter shape is not exported
@@ -233,7 +243,7 @@ the created particle system set
 
 > `static` **ParseFromFileAsync**(`name`, `url`, `scene`, `gpu?`, `rootUrl?`, `capacity?`): `Promise`\<[`IParticleSystem`](../interfaces/IParticleSystem.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleHelper.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleHelper.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleHelper.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleHelper.ts#L141)
 
 Creates a particle system from a snippet saved in a remote file
 
@@ -287,7 +297,7 @@ a promise that will resolve to the new particle system
 
 > `static` **ParseFromSnippetAsync**(`snippetId`, `scene`, `gpu?`, `rootUrl?`, `capacity?`): `Promise`\<[`IParticleSystem`](../interfaces/IParticleSystem.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleHelper.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleHelper.ts#L183)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleHelper.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleHelper.ts#L183)
 
 Creates a particle system from a snippet saved by the particle system editor
 

@@ -6,7 +6,7 @@
 
 # Class: NodeGeometryConnectionPoint
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L33)
 
 Defines a connection point for a block
 
@@ -16,7 +16,7 @@ Defines a connection point for a block
 
 > **new NodeGeometryConnectionPoint**(`name`, `ownerBlock`, `direction`): `NodeGeometryConnectionPoint`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:283](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L283)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L283)
 
 Creates a new connection point
 
@@ -50,7 +50,7 @@ defines the direction of the connection point
 
 > **acceptedConnectionPointTypes**: [`NodeGeometryBlockConnectionPointTypes`](../enumerations/NodeGeometryBlockConnectionPointTypes.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L70)
 
 Gets or sets the additional types supported by this connection point
 
@@ -60,7 +60,7 @@ Gets or sets the additional types supported by this connection point
 
 > **defaultValue**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L100)
 
 Gets the default value used for this point at creation time
 
@@ -70,7 +70,7 @@ Gets the default value used for this point at creation time
 
 > **displayName**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L170)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L170)
 
 Gets or sets the connection point display name
 
@@ -80,7 +80,7 @@ Gets or sets the connection point display name
 
 > **excludedConnectionPointTypes**: [`NodeGeometryBlockConnectionPointTypes`](../enumerations/NodeGeometryBlockConnectionPointTypes.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L75)
 
 Gets or sets the additional types excluded by this connection point
 
@@ -90,7 +90,7 @@ Gets or sets the additional types excluded by this connection point
 
 > **exposedPortPosition**: `number` = `-1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L95)
 
 Gets or sets number indicating the position that the port is exposed to on a frame
 
@@ -100,7 +100,7 @@ Gets or sets number indicating the position that the port is exposed to on a fra
 
 > **isExposedOnFrame**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L90)
 
 Gets or sets a boolean indicating that this connection point is exposed on a frame
 
@@ -110,7 +110,7 @@ Gets or sets a boolean indicating that this connection point is exposed on a fra
 
 > **isOptional**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:175](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L175)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L175)
 
 Gets or sets a boolean indicating that this connection point can be omitted
 
@@ -120,7 +120,7 @@ Gets or sets a boolean indicating that this connection point can be omitted
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L165)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L165)
 
 Gets or sets the connection point name
 
@@ -130,7 +130,7 @@ Gets or sets the connection point name
 
 > **onConnectionObservable**: [`Observable`](Observable.md)\<`NodeGeometryConnectionPoint`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L80)
 
 Observable triggered when this point is connected
 
@@ -140,7 +140,7 @@ Observable triggered when this point is connected
 
 > **onDisconnectionObservable**: [`Observable`](Observable.md)\<`NodeGeometryConnectionPoint`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L85)
 
 Observable triggered when this point is disconnected
 
@@ -150,7 +150,7 @@ Observable triggered when this point is disconnected
 
 > **value**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L105)
 
 Gets or sets the default value used for this point if nothing is connected
 
@@ -160,7 +160,7 @@ Gets or sets the default value used for this point if nothing is connected
 
 > **valueMax**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L115)
 
 Gets or sets the max value accepted for this point if nothing is connected
 
@@ -170,7 +170,7 @@ Gets or sets the max value accepted for this point if nothing is connected
 
 > **valueMin**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:110](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L110)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L110)
 
 Gets or sets the min value accepted for this point if nothing is connected
 
@@ -182,7 +182,7 @@ Gets or sets the min value accepted for this point if nothing is connected
 
 > **get** **callCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L245)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L245)
 
 Gets the number of times this point was called
 
@@ -198,7 +198,7 @@ Gets the number of times this point was called
 
 > **get** **connectedBlocks**(): [`NodeGeometryBlock`](NodeGeometryBlock.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:204](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L204)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:204](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L204)
 
 Get the block connected on the endpoints of this connection (if any)
 
@@ -214,7 +214,7 @@ Get the block connected on the endpoints of this connection (if any)
 
 > **get** **connectedPoint**(): [`Nullable`](../type-aliases/Nullable.md)\<`NodeGeometryConnectionPoint`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L185)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L185)
 
 Get the other side of the connection (if any)
 
@@ -230,7 +230,7 @@ Get the other side of the connection (if any)
 
 > **get** **direction**(): [`NodeGeometryConnectionPointDirection`](../enumerations/NodeGeometryConnectionPointDirection.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L63)
 
 Gets the direction of the point
 
@@ -246,7 +246,7 @@ Gets the direction of the point
 
 > **get** **endpoints**(): `NodeGeometryConnectionPoint`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:213](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L213)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:213](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L213)
 
 Gets the list of connected endpoints
 
@@ -262,7 +262,7 @@ Gets the list of connected endpoints
 
 > **get** **executionCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:252](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L252)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:252](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L252)
 
 Gets the number of times this point was executed
 
@@ -278,7 +278,7 @@ Gets the number of times this point was executed
 
 > **get** **hasEndpoints**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:218](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L218)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L218)
 
 Gets a boolean indicating if that output point is connected to at least one input
 
@@ -294,7 +294,7 @@ Gets a boolean indicating if that output point is connected to at least one inpu
 
 > **get** **innerType**(): [`NodeGeometryBlockConnectionPointTypes`](../enumerations/NodeGeometryBlockConnectionPointTypes.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:223](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L223)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L223)
 
 Get the inner type (ie AutoDetect for instance instead of the inferred one)
 
@@ -310,7 +310,7 @@ Get the inner type (ie AutoDetect for instance instead of the inferred one)
 
 > **get** **isConnected**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L180)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L180)
 
 Gets a boolean indicating that the current point is connected to another NodeMaterialBlock
 
@@ -326,7 +326,7 @@ Gets a boolean indicating that the current point is connected to another NodeMat
 
 > **get** **ownerBlock**(): [`NodeGeometryBlock`](NodeGeometryBlock.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L190)
 
 Get the block that owns this connection point
 
@@ -342,7 +342,7 @@ Get the block that owns this connection point
 
 > **get** **sourceBlock**(): [`Nullable`](../type-aliases/Nullable.md)\<[`NodeGeometryBlock`](NodeGeometryBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L195)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L195)
 
 Get the block connected on the other side of this connection (if any)
 
@@ -358,7 +358,7 @@ Get the block connected on the other side of this connection (if any)
 
 > **get** **type**(): [`NodeGeometryBlockConnectionPointTypes`](../enumerations/NodeGeometryBlockConnectionPointTypes.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L120)
 
 Gets or sets the connection point type (default is float)
 
@@ -370,7 +370,7 @@ Gets or sets the connection point type (default is float)
 
 > **set** **type**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:158](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L158)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L158)
 
 ##### Parameters
 
@@ -388,7 +388,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBloc
 
 > **addExcludedConnectionPointFromAllowedTypes**(`mask`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:389](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L389)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:389](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L389)
 
 Fill the list of excluded connection point types with all types other than those passed in the parameter
 
@@ -410,7 +410,7 @@ Types (ORed values of NodeMaterialBlockConnectionPointTypes) that are allowed, a
 
 > **canConnectTo**(`connectionPoint`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:302](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L302)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L302)
 
 Gets a boolean indicating if the current point can be connected to another point
 
@@ -434,7 +434,7 @@ a boolean
 
 > **checkCompatibilityState**(`connectionPoint`): [`NodeGeometryConnectionPointCompatibilityStates`](../enumerations/NodeGeometryConnectionPointCompatibilityStates.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:311](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L311)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:311](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L311)
 
 Gets a number indicating if the current point can be connected to another point
 
@@ -458,7 +458,7 @@ a number defining the compatibility state
 
 > **connectTo**(`connectionPoint`, `ignoreConstraints?`): `NodeGeometryConnectionPoint`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:350](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L350)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L350)
 
 Connect this point to another connection point
 
@@ -488,7 +488,7 @@ the current connection point
 
 > **disconnectFrom**(`endpoint`): `NodeGeometryConnectionPoint`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:369](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L369)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:369](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L369)
 
 Disconnect this point from one of his endpoint
 
@@ -512,7 +512,7 @@ the current connection point
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:438](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L438)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:438](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L438)
 
 Release resources
 
@@ -526,7 +526,7 @@ Release resources
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:293](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L293)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:293](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L293)
 
 Gets the current class name e.g. "NodeMaterialConnectionPoint"
 
@@ -542,7 +542,7 @@ the class name
 
 > **getConnectedValue**(`state`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L261)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L261)
 
 Gets the value represented by this connection point
 
@@ -566,7 +566,7 @@ the connected value or the value if nothing is connected
 
 > **serialize**(`isInput?`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:404](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L404)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:404](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L404)
 
 Serializes this point in a JSON representation
 

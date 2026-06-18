@@ -6,7 +6,7 @@
 
 # Class: EngineStore
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/engineStore.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/engineStore.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/engineStore.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/engineStore.ts#L11)
 
 The engine store class is responsible to hold all the instances of Engine and Scene created
 during the life time of the application.
@@ -27,7 +27,7 @@ during the life time of the application.
 
 > `static` **FallbackTexture**: `string` = `""`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/engineStore.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/engineStore.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/engineStore.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/engineStore.ts#L50)
 
 Texture content used if a texture cannot loaded
 
@@ -37,7 +37,7 @@ Texture content used if a texture cannot loaded
 
 > `static` **Instances**: [`AbstractEngine`](AbstractEngine.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/engineStore.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/engineStore.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/engineStore.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/engineStore.ts#L13)
 
 Gets the list of created engines
 
@@ -47,7 +47,7 @@ Gets the list of created engines
 
 > `static` **OnEnginesDisposedObservable**: [`Observable`](Observable.md)\<[`AbstractEngine`](AbstractEngine.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/engineStore.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/engineStore.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/engineStore.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/engineStore.ts#L19)
 
 Notifies when an engine was disposed.
 Mainly used for static/cache cleanup
@@ -58,7 +58,7 @@ Mainly used for static/cache cleanup
 
 > `static` **UseFallbackTexture**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/engineStore.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/engineStore.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/engineStore.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/engineStore.ts#L45)
 
 Gets or sets a global variable indicating if fallback texture must be used when a texture cannot be loaded
 
@@ -70,7 +70,7 @@ Gets or sets a global variable indicating if fallback texture must be used when 
 
 > **get** `static` **LastCreatedEngine**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractEngine`](AbstractEngine.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/engineStore.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/engineStore.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/engineStore.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/engineStore.ts#L27)
 
 Gets the latest created engine
 
@@ -86,7 +86,7 @@ Gets the latest created engine
 
 > **get** `static` **LastCreatedScene**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Scene`](Scene.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/engineStore.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/engineStore.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/engineStore.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/engineStore.ts#L38)
 
 Gets the latest created scene
 

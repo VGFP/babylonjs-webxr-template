@@ -6,7 +6,7 @@
 
 # Class: DefaultKTX2DecoderOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L18)
 
 Class that defines the default KTX2 decoder options.
 
@@ -30,7 +30,7 @@ This class is useful for providing options to the KTX2 decoder to control how th
 
 > **get** **bypassTranscoders**(): `string`[] \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L121)
 
 list of transcoders to bypass when looking for a suitable transcoder. The available transcoders are:
      UniversalTranscoder_UASTC_ASTC
@@ -49,7 +49,7 @@ list of transcoders to bypass when looking for a suitable transcoder. The availa
 
 > **set** **bypassTranscoders**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L125)
 
 ##### Parameters
 
@@ -69,7 +69,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer
 
 > **get** **forceR8**(): `boolean` \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L82)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L82)
 
 force to always use (uncompressed) R8 for transcoded format
 
@@ -81,7 +81,7 @@ force to always use (uncompressed) R8 for transcoded format
 
 > **set** **forceR8**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L86)
 
 ##### Parameters
 
@@ -101,7 +101,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer
 
 > **get** **forceRG8**(): `boolean` \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L98)
 
 force to always use (uncompressed) RG8 for transcoded format
 
@@ -113,7 +113,7 @@ force to always use (uncompressed) RG8 for transcoded format
 
 > **set** **forceRG8**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L102)
 
 ##### Parameters
 
@@ -133,7 +133,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer
 
 > **get** **forceRGBA**(): `boolean` \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L66)
 
 force to always use (uncompressed) RGBA for transcoded format
 
@@ -145,7 +145,7 @@ force to always use (uncompressed) RGBA for transcoded format
 
 > **set** **forceRGBA**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L70)
 
 ##### Parameters
 
@@ -165,7 +165,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer
 
 > **get** **isDirty**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L24)
 
 Gets the dirty flag
 
@@ -181,7 +181,7 @@ Gets the dirty flag
 
 > **get** **useRGBAIfASTCBC7NotAvailableWhenUASTC**(): `boolean` \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L32)
 
 force a (uncompressed) RGBA transcoded format if transcoding a UASTC source format and ASTC + BC7 are not available as a compressed transcoded format
 
@@ -193,7 +193,7 @@ force a (uncompressed) RGBA transcoded format if transcoding a UASTC source form
 
 > **set** **useRGBAIfASTCBC7NotAvailableWhenUASTC**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L36)
 
 ##### Parameters
 
@@ -213,7 +213,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer
 
 > **get** **useRGBAIfOnlyBC1BC3AvailableWhenUASTC**(): `boolean` \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L50)
 
 force a (uncompressed) RGBA transcoded format if transcoding a UASTC source format and only BC1 or BC3 are available as a compressed transcoded format.
 This property is true by default to favor speed over memory, because currently transcoding from UASTC to BC1/3 is slow because the transcoder transcodes
@@ -227,7 +227,7 @@ to uncompressed and then recompresses the texture
 
 > **set** **useRGBAIfOnlyBC1BC3AvailableWhenUASTC**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L54)
 
 ##### Parameters
 

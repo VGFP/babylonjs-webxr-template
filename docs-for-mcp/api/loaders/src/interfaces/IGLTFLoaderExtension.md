@@ -6,7 +6,7 @@
 
 # Interface: IGLTFLoaderExtension
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L135)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L135)
 
 Interface for extending the loader.
 
@@ -20,7 +20,7 @@ Interface for extending the loader.
 
 > **enabled**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L144)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L144)
 
 Defines whether this extension is enabled.
 
@@ -30,7 +30,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L139)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L139)
 
 The name of this extension.
 
@@ -40,7 +40,7 @@ The name of this extension.
 
 > `optional` **order?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L150)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L150)
 
 Defines the order of this extension.
 The loader sorts the extensions using these values when loading.

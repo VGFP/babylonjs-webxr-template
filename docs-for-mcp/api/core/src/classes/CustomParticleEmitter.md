@@ -6,7 +6,7 @@
 
 # Class: CustomParticleEmitter
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L16)
 
 Particle emitter emitting particles from a custom list of positions.
 
@@ -20,7 +20,7 @@ Particle emitter emitting particles from a custom list of positions.
 
 > **new CustomParticleEmitter**(): `CustomParticleEmitter`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L38)
 
 Creates a new instance CustomParticleEmitter
 
@@ -34,7 +34,7 @@ Creates a new instance CustomParticleEmitter
 
 > **particleDestinationGenerator**: (`index`, `particle`, `outDestination`) => `void` = `EmptyGeneratorFunc`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L27)
 
 Gets or sets the destination generator that will create the final destination of each particle.
  * Index will be provided when used with GPU particle. Particle will be provided when used with CPU particles
@@ -63,7 +63,7 @@ Gets or sets the destination generator that will create the final destination of
 
 > **particleDirectionGenerator**: (`index`, `particle`, `outDestination`) => `void` = `EmptyGeneratorFunc`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L33)
 
 Gets or sets the direction generator that will create the initial direction of each particle.
  * Index will be provided when used with GPU particle. Particle will be provided when used with CPU particles
@@ -92,7 +92,7 @@ Gets or sets the direction generator that will create the initial direction of e
 
 > **particlePositionGenerator**: (`index`, `particle`, `outPosition`) => `void` = `EmptyGeneratorFunc`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L21)
 
 Gets or sets the position generator that will create the initial position of each particle.
 Index will be provided when used with GPU particle. Particle will be provided when used with CPU particles
@@ -121,7 +121,7 @@ Index will be provided when used with GPU particle. Particle will be provided wh
 
 > **applyToShader**(`uboOrEffect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L113)
 
 Called by the GPUParticleSystem to setup the update shader
 
@@ -147,7 +147,7 @@ defines the update shader
 
 > **buildUniformLayout**(`ubo`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L120)
 
 Creates the structure of the ubo for this particle emitter
 
@@ -173,7 +173,7 @@ ubo to create the structure for
 
 > **clone**(): `CustomParticleEmitter`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L100)
 
 Clones the current emitter and returns a copy of it
 
@@ -193,7 +193,7 @@ the new emitter
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L134)
 
 Returns the string "PointParticleEmitter"
 
@@ -213,7 +213,7 @@ a string containing the class name
 
 > **getEffectDefines**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L126)
 
 Returns a string to use to update the GPU particles update shader
 
@@ -233,7 +233,7 @@ a string containing the defines string
 
 > **parse**(`serializationObject`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:156](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L156)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L156)
 
 Parse properties from a JSON object
 
@@ -259,7 +259,7 @@ defines the JSON object
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L142)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L142)
 
 Serializes the particle system to a JSON object.
 
@@ -279,7 +279,7 @@ the JSON object
 
 > **startDirectionFunction**(`worldMatrix`, `directionToUpdate`, `particle`, `isLocal`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L47)
 
 Called by the particle System when the direction is computed for the created particle.
 
@@ -323,7 +323,7 @@ defines if the direction should be set in local space
 
 > **startPositionFunction**(`worldMatrix`, `positionToUpdate`, `particle`, `isLocal`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/customParticleEmitter.ts#L79)
 
 Called by the particle System when the position is computed for the created particle.
 

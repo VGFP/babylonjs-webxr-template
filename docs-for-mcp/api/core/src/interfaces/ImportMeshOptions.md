@@ -6,7 +6,7 @@
 
 # Interface: ImportMeshOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:436](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L436)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:441](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L441)
 
 Defines options for ImportMeshAsync.
 
@@ -20,7 +20,7 @@ Defines options for ImportMeshAsync.
 
 > `optional` **meshNames?**: `string` \| readonly `string`[] \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:440](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L440)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:445](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L445)
 
 An array of mesh names, a single mesh name, or empty string for all meshes that filter what meshes are imported
 
@@ -30,7 +30,7 @@ An array of mesh names, a single mesh name, or empty string for all meshes that 
 
 > `optional` **name?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:418](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L418)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:423](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L423)
 
 Defines the filename, if the data is binary
 
@@ -44,7 +44,7 @@ Defines the filename, if the data is binary
 
 > `optional` **onProgress?**: (`event`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:408](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L408)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:413](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L413)
 
 A callback with a progress event for each file being loaded
 
@@ -68,7 +68,7 @@ A callback with a progress event for each file being loaded
 
 > `optional` **pluginExtension?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:413](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L413)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:418](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L418)
 
 The extension used to determine the plugin
 
@@ -82,7 +82,7 @@ The extension used to determine the plugin
 
 > `optional` **pluginOptions?**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:423](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L423)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:428](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L428)
 
 Defines options for the registered plugins
 
@@ -107,6 +107,26 @@ Defines if the plugin is enabled
 > `optional` **loopMode?**: `number`
 
 Defines the loop mode of the animation to load.
+
+#### fbx?
+
+> `optional` **fbx?**: `object`
+
+Defines options for the FBX loader.
+
+##### fbx.enabled?
+
+> `optional` **enabled?**: `boolean`
+
+Defines if the plugin is enabled
+
+##### fbx.normalMapCoordinateSystem?
+
+> `optional` **normalMapCoordinateSystem?**: [`FBXNormalMapCoordinateSystem`](../../../loaders/src/type-aliases/FBXNormalMapCoordinateSystem.md)
+
+Source convention for tangent-space normal maps connected through FBX normal-map slots.
+FBX does not standardize this convention, so the loader defaults to the glTF/USD-style Y-up convention.
+Set to "y-down" for assets authored with inverted green/Y normal maps.
 
 #### gltf?
 
@@ -1107,6 +1127,14 @@ Setting the URL directly on the loader options
 spzLibraryUrl: "https://unpkg.com/@adobe/spz@0.2.0/dist/spz.js"
 ```
 
+##### splat.useSogTextures?
+
+> `optional` **useSogTextures?**: `boolean`
+
+Load SOG files as raw GPU textures and dequantize in the shader.
+Skips the CPU decode pass and yields much faster load times.
+Requires WebGL2 / WebGPU. Defaults to false (CPU decode).
+
 #### stl?
 
 > `optional` **stl?**: `object`
@@ -1129,7 +1157,7 @@ Defines if the plugin is enabled
 
 > `optional` **rootUrl?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:403](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L403)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:408](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L408)
 
 A string that defines the root url for the scene and resources or the concatenation of rootURL and filename (e.g. http://example.com/test.glb)
 

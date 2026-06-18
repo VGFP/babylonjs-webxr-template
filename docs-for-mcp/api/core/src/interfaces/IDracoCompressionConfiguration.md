@@ -6,7 +6,7 @@
 
 # Interface: IDracoCompressionConfiguration
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L14)
 
 Configuration for Draco compression
 
@@ -16,6 +16,6 @@ Configuration for Draco compression
 
 > **decoder**: `IDracoCodecConfiguration`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L18)
 
 Configuration for the decoder.

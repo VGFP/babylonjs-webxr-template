@@ -6,7 +6,7 @@
 
 # Class: PhysicsShapeGroundMesh
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:463](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L463)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:463](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L463)
 
 Helper object to create a ground mesh Shape
 
@@ -20,7 +20,7 @@ Helper object to create a ground mesh Shape
 
 > **new PhysicsShapeGroundMesh**(`groundMesh`, `scene`): `PhysicsShapeGroundMesh`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:469](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L469)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:469](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L469)
 
 Constructor of the Shape heightfield
 
@@ -52,7 +52,7 @@ scene to attach to
 
 > **\_pluginData**: `any` = `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L39)
 
 V2 Physics plugin private data for single shape
 
@@ -68,7 +68,7 @@ V2 Physics plugin private data for single shape
 
 > **get** **density**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:187](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L187)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L187)
 
 Returns the density of the physics shape.
 
@@ -82,7 +82,7 @@ The density of the physics shape.
 
 > **set** **density**(`density`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:179](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L179)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L179)
 
 Sets the density of the physics shape.
 
@@ -110,7 +110,7 @@ The density of the physics shape.
 
 > **get** **filterCollideMask**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L152)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L152)
 
 ##### Returns
 
@@ -122,7 +122,7 @@ Bitmask of categories that this shape should collide with
 
 > **set** **filterCollideMask**(`collideMask`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L144)
 
 Sets the collide mask of a shape. This is a bitfield of arbitrary
 "categories" to which this shape collides with. Given two shapes,
@@ -160,7 +160,7 @@ Bitmask of categories this shape should collide with
 
 > **get** **filterMembershipMask**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L125)
 
 Get the membership mask of a shape.
 
@@ -174,7 +174,7 @@ Bitmask of categories which this shape is a member of.
 
 > **set** **filterMembershipMask**(`membershipMask`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L117)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L117)
 
 Set the membership mask of a shape. This is a bitfield of arbitrary
 "categories" to which the shape is a member. This is used in combination
@@ -205,7 +205,7 @@ Bitfield of categories of this shape.
 
 > **get** **isTrigger**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L255)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:255](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L255)
 
 ##### Returns
 
@@ -215,7 +215,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:2
 
 > **set** **isTrigger**(`isTrigger`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:247](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L247)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:247](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L247)
 
 ##### Parameters
 
@@ -239,7 +239,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:2
 
 > **get** **material**(): [`PhysicsMaterial`](../interfaces/PhysicsMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:168](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L168)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:168](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L168)
 
 Returns the material of the physics shape.
 
@@ -253,7 +253,7 @@ The material of the physics shape.
 
 > **set** **material**(`material`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L159)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L159)
 
 ##### Parameters
 
@@ -277,7 +277,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:1
 
 > **get** **type**(): [`PhysicsShapeType`](../enumerations/PhysicsShapeType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L105)
 
 Returns the type of the physics shape.
 
@@ -297,7 +297,7 @@ The type of the physics shape.
 
 > **addChild**(`newChild`, `translation?`, `rotation?`, `scale?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L219)
 
 Adds a child shape to a container with an optional transform
 
@@ -341,7 +341,7 @@ Optional scale of the child shape relative to this shape
 
 > **addChildFromParent**(`parentTransform`, `newChild`, `childTransform`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L200)
 
 Utility to add a child shape to this container,
 automatically computing the relative transform between
@@ -381,7 +381,7 @@ The transform node associated with the child shape
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:262](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L262)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:262](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L262)
 
 Dispose the shape and release its associated resources.
 
@@ -399,7 +399,7 @@ Dispose the shape and release its associated resources.
 
 > **getBoundingBox**(): [`BoundingBox`](BoundingBox.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:243](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L243)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L243)
 
 Returns the bounding box of the physics shape.
 
@@ -419,7 +419,7 @@ The bounding box of the physics shape.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L97)
 
 Returns the string "PhysicsShape".
 
@@ -439,7 +439,7 @@ Returns the string "PhysicsShape".
 
 > **getNumChildren**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:235](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L235)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:235](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L235)
 
 Returns the number of children of a physics shape.
 
@@ -459,7 +459,7 @@ The number of children of a physics shape.
 
 > **removeChild**(`childIndex`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:227](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsShape.ts#L227)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L227)
 
 Removes a child shape from this shape.
 

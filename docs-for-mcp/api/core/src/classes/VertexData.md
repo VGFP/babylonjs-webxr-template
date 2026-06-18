@@ -6,7 +6,7 @@
 
 # Class: VertexData
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L177)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L177)
 
 This class contains the various kinds of data on every vertex of a mesh used in determining its shape and appearance
 
@@ -20,7 +20,7 @@ This class contains the various kinds of data on every vertex of a mesh used in 
 
 > **new VertexData**(): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:295](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L295)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:295](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L295)
 
 Creates a new VertexData
 
@@ -34,7 +34,7 @@ Creates a new VertexData
 
 > **colors**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L245)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L245)
 
 An array of the r, g, b, a, color of each vertex  [...., r, g, b, a, .....]
 
@@ -48,7 +48,7 @@ An array of the r, g, b, a, color of each vertex  [...., r, g, b, a, .....]
 
 > **hasVertexAlpha**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:290](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L290)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:290](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L290)
 
 Gets or sets a value indicating that the mesh must be flagged with hasVertexAlpha = true
 
@@ -58,7 +58,7 @@ Gets or sets a value indicating that the mesh must be flagged with hasVertexAlph
 
 > **indices**: [`Nullable`](../type-aliases/Nullable.md)\<[`IndicesArray`](../type-aliases/IndicesArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:270](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L270)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:270](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L270)
 
 An array of i, j, k the three vertex indices required for each triangular facet  [...., i, j, k .....]
 
@@ -72,7 +72,7 @@ An array of i, j, k the three vertex indices required for each triangular facet 
 
 > **materialInfos**: [`Nullable`](../type-aliases/Nullable.md)\<[`VertexDataMaterialInfo`](VertexDataMaterialInfo.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:275](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L275)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:275](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L275)
 
 An array defining material association for sub sections of the vertex data
 
@@ -82,7 +82,7 @@ An array defining material association for sub sections of the vertex data
 
 > **matricesIndices**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:250](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L250)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:250](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L250)
 
 An array containing the list of indices to the array of matrices produced by bones, each vertex have up to 4 indices (8 if the matricesIndicesExtra is set).
 
@@ -96,7 +96,7 @@ An array containing the list of indices to the array of matrices produced by bon
 
 > **matricesIndicesExtra**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:260](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L260)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L260)
 
 An array extending the number of possible indices
 
@@ -110,7 +110,7 @@ An array extending the number of possible indices
 
 > **matricesWeights**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L255)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:255](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L255)
 
 An array containing the list of weights defining the weight of each indexed matrix in the final computation
 
@@ -124,7 +124,7 @@ An array containing the list of weights defining the weight of each indexed matr
 
 > **matricesWeightsExtra**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:265](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L265)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:265](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L265)
 
 An array extending the number of possible weights when the number of indices is extended
 
@@ -138,7 +138,7 @@ An array extending the number of possible weights when the number of indices is 
 
 > **metadata**: `any` = `{}`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:285](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L285)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:285](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L285)
 
 Metadata used to store contextual values
 
@@ -148,7 +148,7 @@ Metadata used to store contextual values
 
 > **normals**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L205)
 
 An array of the x, y, z normal vector of each vertex  [...., x, y, z, .....]
 
@@ -162,7 +162,7 @@ An array of the x, y, z normal vector of each vertex  [...., x, y, z, .....]
 
 > **positions**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L200)
 
 An array of the x, y, z position of each vertex  [...., x, y, z, .....]
 
@@ -176,7 +176,7 @@ An array of the x, y, z position of each vertex  [...., x, y, z, .....]
 
 > **tangents**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:210](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L210)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L210)
 
 An array of the x, y, z, w tangent vector of each vertex  [...., x, y, z, w, .....]
 
@@ -190,7 +190,7 @@ An array of the x, y, z, w tangent vector of each vertex  [...., x, y, z, w, ...
 
 > **uniqueId**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:280](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L280)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:280](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L280)
 
 Gets the unique ID of this vertex Data
 
@@ -200,7 +200,7 @@ Gets the unique ID of this vertex Data
 
 > **uvs**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:215](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L215)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:215](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L215)
 
 An array of u,v which maps a texture image onto each vertex  [...., u, v, .....]
 
@@ -214,7 +214,7 @@ An array of u,v which maps a texture image onto each vertex  [...., u, v, .....]
 
 > **uvs2**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:220](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L220)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:220](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L220)
 
 A second array of u,v which maps a texture image onto each vertex  [...., u, v, .....]
 
@@ -228,7 +228,7 @@ A second array of u,v which maps a texture image onto each vertex  [...., u, v, 
 
 > **uvs3**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L225)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L225)
 
 A third array of u,v which maps a texture image onto each vertex  [...., u, v, .....]
 
@@ -242,7 +242,7 @@ A third array of u,v which maps a texture image onto each vertex  [...., u, v, .
 
 > **uvs4**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:230](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L230)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:230](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L230)
 
 A fourth array of u,v which maps a texture image onto each vertex  [...., u, v, .....]
 
@@ -256,7 +256,7 @@ A fourth array of u,v which maps a texture image onto each vertex  [...., u, v, 
 
 > **uvs5**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:235](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L235)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:235](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L235)
 
 A fifth array of u,v which maps a texture image onto each vertex  [...., u, v, .....]
 
@@ -270,7 +270,7 @@ A fifth array of u,v which maps a texture image onto each vertex  [...., u, v, .
 
 > **uvs6**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:240](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L240)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:240](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L240)
 
 A sixth array of u,v which maps a texture image onto each vertex  [...., u, v, .....]
 
@@ -284,7 +284,7 @@ A sixth array of u,v which maps a texture image onto each vertex  [...., u, v, .
 
 > `readonly` `static` **BACKSIDE**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L185)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L185)
 
 Mesh side orientation : usually the internal or back surface
 
@@ -294,7 +294,7 @@ Mesh side orientation : usually the internal or back surface
 
 > `readonly` `static` **DEFAULTSIDE**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:193](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L193)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L193)
 
 Mesh side orientation : by default, `FRONTSIDE`
 
@@ -304,7 +304,7 @@ Mesh side orientation : by default, `FRONTSIDE`
 
 > `readonly` `static` **DOUBLESIDE**: `2` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:189](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L189)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L189)
 
 Mesh side orientation : both internal and external or front and back surfaces
 
@@ -314,7 +314,7 @@ Mesh side orientation : both internal and external or front and back surfaces
 
 > `readonly` `static` **FRONTSIDE**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:181](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L181)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:181](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L181)
 
 Mesh side orientation : usually the external or front surface
 
@@ -324,7 +324,7 @@ Mesh side orientation : usually the external or front surface
 
 > **applyToGeometry**(`geometry`, `updatable?`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:375](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L375)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:375](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L375)
 
 Associates the vertexData to the passed Geometry.
 Sets it as updatable or not (default `false`)
@@ -355,7 +355,7 @@ VertexData
 
 > **applyToMesh**(`mesh`, `updatable?`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:363](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L363)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:363](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L363)
 
 Associates the vertexData to the passed Mesh.
 Sets it as updatable or not (default `false`)
@@ -386,7 +386,7 @@ the VertexData
 
 > **clone**(): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1345](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1345)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1345)
 
 Clone the current vertex data
 
@@ -402,7 +402,7 @@ a copy of the current data
 
 > **merge**(`others`, `use32BitsIndices?`, `forceCloneIndices?`, `mergeMaterialIds?`, `enableCompletion?`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:767](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L767)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:767](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L767)
 
 Merges the passed VertexData into the current one
 
@@ -450,7 +450,7 @@ the modified VertexData
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1354](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1354)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1354](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1354)
 
 Serializes the VertexData
 
@@ -466,7 +466,7 @@ a serialized object
 
 > **set**(`data`, `kind`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:305](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L305)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:305](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L305)
 
 Uses the passed data array to set the set the values for the specified kind of data
 
@@ -494,7 +494,7 @@ the type of data that is being set, eg positions, colors etc
 
 > **splitBasedOnMaterialID**(): `VertexData`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:672](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L672)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:672](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L672)
 
 Generates an array of vertex data where each vertex data only has one material info
 
@@ -510,7 +510,7 @@ An array of VertexData
 
 > **transform**(`matrix`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:646](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L646)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:646](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L646)
 
 Transforms each position and each normal of the vertexData according to the passed Matrix
 
@@ -534,7 +534,7 @@ the VertexData
 
 > **updateGeometry**(`geometry`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:395](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L395)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:395](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L395)
 
 Updates the associated geometry
 
@@ -558,7 +558,7 @@ VertexData.
 
 > **updateMesh**(`mesh`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:385](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L385)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:385](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L385)
 
 Updates the associated mesh
 
@@ -582,7 +582,7 @@ VertexData
 
 > `static` **ComputeNormals**(`positions`, `indices`, `normals`, `options?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:2035](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L2035)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:2035](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L2035)
 
 Compute normals for given positions and indices
 
@@ -675,7 +675,7 @@ an object used to set the following optional parameters for the TorusKnot, optio
 
 > `static` **CreateBox**(`options`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1584](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1584)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1584](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1584)
 
 Creates the VertexData for a box
 
@@ -746,7 +746,7 @@ Please use CreateBoxVertexData from the BoxBuilder file instead
 
 > `static` **CreateCapsule**(`options?`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1972](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1972)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1972](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1972)
 
 Creates the VertexData for a Capsule, inspired from https://github.com/maximeq/three-js-capsule-geometry/blob/master/src/CapsuleBufferGeometry.js
 
@@ -774,7 +774,7 @@ Please use CreateCapsuleVertexData from the capsuleBuilder file instead
 
 > `static` **CreateCylinder**(`options`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1714](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1714)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1714](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1714)
 
 Creates the VertexData for a cylinder, cone or prism
 
@@ -870,7 +870,7 @@ please use CreateCylinderVertexData instead
 
 > `static` **CreateDashedLines**(`options`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1778](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1778)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1778](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1778)
 
 Create the VertexData for a DashedLines
 
@@ -916,7 +916,7 @@ use CreateDashedLinesVertexData instead
 
 > `static` **CreateDisc**(`options`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1877](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1877)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1877](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1877)
 
 Creates the VertexData of the Disc or regular Polygon
 
@@ -972,7 +972,7 @@ use CreateDiscVertexData instead
 
 > `static` **CreateGround**(`options`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1791](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1791)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1791](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1791)
 
 Creates the VertexData for a Ground
 
@@ -1021,7 +1021,7 @@ Please use CreateGroundVertexData instead
 
 > `static` **CreateGroundFromHeightMap**(`options`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1834](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1834)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1834](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1834)
 
 Creates the VertexData of the Ground designed from a heightmap
 
@@ -1097,7 +1097,7 @@ use CreateGroundFromHeightMapVertexData instead
 
 > `static` **CreateIcoSphere**(`options`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1913](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1913)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1913](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1913)
 
 Creates the VertexData of the IcoSphere
 
@@ -1168,7 +1168,7 @@ use CreateIcoSphereVertexData instead
 
 > `static` **CreateLineSystem**(`options`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1764](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1764)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1764](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1764)
 
 Creates the VertexData of the LineSystem
 
@@ -1204,7 +1204,7 @@ use CreateLineSystemVertexData instead
 
 > `static` **CreatePlane**(`options`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1861](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1861)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1861](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1861)
 
 Creates the VertexData for a Plane
 
@@ -1260,7 +1260,7 @@ use CreatePlaneVertexData instead
 
 > `static` **CreatePolygon**(`polygon`, `sideOrientation`, `fUV?`, `fColors?`, `frontUVs?`, `backUVs?`, `wrap?`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1894](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1894)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1894](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1894)
 
 Creates the VertexData for an irregular Polygon in the XoZ plane using a mesh built by polygonTriangulation.build()
 All parameters are provided by CreatePolygon as needed
@@ -1325,7 +1325,7 @@ use CreatePolygonVertexData instead
 
 > `static` **CreatePolyhedron**(`options`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1949](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1949)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1949](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1949)
 
 Creates the VertexData for a Polyhedron
 
@@ -1414,7 +1414,7 @@ use CreatePolyhedronVertexData instead
 
 > `static` **CreateRibbon**(`options`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1554](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1554)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1554](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1554)
 
 Creates the VertexData for a Ribbon
 
@@ -1490,7 +1490,7 @@ use CreateRibbonVertexData instead
 
 > `static` **CreateSphere**(`options`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1679](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1679)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1679](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1679)
 
 Creates the VertexData for an ellipsoid, defaults to a sphere
 
@@ -1566,7 +1566,7 @@ use CreateSphereVertexData instead
 
 > `static` **CreateTiledBox**(`options`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1616](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1616)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1616](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1616)
 
 Creates the VertexData for a tiled box
 
@@ -1652,7 +1652,7 @@ Please use CreateTiledBoxVertexData instead
 
 > `static` **CreateTiledGround**(`options`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1807](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1807)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1807](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1807)
 
 Creates the VertexData for a TiledGround by subdividing the ground into tiles
 
@@ -1724,7 +1724,7 @@ use CreateTiledGroundVertexData instead
 
 > `static` **CreateTiledPlane**(`options`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1646](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1646)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1646](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1646)
 
 Creates the VertexData for a tiled plane
 
@@ -1805,7 +1805,7 @@ use CreateTiledPlaneVertexData instead
 
 > `static` **CreateTorus**(`options`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1745](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1745)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1745](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1745)
 
 Creates the VertexData for a torus
 
@@ -1861,7 +1861,7 @@ use CreateTorusVertexData instead
 
 > `static` **CreateTorusKnot**(`options`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:2001](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L2001)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:2001](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L2001)
 
 Creates the VertexData for a TorusKnot
 
@@ -1932,7 +1932,7 @@ use CreateTorusKnotVertexData instead
 
 > `static` **ExtractFromGeometry**(`geometry`, `copyWhenShared?`, `forceCopy?`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1454](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1454)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1454](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1454)
 
 Extracts the vertexData from the geometry
 
@@ -1968,7 +1968,7 @@ the object VertexData associated to the passed mesh
 
 > `static` **ExtractFromMesh**(`mesh`, `copyWhenShared?`, `forceCopy?`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1443](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1443)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:1443](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L1443)
 
 Extracts the vertexData from a mesh
 
@@ -2004,7 +2004,7 @@ the object VertexData associated to the passed mesh
 
 > `static` **ImportVertexData**(`parsedVertexData`, `geometry`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:2423](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L2423)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:2423](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L2423)
 
 Applies VertexData created from the imported parameters to the geometry
 
@@ -2032,7 +2032,7 @@ the geometry to apply the VertexData to
 
 > `static` **Parse**(`parsedVertexData`): `VertexData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:2316](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L2316)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:2316](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L2316)
 
 Creates a VertexData from serialized data
 

@@ -6,7 +6,7 @@
 
 # Class: SimplificationQueue
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplification.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplification.ts#L59)
 
 Queue used to order the simplification tasks
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/simplifyingMeshes
 
 > **new SimplificationQueue**(): `SimplificationQueue`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplification.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplification.ts#L70)
 
 Creates a new queue
 
@@ -34,7 +34,7 @@ Creates a new queue
 
 > **running**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplification.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplification.ts#L65)
 
 Gets a boolean indicating that the process is still running
 
@@ -44,7 +44,7 @@ Gets a boolean indicating that the process is still running
 
 > **addTask**(`task`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplification.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplification.ts#L80)
 
 Adds a new simplification task
 
@@ -66,7 +66,7 @@ defines a task to add
 
 > **executeNext**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplification.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplification.ts#L87)
 
 Execute next task
 
@@ -80,7 +80,7 @@ Execute next task
 
 > **runSimplification**(`task`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplification.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplification.ts#L101)
 
 Execute a simplification task
 

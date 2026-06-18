@@ -6,7 +6,7 @@
 
 # Class: MaterialHelperGeometryRendering
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts#L79)
 
 Helper class to manage geometry rendering.
 
@@ -26,7 +26,7 @@ Helper class to manage geometry rendering.
 
 > `readonly` `static` **GeometryTextureDescriptions**: `object`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts#L83)
 
 Descriptions of the geometry textures.
 
@@ -56,7 +56,7 @@ Descriptions of the geometry textures.
 
 > `static` **AddUniformsAndSamplers**(`uniforms`, `_samplers`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts:234](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts#L234)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts:234](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts#L234)
 
 Adds uniforms and samplers for geometry rendering.
 
@@ -84,7 +84,7 @@ The array of samplers to add to.
 
 > `static` **Bind**(`renderPassId`, `effect`, `mesh`, `world`, `material`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts:305](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts#L305)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts:305](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts#L305)
 
 Binds geometry rendering data for a mesh.
 
@@ -130,7 +130,7 @@ The material of the mesh.
 
 > `static` **CreateConfiguration**(`renderPassId`): [`GeometryRenderingConfiguration`](../type-aliases/GeometryRenderingConfiguration.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts:198](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts#L198)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts:198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts#L198)
 
 Creates a new geometry rendering configuration.
 
@@ -154,7 +154,7 @@ The created configuration.
 
 > `static` **DeleteConfiguration**(`renderPassId`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts#L216)
 
 Deletes a geometry rendering configuration.
 
@@ -176,7 +176,7 @@ The render pass id of the configuration to delete.
 
 > `static` **GetConfiguration**(`renderPassId`): [`GeometryRenderingConfiguration`](../type-aliases/GeometryRenderingConfiguration.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts:225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts#L225)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts:225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts#L225)
 
 Gets a geometry rendering configuration.
 
@@ -200,7 +200,7 @@ The configuration.
 
 > `static` **MarkAsDirty**(`renderPassId`, `meshes`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts:243](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts#L243)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts:243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts#L243)
 
 Marks a list of meshes as dirty for geometry rendering.
 
@@ -228,7 +228,7 @@ The list of meshes to mark as dirty.
 
 > `static` **PrepareDefines**(`renderPassId`, `mesh`, `defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts:261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts#L261)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.geometryrendering.ts#L261)
 
 Prepares defines for geometry rendering.
 

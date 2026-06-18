@@ -6,7 +6,7 @@
 
 # Class: ShadowGeneratorSceneComponent
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts#L16)
 
 Defines the shadow generator component responsible to manage any shadow generators
 in a given scene.
@@ -21,7 +21,7 @@ in a given scene.
 
 > **new ShadowGeneratorSceneComponent**(`scene`): `ShadowGeneratorSceneComponent`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts#L31)
 
 Creates a new instance of the component for the given scene
 
@@ -43,7 +43,7 @@ Defines the scene to register the component in
 
 > `readonly` **name**: `"ShadowGenerator"` = `SceneComponentConstants.NAME_SHADOWGENERATOR`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts#L20)
 
 The component name helpful to identify the component in the list of scene components.
 
@@ -57,7 +57,7 @@ The component name helpful to identify the component in the list of scene compon
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts#L25)
 
 The scene the component belongs to.
 
@@ -71,7 +71,7 @@ The scene the component belongs to.
 
 > **addFromContainer**(`container`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts#L81)
 
 Adds all the elements from the container to the scene
 
@@ -97,7 +97,7 @@ the container holding the elements
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts#L99)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -116,7 +116,7 @@ context lost for instance.
 
 > **rebuild**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts#L46)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -135,7 +135,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts#L38)
 
 Registers the component in a given scene
 
@@ -153,7 +153,7 @@ Registers the component in a given scene
 
 > **removeFromContainer**(`container`, `dispose?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts#L91)
 
 Removes all the elements in the container from the scene
 
@@ -185,7 +185,7 @@ if the removed element should be disposed (default: false)
 
 > **serialize**(`serializationObject`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGeneratorSceneComponent.pure.ts#L54)
 
 Serializes the component data to the specified json object
 

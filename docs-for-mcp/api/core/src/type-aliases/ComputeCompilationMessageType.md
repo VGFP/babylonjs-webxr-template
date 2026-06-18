@@ -8,6 +8,6 @@
 
 > **ComputeCompilationMessageType** = `"error"` \| `"warning"` \| `"info"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.computeShader.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Extensions/engine.computeShader.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.computeShader.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.computeShader.pure.ts#L28)
 
 Types of messages that can be generated during compilation

@@ -6,7 +6,7 @@
 
 # Class: FlowGraphMatrix2D
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L165)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L165)
 
 A 2x2 matrix.
 
@@ -20,7 +20,7 @@ A 2x2 matrix.
 
 > **new FlowGraphMatrix2D**(`m?`): `FlowGraphMatrix2D`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:171](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L171)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:171](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L171)
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGr
 
 > **get** **m**(): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:175](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L175)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L175)
 
 The matrix elements stored in a row-major order.
 
@@ -60,7 +60,7 @@ The matrix elements stored in a row-major order.
 
 > **add**(`other`): `FlowGraphMatrix2D`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:254](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L254)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L254)
 
 Adds another matrix to this matrix.
 
@@ -88,7 +88,7 @@ The result matrix.
 
 > **addToRef**(`other`, `result`): `FlowGraphMatrix2D`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:241](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L241)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:241](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L241)
 
 Adds another matrix to this matrix and stores the result in a reference matrix.
 
@@ -122,7 +122,7 @@ The result matrix.
 
 > **asArray**(): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:189](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L189)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L189)
 
 Returns the matrix elements as an array.
 
@@ -142,7 +142,7 @@ The matrix elements as an array.
 
 > **determinant**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:280](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L280)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:280](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L280)
 
 Computes the determinant of this matrix.
 
@@ -162,7 +162,7 @@ The determinant of the matrix.
 
 > **divide**(`other`): `FlowGraphMatrix2D`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:237](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L237)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:237](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L237)
 
 Divides this matrix by another matrix.
 
@@ -190,7 +190,7 @@ The result matrix.
 
 > **divideToRef**(`other`, `result`): `FlowGraphMatrix2D`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:224](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L224)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:224](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L224)
 
 Divides this matrix by another matrix and stores the result in a reference matrix.
 
@@ -224,7 +224,7 @@ The result matrix.
 
 > **equals**(`other`, `epsilon?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:295](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L295)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:295](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L295)
 
 Checks if this matrix is equal to another matrix within an optional epsilon.
 
@@ -258,7 +258,7 @@ True if the matrices are equal, false otherwise.
 
 > **fromArray**(`array`): `FlowGraphMatrix2D`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L200)
 
 Sets the matrix elements from an array.
 
@@ -286,7 +286,7 @@ The updated matrix.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:304](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L304)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:304](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L304)
 
 Gets the class name of this matrix.
 
@@ -306,7 +306,7 @@ The class name.
 
 > **inverse**(): `FlowGraphMatrix2D`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:285](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L285)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:285](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L285)
 
 Computes the inverse of this matrix.
 
@@ -330,7 +330,7 @@ Error if the matrix is not invertible.
 
 > **multiply**(`other`): `FlowGraphMatrix2D`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:220](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L220)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:220](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L220)
 
 Multiplies this matrix with another matrix.
 To staz conform with the Matrix class, this does B * A
@@ -359,7 +359,7 @@ The result matrix.
 
 > **multiplyToRef**(`other`, `result`): `FlowGraphMatrix2D`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:207](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L207)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:207](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L207)
 
 Multiplies this matrix with another matrix and stores the result in a reference matrix.
 
@@ -393,7 +393,7 @@ The result matrix.
 
 > **subtract**(`other`): `FlowGraphMatrix2D`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L271)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:271](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L271)
 
 Subtracts another matrix from this matrix.
 
@@ -421,7 +421,7 @@ The result matrix.
 
 > **subtractToRef**(`other`, `result`): `FlowGraphMatrix2D`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:258](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L258)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:258](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L258)
 
 Subtracts another matrix from this matrix and stores the result in a reference matrix.
 
@@ -455,7 +455,7 @@ The result matrix.
 
 > **toArray**(`emptyArray?`): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:193](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L193)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L193)
 
 Copies the matrix elements to an array.
 
@@ -483,7 +483,7 @@ The array with the matrix elements.
 
 > **toString**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:308](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L308)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:308](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L308)
 
 Returns a string representation of an object.
 
@@ -497,7 +497,7 @@ Returns a string representation of an object.
 
 > **transformVector**(`v`): [`Vector2`](Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:179](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L179)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L179)
 
 Transforms a vector using this matrix.
 
@@ -525,7 +525,7 @@ The transformed vector.
 
 > **transformVectorToRef**(`v`, `result`): [`Vector2`](Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L183)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L183)
 
 Transforms a vector using this matrix and stores the result in a reference vector.
 
@@ -559,7 +559,7 @@ The transformed vector.
 
 > **transpose**(): `FlowGraphMatrix2D`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:275](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L275)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts:275](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphMatrix.ts#L275)
 
 Transposes this matrix.
 

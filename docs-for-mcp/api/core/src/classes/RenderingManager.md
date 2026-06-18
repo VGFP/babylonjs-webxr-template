@@ -6,7 +6,7 @@
 
 # Class: RenderingManager
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L62)
 
 This is the manager responsible of all the rendering for meshes sprites and particles.
 It is enable to manage the different groups as well as the different necessary sort functions.
@@ -18,7 +18,7 @@ This should not be used directly aside of the few static configurations
 
 > **new RenderingManager**(`scene`): `RenderingManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:157](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L157)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:157](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L157)
 
 Instantiates a new rendering group for a particular scene
 
@@ -40,7 +40,7 @@ Defines the scene the groups belongs to
 
 > `static` **AUTOCLEAR**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L76)
 
 Used to globally prevent autoclearing scenes.
 
@@ -50,7 +50,7 @@ Used to globally prevent autoclearing scenes.
 
 > `static` **MAX\_RENDERINGGROUPS**: `number` = `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L66)
 
 The max id used for rendering groups (not included)
 
@@ -60,7 +60,7 @@ The max id used for rendering groups (not included)
 
 > `static` **MIN\_RENDERINGGROUPS**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L71)
 
 The min id used for rendering groups (included)
 
@@ -72,7 +72,7 @@ The min id used for rendering groups (included)
 
 > **get** **disableDepthPrePass**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L87)
 
 Specifies to disable depth pre-pass if true (default: false)
 
@@ -84,7 +84,7 @@ Specifies to disable depth pre-pass if true (default: false)
 
 > **set** **disableDepthPrePass**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L91)
 
 ##### Parameters
 
@@ -104,7 +104,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.t
 
 > **get** **maintainStateBetweenFrames**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L115)
 
 Gets or sets a boolean indicating that the manager will not reset between frames.
 This means that if a mesh becomes invisible or transparent it will not be visible until this boolean is set to false again.
@@ -119,7 +119,7 @@ By turning this property on, you will accelerate the rendering by keeping all th
 
 > **set** **maintainStateBetweenFrames**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L119)
 
 ##### Parameters
 
@@ -139,7 +139,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.t
 
 > **get** **renderingGroups**(): readonly `RenderingGroup`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:168](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L168)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:168](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L168)
 
 ##### Returns
 
@@ -153,7 +153,7 @@ the list of rendering groups managed by the manager.
 
 > **dispatch**(`subMesh`, `mesh?`, `material?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:375](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L375)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:375](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L375)
 
 Add a submesh to the manager in order to render it this frame
 
@@ -187,7 +187,7 @@ Optional reference to the submeshes's material. Provide if you have an exiting r
 
 > **dispatchParticles**(`particleSystem`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:361](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L361)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:361](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L361)
 
 Add a particle system to the rendering manager in order to render it this frame.
 
@@ -209,7 +209,7 @@ Define the particle system to render
 
 > **dispatchSprites**(`spriteManager`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:349](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L349)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:349](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L349)
 
 Add a sprite manager to the rendering manager in order to render it this frame.
 
@@ -231,7 +231,7 @@ Define the sprite manager to render
 
 > **freeRenderingGroups**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L323)
 
 Clear the info related to rendering groups preventing retention points during dispose.
 
@@ -245,7 +245,7 @@ Clear the info related to rendering groups preventing retention points during di
 
 > **getAutoClearDepthStencilSetup**(`index`): [`IRenderingManagerAutoClearSetup`](../interfaces/IRenderingManagerAutoClearSetup.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:435](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L435)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:435](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L435)
 
 Gets the current auto clear configuration for one rendering group of the rendering
 manager.
@@ -270,7 +270,7 @@ The auto clear setup for the requested rendering group
 
 > **getRenderingGroup**(`id`): `RenderingGroup`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L176)
 
 #### Parameters
 
@@ -292,7 +292,7 @@ the rendering group with the specified id.
 
 > **restoreDispachedFlags**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L133)
 
 Restore wasDispatched flags on the lists of elements to render.
 
@@ -306,7 +306,7 @@ Restore wasDispatched flags on the lists of elements to render.
 
 > **setRenderingAutoClearDepthStencil**(`renderingGroupId`, `autoClearDepthStencil`, `depth?`, `stencil?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:421](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L421)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:421](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L421)
 
 Specifies whether or not the stencil and depth buffer are cleared between two rendering groups.
 
@@ -346,7 +346,7 @@ Automatically clears stencil between groups if true and autoClear is true.
 
 > **setRenderingOrder**(`renderingGroupId`, `opaqueSortCompareFn?`, `alphaTestSortCompareFn?`, `transparentSortCompareFn?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:395](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L395)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:395](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L395)
 
 Overrides the default sort function applied in the rendering group to prepare the meshes.
 This allowed control for front to back rendering or reversely depending of the special needs.

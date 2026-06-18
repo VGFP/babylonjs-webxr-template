@@ -6,7 +6,7 @@
 
 # Class: KhronosTextureContainer2
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:203](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L203)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:203](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L203)
 
 Class for loading KTX2 files
 
@@ -16,7 +16,7 @@ Class for loading KTX2 files
 
 > **new KhronosTextureContainer2**(`engine`, `numWorkersOrOptions?`): `KhronosTextureContainer2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:328](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L328)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:328](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L328)
 
 Constructor
 
@@ -44,7 +44,7 @@ The number of workers for async operations. Specify `0` to disable web workers a
 
 > `static` **DefaultDecoderOptions**: [`DefaultKTX2DecoderOptions`](DefaultKTX2DecoderOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:265](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L265)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:265](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L265)
 
 Default configuration for the KTX2 decoder.
 The options defined in this way have priority over those passed when creating a KTX2 texture with new Texture(...).
@@ -55,7 +55,7 @@ The options defined in this way have priority over those passed when creating a 
 
 > `static` **DefaultNumWorkers**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:259](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L259)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:259](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L259)
 
 Default number of workers used to handle data decoding
 
@@ -65,7 +65,7 @@ Default number of workers used to handle data decoding
 
 > `static` **URLConfig**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L225)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L225)
 
 URLs to use when loading the KTX2 decoder module as well as its dependencies
 If a url is null, the default url is used (pointing to https://preview.babylonjs.com)
@@ -129,7 +129,7 @@ You can see their default values in this PG: https://playground.babylonjs.com/#E
 
 > `static` `optional` **WorkerPool?**: [`AutoReleaseWorkerPool`](AutoReleaseWorkerPool.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:254](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L254)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L254)
 
 If provided, this worker pool will be used instead of creating a new one.
 This is useful when loading the WASM and the js modules on your own and
@@ -141,7 +141,7 @@ you want to use the ktxTextureLoader and not construct this class directly.
 
 > `static` **IsValid**(`data`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:498](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L498)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:498](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L498)
 
 Checks if the given data starts with a KTX2 file identifier.
 

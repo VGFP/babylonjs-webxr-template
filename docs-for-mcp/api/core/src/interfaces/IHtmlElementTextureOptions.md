@@ -6,7 +6,7 @@
 
 # Interface: IHtmlElementTextureOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/htmlElementTexture.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/htmlElementTexture.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts#L17)
 
 Defines the options related to the creation of an HtmlElementTexture
 
@@ -16,7 +16,7 @@ Defines the options related to the creation of an HtmlElementTexture
 
 > **engine**: [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractEngine`](../classes/AbstractEngine.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/htmlElementTexture.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/htmlElementTexture.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts#L33)
 
 Defines the engine instance to use the texture with. It is not mandatory if you define a scene.
 
@@ -26,7 +26,7 @@ Defines the engine instance to use the texture with. It is not mandatory if you 
 
 > `optional` **format?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/htmlElementTexture.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/htmlElementTexture.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts#L29)
 
 Defines the associated texture format.
 
@@ -36,7 +36,7 @@ Defines the associated texture format.
 
 > `optional` **generateMipMaps?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/htmlElementTexture.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/htmlElementTexture.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts#L21)
 
 Defines whether mip maps should be created or not.
 
@@ -46,7 +46,7 @@ Defines whether mip maps should be created or not.
 
 > `optional` **samplingMode?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/htmlElementTexture.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/htmlElementTexture.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts#L25)
 
 Defines the sampling mode of the texture.
 
@@ -56,6 +56,6 @@ Defines the sampling mode of the texture.
 
 > **scene**: [`Nullable`](../type-aliases/Nullable.md)\<[`Scene`](../classes/Scene.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/htmlElementTexture.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/htmlElementTexture.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts#L37)
 
 Defines the scene the texture belongs to. It is not mandatory if you define an engine.

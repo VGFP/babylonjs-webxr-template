@@ -8,7 +8,7 @@
 
 > **FlattenTuple**\<`A`\> = `A` *extends* \[infer U, `...(infer Rest)`\] ? `U` *extends* `unknown`[] ? \[`...U`, `...FlattenTuple<Rest>`\] : \[`U`, `...FlattenTuple<Rest>`\] : \[\]
 
-Defined in: [babylonjs-source/packages/dev/core/src/types.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/types.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/types.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/types.ts#L118)
 
 Flattens a tuple
 

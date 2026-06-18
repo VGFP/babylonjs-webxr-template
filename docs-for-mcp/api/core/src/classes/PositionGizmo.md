@@ -6,7 +6,7 @@
 
 # Class: PositionGizmo
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L76)
 
 Gizmo that enables dragging a mesh along 3 axis
 
@@ -24,7 +24,7 @@ Gizmo that enables dragging a mesh along 3 axis
 
 > **new PositionGizmo**(`gizmoLayer?`, `thickness?`, `gizmoManager?`, `options?`): `PositionGizmo`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:193](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L193)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L193)
 
 Creates a PositionGizmo
 
@@ -66,7 +66,7 @@ More options
 
 > **\_rootMesh**: [`Mesh`](Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L129)
 
 The root mesh of the gizmo
 
@@ -84,7 +84,7 @@ The root mesh of the gizmo
 
 > **gizmoLayer**: [`UtilityLayerRenderer`](UtilityLayerRenderer.md) = `UtilityLayerRenderer.DefaultUtilityLayer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:314](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L314)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:314](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L314)
 
 [Object] The utility layer the gizmo will be added to
 
@@ -102,7 +102,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:314](https:/
 
 > **onDragEndObservable**: [`Observable`](Observable.md)\<[`DragStartEndEvent`](../type-aliases/DragStartEndEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L118)
 
 Fires an event when any of it's sub gizmos are released from dragging
 
@@ -116,7 +116,7 @@ Fires an event when any of it's sub gizmos are released from dragging
 
 > **onDragObservable**: [`Observable`](Observable.md)\<[`DragEvent`](../type-aliases/DragEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L116)
 
 Fires an event when any of it's sub gizmos are being dragged
 
@@ -130,7 +130,7 @@ Fires an event when any of it's sub gizmos are being dragged
 
 > **onDragStartObservable**: [`Observable`](Observable.md)\<[`DragStartEndEvent`](../type-aliases/DragStartEndEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L114)
 
 Fires an event when any of it's sub gizmos are dragged
 
@@ -144,7 +144,7 @@ Fires an event when any of it's sub gizmos are dragged
 
 > **xGizmo**: [`IAxisDragGizmo`](../interfaces/IAxisDragGizmo.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L80)
 
 Internal gizmo used for interactions on the x axis
 
@@ -158,7 +158,7 @@ Internal gizmo used for interactions on the x axis
 
 > **xPlaneGizmo**: [`IPlaneDragGizmo`](../interfaces/IPlaneDragGizmo.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L92)
 
 Internal gizmo used for interactions on the yz plane
 
@@ -172,7 +172,7 @@ Internal gizmo used for interactions on the yz plane
 
 > **yGizmo**: [`IAxisDragGizmo`](../interfaces/IAxisDragGizmo.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L84)
 
 Internal gizmo used for interactions on the y axis
 
@@ -186,7 +186,7 @@ Internal gizmo used for interactions on the y axis
 
 > **yPlaneGizmo**: [`IPlaneDragGizmo`](../interfaces/IPlaneDragGizmo.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L96)
 
 Internal gizmo used for interactions on the xz plane
 
@@ -200,7 +200,7 @@ Internal gizmo used for interactions on the xz plane
 
 > **zGizmo**: [`IAxisDragGizmo`](../interfaces/IAxisDragGizmo.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L88)
 
 Internal gizmo used for interactions on the z axis
 
@@ -214,7 +214,7 @@ Internal gizmo used for interactions on the z axis
 
 > **zPlaneGizmo**: [`IPlaneDragGizmo`](../interfaces/IPlaneDragGizmo.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L100)
 
 Internal gizmo used for interactions on the xy plane
 
@@ -228,7 +228,7 @@ Internal gizmo used for interactions on the xy plane
 
 > `static` **PreserveScaling**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L148)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L148)
 
 When enabled, any gizmo operation will preserve scaling sign. Default is off.
 Only valid for TransformNode derived classes (Mesh, AbstractMesh, ...)
@@ -243,7 +243,7 @@ Only valid for TransformNode derived classes (Mesh, AbstractMesh, ...)
 
 > `static` **UseAbsoluteScaling**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L155)
 
 There are 2 ways to preserve scaling: using mesh scaling or absolute scaling. Depending of hierarchy, non uniform scaling and LH or RH coordinates. One is preferable than the other.
 If the scaling to be preserved is the local scaling, then set this value to false.
@@ -261,7 +261,7 @@ Default is true which means scaling to be preserved is absolute one (with hierar
 
 > **get** **additionalTransformNode**(): [`TransformNode`](TransformNode.md) \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:175](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L175)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L175)
 
 Additional transform applied to the gizmo.
 It's useful when the gizmo is attached to a bone: if the bone is part of a skeleton attached to a mesh, you should define the mesh as additionalTransformNode if you want the gizmo to be displayed at the bone's correct location.
@@ -275,7 +275,7 @@ Otherwise, as the gizmo is relative to the skeleton root, the mesh transformatio
 
 > **set** **additionalTransformNode**(`transformNode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:179](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L179)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L179)
 
 Additional transform applied to the gizmo.
 It's useful when the gizmo is attached to a bone: if the bone is part of a skeleton attached to a mesh, you should define the mesh as additionalTransformNode if you want the gizmo to be displayed at the bone's correct location.
@@ -311,7 +311,7 @@ Otherwise, as the gizmo is relative to the skeleton root, the mesh transformatio
 
 > **get** **anchorPoint**(): [`GizmoAnchorPoint`](../enumerations/GizmoAnchorPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:308](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L308)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:308](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L308)
 
 Defines where the gizmo will be positioned if `updateGizmoPositionToMatchAttachedMesh` is enabled.
 (Default: GizmoAnchorPoint.Origin)
@@ -324,7 +324,7 @@ Defines where the gizmo will be positioned if `updateGizmoPositionToMatchAttache
 
 > **set** **anchorPoint**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:301](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L301)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:301](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L301)
 
 Defines where the gizmo will be positioned if `updateGizmoPositionToMatchAttachedMesh` is enabled.
 (Default: GizmoAnchorPoint.Origin)
@@ -358,7 +358,7 @@ Defines where the gizmo will be positioned if `updateGizmoPositionToMatchAttache
 
 > **get** **attachedMesh**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L125)
 
 Mesh that the gizmo will be attached to. (eg. on a drag gizmo the mesh that will be dragged)
 * When set, interactions will be enabled
@@ -371,7 +371,7 @@ Mesh that the gizmo will be attached to. (eg. on a drag gizmo the mesh that will
 
 > **set** **attachedMesh**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L128)
 
 Mesh that the gizmo will be attached to. (eg. on a drag gizmo the mesh that will be dragged)
 * When set, interactions will be enabled
@@ -405,7 +405,7 @@ Mesh that the gizmo will be attached to. (eg. on a drag gizmo the mesh that will
 
 > **get** **attachedNode**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L141)
 
 Node that the gizmo will be attached to. (eg. on a drag gizmo the mesh, bone or NodeTransform that will be dragged)
 * When set, interactions will be enabled
@@ -418,7 +418,7 @@ Node that the gizmo will be attached to. (eg. on a drag gizmo the mesh, bone or 
 
 > **set** **attachedNode**(`node`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L144)
 
 Node that the gizmo will be attached to. (eg. on a drag gizmo the mesh, bone or NodeTransform that will be dragged)
 * When set, interactions will be enabled
@@ -452,7 +452,7 @@ Node that the gizmo will be attached to. (eg. on a drag gizmo the mesh, bone or 
 
 > **set** **coordinatesMode**(`coordinatesMode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:317](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L317)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:317](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L317)
 
 Set the coordinate system to use. By default it's local.
 But it's possible for a user to tweak so its local for translation and world for rotation.
@@ -486,7 +486,7 @@ Set the coordinate mode to use. By default it's local.
 
 > **get** **customRotationQuaternion**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Quaternion`](Quaternion.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:257](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L257)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:257](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L257)
 
 Orientation that the gizmo will be displayed with.
 When set null, default value will be used (Quaternion(0, 0, 0, 1))
@@ -499,7 +499,7 @@ When set null, default value will be used (Quaternion(0, 0, 0, 1))
 
 > **set** **customRotationQuaternion**(`customRotationQuaternion`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L261)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L261)
 
 Orientation that the gizmo will be displayed with.
 When set null, default value will be used (Quaternion(0, 0, 0, 1))
@@ -533,7 +533,7 @@ When set null, default value will be used (Quaternion(0, 0, 0, 1))
 
 > **get** **isDragging**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:164](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L164)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:164](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L164)
 
 True when the mouse pointer is dragging a gizmo mesh
 
@@ -555,7 +555,7 @@ True when the mouse pointer is dragging a gizmo mesh
 
 > **get** **isHovered**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L160)
 
 True when the mouse pointer is hovering a gizmo mesh
 
@@ -581,7 +581,7 @@ True when the mouse pointer is hovered a gizmo mesh
 
 > **get** **planarGizmoEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:249](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L249)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:249](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L249)
 
 If the planar drag gizmo is enabled
 setting this will enable/disable XY, XZ and YZ planes regardless of individual gizmo settings.
@@ -594,7 +594,7 @@ setting this will enable/disable XY, XZ and YZ planes regardless of individual g
 
 > **set** **planarGizmoEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:233](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L233)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:233](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L233)
 
 If the planar drag gizmo is enabled
 setting this will enable/disable XY, XZ and YZ planes regardless of individual gizmo settings.
@@ -624,7 +624,7 @@ setting this will enable/disable XY, XZ and YZ planes regardless of individual g
 
 > **get** **scaleRatio**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:362](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L362)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:362](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L362)
 
 Ratio for the scale of the gizmo (Default: 1)
 
@@ -636,7 +636,7 @@ Ratio for the scale of the gizmo (Default: 1)
 
 > **set** **scaleRatio**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:353](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L353)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:353](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L353)
 
 Ratio for the scale of the gizmo (Default: 1)
 
@@ -668,7 +668,7 @@ Ratio for the scale of the gizmo
 
 > **get** **snapDistance**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:346](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L346)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:346](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L346)
 
 Drag distance in babylon units that the gizmo will snap to when dragged
 
@@ -680,7 +680,7 @@ Drag distance in babylon units that the gizmo will snap to when dragged
 
 > **set** **snapDistance**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:337](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L337)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:337](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L337)
 
 Drag distance in babylon units that the gizmo will snap to when dragged (Default: 0)
 
@@ -708,7 +708,7 @@ Drag distance in babylon units that the gizmo will snap to when dragged
 
 > **get** **updateGizmoPositionToMatchAttachedMesh**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:297](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L297)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:297](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L297)
 
 If set the gizmo's position will be updated to match the attached mesh each frame (Default: true)
 
@@ -720,7 +720,7 @@ If set the gizmo's position will be updated to match the attached mesh each fram
 
 > **set** **updateGizmoPositionToMatchAttachedMesh**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:288](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L288)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:288](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L288)
 
 If set the gizmo's position will be updated to match the attached mesh each frame (Default: true)
 
@@ -752,7 +752,7 @@ If set the gizmo's position will be updated to match the attached mesh each fram
 
 > **get** **updateGizmoRotationToMatchAttachedMesh**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:284](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L284)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:284](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L284)
 
 If set the gizmo's rotation will be updated to match the attached mesh each frame (Default: true)
 NOTE: This is only possible for meshes with uniform scaling, as otherwise it's not possible to decompose the rotation
@@ -765,7 +765,7 @@ NOTE: This is only possible for meshes with uniform scaling, as otherwise it's n
 
 > **set** **updateGizmoRotationToMatchAttachedMesh**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:275](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L275)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:275](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L275)
 
 If set the gizmo's rotation will be updated to match the attached mesh each frame (Default: true)
 NOTE: This is only possible for meshes with uniform scaling, as otherwise it's not possible to decompose the rotation
@@ -798,7 +798,7 @@ If set the gizmo's rotation will be updated to match the attached mesh each fram
 
 > **get** **updateScale**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:331](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L331)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:331](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L331)
 
 When set, the gizmo will always appear the same size no matter where the camera is (default: true)
 
@@ -810,7 +810,7 @@ When set, the gizmo will always appear the same size no matter where the camera 
 
 > **set** **updateScale**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:324](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L324)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:324](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L324)
 
 When set, the gizmo will always appear the same size no matter where the camera is (default: true)
 
@@ -840,7 +840,7 @@ When set, the gizmo will always appear the same size no matter where the camera 
 
 > **addToAxisCache**(`mesh`, `cache`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:371](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L371)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:371](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L371)
 
 Builds Gizmo Axis Cache to enable features such as hover state preservation and graying out other axis during manipulation
 
@@ -872,7 +872,7 @@ Gizmo axis definition used for reactive gizmo UI
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:389](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L389)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:389](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L389)
 
 Disposes of the gizmo
 
@@ -894,7 +894,7 @@ Disposes of the gizmo
 
 > **releaseDrag**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:377](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L377)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:377](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L377)
 
 Force release the drag action by code
 
@@ -912,7 +912,7 @@ Force release the drag action by code
 
 > **setCustomMesh**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:408](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/positionGizmo.ts#L408)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/positionGizmo.ts:408](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/positionGizmo.ts#L408)
 
 CustomMeshes are not supported by this gizmo
 
@@ -934,7 +934,7 @@ CustomMeshes are not supported by this gizmo
 
 > `static` **GizmoAxisPointerObserver**(`gizmoLayer`, `gizmoAxisCache`): [`Observer`](Observer.md)\<[`PointerInfo`](PointerInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:613](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L613)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:613](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L613)
 
 Subscribes to pointer up, down, and hover events. Used for responsive gizmos.
 

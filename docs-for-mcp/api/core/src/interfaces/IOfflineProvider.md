@@ -6,7 +6,7 @@
 
 # Interface: IOfflineProvider
 
-Defined in: [babylonjs-source/packages/dev/core/src/Offline/IOfflineProvider.ts:5](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Offline/IOfflineProvider.ts#L5)
+Defined in: [babylonjs-source/packages/dev/core/src/Offline/IOfflineProvider.ts:5](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Offline/IOfflineProvider.ts#L5)
 
 Class used to enable access to offline support
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/optimizeCached
 
 > **enableSceneOffline**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Offline/IOfflineProvider.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Offline/IOfflineProvider.ts#L9)
+Defined in: [babylonjs-source/packages/dev/core/src/Offline/IOfflineProvider.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Offline/IOfflineProvider.ts#L9)
 
 Gets a boolean indicating if scene must be saved in the database
 
@@ -30,7 +30,7 @@ Gets a boolean indicating if scene must be saved in the database
 
 > **enableTexturesOffline**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Offline/IOfflineProvider.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Offline/IOfflineProvider.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Offline/IOfflineProvider.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Offline/IOfflineProvider.ts#L14)
 
 Gets a boolean indicating if textures must be saved in the database
 
@@ -40,7 +40,7 @@ Gets a boolean indicating if textures must be saved in the database
 
 > **loadFile**(`url`, `sceneLoaded`, `progressCallBack?`, `errorCallback?`, `useArrayBuffer?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Offline/IOfflineProvider.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Offline/IOfflineProvider.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Offline/IOfflineProvider.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Offline/IOfflineProvider.ts#L38)
 
 Loads a file from offline support
 
@@ -86,7 +86,7 @@ defines a boolean to use array buffer instead of text string
 
 > **loadImage**(`url`, `image`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Offline/IOfflineProvider.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Offline/IOfflineProvider.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Offline/IOfflineProvider.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Offline/IOfflineProvider.ts#L28)
 
 Loads an image from the offline support
 
@@ -114,7 +114,7 @@ defines the target DOM image
 
 > **open**(`successCallback`, `errorCallback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Offline/IOfflineProvider.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Offline/IOfflineProvider.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Offline/IOfflineProvider.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Offline/IOfflineProvider.ts#L21)
 
 Open the offline support and make it available
 

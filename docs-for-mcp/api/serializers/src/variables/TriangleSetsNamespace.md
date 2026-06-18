@@ -8,7 +8,7 @@
 
 > `const` **TriangleSetsNamespace**: `"http://schemas.microsoft.com/3dmanufacturing/trianglesets/2021/07"` = `"http://schemas.microsoft.com/3dmanufacturing/trianglesets/2021/07"`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L12)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L12)
 
 XML namespace for the TriangleSets extension (2021/07).
 This extension is used for more advanced triangle/property use cases.

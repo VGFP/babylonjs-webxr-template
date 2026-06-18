@@ -6,7 +6,7 @@
 
 # Class: DeviceSourceManager
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts#L13)
 
 Class to keep track of devices
 
@@ -21,7 +21,7 @@ Class to keep track of devices
 
 > **new DeviceSourceManager**(`engine`): `DeviceSourceManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts#L72)
 
 Default constructor
 
@@ -43,7 +43,7 @@ Used to get canvas (if applicable)
 
 > `readonly` **onDeviceConnectedObservable**: [`Observable`](Observable.md)\<`DeviceSourceType`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts#L18)
 
 Observable to be triggered when after a device is connected, any new observers added will be triggered against already connected devices
 
@@ -57,7 +57,7 @@ Observable to be triggered when after a device is connected, any new observers a
 
 > `readonly` **onDeviceDisconnectedObservable**: [`Observable`](Observable.md)\<`DeviceSourceType`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts#L23)
 
 Observable to be triggered when after a device is disconnected
 
@@ -71,7 +71,7 @@ Observable to be triggered when after a device is disconnected
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts#L107)
 
 Dispose of DeviceSourceManager
 
@@ -89,7 +89,7 @@ Dispose of DeviceSourceManager
 
 > **getDeviceSource**\<`T`\>(`deviceType`, `deviceSlot?`): [`Nullable`](../type-aliases/Nullable.md)\<[`DeviceSource`](DeviceSource.md)\<`T`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts#L38)
 
 Gets a DeviceSource, given a type and slot
 
@@ -125,7 +125,7 @@ DeviceSource
 
 > **getDeviceSources**\<`T`\>(`deviceType`): readonly [`DeviceSource`](DeviceSource.md)\<`T`\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceSourceManager.ts#L58)
 
 Gets an array of DeviceSource objects for a given device type
 

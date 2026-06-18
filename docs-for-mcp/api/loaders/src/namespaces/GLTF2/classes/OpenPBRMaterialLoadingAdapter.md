@@ -6,7 +6,7 @@
 
 # Class: OpenPBRMaterialLoadingAdapter
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L22)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L23)
 
 Material Loading Adapter for OpenPBR materials that provides a unified OpenPBR-like interface.
 
@@ -20,7 +20,7 @@ Material Loading Adapter for OpenPBR materials that provides a unified OpenPBR-l
 
 > **new OpenPBRMaterialLoadingAdapter**(`material`): `OpenPBRMaterialLoadingAdapter`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L29)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L30)
 
 Creates a new instance of the OpenPBRMaterialLoadingAdapter.
 
@@ -44,7 +44,7 @@ The OpenPBR material to adapt.
 
 > **get** **alphaCutOff**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L107)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L108)
 
 Gets the alpha cutoff value.
 
@@ -58,7 +58,7 @@ Default value of 0.5 (OpenPBR doesn't support this directly)
 
 > **set** **alphaCutOff**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L99)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L100)
 
 Sets the alpha cutoff value for alpha testing.
 Note: OpenPBR doesn't have a direct equivalent, so this is a no-op.
@@ -87,7 +87,7 @@ The alpha cutoff threshold (ignored for OpenPBR)
 
 > **get** **ambientOcclusionTexture**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:479](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L479)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:480](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L480)
 
 Gets the ambient occlusion texture of the OpenPBR material.
 
@@ -101,7 +101,7 @@ The ambient occlusion texture or null
 
 > **set** **ambientOcclusionTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:471](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L471)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:472](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L472)
 
 Sets the ambient occlusion texture of the OpenPBR material.
 
@@ -129,7 +129,7 @@ The ambient occlusion texture or null
 
 > **get** **ambientOcclusionTextureStrength**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:498](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L498)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:499](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L499)
 
 Gets the ambient occlusion texture strength from the texture's level property.
 
@@ -143,7 +143,7 @@ The strength value, defaults to 1.0 if no texture or level is set
 
 > **set** **ambientOcclusionTextureStrength**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:487](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L487)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:488](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L488)
 
 Sets the ambient occlusion texture strength by modifying the texture's level.
 
@@ -171,7 +171,7 @@ The strength value (typically 0-1)
 
 > **get** **backFaceCulling**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L70)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L71)
 
 Gets whether back face culling is enabled.
 
@@ -185,7 +185,7 @@ True if back face culling is enabled
 
 > **set** **backFaceCulling**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L62)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L63)
 
 Sets whether back face culling is enabled.
 
@@ -213,7 +213,7 @@ True to enable back face culling
 
 > **get** **baseColor**(): [`Color3`](../../../../../core/src/classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L159)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L160)
 
 Gets the base color of the OpenPBR material.
 
@@ -227,7 +227,7 @@ The base color as a Color3
 
 > **set** **baseColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L151)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L152)
 
 Sets the base color of the OpenPBR material.
 
@@ -255,7 +255,7 @@ The base color as a Color3
 
 > **get** **baseColorTexture**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:175](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L175)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L176)
 
 Gets the base color texture of the OpenPBR material.
 
@@ -269,7 +269,7 @@ The base color texture or null
 
 > **set** **baseColorTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:167](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L167)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:168](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L168)
 
 Sets the base color texture of the OpenPBR material.
 
@@ -297,7 +297,7 @@ The base color texture or null
 
 > **get** **baseDiffuseRoughness**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L191)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L192)
 
 Gets the base diffuse roughness of the OpenPBR material.
 
@@ -311,7 +311,7 @@ The diffuse roughness value (0-1)
 
 > **set** **baseDiffuseRoughness**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L183)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:184](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L184)
 
 Sets the base diffuse roughness of the OpenPBR material.
 
@@ -339,7 +339,7 @@ The diffuse roughness value (0-1)
 
 > **get** **baseDiffuseRoughnessTexture**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:207](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L207)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L208)
 
 Gets the base diffuse roughness texture of the OpenPBR material.
 
@@ -353,7 +353,7 @@ The diffuse roughness texture or null
 
 > **set** **baseDiffuseRoughnessTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:199](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L199)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L200)
 
 Sets the base diffuse roughness texture of the OpenPBR material.
 
@@ -381,7 +381,7 @@ The diffuse roughness texture or null
 
 > **get** **baseMetalness**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:223](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L223)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:224](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L224)
 
 Gets the base metalness value of the OpenPBR material.
 
@@ -395,7 +395,7 @@ The metalness value (0-1)
 
 > **set** **baseMetalness**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:215](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L215)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L216)
 
 Sets the base metalness value of the OpenPBR material.
 
@@ -423,7 +423,7 @@ The metalness value (0-1)
 
 > **get** **baseMetalnessTexture**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L239)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:240](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L240)
 
 Gets the base metalness texture of the OpenPBR material.
 
@@ -437,7 +437,7 @@ The metalness texture or null
 
 > **set** **baseMetalnessTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:231](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L231)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L232)
 
 Sets the base metalness texture of the OpenPBR material.
 
@@ -465,7 +465,7 @@ The metalness texture or null
 
 > **get** **coatColor**(): [`Color3`](../../../../../core/src/classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:558](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L558)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:559](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L559)
 
 Gets the coat color of the OpenPBR material.
 
@@ -477,7 +477,7 @@ Gets the coat color of the OpenPBR material.
 
 > **set** **coatColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:551](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L551)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:552](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L552)
 
 Sets the coat color of the OpenPBR material.
 
@@ -505,7 +505,7 @@ The coat color as a Color3
 
 > **set** **coatColorTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:566](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L566)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:567](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L567)
 
 Sets the coat color texture of the OpenPBR material.
 
@@ -533,7 +533,7 @@ The coat color texture or null
 
 > **get** **coatDarkening**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:624](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L624)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:625](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L625)
 
 Sets the coat darkening
 
@@ -545,7 +545,7 @@ Sets the coat darkening
 
 > **set** **coatDarkening**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:620](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L620)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:621](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L621)
 
 Sets the coat darkening value of the OpenPBR material.
 
@@ -573,7 +573,7 @@ The coat darkening value
 
 > **set** **coatDarkeningTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:631](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L631)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:632](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L632)
 
 Sets the coat darkening texture (OpenPBR: coatDarkeningTexture, no PBR equivalent)
 
@@ -599,7 +599,7 @@ Sets the coat darkening texture (OpenPBR: coatDarkeningTexture, no PBR equivalen
 
 > **get** **coatIor**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:612](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L612)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:613](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L613)
 
 Sets the coat index of refraction (IOR)
 
@@ -611,7 +611,7 @@ Sets the coat index of refraction (IOR)
 
 > **set** **coatIor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:608](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L608)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:609](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L609)
 
 Sets the coat index of refraction (IOR) of the OpenPBR material.
 
@@ -637,7 +637,7 @@ Sets the coat index of refraction (IOR) of the OpenPBR material.
 
 > **get** **coatRoughness**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:582](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L582)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:583](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L583)
 
 Gets the coat roughness of the OpenPBR material.
 
@@ -651,7 +651,7 @@ The coat roughness value (0-1)
 
 > **set** **coatRoughness**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:574](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L574)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:575](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L575)
 
 Sets the coat roughness of the OpenPBR material.
 
@@ -679,7 +679,7 @@ The coat roughness value (0-1)
 
 > **get** **coatRoughnessAnisotropy**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:649](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L649)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:650](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L650)
 
 Gets the coat roughness anisotropy.
 TODO: Implementation pending OpenPBR coat anisotropy feature availability.
@@ -694,7 +694,7 @@ Currently returns 0 as coat anisotropy is not yet available
 
 > **set** **coatRoughnessAnisotropy**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:640](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L640)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:641](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L641)
 
 Sets the coat roughness anisotropy.
 TODO: Implementation pending OpenPBR coat anisotropy feature availability.
@@ -723,7 +723,7 @@ The coat anisotropy intensity value
 
 > **get** **coatRoughnessTexture**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:601](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L601)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:602](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L602)
 
 Gets the coat roughness texture of the OpenPBR material.
 
@@ -737,7 +737,7 @@ The coat roughness texture or null
 
 > **set** **coatRoughnessTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:590](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L590)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:591](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L591)
 
 Sets the coat roughness texture of the OpenPBR material.
 
@@ -765,7 +765,7 @@ The coat roughness texture or null
 
 > **get** **coatWeight**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:527](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L527)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:528](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L528)
 
 Gets the coat weight of the OpenPBR material.
 
@@ -779,7 +779,7 @@ The coat weight value (0-1)
 
 > **set** **coatWeight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:519](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L519)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:520](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L520)
 
 Sets the coat weight of the OpenPBR material.
 
@@ -807,7 +807,7 @@ The coat weight value (0-1)
 
 > **get** **coatWeightTexture**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:543](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L543)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:544](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L544)
 
 Gets the coat weight texture of the OpenPBR material.
 
@@ -821,7 +821,7 @@ The coat weight texture or null
 
 > **set** **coatWeightTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:535](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L535)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:536](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L536)
 
 Sets the coat weight texture of the OpenPBR material.
 
@@ -849,7 +849,7 @@ The coat weight texture or null
 
 > **get** **diffuseTransmissionTint**(): [`Color3`](../../../../../core/src/classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:946](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L946)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:947](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L947)
 
 Gets the diffuse transmission tint of the material
 
@@ -861,7 +861,7 @@ Gets the diffuse transmission tint of the material
 
 > **set** **diffuseTransmissionTint**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:939](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L939)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:940](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L940)
 
 Sets the diffuse transmission tint of the material
 
@@ -887,7 +887,7 @@ Sets the diffuse transmission tint of the material
 
 > **set** **diffuseTransmissionTintTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:953](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L953)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:954](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L954)
 
 Sets the diffuse transmission tint texture of the material
 
@@ -913,7 +913,7 @@ Sets the diffuse transmission tint texture of the material
 
 > **get** **emissionColor**(): [`Color3`](../../../../../core/src/classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:427](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L427)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:428](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L428)
 
 Gets the emission color of the OpenPBR material.
 
@@ -927,7 +927,7 @@ The emission color as a Color3
 
 > **set** **emissionColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:419](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L419)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:420](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L420)
 
 Sets the emission color of the OpenPBR material.
 
@@ -955,7 +955,7 @@ The emission color as a Color3
 
 > **get** **emissionColorTexture**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:459](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L459)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:460](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L460)
 
 Gets the emission color texture of the OpenPBR material.
 
@@ -969,7 +969,7 @@ The emission texture or null
 
 > **set** **emissionColorTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:451](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L451)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:452](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L452)
 
 Sets the emission color texture of the OpenPBR material.
 
@@ -997,7 +997,7 @@ The emission texture or null
 
 > **get** **emissionLuminance**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:443](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L443)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:444](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L444)
 
 Gets the emission luminance of the OpenPBR material.
 
@@ -1011,7 +1011,7 @@ The emission luminance value
 
 > **set** **emissionLuminance**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:435](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L435)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:436](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L436)
 
 Sets the emission luminance of the OpenPBR material.
 
@@ -1039,7 +1039,7 @@ The emission luminance value
 
 > **set** **fuzzColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1039](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1039)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1040](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1040)
 
 Sets the fuzz color.
 
@@ -1067,7 +1067,7 @@ The fuzz color as a Color3
 
 > **set** **fuzzColorTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1047](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1047)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1048](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1048)
 
 Sets the fuzz color texture.
 
@@ -1095,7 +1095,7 @@ The fuzz color texture or null
 
 > **set** **fuzzRoughness**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1055](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1055)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1056](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1056)
 
 Sets the fuzz roughness.
 
@@ -1123,7 +1123,7 @@ The fuzz roughness value (0-1)
 
 > **set** **fuzzRoughnessTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1063](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1063)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1064](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1064)
 
 Sets the fuzz roughness texture.
 
@@ -1151,7 +1151,7 @@ The fuzz roughness texture or null
 
 > **set** **fuzzWeight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1023](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1023)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1024](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1024)
 
 Sets the fuzz weight.
 
@@ -1179,7 +1179,7 @@ The fuzz weight value
 
 > **set** **fuzzWeightTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1031](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1031)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1032](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1032)
 
 Sets the fuzz weight texture.
 
@@ -1207,7 +1207,7 @@ The fuzz weight texture or null
 
 > **get** **geometryCoatNormalTexture**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1245)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1246](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1246)
 
 Gets the geometry coat normal texture of the OpenPBR material.
 
@@ -1221,7 +1221,7 @@ The coat normal texture or null
 
 > **set** **geometryCoatNormalTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1237](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1237)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1238)
 
 Sets the geometry coat normal texture of the OpenPBR material.
 
@@ -1249,7 +1249,7 @@ The coat normal texture or null
 
 > **set** **geometryCoatNormalTextureScale**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1253](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1253)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1254)
 
 Sets the geometry coat normal texture scale.
 
@@ -1277,7 +1277,7 @@ The scale value for the coat normal texture
 
 > **set** **geometryCoatTangentAngle**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:658](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L658)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:659](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L659)
 
 Sets the coat tangent angle for anisotropy.
 TODO: Implementation pending OpenPBR coat anisotropy feature availability.
@@ -1306,7 +1306,7 @@ The coat anisotropy rotation angle in radians
 
 > **get** **geometryCoatTangentTexture**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:679](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L679)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:680](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L680)
 
 Gets the coat tangent texture for anisotropy.
 TODO: Implementation pending OpenPBR coat anisotropy feature availability.
@@ -1321,7 +1321,7 @@ Currently returns null as coat anisotropy is not yet available
 
 > **set** **geometryCoatTangentTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:667](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L667)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:668](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L668)
 
 Sets the coat tangent texture for anisotropy.
 TODO: Implementation pending OpenPBR coat anisotropy feature availability.
@@ -1350,7 +1350,7 @@ The coat anisotropy texture or null
 
 > **get** **geometryNormalTexture**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1219)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1220](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1220)
 
 Gets the geometry normal texture of the OpenPBR material.
 
@@ -1364,7 +1364,7 @@ The normal texture or null
 
 > **set** **geometryNormalTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1211](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1211)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1212](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1212)
 
 Sets the geometry normal texture of the OpenPBR material.
 
@@ -1392,7 +1392,7 @@ The normal texture or null
 
 > **get** **geometryOpacity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1203](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1203)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1204](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1204)
 
 Gets the geometry opacity of the OpenPBR material.
 
@@ -1406,7 +1406,7 @@ The opacity value (0-1)
 
 > **set** **geometryOpacity**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1195)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1196)
 
 Sets the geometry opacity of the OpenPBR material.
 
@@ -1434,7 +1434,7 @@ The opacity value (0-1)
 
 > **set** **geometryTangentAngle**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1092](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1092)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1093](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1093)
 
 Sets the anisotropy rotation angle.
 
@@ -1462,7 +1462,7 @@ The anisotropy rotation angle in radians
 
 > **get** **geometryTangentTexture**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1110](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1110)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1111)
 
 Gets the geometry tangent texture for anisotropy.
 
@@ -1476,7 +1476,7 @@ The anisotropy texture or null
 
 > **set** **geometryTangentTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1101)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1102)
 
 Sets the geometry tangent texture for anisotropy.
 Automatically enables using anisotropy from the tangent texture.
@@ -1505,7 +1505,7 @@ The anisotropy texture or null
 
 > **get** **geometryThinWalled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:860](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L860)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:861](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L861)
 
 Gets whether the material is thin-walled (i.e. non-volumetric) or not.
 
@@ -1517,7 +1517,7 @@ Gets whether the material is thin-walled (i.e. non-volumetric) or not.
 
 > **set** **geometryThinWalled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:853](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L853)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:854](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L854)
 
 Sets whether the material is thin-walled (i.e. non-volumetric) or not.
 
@@ -1543,7 +1543,7 @@ Sets whether the material is thin-walled (i.e. non-volumetric) or not.
 
 > **get** **glossiness**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:407](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L407)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:408](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L408)
 
 Sets/gets the glossiness (inverted roughness)
 ONLY used for specular/glossiness workflow; has no effect when metallic/roughness workflow is active
@@ -1556,7 +1556,7 @@ ONLY used for specular/glossiness workflow; has no effect when metallic/roughnes
 
 > **set** **glossiness**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:403](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L403)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:404](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L404)
 
 Sets the glossiness (inverted roughness) of the OpenPBR material.
 
@@ -1582,7 +1582,7 @@ Sets the glossiness (inverted roughness) of the OpenPBR material.
 
 > **get** **isUnlit**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L43)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L44)
 
 Whether the material should be treated as unlit
 
@@ -1594,7 +1594,7 @@ Whether the material should be treated as unlit
 
 > **set** **isUnlit**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L50)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L51)
 
 Sets whether the material should be treated as unlit
 
@@ -1620,7 +1620,7 @@ Sets whether the material should be treated as unlit
 
 > **get** **material**(): [`OpenPBRMaterial`](../../../../../core/src/classes/OpenPBRMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L36)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L37)
 
 Gets the underlying material
 
@@ -1640,7 +1640,7 @@ Gets the underlying material
 
 > **get** **refractionBackgroundTexture**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:826](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L826)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:827](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L827)
 
 Gets the refraction background texture
 
@@ -1654,7 +1654,7 @@ The refraction background texture or null
 
 > **set** **refractionBackgroundTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:834](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L834)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:835](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L835)
 
 Sets the refraction background texture
 
@@ -1682,7 +1682,7 @@ The refraction background texture or null
 
 > **get** **specularColor**(): [`Color3`](../../../../../core/src/classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:326](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L326)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:327](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L327)
 
 Gets the specular color of the OpenPBR material.
 
@@ -1696,7 +1696,7 @@ The specular color as a Color3
 
 > **set** **specularColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:318](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L318)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:319](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L319)
 
 Sets the specular color of the OpenPBR material.
 
@@ -1724,7 +1724,7 @@ The specular color as a Color3
 
 > **get** **specularColorTexture**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:348](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L348)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:349](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L349)
 
 Gets the specular color texture of the OpenPBR material.
 
@@ -1738,7 +1738,7 @@ The specular color texture or null
 
 > **set** **specularColorTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:335](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L335)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:336](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L336)
 
 Sets the specular color texture of the OpenPBR material.
 If the same texture is used for specular weight, optimizes by using alpha channel for weight.
@@ -1767,7 +1767,7 @@ The specular color texture or null
 
 > **get** **specularIor**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:396](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L396)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:397](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L397)
 
 Gets the specular index of refraction (IOR) of the OpenPBR material.
 
@@ -1781,7 +1781,7 @@ The IOR value
 
 > **set** **specularIor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:388](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L388)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:389](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L389)
 
 Sets the specular index of refraction (IOR) of the OpenPBR material.
 
@@ -1809,7 +1809,7 @@ The IOR value
 
 > **get** **specularRoughness**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:364](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L364)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:365](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L365)
 
 Gets the specular roughness of the OpenPBR material.
 
@@ -1823,7 +1823,7 @@ The roughness value (0-1)
 
 > **set** **specularRoughness**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:356](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L356)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:357](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L357)
 
 Sets the specular roughness of the OpenPBR material.
 
@@ -1851,7 +1851,7 @@ The roughness value (0-1)
 
 > **get** **specularRoughnessAnisotropy**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1084](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1084)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1085](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1085)
 
 Gets the specular roughness anisotropy of the OpenPBR material.
 
@@ -1865,7 +1865,7 @@ The anisotropy intensity value
 
 > **set** **specularRoughnessAnisotropy**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1076](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1076)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1077](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1077)
 
 Sets the specular roughness anisotropy of the OpenPBR material.
 
@@ -1893,7 +1893,7 @@ The anisotropy intensity value
 
 > **get** **specularRoughnessTexture**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:380](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L380)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:381](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L381)
 
 Gets the specular roughness texture of the OpenPBR material.
 
@@ -1907,7 +1907,7 @@ The roughness texture or null
 
 > **set** **specularRoughnessTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:372](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L372)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:373](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L373)
 
 Sets the specular roughness texture of the OpenPBR material.
 
@@ -1935,7 +1935,7 @@ The roughness texture or null
 
 > **get** **specularWeight**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:287](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L287)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:288](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L288)
 
 Gets the specular weight of the OpenPBR material.
 
@@ -1949,7 +1949,7 @@ The specular weight value (0-1)
 
 > **set** **specularWeight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:279](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L279)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:280](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L280)
 
 Sets the specular weight of the OpenPBR material.
 
@@ -1977,7 +1977,7 @@ The specular weight value (0-1)
 
 > **get** **specularWeightTexture**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:310](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L310)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:311](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L311)
 
 Gets the specular weight texture of the OpenPBR material.
 
@@ -1991,7 +1991,7 @@ The specular weight texture or null
 
 > **set** **specularWeightTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:296](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L296)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:297](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L297)
 
 Sets the specular weight texture of the OpenPBR material.
 If the same texture is used for specular color, optimizes by using alpha channel for weight.
@@ -2020,7 +2020,7 @@ The specular weight texture or null
 
 > **set** **subsurfaceColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:921](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L921)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:922](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L922)
 
 Sets the subsurface color.
 
@@ -2048,7 +2048,7 @@ The subsurface tint color as a Color3
 
 > **set** **subsurfaceColorTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:929](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L929)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:930](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L930)
 
 Sets the subsurface color texture.
 
@@ -2076,7 +2076,7 @@ The subsurface tint texture or null
 
 > **get** **subsurfaceRadius**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:961](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L961)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:962](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L962)
 
 Gets the subsurface radius for subsurface scattering.
 subsurfaceRadiusScale * subsurfaceRadius gives the mean free path per color channel.
@@ -2089,7 +2089,7 @@ subsurfaceRadiusScale * subsurfaceRadius gives the mean free path per color chan
 
 > **set** **subsurfaceRadius**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:970](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L970)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:971](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L971)
 
 Sets the subsurface radius for subsurface scattering.
 subsurfaceRadiusScale * subsurfaceRadius gives the mean free path per color channel.
@@ -2118,7 +2118,7 @@ The subsurface radius value
 
 > **get** **subsurfaceRadiusScale**(): [`Color3`](../../../../../core/src/classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:978](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L978)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:979](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L979)
 
 Gets the subsurface radius scale for subsurface scattering.
 subsurfaceRadiusScale * subsurfaceRadius gives the mean free path per color channel.
@@ -2131,7 +2131,7 @@ subsurfaceRadiusScale * subsurfaceRadius gives the mean free path per color chan
 
 > **set** **subsurfaceRadiusScale**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:987](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L987)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:988](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L988)
 
 Sets the subsurface radius scale for subsurface scattering.
 subsurfaceRadiusScale * subsurfaceRadius gives the mean free path per color channel.
@@ -2160,7 +2160,7 @@ The subsurface radius scale as a Color3
 
 > **set** **subsurfaceScatterAnisotropy**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:995](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L995)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:996](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L996)
 
 Sets the subsurface scattering anisotropy.
 
@@ -2188,7 +2188,7 @@ The anisotropy intensity value
 
 > **get** **subsurfaceWeight**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:901](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L901)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:902](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L902)
 
 Sets/gets the subsurface weight
 
@@ -2200,7 +2200,7 @@ Sets/gets the subsurface weight
 
 > **set** **subsurfaceWeight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:897](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L897)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:898](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L898)
 
 Sets the subsurface weight
 
@@ -2226,7 +2226,7 @@ Sets the subsurface weight
 
 > **get** **subsurfaceWeightTexture**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:913](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L913)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:914](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L914)
 
 Sets/gets the subsurface weight texture
 
@@ -2238,7 +2238,7 @@ Sets/gets the subsurface weight texture
 
 > **set** **subsurfaceWeightTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:908](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L908)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:909](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L909)
 
 Sets the subsurface weight texture
 
@@ -2264,7 +2264,7 @@ Sets the subsurface weight texture
 
 > **set** **thinFilmIor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1138)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1139)
 
 Sets the thin film IOR.
 
@@ -2292,7 +2292,7 @@ The thin film IOR value
 
 > **set** **thinFilmThicknessMaximum**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1154](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1154)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1155)
 
 Sets the thin film thickness maximum.
 
@@ -2320,7 +2320,7 @@ The maximum thickness value in nanometers
 
 > **set** **thinFilmThicknessMinimum**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1146)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1147](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1147)
 
 Sets the thin film thickness minimum.
 
@@ -2348,7 +2348,7 @@ The minimum thickness value in nanometers
 
 > **set** **thinFilmThicknessTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1170)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1171](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1171)
 
 Sets the thin film thickness texture.
 
@@ -2376,7 +2376,7 @@ The thin film thickness texture or null
 
 > **set** **thinFilmWeight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1130)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1131)
 
 Sets the thin film weight.
 
@@ -2404,7 +2404,7 @@ The thin film weight value
 
 > **set** **thinFilmWeightTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1162)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1163)
 
 Sets the thin film weight texture.
 
@@ -2432,7 +2432,7 @@ The thin film weight texture or null
 
 > **get** **transmissionColor**(): [`Color3`](../../../../../core/src/classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:818](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L818)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:819](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L819)
 
 Gets the attenuation color.
 
@@ -2444,7 +2444,7 @@ Gets the attenuation color.
 
 > **set** **transmissionColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:806](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L806)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:807](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L807)
 
 Sets the attenuation color.
 
@@ -2472,7 +2472,7 @@ The attenuation color as a Color3
 
 > **get** **transmissionDepth**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:798](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L798)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:799](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L799)
 
 Gets the attenuation distance.
 
@@ -2484,7 +2484,7 @@ Gets the attenuation distance.
 
 > **set** **transmissionDepth**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:784](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L784)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:785](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L785)
 
 Sets the attenuation distance.
 
@@ -2512,7 +2512,7 @@ The attenuation distance value
 
 > **set** **transmissionDispersionAbbeNumber**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:768](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L768)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:769](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L769)
 
 Sets the transmission dispersion Abbe number.
 
@@ -2540,7 +2540,7 @@ The Abbe number value
 
 > **set** **transmissionDispersionScale**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:776](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L776)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:777](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L777)
 
 Sets the transmission dispersion scale.
 
@@ -2568,7 +2568,7 @@ The dispersion scale value
 
 > **get** **transmissionScatter**(): [`Color3`](../../../../../core/src/classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:736](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L736)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:737](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L737)
 
 Gets the transmission scatter coefficient.
 
@@ -2582,7 +2582,7 @@ The scatter coefficient as a Vector3
 
 > **set** **transmissionScatter**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:728](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L728)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:729](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L729)
 
 Sets the transmission scatter coefficient.
 
@@ -2610,7 +2610,7 @@ The scatter coefficient as a Vector3
 
 > **set** **transmissionScatterAnisotropy**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:760](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L760)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:761](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L761)
 
 Sets the transmission scattering anisotropy.
 
@@ -2638,7 +2638,7 @@ The anisotropy intensity value (-1 to 1)
 
 > **get** **transmissionScatterTexture**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:752](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L752)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:753](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L753)
 
 Gets the transmission scatter texture.
 
@@ -2652,7 +2652,7 @@ The transmission scatter texture or null
 
 > **set** **transmissionScatterTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:744](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L744)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:745](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L745)
 
 Sets the transmission scatter texture.
 
@@ -2680,7 +2680,7 @@ The transmission scatter texture or null
 
 > **get** **transmissionWeight**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:720](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L720)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:721](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L721)
 
 Gets the transmission weight.
 
@@ -2694,7 +2694,7 @@ Currently returns 0 as transmission is not yet available
 
 > **set** **transmissionWeight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:700](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L700)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:701](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L701)
 
 Sets the transmission weight.
 
@@ -2722,7 +2722,7 @@ The transmission weight value (0-1)
 
 > **get** **transmissionWeightTexture**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:712](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L712)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:713](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L713)
 
 Sets the transmission weight texture
 
@@ -2734,7 +2734,7 @@ Sets the transmission weight texture
 
 > **set** **transmissionWeightTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:708](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L708)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:709](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L709)
 
 Sets the transmission weight texture.
 
@@ -2762,7 +2762,7 @@ The transmission weight texture or null
 
 > **get** **transparencyAsAlphaCoverage**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L131)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L132)
 
 Gets whether the transparency is treated as alpha coverage.
 
@@ -2774,7 +2774,7 @@ Gets whether the transparency is treated as alpha coverage.
 
 > **set** **transparencyAsAlphaCoverage**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L139)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L140)
 
 Sets/Gets whether the transparency is treated as alpha coverage
 
@@ -2800,7 +2800,7 @@ Sets/Gets whether the transparency is treated as alpha coverage
 
 > **get** **twoSidedLighting**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L86)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L87)
 
 Gets whether two-sided lighting is enabled.
 
@@ -2814,7 +2814,7 @@ True if two-sided lighting is enabled
 
 > **set** **twoSidedLighting**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L78)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L79)
 
 Sets whether two-sided lighting is enabled.
 
@@ -2842,7 +2842,7 @@ True to enable two-sided lighting
 
 > **set** **unlit**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1183)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1184](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1184)
 
 Sets whether the OpenPBR material is unlit.
 
@@ -2870,7 +2870,7 @@ True to make the material unlit
 
 > **get** **useAlphaFromBaseColorTexture**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L124)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L125)
 
 Gets whether alpha is used from the base color texture.
 
@@ -2878,13 +2878,13 @@ Gets whether alpha is used from the base color texture.
 
 `boolean`
 
-Always false for OpenPBR as it's handled automatically
+True if alpha is used from the base color texture
 
 #### Set Signature
 
 > **set** **useAlphaFromBaseColorTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L116)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L117)
 
 Sets whether to use alpha from the base color texture.
 Note: OpenPBR handles this differently through the baseColorTexture alpha channel.
@@ -2913,7 +2913,7 @@ True to use alpha from base color texture (handled automatically in OpenPBR)
 
 > **set** **useMetallicFromMetallicTextureBlue**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L255)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:256](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L256)
 
 Sets whether to use metalness from the metallic texture's blue channel.
 
@@ -2941,7 +2941,7 @@ True to use blue channel for metalness
 
 > **set** **useRoughnessFromMetallicTextureGreen**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:247](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L247)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:248](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L248)
 
 Sets whether to use roughness from the metallic texture's green channel.
 
@@ -2969,7 +2969,7 @@ True to use green channel for roughness
 
 > **set** **volumeThickness**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:877](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L877)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:878](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L878)
 
 Sets the thickness factor.
 
@@ -2997,7 +2997,7 @@ The thickness value
 
 > **set** **volumeThicknessTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:868](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L868)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:869](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L869)
 
 Sets the thickness texture.
 
@@ -3023,7 +3023,7 @@ The thickness texture or null
 
 > **configureCoat**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:511](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L511)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:512](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L512)
 
 Configures coat parameters for OpenPBR material.
 OpenPBR coat is already built-in, so no configuration is needed.
@@ -3042,7 +3042,7 @@ OpenPBR coat is already built-in, so no configuration is needed.
 
 > **configureFuzz**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1015](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1015)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1016](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1016)
 
 Configures fuzz for OpenPBR.
 Enables fuzz and sets up proper configuration.
@@ -3061,7 +3061,7 @@ Enables fuzz and sets up proper configuration.
 
 > **configureGltfStyleAnisotropy**(`useGltfStyle?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1118)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1119)
 
 Configures glTF-style anisotropy for the OpenPBR material.
 
@@ -3087,7 +3087,7 @@ Whether to use glTF-style anisotropy
 
 > **configureSpecularGlossiness**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L271)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:272](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L272)
 
 Enable the specular/glossiness workflow and disable metallic/roughness.
 
@@ -3105,7 +3105,7 @@ Enable the specular/glossiness workflow and disable metallic/roughness.
 
 > **configureSubsurface**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:888](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L888)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:889](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L889)
 
 Configures subsurface properties for PBR material
 
@@ -3123,7 +3123,7 @@ Configures subsurface properties for PBR material
 
 > **configureTransmission**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:690](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L690)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:691](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L691)
 
 Configures transmission for OpenPBR material.
 
@@ -3141,7 +3141,7 @@ Configures transmission for OpenPBR material.
 
 > **configureVolume**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:845](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L845)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:846](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L846)
 
 Configures volume properties for OpenPBR material.
 
@@ -3159,7 +3159,7 @@ Configures volume properties for OpenPBR material.
 
 > **enableSpecularEdgeColor**(`_enableEdgeColor?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:267](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L267)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:268](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L268)
 
 Configures specular properties for OpenPBR material.
 
@@ -3183,20 +3183,19 @@ Whether to enable edge color support (ignored for OpenPBR)
 
 ### finalizeAsync()
 
-> **finalizeAsync**(`signal`): `Promise`\<`void`\>
+> **finalizeAsync**(`loader`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1264](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1264)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1264](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1264)
 
 Finalizes material properties after all loading is complete.
 
 #### Parameters
 
-##### signal
+##### loader
 
-`AbortSignal`
+[`GLTFLoader`](GLTFLoader.md)
 
-An AbortSignal that fires when the loader is disposed. Intermediate
-  textures are disposed and the method returns early when aborted.
+The glTF loader; `loader._disposed` is polled between texture passes to bail early on dispose.
 
 #### Returns
 
@@ -3212,7 +3211,7 @@ An AbortSignal that fires when the loader is disposed. Intermediate
 
 > **isTranslucent**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1003](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1003)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1004](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1004)
 
 Does this material have a translucent surface (i.e. either transmission or subsurface)?
 
@@ -3232,7 +3231,7 @@ True if the material is translucent, false otherwise
 
 > **setNormalMapInversions**(`invertX`, `invertY`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1229](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1229)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts:1230](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/openpbrMaterialLoadingAdapter.ts#L1230)
 
 Sets the normal map inversions for the OpenPBR material.
 Note: OpenPBR may handle normal map inversions differently or may not need them.

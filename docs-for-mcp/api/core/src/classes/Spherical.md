@@ -6,7 +6,7 @@
 
 # Class: Spherical
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:359](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L359)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:359](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L359)
 
 Class used for (radius, theta, phi) vector representation.
 
@@ -16,7 +16,7 @@ Class used for (radius, theta, phi) vector representation.
 
 > **new Spherical**(`radius`, `theta`, `phi`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:366](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L366)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:366](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L366)
 
 Creates a new Spherical object from the given spherical coordinates
 
@@ -50,7 +50,7 @@ angle from positive x axis measured anticlockwise from -PI to PI (horizontal)
 
 > **phi**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:369](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L369)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:369](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L369)
 
 angle from positive x axis measured anticlockwise from -PI to PI (horizontal)
 
@@ -60,7 +60,7 @@ angle from positive x axis measured anticlockwise from -PI to PI (horizontal)
 
 > **radius**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:367](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L367)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:367](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L367)
 
 spherical radius
 
@@ -70,7 +70,7 @@ spherical radius
 
 > **theta**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:368](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L368)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:368](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L368)
 
 angle from positive y axis to radial line from 0 to PI (vertical)
 
@@ -80,7 +80,7 @@ angle from positive y axis to radial line from 0 to PI (vertical)
 
 > **add**(`spherical`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:418](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L418)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:418](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L418)
 
 Adds the current Spherical and the given Spherical
 
@@ -104,7 +104,7 @@ the sum spherical
 
 > **addInPlace**(`spherical`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:429](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L429)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:429](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L429)
 
 Adds the given spherical to the current spherical
 
@@ -128,7 +128,7 @@ the current spherical
 
 > **addInPlaceFromFloats**(`radius`, `theta`, `phi`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:441](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L441)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:441](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L441)
 
 Adds the provided values to the current spherical
 
@@ -164,7 +164,7 @@ the current spherical
 
 > **addToRef**(`spherical`, `ref`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:406](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L406)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:406](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L406)
 
 Adds the current Spherical and the given Spherical and stores the result
 
@@ -194,7 +194,7 @@ the updated ref
 
 > **asArray**(): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:396](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L396)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:396](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L396)
 
 Converts the current spherical to an array
 
@@ -210,7 +210,7 @@ the current spherical as an array
 
 > **clone**(): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:582](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L582)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:582](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L582)
 
 Clones the current spherical
 
@@ -226,7 +226,7 @@ a clone of the current spherical
 
 > **copyFrom**(`source`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:591](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L591)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:591](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L591)
 
 Copies the source spherical into the current spherical
 
@@ -250,7 +250,7 @@ the current spherical
 
 > **copyFromFloats**(`radius`, `theta`, `phi`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:605](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L605)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:605](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L605)
 
 Copies the given values into the current spherical
 
@@ -286,7 +286,7 @@ the current spherical
 
 > **divide**(`spherical`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:562](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L562)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:562](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L562)
 
 Divides the current Spherical by the given Spherical
 
@@ -310,7 +310,7 @@ the quotient spherical
 
 > **divideInPlace**(`spherical`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:573](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L573)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:573](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L573)
 
 Divides the current Spherical by the given Spherical
 
@@ -334,7 +334,7 @@ the current spherical
 
 > **divideToRef**(`spherical`, `ref`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:550](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L550)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:550](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L550)
 
 Divides the current Spherical by the given Spherical and stores the result
 
@@ -364,7 +364,7 @@ the updated ref
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:380](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L380)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:380](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L380)
 
 Gets the class name
 
@@ -380,7 +380,7 @@ the string "Spherical"
 
 > **multiply**(`spherical`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:528](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L528)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:528](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L528)
 
 Multiplies the given Spherical with the current Spherical
 
@@ -404,7 +404,7 @@ the product spherical
 
 > **multiplyInPlace**(`spherical`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:539](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L539)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:539](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L539)
 
 Multiplies the given Spherical with the current Spherical
 
@@ -428,7 +428,7 @@ the current spherical
 
 > **multiplyToRef**(`spherical`, `ref`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:516](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L516)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:516](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L516)
 
 Multiplies the given Spherical with the current Spherical and stores the result
 
@@ -458,7 +458,7 @@ the updated ref
 
 > **scale**(`scale`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:630](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L630)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:630](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L630)
 
 Scales the current spherical and returns a new spherical with the scaled coordinates
 
@@ -482,7 +482,7 @@ the scaled spherical
 
 > **scaleInPlace**(`scale`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:641](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L641)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:641](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L641)
 
 Scales the current spherical
 
@@ -506,7 +506,7 @@ the current spherical
 
 > **scaleToRef**(`scale`, `ref`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:618](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L618)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:618](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L618)
 
 Scales the current spherical and stores the result
 
@@ -536,7 +536,7 @@ the updated ref
 
 > **set**(`radius`, `theta`, `phi`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:653](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L653)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:653](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L653)
 
 Sets the values of the current spherical
 
@@ -572,7 +572,7 @@ the current spherical
 
 > **setAll**(`value`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:665](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L665)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:665](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L665)
 
 Sets the values of the current spherical
 
@@ -596,7 +596,7 @@ the current spherical
 
 > **subtract**(`spherical`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:466](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L466)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:466](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L466)
 
 Subtracts the given Spherical from the current Spherical
 
@@ -620,7 +620,7 @@ the difference spherical
 
 > **subtractFromFloats**(`radius`, `theta`, `phi`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:504](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L504)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:504](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L504)
 
 Subtracts the given floats from the current spherical
 
@@ -656,7 +656,7 @@ the difference spherical
 
 > **subtractFromFloatsToRef**(`radius`, `theta`, `phi`, `ref`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:490](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L490)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:490](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L490)
 
 Subtracts the given floats from the current spherical
 
@@ -698,7 +698,7 @@ the updated ref
 
 > **subtractInPlace**(`spherical`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:477](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L477)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:477](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L477)
 
 Subtracts the given Spherical from the current Spherical
 
@@ -722,7 +722,7 @@ the current spherical
 
 > **subtractToRef**(`spherical`, `ref`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:454](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L454)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:454](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L454)
 
 Subtracts the given Spherical from the current Spherical and stores the result
 
@@ -752,7 +752,7 @@ the updated ref
 
 > **toString**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:388](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L388)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:388](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L388)
 
 Converts the current spherical to a string
 
@@ -768,7 +768,7 @@ the current spherical as a string
 
 > **toVector3**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:687](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L687)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:687](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L687)
 
 Gets a Vector3 from the current spherical coordinates
 
@@ -784,7 +784,7 @@ the (x, y,z) form of the current Spherical
 
 > **toVector3ToRef**(`ref`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:675](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L675)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:675](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L675)
 
 Assigns the rectangular coordinates of the current Spherical to a Vector3
 
@@ -808,7 +808,7 @@ the updated Vector3
 
 > `static` **FromArray**(`array`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:721](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L721)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:721](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L721)
 
 Converts an array of floats to a spherical
 
@@ -832,7 +832,7 @@ the converted spherical
 
 > `static` **FromVector3**(`vector`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:710](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L710)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:710](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L710)
 
 Gets a Spherical from a Vector3
 
@@ -856,7 +856,7 @@ a new Spherical
 
 > `static` **FromVector3ToRef**(`vector`, `ref`): `Spherical`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:698](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L698)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:698](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L698)
 
 Assigns the spherical coordinates from a Vector3
 

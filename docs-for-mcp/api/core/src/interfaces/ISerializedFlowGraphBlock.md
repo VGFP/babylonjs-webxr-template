@@ -6,7 +6,7 @@
 
 # Interface: ISerializedFlowGraphBlock
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L138)
 
 A Serialized Flow Graph Block
 
@@ -16,7 +16,7 @@ A Serialized Flow Graph Block
 
 > **className**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L142)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L142)
 
 The class name of the block
 
@@ -26,7 +26,7 @@ The class name of the block
 
 > **config**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L150)
 
 Configuration parameters for the block
 
@@ -36,7 +36,7 @@ Configuration parameters for the block
 
 > **dataInputs**: [`ISerializedFlowGraphConnection`](ISerializedFlowGraphConnection.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:158](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L158)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L158)
 
 Input connection data
 
@@ -46,7 +46,7 @@ Input connection data
 
 > **dataOutputs**: [`ISerializedFlowGraphConnection`](ISerializedFlowGraphConnection.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L162)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L162)
 
 Output connection data
 
@@ -56,7 +56,7 @@ Output connection data
 
 > **metadata**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L166)
 
 Metadata for the block
 
@@ -66,7 +66,7 @@ Metadata for the block
 
 > **signalInputs**: [`ISerializedFlowGraphConnection`](ISerializedFlowGraphConnection.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L170)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L170)
 
 Input connection signal
 
@@ -76,7 +76,7 @@ Input connection signal
 
 > **signalOutputs**: [`ISerializedFlowGraphConnection`](ISerializedFlowGraphConnection.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:174](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L174)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L174)
 
 Output connection signal
 
@@ -86,7 +86,7 @@ Output connection signal
 
 > **type**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L146)
 
 The glTF type of the block
 
@@ -96,6 +96,6 @@ The glTF type of the block
 
 > **uniqueId**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:154](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L154)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:154](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L154)
 
 The unique id of the block

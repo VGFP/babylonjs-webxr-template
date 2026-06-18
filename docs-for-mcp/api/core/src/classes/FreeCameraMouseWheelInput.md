@@ -6,7 +6,7 @@
 
 # Class: FreeCameraMouseWheelInput
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L20)
 
 Manage the mouse wheel inputs to control a free camera.
 
@@ -38,7 +38,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **camera**: [`FreeCamera`](FreeCamera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L24)
 
 Defines the camera the input is attached to.
 
@@ -52,7 +52,7 @@ Defines the camera the input is attached to.
 
 > **onChangedObservable**: [`Observable`](Observable.md)\<\{ `wheelDeltaX`: `number`; `wheelDeltaY`: `number`; `wheelDeltaZ`: `number`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L45)
 
 Observable for when a mouse wheel move event occurs.
 
@@ -66,7 +66,7 @@ Observable for when a mouse wheel move event occurs.
 
 > **wheelPrecisionX**: `number` = `3.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L26)
 
 How fast is the camera moves in relation to X axis mouseWheel events.
 Use negative value to reverse direction.
@@ -81,7 +81,7 @@ Use negative value to reverse direction.
 
 > **wheelPrecisionY**: `number` = `3.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L33)
 
 How fast is the camera moves in relation to Y axis mouseWheel events.
 Use negative value to reverse direction.
@@ -96,7 +96,7 @@ Use negative value to reverse direction.
 
 > **wheelPrecisionZ**: `number` = `3.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L40)
 
 How fast is the camera moves in relation to Z axis mouseWheel events.
 Use negative value to reverse direction.
@@ -113,7 +113,7 @@ Use negative value to reverse direction.
 
 > **get** **wheelXMoveRelative**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Coordinate`](../enumerations/Coordinate.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L54)
 
 Get the configured movement axis (relative to camera's orientation) the
 mouse wheel's X axis controls.
@@ -128,7 +128,7 @@ The configured axis or null if none.
 
 > **set** **wheelXMoveRelative**(`axis`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L40)
 
 Set which movement axis (relative to camera's orientation) the mouse
 wheel's X axis controls.
@@ -153,7 +153,7 @@ The axis to be moved. Set null to clear.
 
 > **get** **wheelXMoveScene**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Coordinate`](../enumerations/Coordinate.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L216)
 
 Get the configured movement axis (relative to the scene) the mouse wheel's
 X axis controls.
@@ -168,7 +168,7 @@ The configured axis or null if none.
 
 > **set** **wheelXMoveScene**(`axis`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:202](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L202)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:202](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L202)
 
 Set which movement axis (relative to the scene) the mouse wheel's X axis
 controls.
@@ -193,7 +193,7 @@ The axis to be moved. Set null to clear.
 
 > **get** **wheelXRotateRelative**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Coordinate`](../enumerations/Coordinate.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L135)
 
 Get the configured rotation axis (relative to camera's orientation) the
 mouse wheel's X axis controls.
@@ -208,7 +208,7 @@ The configured axis or null if none.
 
 > **set** **wheelXRotateRelative**(`axis`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L121)
 
 Set which rotation axis (relative to camera's orientation) the mouse
 wheel's X axis controls.
@@ -233,7 +233,7 @@ The axis to be moved. Set null to clear.
 
 > **get** **wheelYMoveRelative**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Coordinate`](../enumerations/Coordinate.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L81)
 
 Get the configured movement axis (relative to camera's orientation) the
 mouse wheel's Y axis controls.
@@ -248,7 +248,7 @@ The configured axis or null if none.
 
 > **set** **wheelYMoveRelative**(`axis`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L67)
 
 Set which movement axis (relative to camera's orientation) the mouse
 wheel's Y axis controls.
@@ -273,7 +273,7 @@ The axis to be moved. Set null to clear.
 
 > **get** **wheelYMoveScene**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Coordinate`](../enumerations/Coordinate.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:243](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L243)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L243)
 
 Get the configured movement axis (relative to the scene) the mouse wheel's
 Y axis controls.
@@ -288,7 +288,7 @@ The configured axis or null if none.
 
 > **set** **wheelYMoveScene**(`axis`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:229](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L229)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L229)
 
 Set which movement axis (relative to the scene) the mouse wheel's Y axis
 controls.
@@ -313,7 +313,7 @@ The axis to be moved. Set null to clear.
 
 > **get** **wheelYRotateRelative**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Coordinate`](../enumerations/Coordinate.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L162)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L162)
 
 Get the configured rotation axis (relative to camera's orientation) the
 mouse wheel's Y axis controls.
@@ -328,7 +328,7 @@ The configured axis or null if none.
 
 > **set** **wheelYRotateRelative**(`axis`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L148)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L148)
 
 Set which rotation axis (relative to camera's orientation) the mouse
 wheel's Y axis controls.
@@ -353,7 +353,7 @@ The axis to be moved. Set null to clear.
 
 > **get** **wheelZMoveRelative**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Coordinate`](../enumerations/Coordinate.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L108)
 
 Get the configured movement axis (relative to camera's orientation) the
 mouse wheel's Z axis controls.
@@ -368,7 +368,7 @@ The configured axis or null if none.
 
 > **set** **wheelZMoveRelative**(`axis`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:94](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L94)
 
 Set which movement axis (relative to camera's orientation) the mouse
 wheel's Z axis controls.
@@ -393,7 +393,7 @@ The axis to be moved. Set null to clear.
 
 > **get** **wheelZMoveScene**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Coordinate`](../enumerations/Coordinate.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:270](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L270)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:270](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L270)
 
 Get the configured movement axis (relative to the scene) the mouse wheel's
 Z axis controls.
@@ -408,7 +408,7 @@ The configured axis or null if none.
 
 > **set** **wheelZMoveScene**(`axis`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:256](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L256)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:256](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L256)
 
 Set which movement axis (relative to the scene) the mouse wheel's Z axis
 controls.
@@ -433,7 +433,7 @@ The axis to be moved. Set null to clear.
 
 > **get** **wheelZRotateRelative**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Coordinate`](../enumerations/Coordinate.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:189](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L189)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L189)
 
 Get the configured rotation axis (relative to camera's orientation) the
 mouse wheel's Z axis controls.
@@ -448,7 +448,7 @@ The configured axis or null if none.
 
 > **set** **wheelZRotateRelative**(`axis`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:175](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L175)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L175)
 
 Set which rotation axis (relative to camera's orientation) the mouse
 wheel's Z axis controls.
@@ -471,7 +471,7 @@ The axis to be moved. Set null to clear.
 
 > **attachControl**(`noPreventDefault?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L56)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -499,7 +499,7 @@ Defines whether event caught by the controls
 
 > **checkInputs**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:280](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L280)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:280](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L280)
 
 Called for each rendered frame.
 
@@ -517,7 +517,7 @@ Called for each rendered frame.
 
 > **detachControl**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L86)
 
 Detach the current controls from the specified dom element.
 
@@ -535,7 +535,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseWheelInput.ts#L30)
 
 Gets the class name of the current input.
 
@@ -555,7 +555,7 @@ the class name
 
 > **getSimpleName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L125)
 
 Get the friendly name associated with the input class.
 

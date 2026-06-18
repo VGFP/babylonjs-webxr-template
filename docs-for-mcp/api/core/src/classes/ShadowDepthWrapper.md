@@ -6,7 +6,7 @@
 
 # Class: ShadowDepthWrapper
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L59)
 
 Class that can be used to wrap a base material to generate accurate shadows when using custom vertex/fragment code in the base material
 
@@ -16,7 +16,7 @@ Class that can be used to wrap a base material to generate accurate shadows when
 
 > **new ShadowDepthWrapper**(`baseMaterial`, `scene?`, `options?`): `ShadowDepthWrapper`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L96)
 
 Instantiate a new shadow depth wrapper.
 It works by injecting some specific code in the vertex/fragment shaders of the base material and is used by a shadow generator to
@@ -55,7 +55,7 @@ Options used to create the wrapper
 
 > **get** **baseMaterial**(): [`Material`](Material.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L78)
 
 Gets the base material the wrapper is built upon
 
@@ -71,7 +71,7 @@ Gets the base material the wrapper is built upon
 
 > **get** **doNotInjectCode**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L83)
 
 Gets the doNotInjectCode status of the wrapper
 
@@ -87,7 +87,7 @@ Gets the doNotInjectCode status of the wrapper
 
 > **get** **standalone**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L73)
 
 Gets the standalone status of the wrapper
 
@@ -101,7 +101,7 @@ Gets the standalone status of the wrapper
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:189](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L189)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L189)
 
 Disposes the resources
 
@@ -115,7 +115,7 @@ Disposes the resources
 
 > **getEffect**(`subMesh`, `shadowGenerator`, `passIdForDrawWrapper`): [`Nullable`](../type-aliases/Nullable.md)\<[`DrawWrapper`](DrawWrapper.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L152)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L152)
 
 Gets the effect to use to generate the depth map
 
@@ -151,7 +151,7 @@ the effect to use to generate the depth map for the subMesh + shadow generator s
 
 > **isReadyForSubMesh**(`subMesh`, `defines`, `shadowGenerator`, `useInstances`, `passIdForDrawWrapper`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:175](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L175)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L175)
 
 Specifies that the submesh is ready to be used for depth rendering
 

@@ -6,7 +6,7 @@
 
 # Interface: PhysicsJointData
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsJoint.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsJoint.ts#L8)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsJoint.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsJoint.ts#L8)
 
 Interface for Physics-Joint data
 
@@ -25,7 +25,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/physics/usingPhysicsEngine
 
 > `optional` **collision?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsJoint.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsJoint.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsJoint.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsJoint.ts#L29)
 
 The collision of the joint
 
@@ -35,7 +35,7 @@ The collision of the joint
 
 > `optional` **connectedAxis?**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsJoint.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsJoint.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsJoint.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsJoint.ts#L25)
 
 The connected axis of the joint
 
@@ -45,7 +45,7 @@ The connected axis of the joint
 
 > `optional` **connectedPivot?**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsJoint.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsJoint.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsJoint.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsJoint.ts#L17)
 
 The connected pivot of the joint
 
@@ -55,7 +55,7 @@ The connected pivot of the joint
 
 > `optional` **mainAxis?**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsJoint.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsJoint.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsJoint.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsJoint.ts#L21)
 
 The main axis of the joint
 
@@ -65,7 +65,7 @@ The main axis of the joint
 
 > `optional` **mainPivot?**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsJoint.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsJoint.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsJoint.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsJoint.ts#L13)
 
 The main pivot of the joint
 
@@ -75,6 +75,6 @@ The main pivot of the joint
 
 > `optional` **nativeParams?**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsJoint.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsJoint.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsJoint.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsJoint.ts#L33)
 
 Native Oimo/Cannon/Energy data

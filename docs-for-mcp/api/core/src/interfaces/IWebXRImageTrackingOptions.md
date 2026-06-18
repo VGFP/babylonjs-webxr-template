@@ -6,7 +6,7 @@
 
 # Interface: IWebXRImageTrackingOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRImageTracking.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L15)
 
 Options interface for the background remover plugin
 
@@ -16,7 +16,7 @@ Options interface for the background remover plugin
 
 > **images**: `object`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRImageTracking.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L19)
 
 A required array with images to track
 

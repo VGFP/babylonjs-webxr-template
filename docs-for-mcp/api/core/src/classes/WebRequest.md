@@ -6,7 +6,7 @@
 
 # Class: WebRequest
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L22)
 
 Extended version of XMLHttpRequest with support for customizations (headers, ...)
 
@@ -30,7 +30,7 @@ Extended version of XMLHttpRequest with support for customizations (headers, ...
 
 > `static` **CustomRequestHeaders**: `object` = `{}`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L29)
 
 Custom HTTP Request Headers to be sent with XMLHttpRequests
 i.e. when loading files, where the server/service expects an Authorization header
@@ -45,7 +45,7 @@ i.e. when loading files, where the server/service expects an Authorization heade
 
 > `static` **CustomRequestModifiers**: (`request`, `url`) => `string` \| `void`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L34)
 
 Add callback functions in this array to update all the requests before they get sent to the network
 
@@ -69,7 +69,7 @@ Add callback functions in this array to update all the requests before they get 
 
 > `static` **SkipRequestModificationForBabylonCDN**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L39)
 
 If set to true, requests to Babylon.js CDN requests will not be modified
 
@@ -81,7 +81,7 @@ If set to true, requests to Babylon.js CDN requests will not be modified
 
 > **get** **onprogress**(): ((`this`, `ev`) => `any`) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L172)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L172)
 
 Gets or sets a function to be called when loading progress changes
 
@@ -93,7 +93,7 @@ Gets or sets a function to be called when loading progress changes
 
 > **set** **onprogress**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L176)
 
 ##### Parameters
 
@@ -113,7 +113,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:176](http
 
 > **get** **readyState**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L183)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L183)
 
 Returns client's state
 
@@ -129,7 +129,7 @@ Returns client's state
 
 > **get** **requestURL**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L165)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L165)
 
 Returns the requested URL once open has been called
 
@@ -145,7 +145,7 @@ Returns the requested URL once open has been called
 
 > **get** **response**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:204](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L204)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:204](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L204)
 
 Returns client's response
 
@@ -161,7 +161,7 @@ Returns client's response
 
 > **get** **responseText**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:218](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L218)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L218)
 
 Returns client's response as text
 
@@ -177,7 +177,7 @@ Returns client's response as text
 
 > **get** **responseType**(): `XMLHttpRequestResponseType`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L225)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L225)
 
 Gets or sets the expected response type
 
@@ -189,7 +189,7 @@ Gets or sets the expected response type
 
 > **set** **responseType**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:229](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L229)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L229)
 
 ##### Parameters
 
@@ -209,7 +209,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:229](http
 
 > **get** **responseURL**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:211](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L211)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:211](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L211)
 
 Returns client's response url
 
@@ -229,7 +229,7 @@ Returns client's response url
 
 > **get** **status**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L190)
 
 Returns client's status
 
@@ -249,7 +249,7 @@ Returns client's status
 
 > **get** **statusText**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:197](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L197)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L197)
 
 Returns client's status as a text
 
@@ -269,7 +269,7 @@ Returns client's status as a text
 
 > **get** **timeout**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:236](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L236)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:236](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L236)
 
 Gets or sets the timeout value in milliseconds
 
@@ -281,7 +281,7 @@ Gets or sets the timeout value in milliseconds
 
 > **set** **timeout**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:240](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L240)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:240](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L240)
 
 ##### Parameters
 
@@ -301,7 +301,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:240](http
 
 > **get** `static` **IsCustomRequestAvailable**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L45)
 
 This function can be called to check if there are request modifiers for network requests
 
@@ -317,7 +317,7 @@ true if there are any custom requests available
 
 > **abort**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:267](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L267)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:267](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L267)
 
 Cancels any network activity
 
@@ -331,7 +331,7 @@ Cancels any network activity
 
 > **getResponseHeader**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<`string`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:313](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L313)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:313](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L313)
 
 Get the string containing the text of a particular header's value.
 
@@ -355,7 +355,7 @@ The string containing the text of the given header name
 
 > **open**(`method`, `url`, `baseHeaders?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:285](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L285)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:285](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L285)
 
 Sets the request method, request URL
 
@@ -389,7 +389,7 @@ optional headers to include as a base before applying CustomRequestHeaders and m
 
 > **send**(`body?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:275](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L275)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:275](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L275)
 
 Initiates the request. The optional argument provides the request body. The argument is ignored if request method is GET or HEAD
 
@@ -411,7 +411,7 @@ defines an optional request body
 
 > **setRequestHeader**(`name`, `value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:304](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L304)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:304](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L304)
 
 Sets the value of a request header.
 
@@ -439,7 +439,7 @@ The value to set as the body of the header
 
 > `static` **FetchAsync**(`url`, `options?`): `Promise`\<`Response`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/webRequest.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/webRequest.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/webRequest.ts#L114)
 
 Performs a network request using the Fetch API when available on the platform, falling back to XMLHttpRequest.
 `WebRequest.CustomRequestHeaders` and `WebRequest.CustomRequestModifiers` are applied in both cases.

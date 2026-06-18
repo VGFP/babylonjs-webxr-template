@@ -6,7 +6,7 @@
 
 # Class: WebXRControllerComponent
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L57)
 
 This class represents a single component (for example button or thumbstick) of a motion controller
 
@@ -20,7 +20,7 @@ This class represents a single component (for example button or thumbstick) of a
 
 > **new WebXRControllerComponent**(`id`, `type`, `_buttonIndex?`, `_axesIndices?`): `WebXRControllerComponent`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L109)
 
 Creates a new component for a motion controller.
 It is created by the motion controller itself
@@ -61,7 +61,7 @@ indices of the values in the axes array of the gamepad
 
 > **id**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L113)
 
 the id of this component
 
@@ -71,7 +71,7 @@ the id of this component
 
 > **onAxisValueChangedObservable**: [`Observable`](Observable.md)\<\{ `x`: `number`; `y`: `number`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L93)
 
 If axes are available for this component (like a touchpad or thumbstick) the observers will be notified when
 the axes data changes
@@ -82,7 +82,7 @@ the axes data changes
 
 > **onButtonStateChangedObservable**: [`Observable`](Observable.md)\<`WebXRControllerComponent`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L98)
 
 Observers registered here will be triggered when the state of a button changes
 State change is either pressed / touched / value
@@ -93,7 +93,7 @@ State change is either pressed / touched / value
 
 > **type**: [`MotionControllerComponentType`](../type-aliases/MotionControllerComponentType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L117)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L117)
 
 the type of the component
 
@@ -103,7 +103,7 @@ the type of the component
 
 > `static` **BUTTON\_TYPE**: [`MotionControllerComponentType`](../type-aliases/MotionControllerComponentType.md) = `"button"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L71)
 
 button component type
 
@@ -113,7 +113,7 @@ button component type
 
 > `static` **SQUEEZE\_TYPE**: [`MotionControllerComponentType`](../type-aliases/MotionControllerComponentType.md) = `"squeeze"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L75)
 
 squeeze component type
 
@@ -123,7 +123,7 @@ squeeze component type
 
 > `static` **THUMBSTICK\_TYPE**: [`MotionControllerComponentType`](../type-aliases/MotionControllerComponentType.md) = `"thumbstick"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L79)
 
 Thumbstick component type
 
@@ -133,7 +133,7 @@ Thumbstick component type
 
 > `static` **TOUCHPAD\_TYPE**: [`MotionControllerComponentType`](../type-aliases/MotionControllerComponentType.md) = `"touchpad"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L83)
 
 Touchpad component type
 
@@ -143,7 +143,7 @@ Touchpad component type
 
 > `static` **TRIGGER\_TYPE**: [`MotionControllerComponentType`](../type-aliases/MotionControllerComponentType.md) = `"trigger"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L87)
 
 trigger component type
 
@@ -155,7 +155,7 @@ trigger component type
 
 > **get** **axes**(): [`IWebXRMotionControllerAxesValue`](../interfaces/IWebXRMotionControllerAxesValue.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L125)
 
 The current axes data. If this component has no axes it will still return an object { x: 0, y: 0 }
 
@@ -171,7 +171,7 @@ The current axes data. If this component has no axes it will still return an obj
 
 > **get** **changes**(): [`IWebXRMotionControllerComponentChanges`](../interfaces/IWebXRMotionControllerComponentChanges.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L132)
 
 Get the changes. Elements will be populated only if they changed with their previous and current value
 
@@ -187,7 +187,7 @@ Get the changes. Elements will be populated only if they changed with their prev
 
 > **get** **hasChanges**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L139)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L139)
 
 Return whether or not the component changed the last frame
 
@@ -203,7 +203,7 @@ Return whether or not the component changed the last frame
 
 > **get** **pressed**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L146)
 
 is the button currently pressed
 
@@ -219,7 +219,7 @@ is the button currently pressed
 
 > **get** **touched**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L153)
 
 is the button currently touched
 
@@ -235,7 +235,7 @@ is the button currently touched
 
 > **get** **value**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L160)
 
 Get the current value of this component
 
@@ -249,7 +249,7 @@ Get the current value of this component
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:167](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L167)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L167)
 
 Dispose this component
 
@@ -267,7 +267,7 @@ Dispose this component
 
 > **isAxes**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L176)
 
 Are there axes correlating to this component
 
@@ -283,7 +283,7 @@ true is axes data is available
 
 > **isButton**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:184](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L184)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:184](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L184)
 
 Is this component a button (hence - pressable)
 
@@ -299,7 +299,7 @@ true if can be pressed
 
 > **update**(`nativeController`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:192](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L192)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L192)
 
 update this component using the gamepad object it is in. Called on every frame
 

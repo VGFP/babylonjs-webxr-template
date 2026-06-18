@@ -6,7 +6,7 @@
 
 # Class: Skeleton
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L25)
 
 Class used to handle skinning animations
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/bonesSkeletons
 
 > **new Skeleton**(`name`, `id`, `scene`): `Skeleton`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:149](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L149)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L149)
 
 Creates a new skeleton
 
@@ -58,7 +58,7 @@ defines the hosting scene
 
 > **animations**: [`Animation`](Animation.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L42)
 
 Gets the list of animations attached to this skeleton
 
@@ -72,7 +72,7 @@ Gets the list of animations attached to this skeleton
 
 > **bones**: [`Bone`](Bone.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L29)
 
 Defines the list of child bones
 
@@ -82,7 +82,7 @@ Defines the list of child bones
 
 > **dimensionsAtRest**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L33)
 
 Defines an estimate of the dimension of the skeleton at rest
 
@@ -92,7 +92,7 @@ Defines an estimate of the dimension of the skeleton at rest
 
 > **doNotSerialize**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L79)
 
 Specifies if the skeleton should be serialized
 
@@ -102,7 +102,7 @@ Specifies if the skeleton should be serialized
 
 > **id**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L153)
 
 defines the skeleton Id
 
@@ -112,7 +112,7 @@ defines the skeleton Id
 
 > **inspectableCustomProperties**: [`IInspectable`](../interfaces/IInspectable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L115)
 
 List of inspectable custom properties (used by the Inspector)
 
@@ -126,7 +126,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > **metadata**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L141)
 
 Gets or sets an object used to store user defined information for the skeleton
 
@@ -136,7 +136,7 @@ Gets or sets an object used to store user defined information for the skeleton
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L151)
 
 defines the skeleton name
 
@@ -146,7 +146,7 @@ defines the skeleton name
 
 > **needInitialSkinMatrix**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L37)
 
 Defines a boolean indicating if the root matrix is provided by meshes or by the current skeleton (this is the default value)
 
@@ -156,7 +156,7 @@ Defines a boolean indicating if the root matrix is provided by meshes or by the 
 
 > **onBeforeComputeObservable**: [`Observable`](Observable.md)\<`Skeleton`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L122)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L122)
 
 An observable triggered before computing the skeleton's matrices
 
@@ -168,7 +168,7 @@ An observable triggered before computing the skeleton's matrices
 
 > **get** **animationPropertiesOverride**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationPropertiesOverride`](AnimationPropertiesOverride.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L100)
 
 Gets or sets the animation properties override
 
@@ -180,7 +180,7 @@ Gets or sets the animation properties override
 
 > **set** **animationPropertiesOverride**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L107)
 
 ##### Parameters
 
@@ -200,7 +200,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:107](https
 
 > **get** **isUsingTextureForMatrices**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L127)
 
 Gets a boolean indicating that the skeleton effectively stores matrices into a texture
 
@@ -216,7 +216,7 @@ Gets a boolean indicating that the skeleton effectively stores matrices into a t
 
 > **get** **uniqueId**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L134)
 
 Gets the unique ID of this skeleton
 
@@ -232,7 +232,7 @@ Gets the unique ID of this skeleton
 
 > **get** **useTextureToStoreBoneMatrices**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L86)
 
 Gets or sets a boolean indicating that bone matrices should be stored as a texture instead of using shader uniforms (default is true).
 Please note that this option is not available if the hardware does not support it
@@ -245,7 +245,7 @@ Please note that this option is not available if the hardware does not support i
 
 > **set** **useTextureToStoreBoneMatrices**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L90)
 
 ##### Parameters
 
@@ -263,7 +263,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:90](https:
 
 > **beginAnimation**(`name`, `loop?`, `speedRatio?`, `onAnimationEnd?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animatable`](Animatable.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:434](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L434)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:434](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L434)
 
 Begin a specific animation range
 
@@ -305,7 +305,7 @@ a new animatable
 
 > **clone**(`name`, `id?`): `Skeleton`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:717](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L717)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:717](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L717)
 
 Clone the current skeleton
 
@@ -335,7 +335,7 @@ the new skeleton
 
 > **computeAbsoluteMatrices**(`forceUpdate?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:944](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L944)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:944](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L944)
 
 Compute all node absolute matrices
 
@@ -357,7 +357,7 @@ defines if computation must be done even if cache is up to date
 
 > **computeAbsoluteTransforms**(`forceUpdate?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:956](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L956)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:956](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L956)
 
 Compute all node absolute matrices
 
@@ -383,7 +383,7 @@ Please use computeAbsoluteMatrices instead
 
 > **copyAnimationRange**(`source`, `name`, `rescaleAsRequired?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:361](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L361)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:361](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L361)
 
 Copy animation range from a source skeleton.
 This is not for a complete retargeting, only between very similar skeleton's with only possible bone length differences
@@ -420,7 +420,7 @@ true if operation was successful
 
 > **createAnimationRange**(`name`, `from`, `to`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:305](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L305)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:305](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L305)
 
 Create a new animation range
 
@@ -454,7 +454,7 @@ defines the end key
 
 > **deleteAnimationRange**(`name`, `deleteFrames?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:322](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L322)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:322](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L322)
 
 Delete a specific animation range
 
@@ -482,7 +482,7 @@ defines if frames must be removed as well
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:778](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L778)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:778](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L778)
 
 Releases all resources associated with the current skeleton
 
@@ -496,7 +496,7 @@ Releases all resources associated with the current skeleton
 
 > **enableBlending**(`blendingSpeed?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:766](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L766)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:766](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L766)
 
 Enable animation blending for this skeleton
 
@@ -522,7 +522,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/advanced_animation
 
 > **findBoneFromLinkedTransformNode**(`transformNode`): [`Bone`](Bone.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:276](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L276)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L276)
 
 Finds a bone in a skeleton that is linked to the given transform node.
 
@@ -546,7 +546,7 @@ The bone linked to the transform node, or null if not found
 
 > **findBoneFromLinkedTransformNodeName**(`name`): [`Bone`](Bone.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:290](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L290)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:290](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L290)
 
 Finds a bone in a skeleton by the name of its linked transform node.
 
@@ -570,7 +570,7 @@ The bone linked to the transform node with the given name, or null if not found
 
 > **getAnimatables**(): [`IAnimatable`](../interfaces/IAnimatable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:699](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L699)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:699](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L699)
 
 Gets the list of animatables currently running for this skeleton
 
@@ -586,7 +586,7 @@ an array of animatables
 
 > **getAnimationRange**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationRange`](AnimationRange.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:336](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L336)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:336](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L336)
 
 Gets a specific animation range
 
@@ -610,7 +610,7 @@ the requested animation range or null if not found
 
 > **getAnimationRanges**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationRange`](AnimationRange.md)\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:344](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L344)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:344](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L344)
 
 Gets the list of all animation ranges defined on this skeleton
 
@@ -626,7 +626,7 @@ an array
 
 > **getBoneIndexByName**(`name`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:262](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L262)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:262](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L262)
 
 Get bone's index searching by name
 
@@ -650,7 +650,7 @@ the indice of the bone. Returns -1 if not found
 
 > **getChildren**(): [`Bone`](Bone.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:182](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L182)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L182)
 
 Returns an array containing the root bones
 
@@ -666,7 +666,7 @@ an array containing the root bones
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:174](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L174)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L174)
 
 Gets the current object class name.
 
@@ -682,7 +682,7 @@ the class name
 
 > **getPoseMatrix**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Matrix`](Matrix.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:964](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L964)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:964](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L964)
 
 Gets the root pose matrix
 
@@ -698,7 +698,7 @@ a matrix
 
 > **getScene**(): [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:228](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L228)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L228)
 
 Gets the current hosting scene
 
@@ -714,7 +714,7 @@ a scene object
 
 > **getTransformMatrices**(`mesh`): `Float32Array`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:192](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L192)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L192)
 
 Gets the list of transform matrices to send to shaders (one matrix per bone)
 
@@ -738,7 +738,7 @@ a Float32Array containing matrices data
 
 > **getTransformMatrixTexture**(`mesh`): [`Nullable`](../type-aliases/Nullable.md)\<[`RawTexture`](RawTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L216)
 
 Gets the list of transform matrices to send to shaders inside a texture (one matrix per bone)
 
@@ -762,7 +762,7 @@ a raw texture containing the data
 
 > **prepare**(`dontCheckFrameId?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:569](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L569)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:569](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L569)
 
 Build all resources required to render a skeleton
 
@@ -784,7 +784,7 @@ defines a boolean indicating if prepare should be run without checking first the
 
 > **returnToRest**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:405](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L405)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:405](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L405)
 
 Forces the skeleton to go to rest pose
 
@@ -798,7 +798,7 @@ Forces the skeleton to go to rest pose
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:806](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L806)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:806](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L806)
 
 Serialize the skeleton in a JSON object
 
@@ -814,7 +814,7 @@ a JSON object
 
 > **setCurrentPoseAsRest**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:1014](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L1014)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:1014](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L1014)
 
 Set the current local matrix as the restPose for all bones in the skeleton.
 
@@ -828,7 +828,7 @@ Set the current local matrix as the restPose for all bones in the skeleton.
 
 > **sortBones**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:977](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L977)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:977](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L977)
 
 Sorts bones per internal index
 
@@ -842,7 +842,7 @@ Sorts bones per internal index
 
 > **toString**(`fullDetails?`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L239)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L239)
 
 Gets a string representing the current skeleton data
 
@@ -866,7 +866,7 @@ a string representing the current skeleton data
 
 > `static` **MakeAnimationAdditive**(`skeleton`, `referenceFrame?`, `range`): [`Nullable`](../type-aliases/Nullable.md)\<`Skeleton`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:451](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L451)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:451](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L451)
 
 Convert the keyframes for a range of animation on a skeleton to be relative to a given reference frame.
 
@@ -902,7 +902,7 @@ the original skeleton
 
 > `static` **Parse**(`parsedSkeleton`, `scene`): `Skeleton`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:879](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/skeleton.ts#L879)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/skeleton.ts:879](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/skeleton.ts#L879)
 
 Creates a new skeleton from serialized data
 

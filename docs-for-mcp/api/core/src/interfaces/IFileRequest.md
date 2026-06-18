@@ -6,7 +6,7 @@
 
 # Interface: IFileRequest
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileRequest.ts:6](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/fileRequest.ts#L6)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileRequest.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/fileRequest.ts#L6)
 
 File request interface
 
@@ -16,7 +16,7 @@ File request interface
 
 > **abort**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileRequest.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/fileRequest.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileRequest.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/fileRequest.ts#L15)
 
 Aborts the request for a file.
 
@@ -30,6 +30,6 @@ Aborts the request for a file.
 
 > **onCompleteObservable**: [`Observable`](../classes/Observable.md)\<`IFileRequest`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileRequest.ts:10](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/fileRequest.ts#L10)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileRequest.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/fileRequest.ts#L10)
 
 Raised when the request is complete (success or error).

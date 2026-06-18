@@ -6,7 +6,7 @@
 
 # Class: RecastJSCrowd
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:556](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L556)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:556](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L556)
 
 Recast detour crowd implementation
 
@@ -20,7 +20,7 @@ Recast detour crowd implementation
 
 > **new RecastJSCrowd**(`plugin`, `maxAgents`, `maxAgentRadius`, `scene`): `RecastJSCrowd`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:609](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L609)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:609](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L609)
 
 Constructor
 
@@ -62,7 +62,7 @@ the crowd you can add agents to
 
 > **agents**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:573](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L573)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:573](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L573)
 
 All agents created
 
@@ -72,7 +72,7 @@ All agents created
 
 > **bjsRECASTPlugin**: [`RecastJSPlugin`](RecastJSPlugin.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:561](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L561)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:561](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L561)
 
 Recast/detour plugin
 
@@ -82,7 +82,7 @@ Recast/detour plugin
 
 > **onReachTargetObservable**: [`Observable`](Observable.md)\<\{ `agentIndex`: `number`; `destination`: [`Vector3`](Vector3.md); \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:599](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L599)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:599](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L599)
 
 Fires each time an agent is in reach radius of its destination
 
@@ -92,7 +92,7 @@ Fires each time an agent is in reach radius of its destination
 
 > **reachRadii**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:577](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L577)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:577](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L577)
 
 agents reach radius
 
@@ -102,7 +102,7 @@ agents reach radius
 
 > **recastCrowd**: `any` = `{}`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:565](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L565)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:565](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L565)
 
 Link to the detour crowd
 
@@ -112,7 +112,7 @@ Link to the detour crowd
 
 > **transforms**: [`TransformNode`](TransformNode.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:569](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L569)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:569](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L569)
 
 One transform per agent
 
@@ -122,7 +122,7 @@ One transform per agent
 
 > **addAgent**(`pos`, `parameters`, `transform`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:627](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L627)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:627](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L627)
 
 Add a new agent to the crowd with the specified parameter a corresponding transformNode.
 You can attach anything to that node. The node position is updated in the scene update tick.
@@ -163,7 +163,7 @@ agent index
 
 > **agentGoto**(`index`, `destination`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:733](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L733)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:733](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L733)
 
 Asks a particular agent to go to a destination. That destination is constrained by the navigation mesh
 
@@ -195,7 +195,7 @@ targeted world position
 
 > **agentTeleport**(`index`, `destination`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:749](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L749)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:749](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L749)
 
 Teleport the agent to a new position
 
@@ -227,7 +227,7 @@ targeted world position
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:913](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L913)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:913](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L913)
 
 Release all resources
 
@@ -245,7 +245,7 @@ Release all resources
 
 > **getAgentNextTargetPath**(`index`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:695](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L695)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:695](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L695)
 
 Returns the agent next target point on the path
 
@@ -273,7 +273,7 @@ world space position
 
 > **getAgentNextTargetPathToRef**(`index`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:705](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L705)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:705](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L705)
 
 Returns the agent next target point on the path
 
@@ -305,7 +305,7 @@ output world space position
 
 > **getAgentPosition**(`index`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:655](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L655)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:655](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L655)
 
 Returns the agent position in world space
 
@@ -333,7 +333,7 @@ world space position
 
 > **getAgentPositionToRef**(`index`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:665](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L665)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:665](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L665)
 
 Returns the agent position result in world space
 
@@ -365,7 +365,7 @@ output world space position
 
 > **getAgents**(): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:807](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L807)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:807](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L807)
 
 get the list of all agents attached to this crowd
 
@@ -385,7 +385,7 @@ list of agent indices
 
 > **getAgentState**(`index`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:715](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L715)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:715](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L715)
 
 Gets the agent state
 
@@ -413,7 +413,7 @@ agent state
 
 > **getAgentVelocity**(`index`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:675](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L675)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:675](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L675)
 
 Returns the agent velocity in world space
 
@@ -441,7 +441,7 @@ world space velocity
 
 > **getAgentVelocityToRef**(`index`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:685](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L685)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:685](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L685)
 
 Returns the agent velocity result in world space
 
@@ -473,7 +473,7 @@ output world space velocity
 
 > **getCorners**(`index`): [`Vector3`](Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:898](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L898)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:898](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L898)
 
 Get the next corner points composing the path (max 4 points)
 
@@ -501,7 +501,7 @@ array containing world position composing the path
 
 > **getDefaultQueryExtent**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:879](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L879)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:879](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L879)
 
 Get the Bounding box extent specified by setDefaultQueryExtent
 
@@ -521,7 +521,7 @@ the box extent values
 
 > **getDefaultQueryExtentToRef**(`result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:888](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L888)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:888](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L888)
 
 Get the Bounding box extent result specified by setDefaultQueryExtent
 
@@ -547,7 +547,7 @@ output the box extent values
 
 > **overOffmeshConnection**(`index`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:724](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L724)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:724](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L724)
 
 returns true if the agent in over an off mesh link connection
 
@@ -575,7 +575,7 @@ true if over an off mesh link connection
 
 > **removeAgent**(`index`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:790](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L790)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:790](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L790)
 
 remove a particular agent previously created
 
@@ -601,7 +601,7 @@ agent index returned by addAgent
 
 > **setDefaultQueryExtent**(`extent`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:870](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L870)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:870](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L870)
 
 Set the Bounding box extent for doing spatial queries (getClosestPoint, getRandomPointAround, ...)
 The queries will try to find a solution within those bounds
@@ -629,7 +629,7 @@ x,y,z value that define the extent around the queries point of reference
 
 > **update**(`deltaTime`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:815](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L815)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:815](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L815)
 
 Tick update done by the Scene. Agent position/velocity/acceleration is updated by this function
 
@@ -655,7 +655,7 @@ in seconds
 
 > **updateAgentParameters**(`index`, `parameters`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:758](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L758)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts:758](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/Plugins/recastJSPlugin.ts#L758)
 
 Update agent parameters
 

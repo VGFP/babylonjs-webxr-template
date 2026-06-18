@@ -6,7 +6,7 @@
 
 # Class: BouncingBehavior
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L16)
 
 Add a bouncing effect to an ArcRotateCamera when reaching a specified minimum and maximum radius
 
@@ -34,7 +34,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors/cameraBehaviors#bo
 
 > **lowerRadiusTransitionRange**: `number` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L42)
 
 Length of the distance animated by the transition when lower radius is reached
 
@@ -44,7 +44,7 @@ Length of the distance animated by the transition when lower radius is reached
 
 > **transitionDuration**: `number` = `450`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L37)
 
 The duration of the animation, in milliseconds
 
@@ -54,7 +54,7 @@ The duration of the animation, in milliseconds
 
 > **upperRadiusTransitionRange**: `number` = `-2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L47)
 
 Length of the distance animated by the transition when upper radius is reached
 
@@ -64,7 +64,7 @@ Length of the distance animated by the transition when upper radius is reached
 
 > `static` **EasingFunction**: [`BackEase`](BackEase.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L27)
 
 The easing function used by animations
 
@@ -74,7 +74,7 @@ The easing function used by animations
 
 > `static` **EasingMode**: `number` = `EasingFunction.EASINGMODE_EASEOUT`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L32)
 
 The easing mode used by animations
 
@@ -86,7 +86,7 @@ The easing mode used by animations
 
 > **get** **attachedNode**(): [`Nullable`](../type-aliases/Nullable.md)\<[`ArcRotateCamera`](ArcRotateCamera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L96)
 
 Attached node of this behavior
 
@@ -108,7 +108,7 @@ Gets the current attached target
 
 > **get** **autoTransitionRange**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L54)
 
 Gets a value indicating if the lowerRadiusTransitionRange and upperRadiusTransitionRange are defined automatically
 
@@ -120,7 +120,7 @@ Gets a value indicating if the lowerRadiusTransitionRange and upperRadiusTransit
 
 > **set** **autoTransitionRange**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L62)
 
 Sets a value indicating if the lowerRadiusTransitionRange and upperRadiusTransitionRange are defined automatically
 Transition ranges will be set to 5% of the bounding box diagonal in world space
@@ -143,7 +143,7 @@ Transition ranges will be set to 5% of the bounding box diagonal in world space
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L20)
 
 Gets the name of the behavior.
 
@@ -163,7 +163,7 @@ gets or sets behavior's name
 
 > **attach**(`camera`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L116)
 
 Attaches the behavior to its arc rotate camera.
 
@@ -189,7 +189,7 @@ Defines the camera to attach the behavior to
 
 > **detach**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L138)
 
 Detaches the behavior from its current arc rotate camera.
 
@@ -207,7 +207,7 @@ Detaches the behavior from its current arc rotate camera.
 
 > **init**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L108)
 
 Initializes the behavior.
 
@@ -225,7 +225,7 @@ Initializes the behavior.
 
 > **stopAllAnimations**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:224](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L224)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts:224](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/bouncingBehavior.ts#L224)
 
 Stops and removes all animations that have been applied to the camera
 

@@ -6,7 +6,7 @@
 
 # Interface: IXmlSerializerNumberOptions
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:6](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L6)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L6)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.seri
 
 > `optional` **allowScientific?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L26)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L26)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.seri
 
 > **eps**: `number`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:10](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L10)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L10)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.seri
 
 > `optional` **fixedDecimals?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L22)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L22)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.seri
 
 > `optional` **maxDecimalsCap?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L14)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L14)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.seri
 
 > `optional` **perAttributeEps?**: `Record`\<`string`, `number`\>
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L38)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L38)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.seri
 
 > `optional` **snapNearZero?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L30)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L30)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.seri
 
 > `optional` **trimTrailingZeros?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L18)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L18)
 
 ***
 
@@ -70,4 +70,4 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.seri
 
 > `optional` **zeroThreshold?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L34)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L34)

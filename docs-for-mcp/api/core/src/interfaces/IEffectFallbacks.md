@@ -6,7 +6,7 @@
 
 # Interface: IEffectFallbacks
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/iEffectFallbacks.ts:6](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/iEffectFallbacks.ts#L6)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/iEffectFallbacks.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/iEffectFallbacks.ts#L6)
 
 Interface used to define common properties for effect fallbacks
 
@@ -16,7 +16,7 @@ Interface used to define common properties for effect fallbacks
 
 > **hasMoreFallbacks**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/iEffectFallbacks.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/iEffectFallbacks.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/iEffectFallbacks.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/iEffectFallbacks.ts#L23)
 
 Checks to see if more fallbacks are still available.
 
@@ -26,7 +26,7 @@ Checks to see if more fallbacks are still available.
 
 > **reduce**(`currentDefines`, `effect`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/iEffectFallbacks.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/iEffectFallbacks.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/iEffectFallbacks.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/iEffectFallbacks.ts#L13)
 
 Removes the defines that should be removed when falling back.
 
@@ -56,7 +56,7 @@ The resulting defines with defines of the current rank removed.
 
 > **unBindMesh**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/iEffectFallbacks.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/iEffectFallbacks.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/iEffectFallbacks.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/iEffectFallbacks.ts#L18)
 
 Removes the fallback from the bound mesh.
 

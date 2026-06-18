@@ -8,7 +8,7 @@
 
 > **SmartAssetLoadOptions** = `SmartAssetRegistrationOptions` & `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetManager.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/SmartAssets/smartAssetManager.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetManager.pure.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/SmartAssets/smartAssetManager.pure.ts#L66)
 
 Optional load-time configuration. Includes the persistable SmartAssetRegistrationOptions
 fields (type, extension, metadata) plus a transient `reloadSource` callback used by

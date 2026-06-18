@@ -6,7 +6,7 @@
 
 # Class: PolygonMeshBuilder
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:149](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/polygonMesh.ts#L149)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/polygonMesh.ts#L149)
 
 Builds a polygon
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/creation/param/polyMesh
 
 > **new PolygonMeshBuilder**(`name`, `contours`, `scene?`, `earcutInjection?`): `PolygonMeshBuilder`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/polygonMesh.ts#L178)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/polygonMesh.ts#L178)
 
 Creates a PolygonMeshBuilder
 
@@ -60,7 +60,7 @@ can be used to inject your own earcut reference
 
 > **bjsEarcut**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:169](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/polygonMesh.ts#L169)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/polygonMesh.ts#L169)
 
 Babylon reference to the earcut plugin.
 
@@ -70,7 +70,7 @@ Babylon reference to the earcut plugin.
 
 > **addHole**(`hole`): `PolygonMeshBuilder`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/polygonMesh.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/polygonMesh.ts#L205)
 
 Adds a hole within the polygon
 
@@ -94,7 +94,7 @@ this
 
 > **build**(`updatable?`, `depth?`, `smoothingThreshold?`): [`Mesh`](Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:224](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/polygonMesh.ts#L224)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:224](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/polygonMesh.ts#L224)
 
 Creates the polygon
 
@@ -130,7 +130,7 @@ the created mesh
 
 > **buildVertexData**(`depth?`, `smoothingThreshold?`): [`VertexData`](VertexData.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:243](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/polygonMesh.ts#L243)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/polygonMesh.ts#L243)
 
 Creates the polygon
 

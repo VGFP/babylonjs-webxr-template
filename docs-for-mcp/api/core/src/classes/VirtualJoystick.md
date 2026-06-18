@@ -6,7 +6,7 @@
 
 # Class: VirtualJoystick
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L63)
 
 Class used to define virtual joystick (used in touch mode)
 
@@ -16,7 +16,7 @@ Class used to define virtual joystick (used in touch mode)
 
 > **new VirtualJoystick**(`leftJoystick?`, `customizations?`): `VirtualJoystick`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:147](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L147)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:147](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L147)
 
 Creates a new virtual joystick
 
@@ -44,7 +44,7 @@ Defines the options we want to customize the VirtualJoystick
 
 > **deltaPosition**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L75)
 
 Gets the offset value for the position (ie. the change of the position value)
 
@@ -54,7 +54,7 @@ Gets the offset value for the position (ie. the change of the position value)
 
 > **limitToContainer**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L88)
 
 boolean indicating whether or not the joystick's puck's movement should be limited to the joystick's container area
 
@@ -64,7 +64,7 @@ boolean indicating whether or not the joystick's puck's movement should be limit
 
 > **pressed**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L79)
 
 Gets a boolean indicating if the virtual joystick was pressed
 
@@ -74,7 +74,7 @@ Gets a boolean indicating if the virtual joystick was pressed
 
 > **reverseLeftRight**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L67)
 
 Gets or sets a boolean indicating that left and right values must be inverted
 
@@ -84,7 +84,7 @@ Gets or sets a boolean indicating that left and right values must be inverted
 
 > **reverseUpDown**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L71)
 
 Gets or sets a boolean indicating that up and down values must be inverted
 
@@ -94,7 +94,7 @@ Gets or sets a boolean indicating that up and down values must be inverted
 
 > `static` **Canvas**: [`Nullable`](../type-aliases/Nullable.md)\<`HTMLCanvasElement`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L83)
 
 Canvas the virtual joystick will render onto, default z-index of this is 5
 
@@ -106,7 +106,7 @@ Canvas the virtual joystick will render onto, default z-index of this is 5
 
 > **get** **alwaysVisible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:474](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L474)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:474](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L474)
 
 ##### Returns
 
@@ -116,7 +116,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:474]
 
 > **set** **alwaysVisible**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:459](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L459)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:459](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L459)
 
 Defines whether or not the joystick container is always visible
 
@@ -138,7 +138,7 @@ Defines whether or not the joystick container is always visible
 
 > **get** **containerSize**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:431](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L431)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:431](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L431)
 
 ##### Returns
 
@@ -148,7 +148,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:431]
 
 > **set** **containerSize**(`newSize`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:426](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L426)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:426](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L426)
 
 Size of the joystick's container
 
@@ -170,7 +170,7 @@ Size of the joystick's container
 
 > **get** **puckSize**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:443](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L443)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:443](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L443)
 
 ##### Returns
 
@@ -180,7 +180,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:443]
 
 > **set** **puckSize**(`newSize`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:438](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L438)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:438](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L438)
 
 Size of the joystick's puck
 
@@ -200,7 +200,7 @@ Size of the joystick's puck
 
 > **clearPosition**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:450](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L450)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:450](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L450)
 
 Clears the set position of the joystick
 
@@ -214,7 +214,7 @@ Clears the set position of the joystick
 
 > **releaseCanvas**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:673](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L673)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:673](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L673)
 
 Release internal HTML canvas
 
@@ -228,7 +228,7 @@ Release internal HTML canvas
 
 > **setActionOnTouch**(`action`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:496](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L496)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:496](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L496)
 
 Defines a callback to call when the joystick is touched
 
@@ -250,7 +250,7 @@ defines the callback
 
 > **setAxisForLeftRight**(`axis`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:504](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L504)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:504](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L504)
 
 Defines which axis you'd like to control for left & right
 
@@ -272,7 +272,7 @@ defines the axis to use
 
 > **setAxisForUpDown**(`axis`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:521](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L521)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:521](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L521)
 
 Defines which axis you'd like to control for up & down
 
@@ -294,7 +294,7 @@ defines the axis to use
 
 > **setContainerImage**(`urlPath`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:561](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L561)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:561](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L561)
 
 Loads `urlPath` to be used for the container's image
 
@@ -316,7 +316,7 @@ defines the urlPath of an image to use
 
 > **setJoystickColor**(`newColor`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:419](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L419)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:419](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L419)
 
 Change the color of the virtual joystick
 
@@ -338,7 +338,7 @@ a string that must be a CSS color value (like "red") or the hexa value (like "#F
 
 > **setJoystickSensibility**(`newJoystickSensibility`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:281](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L281)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:281](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L281)
 
 Defines joystick sensibility (ie. the ratio between a physical move and virtual joystick position change)
 
@@ -360,7 +360,7 @@ defines the new sensibility
 
 > **setPosition**(`x`, `y`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:483](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L483)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:483](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L483)
 
 Sets the constant position of the Joystick container
 
@@ -388,7 +388,7 @@ Y axis coordinate
 
 > **setPuckImage**(`urlPath`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:572](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/virtualJoystick.ts#L572)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/virtualJoystick.ts:572](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/virtualJoystick.ts#L572)
 
 Loads `urlPath` to be used for the puck's image
 

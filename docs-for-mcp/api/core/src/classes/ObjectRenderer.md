@@ -6,7 +6,7 @@
 
 # Class: ObjectRenderer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L45)
 
 A class that renders objects to the currently bound render target.
 This class only renders objects, and is not concerned with the output texture or post-processing.
@@ -17,7 +17,7 @@ This class only renders objects, and is not concerned with the output texture or
 
 > **new ObjectRenderer**(`name`, `scene`, `options?`): `ObjectRenderer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:441](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L441)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:441](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L441)
 
 Instantiates an object renderer.
 
@@ -51,7 +51,7 @@ The options used to create the renderer (optional)
 
 > **activeCamera**: [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L177)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L177)
 
 Define the camera used to render the objects.
 
@@ -61,7 +61,7 @@ Define the camera used to render the objects.
 
 > **cameraForLOD**: [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L183)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L183)
 
 Define the camera used to calculate the LOD of the objects.
 If not defined, activeCamera will be used. If not defined nor activeCamera, scene's active camera will be used.
@@ -72,7 +72,7 @@ If not defined, activeCamera will be used. If not defined nor activeCamera, scen
 
 > **customIsReadyFunction**: (`mesh`, `refreshRate`, `preWarm?`) => `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:227](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L227)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L227)
 
 Override the mesh isReady function with your own one.
 
@@ -100,7 +100,7 @@ Override the mesh isReady function with your own one.
 
 > **customRenderFunction**: (`opaqueSubMeshes`, `alphaTestSubMeshes`, `transparentSubMeshes`, `depthOnlySubMeshes`, `beforeTransparents?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:232](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L232)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L232)
 
 Override the render function with your own one.
 
@@ -136,7 +136,7 @@ Override the render function with your own one.
 
 > `optional` **customRenderTransparentSubMeshes?**: (`transparentSubMeshes`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:147](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L147)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:147](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L147)
 
 Custom render function for transparent submeshes.
 
@@ -156,7 +156,7 @@ Custom render function for transparent submeshes.
 
 > **dontSetTransformationMatrix**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:209](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L209)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L209)
 
 If true, the object renderer will not set the view/projection/transformation matrices for the active camera (default: false).
 By default, the view/projection/transformation matrices are set from the active camera (either ObjectRenderer.activeCamera or scene.activeCamera).
@@ -169,7 +169,7 @@ to set your own matrices, to be sure they will be correctly taken into account)
 
 > **enableBoundingBoxRendering**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:167](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L167)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L167)
 
 Enables the rendering of bounding boxes for meshes (still subject to Mesh.showBoundingBox or scene.forceShowBoundingBoxes). Default is false.
 
@@ -179,7 +179,7 @@ Enables the rendering of bounding boxes for meshes (still subject to Mesh.showBo
 
 > **enableOutlineRendering**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L172)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L172)
 
 Enables the rendering of outline/overlay for meshes (still subject to Mesh.renderOutline/Mesh.renderOverlay). Default is true.
 
@@ -189,7 +189,7 @@ Enables the rendering of outline/overlay for meshes (still subject to Mesh.rende
 
 > **forceLayerMaskCheck**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L162)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L162)
 
 Force checking the layerMask property even if a custom list of meshes is provided (ie. if renderList is not undefined)
 
@@ -199,7 +199,7 @@ Force checking the layerMask property even if a custom list of meshes is provide
 
 > **getCustomRenderList**: [`Nullable`](../type-aliases/Nullable.md)\<(`layerOrFace`, `renderList`, `renderListLength`) => [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)[]\>\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L116)
 
 Use this function to overload the renderList array at rendering time.
 Return null to render with the current renderList, else return the list of meshes to use for rendering.
@@ -215,7 +215,7 @@ hold dummy elements!
 
 > `readonly` **onAfterRenderingManagerRenderObservable**: [`Observable`](Observable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:264](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L264)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:264](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L264)
 
 An event triggered after the rendering group is processed
 
@@ -225,7 +225,7 @@ An event triggered after the rendering group is processed
 
 > `readonly` **onAfterRenderObservable**: [`Observable`](Observable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:254](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L254)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L254)
 
 An event triggered after rendering the objects.
 Note: This observable is also triggered during readiness checks (e.g. when calling scene.isReady()),
@@ -238,7 +238,7 @@ GPU state changes (such as clearing or modifying the framebuffer) unless the ren
 
 > `readonly` **onBeforeRenderingManagerRenderObservable**: [`Observable`](Observable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:259](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L259)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:259](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L259)
 
 An event triggered before the rendering group is processed
 
@@ -248,7 +248,7 @@ An event triggered before the rendering group is processed
 
 > `readonly` **onBeforeRenderObservable**: [`Observable`](Observable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:246](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L246)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:246](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L246)
 
 An event triggered before rendering the objects.
 Note: This observable is also triggered during readiness checks (e.g. when calling scene.isReady()),
@@ -261,7 +261,7 @@ GPU state changes (such as clearing or modifying the framebuffer) unless the ren
 
 > `readonly` **onFastPathRenderObservable**: [`Observable`](Observable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:279](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L279)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:279](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L279)
 
 An event triggered when fast path rendering is used
 
@@ -271,7 +271,7 @@ An event triggered when fast path rendering is used
 
 > `readonly` **onFinishRenderingObservable**: [`Observable`](Observable.md)\<`ObjectRenderer`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:274](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L274)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:274](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L274)
 
 An event triggered when finishRender is called
 
@@ -281,7 +281,7 @@ An event triggered when finishRender is called
 
 > `readonly` **onInitRenderingObservable**: [`Observable`](Observable.md)\<`ObjectRenderer`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:269](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L269)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:269](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L269)
 
 An event triggered when initRender is called
 
@@ -291,7 +291,7 @@ An event triggered when initRender is called
 
 > **options**: `Required`\<[`ObjectRendererOptions`](../interfaces/ObjectRendererOptions.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:301](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L301)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:301](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L301)
 
 The options used by the object renderer
 
@@ -301,7 +301,7 @@ The options used by the object renderer
 
 > **particleSystemList**: [`Nullable`](../type-aliases/Nullable.md)\<[`IParticleSystem`](../interfaces/IParticleSystem.md)[]\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L105)
 
 Define the list of particle systems to render. If not provided, will render all the particle systems of the scene.
 Note that the particle systems are rendered only if renderParticles is set to true.
@@ -312,7 +312,7 @@ Note that the particle systems are rendered only if renderParticles is set to tr
 
 > **renderAlphaTestMeshes**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L137)
 
 Define if alpha test meshes should be rendered (default is true). No effect if renderMeshes is false.
 
@@ -322,7 +322,7 @@ Define if alpha test meshes should be rendered (default is true). No effect if r
 
 > **renderDepthOnlyMeshes**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L127)
 
 Define if depth only meshes should be rendered (default is true). No effect if renderMeshes is false.
 
@@ -332,7 +332,7 @@ Define if depth only meshes should be rendered (default is true). No effect if r
 
 > **renderListPredicate**: (`AbstractMesh`) => `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L64)
 
 Use this predicate to dynamically define the list of mesh you want to render.
 If set, the renderList property will be overwritten.
@@ -353,7 +353,7 @@ If set, the renderList property will be overwritten.
 
 > **renderMeshes**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L122)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L122)
 
 Define if meshes should be rendered (default is true).
 
@@ -363,7 +363,7 @@ Define if meshes should be rendered (default is true).
 
 > **renderOpaqueMeshes**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L132)
 
 Define if opaque meshes should be rendered (default is true). No effect if renderMeshes is false.
 
@@ -373,7 +373,7 @@ Define if opaque meshes should be rendered (default is true). No effect if rende
 
 > **renderParticles**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L152)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L152)
 
 Define if particles should be rendered (default is true).
 
@@ -383,7 +383,7 @@ Define if particles should be rendered (default is true).
 
 > **renderPassId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:336](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L336)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:336](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L336)
 
 Current render pass id. Note it can change over the rendering as there's a separate id for each face of a cube / each layer of an array layer!
 
@@ -393,7 +393,7 @@ Current render pass id. Note it can change over the rendering as there's a separ
 
 > **renderSprites**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:157](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L157)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:157](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L157)
 
 Define if sprites should be rendered (default is false).
 
@@ -403,7 +403,7 @@ Define if sprites should be rendered (default is false).
 
 > **renderTransparentMeshes**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L142)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L142)
 
 Define if transparent meshes should be rendered (default is true). No effect if renderMeshes is false.
 
@@ -413,7 +413,7 @@ Define if transparent meshes should be rendered (default is true). No effect if 
 
 > `readonly` `static` **REFRESHRATE\_RENDER\_ONCE**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L49)
 
 Objects will only be rendered once which can be useful to improve performance if everything in your render is static for instance.
 
@@ -423,7 +423,7 @@ Objects will only be rendered once which can be useful to improve performance if
 
 > `readonly` `static` **REFRESHRATE\_RENDER\_ONEVERYFRAME**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L53)
 
 Objects will be rendered every frame and is recommended for dynamic contents.
 
@@ -433,7 +433,7 @@ Objects will be rendered every frame and is recommended for dynamic contents.
 
 > `readonly` `static` **REFRESHRATE\_RENDER\_ONEVERYTWOFRAMES**: `number` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L58)
 
 Objects will be rendered every 2 frames which could be enough if your dynamic objects are not
 the central point of your effect and can save a lot of performances.
@@ -446,7 +446,7 @@ the central point of your effect and can save a lot of performances.
 
 > **get** **currentRefreshId**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:348](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L348)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:348](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L348)
 
 Gets the current value of the refreshId counter
 
@@ -462,7 +462,7 @@ Gets the current value of the refreshId counter
 
 > **get** **disableDepthPrePass**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:215](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L215)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:215](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L215)
 
 Specifies to disable depth pre-pass if true (default: false)
 
@@ -474,7 +474,7 @@ Specifies to disable depth pre-pass if true (default: false)
 
 > **set** **disableDepthPrePass**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L219)
 
 ##### Parameters
 
@@ -494,7 +494,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:
 
 > **get** **disableImageProcessing**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L190)
 
 If true, the object renderer will render all objects without any image processing applied.
 If false (default value), the renderer will use the current setting of the scene's image processing configuration.
@@ -507,7 +507,7 @@ If false (default value), the renderer will use the current setting of the scene
 
 > **set** **disableImageProcessing**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:194](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L194)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L194)
 
 ##### Parameters
 
@@ -527,7 +527,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:307](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L307)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:307](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L307)
 
 Friendly name of the object renderer
 
@@ -539,7 +539,7 @@ Friendly name of the object renderer
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:311](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L311)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:311](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L311)
 
 ##### Parameters
 
@@ -559,7 +559,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:
 
 > **get** **refreshRate**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:551](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L551)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:551](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L551)
 
 Defines the refresh rate of the rendering or the rendering frequency.
 Use 0 to render just once, 1 to render on every frame, 2 to render every two frames and so on...
@@ -572,7 +572,7 @@ Use 0 to render just once, 1 to render on every frame, 2 to render every two fra
 
 > **set** **refreshRate**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:554](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L554)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:554](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L554)
 
 ##### Parameters
 
@@ -592,7 +592,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:
 
 > **get** **renderingManager**(): [`RenderingManager`](RenderingManager.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:1028](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L1028)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:1030](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L1030)
 
 Gets the rendering manager
 
@@ -608,7 +608,7 @@ Gets the rendering manager
 
 > **get** **renderList**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L72)
 
 Use this list to define the list of mesh you want to render.
 
@@ -620,7 +620,7 @@ Use this list to define the list of mesh you want to render.
 
 > **set** **renderList**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L76)
 
 ##### Parameters
 
@@ -640,7 +640,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:
 
 > **get** **renderPassIds**(): readonly `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:341](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L341)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:341](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L341)
 
 Gets the render pass ids used by the object renderer.
 
@@ -654,7 +654,7 @@ readonly `number`[]
 
 > **clone**(): `ObjectRenderer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:1067](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L1067)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:1069](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L1069)
 
 Clones the renderer.
 
@@ -670,7 +670,7 @@ the cloned renderer
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:1080](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L1080)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:1082](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L1082)
 
 Dispose the renderer and release its associated resources.
 
@@ -684,7 +684,7 @@ Dispose the renderer and release its associated resources.
 
 > **finishRender**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:693](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L693)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:694](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L694)
 
 This method must be called after the "render" call(s), to complete the rendering process.
 
@@ -698,7 +698,7 @@ This method must be called after the "render" call(s), to complete the rendering
 
 > **freeRenderingGroups**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:1121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L1121)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:1123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L1123)
 
 Clear the info related to rendering groups preventing retention point in material dispose.
 
@@ -712,7 +712,7 @@ Clear the info related to rendering groups preventing retention point in materia
 
 > **getActiveMeshes**(): [`SmartArray`](SmartArray.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:356](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L356)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:356](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L356)
 
 Gets the array of active meshes
 
@@ -728,7 +728,7 @@ an array of AbstractMesh
 
 > **initRender**(`viewportWidth`, `viewportHeight`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:662](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L662)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:662](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L662)
 
 This method makes sure everything is setup before "render" can be called
 
@@ -756,7 +756,7 @@ Height of the viewport to render to
 
 > **isReadyForRendering**(`viewportWidth`, `viewportHeight`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:597](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L597)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:597](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L597)
 
 This function will check if the renderer is ready to render (textures are loaded, shaders are compiled)
 
@@ -786,7 +786,7 @@ true if all required resources are ready
 
 > **prepareRenderList**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:612](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L612)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:612](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L612)
 
 Makes sure the list of meshes is ready to be rendered
 You should call this function before "initRender", but if you know the render list is ok, you may call "initRender" directly
@@ -801,7 +801,7 @@ You should call this function before "initRender", but if you know the render li
 
 > **render**(`passIndex?`, `skipOnAfterRenderObservable?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:722](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L722)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:724](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L724)
 
 Renders all the objects (meshes, particles systems, sprites) to the currently bound render target texture.
 
@@ -829,7 +829,7 @@ defines a flag to skip raising the onAfterRenderObservable
 
 > **resetRefreshCounter**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:543](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L543)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:543](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L543)
 
 Resets the refresh counter of the renderer and start back from scratch.
 Could be useful to re-render if it is setup to render only once.
@@ -844,7 +844,7 @@ Could be useful to re-render if it is setup to render only once.
 
 > **setMaterialForRendering**(`mesh`, `material?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:365](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L365)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:365](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L365)
 
 Sets a specific material to be used to render a mesh/a list of meshes with this object renderer
 
@@ -872,7 +872,7 @@ material or array of materials to use for this render pass. If undefined is pass
 
 > **setRenderingAutoClearDepthStencil**(`renderingGroupId`, `autoClearDepthStencil`, `depth?`, `stencil?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:1058](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L1058)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:1060](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L1060)
 
 Specifies whether or not the stencil and depth buffer are cleared between two rendering groups.
 
@@ -912,7 +912,7 @@ Automatically clears stencil between groups if true and autoClear is true.
 
 > **setRenderingOrder**(`renderingGroupId`, `opaqueSortCompareFn?`, `alphaTestSortCompareFn?`, `transparentSortCompareFn?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:1041](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L1041)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:1043](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L1043)
 
 Overrides the default sort function applied in the rendering group to prepare the meshes.
 This allowed control for front to back rendering or reversely depending of the special needs.
@@ -953,7 +953,7 @@ The transparent queue comparison function use to sort.
 
 > **shouldRender**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:566](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/objectRenderer.ts#L566)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/objectRenderer.ts:566](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/objectRenderer.ts#L566)
 
 Indicates if the renderer should render the current frame.
 The output is based on the specified refresh rate.

@@ -6,7 +6,7 @@
 
 # Class: SceneRecorder
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneRecorder.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneRecorder.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneRecorder.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneRecorder.ts#L22)
 
 Class used to record delta files between 2 scene states
 
@@ -30,7 +30,7 @@ Class used to record delta files between 2 scene states
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneRecorder.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneRecorder.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneRecorder.ts:200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneRecorder.ts#L200)
 
 Dispose the recorder.
 
@@ -48,7 +48,7 @@ Dispose the recorder.
 
 > **getDelta**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneRecorder.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneRecorder.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneRecorder.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneRecorder.ts#L42)
 
 Get the delta between current state and original state
 
@@ -64,7 +64,7 @@ a any containing the delta
 
 > **track**(`scene`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneRecorder.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneRecorder.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneRecorder.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneRecorder.ts#L30)
 
 Track a given scene. This means the current scene state will be considered the original state
 
@@ -86,7 +86,7 @@ defines the scene to track
 
 > `static` **ApplyDelta**(`deltaJSON`, `scene`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneRecorder.ts:228](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneRecorder.ts#L228)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneRecorder.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneRecorder.ts#L228)
 
 Apply a given delta to a given scene
 

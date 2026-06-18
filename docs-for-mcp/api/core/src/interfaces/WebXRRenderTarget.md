@@ -6,7 +6,7 @@
 
 # Interface: WebXRRenderTarget
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRTypes.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRTypes.ts#L48)
 
 Abstraction of the XR render target
 
@@ -20,7 +20,7 @@ Abstraction of the XR render target
 
 > **canvasContext**: `WebGLRenderingContext`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRTypes.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRTypes.ts#L52)
 
 xrpresent context of the canvas which can be used to display/mirror xr content
 
@@ -30,7 +30,7 @@ xrpresent context of the canvas which can be used to display/mirror xr content
 
 > **xrLayer**: [`Nullable`](../type-aliases/Nullable.md)\<`XRWebGLLayer`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRTypes.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRTypes.ts#L57)
 
 xr layer for the canvas
 
@@ -40,7 +40,7 @@ xr layer for the canvas
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L122)
 
 Releases all held resources
 
@@ -58,7 +58,7 @@ Releases all held resources
 
 > **initializeXRLayerAsync**(`xrSession`): `Promise`\<`XRWebGLLayer`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRTypes.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRTypes.ts#L64)
 
 Initializes a XRWebGLLayer to be used as the session's baseLayer.
 

@@ -6,7 +6,7 @@
 
 # Class: PhysicsEngine
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L14)
 
 Class used to control physics engine
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/physics/usingPhysicsEngine
 
 > **new PhysicsEngine**(`gravity`, `_physicsPlugin?`): `PhysicsEngine`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L49)
 
 Creates a new Physics Engine
 
@@ -52,7 +52,7 @@ defines the plugin to use (CannonJS by default)
 
 > **gravity**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L26)
 
 Gets the gravity vector used by the simulation
 
@@ -66,7 +66,7 @@ Gets the gravity vector used by the simulation
 
 > **\_step**(`delta`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:192](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L192)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L192)
 
 Called by the scene. No need to call it.
 
@@ -92,7 +92,7 @@ defines the timespan between frames
 
 > **addImpostor**(`impostor`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L130)
 
 Adding a new impostor for the impostor tracking.
 This will be done by the impostor itself.
@@ -115,7 +115,7 @@ the impostor to add
 
 > **addJoint**(`mainImpostor`, `connectedImpostor`, `joint`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:161](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L161)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:161](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L161)
 
 Add a joint to the physics engine
 
@@ -149,7 +149,7 @@ defines the joint that will connect both impostors.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:110](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L110)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L110)
 
 Release all resources
 
@@ -167,7 +167,7 @@ Release all resources
 
 > **getImpostorForPhysicsObject**(`object`): [`Nullable`](../type-aliases/Nullable.md)\<[`PhysicsImpostor`](PhysicsImpostor.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:230](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L230)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:230](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L230)
 
 Gets the impostor for a physics enabled object
 
@@ -191,7 +191,7 @@ the PhysicsImpostor or null if not found
 
 > **getImpostors**(): [`PhysicsImpostor`](PhysicsImpostor.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:221](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L221)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L221)
 
 Gets the list of physic impostors
 
@@ -207,7 +207,7 @@ an array of PhysicsImpostor
 
 > **getImpostorWithPhysicsBody**(`body`): [`Nullable`](../type-aliases/Nullable.md)\<[`PhysicsImpostor`](PhysicsImpostor.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L245)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L245)
 
 Gets the impostor for a physics body object
 
@@ -231,7 +231,7 @@ the PhysicsImpostor or null if not found
 
 > **getPhysicsPlugin**(): `IPhysicsEnginePlugin`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:213](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L213)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:213](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L213)
 
 Gets the current plugin used to run the simulation
 
@@ -251,7 +251,7 @@ current plugin
 
 > **getPhysicsPluginName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L121)
 
 Gets the name of the current physics plugin
 
@@ -271,7 +271,7 @@ the name of the plugin
 
 > **getPluginVersion**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L32)
 
 #### Returns
 
@@ -289,7 +289,7 @@ version
 
 > **getSubTimeStep**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L103)
 
 Get the sub time step of the physics engine.
 
@@ -309,7 +309,7 @@ the current sub time step
 
 > **getTimeStep**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L85)
 
 Get the time step of the physics engine.
 
@@ -329,7 +329,7 @@ the current time step
 
 > **raycast**(`from`, `to`): [`PhysicsRaycastResult`](PhysicsRaycastResult.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L261)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L261)
 
 Does a raycast in the physics world
 
@@ -363,7 +363,7 @@ PhysicsRaycastResult
 
 > **raycastToRef**(`from`, `to`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:272](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L272)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:272](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L272)
 
 Does a raycast in the physics world
 
@@ -399,7 +399,7 @@ true if the ray hits an impostor, else false
 
 > **removeImpostor**(`impostor`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L144)
 
 Remove an impostor from the engine.
 This impostor and its mesh will not longer be updated by the physics engine.
@@ -422,7 +422,7 @@ the impostor to remove
 
 > **removeJoint**(`mainImpostor`, `connectedImpostor`, `joint`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L178)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L178)
 
 Removes a joint from the simulation
 
@@ -456,7 +456,7 @@ defines the joint to remove
 
 > **setGravity**(`gravity`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L65)
 
 Sets the gravity vector used by the simulation
 
@@ -482,7 +482,7 @@ defines the gravity vector to use
 
 > **setSubTimeStep**(`subTimeStep?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L95)
 
 Set the sub time step of the physics engine.
 Default is 0 meaning there is no sub steps
@@ -510,7 +510,7 @@ defines the new sub timestep used for physics resolution.
 
 > **setTimeStep**(`newTimeStep?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L77)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L77)
 
 Set the time step of the physics engine.
 Default is 1/60.
@@ -539,7 +539,7 @@ defines the new timestep to apply to this world.
 
 > `static` **DefaultPluginFactory**(): `IPhysicsEnginePlugin`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsEngine.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsEngine.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsEngine.ts#L40)
 
 Factory used to create the default physics plugin.
 

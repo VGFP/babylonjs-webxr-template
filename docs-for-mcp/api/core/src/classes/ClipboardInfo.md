@@ -6,7 +6,7 @@
 
 # Class: ClipboardInfo
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/clipboardEvents.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/clipboardEvents.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/clipboardEvents.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/clipboardEvents.ts#L22)
 
 This class is used to store clipboard related info for the onClipboardObservable event.
 
@@ -16,7 +16,7 @@ This class is used to store clipboard related info for the onClipboardObservable
 
 > **new ClipboardInfo**(`type`, `event`): `ClipboardInfo`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/clipboardEvents.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/clipboardEvents.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/clipboardEvents.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/clipboardEvents.ts#L28)
 
 Creates an instance of ClipboardInfo.
 
@@ -44,7 +44,7 @@ Defines the related dom event
 
 > **event**: `ClipboardEvent`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/clipboardEvents.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/clipboardEvents.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/clipboardEvents.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/clipboardEvents.ts#L36)
 
 Defines the related dom event
 
@@ -54,7 +54,7 @@ Defines the related dom event
 
 > **type**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/clipboardEvents.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/clipboardEvents.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/clipboardEvents.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/clipboardEvents.ts#L32)
 
 Defines the type of event (BABYLON.ClipboardEventTypes)
 
@@ -64,7 +64,7 @@ Defines the type of event (BABYLON.ClipboardEventTypes)
 
 > `static` **GetTypeFromCharacter**(`keyCode`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/clipboardEvents.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/clipboardEvents.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/clipboardEvents.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/clipboardEvents.ts#L44)
 
 Get the clipboard event's type from the keycode.
 

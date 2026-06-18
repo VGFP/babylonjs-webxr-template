@@ -6,7 +6,7 @@
 
 # Class: Scene
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:187](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L187)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L189)
 
 Represents a scene to be rendered by the engine.
 
@@ -26,7 +26,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene
 
 > **new Scene**(`engine`, `options?`): `Scene`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2034](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2034)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2037](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2037)
 
 Creates a new Scene
 
@@ -54,7 +54,7 @@ defines the scene options
 
 > **\_afterRenderTargetPostProcessStage**: `Stage`\<[`RenderTargetStageAction`](../type-aliases/RenderTargetStageAction.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1993](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1993)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1996](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1996)
 
 Defines the actions happening just after the post processing on a render target
 
@@ -64,7 +64,7 @@ Defines the actions happening just after the post processing on a render target
 
 > **actionManager**: [`AbstractActionManager`](AbstractActionManager.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1700](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1700)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1702](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1702)
 
 Gets or sets the action manager associated with the scene
 
@@ -78,7 +78,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions
 
 > **actionManagers**: [`AbstractActionManager`](AbstractActionManager.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:538](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L538)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:540](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L540)
 
 ActionManagers available on the scene.
 
@@ -92,7 +92,7 @@ ActionManagers available on the scene.
 
 > **ambientColor**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:285](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L285)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:287](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L287)
 
 Defines the color used to simulate the ambient color (Default is (0, 0, 0))
 
@@ -102,7 +102,7 @@ Defines the color used to simulate the ambient color (Default is (0, 0, 0))
 
 > **animationGroups**: [`AnimationGroup`](AnimationGroup.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:498](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L498)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:500](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L500)
 
 All of the animation groups added to this scene
 
@@ -120,7 +120,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/groupAnimations
 
 > **animations**: [`Animation`](Animation.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:492](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L492)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:494](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L494)
 
 Gets a list of Animations associated with the scene
 
@@ -134,7 +134,7 @@ Gets a list of Animations associated with the scene
 
 > **animationsEnabled**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:628](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L628)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:630](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L630)
 
 Gets or sets a boolean indicating if animations are enabled
 
@@ -144,7 +144,7 @@ Gets or sets a boolean indicating if animations are enabled
 
 > **animationTimeScale**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1734](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1734)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1736](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1736)
 
 Gets or sets a general scale for animation speed
 
@@ -158,7 +158,7 @@ https://www.babylonjs-playground.com/#IBU2W7#3
 
 > **audioEnabled**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioSceneComponent.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioSceneComponent.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioSceneComponent.types.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioSceneComponent.types.ts#L37)
 
 Gets or sets if audio support is enabled
 
@@ -172,7 +172,7 @@ please use AudioEngineV2 instead
 
 > **audioListenerPositionProvider**: [`Nullable`](../type-aliases/Nullable.md)\<() => [`Vector3`](Vector3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioSceneComponent.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioSceneComponent.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioSceneComponent.types.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioSceneComponent.types.ts#L49)
 
 Gets or sets custom audio listener position provider
 
@@ -186,7 +186,7 @@ please use AudioEngineV2 instead
 
 > **audioListenerRotationProvider**: [`Nullable`](../type-aliases/Nullable.md)\<() => [`Vector3`](Vector3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioSceneComponent.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioSceneComponent.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioSceneComponent.types.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioSceneComponent.types.ts#L55)
 
 Gets or sets custom audio listener rotation provider
 
@@ -200,7 +200,7 @@ please use AudioEngineV2 instead
 
 > **audioPositioningRefreshRate**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioSceneComponent.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioSceneComponent.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioSceneComponent.types.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioSceneComponent.types.ts#L61)
 
 Gets or sets a refresh rate when using 3D audio positioning
 
@@ -214,7 +214,7 @@ please use AudioEngineV2 instead
 
 > **autoClear**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L255)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:257](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L257)
 
 Gets or sets a boolean that indicates if the scene must clear the render buffer before rendering a frame
 
@@ -224,7 +224,7 @@ Gets or sets a boolean that indicates if the scene must clear the render buffer 
 
 > **autoClearDepthAndStencil**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:259](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L259)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L261)
 
 Gets or sets a boolean that indicates if the scene must clear the depth and stencil buffers before rendering a frame
 
@@ -234,7 +234,7 @@ Gets or sets a boolean that indicates if the scene must clear the depth and sten
 
 > **cameras**: [`Camera`](Camera.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:459](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L459)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:461](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L461)
 
 All of the cameras added to this scene
 
@@ -252,7 +252,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras
 
 > **cameraToUseForPointers**: [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:244](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L244)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:246](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L246)
 
 Define this parameter if you are using multiple cameras and you want to specify which one should be used for pointer position
 
@@ -262,7 +262,7 @@ Define this parameter if you are using multiple cameras and you want to specify 
 
 > **clipPlane**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:424](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L424)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:426](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L426)
 
 Gets or sets the active clipplane 1
 
@@ -276,7 +276,7 @@ Gets or sets the active clipplane 1
 
 > **clipPlane2**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:429](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L429)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:431](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L431)
 
 Gets or sets the active clipplane 2
 
@@ -290,7 +290,7 @@ Gets or sets the active clipplane 2
 
 > **clipPlane3**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:434](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L434)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:436](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L436)
 
 Gets or sets the active clipplane 3
 
@@ -304,7 +304,7 @@ Gets or sets the active clipplane 3
 
 > **clipPlane4**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:439](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L439)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:441](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L441)
 
 Gets or sets the active clipplane 4
 
@@ -318,7 +318,7 @@ Gets or sets the active clipplane 4
 
 > **clipPlane5**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:444](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L444)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:446](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L446)
 
 Gets or sets the active clipplane 5
 
@@ -332,7 +332,7 @@ Gets or sets the active clipplane 5
 
 > **clipPlane6**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:449](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L449)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:451](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L451)
 
 Gets or sets the active clipplane 6
 
@@ -346,7 +346,7 @@ Gets or sets the active clipplane 6
 
 > **collisionsEnabled**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1627](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1627)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1629](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1629)
 
 Gets or sets a boolean indicating if collisions are enabled on this scene
 
@@ -360,7 +360,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/camera_collisions
 
 > **constantlyUpdateMeshUnderPointer**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:652](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L652)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:654](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L654)
 
 Gets or sets a boolean indicating if the scene must keep the meshUnderPointer property updated
 Please note that it requires to run a ray cast through the scene on every frame
@@ -371,7 +371,7 @@ Please note that it requires to run a ray cast through the scene on every frame
 
 > **customLODSelector**: (`mesh`, `camera`) => [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1054](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1054)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1056](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1056)
 
 Gets or sets a user defined funtion to select LOD from a mesh and a camera.
 By default this function is undefined and Babylon.js will select LOD based on distance to camera
@@ -396,7 +396,7 @@ By default this function is undefined and Babylon.js will select LOD based on di
 
 > `optional` **customRenderFunction?**: (`updateCameras`, `ignoreAnimations`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:5374](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L5374)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:5377](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L5377)
 
 If this function is defined it will take precedence over the standard render() function.
 
@@ -420,7 +420,7 @@ If this function is defined it will take precedence over the standard render() f
 
 > **customRenderTargets**: [`RenderTargetTexture`](RenderTargetTexture.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1670](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1670)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1672](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1672)
 
 The list of user defined render targets added to the scene
 
@@ -430,7 +430,7 @@ The list of user defined render targets added to the scene
 
 > **debugLayer**: [`DebugLayer`](DebugLayer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/debugLayer.ts#L183)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/debugLayer.types.ts#L15)
 
 Gets the debug layer (aka Inspector) associated with the scene
 
@@ -444,7 +444,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector
 
 > **defaultCameraLayerMask**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1826](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1826)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1829](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1829)
 
 Gets or sets the default layerMask used for cameras created in this scene.
 
@@ -454,7 +454,7 @@ Gets or sets the default layerMask used for cameras created in this scene.
 
 > **defaultCursor**: `string` = `""`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:661](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L661)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:663](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L663)
 
 Defines the HTML default cursor to use (empty by default)
 
@@ -464,7 +464,7 @@ Defines the HTML default cursor to use (empty by default)
 
 > **defaultRenderableLayerMask**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1831](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1831)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1834](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1834)
 
 Gets or sets the default layerMask used for renderable objects created in this scene.
 
@@ -474,7 +474,7 @@ Gets or sets the default layerMask used for renderable objects created in this s
 
 > **deltaTime**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:487](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L487)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:489](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L489)
 
 Gets the current delta time used by animation engine
 
@@ -484,7 +484,7 @@ Gets the current delta time used by animation engine
 
 > **depthPeelingRenderer**: [`Nullable`](../type-aliases/Nullable.md)\<`ThinDepthPeelingRenderer`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthPeelingSceneComponent.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthPeelingSceneComponent.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthPeelingSceneComponent.types.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthPeelingSceneComponent.types.ts#L9)
 
 The depth peeling renderer
 
@@ -494,7 +494,7 @@ The depth peeling renderer
 
 > **disableOfflineSupportExceptionRules**: `RegExp`[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:697](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L697)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:699](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L699)
 
 Use this array to add regular expressions used to disable offline support for specific urls
 
@@ -504,7 +504,7 @@ Use this array to add regular expressions used to disable offline support for sp
 
 > **dispatchAllSubMeshesOfActiveMeshes**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1766](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1766)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1769](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1769)
 
 Gets or sets a boolean indicating that all submeshes of active meshes must be rendered
 Use this boolean to avoid computing frustum clipping on submeshes (This could help when you are CPU bound)
@@ -515,7 +515,7 @@ Use this boolean to avoid computing frustum clipping on submeshes (This could he
 
 > **doNotHandleCursors**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:665](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L665)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:667](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L667)
 
 Defines whether cursors are handled by the scene.
 
@@ -525,7 +525,7 @@ Defines whether cursors are handled by the scene.
 
 > **dumpNextRenderTargets**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1666](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1666)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1668](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1668)
 
 Gets or sets a boolean indicating if next render targets must be dumped as image for debugging purposes
 We recommend not using it and instead rely on Spector.js: http://spector.babylonjs.com
@@ -536,7 +536,7 @@ We recommend not using it and instead rely on Spector.js: http://spector.babylon
 
 > **effectLayers**: [`EffectLayer`](EffectLayer.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:585](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L585)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:587](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L587)
 
 The list of effect layers (highlights/glow) added to the scene
 
@@ -555,7 +555,7 @@ The list of effect layers (highlights/glow) added to the scene
 
 > **environmentBRDFTexture**: [`BaseTexture`](BaseTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:295](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L295)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:297](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L297)
 
 This is use to store the default BRDF lookup for PBR materials in your scene.
 It should only be one of the following (if not the default embedded one):
@@ -570,7 +570,7 @@ The material properties need to be setup according to the type of texture in use
 
 > **environmentFuzzBRDFTexture**: [`BaseTexture`](BaseTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:300](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L300)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L302)
 
 This stores the brdf lookup for the fuzz layer of PBR materials in your scene.
 
@@ -580,7 +580,7 @@ This stores the brdf lookup for the fuzz layer of PBR materials in your scene.
 
 > **environmentIntensity**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:310](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L310)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:312](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L312)
 
 Intensity of the environment (i.e. all indirect lighting) in all pbr material.
 This dims or reinforces the indirect lighting overall (reflection and diffuse).
@@ -595,7 +595,7 @@ If you want to modify the intensity of the IBL texture, you should update iblInt
 
 > **fluidRenderer**: [`Nullable`](../type-aliases/Nullable.md)\<[`FluidRenderer`](FluidRenderer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.types.ts#L12)
 
 Gets or Sets the fluid renderer associated to the scene.
 
@@ -605,7 +605,7 @@ Gets or Sets the fluid renderer associated to the scene.
 
 > **fogColor**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1409](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1409)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1411](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1411)
 
 Gets or sets the fog color to use
 
@@ -620,7 +620,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/environment/environment_intr
 
 > **fogDensity**: `number` = `0.1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1415](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1415)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1417](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1417)
 
 Gets or sets the fog density to use
 
@@ -635,7 +635,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/environment/environment_intr
 
 > **fogEnd**: `number` = `1000.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1427](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1427)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1429](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1429)
 
 Gets or sets the fog end distance to use
 
@@ -650,7 +650,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/environment/environment_intr
 
 > **fogStart**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1421](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1421)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1423](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1423)
 
 Gets or sets the fog start distance to use
 
@@ -665,7 +665,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/environment/environment_intr
 
 > **forceShowBoundingBoxes**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.types.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.types.ts#L14)
 
 Gets or sets a boolean indicating if all bounding boxes must be rendered
 
@@ -675,7 +675,7 @@ Gets or sets a boolean indicating if all bounding boxes must be rendered
 
 > **frameGraphs**: [`FrameGraph`](FrameGraph.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1579](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1579)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1581](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1581)
 
 List of frame graphs associated with the scene
 
@@ -685,7 +685,7 @@ List of frame graphs associated with the scene
 
 > **gamepadManager**: [`GamepadManager`](GamepadManager.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadSceneComponent.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepadSceneComponent.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadSceneComponent.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepadSceneComponent.types.ts#L13)
 
 Gets the gamepad manager associated with the scene
 
@@ -699,7 +699,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/input/gamepads
 
 > **geometries**: [`Geometry`](Geometry.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:524](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L524)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:526](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L526)
 
 The list of geometries used in the scene.
 
@@ -713,7 +713,7 @@ The list of geometries used in the scene.
 
 > **geometryBufferRenderer**: [`Nullable`](../type-aliases/Nullable.md)\<[`GeometryBufferRenderer`](GeometryBufferRenderer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.types.ts#L12)
 
 Gets or Sets the current geometry buffer associated to the scene.
 
@@ -723,7 +723,7 @@ Gets or Sets the current geometry buffer associated to the scene.
 
 > **getActiveMeshCandidates**: () => [`ISmartArrayLike`](../interfaces/ISmartArrayLike.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4564](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4564)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4567](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4567)
 
 Lambda returning the list of potentially active meshes.
 
@@ -737,7 +737,7 @@ Lambda returning the list of potentially active meshes.
 
 > **getActiveSubMeshCandidates**: (`mesh`) => [`ISmartArrayLike`](../interfaces/ISmartArrayLike.md)\<[`SubMesh`](SubMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4569](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4569)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4572](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4572)
 
 Lambda returning the list of potentially active sub meshes.
 
@@ -757,7 +757,7 @@ Lambda returning the list of potentially active sub meshes.
 
 > **getCollidingSubMeshCandidates**: (`mesh`, `collider`) => [`ISmartArrayLike`](../interfaces/ISmartArrayLike.md)\<[`SubMesh`](SubMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4579](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4579)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4582](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4582)
 
 Lambda returning the list of potentially colliding sub meshes.
 
@@ -781,7 +781,7 @@ Lambda returning the list of potentially colliding sub meshes.
 
 > **getDeterministicFrameTime**: () => `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:5278](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L5278)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:5281](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L5281)
 
 User updatable function that will return a deterministic frame time when engine is in deterministic lock step mode
 
@@ -797,7 +797,7 @@ the frame time
 
 > **getIntersectingSubMeshCandidates**: (`mesh`, `localRay`) => [`ISmartArrayLike`](../interfaces/ISmartArrayLike.md)\<[`SubMesh`](SubMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4574](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4574)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4577](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4577)
 
 Lambda returning the list of potentially intersecting sub meshes.
 
@@ -821,7 +821,7 @@ Lambda returning the list of potentially intersecting sub meshes.
 
 > **gravity**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1645](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1645)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1647](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1647)
 
 Defines the gravity applied to this scene (used only for collisions)
 
@@ -835,7 +835,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/camera_collisions
 
 > **headphone**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioSceneComponent.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioSceneComponent.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioSceneComponent.types.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioSceneComponent.types.ts#L43)
 
 Gets or sets if audio will be output to headphones
 
@@ -849,7 +849,7 @@ please use AudioEngineV2 instead
 
 > **hoverCursor**: `string` = `"pointer"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:657](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L657)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:659](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L659)
 
 Defines the HTML cursor to use when hovering over interactive elements
 
@@ -859,7 +859,7 @@ Defines the HTML cursor to use when hovering over interactive elements
 
 > **iblCdfGenerator**: [`Nullable`](../type-aliases/Nullable.md)\<[`IblCdfGenerator`](IblCdfGenerator.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.types.ts#L15)
 
 Gets or Sets the current CDF generator associated to the scene.
 The CDF (cumulative distribution function) generator creates CDF maps
@@ -872,7 +872,7 @@ importance sampling.
 
 > **iblIntensity**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:316](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L316)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:318](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L318)
 
 Overall intensity of the IBL texture.
 This value is multiplied with the reflectionTexture.level value to calculate the final IBL intensity.
@@ -883,7 +883,7 @@ This value is multiplied with the reflectionTexture.level value to calculate the
 
 > **importedMeshesFiles**: `string`[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1681](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1681)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1683](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1683)
 
 Gets the list of meshes imported to the scene through SceneLoader
 
@@ -893,7 +893,7 @@ Gets the list of meshes imported to the scene through SceneLoader
 
 > **layers**: [`Layer`](Layer.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:596](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L596)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:598](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L598)
 
 The list of layers (background and foreground) of the scene
 
@@ -907,7 +907,7 @@ The list of layers (background and foreground) of the scene
 
 > **lensFlaresEnabled**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1620](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1620)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1622](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1622)
 
 Gets or sets a boolean indicating if lens flares are enabled on this scene
 
@@ -917,7 +917,7 @@ Gets or sets a boolean indicating if lens flares are enabled on this scene
 
 > **lensFlareSystems**: [`LensFlareSystem`](LensFlareSystem.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:602](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L602)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:604](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L604)
 
 The list of lens flare system added to the scene
 
@@ -935,7 +935,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/environment/lenseFlare
 
 > **lights**: [`Light`](Light.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:465](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L465)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:467](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L467)
 
 All of the lights added to this scene
 
@@ -953,7 +953,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/lights/lights_introduction
 
 > **loadingPluginName**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:692](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L692)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:694](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L694)
 
 Gets the name of the plugin used to load this scene (null by default)
 
@@ -963,7 +963,7 @@ Gets the name of the plugin used to load this scene (null by default)
 
 > **mainSoundTrack**: [`SoundTrack`](SoundTrack.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioSceneComponent.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioSceneComponent.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioSceneComponent.types.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioSceneComponent.types.ts#L18)
 
 The main sound track played by the scene.
 It contains your primary collection of sounds.
@@ -978,7 +978,7 @@ please use AudioEngineV2 instead
 
 > **materials**: [`Material`](Material.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:513](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L513)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:515](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L515)
 
 All of the materials added to this scene
 In the context of a Scene, it is not supposed to be modified manually.
@@ -999,7 +999,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/using/materials_in
 
 > **meshes**: [`AbstractMesh`](AbstractMesh.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:470](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L470)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:472](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L472)
 
 All of the (abstract) meshes added to this scene
 
@@ -1013,7 +1013,7 @@ All of the (abstract) meshes added to this scene
 
 > **metadata**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:682](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L682)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:684](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L684)
 
 Gets or sets user defined metadata
 
@@ -1023,7 +1023,7 @@ Gets or sets user defined metadata
 
 > **morphTargetManagers**: [`MorphTargetManager`](MorphTargetManager.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:519](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L519)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:521](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L521)
 
 The list of morph target managers added to the scene
 
@@ -1041,7 +1041,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/dynamicMeshMorph
 
 > **multiMaterials**: [`MultiMaterial`](MultiMaterial.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:504](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L504)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:506](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L506)
 
 All of the multi-materials added to this scene
 
@@ -1059,7 +1059,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/using/multiMateria
 
 > **needsPreviousWorldMatrices**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1439](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1439)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1441](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1441)
 
 Flag indicating if we need to store previous matrices when rendering
 
@@ -1069,7 +1069,7 @@ Flag indicating if we need to store previous matrices when rendering
 
 > **objectRenderers**: [`ObjectRenderer`](ObjectRenderer.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:543](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L543)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:545](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L545)
 
 Object renderers available on the scene.
 
@@ -1079,7 +1079,7 @@ Object renderers available on the scene.
 
 > **offlineProvider**: [`IOfflineProvider`](../interfaces/IOfflineProvider.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1694](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1694)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1696](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1696)
 
 Gets or sets the current offline provider to use to store scene data
 
@@ -1093,7 +1093,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/optimizeCached
 
 > **onActiveCameraChanged**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1009](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1009)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1011](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1011)
 
 An event triggered when the activeCamera property is updated
 
@@ -1103,7 +1103,7 @@ An event triggered when the activeCamera property is updated
 
 > **onActiveCamerasChanged**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1014](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1014)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1016](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1016)
 
 An event triggered when the activeCameras property is updated
 
@@ -1113,7 +1113,7 @@ An event triggered when the activeCameras property is updated
 
 > **onAfterActiveMeshesEvaluationObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:815](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L815)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:817](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L817)
 
 An event triggered when active meshes evaluation is done
 
@@ -1123,7 +1123,7 @@ An event triggered when active meshes evaluation is done
 
 > **onAfterAnimationsObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:760](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L760)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:762](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L762)
 
 An event triggered after animations processing
 
@@ -1133,7 +1133,7 @@ An event triggered after animations processing
 
 > **onAfterCameraRenderObservable**: [`Observable`](Observable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:796](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L796)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:798](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L798)
 
 An event triggered after rendering a camera
 This is triggered for the full rig Camera only unlike onAfterRenderCameraObservable
@@ -1144,7 +1144,7 @@ This is triggered for the full rig Camera only unlike onAfterRenderCameraObserva
 
 > **onAfterDrawPhaseObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:770](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L770)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:772](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L772)
 
 An event triggered after draw calls have been sent
 
@@ -1154,7 +1154,7 @@ An event triggered after draw calls have been sent
 
 > **onAfterParticlesRenderingObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:827](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L827)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:829](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L829)
 
 An event triggered when particles rendering is done
 Note: This event can be trigger more than once per frame (because particles can be rendered by render target textures as well)
@@ -1165,7 +1165,7 @@ Note: This event can be trigger more than once per frame (because particles can 
 
 > **onAfterPhysicsObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.types.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.types.ts#L54)
 
 An event triggered when physic simulation has been done
 
@@ -1175,7 +1175,7 @@ An event triggered when physic simulation has been done
 
 > **onAfterRenderCameraObservable**: [`Observable`](Observable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:738](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L738)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:740](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L740)
 
 An event triggered after rendering the scene for an active camera (When scene.render is called this will be called after each camera)
 This is triggered for each "sub" camera in a Camera Rig unlike onAfterCameraRenderObservable
@@ -1186,7 +1186,7 @@ This is triggered for each "sub" camera in a Camera Rig unlike onAfterCameraRend
 
 > **onAfterRenderingGroupObservable**: [`Observable`](Observable.md)\<[`RenderingGroupInfo`](RenderingGroupInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1028](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1028)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1030](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1030)
 
 This Observable will be triggered after rendering each renderingGroup of each rendered camera.
 The RenderingGroupInfo class contains all the information about the context in which the observable is called
@@ -1198,7 +1198,7 @@ If you wish to register an Observer only for a given set of renderingGroup, use 
 
 > **onAfterRenderObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:732](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L732)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:734](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L734)
 
 An event triggered after rendering the scene
 
@@ -1208,7 +1208,7 @@ An event triggered after rendering the scene
 
 > **onAfterRenderTargetsRenderObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:994](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L994)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:996](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L996)
 
 An event triggered when render targets were rendered.
 Can happen multiple times per frame.
@@ -1219,7 +1219,7 @@ Can happen multiple times per frame.
 
 > **onAfterSpritesRenderingObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteSceneComponent.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts#L46)
 
 An event triggered when sprites rendering is done
 Note: This event can be trigger more than once per frame (because sprites can be rendered by render target textures as well)
@@ -1230,7 +1230,7 @@ Note: This event can be trigger more than once per frame (because sprites can be
 
 > **onAfterStepObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1004](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1004)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1006](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1006)
 
 An event triggered after calculating deterministic simulation step
 
@@ -1240,7 +1240,7 @@ An event triggered after calculating deterministic simulation step
 
 > **onAnimationFileImportedObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1038](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1038)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1040](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1040)
 
 This Observable will when an animation file has been imported into the scene.
 
@@ -1250,7 +1250,7 @@ This Observable will when an animation file has been imported into the scene.
 
 > **onAnimationGroupRemovedObservable**: [`Observable`](Observable.md)\<[`AnimationGroup`](AnimationGroup.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:912](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L912)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:914](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L914)
 
 An event triggered when an animation group is removed
 
@@ -1260,7 +1260,7 @@ An event triggered when an animation group is removed
 
 > **onBeforeActiveMeshesEvaluationObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:810](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L810)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:812](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L812)
 
 An event triggered when active meshes evaluation is about to start
 
@@ -1270,7 +1270,7 @@ An event triggered when active meshes evaluation is about to start
 
 > **onBeforeAnimationsObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:755](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L755)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:757](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L757)
 
 An event triggered before animating the scene
 
@@ -1280,7 +1280,7 @@ An event triggered before animating the scene
 
 > **onBeforeCameraRenderObservable**: [`Observable`](Observable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:780](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L780)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:782](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L782)
 
 An event triggered before rendering a camera
 
@@ -1290,7 +1290,7 @@ An event triggered before rendering a camera
 
 > **onBeforeDrawPhaseObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:765](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L765)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:767](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L767)
 
 An event triggered before draw calls are ready to be sent
 
@@ -1300,7 +1300,7 @@ An event triggered before draw calls are ready to be sent
 
 > **onBeforeParticlesRenderingObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:821](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L821)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:823](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L823)
 
 An event triggered when particles rendering is about to start
 Note: This event can be trigger more than once per frame (because particles can be rendered by render target textures as well)
@@ -1311,7 +1311,7 @@ Note: This event can be trigger more than once per frame (because particles can 
 
 > **onBeforePhysicsObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.types.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.types.ts#L49)
 
 An event triggered when physic simulation is about to be run
 
@@ -1321,7 +1321,7 @@ An event triggered when physic simulation is about to be run
 
 > **onBeforeRenderingGroupObservable**: [`Observable`](Observable.md)\<[`RenderingGroupInfo`](RenderingGroupInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1021](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1021)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1023](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1023)
 
 This Observable will be triggered before rendering each renderingGroup of each rendered camera.
 The RenderingGroupInfo class contains all the information about the context in which the observable is called
@@ -1333,7 +1333,7 @@ If you wish to register an Observer only for a given set of renderingGroup, use 
 
 > **onBeforeRenderObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:716](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L716)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:718](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L718)
 
 An event triggered before rendering the scene (right after animations and physics)
 
@@ -1343,7 +1343,7 @@ An event triggered before rendering the scene (right after animations and physic
 
 > **onBeforeRenderTargetsRenderObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:988](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L988)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:990](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L990)
 
 An event triggered when render targets are about to be rendered
 Can happen multiple times per frame.
@@ -1354,7 +1354,7 @@ Can happen multiple times per frame.
 
 > **onBeforeSpritesRenderingObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteSceneComponent.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts#L40)
 
 An event triggered when sprites rendering is about to start
 Note: This event can be trigger more than once per frame (because sprites can be rendered by render target textures as well)
@@ -1365,7 +1365,7 @@ Note: This event can be trigger more than once per frame (because sprites can be
 
 > **onBeforeStepObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:999](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L999)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1001](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1001)
 
 An event triggered before calculating deterministic simulation step
 
@@ -1375,7 +1375,7 @@ An event triggered before calculating deterministic simulation step
 
 > **onCameraRemovedObservable**: [`Observable`](Observable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:842](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L842)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:844](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L844)
 
 An event triggered when a camera is removed
 
@@ -1385,7 +1385,7 @@ An event triggered when a camera is removed
 
 > **onClearColorChangedObservable**: [`Observable`](Observable.md)\<[`Color4`](Color4.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:266](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L266)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:268](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L268)
 
 Observable triggered when the performance priority is changed
 
@@ -1395,7 +1395,7 @@ Observable triggered when the performance priority is changed
 
 > **onDataLoadedObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:832](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L832)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:834](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L834)
 
 An event triggered when SceneLoader.Append or SceneLoader.Load or SceneLoader.ImportMesh were successfully executed
 
@@ -1405,7 +1405,7 @@ An event triggered when SceneLoader.Append or SceneLoader.Load or SceneLoader.Im
 
 > **onDisposeObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:702](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L702)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:704](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L704)
 
 An event triggered when the scene is disposed.
 
@@ -1415,7 +1415,7 @@ An event triggered when the scene is disposed.
 
 > **onEffectLayerRemovedObservable**: [`Observable`](Observable.md)\<[`EffectLayer`](EffectLayer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:982](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L982)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:984](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L984)
 
 An event triggered when an effect layer is removed
 
@@ -1425,7 +1425,7 @@ An event triggered when an effect layer is removed
 
 > **onEnvironmentTextureChangedObservable**: [`Observable`](Observable.md)\<[`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1043](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1043)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1045](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1045)
 
 An event triggered when the environmentTexture is changed.
 
@@ -1435,7 +1435,7 @@ An event triggered when the environmentTexture is changed.
 
 > **onFrameGraphRemovedObservable**: [`Observable`](Observable.md)\<[`FrameGraph`](FrameGraph.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:952](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L952)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:954](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L954)
 
 An event triggered when a frame graph is removed
 
@@ -1445,7 +1445,7 @@ An event triggered when a frame graph is removed
 
 > **onGeometryRemovedObservable**: [`Observable`](Observable.md)\<[`Geometry`](Geometry.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:862](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L862)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:864](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L864)
 
 An event triggered when a geometry is removed
 
@@ -1455,7 +1455,7 @@ An event triggered when a geometry is removed
 
 > **onKeyboardObservable**: [`Observable`](Observable.md)\<[`KeyboardInfo`](KeyboardInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1312](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1312)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1314](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1314)
 
 Observable event triggered each time an keyboard event is received from the hosting window
 
@@ -1465,7 +1465,7 @@ Observable event triggered each time an keyboard event is received from the host
 
 > **onLightRemovedObservable**: [`Observable`](Observable.md)\<[`Light`](Light.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:852](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L852)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:854](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L854)
 
 An event triggered when a light is removed
 
@@ -1475,7 +1475,7 @@ An event triggered when a light is removed
 
 > **onMaterialRemovedObservable**: [`Observable`](Observable.md)\<[`Material`](Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:927](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L927)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:929](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L929)
 
 An event triggered when a material is removed
 
@@ -1485,7 +1485,7 @@ An event triggered when a material is removed
 
 > **onMeshImportedObservable**: [`Observable`](Observable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1033](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1033)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1035](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1035)
 
 This Observable will when a mesh has been imported into the scene.
 
@@ -1495,7 +1495,7 @@ This Observable will when a mesh has been imported into the scene.
 
 > **onMeshRemovedObservable**: [`Observable`](Observable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:882](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L882)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:884](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L884)
 
 An event triggered when a mesh is removed
 
@@ -1505,7 +1505,7 @@ An event triggered when a mesh is removed
 
 > **onMeshUnderPointerUpdatedObservable**: [`Observable`](Observable.md)\<\{ `mesh`: [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>; `pointerId`: `number`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1048](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1048)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1050](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1050)
 
 An event triggered when the state of mesh under pointer, for a specific pointerId, changes.
 
@@ -1515,7 +1515,7 @@ An event triggered when the state of mesh under pointer, for a specific pointerI
 
 > **onMultiMaterialRemovedObservable**: [`Observable`](Observable.md)\<[`MultiMaterial`](MultiMaterial.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:932](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L932)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:934](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L934)
 
 An event triggered when a multi material is removed
 
@@ -1525,7 +1525,7 @@ An event triggered when a multi material is removed
 
 > **onNewAnimationGroupAddedObservable**: [`Observable`](Observable.md)\<[`AnimationGroup`](AnimationGroup.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:907](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L907)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:909](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L909)
 
 An event triggered when an animation group is created
 
@@ -1535,7 +1535,7 @@ An event triggered when an animation group is created
 
 > **onNewCameraAddedObservable**: [`Observable`](Observable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:837](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L837)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:839](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L839)
 
 An event triggered when a camera is created
 
@@ -1545,7 +1545,7 @@ An event triggered when a camera is created
 
 > **onNewEffectLayerAddedObservable**: [`Observable`](Observable.md)\<[`EffectLayer`](EffectLayer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:977](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L977)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:979](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L979)
 
 An event triggered when an effect layer is created
 
@@ -1555,7 +1555,7 @@ An event triggered when an effect layer is created
 
 > **onNewFrameGraphAddedObservable**: [`Observable`](Observable.md)\<[`FrameGraph`](FrameGraph.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:947](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L947)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:949](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L949)
 
 An event triggered when a frame graph is created
 
@@ -1565,7 +1565,7 @@ An event triggered when a frame graph is created
 
 > **onNewGeometryAddedObservable**: [`Observable`](Observable.md)\<[`Geometry`](Geometry.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:857](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L857)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:859](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L859)
 
 An event triggered when a geometry is created
 
@@ -1575,7 +1575,7 @@ An event triggered when a geometry is created
 
 > **onNewLightAddedObservable**: [`Observable`](Observable.md)\<[`Light`](Light.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:847](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L847)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:849](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L849)
 
 An event triggered when a light is created
 
@@ -1585,7 +1585,7 @@ An event triggered when a light is created
 
 > **onNewMaterialAddedObservable**: [`Observable`](Observable.md)\<[`Material`](Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:917](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L917)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:919](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L919)
 
 An event triggered when a material is created
 
@@ -1595,7 +1595,7 @@ An event triggered when a material is created
 
 > **onNewMeshAddedObservable**: [`Observable`](Observable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:877](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L877)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:879](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L879)
 
 An event triggered when a mesh is created
 
@@ -1605,7 +1605,7 @@ An event triggered when a mesh is created
 
 > **onNewMultiMaterialAddedObservable**: [`Observable`](Observable.md)\<[`MultiMaterial`](MultiMaterial.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:922](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L922)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:924](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L924)
 
 An event triggered when a multi material is created
 
@@ -1615,7 +1615,7 @@ An event triggered when a multi material is created
 
 > **onNewObjectRendererAddedObservable**: [`Observable`](Observable.md)\<[`ObjectRenderer`](ObjectRenderer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:957](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L957)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:959](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L959)
 
 An event triggered when an object renderer is created
 
@@ -1625,7 +1625,7 @@ An event triggered when an object renderer is created
 
 > **onNewParticleSystemAddedObservable**: [`Observable`](Observable.md)\<[`IParticleSystem`](../interfaces/IParticleSystem.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:897](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L897)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:899](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L899)
 
 An event triggered when a particle system is created
 
@@ -1635,7 +1635,7 @@ An event triggered when a particle system is created
 
 > **onNewPostProcessAddedObservable**: [`Observable`](Observable.md)\<[`PostProcess`](PostProcess.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:967](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L967)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:969](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L969)
 
 An event triggered when a post process is created
 
@@ -1645,7 +1645,7 @@ An event triggered when a post process is created
 
 > **onNewSkeletonAddedObservable**: [`Observable`](Observable.md)\<[`Skeleton`](Skeleton.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:887](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L887)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:889](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L889)
 
 An event triggered when a skeleton is created
 
@@ -1655,7 +1655,7 @@ An event triggered when a skeleton is created
 
 > `readonly` **onNewSpriteManagerAddedObservable**: [`IReadonlyObservable`](../interfaces/IReadonlyObservable.md)\<[`ISpriteManager`](../interfaces/ISpriteManager.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteSceneComponent.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts#L29)
 
 An event triggered when a sprite manager is added to the scene
 
@@ -1665,7 +1665,7 @@ An event triggered when a sprite manager is added to the scene
 
 > **onNewTextureAddedObservable**: [`Observable`](Observable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:937](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L937)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:939](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L939)
 
 An event triggered when a texture is created
 
@@ -1675,7 +1675,7 @@ An event triggered when a texture is created
 
 > **onNewTransformNodeAddedObservable**: [`Observable`](Observable.md)\<[`TransformNode`](TransformNode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:867](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L867)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:869](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L869)
 
 An event triggered when a transform node is created
 
@@ -1685,7 +1685,7 @@ An event triggered when a transform node is created
 
 > **onObjectRendererRemovedObservable**: [`Observable`](Observable.md)\<[`ObjectRenderer`](ObjectRenderer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:962](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L962)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:964](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L964)
 
 An event triggered when an object renderer is removed
 
@@ -1695,7 +1695,7 @@ An event triggered when an object renderer is removed
 
 > **onParticleSystemRemovedObservable**: [`Observable`](Observable.md)\<[`IParticleSystem`](../interfaces/IParticleSystem.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:902](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L902)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:904](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L904)
 
 An event triggered when a particle system is removed
 
@@ -1705,7 +1705,7 @@ An event triggered when a particle system is removed
 
 > `optional` **onPointerDown?**: (`evt`, `pickInfo`, `type`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1166)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1168](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1168)
 
 Callback called when a pointer down is detected
 
@@ -1733,7 +1733,7 @@ Callback called when a pointer down is detected
 
 > `optional` **onPointerMove?**: (`evt`, `pickInfo`, `type`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1164](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1164)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1166)
 
 Callback called when a pointer move is detected
 
@@ -1761,7 +1761,7 @@ Callback called when a pointer move is detected
 
 > **onPointerObservable**: [`Observable`](Observable.md)\<[`PointerInfo`](PointerInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1196](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1196)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1198)
 
 Observable event triggered each time an input event is received from the rendering canvas
 
@@ -1771,7 +1771,7 @@ Observable event triggered each time an input event is received from the renderi
 
 > `optional` **onPointerPick?**: (`evt`, `pickInfo`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1170)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1172)
 
 Callback called when a pointer pick is detected
 
@@ -1795,7 +1795,7 @@ Callback called when a pointer pick is detected
 
 > `optional` **onPointerUp?**: (`evt`, `pickInfo`, `type`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1168](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1168)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1170)
 
 Callback called when a pointer up is detected
 
@@ -1823,7 +1823,7 @@ Callback called when a pointer up is detected
 
 > **onPostProcessRemovedObservable**: [`Observable`](Observable.md)\<[`PostProcess`](PostProcess.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:972](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L972)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:974](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L974)
 
 An event triggered when a post process is removed
 
@@ -1833,7 +1833,7 @@ An event triggered when a post process is removed
 
 > **onPreKeyboardObservable**: [`Observable`](Observable.md)\<[`KeyboardInfoPre`](KeyboardInfoPre.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1307](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1307)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1309](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1309)
 
 This observable event is triggered when any keyboard event si raised and registered during Scene.attachControl()
 You have the possibility to skip the process and the call to onKeyboardObservable by setting KeyboardInfoPre.skipOnPointerObservable to true
@@ -1844,7 +1844,7 @@ You have the possibility to skip the process and the call to onKeyboardObservabl
 
 > **onPrePointerObservable**: [`Observable`](Observable.md)\<[`PointerInfoPre`](PointerInfoPre.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1191)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1193)
 
 This observable event is triggered when any ponter event is triggered. It is registered during Scene.attachControl() and it is called BEFORE the 3D engine process anything (mesh/sprite picking for instance).
 You have the possibility to skip the process and the call to onPointerObservable by setting PointerInfoPre.skipOnPointerObservable to true
@@ -1855,7 +1855,7 @@ You have the possibility to skip the process and the call to onPointerObservable
 
 > **onReadyObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:775](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L775)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:777](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L777)
 
 An event triggered when the scene is ready
 
@@ -1865,7 +1865,7 @@ An event triggered when the scene is ready
 
 > **onReadyTimeoutDuration**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2735](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2735)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2738](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2738)
 
 Duration in milliseconds to wait before triggering the onReadyTimeoutObservable event.
 
@@ -1875,7 +1875,7 @@ Duration in milliseconds to wait before triggering the onReadyTimeoutObservable 
 
 > **onReadyTimeoutObservable**: [`Observable`](Observable.md)\<`Scene`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2730](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2730)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2733](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2733)
 
 An event triggered when the scene ready checks has timed out.
 
@@ -1885,7 +1885,7 @@ An event triggered when the scene ready checks has timed out.
 
 > **onScenePerformancePriorityChangedObservable**: [`Observable`](Observable.md)\<[`ScenePerformancePriority`](../enumerations/ScenePerformancePriority.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:337](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L337)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:339](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L339)
 
 Observable triggered when the performance priority is changed
 
@@ -1895,7 +1895,7 @@ Observable triggered when the performance priority is changed
 
 > **onSkeletonRemovedObservable**: [`Observable`](Observable.md)\<[`Skeleton`](Skeleton.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:892](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L892)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:894](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L894)
 
 An event triggered when a skeleton is removed
 
@@ -1905,7 +1905,7 @@ An event triggered when a skeleton is removed
 
 > `readonly` **onSpriteManagerRemovedObservable**: [`IReadonlyObservable`](../interfaces/IReadonlyObservable.md)\<[`ISpriteManager`](../interfaces/ISpriteManager.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteSceneComponent.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts#L34)
 
 An event triggered when a sprite manager is removed from the scene
 
@@ -1915,7 +1915,7 @@ An event triggered when a sprite manager is removed from the scene
 
 > **onTextureRemovedObservable**: [`Observable`](Observable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:942](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L942)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:944](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L944)
 
 An event triggered when a texture is removed
 
@@ -1925,7 +1925,7 @@ An event triggered when a texture is removed
 
 > **onTransformNodeRemovedObservable**: [`Observable`](Observable.md)\<[`TransformNode`](TransformNode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:872](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L872)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:874](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L874)
 
 An event triggered when a transform node is removed
 
@@ -1935,7 +1935,7 @@ An event triggered when a transform node is removed
 
 > **particlesEnabled**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1591](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1591)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1593](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1593)
 
 Gets or sets a boolean indicating if particles are enabled on this scene
 
@@ -1945,7 +1945,7 @@ Gets or sets a boolean indicating if particles are enabled on this scene
 
 > **particleSystems**: [`IParticleSystem`](../interfaces/IParticleSystem.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:482](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L482)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:484](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L484)
 
 All of the particle systems added to this scene
 
@@ -1963,7 +1963,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/particles/particle_system/pa
 
 > **physicsEnabled**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1585](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1585)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1587](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1587)
 
 Gets or sets a boolean indicating if physic engines are enabled on this scene
 
@@ -1973,7 +1973,7 @@ Gets or sets a boolean indicating if physic engines are enabled on this scene
 
 > **pointerDownTrianglePredicate**: ((`p0`, `p1`, `p2`, `ray`) => `boolean`) \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1180)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1182)
 
 Gets or sets a predicate used to select candidate faces for a pointer down event
 
@@ -1983,7 +1983,7 @@ Gets or sets a predicate used to select candidate faces for a pointer down event
 
 > **pointerMoveTrianglePredicate**: ((`p0`, `p1`, `p2`, `ray`) => `boolean`) \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1175](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1175)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1177)
 
 Gets or sets a predicate used to select candidate faces for a pointer move event
 
@@ -1993,7 +1993,7 @@ Gets or sets a predicate used to select candidate faces for a pointer move event
 
 > **pointerUpTrianglePredicate**: ((`p0`, `p1`, `p2`, `ray`) => `boolean`) \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1185)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1187)
 
 Gets or sets a predicate used to select candidate faces for a pointer up event
 
@@ -2003,7 +2003,7 @@ Gets or sets a predicate used to select candidate faces for a pointer up event
 
 > **postProcesses**: [`PostProcess`](PostProcess.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:578](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L578)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:580](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L580)
 
 The list of postprocesses added to the scene
 
@@ -2017,7 +2017,7 @@ The list of postprocesses added to the scene
 
 > **postProcessesEnabled**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1651](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1651)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1653](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1653)
 
 Gets or sets a boolean indicating if postprocesses are enabled on this scene
 
@@ -2027,7 +2027,7 @@ Gets or sets a boolean indicating if postprocesses are enabled on this scene
 
 > **postProcessManager**: [`PostProcessManager`](PostProcessManager.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1655](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1655)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1657](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1657)
 
 Gets the current postprocess manager
 
@@ -2037,7 +2037,7 @@ Gets the current postprocess manager
 
 > `readonly` **postProcessRenderPipelineManager**: [`PostProcessRenderPipelineManager`](PostProcessRenderPipelineManager.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.types.ts#L13)
 
 Gets the postprocess render pipeline manager
 
@@ -2052,7 +2052,7 @@ Gets the postprocess render pipeline manager
 
 > **prePassRenderer**: [`Nullable`](../type-aliases/Nullable.md)\<[`PrePassRenderer`](PrePassRenderer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRendererSceneComponent.types.ts#L13)
 
 Gets or Sets the current prepass renderer associated to the scene.
 
@@ -2062,7 +2062,7 @@ Gets or Sets the current prepass renderer associated to the scene.
 
 > **preventDefaultOnPointerDown**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:670](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L670)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:672](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L672)
 
 This is used to call preventDefault() on pointer down
 in order to block unwanted artifacts like system double clicks
@@ -2073,7 +2073,7 @@ in order to block unwanted artifacts like system double clicks
 
 > **preventDefaultOnPointerUp**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:676](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L676)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:678](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L678)
 
 This is used to call preventDefault() on pointer up
 in order to block unwanted artifacts like system double clicks
@@ -2084,7 +2084,7 @@ in order to block unwanted artifacts like system double clicks
 
 > **probesEnabled**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1687](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1687)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1689](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1689)
 
 Gets or sets a boolean indicating if probes are enabled on this scene
 
@@ -2094,7 +2094,7 @@ Gets or sets a boolean indicating if probes are enabled on this scene
 
 > **proceduralTextures**: [`ProceduralTexture`](ProceduralTexture.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:608](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L608)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:610](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L610)
 
 The list of procedural textures added to the scene
 
@@ -2112,7 +2112,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/using/proceduralTe
 
 > **proceduralTexturesEnabled**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1708](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1708)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1710](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1710)
 
 Gets or sets a boolean indicating if procedural textures are enabled on this scene
 
@@ -2122,7 +2122,7 @@ Gets or sets a boolean indicating if procedural textures are enabled on this sce
 
 > **reflectionProbes**: [`ReflectionProbe`](ReflectionProbe.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Probes/reflectionProbe.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Probes/reflectionProbe.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Probes/reflectionProbe.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Probes/reflectionProbe.types.ts#L12)
 
 The list of reflection probes added to the scene
 
@@ -2140,7 +2140,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/environment/reflectionProbes
 
 > **renderTargetsEnabled**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1661](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1661)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1663](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1663)
 
 Gets or sets a boolean indicating if render targets are enabled on this scene
 
@@ -2150,7 +2150,7 @@ Gets or sets a boolean indicating if render targets are enabled on this scene
 
 > **requireLightSorting**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1813](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1813)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1816](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1816)
 
 Gets or sets a boolean indicating if lights must be sorted by priority (off by default)
 This is useful if there are more lights that the maximum simulteanous authorized
@@ -2161,7 +2161,7 @@ This is useful if there are more lights that the maximum simulteanous authorized
 
 > **reservedDataStore**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:687](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L687)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:689](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L689)
 
 For internal use only. Please do not use.
 
@@ -2171,7 +2171,7 @@ For internal use only. Please do not use.
 
 > **rootNodes**: [`Node`](Node.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:454](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L454)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:456](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L456)
 
 Gets the list of root nodes (ie. nodes with no parent)
 
@@ -2185,7 +2185,7 @@ Gets the list of root nodes (ie. nodes with no parent)
 
 > **selectionOctree**: [`Octree`](Octree.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.types.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.types.ts#L17)
 
 Gets the octree used to boost mesh selection (picking)
 
@@ -2199,7 +2199,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/optimizeOctrees
 
 > **simplificationQueue**: [`SimplificationQueue`](SimplificationQueue.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.types.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.types.ts#L14)
 
 Gets or sets the simplification queue attached to the scene
 
@@ -2213,7 +2213,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/simplifyingMeshes
 
 > **skeletons**: [`Skeleton`](Skeleton.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:476](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L476)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:478](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L478)
 
 The list of skeletons added to the scene
 
@@ -2231,7 +2231,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/bonesSkeletons
 
 > **sounds**: [`Nullable`](../type-aliases/Nullable.md)\<[`Sound`](Sound.md)[]\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:591](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L591)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:593](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L593)
 
 The list of sounds used in the scene.
 
@@ -2249,7 +2249,7 @@ please use AudioEngineV2 instead
 
 > **soundTracks**: [`Nullable`](../type-aliases/Nullable.md)\<[`SoundTrack`](SoundTrack.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioSceneComponent.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioSceneComponent.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioSceneComponent.types.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioSceneComponent.types.ts#L23)
 
 The list of sound tracks added to the scene
 
@@ -2263,7 +2263,7 @@ please use AudioEngineV2 instead
 
 > `optional` **spriteManagers?**: [`ISpriteManager`](../interfaces/ISpriteManager.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteSceneComponent.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts#L24)
 
 All of the sprite managers added to this scene
 
@@ -2281,7 +2281,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/sprites
 
 > **spritesEnabled**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1597](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1597)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1599](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1599)
 
 Gets or sets a boolean indicating if sprites are enabled on this scene
 
@@ -2291,7 +2291,7 @@ Gets or sets a boolean indicating if sprites are enabled on this scene
 
 > **subSurfaceConfiguration**: [`Nullable`](../type-aliases/Nullable.md)\<`SubSurfaceConfiguration`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/subSurfaceSceneComponent.types.ts#L12)
 
 Gets or Sets the current prepass renderer associated to the scene.
 
@@ -2301,7 +2301,7 @@ Gets or Sets the current prepass renderer associated to the scene.
 
 > **textures**: [`BaseTexture`](BaseTexture.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:548](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L548)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:550](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L550)
 
 Textures to keep.
 
@@ -2315,7 +2315,7 @@ Textures to keep.
 
 > **transformNodes**: [`TransformNode`](TransformNode.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:533](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L533)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:535](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L535)
 
 All of the transform nodes added to this scene
 In the context of a Scene, it is not supposed to be modified manually.
@@ -2336,7 +2336,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/transforms/parent_pivot
 
 > **useConstantAnimationDeltaTime**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:647](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L647)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:649](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L649)
 
 Gets or sets a boolean indicating if a constant deltatime has to be used
 This is mostly useful for testing purposes when you do not want the animations to scale with the framerate
@@ -2347,7 +2347,7 @@ This is mostly useful for testing purposes when you do not want the animations t
 
 > **useDelayedTextureLoading**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1676](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1676)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1678](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1678)
 
 Defines if texture loading must be delayed
 If true, textures will only be loaded when they need to be rendered
@@ -2358,7 +2358,7 @@ If true, textures will only be loaded when they need to be rendered
 
 > **useOrderIndependentTransparency**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthPeelingSceneComponent.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthPeelingSceneComponent.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthPeelingSceneComponent.types.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthPeelingSceneComponent.types.ts#L16)
 
 Flag to indicate if we want to use order independent transparency, despite the performance hit
 
@@ -2368,7 +2368,7 @@ Flag to indicate if we want to use order independent transparency, despite the p
 
 > `readonly` `static` **FOGMODE\_EXP**: `number` = `Constants.FOGMODE_EXP`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L191)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L193)
 
 The fog density is following an exponential function
 
@@ -2378,7 +2378,7 @@ The fog density is following an exponential function
 
 > `readonly` `static` **FOGMODE\_EXP2**: `number` = `Constants.FOGMODE_EXP2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:193](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L193)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L195)
 
 The fog density is following an exponential function faster than FOGMODE_EXP
 
@@ -2388,7 +2388,7 @@ The fog density is following an exponential function faster than FOGMODE_EXP
 
 > `readonly` `static` **FOGMODE\_LINEAR**: `number` = `Constants.FOGMODE_LINEAR`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L195)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L197)
 
 The fog density is following a linear function.
 
@@ -2398,7 +2398,7 @@ The fog density is following a linear function.
 
 > `readonly` `static` **FOGMODE\_NONE**: `number` = `Constants.FOGMODE_NONE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:189](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L189)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:191](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L191)
 
 The fog is deactivated
 
@@ -2408,7 +2408,7 @@ The fog is deactivated
 
 > `static` **MaxDeltaTime**: `number` = `1000.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:206](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L206)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L208)
 
 Gets or sets the maximum deltatime when deterministic lock step is enabled
 
@@ -2422,7 +2422,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/advanced_animation
 
 > `static` **MinDeltaTime**: `number` = `1.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:201](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L201)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:203](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L203)
 
 Gets or sets the minimum deltatime when deterministic lock step is enabled
 
@@ -2438,7 +2438,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/advanced_animation
 
 > **get** **activeBonesPerfCounter**(): [`PerfCounter`](PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2281](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2281)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2284](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2284)
 
 Gets the performance counter for active bones
 
@@ -2458,7 +2458,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/optimize_your_scene#in
 
 > **get** **activeCamera**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1499](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1499)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1501](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1501)
 
 Gets or sets the current active camera
 
@@ -2470,7 +2470,7 @@ Gets or sets the current active camera
 
 > **set** **activeCamera**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1503](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1503)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1505](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1505)
 
 ##### Parameters
 
@@ -2490,7 +2490,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1503](https://githu
 
 > **get** **activeCameras**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1477](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1477)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1479](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1479)
 
 All of the active cameras added to this scene.
 
@@ -2502,7 +2502,7 @@ All of the active cameras added to this scene.
 
 > **set** **activeCameras**(`cameras`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1481](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1481)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1483](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1483)
 
 ##### Parameters
 
@@ -2522,7 +2522,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1481](https://githu
 
 > **get** **activeParticlesPerfCounter**(): [`PerfCounter`](PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2265](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2265)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2268](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2268)
 
 Gets the performance counter for active particles
 
@@ -2542,7 +2542,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/optimize_your_scene#in
 
 > **set** **afterCameraRender**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:800](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L800)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:802](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L802)
 
 Sets a function to be executed after rendering a camera
 
@@ -2564,7 +2564,7 @@ Sets a function to be executed after rendering a camera
 
 > **set** **afterRender**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:742](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L742)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:744](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L744)
 
 Sets a function to be executed after rendering this scene
 
@@ -2586,7 +2586,7 @@ Sets a function to be executed after rendering this scene
 
 > **get** **animatables**(): [`Animatable`](Animatable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2787](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2787)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2790](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2790)
 
 Gets all animatable attached to the scene
 
@@ -2602,7 +2602,7 @@ Gets all animatable attached to the scene
 
 > **get** **animationPropertiesOverride**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationPropertiesOverride`](AnimationPropertiesOverride.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:635](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L635)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:637](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L637)
 
 Gets or sets the animation properties override
 
@@ -2614,7 +2614,7 @@ Gets or sets the animation properties override
 
 > **set** **animationPropertiesOverride**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:639](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L639)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:641](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L641)
 
 ##### Parameters
 
@@ -2634,7 +2634,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:639](https://github
 
 > **set** **beforeCameraRender**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:784](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L784)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:786](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L786)
 
 Sets a function to be executed before rendering a camera
 
@@ -2656,7 +2656,7 @@ Sets a function to be executed before rendering a camera
 
 > **set** **beforeRender**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:720](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L720)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:722](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L722)
 
 Sets a function to be executed before rendering this scene
 
@@ -2678,7 +2678,7 @@ Sets a function to be executed before rendering this scene
 
 > **get** **blockfreeActiveMeshesAndRenderingGroups**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4496](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4496)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4499](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4499)
 
 Gets or sets a boolean blocking all the calls to freeActiveMeshes and freeRenderingGroups
 It can be used in order to prevent going through methods freeRenderingGroups and freeActiveMeshes several times to improve performance
@@ -2693,7 +2693,7 @@ When used, it is the responsibility of the user to blockfreeActiveMeshesAndRende
 
 > **set** **blockfreeActiveMeshesAndRenderingGroups**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4500](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4500)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4503](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4503)
 
 ##### Parameters
 
@@ -2713,7 +2713,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4500](https://githu
 
 > **get** **blockMaterialDirtyMechanism**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6368](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6368)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6371](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6371)
 
 Gets or sets a boolean blocking all the calls to markAllMaterialsAsDirty (ie. the materials won't be updated if they are out of sync)
 
@@ -2725,7 +2725,7 @@ Gets or sets a boolean blocking all the calls to markAllMaterialsAsDirty (ie. th
 
 > **set** **blockMaterialDirtyMechanism**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6372](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6372)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6375](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6375)
 
 ##### Parameters
 
@@ -2745,7 +2745,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6372](https://githu
 
 > **get** **clearColor**(): [`Color4`](Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L271)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:273](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L273)
 
 Defines the color used to clear the render buffer (Default is (0.2, 0.2, 0.3, 1.0))
 
@@ -2757,7 +2757,7 @@ Defines the color used to clear the render buffer (Default is (0.2, 0.2, 0.3, 1.
 
 > **set** **clearColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:275](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L275)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:277](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L277)
 
 ##### Parameters
 
@@ -2777,7 +2777,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:275](https://github
 
 > **get** **defaultMaterial**(): [`Material`](Material.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1520](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1520)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1522](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1522)
 
 The default material used on meshes when no material is affected
 
@@ -2789,7 +2789,7 @@ The default material used on meshes when no material is affected
 
 > **set** **defaultMaterial**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1529](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1529)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1531](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1531)
 
 The default material used on meshes when no material is affected
 
@@ -2811,7 +2811,7 @@ The default material used on meshes when no material is affected
 
 > **get** **environmentTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:557](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L557)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:559](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L559)
 
 Texture used in all pbr material as the reflection texture.
 As in the majority of the scene they are the same (exception for multi room and so on),
@@ -2825,7 +2825,7 @@ this is easier to reference from here than from all the materials.
 
 > **set** **environmentTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:565](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L565)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:567](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L567)
 
 Texture used in all pbr material as the reflection texture.
 As in the majority of the scene they are the same (exception for multi room and so on),
@@ -2853,7 +2853,7 @@ this is easier to set here than in all the materials.
 
 > **get** **floatingOriginMode**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2924](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2924)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2927](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2927)
 
 True if floatingOriginMode was passed to engine or this scene creation otions.
 This mode avoids floating point imprecision in huge coordinate system by offsetting uniform values before passing to shader, centering camera at origin and displacing rest of scene by camera position
@@ -2870,7 +2870,7 @@ This mode avoids floating point imprecision in huge coordinate system by offsett
 
 > **get** **floatingOriginOffset**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2931](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2931)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2934](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2934)
 
 When floatingOriginMode is enabled, offset is equal to the eye position. Default to ZeroReadonly when mode is disabled.
 
@@ -2886,7 +2886,7 @@ When floatingOriginMode is enabled, offset is equal to the eye position. Default
 
 > **get** **fogEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1378](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1378)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1380](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1380)
 
 ##### Returns
 
@@ -2896,7 +2896,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1378](https://githu
 
 > **set** **fogEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1371](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1371)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1373](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1373)
 
 Gets or sets a boolean indicating if fog is enabled on this scene
 
@@ -2923,7 +2923,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/environment/environment_intr
 
 > **get** **fogMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1400](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1400)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1402](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1402)
 
 ##### Returns
 
@@ -2933,7 +2933,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1400](https://githu
 
 > **set** **fogMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1393](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1393)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1395](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1395)
 
 Gets or sets the fog mode to use
 
@@ -2965,7 +2965,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/environment/environment_intr
 
 > **get** **forcePointsCloud**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:417](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L417)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:419](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L419)
 
 ##### Returns
 
@@ -2975,7 +2975,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:417](https://github
 
 > **set** **forcePointsCloud**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:410](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L410)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:412](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L412)
 
 Gets or sets a boolean indicating if all rendering must be done in point cloud
 
@@ -2997,7 +2997,7 @@ Gets or sets a boolean indicating if all rendering must be done in point cloud
 
 > **get** **forceWireframe**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:388](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L388)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:390](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L390)
 
 ##### Returns
 
@@ -3007,7 +3007,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:388](https://github
 
 > **set** **forceWireframe**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:381](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L381)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:383](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L383)
 
 Gets or sets a boolean indicating if all rendering must be done in wireframe
 
@@ -3029,7 +3029,7 @@ Gets or sets a boolean indicating if all rendering must be done in wireframe
 
 > **get** **frameGraph**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FrameGraph`](FrameGraph.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1555](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1555)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1557](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1557)
 
 Gets or sets the frame graph used to render the scene. If set, the scene will use the frame graph to render the scene instead of the default render loop.
 
@@ -3041,7 +3041,7 @@ Gets or sets the frame graph used to render the scene. If set, the scene will us
 
 > **set** **frameGraph**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1559](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1559)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1561](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1561)
 
 ##### Parameters
 
@@ -3061,7 +3061,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1559](https://githu
 
 > **get** **frustumPlanes**(): [`Plane`](Plane.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1805](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1805)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1808](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1808)
 
 Gets the list of frustum planes (built from the active camera)
 
@@ -3077,7 +3077,7 @@ Gets the list of frustum planes (built from the active camera)
 
 > **get** **imageProcessingConfiguration**(): [`ImageProcessingConfiguration`](ImageProcessingConfiguration.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:328](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L328)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:330](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L330)
 
 Default image processing configuration used either in the rendering
 Forward main pass or through the imageProcessingPostProcess if present.
@@ -3098,7 +3098,7 @@ No setter as we it is a shared configuration, you can set the values instead.
 
 > **get** **isDisposed**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:5976](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L5976)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:5979](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L5979)
 
 Gets if the scene is already disposed
 
@@ -3114,7 +3114,7 @@ Gets if the scene is already disposed
 
 > **get** **isLoading**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2673](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2673)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2676](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2676)
 
 Returns a boolean indicating if the scene is still loading data
 
@@ -3130,7 +3130,7 @@ Returns a boolean indicating if the scene is still loading data
 
 > **get** **lightsEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1469](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1469)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1471](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1471)
 
 ##### Returns
 
@@ -3140,7 +3140,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1469](https://githu
 
 > **set** **lightsEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1461](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1461)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1463](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1463)
 
 Gets or sets a boolean indicating if lights are enabled on this scene
 
@@ -3162,7 +3162,7 @@ Gets or sets a boolean indicating if lights are enabled on this scene
 
 > **get** **meshUnderPointer**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2152)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2155)
 
 Gets the mesh that is currently under the pointer
 
@@ -3178,7 +3178,7 @@ Gets the mesh that is currently under the pointer
 
 > **set** **onDispose**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:706](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L706)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:708](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L708)
 
 Sets a function to be executed when this scene is disposed.
 
@@ -3200,7 +3200,7 @@ Sets a function to be executed when this scene is disposed.
 
 > **get** **performancePriority**(): [`ScenePerformancePriority`](../enumerations/ScenePerformancePriority.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:341](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L341)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:343](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L343)
 
 Gets or sets a value indicating how to treat performance relatively to ease of use and backward compatibility
 
@@ -3212,7 +3212,7 @@ Gets or sets a value indicating how to treat performance relatively to ease of u
 
 > **set** **performancePriority**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:345](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L345)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:347](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L347)
 
 ##### Parameters
 
@@ -3232,7 +3232,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:345](https://github
 
 > **get** **pointerDownFastCheck**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1100)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1102)
 
 Gets or sets a predicate used to select candidate meshes for a pointer down event
 
@@ -3244,7 +3244,7 @@ Gets or sets a predicate used to select candidate meshes for a pointer down even
 
 > **set** **pointerDownFastCheck**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1104)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1106)
 
 ##### Parameters
 
@@ -3264,7 +3264,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1104](https://githu
 
 > **get** **pointerDownPredicate**(): (`Mesh`) => `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1067](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1067)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1069](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1069)
 
 Gets or sets a predicate used to select candidate meshes for a pointer down event
 
@@ -3288,7 +3288,7 @@ Gets or sets a predicate used to select candidate meshes for a pointer down even
 
 > **set** **pointerDownPredicate**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1071](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1071)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1073](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1073)
 
 ##### Parameters
 
@@ -3308,7 +3308,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1071](https://githu
 
 > **get** **pointerMoveFastCheck**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1122)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1124)
 
 Gets or sets a predicate used to select candidate meshes for a pointer move event
 
@@ -3320,7 +3320,7 @@ Gets or sets a predicate used to select candidate meshes for a pointer move even
 
 > **set** **pointerMoveFastCheck**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1126)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1128)
 
 ##### Parameters
 
@@ -3340,7 +3340,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1126](https://githu
 
 > **get** **pointerMovePredicate**(): (`Mesh`) => `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1089](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1089)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1091](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1091)
 
 Gets or sets a predicate used to select candidate meshes for a pointer move event
 
@@ -3364,7 +3364,7 @@ Gets or sets a predicate used to select candidate meshes for a pointer move even
 
 > **set** **pointerMovePredicate**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1093](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1093)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1095](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1095)
 
 ##### Parameters
 
@@ -3384,7 +3384,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1093](https://githu
 
 > **get** **pointerUpFastCheck**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1111)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1113)
 
 Gets or sets a predicate used to select candidate meshes for a pointer up event
 
@@ -3396,7 +3396,7 @@ Gets or sets a predicate used to select candidate meshes for a pointer up event
 
 > **set** **pointerUpFastCheck**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1115)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1117)
 
 ##### Parameters
 
@@ -3416,7 +3416,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1115](https://githu
 
 > **get** **pointerUpPredicate**(): (`Mesh`) => `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1078](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1078)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1080](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1080)
 
 Gets or sets a predicate used to select candidate meshes for a pointer up event
 
@@ -3440,7 +3440,7 @@ Gets or sets a predicate used to select candidate meshes for a pointer up event
 
 > **set** **pointerUpPredicate**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1082](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1082)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1084](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1084)
 
 ##### Parameters
 
@@ -3460,7 +3460,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1082](https://githu
 
 > **get** **pointerX**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2159)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2162)
 
 Gets or sets the current on-screen X position of the pointer
 
@@ -3472,7 +3472,7 @@ Gets or sets the current on-screen X position of the pointer
 
 > **set** **pointerX**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2163)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2166)
 
 ##### Parameters
 
@@ -3492,7 +3492,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2163](https://githu
 
 > **get** **pointerY**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2170)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2173)
 
 Gets or sets the current on-screen Y position of the pointer
 
@@ -3504,7 +3504,7 @@ Gets or sets the current on-screen Y position of the pointer
 
 > **set** **pointerY**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2174](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2174)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2177)
 
 ##### Parameters
 
@@ -3524,7 +3524,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2174](https://githu
 
 > **get** **prePass**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1432](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1432)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1434](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1434)
 
 Flag indicating that the frame buffer binding is handled by another component
 
@@ -3540,7 +3540,7 @@ Flag indicating that the frame buffer binding is handled by another component
 
 > **get** **renderingManager**(): [`RenderingManager`](RenderingManager.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1781](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1781)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1784](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1784)
 
 Gets the scene's rendering manager
 
@@ -3556,7 +3556,7 @@ Gets the scene's rendering manager
 
 > **get** **shadowsEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1453](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1453)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1455](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1455)
 
 ##### Returns
 
@@ -3566,7 +3566,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1453](https://githu
 
 > **set** **shadowsEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1446](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1446)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1448](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1448)
 
 Gets or sets a boolean indicating if shadows are enabled on this scene
 
@@ -3588,7 +3588,7 @@ Gets or sets a boolean indicating if shadows are enabled on this scene
 
 > **get** **skeletonsEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1612](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1612)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1614](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1614)
 
 ##### Returns
 
@@ -3598,7 +3598,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1612](https://githu
 
 > **set** **skeletonsEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1604](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1604)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1606](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1606)
 
 Gets or sets a boolean indicating if skeletons are enabled on this scene
 
@@ -3620,7 +3620,7 @@ Gets or sets a boolean indicating if skeletons are enabled on this scene
 
 > **get** **skipFrustumClipping**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:402](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L402)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:404](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L404)
 
 ##### Returns
 
@@ -3630,7 +3630,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:402](https://github
 
 > **set** **skipFrustumClipping**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:396](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L396)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:398](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L398)
 
 Gets or sets a boolean indicating if we should skip the frustum clipping part of the active meshes selection
 
@@ -3652,7 +3652,7 @@ Gets or sets a boolean indicating if we should skip the frustum clipping part of
 
 > **get** **skipPointerDownPicking**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1144)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1146)
 
 Gets or sets a boolean indicating if the user want to entirely skip the picking phase when a pointer down event occurs.
 
@@ -3664,7 +3664,7 @@ Gets or sets a boolean indicating if the user want to entirely skip the picking 
 
 > **set** **skipPointerDownPicking**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1148)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1150)
 
 ##### Parameters
 
@@ -3684,7 +3684,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1148](https://githu
 
 > **get** **skipPointerMovePicking**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1133)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1135)
 
 Gets or sets a boolean indicating if the user want to entirely skip the picking phase when a pointer move event occurs.
 
@@ -3696,7 +3696,7 @@ Gets or sets a boolean indicating if the user want to entirely skip the picking 
 
 > **set** **skipPointerMovePicking**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1137)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1139)
 
 ##### Parameters
 
@@ -3716,7 +3716,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1137](https://githu
 
 > **get** **skipPointerUpPicking**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1155)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1157](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1157)
 
 Gets or sets a boolean indicating if the user want to entirely skip the picking phase when a pointer up event occurs.  Off by default.
 
@@ -3728,7 +3728,7 @@ Gets or sets a boolean indicating if the user want to entirely skip the picking 
 
 > **set** **skipPointerUpPicking**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1159)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1161](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1161)
 
 ##### Parameters
 
@@ -3748,7 +3748,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1159](https://githu
 
 > **get** **texturesEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1546](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1546)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1548](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1548)
 
 ##### Returns
 
@@ -3758,7 +3758,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1546](https://githu
 
 > **set** **texturesEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1538](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1538)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1540](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1540)
 
 Gets or sets a boolean indicating if textures are enabled on this scene
 
@@ -3780,7 +3780,7 @@ Gets or sets a boolean indicating if textures are enabled on this scene
 
 > **get** **totalActiveIndicesPerfCounter**(): [`PerfCounter`](PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2249](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2249)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2252](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2252)
 
 Gets the performance counter for active indices
 
@@ -3800,7 +3800,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/optimize_your_scene#in
 
 > **get** **totalVerticesPerfCounter**(): [`PerfCounter`](PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2233](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2233)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2236](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2236)
 
 Gets the performance counter for total vertices
 
@@ -3820,7 +3820,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/optimize_your_scene#in
 
 > **get** **uid**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4403](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4403)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4406](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4406)
 
 Return a unique id as a string which can serve as an identifier for the scene
 
@@ -3836,7 +3836,7 @@ Return a unique id as a string which can serve as an identifier for the scene
 
 > **get** **uniqueId**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2025](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2025)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2028](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2028)
 
 Gets the unique id of the scene
 
@@ -3852,7 +3852,7 @@ Gets the unique id of the scene
 
 > **get** **unTranslatedPointer**(): [`Vector2`](Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1201](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1201)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1203](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1203)
 
 Gets the pointer coordinates without any translation (ie. straight out of the pointer event)
 
@@ -3868,7 +3868,7 @@ Gets the pointer coordinates without any translation (ie. straight out of the po
 
 > **get** **useRightHandedSystem**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1327](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1327)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1329](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1329)
 
 ##### Returns
 
@@ -3878,7 +3878,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1327](https://githu
 
 > **set** **useRightHandedSystem**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1320](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1320)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1322](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1322)
 
 Gets or sets a boolean indicating if the scene must use right-handed coordinates system
 
@@ -3900,7 +3900,7 @@ Gets or sets a boolean indicating if the scene must use right-handed coordinates
 
 > **get** `static` **DoubleClickDelay**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1230](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1230)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1232)
 
 Time in milliseconds to wait to raise long press events if button is still pressed. Default is 300 ms
 
@@ -3912,7 +3912,7 @@ Time in milliseconds to wait to raise long press events if button is still press
 
 > **set** `static` **DoubleClickDelay**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1234](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1234)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1236](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1236)
 
 ##### Parameters
 
@@ -3932,7 +3932,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1234](https://githu
 
 > **get** `static` **DragMovementThreshold**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1208](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1208)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1210)
 
 Gets or sets the distance in pixel that you have to move to prevent some events. Default is 10 pixels
 
@@ -3944,7 +3944,7 @@ Gets or sets the distance in pixel that you have to move to prevent some events.
 
 > **set** `static` **DragMovementThreshold**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1212)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1214)
 
 ##### Parameters
 
@@ -3964,7 +3964,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1212](https://githu
 
 > **get** `static` **ExclusiveDoubleClickMode**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1239)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1241](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1241)
 
 If you need to check double click without raising a single click at first click, enable this flag
 
@@ -3976,7 +3976,7 @@ If you need to check double click without raising a single click at first click,
 
 > **set** `static` **ExclusiveDoubleClickMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1243](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1243)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1245)
 
 ##### Parameters
 
@@ -3996,7 +3996,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1243](https://githu
 
 > **get** `static` **LongPressDelay**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1219)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1221)
 
 Time in milliseconds to wait to raise long press events if button is still pressed. Default is 500 ms
 
@@ -4008,7 +4008,7 @@ Time in milliseconds to wait to raise long press events if button is still press
 
 > **set** `static` **LongPressDelay**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1223](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1223)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1225)
 
 ##### Parameters
 
@@ -4026,7 +4026,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1223](https://githu
 
 > **addActionManager**(`newActionManager`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3509](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3509)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3512](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3512)
 
 Adds the given action manager to this scene
 
@@ -4050,7 +4050,7 @@ The action manager to add
 
 > **addAnimation**(`newAnimation`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3420](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3420)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3423](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3423)
 
 Adds the given animation to this scene
 
@@ -4072,7 +4072,7 @@ The animation to add
 
 > **addAnimationGroup**(`newAnimationGroup`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3431](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3431)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3434](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3434)
 
 Adds the given animation group to this scene.
 
@@ -4094,7 +4094,7 @@ The animation group to add
 
 > **addCamera**(`newCamera`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3371](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3371)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3374](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3374)
 
 Adds the given camera to this scene
 
@@ -4116,7 +4116,7 @@ The camera to add
 
 > **addEffectLayer**(`newEffectLayer`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3565](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3565)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3568](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3568)
 
 Adds the given effect layer to this scene.
 
@@ -4138,7 +4138,7 @@ The effect layer to add
 
 > **addExternalData**\<`T`\>(`key`, `data`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4418](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4418)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4421](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4421)
 
 Add an externally attached data from its key.
 This method call will fail and return false, if such key already exists.
@@ -4176,7 +4176,7 @@ true if no such key were already present and the data was added successfully, fa
 
 > **addFrameGraph**(`newFrameGraph`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3529](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3529)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3532](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3532)
 
 Adds the given frame graph to this scene.
 
@@ -4198,7 +4198,7 @@ The frame graph to add
 
 > **addGeometry**(`newGeometry`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3492](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3492)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3495](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3495)
 
 Adds the given geometry to this scene
 
@@ -4220,7 +4220,7 @@ The geometry to add
 
 > **addIsReadyCheck**(`isReadyCheck`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2682](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2682)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2685](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2685)
 
 Registers an object whose [isReady](#isready) method will be checked during [Scene.isReady](#isready).
 Call [removeIsReadyCheck](#removeisreadycheck) to remove the object.
@@ -4243,7 +4243,7 @@ defines the object to add.
 
 > **addLensFlareSystem**(`newLensFlareSystem`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.types.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.types.ts#L17)
 
 Adds the given lens flare system to this scene
 
@@ -4265,7 +4265,7 @@ The lens flare system to add
 
 > **addLight**(`newLight`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3334](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3334)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3337](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3337)
 
 Adds the given light to this scene
 
@@ -4287,7 +4287,7 @@ The light to add
 
 > **addMaterial**(`newMaterial`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3460](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3460)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3463](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3463)
 
 Adds the given material to this scene
 
@@ -4309,7 +4309,7 @@ The material to add
 
 > **addMesh**(`newMesh`, `recursive?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2948](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2948)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2951](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2951)
 
 Add a mesh to the list of scene's meshes
 
@@ -4337,7 +4337,7 @@ if all child meshes should also be added to the scene
 
 > **addMorphTargetManager**(`newMorphTargetManager`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3481](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3481)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3484](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3484)
 
 Adds the given morph target to this scene
 
@@ -4359,7 +4359,7 @@ The morph target to add
 
 > **addMultiMaterial**(`newMultiMaterial`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3446](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3446)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3449](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3449)
 
 Adds the given multi-material to this scene
 
@@ -4381,7 +4381,7 @@ The multi-material to add
 
 > **addObjectRenderer**(`objectRenderer`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3540](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3540)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3543](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3543)
 
 Adds the given object renderer to this scene.
 
@@ -4403,7 +4403,7 @@ The object renderer to add
 
 > **addParticleSystem**(`newParticleSystem`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3405](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3405)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3408](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3408)
 
 Adds the given particle system to this scene
 
@@ -4425,7 +4425,7 @@ The particle system to add
 
 > **addPendingData**(`data`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2641](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2641)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2644](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2644)
 
 This function can help adding any object to the list of data awaited to be ready in order to check for a complete scene loading.
 
@@ -4447,7 +4447,7 @@ defines the object to wait for
 
 > **addPostProcess**(`newPostProcess`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3551](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3551)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3554](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3554)
 
 Adds the given post process to this scene.
 
@@ -4469,7 +4469,7 @@ The post process to add
 
 > **addReflectionProbe**(`newReflectionProbe`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Probes/reflectionProbe.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Probes/reflectionProbe.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Probes/reflectionProbe.types.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Probes/reflectionProbe.types.ts#L25)
 
 Adds the given reflection probe to this scene.
 
@@ -4491,7 +4491,7 @@ The reflection probe to add
 
 > **addSkeleton**(`newSkeleton`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3390](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3390)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3393](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3393)
 
 Adds the given skeleton to this scene
 
@@ -4513,7 +4513,7 @@ The skeleton to add
 
 > **addTexture**(`newTexture`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3517](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3517)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3520](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3520)
 
 Adds the given texture to this scene.
 
@@ -4535,7 +4535,7 @@ The texture to add
 
 > **addTransformNode**(`newTransformNode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3008](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3008)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3011](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3011)
 
 Add a transform node to the list of scene's transform nodes
 
@@ -4557,7 +4557,7 @@ defines the transform node to add
 
 > **animate**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:5288](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L5288)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:5291](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L5291)
 
 Execute all animations (for a frame)
 
@@ -4571,7 +4571,7 @@ Execute all animations (for a frame)
 
 > **attachControl**(`attachUp?`, `attachDown?`, `attachMove?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2378](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2378)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2381](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2381)
 
 Attach events to the canvas (To handle actionManagers triggers and raise onPointerMove, onPointerDown and onPointerUp
 
@@ -4605,7 +4605,7 @@ defines if you want to attach events to pointermove
 
 > **beginAnimation**(`target`, `from`, `to`, `loop?`, `speedRatio?`, `onAnimationEnd?`, `animatable?`, `stopCurrent?`, `targetMask?`, `onAnimationLoop?`, `isAdditive?`): [`Animatable`](Animatable.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.types.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.types.ts#L60)
 
 Will start the animation sequence of a given target
 
@@ -4691,7 +4691,7 @@ the animatable object created for this animation
 
 > **beginDirectAnimation**(`target`, `animations`, `from`, `to`, `loop?`, `speedRatio?`, `onAnimationEnd?`, `onAnimationLoop?`, `isAdditive?`): [`Animatable`](Animatable.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.types.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.types.ts#L120)
 
 Begin a new animation on a given node
 
@@ -4765,7 +4765,7 @@ the list of created animatables
 
 > **beginDirectHierarchyAnimation**(`target`, `directDescendantsOnly`, `animations`, `from`, `to`, `loop?`, `speedRatio?`, `onAnimationEnd?`, `onAnimationLoop?`, `isAdditive?`): [`Animatable`](Animatable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.types.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.types.ts#L146)
 
 Begin a new animation on a given node and its hierarchy
 
@@ -4843,7 +4843,7 @@ the list of animatables created for all nodes
 
 > **beginHierarchyAnimation**(`target`, `directDescendantsOnly`, `from`, `to`, `loop?`, `speedRatio?`, `onAnimationEnd?`, `animatable?`, `stopCurrent?`, `targetMask?`, `onAnimationLoop?`, `isAdditive?`): [`Animatable`](Animatable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.types.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.types.ts#L90)
 
 Will start the animation sequence of a given target and its hierarchy
 
@@ -4933,7 +4933,7 @@ the list of created animatables
 
 > **beginWeightedAnimation**(`target`, `from`, `to`, `weight`, `loop?`, `speedRatio?`, `onAnimationEnd?`, `animatable?`, `targetMask?`, `onAnimationLoop?`, `isAdditive?`): [`Animatable`](Animatable.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.types.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.types.ts#L29)
 
 Will start the animation sequence of a given target
 
@@ -5017,7 +5017,7 @@ the animatable object created for this animation
 
 > **bindEyePosition**(`effect`, `variableName?`, `isVector3?`): [`Vector4`](Vector4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1261)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1263](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1263)
 
 Bind the current view position to an effect.
 
@@ -5053,7 +5053,7 @@ the computed eye position in a temp vector, caller can copy values as needed
 
 > **cleanCachedTextureBuffer**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:5999](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L5999)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6002](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6002)
 
 This function will remove the local cached buffer data from texture.
 It will save memory but will prevent the texture from being rebuilt
@@ -5068,7 +5068,7 @@ It will save memory but will prevent the texture from being rebuilt
 
 > **clearCachedVertexData**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:5984](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L5984)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:5987](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L5987)
 
 Call this function to reduce memory footprint of the scene.
 Vertex buffers will not store CPU data anymore (this will prevent picking, collisions or physics to work correctly)
@@ -5083,7 +5083,7 @@ Vertex buffers will not store CPU data anymore (this will prevent picking, colli
 
 > **createDefaultCamera**(`createArcRotateCamera?`, `replace?`, `attachCameraControls?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/sceneHelpers.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/sceneHelpers.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/sceneHelpers.types.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/sceneHelpers.types.ts#L24)
 
 Creates a default camera for the scene.
 
@@ -5121,7 +5121,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/fastBuildWorld#create-
 
 > **createDefaultCameraOrLight**(`createArcRotateCamera?`, `replace?`, `attachCameraControls?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/sceneHelpers.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/sceneHelpers.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/sceneHelpers.types.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/sceneHelpers.types.ts#L33)
 
 Creates a default camera and a default light.
 
@@ -5159,7 +5159,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/fastBuildWorld#create-
 
 > **createDefaultEnvironment**(`options?`): [`Nullable`](../type-aliases/Nullable.md)\<[`EnvironmentHelper`](EnvironmentHelper.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/sceneHelpers.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/sceneHelpers.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/sceneHelpers.types.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/sceneHelpers.types.ts#L53)
 
 Creates a new environment
 
@@ -5187,7 +5187,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/fastBuildWorld#create-
 
 > **createDefaultLight**(`replace?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/sceneHelpers.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/sceneHelpers.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/sceneHelpers.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/sceneHelpers.types.ts#L15)
 
 Creates a default light for the scene.
 
@@ -5213,7 +5213,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/fastBuildWorld#create-
 
 > **createDefaultSkybox**(`environmentTexture?`, `pbr?`, `scale?`, `blur?`, `setGlobalEnvTexture?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Mesh`](Mesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/sceneHelpers.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/sceneHelpers.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/sceneHelpers.types.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/sceneHelpers.types.ts#L45)
 
 Creates a new sky box
 
@@ -5265,7 +5265,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/fastBuildWorld#create-
 
 > **createDefaultVRExperience**(`webVROptions?`): [`VRExperienceHelper`](VRExperienceHelper.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/sceneHelpers.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/sceneHelpers.ts#L82)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/sceneHelpers.types.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/sceneHelpers.types.ts#L62)
 
 Creates a new VREXperienceHelper
 
@@ -5297,7 +5297,7 @@ Please use createDefaultXRExperienceAsync instead
 
 > **createDefaultXRExperienceAsync**(`options?`): `Promise`\<[`WebXRDefaultExperience`](WebXRDefaultExperience.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/sceneHelpers.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/sceneHelpers.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/sceneHelpers.types.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/sceneHelpers.types.ts#L70)
 
 Creates a new WebXRDefaultExperience
 
@@ -5325,7 +5325,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/webXR/introToWebXR
 
 > **createOrUpdateSelectionOctree**(`maxCapacity?`, `maxDepth?`): [`Octree`](Octree.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.types.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.types.ts#L26)
 
 Creates or updates the octree used to boost selection (picking)
 
@@ -5359,7 +5359,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/optimizeOctrees
 
 > **createPickingRay**(`x`, `y`, `world`, `camera`, `cameraViewSpace?`): [`Ray`](Ray.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6056](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6056)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6059](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6059)
 
 Creates a ray that can be used to pick in the scene
 
@@ -5407,7 +5407,7 @@ a Ray
 
 > **createPickingRayInCameraSpace**(`x`, `y`, `camera?`): [`Ray`](Ray.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6092](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6092)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6095](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6095)
 
 Creates a ray that can be used to pick in the scene
 
@@ -5443,7 +5443,7 @@ a Ray
 
 > **createPickingRayInCameraSpaceToRef**(`x`, `y`, `result`, `camera?`): `Scene`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6105)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6108)
 
 Creates a ray that can be used to pick in the scene
 
@@ -5485,7 +5485,7 @@ the current scene
 
 > **createPickingRayToRef**(`x`, `y`, `world`, `result`, `camera`, `cameraViewSpace?`, `enableDistantPicking?`): `Scene`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6072](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6072)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6075](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6075)
 
 Creates a ray that can be used to pick in the scene
 
@@ -5547,7 +5547,7 @@ the current scene
 
 > **createSceneUniformBuffer**(`name?`, `trackUBOsInFrame?`): [`UniformBuffer`](UniformBuffer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2890](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2890)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2893](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2893)
 
 Creates a scene UBO
 
@@ -5575,7 +5575,7 @@ a new ubo
 
 > **createSceneUniformBuffer**(`name?`, `options?`): [`UniformBuffer`](UniformBuffer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2897](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2897)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2900](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2900)
 
 Creates a scene UBO
 
@@ -5605,7 +5605,7 @@ a new ubo
 
 > **deleteCompoundImpostor**(`compound`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.types.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.types.ts#L44)
 
 Deletes a physics compound impostor
 
@@ -5627,7 +5627,7 @@ defines the compound to delete
 
 > **detachControl**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2383](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2383)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2386](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2386)
 
 Detaches all event handlers
 
@@ -5641,7 +5641,7 @@ Detaches all event handlers
 
 > **disableDepthRenderer**(`camera?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRendererSceneComponent.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.types.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRendererSceneComponent.types.ts#L34)
 
 Disables a depth renderer for a given camera
 
@@ -5663,7 +5663,7 @@ The camera to disable the depth renderer on (default: scene's active camera)
 
 > **disableFluidRenderer**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.types.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.types.ts#L23)
 
 Disables the fluid renderer associated with the scene
 
@@ -5677,7 +5677,7 @@ Disables the fluid renderer associated with the scene
 
 > **disableGeometryBufferRenderer**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.types.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.types.ts#L31)
 
 Disables the GeometryBufferRender associated with the scene
 
@@ -5691,7 +5691,7 @@ Disables the GeometryBufferRender associated with the scene
 
 > **disableIblCdfGenerator**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.types.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.types.ts#L26)
 
 Disables the GeometryBufferRender associated with the scene
 
@@ -5705,7 +5705,7 @@ Disables the GeometryBufferRender associated with the scene
 
 > **disablePhysicsEngine**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.types.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.types.ts#L32)
 
 Disables and disposes the physics engine associated with the scene
 
@@ -5719,7 +5719,7 @@ Disables and disposes the physics engine associated with the scene
 
 > **disablePrePassRenderer**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.types.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRendererSceneComponent.types.ts#L24)
 
 Disables the prepass associated with the scene
 
@@ -5733,7 +5733,7 @@ Disables the prepass associated with the scene
 
 > **disableSubSurfaceForPrePass**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.types.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/subSurfaceSceneComponent.types.ts#L23)
 
 Disables the subsurface effect for prepass
 
@@ -5747,7 +5747,7 @@ Disables the subsurface effect for prepass
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:5732](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L5732)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:5735](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L5735)
 
 Releases all held resources
 
@@ -5761,7 +5761,7 @@ Releases all held resources
 
 > **enableDepthRenderer**(`camera?`, `storeNonLinearDepth?`, `force32bitsFloat?`, `samplingMode?`, `storeCameraSpaceZ?`, `existingRenderTargetTexture?`): [`DepthRenderer`](DepthRenderer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRendererSceneComponent.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.types.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRendererSceneComponent.types.ts#L21)
 
 Creates a depth renderer a given camera which contains a depth map which can be used for post processing.
 
@@ -5815,7 +5815,7 @@ the created depth renderer
 
 > **enableFluidRenderer**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FluidRenderer`](FluidRenderer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.types.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.types.ts#L18)
 
 Enables the fluid renderer and associates it with the scene
 
@@ -5831,7 +5831,7 @@ the FluidRenderer
 
 > **enableGeometryBufferRenderer**(`ratioOrDimensions?`, `depthFormat?`, `textureTypesAndFormats?`): [`Nullable`](../type-aliases/Nullable.md)\<[`GeometryBufferRenderer`](GeometryBufferRenderer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.types.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.types.ts#L22)
 
 Enables a GeometryBufferRender and associates it with the scene
 
@@ -5866,7 +5866,7 @@ the GeometryBufferRenderer
 
 > **enableIblCdfGenerator**(): [`Nullable`](../type-aliases/Nullable.md)\<[`IblCdfGenerator`](IblCdfGenerator.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.types.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.types.ts#L21)
 
 Enables a IblCdfGenerator and associates it with the scene.
 
@@ -5882,7 +5882,7 @@ the IblCdfGenerator
 
 > **enablePhysics**(`gravity?`, `plugin?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.types.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.types.ts#L27)
 
 Enables physics to the current scene
 
@@ -5912,7 +5912,7 @@ a boolean indicating if the physics engine was initialized
 
 > **enablePrePassRenderer**(): [`Nullable`](../type-aliases/Nullable.md)\<[`PrePassRenderer`](PrePassRenderer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.types.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRendererSceneComponent.types.ts#L19)
 
 Enables the prepass and associates it with the scene
 
@@ -5928,7 +5928,7 @@ the PrePassRenderer
 
 > **enableSubSurfaceForPrePass**(): [`Nullable`](../type-aliases/Nullable.md)\<`SubSurfaceConfiguration`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.types.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/subSurfaceSceneComponent.types.ts#L18)
 
 Enables the subsurface effect for prepass
 
@@ -5944,7 +5944,7 @@ the SubSurfaceConfiguration
 
 > **executeOnceBeforeRender**(`func`, `timeout?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2627](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2627)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2630](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2630)
 
 The provided function will run before render once and will be disposed afterwards.
 A timeout delay can be provided so that the function will be executed in N ms.
@@ -5974,7 +5974,7 @@ optional delay in ms
 
 > **executeWhenReady**(`func`, `checkRenderTargets?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2704](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2704)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2707](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2707)
 
 Registers a function to be executed when the scene is ready
 
@@ -6002,7 +6002,7 @@ true to also check that the meshes rendered as part of a render target are ready
 
 > **finalizeSceneUbo**(): [`UniformBuffer`](UniformBuffer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1285](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1285)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1287](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1287)
 
 Update the scene ubo before it can be used in rendering processing
 
@@ -6018,7 +6018,7 @@ the scene UniformBuffer
 
 > **freeActiveMeshes**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4516](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4516)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4519](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4519)
 
 Clear the active meshes smart array preventing retention point in mesh dispose.
 
@@ -6032,7 +6032,7 @@ Clear the active meshes smart array preventing retention point in mesh dispose.
 
 > **freeProcessedMaterials**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4485](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4485)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4488](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4488)
 
 Clear the processed materials smart array preventing retention point in material dispose.
 
@@ -6046,7 +6046,7 @@ Clear the processed materials smart array preventing retention point in material
 
 > **freeRenderingGroups**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4538](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4538)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4541](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4541)
 
 Clear the info related to rendering groups preventing retention points during dispose.
 
@@ -6060,7 +6060,7 @@ Clear the info related to rendering groups preventing retention points during di
 
 > **freezeActiveMeshes**(`skipEvaluateActiveMeshes?`, `onSuccess?`, `onError?`, `freezeMeshes?`, `keepFrustumCulling?`): `Scene`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4597](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4597)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4600](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4600)
 
 Use this function to stop evaluating active meshes. The current list will be keep alive between frames
 
@@ -6108,7 +6108,7 @@ the current scene
 
 > **freezeMaterials**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:5713](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L5713)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:5716](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L5716)
 
 Freeze all materials
 A frozen material will not be updatable but should be faster to render
@@ -6124,7 +6124,7 @@ Note: multimaterials will not be frozen, but their submaterials will
 
 > **getActiveBones**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2273](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2273)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2276)
 
 Gets the total number of active bones rendered per frame
 
@@ -6140,7 +6140,7 @@ the total number of active bones rendered per frame
 
 > **getActiveIndices**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2241](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2241)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2244](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2244)
 
 Gets the total number of active indices rendered per frame (You can deduce the number of rendered triangles by dividing this number by 3)
 
@@ -6156,7 +6156,7 @@ the total number of active indices rendered per frame
 
 > **getActiveMeshes**(): [`SmartArray`](SmartArray.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2289](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2289)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2292](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2292)
 
 Gets the array of active meshes
 
@@ -6172,7 +6172,7 @@ an array of AbstractMesh
 
 > **getActiveParticles**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2257](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2257)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2260)
 
 Gets the total number of active particles rendered per frame
 
@@ -6188,7 +6188,7 @@ the total number of active particles rendered per frame
 
 > **getAllAnimatablesByTarget**(`target`): [`Animatable`](Animatable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.types.ts:171](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.types.ts#L171)
 
 Gets all animatables associated with a given target
 
@@ -6212,7 +6212,7 @@ an array of Animatables
 
 > **getAnimatableByTarget**(`target`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animatable`](Animatable.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.ts:169](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.ts#L169)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.types.ts:164](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.types.ts#L164)
 
 Gets the animatable associated with a specific target
 
@@ -6236,7 +6236,7 @@ the required animatable if found
 
 > **getAnimationGroupByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationGroup`](AnimationGroup.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3633](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3633)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3636](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3636)
 
 get an animation group using its name
 
@@ -6260,7 +6260,7 @@ the animation group or null if none found.
 
 > **getAnimationRatio**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2297](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2297)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2300](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2300)
 
 Gets the animation ratio (which is 1.0 is the scene renders at 60fps and 2 if the scene renders at 30fps, etc.)
 
@@ -6276,7 +6276,7 @@ a number
 
 > **getAutoClearDepthStencilSetup**(`index`): [`IRenderingManagerAutoClearSetup`](../interfaces/IRenderingManagerAutoClearSetup.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6356](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6356)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6359](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6359)
 
 Gets the current auto clear configuration for one rendering group of the rendering
 manager.
@@ -6301,7 +6301,7 @@ The auto clear setup for the requested rendering group
 
 > **getBoneById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Bone`](Bone.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3807](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3807)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3810](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3810)
 
 Gets a bone using its Id
 
@@ -6325,7 +6325,7 @@ the bone or null if not found
 
 > **getBoneByID**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Bone`](Bone.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6636](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6636)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6679](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6679)
 
 Gets a bone using its Id
 
@@ -6353,7 +6353,7 @@ Please use getBoneById instead
 
 > **getBoneByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Bone`](Bone.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3825](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3825)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3828](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3828)
 
 Gets a bone using its id
 
@@ -6377,7 +6377,7 @@ the bone or null if not found
 
 > **getBoundingBoxRenderer**(): [`BoundingBoxRenderer`](BoundingBoxRenderer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.types.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.types.ts#L20)
 
 Gets the bounding box renderer associated with the scene
 
@@ -6393,7 +6393,7 @@ a BoundingBoxRenderer
 
 > **getCachedEffect**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Effect`](Effect.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2190)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2193)
 
 Gets the cached effect (ie. the latest rendered one)
 
@@ -6409,7 +6409,7 @@ the cached effect
 
 > **getCachedMaterial**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Material`](Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2182](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2182)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2185)
 
 Gets the cached material (ie. the latest rendered one)
 
@@ -6425,7 +6425,7 @@ the cached material
 
 > **getCachedVisibility**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2198](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2198)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2201)
 
 Gets the cached visibility state (ie. the latest rendered one)
 
@@ -6441,7 +6441,7 @@ the cached visibility state
 
 > **getCameraById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3762](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3762)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3765](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3765)
 
 Gets a camera using its Id
 
@@ -6465,7 +6465,7 @@ the camera or null if not found
 
 > **getCameraByID**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6616](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6616)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6659](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6659)
 
 Gets a camera using its Id
 
@@ -6493,7 +6493,7 @@ Please use getCameraById instead
 
 > **getCameraByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3792](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3792)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3795](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3795)
 
 Gets a camera using its name
 
@@ -6517,7 +6517,7 @@ the camera or null if none found.
 
 > **getCameraByUniqueId**(`uniqueId`): [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3777](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3777)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3780](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3780)
 
 Gets a camera using its unique Id
 
@@ -6541,7 +6541,7 @@ the camera or null if not found
 
 > **getCameraByUniqueID**(`uniqueId`): [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6626](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6626)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6669](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6669)
 
 Gets a camera using its unique Id
 
@@ -6569,7 +6569,7 @@ Please use getCameraByUniqueId instead
 
 > **getCamerasByTags**(`tagsQuery`, `filter?`): [`Camera`](Camera.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6286](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6286)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6289](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6289)
 
 Get a list of cameras by tags
 
@@ -6599,7 +6599,7 @@ an array of Camera
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2105)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2108)
 
 Gets a string identifying the name of the class
 
@@ -6615,7 +6615,7 @@ Gets a string identifying the name of the class
 
 > **getEngine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2217](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2217)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2220](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2220)
 
 Gets the engine associated with the scene
 
@@ -6631,7 +6631,7 @@ an Engine
 
 > **getExternalData**\<`T`\>(`key`): [`Nullable`](../type-aliases/Nullable.md)\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4430](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4430)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4433](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4433)
 
 Get an externally attached data from its key
 
@@ -6661,7 +6661,7 @@ the associated data, if present (can be null), or undefined if not present
 
 > **getFrameGraphByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`FrameGraph`](FrameGraph.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3935](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3935)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3938](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3938)
 
 Gets a frame graph using its name
 
@@ -6685,7 +6685,7 @@ the frame graph or null if none found.
 
 > **getFrameId**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2313](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2313)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2316](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2316)
 
 Gets an unique Id for the current frame
 
@@ -6701,7 +6701,7 @@ a number
 
 > **getGeometries**(): [`Geometry`](Geometry.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4008](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4008)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4011](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4011)
 
 Gets the list of geometries attached to the scene
 
@@ -6717,7 +6717,7 @@ an array of Geometry
 
 > **getGeometryById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Geometry`](Geometry.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3903](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3903)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3906](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3906)
 
 Gets a geometry using its Id
 
@@ -6741,7 +6741,7 @@ the geometry or null if none found.
 
 > **getGeometryByID**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Geometry`](Geometry.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6676](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6676)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6719](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6719)
 
 Gets a geometry using its Id
 
@@ -6769,7 +6769,7 @@ Please use getGeometryById instead
 
 > **getGlowLayerByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`GlowLayer`](GlowLayer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.types.ts#L13)
 
 Return the first glow layer of the scene with a given name.
 
@@ -6793,7 +6793,7 @@ The glow layer if found otherwise null.
 
 > **getHighlightLayerByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`HighlightLayer`](HighlightLayer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/highlightLayer.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/highlightLayer.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/highlightLayer.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/highlightLayer.types.ts#L13)
 
 Return a the first highlight layer of the scene with a given name.
 
@@ -6817,7 +6817,7 @@ The highlight layer if found otherwise null.
 
 > **getInternalStep**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1359](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1359)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1361](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1361)
 
 Gets the internal step used by deterministic lock step
 
@@ -6837,7 +6837,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/advanced_animation
 
 > **getInverseProjectionMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2821](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2821)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2824](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2824)
 
 Gets the current inverse projection matrix
 
@@ -6853,7 +6853,7 @@ a Matrix
 
 > **getLastEntryById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4129)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4132)
 
 Gets a the last added node (Mesh, Camera, Light, Bone) using a given Id
 
@@ -6877,7 +6877,7 @@ the found node or null if not found at all
 
 > **getLastEntryByID**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6766](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6766)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6809](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6809)
 
 Gets a the last added node (Mesh, Camera, Light) using a given Id
 
@@ -6905,7 +6905,7 @@ Please use getLastEntryById instead
 
 > **getLastMaterialById**(`id`, `allowMultiMaterials?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Material`](Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3710](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3710)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3713](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3713)
 
 Gets a last added material using a given id
 
@@ -6935,7 +6935,7 @@ the last material with the given id or null if none found.
 
 > **getLastMaterialByID**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Material`](Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6595](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6595)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6638](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6638)
 
 Gets a the last added material using a given id
 
@@ -6963,7 +6963,7 @@ Please use getLastMaterialById instead
 
 > **getLastMeshById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4099](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4099)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4102)
 
 Gets a the last added mesh using a given Id
 
@@ -6987,7 +6987,7 @@ the found mesh or null if not found at all.
 
 > **getLastMeshByID**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6706](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6706)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6749](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6749)
 
 Gets a the last added mesh using a given Id
 
@@ -7015,7 +7015,7 @@ Please use getLastMeshById instead
 
 > **getLastSkeletonById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Skeleton`](Skeleton.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4270](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4270)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4273](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4273)
 
 Gets a skeleton using a given Id (if many are found, this function will pick the last one)
 
@@ -7039,7 +7039,7 @@ the found skeleton or null if not found at all.
 
 > **getLastSkeletonByID**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Skeleton`](Skeleton.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6776](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6776)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6819](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6819)
 
 Gets a skeleton using a given Id (if many are found, this function will pick the last one)
 
@@ -7067,7 +7067,7 @@ Please use getLastSkeletonById instead
 
 > **getLastTransformNodeById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`TransformNode`](TransformNode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4114)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4117)
 
 Gets a the last transform node using a given Id
 
@@ -7091,7 +7091,7 @@ the found mesh or null if not found at all.
 
 > **getLensFlareSystemById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`LensFlareSystem`](LensFlareSystem.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.types.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.types.ts#L40)
 
 Gets a lens flare system using its Id
 
@@ -7115,7 +7115,7 @@ the lens flare system or null if not found
 
 > **getLensFlareSystemByID**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`LensFlareSystem`](LensFlareSystem.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.types.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.types.ts#L33)
 
 Gets a lens flare system using its Id
 
@@ -7143,7 +7143,7 @@ Please use getLensFlareSystemById instead
 
 > **getLensFlareSystemByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`LensFlareSystem`](LensFlareSystem.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.types.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.types.ts#L24)
 
 Gets a lens flare system using its name
 
@@ -7167,7 +7167,7 @@ the lens flare system or null if not found
 
 > **getLightById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Light`](Light.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3858](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3858)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3861](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3861)
 
 Gets a light node using its Id
 
@@ -7191,7 +7191,7 @@ the light or null if none found.
 
 > **getLightByID**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Light`](Light.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6646](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6646)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6689](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6689)
 
 Gets a light node using its Id
 
@@ -7219,7 +7219,7 @@ Please use getLightById instead
 
 > **getLightByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Light`](Light.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3843](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3843)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3846](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3846)
 
 Gets a light node using its name
 
@@ -7243,7 +7243,7 @@ the light or null if none found.
 
 > **getLightByUniqueId**(`uniqueId`): [`Nullable`](../type-aliases/Nullable.md)\<[`Light`](Light.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3873](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3873)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3876](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3876)
 
 Gets a light node using its scene-generated unique Id
 
@@ -7267,7 +7267,7 @@ the light or null if none found.
 
 > **getLightByUniqueID**(`uniqueId`): [`Nullable`](../type-aliases/Nullable.md)\<[`Light`](Light.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6656](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6656)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6699](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6699)
 
 Gets a light node using its scene-generated unique Id
 
@@ -7295,7 +7295,7 @@ Please use getLightByUniqueId instead
 
 > **getLightsByTags**(`tagsQuery`, `filter?`): [`Light`](Light.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6296](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6296)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6299](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6299)
 
 Get a list of lights by tags
 
@@ -7325,7 +7325,7 @@ an array of Light
 
 > **getMaterialById**(`id`, `allowMultiMaterials?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Material`](Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3690](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3690)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3693](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3693)
 
 get a material using its id
 
@@ -7355,7 +7355,7 @@ the material or null if none found.
 
 > **getMaterialByID**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Material`](Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6585](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6585)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6628](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6628)
 
 Get a material using its id
 
@@ -7383,7 +7383,7 @@ Please use getMaterialById instead
 
 > **getMaterialByName**(`name`, `allowMultiMaterials?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Material`](Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3700](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3700)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3703](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3703)
 
 Gets a material using its name
 
@@ -7413,7 +7413,7 @@ the material or null if none found.
 
 > **getMaterialByTags**(`tagsQuery`, `filter?`): [`Material`](Material.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6306](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6306)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6309](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6309)
 
 Get a list of materials by tags
 
@@ -7443,7 +7443,7 @@ an array of Material
 
 > **getMaterialByUniqueId**(`uniqueId`, `allowMultiMaterials?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Material`](Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3680](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3680)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3683](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3683)
 
 Get a material using its unique id
 
@@ -7473,7 +7473,7 @@ the material or null if none found.
 
 > **getMaterialByUniqueID**(`uniqueId`, `allowMultiMaterials?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Material`](Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3670](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3670)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3673](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3673)
 
 Get a material using its unique id
 
@@ -7507,7 +7507,7 @@ Please use getMaterialByUniqueId instead.
 
 > **getMeshById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4017](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4017)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4020](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4020)
 
 Gets the first added mesh found of a given Id
 
@@ -7531,7 +7531,7 @@ the mesh found or null if not found at all
 
 > **getMeshByID**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6686](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6686)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6729](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6729)
 
 Gets the first added mesh found of a given Id
 
@@ -7559,7 +7559,7 @@ Please use getMeshById instead
 
 > **getMeshByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4240](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4240)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4243)
 
 Gets a mesh using a given name
 
@@ -7583,7 +7583,7 @@ the found mesh or null if not found at all.
 
 > **getMeshByUniqueId**(`uniqueId`): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4084](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4084)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4087](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4087)
 
 Gets a mesh with its auto-generated unique Id
 
@@ -7607,7 +7607,7 @@ the found mesh or null if not found at all.
 
 > **getMeshByUniqueID**(`uniqueId`): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6696](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6696)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6739](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6739)
 
 Gets a mesh with its auto-generated unique Id
 
@@ -7635,7 +7635,7 @@ Please use getMeshByUniqueId instead
 
 > **getMeshesById**(`id`): [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4032](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4032)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4035](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4035)
 
 Gets a list of meshes using their Id
 
@@ -7659,7 +7659,7 @@ a list of meshes
 
 > **getMeshesByID**(`id`): [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6716](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6716)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6759](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6759)
 
 Gets a list of meshes using their Id
 
@@ -7687,7 +7687,7 @@ Please use getMeshesById instead
 
 > **getMeshesByTags**(`tagsQuery`, `filter?`): [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6276](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6276)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6279](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6279)
 
 Get a list of meshes by tags
 
@@ -7717,7 +7717,7 @@ an array of Mesh
 
 > **getMorphTargetById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`MorphTarget`](MorphTarget.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4345](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4345)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4348](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4348)
 
 Gets a morph target using a given id (if many are found, this function will pick the first one)
 
@@ -7741,7 +7741,7 @@ the found morph target or null if not found at all.
 
 > **getMorphTargetByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`MorphTarget`](MorphTarget.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4363](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4363)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4366](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4366)
 
 Gets a morph target using a given name (if many are found, this function will pick the first one)
 
@@ -7765,7 +7765,7 @@ the found morph target or null if not found at all.
 
 > **getMorphTargetManagerById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`MorphTargetManager`](MorphTargetManager.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4330](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4330)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4333](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4333)
 
 Gets a morph target manager  using a given id (if many are found, this function will pick the last one)
 
@@ -7789,7 +7789,7 @@ the found morph target manager or null if not found at all.
 
 > **getNodeById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4172)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4175)
 
 Gets a node (Mesh, Camera, Light, Bone) using a given Id
 
@@ -7813,7 +7813,7 @@ the found node or null if not found at all
 
 > **getNodeByID**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6756](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6756)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6799](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6799)
 
 Gets a node (Mesh, Camera, Light) using a given Id
 
@@ -7841,7 +7841,7 @@ Please use getNodeById instead
 
 > **getNodeByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4206](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4206)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4209)
 
 Gets a node (Mesh, Camera, Light) using a given name
 
@@ -7865,7 +7865,7 @@ the found node or null if not found at all.
 
 > **getNodes**(): [`Node`](Node.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:613](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L613)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:615](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L615)
 
 #### Returns
 
@@ -7883,7 +7883,7 @@ all meshes, lights, cameras, transformNodes and bones
 
 > **getOrAddExternalDataWithFactory**\<`T`\>(`key`, `factory`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4443](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4443)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4446](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4446)
 
 Get an externally attached data from its key, create it using a factory if it's not already present
 
@@ -7919,7 +7919,7 @@ the associated data, can be null if the factory returned null.
 
 > **getOutlineRenderer**(): [`OutlineRenderer`](OutlineRenderer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/outlineRenderer.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/outlineRenderer.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/outlineRenderer.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/outlineRenderer.types.ts#L12)
 
 Gets the outline renderer associated with the scene
 
@@ -7935,7 +7935,7 @@ a OutlineRenderer
 
 > **getParticleSystemById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`IParticleSystem`](../interfaces/IParticleSystem.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3888](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3888)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3891](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3891)
 
 Gets a particle system by Id
 
@@ -7959,7 +7959,7 @@ the corresponding system or null if none found
 
 > **getParticleSystemByID**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`IParticleSystem`](../interfaces/IParticleSystem.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6666](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6666)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6709](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6709)
 
 Gets a particle system by Id
 
@@ -7987,7 +7987,7 @@ Please use getParticleSystemById instead
 
 > **getPerfCollector**(): [`PerformanceViewerCollector`](PerformanceViewerCollector.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6562](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6562)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6605](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6605)
 
 This method gets the performance collector belonging to the scene, which is generally shared with the inspector.
 
@@ -8003,7 +8003,7 @@ the perf collector belonging to the scene.
 
 > **getPhysicsEngine**(): [`Nullable`](../type-aliases/Nullable.md)\<`IPhysicsEngine`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.types.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.types.ts#L19)
 
 Gets the current physics engine
 
@@ -8019,7 +8019,7 @@ a IPhysicsEngine or null if none attached
 
 > **getPointerOverMesh**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6202](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6202)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6205)
 
 Gets the mesh under the pointer
 
@@ -8035,7 +8035,7 @@ a Mesh or null if no mesh is under the pointer
 
 > **getPointerOverSprite**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Sprite`](Sprite.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteSceneComponent.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts#L100)
 
 Gets the sprite under the pointer
 
@@ -8051,7 +8051,7 @@ a Sprite or null if no sprite is under the pointer
 
 > **getPostProcessByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4381](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4381)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4384](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4384)
 
 Gets a post process using a given name (if many are found, this function will pick the first one)
 
@@ -8075,7 +8075,7 @@ the found post process or null if not found at all.
 
 > **getProjectionMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2813](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2813)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2816](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2816)
 
 Gets the current projection matrix
 
@@ -8091,7 +8091,7 @@ a Matrix
 
 > **getRenderId**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2305](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2305)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2308](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2308)
 
 Gets an unique Id for the current render phase
 
@@ -8107,7 +8107,7 @@ a number
 
 > **getSceneUniformBuffer**(): [`UniformBuffer`](UniformBuffer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2880](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2880)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2883](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2883)
 
 Gets the uniform buffer used to store scene data
 
@@ -8123,7 +8123,7 @@ a UniformBuffer
 
 > **getSelectionOutlineLayerByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`SelectionOutlineLayer`](SelectionOutlineLayer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/selectionOutlineLayer.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.types.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.types.ts#L11)
 
 Return a the first selection outline layer of the scene with a given name.
 
@@ -8147,7 +8147,7 @@ The selection outline layer if found otherwise null.
 
 > **getSkeletonById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Skeleton`](Skeleton.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4300](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4300)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4303](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4303)
 
 Gets a skeleton using a given id (if many are found, this function will pick the first one)
 
@@ -8171,7 +8171,7 @@ the found skeleton or null if not found at all.
 
 > **getSkeletonByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Skeleton`](Skeleton.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4315](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4315)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4318](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4318)
 
 Gets a skeleton using a given name
 
@@ -8195,7 +8195,7 @@ the found skeleton or null if not found at all.
 
 > **getSkeletonByUniqueId**(`uniqueId`): [`Nullable`](../type-aliases/Nullable.md)\<[`Skeleton`](Skeleton.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4285](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4285)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4288](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4288)
 
 Gets a skeleton using a given auto generated unique id
 
@@ -8219,7 +8219,7 @@ the found skeleton or null if not found at all.
 
 > **getSoundByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Sound`](Sound.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioSceneComponent.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioSceneComponent.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioSceneComponent.types.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioSceneComponent.types.ts#L31)
 
 Gets a sound using a given name
 
@@ -8247,7 +8247,7 @@ please use AudioEngineV2 instead
 
 > **getStepId**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1350](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1350)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1352](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1352)
 
 Gets the step Id used by deterministic lock step
 
@@ -8267,7 +8267,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/advanced_animation
 
 > **getTextureByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3747](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3747)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3750](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3750)
 
 Gets a texture using its name
 
@@ -8291,7 +8291,7 @@ the texture or null if none found.
 
 > **getTextureByUniqueId**(`uniqueId`): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3732](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3732)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3735](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3735)
 
 Get a texture using its unique id
 
@@ -8315,7 +8315,7 @@ the texture or null if none found.
 
 > **getTextureByUniqueID**(`uniqueId`): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6606](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6606)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6649](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6649)
 
 Get a texture using its unique id
 
@@ -8343,7 +8343,7 @@ Please use getTextureByUniqueId instead
 
 > **getTotalVertices**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2225)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2228)
 
 Gets the total number of vertices rendered per frame
 
@@ -8359,7 +8359,7 @@ the total number of vertices rendered per frame
 
 > **getTransformMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2829](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2829)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2832](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2832)
 
 Gets the current transform matrix
 
@@ -8375,7 +8375,7 @@ a Matrix made of View * Projection
 
 > **getTransformNodeById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`TransformNode`](TransformNode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4043](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4043)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4046](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4046)
 
 Gets the first added transform node found of a given Id
 
@@ -8399,7 +8399,7 @@ the found transform node or null if not found at all.
 
 > **getTransformNodeByID**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`TransformNode`](TransformNode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6726](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6726)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6769](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6769)
 
 Gets the first added transform node found of a given Id
 
@@ -8427,7 +8427,7 @@ Please use getTransformNodeById instead
 
 > **getTransformNodeByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`TransformNode`](TransformNode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4255)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4258](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4258)
 
 Gets a transform node using a given name
 
@@ -8451,7 +8451,7 @@ the found transform node or null if not found at all.
 
 > **getTransformNodeByUniqueId**(`uniqueId`): [`Nullable`](../type-aliases/Nullable.md)\<[`TransformNode`](TransformNode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4058](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4058)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4061](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4061)
 
 Gets a transform node with its auto-generated unique Id
 
@@ -8475,7 +8475,7 @@ the found transform node or null if not found at all.
 
 > **getTransformNodeByUniqueID**(`uniqueId`): [`Nullable`](../type-aliases/Nullable.md)\<[`TransformNode`](TransformNode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6736](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6736)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6779](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6779)
 
 Gets a transform node with its auto-generated unique Id
 
@@ -8503,7 +8503,7 @@ Please use getTransformNodeByUniqueId instead
 
 > **getTransformNodesById**(`id`): [`TransformNode`](TransformNode.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4073](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4073)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4076](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4076)
 
 Gets a list of transform nodes using their Id
 
@@ -8527,7 +8527,7 @@ a list of transform nodes
 
 > **getTransformNodesByID**(`id`): [`TransformNode`](TransformNode.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6746](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6746)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6789](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6789)
 
 Gets a list of transform nodes using their Id
 
@@ -8555,7 +8555,7 @@ Please use getTransformNodesById instead
 
 > **getTransformNodesByTags**(`tagsQuery`, `filter?`): [`TransformNode`](TransformNode.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6316](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6316)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6319](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6319)
 
 Get a list of transform nodes by tags
 
@@ -8585,7 +8585,7 @@ an array of TransformNode
 
 > **getUniqueId**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2939](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2939)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2942](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2942)
 
 Gets an unique (relatively to the current scene) Id
 
@@ -8601,7 +8601,7 @@ an unique number for the scene
 
 > **getViewMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2805](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2805)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2808](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2808)
 
 Gets the current view matrix
 
@@ -8617,7 +8617,7 @@ a Matrix
 
 > **getWaitingItemsCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2666](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2666)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2669](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2669)
 
 Returns the number of items waiting to be loaded
 
@@ -8633,7 +8633,7 @@ the number of items waiting to be loaded
 
 > **getWorldExtends**(`filterPredicate?`): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6015](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6015)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6018](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6018)
 
 Get the world extend vectors with an optional filter
 
@@ -8665,7 +8665,7 @@ min and max vectors
 
 > **incrementRenderId**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2318](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2318)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2321](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2321)
 
 Call this function if you want to manually increment the render Id
 
@@ -8679,7 +8679,7 @@ Call this function if you want to manually increment the render Id
 
 > **isActiveMesh**(`mesh`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4396](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4396)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4399](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4399)
 
 Gets a boolean indicating if the given mesh is active
 
@@ -8703,7 +8703,7 @@ true if the mesh is in the active list
 
 > **isCachedMaterialInvalid**(`material`, `effect`, `visibility?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2209](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2209)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2212](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2212)
 
 Gets a boolean indicating if the current material / effect / visibility must be bind again
 
@@ -8739,7 +8739,7 @@ true if one parameter is not cached
 
 > **isPhysicsEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.types.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/joinedPhysicsEngineComponent.types.ts#L38)
 
 Gets a boolean indicating if there is an active physics engine
 
@@ -8755,7 +8755,7 @@ a boolean indicating if there is an active physics engine
 
 > **isPointerCaptured**(`pointerId?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2368](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2368)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2371](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2371)
 
 Gets a boolean indicating if the current pointer event is captured (meaning that the scene has already handled the pointer down)
 
@@ -8779,7 +8779,7 @@ true if the pointer was captured
 
 > **isReady**(`checkRenderTargets?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2393](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2393)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2396](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2396)
 
 This function will check if the scene can be rendered (textures are loaded, shaders are compiled)
 Delay loaded resources are not taking in account
@@ -8804,7 +8804,7 @@ true if all required resources are ready
 
 > **markAllMaterialsAsDirty**(`flag`, `predicate?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6390](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6390)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6393](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6393)
 
 Will flag all materials as dirty to trigger new shader compilation
 
@@ -8832,7 +8832,7 @@ If not null, it will be used to specify if a material has to be marked as dirty
 
 > **multiPick**(`x`, `y`, `predicate?`, `camera?`, `trianglePredicate?`): [`Nullable`](../type-aliases/Nullable.md)\<[`PickingInfo`](PickingInfo.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6172)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6175)
 
 Launch a ray to try to pick a mesh in the scene. A mesh triangle can be picked both from its front and back sides,
 irrespective of orientation.
@@ -8881,7 +8881,7 @@ an array of PickingInfo
 
 > **multiPickSprite**(`x`, `y`, `predicate?`, `camera?`): [`Nullable`](../type-aliases/Nullable.md)\<[`PickingInfo`](PickingInfo.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteSceneComponent.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts#L80)
 
 Launch a ray to try to pick sprites in the scene
 
@@ -8923,7 +8923,7 @@ a PickingInfo array
 
 > **multiPickSpriteWithRay**(`ray`, `predicate?`, `camera?`): [`Nullable`](../type-aliases/Nullable.md)\<[`PickingInfo`](PickingInfo.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteSceneComponent.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts#L88)
 
 Use the given ray to pick sprites in the scene
 
@@ -8959,7 +8959,7 @@ a PickingInfo array
 
 > **multiPickWithRay**(`ray`, `predicate?`, `trianglePredicate?`): [`Nullable`](../type-aliases/Nullable.md)\<[`PickingInfo`](PickingInfo.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6184](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6184)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6187)
 
 Launch a ray to try to pick a mesh in the scene
 
@@ -8995,7 +8995,7 @@ an array of PickingInfo
 
 > **pick**(`x`, `y`, `predicate?`, `fastCheck?`, `camera?`, `trianglePredicate?`): [`PickingInfo`](PickingInfo.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6121)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6124)
 
 Launch a ray to try to pick a mesh in the scene
 
@@ -9049,7 +9049,7 @@ a PickingInfo
 
 > **pickSprite**(`x`, `y`, `predicate?`, `fastCheck?`, `camera?`): [`Nullable`](../type-aliases/Nullable.md)\<[`PickingInfo`](PickingInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteSceneComponent.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts#L59)
 
 Launch a ray to try to pick a sprite in the scene
 
@@ -9097,7 +9097,7 @@ a PickingInfo
 
 > **pickSpriteWithRay**(`ray`, `predicate?`, `fastCheck?`, `camera?`): [`Nullable`](../type-aliases/Nullable.md)\<[`PickingInfo`](PickingInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteSceneComponent.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts#L68)
 
 Use the given ray to pick a sprite in the scene
 
@@ -9139,7 +9139,7 @@ a PickingInfo
 
 > **pickWithBoundingInfo**(`x`, `y`, `predicate?`, `fastCheck?`, `camera?`): [`Nullable`](../type-aliases/Nullable.md)\<[`PickingInfo`](PickingInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6138)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6141)
 
 Launch a ray to try to pick a mesh in the scene using only bounding information of the main mesh (not using submeshes)
 
@@ -9187,7 +9187,7 @@ a PickingInfo (Please note that some info will not be set like distance, bv, bu 
 
 > **pickWithRay**(`ray`, `predicate?`, `fastCheck?`, `trianglePredicate?`): [`Nullable`](../type-aliases/Nullable.md)\<[`PickingInfo`](PickingInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6157](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6157)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6160)
 
 Use the given ray to pick a mesh in the scene. A mesh triangle can be picked both from its front and back sides,
 irrespective of orientation.
@@ -9230,7 +9230,7 @@ a PickingInfo
 
 > **pushGeometry**(`geometry`, `force?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3951](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3951)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3954](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3954)
 
 Add a new geometry to this scene
 
@@ -9260,7 +9260,7 @@ a boolean defining if the geometry was added or not
 
 > **registerAfterRender**(`func`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2598](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2598)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2601](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2601)
 
 Registers a function to be called after every frame render
 
@@ -9282,7 +9282,7 @@ defines the function to register
 
 > **registerBeforeRender**(`func`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2582](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2582)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2585](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2585)
 
 Registers a function to be called before every frame render
 
@@ -9304,7 +9304,7 @@ defines the function to register
 
 > **removeActionManager**(`toRemove`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3247](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3247)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3250](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3250)
 
 Removes the given action manager from this scene.
 
@@ -9330,7 +9330,7 @@ The index of the removed action manager
 
 > **removeAnimation**(`toRemove`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3170)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3173)
 
 Remove a animation for the list of scene's animations
 
@@ -9354,7 +9354,7 @@ the index where the animation was in the animation list
 
 > **removeAnimationGroup**(`toRemove`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3193](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3193)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3196)
 
 Removes the given animation group from this scene.
 
@@ -9378,7 +9378,7 @@ The index of the removed animation group
 
 > **removeCamera**(`toRemove`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3119)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3122)
 
 Remove a camera for the list of scene's cameras
 
@@ -9402,7 +9402,7 @@ the index where the camera was in the camera list
 
 > **removeEffectLayer**(`toRemove`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3320](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3320)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3323)
 
 Removes the given layer from this scene.
 
@@ -9426,7 +9426,7 @@ The index of the removed layer
 
 > **removeExternalData**(`key`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4455](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4455)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4458](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4458)
 
 Remove an externally attached data from the Engine instance
 
@@ -9450,7 +9450,7 @@ true if the data was successfully removed, false if it doesn't exist
 
 > **removeFrameGraph**(`toRemove`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3275](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3275)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3278](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3278)
 
 Removes the given frame graph from this scene.
 
@@ -9474,7 +9474,7 @@ The index of the removed frame graph
 
 > **removeGeometry**(`geometry`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3970](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3970)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3973](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3973)
 
 Removes an existing geometry
 
@@ -9498,7 +9498,7 @@ a boolean defining if the geometry was removed or not
 
 > **removeIsReadyCheck**(`isReadyCheck`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2692](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2692)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2695](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2695)
 
 Removes an object previously registered with [addIsReadyCheck](#addisreadycheck).
 
@@ -9520,7 +9520,7 @@ defines the object to remove.
 
 > **removeLensFlareSystem**(`toRemove`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.types.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.types.ts#L11)
 
 Removes the given lens flare system from this scene.
 
@@ -9544,7 +9544,7 @@ The index of the removed lens flare system
 
 > **removeLight**(`toRemove`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3093](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3093)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3096](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3096)
 
 Remove a light for the list of scene's lights
 
@@ -9568,7 +9568,7 @@ the index where the light was in the light list
 
 > **removeMaterial**(`toRemove`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3223](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3223)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3226](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3226)
 
 Removes the given material from this scene.
 
@@ -9592,7 +9592,7 @@ The index of the removed material
 
 > **removeMesh**(`toRemove`, `recursive?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2980](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2980)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2983](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2983)
 
 Remove a mesh for the list of scene's meshes
 
@@ -9622,7 +9622,7 @@ the index where the mesh was in the mesh list
 
 > **removeMorphTargetManager**(`toRemove`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3078](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3078)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3081](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3081)
 
 Remove a morph target for the list of scene's morph targets
 
@@ -9646,7 +9646,7 @@ the index where the morph target was in the morph target list
 
 > **removeMultiMaterial**(`toRemove`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3207](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3207)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3210)
 
 Removes the given multi-material from this scene.
 
@@ -9670,7 +9670,7 @@ The index of the removed multi-material
 
 > **removeObjectRenderer**(`toRemove`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3290](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3290)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3293](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3293)
 
 Removes the given object renderer from this scene.
 
@@ -9694,7 +9694,7 @@ The index of the removed object renderer
 
 > **removeParticleSystem**(`toRemove`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3153)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3156)
 
 Remove a particle system for the list of scene's particle systems
 
@@ -9718,7 +9718,7 @@ the index where the particle system was in the particle system list
 
 > **removePendingData**(`data`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2649](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2649)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2652](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2652)
 
 Remove a pending data from the loading list which has previously been added with addPendingData.
 
@@ -9740,7 +9740,7 @@ defines the object to remove from the pending list
 
 > **removePostProcess**(`toRemove`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3305](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3305)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3308](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3308)
 
 Removes the given post-process from this scene.
 
@@ -9764,7 +9764,7 @@ The index of the removed post-process
 
 > **removeReflectionProbe**(`toRemove`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Probes/reflectionProbe.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Probes/reflectionProbe.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Probes/reflectionProbe.types.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Probes/reflectionProbe.types.ts#L19)
 
 Removes the given reflection probe from this scene.
 
@@ -9788,7 +9788,7 @@ The index of the removed reflection probe
 
 > **removeSkeleton**(`toRemove`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3059](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3059)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3062](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3062)
 
 Remove a skeleton for the list of scene's skeletons
 
@@ -9812,7 +9812,7 @@ the index where the skeleton was in the skeleton list
 
 > **removeTexture**(`toRemove`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3260](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3260)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3263](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3263)
 
 Removes the given texture from this scene.
 
@@ -9836,7 +9836,7 @@ The index of the removed texture
 
 > **removeTransformNode**(`toRemove`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3033](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3033)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3036](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3036)
 
 Remove a transform node for the list of scene's transform nodes
 
@@ -9860,7 +9860,7 @@ the index where the transform node was in the transform node list
 
 > **render**(`updateCameras?`, `ignoreAnimations?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:5537](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L5537)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:5540](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L5540)
 
 Render the scene
 
@@ -9888,7 +9888,7 @@ defines a boolean indicating if animations should not be executed (false by defa
 
 > **resetCachedMaterial**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2572](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2572)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2575](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2575)
 
 Resets all cached information relative to material (including effect and visibility)
 
@@ -9902,7 +9902,7 @@ Resets all cached information relative to material (including effect and visibil
 
 > **resetDrawCache**(`passId?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:5361](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L5361)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:5364](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L5364)
 
 Resets the draw wrappers cache of all meshes
 
@@ -9924,7 +9924,7 @@ If provided, releases only the draw wrapper corresponding to this render pass id
 
 > **resetLastAnimationTimeFrame**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2795](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2795)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2798](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2798)
 
 Resets the last animation time frame.
 Useful to override when animations start running when loading a scene for the first time.
@@ -9939,7 +9939,7 @@ Useful to override when animations start running when loading a scene for the fi
 
 > **setActiveCameraById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3601](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3601)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3604](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3604)
 
 sets the active camera of the scene using its Id
 
@@ -9963,7 +9963,7 @@ the new active camera or null if none found.
 
 > **setActiveCameraByID**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6575](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6575)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6618](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6618)
 
 Sets the active camera of the scene using its Id
 
@@ -9991,7 +9991,7 @@ Please use setActiveCameraById instead
 
 > **setActiveCameraByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3617](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3617)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3620](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3620)
 
 sets the active camera of the scene using its name
 
@@ -10015,7 +10015,7 @@ the new active camera or null if none found.
 
 > **setDefaultCandidateProviders**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2142)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2145)
 
 Sets the default candidate providers for the scene.
 This sets the getActiveMeshCandidates, getActiveSubMeshCandidates, getIntersectingSubMeshCandidates
@@ -10031,7 +10031,7 @@ and getCollidingSubMeshCandidates to their default function
 
 > **setPointerOverMesh**(`mesh`, `pointerId?`, `pickResult?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6194](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6194)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6197)
 
 Force the value of meshUnderPointer
 
@@ -10065,7 +10065,7 @@ optional pickingInfo data used to find mesh
 
 > **setPointerOverSprite**(`sprite`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteSceneComponent.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts:94](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteSceneComponent.types.ts#L94)
 
 Force the sprite under the pointer
 
@@ -10087,7 +10087,7 @@ defines the sprite to use
 
 > **setRenderingAutoClearDepthStencil**(`renderingGroupId`, `autoClearDepthStencil`, `depth?`, `stencil?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6346](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6346)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6349](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6349)
 
 Specifies whether or not the stencil and depth buffer are cleared between two rendering groups.
 
@@ -10127,7 +10127,7 @@ Automatically clears stencil between groups if true and autoClear is true.
 
 > **setRenderingOrder**(`renderingGroupId`, `opaqueSortCompareFn?`, `alphaTestSortCompareFn?`, `transparentSortCompareFn?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:6329](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L6329)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:6332](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L6332)
 
 Overrides the default sort function applied in the rendering group to prepare the meshes.
 This allowed control for front to back rendering or reversly depending of the special needs.
@@ -10168,7 +10168,7 @@ The transparent queue comparison function use to sort.
 
 > **setSceneUniformBuffer**(`ubo`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2913](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2913)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2916](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2916)
 
 Sets the scene ubo
 
@@ -10190,7 +10190,7 @@ the ubo to set for the scene
 
 > **setStepId**(`newStepId`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:1341](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L1341)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:1343](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L1343)
 
 Sets the step Id used by deterministic lock step
 
@@ -10216,7 +10216,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/advanced_animation
 
 > **setTransformMatrix**(`viewL`, `projectionL`, `viewR?`, `projectionR?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2840](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2840)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2843](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2843)
 
 Sets the current transform matrix
 
@@ -10256,7 +10256,7 @@ defines the right Projection matrix to use (if provided)
 
 > **simulatePointerDown**(`pickResult`, `pointerEventInit?`): `Scene`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2345](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2345)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2348](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2348)
 
 Use this method to simulate a pointer down on a mesh
 The pickResult parameter can be obtained from a scene.pick or scene.pickWithRay
@@ -10287,7 +10287,7 @@ the current scene
 
 > **simulatePointerMove**(`pickResult`, `pointerEventInit?`): `Scene`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2333](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2333)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2336](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2336)
 
 Use this method to simulate a pointer move on a mesh
 The pickResult parameter can be obtained from a scene.pick or scene.pickWithRay
@@ -10318,7 +10318,7 @@ the current scene
 
 > **simulatePointerUp**(`pickResult`, `pointerEventInit?`, `doubleTap?`): `Scene`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2358](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2358)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2361](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2361)
 
 Use this method to simulate a pointer up on a mesh
 The pickResult parameter can be obtained from a scene.pick or scene.pickWithRay
@@ -10355,7 +10355,7 @@ the current scene
 
 > **sortActiveAnimatables**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.types.ts#L12)
 
 Sort active animatables based on their playOrder property
 
@@ -10369,7 +10369,7 @@ Sort active animatables based on their playOrder property
 
 > **sortLightsByPriority**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3361](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3361)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3364](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3364)
 
 Sorts the list list based on light priorities
 
@@ -10383,7 +10383,7 @@ Sorts the list list based on light priorities
 
 > **stopAllAnimations**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.ts:181](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.ts#L181)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.types.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.types.ts#L176)
 
 Stops and removes all animations that have been applied to the scene
 
@@ -10397,7 +10397,7 @@ Stops and removes all animations that have been applied to the scene
 
 > **stopAnimation**(`target`, `animationName?`, `targetMask?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3184](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3184)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3187)
 
 Will stop the animation of the given target
 
@@ -10431,7 +10431,7 @@ a function that determines if the animation should be stopped based on its targe
 
 > **switchActiveCamera**(`newCamera`, `attachControl?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:3580](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L3580)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:3583](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L3583)
 
 Switch active camera
 
@@ -10459,7 +10459,7 @@ defines if attachControl must be called for the new active camera (default: true
 
 > **unfreezeActiveMeshes**(): `Scene`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4710](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4710)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4713](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4713)
 
 Use this function to restart evaluating active meshes on every frame
 
@@ -10475,7 +10475,7 @@ the current scene
 
 > **unfreezeMaterials**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:5723](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L5723)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:5726](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L5726)
 
 Unfreeze all materials
 A frozen material will not be updatable but should be faster to render
@@ -10490,7 +10490,7 @@ A frozen material will not be updatable but should be faster to render
 
 > **unregisterAfterRender**(`func`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2606](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2606)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2609](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2609)
 
 Unregisters a function called after every frame render
 
@@ -10512,7 +10512,7 @@ defines the function to unregister
 
 > **unregisterBeforeRender**(`func`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2590](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2590)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2593](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2593)
 
 Unregisters a function called before every frame render
 
@@ -10534,7 +10534,7 @@ defines the function to unregister
 
 > **updateTransformMatrix**(`force?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:4941](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L4941)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:4944](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L4944)
 
 Update the transform matrix to update from the current active camera
 
@@ -10556,7 +10556,7 @@ defines a boolean used to force the update even if cache is up to date
 
 > **whenReadyAsync**(`checkRenderTargets?`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:2719](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L2719)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:2722](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L2722)
 
 Returns a promise that resolves when the scene is ready
 
@@ -10580,7 +10580,7 @@ A promise that resolves when the scene is ready
 
 > `static` **CollisionCoordinatorFactory**(): `ICollisionCoordinator`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L225)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L227)
 
 Factory used to create the a collision coordinator.
 
@@ -10596,7 +10596,7 @@ The collision coordinator
 
 > `static` **DefaultMaterialFactory**(`scene`): [`Material`](Material.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:214](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L214)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L216)
 
 Factory used to create the default material.
 

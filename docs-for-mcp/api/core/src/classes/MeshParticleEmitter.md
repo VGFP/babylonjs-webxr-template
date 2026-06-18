@@ -6,7 +6,7 @@
 
 # Class: MeshParticleEmitter
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L16)
 
 Particle emitter emitting particles from the inside of a box.
 It emits the particles randomly between 2 given directions.
@@ -21,7 +21,7 @@ It emits the particles randomly between 2 given directions.
 
 > **new MeshParticleEmitter**(`mesh?`): `MeshParticleEmitter`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L64)
 
 Creates a new instance MeshParticleEmitter
 
@@ -43,7 +43,7 @@ defines the mesh to use as source
 
 > **direction1**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L26)
 
 Random direction of each particle after it has been emitted, between direction1 and direction2 vectors.
 
@@ -53,7 +53,7 @@ Random direction of each particle after it has been emitted, between direction1 
 
 > **direction2**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L30)
 
 Random direction of each particle after it has been emitted, between direction1 and direction2 vectors.
 
@@ -63,7 +63,7 @@ Random direction of each particle after it has been emitted, between direction1 
 
 > **useMeshNormalsForDirection**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L35)
 
 Gets or sets a boolean indicating that particle directions must be built from mesh face normals
 
@@ -75,7 +75,7 @@ Gets or sets a boolean indicating that particle directions must be built from me
 
 > **get** **mesh**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L38)
 
 Defines the mesh to use as source
 
@@ -87,7 +87,7 @@ Defines the mesh to use as source
 
 > **set** **mesh**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L42)
 
 ##### Parameters
 
@@ -105,7 +105,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshP
 
 > **applyToShader**(`uboOrEffect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L159)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L159)
 
 Called by the GPUParticleSystem to setup the update shader
 
@@ -131,7 +131,7 @@ defines the update shader
 
 > **buildUniformLayout**(`ubo`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:168](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L168)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:168](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L168)
 
 Creates the structure of the ubo for this particle emitter
 
@@ -157,7 +157,7 @@ ubo to create the structure for
 
 > **clone**(): `MeshParticleEmitter`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:147](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L147)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:147](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L147)
 
 Clones the current emitter and returns a copy of it
 
@@ -177,7 +177,7 @@ the new emitter
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L185)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L185)
 
 Returns the string "BoxParticleEmitter"
 
@@ -197,7 +197,7 @@ a string containing the class name
 
 > **getEffectDefines**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L177)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L177)
 
 Returns a string to use to update the GPU particles update shader
 
@@ -217,7 +217,7 @@ a string containing the defines string
 
 > **parse**(`serializationObject`, `scene`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:210](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L210)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L210)
 
 Parse properties from a JSON object
 
@@ -249,7 +249,7 @@ defines the hosting scene
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:193](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L193)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L193)
 
 Serializes the particle system to a JSON object.
 
@@ -269,7 +269,7 @@ the JSON object
 
 > **startDirectionFunction**(`worldMatrix`, `directionToUpdate`, `particle`, `isLocal`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L75)
 
 Called by the particle System when the direction is computed for the created particle.
 
@@ -313,7 +313,7 @@ defines if the direction should be set in local space
 
 > **startPositionFunction**(`worldMatrix`, `positionToUpdate`, `particle`, `isLocal`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/meshParticleEmitter.ts#L100)
 
 Called by the particle System when the position is computed for the created particle.
 

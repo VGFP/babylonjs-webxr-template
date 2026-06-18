@@ -6,7 +6,7 @@
 
 # Class: InstantiatedEntries
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:210](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L210)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L210)
 
 Class used to store the output of the AssetContainer.instantiateAllMeshesToScene function
 
@@ -26,7 +26,7 @@ Class used to store the output of the AssetContainer.instantiateAllMeshesToScene
 
 > **animationGroups**: [`AnimationGroup`](AnimationGroup.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:224](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L224)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:224](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L224)
 
 List of new animation groups
 
@@ -36,7 +36,7 @@ List of new animation groups
 
 > **rootNodes**: [`Node`](Node.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:214](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L214)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L214)
 
 List of new root nodes (eg. nodes with no parent)
 
@@ -46,7 +46,7 @@ List of new root nodes (eg. nodes with no parent)
 
 > **skeletons**: [`Skeleton`](Skeleton.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L219)
 
 List of new skeletons
 
@@ -56,7 +56,7 @@ List of new skeletons
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:229](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L229)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L229)
 
 Disposes the instantiated entries from the scene
 

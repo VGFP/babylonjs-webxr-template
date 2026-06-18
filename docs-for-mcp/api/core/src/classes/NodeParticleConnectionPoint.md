@@ -6,7 +6,7 @@
 
 # Class: NodeParticleConnectionPoint
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L33)
 
 Defines a connection point for a block
 
@@ -16,7 +16,7 @@ Defines a connection point for a block
 
 > **new NodeParticleConnectionPoint**(`name`, `ownerBlock`, `direction`): `NodeParticleConnectionPoint`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:243](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L243)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L243)
 
 Creates a new connection point
 
@@ -50,7 +50,7 @@ defines the direction of the connection point
 
 > **acceptedConnectionPointTypes**: [`NodeParticleBlockConnectionPointTypes`](../enumerations/NodeParticleBlockConnectionPointTypes.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L74)
 
 Gets or sets the additional types supported by this connection point
 
@@ -60,7 +60,7 @@ Gets or sets the additional types supported by this connection point
 
 > **defaultValue**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L104)
 
 Gets the default value used for this point at creation time
 
@@ -70,7 +70,7 @@ Gets the default value used for this point at creation time
 
 > **displayName**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L177)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L177)
 
 Gets or sets the connection point display name
 
@@ -80,7 +80,7 @@ Gets or sets the connection point display name
 
 > **excludedConnectionPointTypes**: [`NodeParticleBlockConnectionPointTypes`](../enumerations/NodeParticleBlockConnectionPointTypes.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L79)
 
 Gets or sets the additional types excluded by this connection point
 
@@ -90,7 +90,7 @@ Gets or sets the additional types excluded by this connection point
 
 > **exposedPortPosition**: `number` = `-1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L99)
 
 Gets or sets number indicating the position that the port is exposed to on a frame
 
@@ -100,7 +100,7 @@ Gets or sets number indicating the position that the port is exposed to on a fra
 
 > **isExposedOnFrame**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:94](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L94)
 
 Gets or sets a boolean indicating that this connection point is exposed on a frame
 
@@ -110,7 +110,7 @@ Gets or sets a boolean indicating that this connection point is exposed on a fra
 
 > **isOptional**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:182](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L182)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L182)
 
 Gets or sets a boolean indicating that this connection point can be omitted
 
@@ -120,7 +120,7 @@ Gets or sets a boolean indicating that this connection point can be omitted
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L172)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L172)
 
 Gets or sets the connection point name
 
@@ -130,7 +130,7 @@ Gets or sets the connection point name
 
 > **onConnectionObservable**: [`Observable`](Observable.md)\<`NodeParticleConnectionPoint`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L84)
 
 Observable triggered when this point is connected
 
@@ -140,7 +140,7 @@ Observable triggered when this point is connected
 
 > **onDisconnectionObservable**: [`Observable`](Observable.md)\<`NodeParticleConnectionPoint`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L89)
 
 Observable triggered when this point is disconnected
 
@@ -150,7 +150,7 @@ Observable triggered when this point is disconnected
 
 > **value**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L109)
 
 Gets or sets the default value used for this point if nothing is connected
 
@@ -160,7 +160,7 @@ Gets or sets the default value used for this point if nothing is connected
 
 > **valueMax**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L119)
 
 Gets or sets the max value accepted for this point if nothing is connected
 
@@ -170,7 +170,7 @@ Gets or sets the max value accepted for this point if nothing is connected
 
 > **valueMin**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L114)
 
 Gets or sets the min value accepted for this point if nothing is connected
 
@@ -182,7 +182,7 @@ Gets or sets the min value accepted for this point if nothing is connected
 
 > **get** **connectedBlocks**(): [`NodeParticleBlock`](NodeParticleBlock.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:211](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L211)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:211](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L211)
 
 Get the block connected on the endpoints of this connection (if any)
 
@@ -198,7 +198,7 @@ Get the block connected on the endpoints of this connection (if any)
 
 > **get** **connectedPoint**(): [`Nullable`](../type-aliases/Nullable.md)\<`NodeParticleConnectionPoint`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:192](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L192)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L192)
 
 Get the other side of the connection (if any)
 
@@ -214,7 +214,7 @@ Get the other side of the connection (if any)
 
 > **get** **direction**(): [`NodeParticleConnectionPointDirection`](../enumerations/NodeParticleConnectionPointDirection.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L67)
 
 Gets the direction of the point
 
@@ -230,7 +230,7 @@ Gets the direction of the point
 
 > **get** **endpoints**(): `NodeParticleConnectionPoint`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:220](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L220)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:220](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L220)
 
 Gets the list of connected endpoints
 
@@ -246,7 +246,7 @@ Gets the list of connected endpoints
 
 > **get** **hasEndpoints**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L225)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L225)
 
 Gets a boolean indicating if that output point is connected to at least one input
 
@@ -262,7 +262,7 @@ Gets a boolean indicating if that output point is connected to at least one inpu
 
 > **get** **innerType**(): [`NodeParticleBlockConnectionPointTypes`](../enumerations/NodeParticleBlockConnectionPointTypes.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:230](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L230)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:230](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L230)
 
 Get the inner type (ie AutoDetect for instance instead of the inferred one)
 
@@ -278,7 +278,7 @@ Get the inner type (ie AutoDetect for instance instead of the inferred one)
 
 > **get** **isConnected**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:187](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L187)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L187)
 
 Gets a boolean indicating that the current point is connected to another NodeMaterialBlock
 
@@ -294,7 +294,7 @@ Gets a boolean indicating that the current point is connected to another NodeMat
 
 > **get** **ownerBlock**(): [`NodeParticleBlock`](NodeParticleBlock.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:197](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L197)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L197)
 
 Get the block that owns this connection point
 
@@ -310,7 +310,7 @@ Get the block that owns this connection point
 
 > **get** **sourceBlock**(): [`Nullable`](../type-aliases/Nullable.md)\<[`NodeParticleBlock`](NodeParticleBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:202](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L202)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:202](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L202)
 
 Get the block connected on the other side of this connection (if any)
 
@@ -326,7 +326,7 @@ Get the block connected on the other side of this connection (if any)
 
 > **get** **type**(): [`NodeParticleBlockConnectionPointTypes`](../enumerations/NodeParticleBlockConnectionPointTypes.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L124)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L124)
 
 Gets or sets the connection point type (default is float)
 
@@ -338,7 +338,7 @@ Gets or sets the connection point type (default is float)
 
 > **set** **type**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L165)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L165)
 
 ##### Parameters
 
@@ -356,7 +356,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleB
 
 > **addExcludedConnectionPointFromAllowedTypes**(`mask`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:365](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L365)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:365](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L365)
 
 Fill the list of excluded connection point types with all types other than those passed in the parameter
 
@@ -378,7 +378,7 @@ Types (ORed values of NodeMaterialBlockConnectionPointTypes) that are allowed, a
 
 > **canConnectTo**(`connectionPoint`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:277](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L277)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:277](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L277)
 
 Gets a boolean indicating if the current point can be connected to another point
 
@@ -402,7 +402,7 @@ a boolean
 
 > **checkCompatibilityState**(`connectionPoint`): [`NodeParticleConnectionPointCompatibilityStates`](../enumerations/NodeParticleConnectionPointCompatibilityStates.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:286](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L286)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:286](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L286)
 
 Gets a number indicating if the current point can be connected to another point
 
@@ -426,7 +426,7 @@ a number defining the compatibility state
 
 > **connectTo**(`connectionPoint`, `ignoreConstraints?`): `NodeParticleConnectionPoint`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:325](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L325)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:325](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L325)
 
 Connect this point to another connection point
 
@@ -456,7 +456,7 @@ the current connection point
 
 > **disconnectFrom**(`endpoint`): `NodeParticleConnectionPoint`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:345](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L345)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L345)
 
 Disconnect this point from one of his endpoint
 
@@ -480,7 +480,7 @@ the current connection point
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:414](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L414)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:414](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L414)
 
 Release resources
 
@@ -494,7 +494,7 @@ Release resources
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:253](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L253)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:253](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L253)
 
 Gets the current class name e.g. "NodeMaterialConnectionPoint"
 
@@ -510,7 +510,7 @@ the class name
 
 > **getConnectedValue**(`state`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:262](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L262)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:262](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L262)
 
 Gets the value represented by this connection point
 
@@ -534,7 +534,7 @@ the connected value or the value if nothing is connected
 
 > **serialize**(`isInput?`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:380](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L380)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts:380](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlockConnectionPoint.ts#L380)
 
 Serializes this point in a JSON representation
 

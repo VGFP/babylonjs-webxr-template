@@ -6,7 +6,7 @@
 
 # Enumeration: NodeMaterialModes
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts:4](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts#L4)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts:4](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts#L4)
 
 Enum used to define the material modes
 
@@ -16,7 +16,7 @@ Enum used to define the material modes
 
 > **GaussianSplatting**: `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts#L14)
 
 For gaussian splatting
 
@@ -26,7 +26,7 @@ For gaussian splatting
 
 > **Material**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts:6](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts#L6)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts#L6)
 
 Regular material
 
@@ -36,7 +36,7 @@ Regular material
 
 > **Particle**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts:10](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts#L10)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts#L10)
 
 For particle system
 
@@ -46,7 +46,7 @@ For particle system
 
 > **PostProcess**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts#L8)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts#L8)
 
 For post process
 
@@ -56,7 +56,7 @@ For post process
 
 > **ProceduralTexture**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts#L12)
 
 For procedural texture
 
@@ -66,6 +66,6 @@ For procedural texture
 
 > **SFE**: `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Enums/nodeMaterialModes.ts#L16)
 
 For SFE

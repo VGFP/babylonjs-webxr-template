@@ -6,7 +6,7 @@
 
 # Class: Buffer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L15)
 
 Class used to store data that will be store in GPU memory
 
@@ -16,7 +16,7 @@ Class used to store data that will be store in GPU memory
 
 > **new Buffer**(`engine`, `data`, `updatable`, `stride?`, `postponeInternalCreation?`, `instanced?`, `useBytes?`, `divisor?`, `label?`): `Buffer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L51)
 
 Constructor
 
@@ -86,7 +86,7 @@ defines the label of the buffer (for debug purpose)
 
 > `readonly` **byteStride**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L37)
 
 Gets the byte stride.
 
@@ -98,7 +98,7 @@ Gets the byte stride.
 
 > **get** **isDisposed**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L30)
 
 Gets a boolean indicating if the Buffer is disposed
 
@@ -112,7 +112,7 @@ Gets a boolean indicating if the Buffer is disposed
 
 > **create**(`data?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L163)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L167)
 
 Store data into the buffer. Creates the buffer if not used already.
 If the buffer was already used, it will be updated only if it is updatable, otherwise it will do nothing.
@@ -135,7 +135,7 @@ defines the data to store
 
 > **createVertexBuffer**(`kind`, `offset`, `size`, `stride?`, `instanced?`, `useBytes?`, `divisor?`): [`VertexBuffer`](VertexBuffer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L102)
 
 Create a new VertexBuffer based on the current buffer
 
@@ -195,7 +195,7 @@ the new vertex buffer
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:267](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L267)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:271](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L271)
 
 Release all resources
 
@@ -209,7 +209,7 @@ Release all resources
 
 > **getBuffer**(): [`Nullable`](../type-aliases/Nullable.md)\<[`DataBuffer`](DataBuffer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L142)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L146)
 
 Gets underlying native buffer
 
@@ -225,7 +225,7 @@ underlying native buffer
 
 > **getData**(): [`Nullable`](../type-aliases/Nullable.md)\<[`DataArray`](../type-aliases/DataArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L138)
 
 Gets current buffer's data
 
@@ -241,7 +241,7 @@ a DataArray or null
 
 > **getStrideSize**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L152)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L156)
 
 Gets the stride in float32 units (i.e. byte stride / 4).
 May not be an integer if the byte stride is not divisible by 4.
@@ -262,7 +262,7 @@ Please use byteStride instead.
 
 > **isUpdatable**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L130)
 
 Gets a boolean indicating if the Buffer is updatable?
 
@@ -278,7 +278,7 @@ true if the buffer is updatable
 
 > **update**(`data`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:217](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L217)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L221)
 
 Update current buffer data
 
@@ -300,7 +300,7 @@ defines the data to store
 
 > **updateDirectly**(`data`, `offset`, `vertexCount?`, `useBytes?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:228](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L228)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L232)
 
 Updates the data directly.
 

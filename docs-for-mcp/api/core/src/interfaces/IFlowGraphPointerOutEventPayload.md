@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphPointerOutEventPayload
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOutEventBlock.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOutEventBlock.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOutEventBlock.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOutEventBlock.pure.ts#L32)
 
 Payload for the pointer out event.
 
@@ -16,7 +16,7 @@ Payload for the pointer out event.
 
 > **mesh**: [`AbstractMesh`](../classes/AbstractMesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOutEventBlock.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOutEventBlock.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOutEventBlock.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOutEventBlock.pure.ts#L40)
 
 The mesh that was picked.
 
@@ -26,7 +26,7 @@ The mesh that was picked.
 
 > `optional` **over?**: [`AbstractMesh`](../classes/AbstractMesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOutEventBlock.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOutEventBlock.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOutEventBlock.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOutEventBlock.pure.ts#L45)
 
 If populated, the hover event moved to this mesh from the `mesh` variable
 
@@ -36,6 +36,6 @@ If populated, the hover event moved to this mesh from the `mesh` variable
 
 > **pointerId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOutEventBlock.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOutEventBlock.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOutEventBlock.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOutEventBlock.pure.ts#L36)
 
 The pointer id.

@@ -6,7 +6,7 @@
 
 # Enumeration: AssetTaskState
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L24)
 
 Defines the list of states available for a task inside a AssetsManager
 
@@ -16,7 +16,7 @@ Defines the list of states available for a task inside a AssetsManager
 
 > **DONE**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L36)
 
 Done
 
@@ -26,7 +26,7 @@ Done
 
 > **ERROR**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L40)
 
 Error
 
@@ -36,7 +36,7 @@ Error
 
 > **INIT**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L28)
 
 Initialization
 
@@ -46,6 +46,6 @@ Initialization
 
 > **RUNNING**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L32)
 
 Running

@@ -6,7 +6,7 @@
 
 # Class: SwitchBooleanAction
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/directActions.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/directActions.pure.ts#L16)
 
 This defines an action responsible to toggle a boolean once triggered.
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions
 
 > **new SwitchBooleanAction**(`triggerOptions`, `target`, `propertyPath`, `condition?`): `SwitchBooleanAction`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/directActions.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/directActions.pure.ts#L33)
 
 Instantiate the action
 
@@ -68,7 +68,7 @@ defines the trigger related conditions
 
 > **onBeforeExecuteObservable**: [`Observable`](Observable.md)\<[`Action`](Action.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L102)
 
 An event triggered prior to action being executed.
 
@@ -82,7 +82,7 @@ An event triggered prior to action being executed.
 
 > **propertyPath**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/directActions.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/directActions.pure.ts#L20)
 
 The path to the boolean property in the target object
 
@@ -92,7 +92,7 @@ The path to the boolean property in the target object
 
 > **trigger**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L86)
 
 Trigger for the action
 
@@ -106,7 +106,7 @@ Trigger for the action
 
 > **triggerOptions**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L111)
 
 the trigger, with or without parameters, for the action
 
@@ -120,7 +120,7 @@ the trigger, with or without parameters, for the action
 
 > **execute**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/directActions.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.pure.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/directActions.pure.ts#L48)
 
 Execute the action toggle the boolean value.
 
@@ -138,7 +138,7 @@ Execute the action toggle the boolean value.
 
 > **getTriggerParameter**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L137)
 
 Gets the trigger parameter
 
@@ -158,7 +158,7 @@ the trigger parameter
 
 > **serialize**(`parent`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/directActions.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/directActions.pure.ts#L57)
 
 Serializes the actions and its related information.
 
@@ -186,7 +186,7 @@ the serialized object
 
 > **setTriggerParameter**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:143](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L143)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L145)
 
 Sets the trigger parameter
 
@@ -212,7 +212,7 @@ defines the new trigger parameter
 
 > **skipToNextActiveAction**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:194](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L194)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L196)
 
 Skips to next active action
 
@@ -230,7 +230,7 @@ Skips to next active action
 
 > **then**(`action`): [`Action`](Action.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L214)
 
 Adds action to chain of actions, may be a DoNothingAction
 

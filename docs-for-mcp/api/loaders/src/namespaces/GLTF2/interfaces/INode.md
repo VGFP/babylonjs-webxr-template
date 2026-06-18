@@ -6,7 +6,7 @@
 
 # Interface: INode
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L178)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L178)
 
 Loader interface with additional members.
 
@@ -20,7 +20,7 @@ Loader interface with additional members.
 
 > `optional` **camera?**: `number`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:726](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L726)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:726](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L726)
 
 The index of the camera referenced by this node
 
@@ -34,7 +34,7 @@ The index of the camera referenced by this node
 
 > `optional` **children?**: `number`[]
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:730](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L730)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:730](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L730)
 
 The indices of this node's children
 
@@ -48,7 +48,7 @@ The indices of this node's children
 
 > `optional` **extensions?**: `object`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:282](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L282)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L282)
 
 Dictionary object with extension-specific objects
 
@@ -66,7 +66,7 @@ Dictionary object with extension-specific objects
 
 > `optional` **extras?**: `any`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:288](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L288)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:288](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L288)
 
 Application-Specific data
 
@@ -80,7 +80,7 @@ Application-Specific data
 
 > **index**: `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L20)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L20)
 
 The index of this item in the array.
 
@@ -94,7 +94,7 @@ The index of this item in the array.
 
 > `optional` **matrix?**: `number`[]
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:738](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L738)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:738](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L738)
 
 A floating-point 4x4 transformation matrix stored in column-major order
 
@@ -108,7 +108,7 @@ A floating-point 4x4 transformation matrix stored in column-major order
 
 > `optional` **mesh?**: `number`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:742](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L742)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:742](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L742)
 
 The index of the mesh in this node
 
@@ -122,7 +122,7 @@ The index of the mesh in this node
 
 > `optional` **name?**: `string`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:298](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L298)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L298)
 
 The user-defined name of this object
 
@@ -136,7 +136,7 @@ The user-defined name of this object
 
 > `optional` **rotation?**: `number`[]
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:746](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L746)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:746](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L746)
 
 The node's unit quaternion rotation in the order (x, y, z, w), where w is the scalar
 
@@ -150,7 +150,7 @@ The node's unit quaternion rotation in the order (x, y, z, w), where w is the sc
 
 > `optional` **scale?**: `number`[]
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:750](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L750)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:750](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L750)
 
 The node's non-uniform scale, given as the scaling factors along the x, y, and z axes
 
@@ -164,7 +164,7 @@ The node's non-uniform scale, given as the scaling factors along the x, y, and z
 
 > `optional` **skin?**: `number`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:734](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L734)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:734](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L734)
 
 The index of the skin referenced by this node
 
@@ -178,7 +178,7 @@ The index of the skin referenced by this node
 
 > `optional` **translation?**: `number`[]
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:754](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L754)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:754](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L754)
 
 The node's translation along the x, y, and z axes
 
@@ -192,7 +192,7 @@ The node's translation along the x, y, and z axes
 
 > `optional` **weights?**: `number`[]
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:758](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L758)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:758](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L758)
 
 The weights of the instantiated Morph Target. Number of elements must match number of Morph Targets of used mesh
 

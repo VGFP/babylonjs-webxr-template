@@ -6,7 +6,7 @@
 
 # Class: WebXRDefaultExperienceOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L17)
 
 Options for the default xr helper
 
@@ -26,7 +26,7 @@ Options for the default xr helper
 
 > `optional` **disableDefaultUI?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L21)
 
 Enable or disable default UI to enter XR
 
@@ -36,7 +36,7 @@ Enable or disable default UI to enter XR
 
 > `optional` **disableHandTracking?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L40)
 
 Should hand tracking be disabled. Defaults to false.
 
@@ -46,7 +46,7 @@ Should hand tracking be disabled. Defaults to false.
 
 > `optional` **disableNearInteraction?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L35)
 
 Should nearInteraction not initialize. Defaults to false.
 
@@ -56,7 +56,7 @@ Should nearInteraction not initialize. Defaults to false.
 
 > `optional` **disablePointerSelection?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L27)
 
 Should pointer selection not initialize.
 Note that disabling pointer selection also disables teleportation.
@@ -68,7 +68,7 @@ Defaults to false.
 
 > `optional` **disableTeleportation?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L31)
 
 Should teleportation not initialize. Defaults to false.
 
@@ -78,7 +78,7 @@ Should teleportation not initialize. Defaults to false.
 
 > `optional` **floorMeshes?**: [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L44)
 
 Floor meshes that will be used for teleport
 
@@ -88,7 +88,7 @@ Floor meshes that will be used for teleport
 
 > `optional` **handSupportOptions?**: `Partial`\<[`IWebXRHandTrackingOptions`](../interfaces/IWebXRHandTrackingOptions.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L67)
 
 optional configuration for hand tracking
 
@@ -98,7 +98,7 @@ optional configuration for hand tracking
 
 > `optional` **ignoreNativeCameraTransformation?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L50)
 
 If set to true, the first frame will not be used to reset position
 The first frame is mainly used when copying transformation from the old camera
@@ -110,7 +110,7 @@ Mainly used in AR
 
 > `optional` **inputOptions?**: `Partial`\<[`IWebXRInputOptions`](../interfaces/IWebXRInputOptions.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L54)
 
 Optional configuration for the XR input object
 
@@ -120,7 +120,7 @@ Optional configuration for the XR input object
 
 > `optional` **nearInteractionOptions?**: `Partial`\<[`IWebXRNearInteractionOptions`](../interfaces/IWebXRNearInteractionOptions.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L62)
 
 optional configuration for near interaction
 
@@ -130,7 +130,7 @@ optional configuration for near interaction
 
 > `optional` **optionalFeatures?**: `boolean` \| `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:94](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L94)
 
 A list of optional features to init the session with
 If set to true, all features we support will be added
@@ -141,7 +141,7 @@ If set to true, all features we support will be added
 
 > `optional` **outputCanvasOptions?**: [`WebXRManagedOutputCanvasOptions`](WebXRManagedOutputCanvasOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L75)
 
 optional configuration for the output canvas
 
@@ -151,7 +151,7 @@ optional configuration for the output canvas
 
 > `optional` **pointerSelectionOptions?**: `Partial`\<[`IWebXRControllerPointerSelectionOptions`](../interfaces/IWebXRControllerPointerSelectionOptions.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L58)
 
 optional configuration for pointer selection
 
@@ -161,7 +161,7 @@ optional configuration for pointer selection
 
 > `optional` **renderingGroupId?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L88)
 
 An optional rendering group id that will be set globally for teleportation, pointer selection and default controller meshes
 
@@ -171,7 +171,7 @@ An optional rendering group id that will be set globally for teleportation, poin
 
 > `optional` **teleportationOptions?**: `Partial`\<[`IWebXRTeleportationOptions`](../interfaces/IWebXRTeleportationOptions.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L71)
 
 optional configuration for teleportation
 
@@ -181,7 +181,7 @@ optional configuration for teleportation
 
 > `optional` **uiOptions?**: `Partial`\<[`WebXREnterExitUIOptions`](WebXREnterExitUIOptions.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L79)
 
 optional UI options. This can be used among other to change session mode and reference space type
 
@@ -191,6 +191,6 @@ optional UI options. This can be used among other to change session mode and ref
 
 > `optional` **useStablePlugins?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L83)
 
 When loading teleportation and pointer select, use stable versions instead of latest.

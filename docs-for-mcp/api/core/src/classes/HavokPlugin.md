@@ -6,7 +6,7 @@
 
 # Class: HavokPlugin
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:311](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L311)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:360](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L360)
 
 The Havok Physics plugin
 
@@ -16,7 +16,7 @@ The Havok Physics plugin
 
 > **new HavokPlugin**(`_useDeltaForWorldStep?`, `hpInjection?`, `parameters?`): `HavokPlugin`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:519](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L519)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:568](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L568)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlug
 
 > **\_hknp**: `any` = `{}`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:315](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L315)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:364](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L364)
 
 Reference to the WASM library
 
@@ -52,7 +52,7 @@ Reference to the WASM library
 
 > **name**: `string` = `"HavokPlugin"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:372](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L372)
 
 Name of the plugin
 
@@ -66,7 +66,7 @@ Name of the plugin
 
 > **onCollisionEndedObservable**: [`Observable`](Observable.md)\<[`IBasePhysicsCollisionEvent`](../interfaces/IBasePhysicsCollisionEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:513](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L513)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:562](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L562)
 
 Observable for collision ended events
 
@@ -80,7 +80,7 @@ Observable for collision ended events
 
 > **onCollisionObservable**: [`Observable`](Observable.md)\<[`IPhysicsCollisionEvent`](../interfaces/IPhysicsCollisionEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:509](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L509)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:558](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L558)
 
 Observable for collision started and collision continued events
 
@@ -94,7 +94,7 @@ Observable for collision started and collision continued events
 
 > **onTriggerCollisionObservable**: [`Observable`](Observable.md)\<[`IBasePhysicsCollisionEvent`](../interfaces/IBasePhysicsCollisionEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:517](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L517)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:566](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L566)
 
 Observable for trigger entered and trigger exited events
 
@@ -108,7 +108,7 @@ Observable for trigger entered and trigger exited events
 
 > **world**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:319](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L319)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:368](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L368)
 
 Created Havok world which physics bodies are added to (default world for non-floating-origin)
 
@@ -124,7 +124,7 @@ Created Havok world which physics bodies are added to (default world for non-flo
 
 > **get** **numBodies**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2875](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2875)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2924](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2924)
 
 Gets the number of bodies in the world
 
@@ -138,7 +138,7 @@ Gets the number of bodies in the world
 
 > **\_internalSetMotionType**(`pluginData`, `motionType`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1140)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1189)
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlug
 
 > **addChild**(`shape`, `newChild`, `translation?`, `rotation?`, `scale?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1922](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1922)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1971](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1971)
 
 Adds a child shape to the given shape.
 
@@ -210,7 +210,7 @@ The relative scale scale of the child from the parent shaep
 
 > **addConstraint**(`body`, `childBody`, `constraint`, `instanceIndex?`, `childInstanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2209](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2209)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2258](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2258)
 
 Adds a constraint to the physics engine.
 
@@ -260,7 +260,7 @@ If the child body is instanced, the index of the instance to which the constrain
 
 > **applyAngularImpulse**(`body`, `angularImpulse`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1411](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1411)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1460](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1460)
 
 Applies an angular impulse(torque) to a physics body
 
@@ -298,7 +298,7 @@ The index of the instance to apply the impulse to. If not specified, the impulse
 
 > **applyForce**(`body`, `force`, `location`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1430](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1430)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1479](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1479)
 
 Applies a force to a physics body at a given location.
 
@@ -345,7 +345,7 @@ This can be used to simulate physical forces such as explosions, collisions, and
 
 > **applyImpulse**(`body`, `impulse`, `location`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1394](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1394)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1443](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1443)
 
 Applies an impulse to a physics body at a given location.
 
@@ -392,7 +392,7 @@ This can be used to simulate physical forces such as explosions, collisions, and
 
 > **applyTorque**(`body`, `torque`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1444](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1444)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1493](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1493)
 
 Applies a torque to a physics body.
 
@@ -433,7 +433,7 @@ This can be used to simulate rotational forces such as motors, angular momentum,
 
 > **computeMassProperties**(`body`, `instanceIndex?`): [`PhysicsMassProperties`](../interfaces/PhysicsMassProperties.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1229](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1229)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1278](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1278)
 
 Computes the mass properties of a physics body, from it's shape
 
@@ -467,7 +467,7 @@ The mass properties of the physics body.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2882](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2882)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2931](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2931)
 
 Dispose the world and free resources
 
@@ -485,7 +485,7 @@ Dispose the world and free resources
 
 > **disposeBody**(`body`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1617](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1617)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1666](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1666)
 
 Disposes a physics body.
 
@@ -514,7 +514,7 @@ This is important for avoiding memory leaks in the physics engine.
 
 > **disposeConstraint**(`constraint`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2477](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2477)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2526](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2526)
 
 Disposes a physics constraint.
 
@@ -543,7 +543,7 @@ the Havok constraint, when it is no longer needed. This is important for avoidin
 
 > **disposeShape**(`shape`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2037](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2037)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2086](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2086)
 
 Releases a physics shape from the physics engine.
 
@@ -571,7 +571,7 @@ This method is useful for releasing a physics shape from the physics engine, fre
 
 > **executeStep**(`delta`, `physicsBodies`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:657](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L657)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:706](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L706)
 
 Executes a single step of the physics engine.
 
@@ -607,7 +607,7 @@ to accurately simulate the physics bodies in the world.
 
 > **getAngularDamping**(`body`, `instanceIndex?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1331](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1331)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1380](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1380)
 
 Gets the angular damping of a physics body.
 
@@ -644,7 +644,7 @@ which is used to control the rotational motion of the body. The angular damping 
 
 > **getAngularVelocityToRef**(`body`, `angVel`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1480](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1480)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1529](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1529)
 
 Gets the angular velocity of a body.
 
@@ -687,7 +687,7 @@ calculate the motion of the body in the physics engine.
 
 > **getAxisFriction**(`constraint`, `axis`): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2288](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2288)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2337](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2337)
 
 Gets the friction value of the specified axis of the given constraint.
 
@@ -721,7 +721,7 @@ The friction value of the specified axis.
 
 > **getAxisMaxLimit**(`constraint`, `axis`): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2374](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2374)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2423](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2423)
 
 Gets the maximum limit of the given axis of the given constraint.
 
@@ -755,7 +755,7 @@ The maximum limit of the given axis of the given constraint.
 
 > **getAxisMinLimit**(`constraint`, `axis`): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2345](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2345)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2394](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2394)
 
 Gets the minimum limit of the specified axis of the given constraint.
 
@@ -789,7 +789,7 @@ The minimum limit of the specified axis of the given constraint.
 
 > **getAxisMode**(`constraint`, `axis`): [`Nullable`](../type-aliases/Nullable.md)\<[`PhysicsConstraintAxisLimitMode`](../enumerations/PhysicsConstraintAxisLimitMode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2316](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2316)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2365](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2365)
 
 Gets the axis limit mode of the given constraint.
 
@@ -823,7 +823,7 @@ The axis limit mode of the given constraint.
 
 > **getAxisMotorMaxForce**(`constraint`, `axis`): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2461](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2461)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2510](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2510)
 
 Gets the maximum force of the motor of the given constraint axis.
 
@@ -857,7 +857,7 @@ The maximum force of the motor of the given constraint axis.
 
 > **getAxisMotorTarget**(`constraint`, `axis`): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2432](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2432)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2481](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2481)
 
 Gets the target of the motor of the given axis of the given constraint.
 
@@ -891,7 +891,7 @@ The target of the motor of the given axis of the given constraint.
 
 > **getAxisMotorType**(`constraint`, `axis`): [`Nullable`](../type-aliases/Nullable.md)\<[`PhysicsConstraintMotorType`](../enumerations/PhysicsConstraintMotorType.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2402](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2402)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2451](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2451)
 
 Gets the motor type of the specified axis of the given constraint.
 
@@ -925,7 +925,7 @@ The motor type of the specified axis of the given constraint.
 
 > **getBodiesUsingConstraint**(`constraint`): [`ConstrainedBodyPair`](../type-aliases/ConstrainedBodyPair.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2185)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2234](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2234)
 
 Get a list of all the pairs of bodies that are connected by this constraint.
 
@@ -953,7 +953,7 @@ a list of parent, child pairs
 
 > **getBodyBoundingBox**(`body`): [`BoundingBox`](BoundingBox.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1992](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1992)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2041](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2041)
 
 Calculates the world bounding box of a given physics body.
 
@@ -984,7 +984,7 @@ boundaries of a given body.
 
 > **getBodyGeometry**(`body`): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2006](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2006)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2055](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2055)
 
 Gets the geometry of a physics body.
 
@@ -1020,7 +1020,7 @@ An object containing the positions and indices of the body's geometry.
 
 > **getBoundingBox**(`_shape`): [`BoundingBox`](BoundingBox.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1971](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1971)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2020](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2020)
 
 Calculates the bounding box of a given physics shape.
 
@@ -1052,7 +1052,7 @@ for collision detection and other physics calculations.
 
 > **getCollisionEndedObservable**(`body`, `instanceIndex?`): [`Observable`](Observable.md)\<[`IBasePhysicsCollisionEvent`](../interfaces/IBasePhysicsCollisionEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2697](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2697)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2746](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2746)
 
 Return the collision ended observable for a particular physics body.
 
@@ -1086,7 +1086,7 @@ the collision ended observable for the body
 
 > **getCollisionObservable**(`body`, `instanceIndex?`): [`Observable`](Observable.md)\<[`IPhysicsCollisionEvent`](../interfaces/IPhysicsCollisionEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2680](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2680)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2729](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2729)
 
 Return the collision observable for a particular physics body.
 
@@ -1120,7 +1120,7 @@ the collision observable for the body
 
 > **getCollisionsEnabled**(`constraint`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2258](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2258)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2307](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2307)
 
 Gets whether collisions are enabled for the given constraint.
 
@@ -1148,7 +1148,7 @@ Whether collisions are enabled for the given constraint.
 
 > **getDensity**(`shape`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1883](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1883)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1932](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1932)
 
 Calculates the density of a given physics shape.
 
@@ -1176,7 +1176,7 @@ The density of the given physics shape.
 
 > **getEnabled**(`constraint`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2232](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2232)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2281](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2281)
 
 Gets the enabled state of the given constraint.
 
@@ -1204,7 +1204,7 @@ The enabled state of the given constraint.
 
 > **getEventMask**(`body`, `instanceIndex?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1105)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1154](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1154)
 
 Retrieves the event mask of a physics body.
 
@@ -1238,7 +1238,7 @@ The event mask of the physics body.
 
 > **getGravity**(`worldPosition?`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:590](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L590)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:639](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L639)
 
 Gets the gravity of the physics world or a specific region.
 
@@ -1263,7 +1263,7 @@ The gravity vector.
 
 > **getGravityFactor**(`body`, `instanceIndex?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1604](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1604)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1653](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1653)
 
 Get the gravity factor of a body
 
@@ -1297,7 +1297,7 @@ the gravity factor
 
 > **getLinearDamping**(`body`, `instanceIndex?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1298](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1298)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1347](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1347)
 
 Gets the linear damping of the given body.
 
@@ -1335,7 +1335,7 @@ It is used to simulate the effects of air resistance and other forms of friction
 
 > **getLinearVelocityToRef**(`body`, `linVel`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1365](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1365)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1414](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1414)
 
 Gets the linear velocity of a physics body and stores it in a given vector.
 
@@ -1377,7 +1377,7 @@ information can be used to simulate realistic physics behavior in a game.
 
 > **getMassProperties**(`body`, `instanceIndex?`): [`PhysicsMassProperties`](../interfaces/PhysicsMassProperties.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1262](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1262)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1311](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1311)
 
 Gets the mass properties of a physics body.
 
@@ -1411,7 +1411,7 @@ The mass properties of the physics body.
 
 > **getMaterial**(`shape`): [`PhysicsMaterial`](../interfaces/PhysicsMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1855](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1855)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1904](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1904)
 
 Gets the material associated with a physics shape.
 
@@ -1439,7 +1439,7 @@ The material associated with the shape.
 
 > **getMaxAngularVelocity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:734](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L734)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:783](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L783)
 
 #### Returns
 
@@ -1457,7 +1457,7 @@ maximum allowed angular velocity
 
 > **getMaxLinearVelocity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:726](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L726)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:775](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L775)
 
 #### Returns
 
@@ -1475,7 +1475,7 @@ maximum allowed linear velocity
 
 > **getMaxQueryCollectorHits**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:643](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L643)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:692](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L692)
 
 Gets the maximum number of raycast hits to process.
 
@@ -1491,7 +1491,7 @@ The maximum number of raycast hits to process.
 
 > **getMotionType**(`body`, `instanceIndex?`): [`PhysicsMotionType`](../enumerations/PhysicsMotionType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1176)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1225)
 
 Gets the motion type of a physics body.
 
@@ -1525,7 +1525,7 @@ The motion type of the physics body.
 
 > **getNumChildren**(`shape`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1948](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1948)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1997](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1997)
 
 Returns the number of children of the given shape.
 
@@ -1553,7 +1553,7 @@ The number of children of the given shape.
 
 > **getPluginVersion**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:708](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L708)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:757](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L757)
 
 Returns the version of the physics engine plugin.
 
@@ -1575,7 +1575,7 @@ This method is useful for determining the version of the physics engine plugin t
 
 > **getShape**(`body`): [`Nullable`](../type-aliases/Nullable.md)\<[`PhysicsShape`](PhysicsShape.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1054](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1054)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1103)
 
 Gets the shape of a physics body. This will create a new shape object
 
@@ -1603,7 +1603,7 @@ The shape of the physics body.
 
 > **getShapeFilterCollideMask**(`shape`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1829](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1829)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1878](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1878)
 
 Gets the shape filter collide mask of a body
 
@@ -1631,7 +1631,7 @@ The shape filter collide mask of the given body.
 
 > **getShapeFilterMembershipMask**(`shape`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1810](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1810)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1859](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1859)
 
 Gets the shape filter membership mask of a body
 
@@ -1659,7 +1659,7 @@ The shape filter membership mask of the given body.
 
 > **getShapeType**(`shape`): [`PhysicsShapeType`](../enumerations/PhysicsShapeType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1070](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1070)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1119)
 
 Gets the type of a physics shape.
 
@@ -1687,7 +1687,7 @@ The type of the physics shape.
 
 > **getTimeStep**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:614](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L614)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:663](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L663)
 
 Gets the fixed time step used by the physics engine.
 
@@ -1707,7 +1707,7 @@ The fixed time step used by the physics engine.
 
 > **initBody**(`body`, `motionType`, `position`, `orientation`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:750](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L750)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:799](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L799)
 
 Initializes a physics body with the given position and orientation.
 
@@ -1754,7 +1754,7 @@ and orientation to a transform and sets the body's transform to the given values
 
 > **initBodyInstances**(`body`, `motionType`, `mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:798](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L798)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:847](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L847)
 
 Initializes the body instances for a given physics body and mesh.
 
@@ -1798,7 +1798,7 @@ world.
 
 > **initConstraint**(`constraint`, `body`, `childBody`, `instanceIndex?`, `childInstanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2056](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2056)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2105)
 
 Initializes a physics constraint with the given parameters.
 
@@ -1850,7 +1850,7 @@ This function is useful for setting up a physics constraint in a physics engine.
 
 > **initShape**(`shape`, `type`, `options`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1687](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1687)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1736](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1736)
 
 Initializes a physics shape with the given type and parameters.
 
@@ -1893,7 +1893,7 @@ For example, a sphere requires a radius, while a box requires extents and a rota
 
 > **isSupported**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:552](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L552)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:601](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L601)
 
 If this plugin is supported
 
@@ -1909,7 +1909,7 @@ true if its supported
 
 > **pointProximity**(`query`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2583](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2583)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2632](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2632)
 
 Given a point, returns the closest physics
 body to that point.
@@ -1942,7 +1942,7 @@ IPhysicsPointProximityQuery
 
 > **raycast**(`from`, `to`, `result`, `query?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2515](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2515)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2564](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2564)
 
 Performs a raycast from a given start point to a given end point and stores the result in a given PhysicsRaycastResult object.
 
@@ -1991,7 +1991,7 @@ If result is a populated array, it will only fill the PhysicsRaycastResults pres
 
 > **removeBody**(`body`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:770](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L770)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:819](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L819)
 
 Removes a body from the world. To dispose of a body, it is necessary to remove it from the world first.
 
@@ -2017,7 +2017,7 @@ The body to remove.
 
 > **removeChild**(`shape`, `childIndex`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1937](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1937)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1986](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1986)
 
 Removes a child shape from a parent shape.
 
@@ -2049,7 +2049,7 @@ The index of the child shape to remove.
 
 > **setActivationControl**(`body`, `controlMode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1195)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1244](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1244)
 
 sets the activation control mode of a physics body, for instance if you need the body to never sleep.
 
@@ -2077,7 +2077,7 @@ The activation control mode.
 
 > **setAngularDamping**(`body`, `damping`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1312](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1312)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1361](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1361)
 
 Sets the angular damping of a physics body.
 
@@ -2118,7 +2118,7 @@ By setting the angular damping, the body's angular velocity will be reduced over
 
 > **setAngularVelocity**(`body`, `angVel`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1459](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1459)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1508](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1508)
 
 Sets the angular velocity of a physics body.
 
@@ -2159,7 +2159,7 @@ This allows for more realistic simulations of physical objects, as they can be g
 
 > **setAxisFriction**(`constraint`, `axis`, `friction`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2274](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2274)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2323)
 
 Sets the friction of the given axis of the given constraint.
 
@@ -2197,7 +2197,7 @@ The friction to set.
 
 > **setAxisMaxLimit**(`constraint`, `axis`, `limit`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2360](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2360)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2409](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2409)
 
 Sets the maximum limit of the given axis of the given constraint.
 
@@ -2235,7 +2235,7 @@ The maximum limit to set.
 
 > **setAxisMinLimit**(`constraint`, `axis`, `limit`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2332](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2332)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2381](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2381)
 
 Sets the minimum limit of the given axis of the given constraint.
 
@@ -2273,7 +2273,7 @@ The minimum limit to set.
 
 > **setAxisMode**(`constraint`, `axis`, `limitMode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2302](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2302)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2351](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2351)
 
 Sets the limit mode of the specified axis of the given constraint.
 
@@ -2311,7 +2311,7 @@ The limit mode to set.
 
 > **setAxisMotorMaxForce**(`constraint`, `axis`, `maxForce`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2447](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2447)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2496](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2496)
 
 Sets the maximum force that can be applied by the motor of the given constraint axis.
 
@@ -2349,7 +2349,7 @@ The maximum force that can be applied by the motor.
 
 > **setAxisMotorTarget**(`constraint`, `axis`, `target`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2418](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2418)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2467](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2467)
 
 Sets the target of an axis motor of a constraint.
 
@@ -2387,7 +2387,7 @@ The target of the axis motor.
 
 > **setAxisMotorType**(`constraint`, `axis`, `motorType`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2389](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2389)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2438](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2438)
 
 Sets the motor type of the given axis of the given constraint.
 
@@ -2425,7 +2425,7 @@ The motor type to set.
 
 > **setCollisionCallbackEnabled**(`body`, `enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2713](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2713)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2762](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2762)
 
 Enable collision to be reported for a body when a callback is setup on the world
 
@@ -2457,7 +2457,7 @@ whether to enable or disable collision events
 
 > **setCollisionEndedCallbackEnabled**(`body`, `enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2731](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2731)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2780](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2780)
 
 Enable collision ended to be reported for a body when a callback is setup on the world
 
@@ -2489,7 +2489,7 @@ whether to enable or disable collision ended events
 
 > **setCollisionsEnabled**(`constraint`, `isEnabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2246](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2246)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2295](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2295)
 
 Enables or disables collisions for the given constraint.
 
@@ -2521,7 +2521,7 @@ Whether collisions should be enabled or disabled.
 
 > **setDensity**(`shape`, `density`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1872](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1872)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1921](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1921)
 
 Sets the density of a physics shape.
 
@@ -2553,7 +2553,7 @@ The density to set.
 
 > **setEnabled**(`constraint`, `isEnabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2220](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2220)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2269](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2269)
 
 Enables or disables a constraint in the physics engine.
 
@@ -2585,7 +2585,7 @@ Whether the constraint should be enabled or disabled.
 
 > **setEventMask**(`body`, `eventMask`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1087](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1087)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1136)
 
 Sets the event mask of a physics body.
 
@@ -2625,7 +2625,7 @@ This function is useful for setting the event mask of a physics body, which is u
 
 > **setGravity**(`gravity`, `worldPosition?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:565](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L565)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:614](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L614)
 
 Sets the gravity of the physics world.
 
@@ -2660,7 +2660,7 @@ Optional world position to specify which region's gravity to set.
 
 > **setGravityFactor**(`body`, `factor`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1588](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1588)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1637](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1637)
 
 Sets the gravity factor of a body
 
@@ -2698,7 +2698,7 @@ the index of the instance in an instanced body
 
 > **setLinearDamping**(`body`, `damping`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1278](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1278)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1327](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1327)
 
 Sets the linear damping of the given body.
 
@@ -2740,7 +2740,7 @@ This method allows the user to set the linear damping of a body, which can be us
 
 > **setLinearVelocity**(`body`, `linVel`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1345](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1345)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1394](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1394)
 
 Sets the linear velocity of a physics body.
 
@@ -2781,7 +2781,7 @@ motion in a physics engine. The linear velocity is the speed and direction of th
 
 > **setMassProperties**(`body`, `massProps`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1246](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1246)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1295](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1295)
 
 Sets the mass properties of a physics body.
 
@@ -2822,7 +2822,7 @@ accurately simulating the physics of the body in the physics engine.
 
 > **setMaterial**(`shape`, `material`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1839](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1839)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1888](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1888)
 
 Sets the material of a physics shape.
 
@@ -2854,7 +2854,7 @@ The material to set.
 
 > **setMaxQueryCollectorHits**(`maxQueryCollectorHits`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:623](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L623)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:672](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L672)
 
 Sets the maximum number of raycast hits to process.
 
@@ -2876,7 +2876,7 @@ The maximum number of raycast hits to process.
 
 > **setMotionType**(`body`, `motionType`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1160)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1209)
 
 sets the motion type of a physics body.
 
@@ -2914,7 +2914,7 @@ The index of the instance to set the motion type for. If undefined, the motion t
 
 > **setPhysicsBodyTransformation**(`body`, `node`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1498](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1498)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1547](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1547)
 
 Sets the transformation of the given physics body to the given transform node.
 
@@ -2949,7 +2949,7 @@ same transformation.
 
 > **setShape**(`body`, `shape`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1022](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1022)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1071](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1071)
 
 Sets the shape of a physics body.
 
@@ -2987,7 +2987,7 @@ will set the shape for each instance of the mesh.
 
 > **setShapeFilterCollideMask**(`shape`, `collideMask`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1819](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1819)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1868](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1868)
 
 Sets the shape filter collide mask of a body
 
@@ -3019,7 +3019,7 @@ The shape filter collide mask to set.
 
 > **setShapeFilterMembershipMask**(`shape`, `membershipMask`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1800](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1800)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1849](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1849)
 
 Sets the shape filter membership mask of a body
 
@@ -3051,7 +3051,7 @@ The shape filter membership mask to set.
 
 > **setTargetTransform**(`body`, `position`, `rotation`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1571](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1571)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1620](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1620)
 
 Set the target transformation (position and rotation) of the body, such that the body will set its velocity to reach that target
 
@@ -3095,7 +3095,7 @@ The index of the instance in an instanced body
 
 > **setTimeStep**(`timeStep`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:604](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L604)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:653](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L653)
 
 Sets the fixed time step for the physics engine.
 
@@ -3121,7 +3121,7 @@ The fixed time step to use for the physics engine.
 
 > **setTrigger**(`shape`, `isTrigger`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:1957](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L1957)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2006](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2006)
 
 Marks the shape as a trigger
 
@@ -3153,7 +3153,7 @@ if the shape is a trigger
 
 > **setVelocityLimits**(`maxLinearVelocity`, `maxAngularVelocity`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:717](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L717)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:766](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L766)
 
 Set the maximum allowed linear and angular velocities
 
@@ -3185,7 +3185,7 @@ maximum allowed angular velocity
 
 > **shapeCast**(`query`, `inputShapeResult`, `hitShapeResult`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2642](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2642)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2691](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2691)
 
 Given a shape in a specific orientation, cast it from the start to end position specified by the query, and return the first hit.
 
@@ -3223,7 +3223,7 @@ IPhysicsShapeCastQuery
 
 > **shapeProximity**(`query`, `inputShapeResult`, `hitShapeResult`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2612](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2612)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:2661](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L2661)
 
 Given a shape in a specific position and orientation, returns the closest point to that shape.
 
@@ -3261,7 +3261,7 @@ IPhysicsShapeProximityCastQuery
 
 > **sync**(`body`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:906](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L906)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:955](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L955)
 
 Synchronizes the transform of a physics body with its transform node.
 
@@ -3290,7 +3290,7 @@ This is important for ensuring that the physics body is accurately represented i
 
 > **syncTransform**(`body`, `transformNode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:924](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L924)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:973](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L973)
 
 Synchronizes the transform of a physics body with the transform of its
 corresponding transform node.
@@ -3330,7 +3330,7 @@ physical behavior of the body.
 
 > **updateBodyInstances**(`body`, `mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:865](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L865)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:914](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L914)
 
 Update the internal body instances for a given physics body to match the instances in a mesh.
 

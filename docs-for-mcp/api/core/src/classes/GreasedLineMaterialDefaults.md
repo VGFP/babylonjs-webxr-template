@@ -6,7 +6,7 @@
 
 # Class: GreasedLineMaterialDefaults
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts#L8)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts#L8)
 
 Default settings for GreasedLine materials
 
@@ -26,7 +26,7 @@ Default settings for GreasedLine materials
 
 > `static` **DEFAULT\_COLOR**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts#L12)
 
 Default line color for newly created lines
 
@@ -36,7 +36,7 @@ Default line color for newly created lines
 
 > `static` **DEFAULT\_WIDTH**: `number` = `0.1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts#L20)
 
 Defaule line width
 
@@ -46,7 +46,7 @@ Defaule line width
 
 > `static` **DEFAULT\_WIDTH\_ATTENUATED**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts#L16)
 
 Default line width when sizeAttenuation is true
 
@@ -56,6 +56,6 @@ Default line width when sizeAttenuation is true
 
 > `static` **EmptyColorsTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`RawTexture`](RawTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialDefaults.ts#L24)
 
 Empty colors texture for WebGPU

@@ -6,7 +6,7 @@
 
 # Class: MathTools
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:248](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/math2D.ts#L248)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:248](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/math2D.ts#L248)
 
 Useful math functions
 
@@ -26,7 +26,7 @@ Useful math functions
 
 > `static` **DefaultRoundingPrecision**: `number` = `100`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/math2D.ts#L255)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:255](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/math2D.ts#L255)
 
 Default rounding precision for GUI elements. It should be
 set to a power of ten, where the exponent means the number
@@ -39,7 +39,7 @@ of decimal digits to round to, i.e, 100 means 2 decimal digits,
 
 > `static` **Round**(`value`, `precision?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:263](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/math2D.ts#L263)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:263](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/math2D.ts#L263)
 
 Rounds a number to the nearest multiple of a given precision
 

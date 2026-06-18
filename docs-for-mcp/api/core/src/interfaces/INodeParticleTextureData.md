@@ -6,7 +6,7 @@
 
 # Interface: INodeParticleTextureData
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L18)
 
 Interface used to define texture data
 
@@ -16,7 +16,7 @@ Interface used to define texture data
 
 > **data**: `Uint8ClampedArray`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L24)
 
 RGBA pixel data
 
@@ -26,7 +26,7 @@ RGBA pixel data
 
 > **height**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L22)
 
 Height of the texture in pixels
 
@@ -36,6 +36,6 @@ Height of the texture in pixels
 
 > **width**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L20)
 
 Width of the texture in pixels

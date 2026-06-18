@@ -6,7 +6,7 @@
 
 # Class: PhysicsVortexEventOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1109)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1109)
 
 Options for the vortex event
 
@@ -30,7 +30,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/physics/usingPhysicsEngine#f
 
 > **centrifugalForceMultiplier**: `number` = `0.5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1138)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1138)
 
 This multiplier determines with how much force the objects will be pushed sideways/around the vortex, when above the threshold.
 
@@ -40,7 +40,7 @@ This multiplier determines with how much force the objects will be pushed sidewa
 
 > **centripetalForceMultiplier**: `number` = `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1133)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1133)
 
 This multiplier determines with how much force the objects will be pushed sideways/around the vortex, when below the threshold.
 
@@ -50,7 +50,7 @@ This multiplier determines with how much force the objects will be pushed sidewa
 
 > **centripetalForceThreshold**: `number` = `0.7`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1128)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1128)
 
 At which distance, relative to the radius the centripetal forces should kick in? Range: 0-1
 
@@ -60,7 +60,7 @@ At which distance, relative to the radius the centripetal forces should kick in?
 
 > **height**: `number` = `10`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1123)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1123)
 
 The height of the cylinder for the vortex.
 
@@ -70,7 +70,7 @@ The height of the cylinder for the vortex.
 
 > **radius**: `number` = `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1113)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1113)
 
 The radius of the cylinder for the vortex
 
@@ -80,7 +80,7 @@ The radius of the cylinder for the vortex
 
 > **strength**: `number` = `10`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1118)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1118)
 
 The strength of the vortex.
 
@@ -90,6 +90,6 @@ The strength of the vortex.
 
 > **updraftForceMultiplier**: `number` = `0.02`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1143](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1143)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1143)
 
 This multiplier determines with how much force the objects will be pushed upwards, when in the vortex.

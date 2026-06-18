@@ -6,7 +6,7 @@
 
 # Class: SimplificationSettings
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplification.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.common.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplification.common.ts#L25)
 
 Class used to specify simplification options
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/simplifyingMeshes
 
 > **new SimplificationSettings**(`quality`, `distance`, `optimizeMesh?`): `SimplificationSettings`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplification.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.common.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplification.common.ts#L32)
 
 Creates a SimplificationSettings
 
@@ -58,7 +58,7 @@ already optimized mesh
 
 > **distance**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplification.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.common.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplification.common.ts#L36)
 
 distance when this optimized version should be used
 
@@ -72,7 +72,7 @@ distance when this optimized version should be used
 
 > `optional` **optimizeMesh?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplification.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.common.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplification.common.ts#L38)
 
 already optimized mesh
 
@@ -86,7 +86,7 @@ already optimized mesh
 
 > **quality**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplification.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.common.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplification.common.ts#L34)
 
 expected quality
 

@@ -6,7 +6,7 @@
 
 # Class: ThinImageProcessingPostProcess
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L37)
 
 Post process used to apply image processing to a scene
 
@@ -20,7 +20,7 @@ Post process used to apply image processing to a scene
 
 > **new ThinImageProcessingPostProcess**(`name`, `engine?`, `options?`): `ThinImageProcessingPostProcess`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:474](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L474)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:474](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L474)
 
 Constructs a new image processing post process
 
@@ -58,7 +58,7 @@ Options to configure the effect
 
 > **alphaMode**: `number` = `Constants.ALPHA_DISABLE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.ts:356](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectRenderer.ts#L356)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.pure.ts:356](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectRenderer.pure.ts#L356)
 
 Type of alpha mode to use when applying the effect (default: Engine.ALPHA_DISABLE). Used only if useAsPostProcess is true.
 
@@ -72,7 +72,7 @@ Type of alpha mode to use when applying the effect (default: Engine.ALPHA_DISABL
 
 > **onApplyObservable**: [`Observable`](Observable.md)\<\{ \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.ts:388](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectRenderer.ts#L388)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.pure.ts:388](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectRenderer.pure.ts#L388)
 
 Event that is fired (only when the EffectWrapper is used with an EffectRenderer) right before the effect is drawn (should be used to update uniforms)
 
@@ -86,7 +86,7 @@ Event that is fired (only when the EffectWrapper is used with an EffectRenderer)
 
 > **onEffectCreatedObservable**: [`Observable`](Observable.md)\<[`Effect`](Effect.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.ts:362](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectRenderer.ts#L362)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.pure.ts:362](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectRenderer.pure.ts#L362)
 
 Executed when the effect is created
 
@@ -104,7 +104,7 @@ effect that was created for this effect wrapper
 
 > `readonly` **options**: `Required`\<[`NonNullableFields`](../type-aliases/NonNullableFields.md)\<[`ThinImageProcessingPostProcessOptions`](../interfaces/ThinImageProcessingPostProcessOptions.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:466](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L466)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:466](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L466)
 
 Options used to create the effect wrapper
 
@@ -118,7 +118,7 @@ Options used to create the effect wrapper
 
 > `optional` **overrideAspectRatio?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:442](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L442)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:442](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L442)
 
 Gets/sets the aspect ratio used to override the default one.
 
@@ -128,7 +128,7 @@ Gets/sets the aspect ratio used to override the default one.
 
 > `static` **ForceGLSL**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.ts:320](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectRenderer.ts#L320)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectRenderer.pure.ts#L320)
 
 Force code to compile to glsl even on WebGPU engines.
 False by default. This is mostly meant for backward compatibility.
@@ -143,7 +143,7 @@ False by default. This is mostly meant for backward compatibility.
 
 > `readonly` `static` **FragmentUrl**: `"imageProcessing"` = `"imageProcessing"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L41)
 
 The fragment shader url
 
@@ -155,7 +155,7 @@ The fragment shader url
 
 > **get** **colorCurves**(): [`Nullable`](../type-aliases/Nullable.md)\<[`ColorCurves`](ColorCurves.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L135)
 
 Gets Color curves setup used in the effect if colorCurvesEnabled is set to true .
 
@@ -167,7 +167,7 @@ Gets Color curves setup used in the effect if colorCurvesEnabled is set to true 
 
 > **set** **colorCurves**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L141)
 
 Sets Color curves setup used in the effect if colorCurvesEnabled is set to true .
 
@@ -189,7 +189,7 @@ Sets Color curves setup used in the effect if colorCurvesEnabled is set to true 
 
 > **get** **colorCurvesEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L148)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L148)
 
 Gets whether the color curves effect is enabled.
 
@@ -201,7 +201,7 @@ Gets whether the color curves effect is enabled.
 
 > **set** **colorCurvesEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:154](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L154)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:154](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L154)
 
 Sets whether the color curves effect is enabled.
 
@@ -223,7 +223,7 @@ Sets whether the color curves effect is enabled.
 
 > **get** **colorGradingEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:174](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L174)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L174)
 
 Gets whether the color grading effect is enabled.
 
@@ -235,7 +235,7 @@ Gets whether the color grading effect is enabled.
 
 > **set** **colorGradingEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L180)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L180)
 
 Gets whether the color grading effect is enabled.
 
@@ -257,7 +257,7 @@ Gets whether the color grading effect is enabled.
 
 > **get** **colorGradingTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:161](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L161)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:161](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L161)
 
 Gets Color grading LUT texture used in the effect if colorGradingEnabled is set to true.
 
@@ -269,7 +269,7 @@ Gets Color grading LUT texture used in the effect if colorGradingEnabled is set 
 
 > **set** **colorGradingTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:167](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L167)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L167)
 
 Sets Color grading LUT texture used in the effect if colorGradingEnabled is set to true.
 
@@ -291,7 +291,7 @@ Sets Color grading LUT texture used in the effect if colorGradingEnabled is set 
 
 > **get** **contrast**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:226](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L226)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:226](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L226)
 
 Gets contrast used in the effect.
 
@@ -303,7 +303,7 @@ Gets contrast used in the effect.
 
 > **set** **contrast**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:232](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L232)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L232)
 
 Sets contrast used in the effect.
 
@@ -325,7 +325,7 @@ Sets contrast used in the effect.
 
 > **get** **ditheringEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:382](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L382)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:382](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L382)
 
 Gets whether the dithering effect is enabled.
 
@@ -337,7 +337,7 @@ Gets whether the dithering effect is enabled.
 
 > **set** **ditheringEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:388](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L388)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:388](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L388)
 
 Sets whether the dithering effect is enabled.
 
@@ -359,7 +359,7 @@ Sets whether the dithering effect is enabled.
 
 > **get** **ditheringIntensity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:369](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L369)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:369](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L369)
 
 Gets intensity of the dithering effect.
 
@@ -371,7 +371,7 @@ Gets intensity of the dithering effect.
 
 > **set** **ditheringIntensity**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:375](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L375)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:375](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L375)
 
 Sets intensity of the dithering effect.
 
@@ -393,7 +393,7 @@ Sets intensity of the dithering effect.
 
 > **get** **drawWrapper**(): [`DrawWrapper`](DrawWrapper.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.ts:381](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectRenderer.ts#L381)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.pure.ts:381](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectRenderer.pure.ts#L381)
 
 Get the draw wrapper associated with the effect wrapper
 
@@ -415,7 +415,7 @@ the draw wrapper associated with the effect wrapper
 
 > **get** **effect**(): [`Effect`](Effect.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.ts:393](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectRenderer.ts#L393)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.pure.ts:393](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectRenderer.pure.ts#L393)
 
 The underlying effect
 
@@ -427,7 +427,7 @@ The underlying effect
 
 > **set** **effect**(`effect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.ts:397](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectRenderer.ts#L397)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.pure.ts:397](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectRenderer.pure.ts#L397)
 
 ##### Parameters
 
@@ -451,7 +451,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.ts:
 
 > **get** **exposure**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:187](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L187)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L187)
 
 Gets exposure used in the effect.
 
@@ -463,7 +463,7 @@ Gets exposure used in the effect.
 
 > **set** **exposure**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:193](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L193)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L193)
 
 Sets exposure used in the effect.
 
@@ -485,7 +485,7 @@ Sets exposure used in the effect.
 
 > **get** **fromLinearSpace**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:396](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L396)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:396](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L396)
 
 Gets whether the input of the processing is in Gamma or Linear Space.
 
@@ -497,7 +497,7 @@ Gets whether the input of the processing is in Gamma or Linear Space.
 
 > **set** **fromLinearSpace**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:402](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L402)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:402](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L402)
 
 Sets whether the input of the processing is in Gamma or Linear Space.
 
@@ -519,7 +519,7 @@ Sets whether the input of the processing is in Gamma or Linear Space.
 
 > **get** **imageProcessingConfiguration**(): [`ImageProcessingConfiguration`](ImageProcessingConfiguration.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L60)
 
 Gets the image processing configuration used either in this material.
 
@@ -531,7 +531,7 @@ Gets the image processing configuration used either in this material.
 
 > **set** **imageProcessingConfiguration**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L69)
 
 Sets the Default image processing configuration used either in the this material.
 
@@ -555,7 +555,7 @@ If sets to null, the scene one is in use.
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.ts:345](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectRenderer.ts#L345)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.pure.ts:345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectRenderer.pure.ts#L345)
 
 Gets or sets the name of the effect wrapper
 
@@ -567,7 +567,7 @@ Gets or sets the name of the effect wrapper
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.ts:349](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectRenderer.ts#L349)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.pure.ts:349](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectRenderer.pure.ts#L349)
 
 ##### Parameters
 
@@ -591,7 +591,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.ts:
 
 > **get** **outputTextureHeight**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:428](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L428)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:428](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L428)
 
 * Gets the height of the output texture used to store the result of the post process.
 
@@ -603,7 +603,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProce
 
 > **set** **outputTextureHeight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:435](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L435)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:435](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L435)
 
 * Sets the height of the output texture used to store the result of the post process.
 
@@ -625,7 +625,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProce
 
 > **get** **outputTextureWidth**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:414](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L414)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:414](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L414)
 
 * Gets the width of the output texture used to store the result of the post process.
 
@@ -637,7 +637,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProce
 
 > **set** **outputTextureWidth**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:421](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L421)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:421](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L421)
 
 * Sets the width of the output texture used to store the result of the post process.
 
@@ -659,7 +659,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProce
 
 > **get** **toneMappingEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L200)
 
 Gets whether tonemapping is enabled or not.
 
@@ -671,7 +671,7 @@ Gets whether tonemapping is enabled or not.
 
 > **set** **toneMappingEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:206](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L206)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:206](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L206)
 
 Sets whether tonemapping is enabled or not
 
@@ -693,7 +693,7 @@ Sets whether tonemapping is enabled or not
 
 > **get** **toneMappingType**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:213](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L213)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:213](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L213)
 
 Gets the type of tone mapping effect.
 
@@ -705,7 +705,7 @@ Gets the type of tone mapping effect.
 
 > **set** **toneMappingType**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L219)
 
 Sets the type of tone mapping effect.
 
@@ -727,7 +727,7 @@ Sets the type of tone mapping effect.
 
 > **get** **vignetteBlendMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:343](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L343)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:343](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L343)
 
 Gets the vignette blend mode allowing different kind of effect.
 
@@ -739,7 +739,7 @@ Gets the vignette blend mode allowing different kind of effect.
 
 > **set** **vignetteBlendMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:349](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L349)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:349](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L349)
 
 Sets the vignette blend mode allowing different kind of effect.
 
@@ -761,7 +761,7 @@ Sets the vignette blend mode allowing different kind of effect.
 
 > **get** **vignetteCameraFov**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:330](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L330)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:330](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L330)
 
 Gets Camera field of view used by the Vignette effect.
 
@@ -773,7 +773,7 @@ Gets Camera field of view used by the Vignette effect.
 
 > **set** **vignetteCameraFov**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:336](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L336)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:336](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L336)
 
 Sets Camera field of view used by the Vignette effect.
 
@@ -795,7 +795,7 @@ Sets Camera field of view used by the Vignette effect.
 
 > **get** **vignetteCenterX**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:292](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L292)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:292](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L292)
 
 Vignette center X Offset.
 
@@ -807,7 +807,7 @@ Vignette center X Offset.
 
 > **set** **vignetteCenterX**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:295](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L295)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:295](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L295)
 
 ##### Parameters
 
@@ -827,7 +827,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProce
 
 > **get** **vignetteCenterY**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:282](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L282)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L282)
 
 Vignette center Y Offset.
 
@@ -839,7 +839,7 @@ Vignette center Y Offset.
 
 > **set** **vignetteCenterY**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:285](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L285)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:285](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L285)
 
 ##### Parameters
 
@@ -859,7 +859,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProce
 
 > **get** **vignetteCentreX**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:253](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L253)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:253](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L253)
 
 Gets Vignette center X Offset.
 
@@ -875,7 +875,7 @@ use vignetteCenterX instead
 
 > **set** **vignetteCentreX**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:260](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L260)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L260)
 
 Sets Vignette center X Offset.
 
@@ -901,7 +901,7 @@ use vignetteCenterX instead
 
 > **get** **vignetteCentreY**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:268](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L268)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:268](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L268)
 
 Gets Vignette center Y Offset.
 
@@ -917,7 +917,7 @@ use vignetteCenterY instead
 
 > **set** **vignetteCentreY**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:275](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L275)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:275](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L275)
 
 Sets Vignette center Y Offset.
 
@@ -943,7 +943,7 @@ use vignetteCenterY instead
 
 > **get** **vignetteColor**(): [`Color4`](Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:316](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L316)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:316](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L316)
 
 Gets Color of the vignette applied on the screen through the chosen blend mode (vignetteBlendMode)
 if vignetteEnabled is set to true.
@@ -956,7 +956,7 @@ if vignetteEnabled is set to true.
 
 > **set** **vignetteColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L323)
 
 Sets Color of the vignette applied on the screen through the chosen blend mode (vignetteBlendMode)
 if vignetteEnabled is set to true.
@@ -979,7 +979,7 @@ if vignetteEnabled is set to true.
 
 > **get** **vignetteEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:356](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L356)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:356](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L356)
 
 Gets whether the vignette effect is enabled.
 
@@ -991,7 +991,7 @@ Gets whether the vignette effect is enabled.
 
 > **set** **vignetteEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:362](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L362)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:362](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L362)
 
 Sets whether the vignette effect is enabled.
 
@@ -1013,7 +1013,7 @@ Sets whether the vignette effect is enabled.
 
 > **get** **vignetteStretch**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L239)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L239)
 
 Gets Vignette stretch size.
 
@@ -1025,7 +1025,7 @@ Gets Vignette stretch size.
 
 > **set** **vignetteStretch**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L245)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L245)
 
 Sets Vignette stretch size.
 
@@ -1047,7 +1047,7 @@ Sets Vignette stretch size.
 
 > **get** **vignetteWeight**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:302](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L302)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L302)
 
 Gets Vignette weight or intensity of the vignette effect.
 
@@ -1059,7 +1059,7 @@ Gets Vignette weight or intensity of the vignette effect.
 
 > **set** **vignetteWeight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:308](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L308)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:308](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L308)
 
 Sets Vignette weight or intensity of the vignette effect.
 
@@ -1079,7 +1079,7 @@ Sets Vignette weight or intensity of the vignette effect.
 
 > **bind**(`noDefaultBindings?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:536](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L536)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:536](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L536)
 
 Binds the data to the effect.
 
@@ -1105,7 +1105,7 @@ if true, the default bindings (scale and alpha mode) will not be set.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:541](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L541)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts:541](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinImageProcessingPostProcess.ts#L541)
 
 Disposes of the effect wrapper
 
@@ -1123,7 +1123,7 @@ Disposes of the effect wrapper
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.ts:373](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectRenderer.ts#L373)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.pure.ts:373](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectRenderer.pure.ts#L373)
 
 Get a value indicating if the effect is ready to be used
 
@@ -1143,7 +1143,7 @@ true if the post-process is ready (shader is compiled)
 
 > **updateEffect**(`defines?`, `uniforms?`, `samplers?`, `indexParameters?`, `onCompiled?`, `onError?`, `vertexUrl?`, `fragmentUrl?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.ts:546](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectRenderer.ts#L546)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.pure.ts:549](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectRenderer.pure.ts#L549)
 
 Updates the effect with the current effect wrapper compile time values and recompiles the shader.
 
@@ -1211,7 +1211,7 @@ The url of the fragment shader to be used (default: the one given at constructio
 
 > `static` **RegisterShaderCodeProcessing**(`effectWrapperName`, `customShaderCodeProcessing?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.ts:329](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectRenderer.ts#L329)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.pure.ts:329](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectRenderer.pure.ts#L329)
 
 Registers a shader code processing with an effect wrapper name.
 

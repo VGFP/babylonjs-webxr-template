@@ -6,7 +6,7 @@
 
 # Class: FlowGraphInteger
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts:6](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts#L6)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts:7](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts#L7)
 
 Class that represents an integer value.
 
@@ -16,7 +16,7 @@ Class that represents an integer value.
 
 > **new FlowGraphInteger**(`value`): `FlowGraphInteger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts#L16)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGr
 
 > `readonly` **value**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts#L14)
 
 The value of the integer. Its type
 is a javascript number. Shouldn't be
@@ -47,7 +47,9 @@ the constructor.
 
 > `static` **ClassName**: `string` = `"FlowGraphInteger"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts#L83)
+
+The class name of this type
 
 ## Methods
 
@@ -55,7 +57,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGr
 
 > **add**(`other`): `FlowGraphInteger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts#L34)
 
 Adds two integers together.
 
@@ -79,7 +81,7 @@ a FlowGraphInteger with the result of the addition
 
 > **divide**(`other`): `FlowGraphInteger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts#L61)
 
 Divides two integers.
 
@@ -103,7 +105,7 @@ a FlowGraphInteger with the result of the division
 
 > **equals**(`other`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts#L77)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts#L78)
 
 Compares two integers for equality.
 
@@ -119,13 +121,15 @@ the other integer to compare
 
 `boolean`
 
+true if the integers are equal
+
 ***
 
 ### getClassName()
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts#L69)
 
 The class name of this type.
 
@@ -139,7 +143,7 @@ The class name of this type.
 
 > **multiply**(`other`): `FlowGraphInteger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts#L52)
 
 Multiplies two integers.
 
@@ -163,7 +167,7 @@ a FlowGraphInteger with the result of the multiplication
 
 > **subtract**(`other`): `FlowGraphInteger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts#L43)
 
 Subtracts two integers.
 
@@ -187,11 +191,15 @@ a FlowGraphInteger with the result of the subtraction
 
 > **toString**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts#L98)
+
+Returns a string representation of this integer
 
 #### Returns
 
 `string`
+
+the string representation
 
 ***
 
@@ -199,7 +207,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGr
 
 > `static` **FromValue**(`value`): `FlowGraphInteger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts#L90)
 
 Parses a FlowGraphInteger from a serialization object.
 
@@ -214,3 +222,5 @@ te number to parse
 #### Returns
 
 `FlowGraphInteger`
+
+a new FlowGraphInteger

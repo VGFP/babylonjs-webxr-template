@@ -6,7 +6,7 @@
 
 # Class: NodeRenderGraphConnectionPoint
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L15)
 
 Defines a connection point for a block
 
@@ -16,7 +16,7 @@ Defines a connection point for a block
 
 > **new NodeRenderGraphConnectionPoint**(`name`, `ownerBlock`, `direction`): `NodeRenderGraphConnectionPoint`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:237](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L237)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:237](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L237)
 
 Creates a new connection point
 
@@ -50,7 +50,7 @@ defines the direction of the connection point
 
 > **acceptedConnectionPointTypes**: [`NodeRenderGraphBlockConnectionPointTypes`](../enumerations/NodeRenderGraphBlockConnectionPointTypes.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L81)
 
 Gets or sets the additional types supported by this connection point
 
@@ -60,7 +60,7 @@ Gets or sets the additional types supported by this connection point
 
 > **displayName**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L162)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L162)
 
 Gets or sets the connection point display name
 
@@ -70,7 +70,7 @@ Gets or sets the connection point display name
 
 > **excludedConnectionPointTypes**: [`NodeRenderGraphBlockConnectionPointTypes`](../enumerations/NodeRenderGraphBlockConnectionPointTypes.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L86)
 
 Gets or sets the additional types excluded by this connection point
 
@@ -80,7 +80,7 @@ Gets or sets the additional types excluded by this connection point
 
 > **exposedPortPosition**: `number` = `-1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L106)
 
 Gets or sets number indicating the position that the port is exposed to on a frame
 
@@ -90,7 +90,7 @@ Gets or sets number indicating the position that the port is exposed to on a fra
 
 > **isExposedOnFrame**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L101)
 
 Gets or sets a boolean indicating that this connection point is exposed on a frame
 
@@ -100,7 +100,7 @@ Gets or sets a boolean indicating that this connection point is exposed on a fra
 
 > **isOptional**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:167](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L167)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L167)
 
 Gets or sets a boolean indicating that this connection point can be omitted
 
@@ -110,7 +110,7 @@ Gets or sets a boolean indicating that this connection point can be omitted
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:157](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L157)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:157](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L157)
 
 Gets or sets the connection point name
 
@@ -120,7 +120,7 @@ Gets or sets the connection point name
 
 > **needDualDirectionValidation**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L76)
 
 Indicates that this connection point needs dual validation before being connected to another point
 
@@ -130,7 +130,7 @@ Indicates that this connection point needs dual validation before being connecte
 
 > **onConnectionObservable**: [`Observable`](Observable.md)\<`NodeRenderGraphConnectionPoint`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L91)
 
 Observable triggered when this point is connected
 
@@ -140,7 +140,7 @@ Observable triggered when this point is connected
 
 > **onDisconnectionObservable**: [`Observable`](Observable.md)\<`NodeRenderGraphConnectionPoint`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L96)
 
 Observable triggered when this point is disconnected
 
@@ -150,7 +150,7 @@ Observable triggered when this point is disconnected
 
 > **value**: [`NodeRenderGraphBlockConnectionPointValueType`](../type-aliases/NodeRenderGraphBlockConnectionPointValueType.md) \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L73)
 
 The value stored in this connection point
 
@@ -162,7 +162,7 @@ The value stored in this connection point
 
 > **get** **connectedBlocks**(): [`NodeRenderGraphBlock`](NodeRenderGraphBlock.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:196](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L196)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L196)
 
 Get the block connected on the endpoints of this connection (if any)
 
@@ -178,7 +178,7 @@ Get the block connected on the endpoints of this connection (if any)
 
 > **get** **connectedPoint**(): [`Nullable`](../type-aliases/Nullable.md)\<`NodeRenderGraphConnectionPoint`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L177)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L177)
 
 Get the other side of the connection (if any)
 
@@ -194,7 +194,7 @@ Get the other side of the connection (if any)
 
 > **get** **direction**(): [`NodeRenderGraphConnectionPointDirection`](../enumerations/NodeRenderGraphConnectionPointDirection.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L39)
 
 Gets the direction of the point
 
@@ -210,7 +210,7 @@ Gets the direction of the point
 
 > **get** **endpoints**(): `NodeRenderGraphConnectionPoint`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L205)
 
 Gets the list of connected endpoints
 
@@ -226,7 +226,7 @@ Gets the list of connected endpoints
 
 > **get** **hasEndpoints**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:210](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L210)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L210)
 
 Gets a boolean indicating if that output point is connected to at least one input
 
@@ -242,7 +242,7 @@ Gets a boolean indicating if that output point is connected to at least one inpu
 
 > **get** **innerType**(): [`NodeRenderGraphBlockConnectionPointTypes`](../enumerations/NodeRenderGraphBlockConnectionPointTypes.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:215](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L215)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:215](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L215)
 
 Get the inner type (ie AutoDetect for instance instead of the inferred one)
 
@@ -258,7 +258,7 @@ Get the inner type (ie AutoDetect for instance instead of the inferred one)
 
 > **get** **isConnected**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L172)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L172)
 
 Gets a boolean indicating that the current point is connected to another NodeRenderGraphBlock
 
@@ -274,7 +274,7 @@ Gets a boolean indicating that the current point is connected to another NodeRen
 
 > **get** **ownerBlock**(): [`NodeRenderGraphBlock`](NodeRenderGraphBlock.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:182](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L182)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L182)
 
 Get the block that owns this connection point
 
@@ -290,7 +290,7 @@ Get the block that owns this connection point
 
 > **get** **sourceBlock**(): [`Nullable`](../type-aliases/Nullable.md)\<[`NodeRenderGraphBlock`](NodeRenderGraphBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:187](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L187)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L187)
 
 Get the block connected on the other side of this connection (if any)
 
@@ -306,7 +306,7 @@ Get the block connected on the other side of this connection (if any)
 
 > **get** **type**(): [`NodeRenderGraphBlockConnectionPointTypes`](../enumerations/NodeRenderGraphBlockConnectionPointTypes.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L111)
 
 Gets or sets the connection point type (default is Undefined)
 
@@ -318,7 +318,7 @@ Gets or sets the connection point type (default is Undefined)
 
 > **set** **type**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L150)
 
 ##### Parameters
 
@@ -336,7 +336,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGr
 
 > **addAcceptedConnectionPointTypes**(`mask`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:361](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L361)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:361](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L361)
 
 Adds accepted connection point types
 
@@ -358,7 +358,7 @@ Types (ORed values of NodeRenderGraphBlockConnectionPointTypes) that are allowed
 
 > **addExcludedConnectionPointFromAllowedTypes**(`mask`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:344](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L344)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:344](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L344)
 
 Fills the list of excluded connection point types with all types other than those passed in the parameter
 
@@ -380,7 +380,7 @@ Types (ORed values of NodeRenderGraphBlockConnectionPointTypes) that are allowed
 
 > **canConnectTo**(`connectionPoint`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:256](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L256)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:256](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L256)
 
 Gets a boolean indicating if the current point can be connected to another point
 
@@ -404,7 +404,7 @@ a boolean
 
 > **checkCompatibilityState**(`connectionPoint`): [`NodeRenderGraphConnectionPointCompatibilityStates`](../enumerations/NodeRenderGraphConnectionPointCompatibilityStates.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:265](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L265)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:265](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L265)
 
 Gets a number indicating if the current point can be connected to another point
 
@@ -428,7 +428,7 @@ a number defining the compatibility state
 
 > **connectTo**(`connectionPoint`, `ignoreConstraints?`): `NodeRenderGraphConnectionPoint`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:304](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L304)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:304](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L304)
 
 Connect this point to another connection point
 
@@ -458,7 +458,7 @@ the current connection point
 
 > **createCustomInputBlock**(): [`Nullable`](../type-aliases/Nullable.md)\<\[[`NodeRenderGraphBlock`](NodeRenderGraphBlock.md), `string`\]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:227](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L227)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L227)
 
 Creates a block suitable to be used as an input for this input point.
 If null is returned, a block based on the point type will be created.
@@ -475,7 +475,7 @@ The returned string parameter is the name of the output point of NodeRenderGraph
 
 > **disconnectFrom**(`endpoint`): `NodeRenderGraphConnectionPoint`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:324](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L324)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:324](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L324)
 
 Disconnect this point from one of his endpoint
 
@@ -499,7 +499,7 @@ the current connection point
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:404](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L404)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:404](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L404)
 
 Release resources
 
@@ -513,7 +513,7 @@ Release resources
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:247](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L247)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:247](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L247)
 
 Gets the current class name e.g. "NodeRenderGraphConnectionPoint"
 
@@ -529,7 +529,7 @@ the class name
 
 > **serialize**(`isInput?`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:379](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L379)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:379](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L379)
 
 Serializes this point in a JSON representation
 
@@ -553,7 +553,7 @@ the serialized point object
 
 > `static` **IsShadowGenerator**(`value`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L57)
 
 Checks if the value is a shadow generator task
 
@@ -577,7 +577,7 @@ True if the value is a shadow generator
 
 > `static` **IsShadowLight**(`value`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L66)
 
 Checks if the value is a shadow light
 
@@ -601,7 +601,7 @@ True if the value is a shadow light
 
 > `static` **IsTextureHandle**(`value`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlockConnectionPoint.ts#L48)
 
 Checks if the value is a texture handle
 

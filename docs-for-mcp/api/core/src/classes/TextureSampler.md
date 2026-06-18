@@ -6,7 +6,7 @@
 
 # Class: TextureSampler
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:7](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L7)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:7](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L7)
 
 Class used to store a texture sampler data
 
@@ -20,7 +20,7 @@ Class used to store a texture sampler data
 
 > **new TextureSampler**(): `TextureSampler`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L118)
 
 Creates a Sampler instance
 
@@ -34,7 +34,7 @@ Creates a Sampler instance
 
 > `optional` **label?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L113)
 
 General label used for debugging or storing a name.
 
@@ -44,7 +44,7 @@ General label used for debugging or storing a name.
 
 > **samplingMode**: `number` = `-1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L11)
 
 Gets the sampling mode of the texture
 
@@ -56,7 +56,7 @@ Gets the sampling mode of the texture
 
 > **get** **anisotropicFilteringLevel**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L63)
 
 With compliant hardware and browser (supporting anisotropic filtering)
 this defines the level of anisotropic filtering in the texture.
@@ -70,7 +70,7 @@ The higher the better but the slower.
 
 > **set** **anisotropicFilteringLevel**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L67)
 
 ##### Parameters
 
@@ -90,7 +90,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSa
 
 > **get** **comparisonFunction**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L74)
 
 Gets or sets the comparison function (Constants.LESS, Constants.EQUAL, etc). Set 0 to not use a comparison function
 
@@ -102,7 +102,7 @@ Gets or sets the comparison function (Constants.LESS, Constants.EQUAL, etc). Set
 
 > **set** **comparisonFunction**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L78)
 
 ##### Parameters
 
@@ -122,7 +122,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSa
 
 > **get** **useMipMaps**(): [`Nullable`](../type-aliases/Nullable.md)\<`boolean`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L87)
 
 Indicates to use the mip maps (if available on the texture).
 Thanks to this flag, you can instruct the sampler to not sample the mipmaps even if they exist (and if the sampling mode is set to a value that normally samples the mipmaps!)
@@ -135,7 +135,7 @@ Thanks to this flag, you can instruct the sampler to not sample the mipmaps even
 
 > **set** **useMipMaps**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L91)
 
 ##### Parameters
 
@@ -155,7 +155,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSa
 
 > **get** **wrapR**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L50)
 
 | Value | Type               | Description |
 | ----- | ------------------ | ----------- |
@@ -171,7 +171,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSa
 
 > **set** **wrapR**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L54)
 
 ##### Parameters
 
@@ -191,7 +191,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSa
 
 > **get** **wrapU**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L20)
 
 | Value | Type               | Description |
 | ----- | ------------------ | ----------- |
@@ -207,7 +207,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSa
 
 > **set** **wrapU**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L24)
 
 ##### Parameters
 
@@ -227,7 +227,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSa
 
 > **get** **wrapV**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L35)
 
 | Value | Type               | Description |
 | ----- | ------------------ | ----------- |
@@ -243,7 +243,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSa
 
 > **set** **wrapV**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L39)
 
 ##### Parameters
 
@@ -261,7 +261,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSa
 
 > **compareSampler**(`other`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L153)
 
 Compares this sampler with another one
 
@@ -285,7 +285,7 @@ true if the samplers have the same parametres, else false
 
 > **setParameters**(`wrapU?`, `wrapV?`, `wrapR?`, `anisotropicFilteringLevel?`, `samplingMode?`, `comparisonFunction?`): `TextureSampler`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L130)
 
 Sets all the parameters of the sampler
 

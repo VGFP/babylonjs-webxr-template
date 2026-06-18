@@ -8,7 +8,7 @@
 
 > **ComputeLookAtFromYawPitchToRef**(`yaw`, `pitch`, `center`, `useRightHandedSystem`, `result`, `calculateUpVectorFromPointToRef?`): [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCamera.ts:617](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/geospatialCamera.ts#L617)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCamera.pure.ts:652](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCamera.pure.ts#L652)
 
 Compute the lookAt direction vector from yaw and pitch angles at a given center point.
 This is the forward formula used by GeospatialCamera._setOrientation.

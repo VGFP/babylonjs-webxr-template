@@ -6,9 +6,9 @@
 
 # Function: CreateSoundSourceAsync()
 
-> **CreateSoundSourceAsync**(`name`, `source`, `options?`, `engine?`): `Promise`\<`AbstractSoundSource`\>
+> **CreateSoundSourceAsync**(`name`, `source`, `options?`, `engine?`): `Promise`\<[`AbstractSoundSource`](../classes/AbstractSoundSource.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:421](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L421)
+Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:485](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L485)
 
 Creates a new sound source.
 
@@ -28,7 +28,7 @@ The source of the sound.
 
 ### options?
 
-`Partial`\<`ISoundSourceOptions`\> = `{}`
+`Partial`\<[`ISoundSourceOptions`](../interfaces/ISoundSourceOptions.md)\> = `{}`
 
 The options for the sound source.
 
@@ -40,6 +40,6 @@ The audio engine.
 
 ## Returns
 
-`Promise`\<`AbstractSoundSource`\>
+`Promise`\<[`AbstractSoundSource`](../classes/AbstractSoundSource.md)\>
 
 A promise that resolves to the created sound source.

@@ -6,7 +6,7 @@
 
 # Class: Polar
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L8)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L8)
 
 Class used to store (r, theta) vector representation
 
@@ -16,7 +16,7 @@ Class used to store (r, theta) vector representation
 
 > **new Polar**(`radius`, `theta`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L14)
 
 Creates a new Polar object
 
@@ -44,7 +44,7 @@ the angle of the vector
 
 > **radius**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L15)
 
 the radius of the vector
 
@@ -54,7 +54,7 @@ the radius of the vector
 
 > **theta**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L16)
 
 the angle of the vector
 
@@ -64,7 +64,7 @@ the angle of the vector
 
 > **add**(`polar`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L63)
 
 Adds the current Polar and the given Polar
 
@@ -88,7 +88,7 @@ the sum polar
 
 > **addInPlace**(`polar`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L74)
 
 Adds the given polar to the current polar
 
@@ -112,7 +112,7 @@ the current polar
 
 > **addInPlaceFromFloats**(`radius`, `theta`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L85)
 
 Adds the provided values to the current polar
 
@@ -142,7 +142,7 @@ the current polar
 
 > **addToRef**(`polar`, `ref`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L52)
 
 Adds the current Polar and the given Polar and stores the result
 
@@ -172,7 +172,7 @@ the updated ref
 
 > **asArray**(): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L42)
 
 Converts the current polar to an array
 
@@ -188,7 +188,7 @@ the current polar as an array
 
 > **clone**(): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L219)
 
 Clones the current polar
 
@@ -204,7 +204,7 @@ a clone of the current polar
 
 > **copyFrom**(`source`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:228](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L228)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L228)
 
 Copies the source polar into the current polar
 
@@ -228,7 +228,7 @@ the current polar
 
 > **copyFromFloats**(`radius`, `theta`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:240](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L240)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:240](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L240)
 
 Copies the given values into the current polar
 
@@ -258,7 +258,7 @@ the current polar
 
 > **divide**(`polar`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:199](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L199)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:199](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L199)
 
 Divides the current Polar by the given Polar
 
@@ -282,7 +282,7 @@ the quotient polar
 
 > **divideInPlace**(`polar`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:210](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L210)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L210)
 
 Divides the current Polar by the given Polar
 
@@ -306,7 +306,7 @@ the current polar
 
 > **divideToRef**(`polar`, `ref`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:188](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L188)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:188](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L188)
 
 Divides the current Polar by the given Polar and stores the result
 
@@ -336,7 +336,7 @@ the updated ref
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L26)
 
 Gets the class name
 
@@ -352,7 +352,7 @@ the string "Polar"
 
 > **multiply**(`polar`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L166)
 
 Multiplies the given Polar with the current Polar
 
@@ -376,7 +376,7 @@ the product polar
 
 > **multiplyInPlace**(`polar`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L177)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L177)
 
 Multiplies the given Polar with the current Polar
 
@@ -400,7 +400,7 @@ the current polar
 
 > **multiplyToRef**(`polar`, `ref`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L155)
 
 Multiplies the given Polar with the current Polar and stores the result
 
@@ -430,7 +430,7 @@ the updated ref
 
 > **scale**(`scale`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:263](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L263)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:263](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L263)
 
 Scales the current polar and returns a new polar with the scaled coordinates
 
@@ -454,7 +454,7 @@ the scaled polar
 
 > **scaleInPlace**(`scale`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:274](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L274)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:274](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L274)
 
 Scales the current polar
 
@@ -478,7 +478,7 @@ the current polar
 
 > **scaleToRef**(`scale`, `ref`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:252](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L252)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:252](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L252)
 
 Scales the current polar and stores the result
 
@@ -508,7 +508,7 @@ the updated ref
 
 > **set**(`radius`, `theta`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:285](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L285)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:285](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L285)
 
 Sets the values of the current polar
 
@@ -538,7 +538,7 @@ the current polar
 
 > **setAll**(`value`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:296](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L296)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:296](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L296)
 
 Sets the values of the current polar
 
@@ -562,7 +562,7 @@ the current polar
 
 > **subtract**(`polar`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L108)
 
 Subtracts the given Polar from the current Polar
 
@@ -586,7 +586,7 @@ the difference polar
 
 > **subtractFromFloats**(`radius`, `theta`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:143](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L143)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L143)
 
 Subtracts the given floats from the current polar
 
@@ -616,7 +616,7 @@ the difference polar
 
 > **subtractFromFloatsToRef**(`radius`, `theta`, `ref`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L131)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L131)
 
 Subtracts the given floats from the current polar
 
@@ -652,7 +652,7 @@ the updated ref
 
 > **subtractInPlace**(`polar`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L119)
 
 Subtracts the given Polar from the current Polar
 
@@ -676,7 +676,7 @@ the current polar
 
 > **subtractToRef**(`polar`, `ref`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L97)
 
 Subtracts the given Polar from the current Polar and stores the result
 
@@ -706,7 +706,7 @@ the updated ref
 
 > **toString**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L34)
 
 Converts the current polar to a string
 
@@ -722,7 +722,7 @@ the current polar as a string
 
 > **toVector2**(): [`Vector2`](Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:317](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L317)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:317](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L317)
 
 Gets the rectangular coordinates of the current Polar
 
@@ -738,7 +738,7 @@ the rectangular coordinates
 
 > **toVector2ToRef**(`ref`): [`Vector2`](Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:306](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L306)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:306](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L306)
 
 Gets the rectangular coordinates of the current Polar
 
@@ -762,7 +762,7 @@ the updated reference
 
 > `static` **FromArray**(`array`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:351](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L351)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:351](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L351)
 
 Converts an array of floats to a polar
 
@@ -786,7 +786,7 @@ the converted polar
 
 > `static` **FromVector2**(`v`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:340](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L340)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:340](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L340)
 
 Converts a given Vector2 to its polar coordinates
 
@@ -810,7 +810,7 @@ a Polar
 
 > `static` **FromVector2ToRef**(`v`, `ref`): `Polar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:328](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.polar.ts#L328)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.polar.ts:328](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.polar.ts#L328)
 
 Converts a given Vector2 to its polar coordinates
 

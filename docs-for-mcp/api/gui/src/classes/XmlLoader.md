@@ -6,7 +6,7 @@
 
 # Class: XmlLoader
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/xmlLoader.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/xmlLoader.ts#L9)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/xmlLoader.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/xmlLoader.ts#L9)
 
 Class used to load GUI via XML.
 
@@ -16,7 +16,7 @@ Class used to load GUI via XML.
 
 > **new XmlLoader**(`parentClass?`): `XmlLoader`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/xmlLoader.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/xmlLoader.ts#L36)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/xmlLoader.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/xmlLoader.ts#L36)
 
 Create a new xml loader
 
@@ -38,7 +38,7 @@ Sets the class context. Used when the loader is instanced inside a class and not
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/xmlLoader.ts:328](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/xmlLoader.ts#L328)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/xmlLoader.ts:328](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/xmlLoader.ts#L328)
 
 Disposes the loaded layout
 
@@ -52,7 +52,7 @@ Disposes the loaded layout
 
 > **getNodeById**(`id`): `any`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/xmlLoader.ts:314](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/xmlLoader.ts#L314)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/xmlLoader.ts:314](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/xmlLoader.ts#L314)
 
 Gets a loaded node / control by id.
 
@@ -76,7 +76,7 @@ element of type Control
 
 > **getNodes**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/xmlLoader.ts:322](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/xmlLoader.ts#L322)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/xmlLoader.ts:322](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/xmlLoader.ts#L322)
 
 Gets all loaded nodes / controls
 
@@ -92,7 +92,7 @@ Array of controls
 
 > **isLoaded**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/xmlLoader.ts:305](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/xmlLoader.ts#L305)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/xmlLoader.ts:305](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/xmlLoader.ts#L305)
 
 Gets if the loading has finished.
 
@@ -108,7 +108,7 @@ whether the loading has finished or not
 
 > **loadLayout**(`xmlFile`, `rootNode`, `onSuccess?`, `onError?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/xmlLoader.ts:343](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/xmlLoader.ts#L343)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/xmlLoader.ts:343](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/xmlLoader.ts#L343)
 
 Initiates the xml layout loading
 
@@ -148,7 +148,7 @@ defines the callback called on layout load failure.
 
 > **loadLayoutAsync**(`xmlFile`, `rootNode`): `Promise`\<`any`\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/xmlLoader.ts:381](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/xmlLoader.ts#L381)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/xmlLoader.ts:381](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/xmlLoader.ts#L381)
 
 Initiates the xml layout loading asynchronously
 

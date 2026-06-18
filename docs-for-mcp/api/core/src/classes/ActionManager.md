@@ -6,7 +6,7 @@
 
 # Class: ActionManager
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L24)
 
 Action Manager manages all events to be triggered on a given mesh or the global scene.
 A single scene can have many Action Managers to handle predefined actions on specific meshes.
@@ -25,7 +25,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions
 
 > **new ActionManager**(`scene?`): `ActionManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L133)
 
 Creates a new action manager
 
@@ -51,7 +51,7 @@ defines the hosting scene
 
 > **actions**: [`IAction`](../interfaces/IAction.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/abstractActionManager.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/abstractActionManager.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/abstractActionManager.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/abstractActionManager.ts#L20)
 
 Gets the list of actions
 
@@ -65,7 +65,7 @@ Gets the list of actions
 
 > **disposeWhenUnowned**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/abstractActionManager.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/abstractActionManager.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/abstractActionManager.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/abstractActionManager.ts#L30)
 
 Gets or sets a boolean indicating if this ActionManager should be disposed once the last Mesh using it is disposed
 
@@ -79,7 +79,7 @@ Gets or sets a boolean indicating if this ActionManager should be disposed once 
 
 > **hoverCursor**: `string` = `""`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/abstractActionManager.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/abstractActionManager.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/abstractActionManager.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/abstractActionManager.ts#L17)
 
 Gets the cursor to use when hovering items
 
@@ -93,7 +93,7 @@ Gets the cursor to use when hovering items
 
 > **isRecursive**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/abstractActionManager.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/abstractActionManager.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/abstractActionManager.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/abstractActionManager.ts#L25)
 
 Gets or sets a boolean indicating that the manager is recursive meaning that it can trigger action from children
 
@@ -107,7 +107,7 @@ Gets or sets a boolean indicating that the manager is recursive meaning that it 
 
 > `readonly` `static` **NothingTrigger**: `0` = `Constants.ACTION_NothingTrigger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L29)
 
 Nothing
 
@@ -121,7 +121,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions#triggers
 
 > `readonly` `static` **OnCenterPickTrigger**: `4` = `Constants.ACTION_OnCenterPickTrigger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L53)
 
 On center pick
 
@@ -135,7 +135,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions#triggers
 
 > `readonly` `static` **OnDoublePickTrigger**: `6` = `Constants.ACTION_OnDoublePickTrigger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L65)
 
 On double pick
 
@@ -149,7 +149,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions#triggers
 
 > `readonly` `static` **OnEveryFrameTrigger**: `11` = `Constants.ACTION_OnEveryFrameTrigger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L101)
 
 On every frame
 
@@ -163,7 +163,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions#triggers
 
 > `readonly` `static` **OnIntersectionEnterTrigger**: `12` = `Constants.ACTION_OnIntersectionEnterTrigger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L106)
 
 On intersection enter
 
@@ -177,7 +177,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions#triggers
 
 > `readonly` `static` **OnIntersectionExitTrigger**: `13` = `Constants.ACTION_OnIntersectionExitTrigger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L112)
 
 On intersection exit
 
@@ -191,7 +191,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions#triggers
 
 > `readonly` `static` **OnKeyDownTrigger**: `14` = `Constants.ACTION_OnKeyDownTrigger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L117)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L118)
 
 On key down
 
@@ -205,7 +205,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions#triggers
 
 > `readonly` `static` **OnKeyUpTrigger**: `15` = `Constants.ACTION_OnKeyUpTrigger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L124)
 
 On key up
 
@@ -219,7 +219,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions#triggers
 
 > `readonly` `static` **OnLeftPickTrigger**: `2` = `Constants.ACTION_OnLeftPickTrigger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L41)
 
 On left pick
 
@@ -233,7 +233,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions#triggers
 
 > `readonly` `static` **OnLongPressTrigger**: `8` = `Constants.ACTION_OnLongPressTrigger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L82)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L83)
 
 On long press
 
@@ -247,7 +247,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions#triggers
 
 > `readonly` `static` **OnPickDownTrigger**: `5` = `Constants.ACTION_OnPickDownTrigger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L59)
 
 On pick down
 
@@ -261,7 +261,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions#triggers
 
 > `readonly` `static` **OnPickOutTrigger**: `16` = `Constants.ACTION_OnPickOutTrigger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L77)
 
 On pick out.
 This trigger will only be raised if you also declared a OnPickDown
@@ -276,7 +276,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions#triggers
 
 > `readonly` `static` **OnPickTrigger**: `1` = `Constants.ACTION_OnPickTrigger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L35)
 
 On pick
 
@@ -290,7 +290,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions#triggers
 
 > `readonly` `static` **OnPickUpTrigger**: `7` = `Constants.ACTION_OnPickUpTrigger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L71)
 
 On pick up
 
@@ -304,7 +304,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions#triggers
 
 > `readonly` `static` **OnPointerOutTrigger**: `10` = `Constants.ACTION_OnPointerOutTrigger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L95)
 
 On pointer out
 
@@ -318,7 +318,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions#triggers
 
 > `readonly` `static` **OnPointerOverTrigger**: `9` = `Constants.ACTION_OnPointerOverTrigger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L89)
 
 On pointer over
 
@@ -332,7 +332,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions#triggers
 
 > `readonly` `static` **OnRightPickTrigger**: `3` = `Constants.ACTION_OnRightPickTrigger`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L47)
 
 On right pick
 
@@ -346,7 +346,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions#triggers
 
 > `static` **Triggers**: `object` = `{}`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/abstractActionManager.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/abstractActionManager.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/abstractActionManager.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/abstractActionManager.ts#L14)
 
 Gets the list of active triggers
 
@@ -366,7 +366,7 @@ Gets the list of active triggers
 
 > **get** **hasPickTriggers**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:259](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L259)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L260)
 
 Does this action manager has pick triggers
 
@@ -386,7 +386,7 @@ Does this action manager has pick triggers
 
 > **get** **hasPointerTriggers**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:242](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L242)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L243)
 
 Does this action manager has pointer triggers
 
@@ -406,7 +406,7 @@ Does this action manager has pointer triggers
 
 > **get** `static` **HasPickTriggers**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/abstractActionManager.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/abstractActionManager.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/abstractActionManager.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/abstractActionManager.ts#L114)
 
 Does exist one action manager with at least one pick trigger
 
@@ -426,7 +426,7 @@ Does exist one action manager with at least one pick trigger
 
 > **get** `static` **HasTriggers**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/abstractActionManager.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/abstractActionManager.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/abstractActionManager.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/abstractActionManager.ts#L102)
 
 Does exist one action manager with at least one trigger
 
@@ -444,7 +444,7 @@ Does exist one action manager with at least one trigger
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L148)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L149)
 
 Releases all associated resources
 
@@ -462,7 +462,7 @@ Releases all associated resources
 
 > **getScene**(): [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:175](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L175)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L176)
 
 Gets hosting scene
 
@@ -478,7 +478,7 @@ the hosting scene
 
 > **hasSpecificTrigger**(`trigger`, `parameterPredicate?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:221](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L221)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L222)
 
 Does this action manager handles actions of a given trigger
 
@@ -512,7 +512,7 @@ whether the trigger is handled
 
 > **hasSpecificTriggers**(`triggers`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:184](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L184)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L185)
 
 Does this action manager handles actions of any of the given triggers
 
@@ -540,7 +540,7 @@ a boolean indicating whether one (or more) of the triggers is handled
 
 > **hasSpecificTriggers2**(`triggerA`, `triggerB`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:203](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L203)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:204](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L204)
 
 Does this action manager handles actions of any of the given triggers. This function takes two arguments for
 speed.
@@ -575,7 +575,7 @@ a boolean indicating whether one (or more) of the triggers is handled
 
 > **processTrigger**(`trigger`, `evt?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:326](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L326)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:327](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L327)
 
 Process a specific trigger
 
@@ -607,7 +607,7 @@ defines the event details to be processed
 
 > **registerAction**(`action`): [`Nullable`](../type-aliases/Nullable.md)\<[`IAction`](../interfaces/IAction.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:278](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L278)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:279](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L279)
 
 Registers an action to this action manager
 
@@ -635,7 +635,7 @@ the action amended (prepared) after registration
 
 > **serialize**(`name`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:388](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L388)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:389](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L389)
 
 Serialize this manager to a JSON object
 
@@ -663,7 +663,7 @@ a JSON representation of this manager
 
 > **unregisterAction**(`action`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:306](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L306)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:307](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L307)
 
 Unregisters an action to this action manager
 
@@ -691,7 +691,7 @@ a boolean indicating whether the action has been unregistered
 
 > `static` **GetTriggerName**(`trigger`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:656](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L656)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:661](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L661)
 
 Get a trigger name by index
 
@@ -715,7 +715,7 @@ a trigger name
 
 > `static` **HasSpecificTrigger**(`trigger`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/abstractActionManager.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/abstractActionManager.ts#L131)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/abstractActionManager.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/abstractActionManager.ts#L131)
 
 Does exist one action manager that handles actions of a given trigger
 
@@ -743,7 +743,7 @@ a boolean indicating whether the trigger is handled by at least one action manag
 
 > `static` **Parse**(`parsedActions`, `object`, `scene`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:447](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/actionManager.ts#L447)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionManager.ts:448](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionManager.ts#L448)
 
 Creates a new ActionManager from a JSON data
 

@@ -6,7 +6,7 @@
 
 # Class: WebXRManagedOutputCanvas
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts#L51)
 
 Creates a canvas that is added/removed from the webpage when entering/exiting XR
 
@@ -20,7 +20,7 @@ Creates a canvas that is added/removed from the webpage when entering/exiting XR
 
 > **new WebXRManagedOutputCanvas**(`_xrSessionManager`, `_options?`): `WebXRManagedOutputCanvas`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts#L83)
 
 Initializes the canvas to be added/removed upon entering/exiting xr
 
@@ -48,7 +48,7 @@ optional configuration for this canvas output. defaults will be used if not prov
 
 > **canvasContext**: `WebGL2RenderingContext`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts#L62)
 
 Rendering context of the canvas which can be used to display/mirror xr content
 
@@ -62,7 +62,7 @@ Rendering context of the canvas which can be used to display/mirror xr content
 
 > **onXRLayerInitObservable**: [`Observable`](Observable.md)\<`XRWebGLLayer`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts#L74)
 
 Observers registered here will be triggered when the xr layer was initialized
 
@@ -72,7 +72,7 @@ Observers registered here will be triggered when the xr layer was initialized
 
 > **xrLayer**: [`Nullable`](../type-aliases/Nullable.md)\<`XRWebGLLayer`\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts#L67)
 
 xr layer for the canvas
 
@@ -86,7 +86,7 @@ xr layer for the canvas
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts#L114)
 
 Disposes of the object
 
@@ -104,7 +104,7 @@ Disposes of the object
 
 > **initializeXRLayerAsync**(`xrSession`): `Promise`\<`XRWebGLLayer`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts:152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts#L152)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRManagedOutputCanvas.ts#L152)
 
 Initializes a XRWebGLLayer to be used as the session's baseLayer.
 

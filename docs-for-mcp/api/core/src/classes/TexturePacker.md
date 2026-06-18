@@ -6,7 +6,7 @@
 
 # Class: TexturePacker
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L114)
 
 This is a support class that generates a series of packed texture sets.
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/using/materials_in
 
 > **new TexturePacker**(`name`, `meshes`, `options`, `scene`): `TexturePacker`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:164](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L164)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:164](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L164)
 
 Initializes a texture package series from an array of meshes or a single mesh.
 
@@ -62,7 +62,7 @@ TexturePacker
 
 > **frames**: [`TexturePackerFrame`](TexturePackerFrame.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L148)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L148)
 
 The Container array for the frames that are generated
 
@@ -72,7 +72,7 @@ The Container array for the frames that are generated
 
 > **meshes**: [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:136](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L136)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L136)
 
 The Meshes to target
 
@@ -82,7 +82,7 @@ The Meshes to target
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L130)
 
 The Name of the Texture Package
 
@@ -92,7 +92,7 @@ The Name of the Texture Package
 
 > **options**: [`ITexturePackerOptions`](../interfaces/ITexturePackerOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L139)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L139)
 
 Arguments passed with the Constructor
 
@@ -102,7 +102,7 @@ Arguments passed with the Constructor
 
 > **promise**: [`Nullable`](../type-aliases/Nullable.md)\<`Promise`\<`string` \| `TexturePacker`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L142)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L142)
 
 The promise that is started upon initialization
 
@@ -112,7 +112,7 @@ The promise that is started upon initialization
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L133)
 
 The scene scope of the TexturePacker
 
@@ -122,7 +122,7 @@ The scene scope of the TexturePacker
 
 > **sets**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:145](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L145)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L145)
 
 The Container object for the channel sets that are generated
 
@@ -132,7 +132,7 @@ The Container object for the channel sets that are generated
 
 > `readonly` `static` **LAYOUT\_COLNUM**: `2` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L120)
 
 Packer Layout Constant 2
 
@@ -142,7 +142,7 @@ Packer Layout Constant 2
 
 > `readonly` `static` **LAYOUT\_POWER2**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L118)
 
 Packer Layout Constant 1
 
@@ -152,7 +152,7 @@ Packer Layout Constant 1
 
 > `readonly` `static` **LAYOUT\_STRIP**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L116)
 
 Packer Layout Constant 0
 
@@ -162,7 +162,7 @@ Packer Layout Constant 0
 
 > `readonly` `static` **SUBUV\_COLOR**: `2` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L127)
 
 Packer Layout Constant 2
 
@@ -172,7 +172,7 @@ Packer Layout Constant 2
 
 > `readonly` `static` **SUBUV\_EXTEND**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L125)
 
 Packer Layout Constant 1
 
@@ -182,7 +182,7 @@ Packer Layout Constant 1
 
 > `readonly` `static` **SUBUV\_WRAP**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L123)
 
 Packer Layout Constant 0
 
@@ -192,7 +192,7 @@ Packer Layout Constant 0
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:610](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L610)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:610](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L610)
 
 Disposes all textures associated with this packer
 
@@ -206,7 +206,7 @@ Disposes all textures associated with this packer
 
 > **download**(`imageType?`, `quality?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:623](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L623)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:623](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L623)
 
 Starts the download process for all the channels converting them to base64 data and embedding it all in a JSON file.
 
@@ -234,7 +234,7 @@ of the image if downloading as jpeg, Ranges from >0 to 1.
 
 > **processAsync**(): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:551](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L551)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:551](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L551)
 
 Starts the async promise to compile the texture packer.
 
@@ -250,7 +250,7 @@ Promise<void>
 
 > **setMeshToFrame**(`m`, `frameID`, `updateMaterial?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:540](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L540)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:540](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L540)
 
 Public method to set a Mesh to a frame
 
@@ -284,7 +284,7 @@ trigger for if the Meshes attached Material be updated?
 
 > **updateFromJSON**(`data`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:667](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L667)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:667](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L667)
 
 Public method to load a texturePacker JSON file.
 

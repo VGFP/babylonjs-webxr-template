@@ -8,7 +8,7 @@
 
 > **ParseGraphDataConnection**(`serializationObject`, `ownerBlock`, `classType`): [`FlowGraphDataConnection`](../classes/FlowGraphDataConnection.md)\<`any`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphParser.ts:437](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphParser.ts#L437)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphParser.ts:437](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphParser.ts#L437)
 
 Parses a data connection from a serialized object.
 

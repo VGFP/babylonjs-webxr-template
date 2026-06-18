@@ -6,7 +6,7 @@
 
 # Interface: GamepadButtonChanges
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L28)
 
 An interface which manages callbacks for gamepad button changes
 
@@ -16,7 +16,7 @@ An interface which manages callbacks for gamepad button changes
 
 > **changed**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L32)
 
 Called when a gamepad has been changed
 
@@ -26,7 +26,7 @@ Called when a gamepad has been changed
 
 > **pressChanged**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L36)
 
 Called when a gamepad press event has been triggered
 
@@ -36,7 +36,7 @@ Called when a gamepad press event has been triggered
 
 > **touchChanged**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L40)
 
 Called when a touch event has been triggered
 
@@ -46,6 +46,6 @@ Called when a touch event has been triggered
 
 > **valueChanged**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L44)
 
 Called when a value has changed

@@ -6,7 +6,7 @@
 
 # Interface: IWebXRLightEstimation
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLightEstimation.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRLightEstimation.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L77)
 
 An interface describing the result of a light estimation
 
@@ -16,7 +16,7 @@ An interface describing the result of a light estimation
 
 > **lightColor**: [`Color3`](../classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLightEstimation.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRLightEstimation.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L85)
 
 Color of light source
 
@@ -26,7 +26,7 @@ Color of light source
 
 > **lightDirection**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLightEstimation.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRLightEstimation.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L89)
 
 The direction from the light source
 
@@ -36,7 +36,7 @@ The direction from the light source
 
 > **lightIntensity**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLightEstimation.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRLightEstimation.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L81)
 
 The intensity of the light source
 
@@ -46,6 +46,6 @@ The intensity of the light source
 
 > **sphericalHarmonics**: [`SphericalHarmonics`](../classes/SphericalHarmonics.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLightEstimation.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRLightEstimation.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L93)
 
 Spherical harmonics coefficients of the light source

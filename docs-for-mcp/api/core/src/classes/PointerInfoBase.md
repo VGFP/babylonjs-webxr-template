@@ -6,7 +6,7 @@
 
 # Class: PointerInfoBase
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/pointerEvents.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/pointerEvents.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/pointerEvents.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/pointerEvents.ts#L46)
 
 Base class of pointer info types.
 
@@ -21,7 +21,7 @@ Base class of pointer info types.
 
 > **new PointerInfoBase**(`type`, `event`): `PointerInfoBase`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/pointerEvents.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/pointerEvents.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/pointerEvents.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/pointerEvents.ts#L52)
 
 Instantiates the base class of pointers info.
 
@@ -49,7 +49,7 @@ Defines the related dom event
 
 > **event**: [`IMouseEvent`](../interfaces/IMouseEvent.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/pointerEvents.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/pointerEvents.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/pointerEvents.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/pointerEvents.ts#L60)
 
 Defines the related dom event
 
@@ -59,6 +59,6 @@ Defines the related dom event
 
 > **type**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/pointerEvents.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/pointerEvents.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/pointerEvents.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/pointerEvents.ts#L56)
 
 Defines the type of event (PointerEventTypes)

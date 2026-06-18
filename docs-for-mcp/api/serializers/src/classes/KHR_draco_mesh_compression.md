@@ -6,7 +6,7 @@
 
 # Class: KHR\_draco\_mesh\_compression
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_draco\_mesh\_compression.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_draco_mesh_compression.ts#L31)
+Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_draco\_mesh\_compression.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_draco_mesh_compression.ts#L31)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_draco_mesh_compression/README.md)
 
@@ -20,7 +20,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/K
 
 > **enabled**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_draco\_mesh\_compression.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_draco_mesh_compression.ts#L36)
+Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_draco\_mesh\_compression.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_draco_mesh_compression.ts#L36)
 
 Defines whether this extension is enabled
 
@@ -34,7 +34,7 @@ Defines whether this extension is enabled
 
 > `readonly` **name**: `"KHR_draco_mesh_compression"` = `NAME`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_draco\_mesh\_compression.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_draco_mesh_compression.ts#L33)
+Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_draco\_mesh\_compression.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_draco_mesh_compression.ts#L33)
 
 Name of this extension
 
@@ -48,7 +48,7 @@ Name of this extension
 
 > **required**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_draco\_mesh\_compression.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_draco_mesh_compression.ts#L39)
+Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_draco\_mesh\_compression.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_draco_mesh_compression.ts#L39)
 
 KHR_draco_mesh_compression is required, as uncompressed fallback data is not yet implemented.
 

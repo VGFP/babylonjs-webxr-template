@@ -6,7 +6,7 @@
 
 # Class: FollowCameraInputsManager
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/followCameraInputsManager.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/followCameraInputsManager.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/followCameraInputsManager.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/followCameraInputsManager.ts#L13)
 
 Default Inputs manager for the FollowCamera.
 It groups all the default supported inputs for ease of use.
@@ -25,7 +25,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **new FollowCameraInputsManager**(`camera`): `FollowCameraInputsManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/followCameraInputsManager.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/followCameraInputsManager.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/followCameraInputsManager.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/followCameraInputsManager.ts#L18)
 
 Instantiates a new FollowCameraInputsManager.
 
@@ -51,7 +51,7 @@ Defines the camera the inputs belong to
 
 > **attached**: [`CameraInputsMap`](../interfaces/CameraInputsMap.md)\<[`FollowCamera`](FollowCamera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L72)
 
 Defines the list of inputs attached to the camera.
 
@@ -65,7 +65,7 @@ Defines the list of inputs attached to the camera.
 
 > **attachedToElement**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L78)
 
 Defines the dom element the camera is collecting inputs from.
 This is null if the controls have not been attached.
@@ -80,7 +80,7 @@ This is null if the controls have not been attached.
 
 > **camera**: [`FollowCamera`](FollowCamera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L88)
 
 Defined the camera the input manager belongs to.
 
@@ -94,7 +94,7 @@ Defined the camera the input manager belongs to.
 
 > **checkInputs**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:94](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L94)
 
 Update the current camera state depending on the inputs that have been used this frame.
 This is a dynamically created lambda to avoid the performance penalty of looping for inputs in the render loop.
@@ -113,7 +113,7 @@ This is a dynamically created lambda to avoid the performance penalty of looping
 
 > **noPreventDefault**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L83)
 
 Defines whether event caught by the controls should call preventdefault() (https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 
@@ -127,7 +127,7 @@ Defines whether event caught by the controls should call preventdefault() (https
 
 > **add**(`input`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L111)
 
 Add an input method to a camera
 
@@ -157,7 +157,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **addKeyboard**(): `FollowCameraInputsManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/followCameraInputsManager.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/followCameraInputsManager.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/followCameraInputsManager.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/followCameraInputsManager.ts#L26)
 
 Add keyboard input support to the input manager.
 
@@ -173,7 +173,7 @@ the current input manager
 
 > **addMouseWheel**(): `FollowCameraInputsManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/followCameraInputsManager.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/followCameraInputsManager.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/followCameraInputsManager.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/followCameraInputsManager.ts#L35)
 
 Add mouse wheel input support to the input manager.
 
@@ -189,7 +189,7 @@ the current input manager
 
 > **addPointers**(): `FollowCameraInputsManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/followCameraInputsManager.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/followCameraInputsManager.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/followCameraInputsManager.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/followCameraInputsManager.ts#L44)
 
 Add pointers input support to the input manager.
 
@@ -205,7 +205,7 @@ the current input manager
 
 > **addVRDeviceOrientation**(): `FollowCameraInputsManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/followCameraInputsManager.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/followCameraInputsManager.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/followCameraInputsManager.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/followCameraInputsManager.ts#L53)
 
 Add orientation input support to the input manager.
 
@@ -221,7 +221,7 @@ the current input manager
 
 > **attachElement**(`noPreventDefault?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L191)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:191](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L191)
 
 Attach the current manager inputs controls to a specific dom element to listen the events from.
 
@@ -247,7 +247,7 @@ Defines whether event caught by the controls should call preventdefault() (https
 
 > **attachInput**(`input`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:181](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L181)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:181](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L181)
 
 Attach the input controls to the currently attached dom element to listen the events from.
 
@@ -273,7 +273,7 @@ Defines the input to attach
 
 > **clear**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:238](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L238)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L238)
 
 Remove all attached input methods from a camera
 
@@ -291,7 +291,7 @@ Remove all attached input methods from a camera
 
 > **detachElement**(`disconnect?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:209](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L209)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L209)
 
 Detach the current manager inputs controls from a specific dom element.
 
@@ -317,7 +317,7 @@ Defines whether the input should be removed from the current list of attached in
 
 > **parse**(`parsedCamera`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:269](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L269)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:269](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L269)
 
 Parses an input manager serialized JSON to restore the previous list of inputs
 and states associated to a camera.
@@ -344,7 +344,7 @@ Defines the JSON to parse
 
 > **rebuildInputCheck**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:224](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L224)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:224](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L224)
 
 Rebuild the dynamic inputCheck function from the current list of
 defined inputs in the manager.
@@ -363,7 +363,7 @@ defined inputs in the manager.
 
 > **remove**(`inputToRemove`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L138)
 
 Remove a specific input method from a camera
 example: camera.inputs.remove(camera.inputs.attached.mouse);
@@ -390,7 +390,7 @@ camera input method
 
 > **removeByType**(`inputType`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:157](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L157)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:157](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L157)
 
 Remove a specific input type from a camera
 example: camera.inputs.remove("ArcRotateCameraGamepadInput");
@@ -417,7 +417,7 @@ the type of the input to remove
 
 > **serialize**(`serializedCamera`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:253](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L253)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:253](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L253)
 
 Serialize the current input manager attached to a camera.
 This ensures than once parsed,

@@ -6,7 +6,7 @@
 
 # Interface: IUSDZExportOptions
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/USDZ/usdzExporter.ts#L34)
+Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/USDZ/usdzExporter.ts#L38)
 
 Options for the USDZ export
 
@@ -16,7 +16,7 @@ Options for the USDZ export
 
 > `optional` **anchoringType?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/USDZ/usdzExporter.ts#L46)
+Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/USDZ/usdzExporter.ts#L50)
 
 Anchoring type (plane by default)
 
@@ -26,7 +26,7 @@ Anchoring type (plane by default)
 
 > `optional` **cameraSensorWidth?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/USDZ/usdzExporter.ts#L66)
+Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/USDZ/usdzExporter.ts#L70)
 
 Camera sensor width (35 by default)
 
@@ -36,7 +36,7 @@ Camera sensor width (35 by default)
 
 > `optional` **exportCamera?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/USDZ/usdzExporter.ts#L62)
+Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/USDZ/usdzExporter.ts#L66)
 
 Export the camera (false by default)
 
@@ -46,7 +46,7 @@ Export the camera (false by default)
 
 > `optional` **fflateUrl?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/USDZ/usdzExporter.ts#L38)
+Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/USDZ/usdzExporter.ts#L42)
 
 URL to load the fflate library from
 
@@ -56,7 +56,7 @@ URL to load the fflate library from
 
 > `optional` **includeAnchoringProperties?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/USDZ/usdzExporter.ts#L42)
+Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/USDZ/usdzExporter.ts#L46)
 
 Include anchoring properties in the USDZ file
 
@@ -66,7 +66,7 @@ Include anchoring properties in the USDZ file
 
 > `optional` **modelFileName?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/USDZ/usdzExporter.ts#L54)
+Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/USDZ/usdzExporter.ts#L58)
 
 Model file name (model.usda by default)
 
@@ -76,7 +76,7 @@ Model file name (model.usda by default)
 
 > `optional` **planeAnchoringAlignment?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/USDZ/usdzExporter.ts#L50)
+Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/USDZ/usdzExporter.ts#L54)
 
 Plane anchoring alignment (horizontal by default)
 
@@ -86,6 +86,6 @@ Plane anchoring alignment (horizontal by default)
 
 > `optional` **precision?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/USDZ/usdzExporter.ts#L58)
+Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/USDZ/usdzExporter.ts#L62)
 
 Precision to use for number (5 by default)

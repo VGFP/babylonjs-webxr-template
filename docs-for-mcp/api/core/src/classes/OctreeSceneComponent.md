@@ -6,7 +6,7 @@
 
 # Class: OctreeSceneComponent
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts#L19)
 
 Defines the octree scene component responsible to manage any octrees
 in a given scene.
@@ -17,7 +17,7 @@ in a given scene.
 
 > **new OctreeSceneComponent**(`scene?`): `OctreeSceneComponent`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts:145](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts#L145)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts#L39)
 
 Creates a new instance of the component for the given scene
 
@@ -39,7 +39,7 @@ Defines the scene to register the component in
 
 > `readonly` **checksIsEnabled**: `true` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts#L139)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts#L33)
 
 Indicates if the meshes have been checked to make sure they are isEnabled()
 
@@ -49,7 +49,7 @@ Indicates if the meshes have been checked to make sure they are isEnabled()
 
 > `readonly` **name**: `"Octree"` = `SceneComponentConstants.NAME_OCTREE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts#L23)
 
 The component name help to identify the component in the list of scene components.
 
@@ -59,7 +59,7 @@ The component name help to identify the component in the list of scene component
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts#L28)
 
 The scene the component belongs to.
 
@@ -69,7 +69,7 @@ The scene the component belongs to.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts:246](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts#L246)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts#L140)
 
 Disposes the component and the associated resources.
 
@@ -83,7 +83,7 @@ Disposes the component and the associated resources.
 
 > **getActiveMeshCandidates**(): [`ISmartArrayLike`](../interfaces/ISmartArrayLike.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts:185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts#L185)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts#L79)
 
 Return the list of active meshes
 
@@ -99,7 +99,7 @@ the list of active meshes
 
 > **getActiveSubMeshCandidates**(`mesh`): [`ISmartArrayLike`](../interfaces/ISmartArrayLike.md)\<[`SubMesh`](SubMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts:194](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts#L194)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts#L88)
 
 Return the list of active sub meshes
 
@@ -123,7 +123,7 @@ the list of active sub meshes
 
 > **getCollidingSubMeshCandidates**(`mesh`, `collider`): [`ISmartArrayLike`](../interfaces/ISmartArrayLike.md)\<[`SubMesh`](SubMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts:225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts#L225)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts#L119)
 
 Return the list of sub meshes colliding with a collider
 
@@ -153,7 +153,7 @@ the list of colliding sub meshes
 
 > **getIntersectingSubMeshCandidates**(`mesh`, `localRay`): [`ISmartArrayLike`](../interfaces/ISmartArrayLike.md)\<[`SubMesh`](SubMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts:209](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts#L209)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts#L103)
 
 Return the list of sub meshes intersecting with a given local ray
 
@@ -183,7 +183,7 @@ the list of intersecting sub meshes
 
 > **rebuild**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts:239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts#L239)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts#L133)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -198,7 +198,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts:161](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.ts#L161)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.pure.ts#L55)
 
 Registers the component in a given scene
 

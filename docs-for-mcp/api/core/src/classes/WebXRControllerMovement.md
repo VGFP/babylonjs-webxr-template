@@ -6,7 +6,7 @@
 
 # Class: WebXRControllerMovement
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L153)
 
 This is a movement feature to be used with WebXR-enabled motion controllers.
 When enabled and attached, the feature will allow a user to move around and rotate in the scene using
@@ -22,7 +22,7 @@ the input of the attached controllers.
 
 > **new WebXRControllerMovement**(`_xrSessionManager`, `options`): `WebXRControllerMovement`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:324](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L324)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:327](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L327)
 
 constructs a new movement controller system
 
@@ -54,7 +54,7 @@ configuration object for this feature
 
 > `optional` **dependsOn?**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
 
 The dependencies of this feature, if any
 
@@ -68,7 +68,7 @@ The dependencies of this feature, if any
 
 > **disableAutoAttach**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L27)
 
 Should auto-attach be disabled?
 
@@ -82,7 +82,7 @@ Should auto-attach be disabled?
 
 > **isDisposed**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L22)
 
 Is this feature disposed?
 
@@ -96,7 +96,7 @@ Is this feature disposed?
 
 > **onFeatureAttachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L49)
 
 Observers registered here will be executed when the feature is attached
 
@@ -110,7 +110,7 @@ Observers registered here will be executed when the feature is attached
 
 > **onFeatureDetachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L53)
 
 Observers registered here will be executed when the feature is detached
 
@@ -124,7 +124,7 @@ Observers registered here will be executed when the feature is detached
 
 > `readonly` `static` **Name**: `"xr-controller-movement"` = `WebXRFeatureName.MOVEMENT`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:175](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L175)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L178)
 
 The module's name
 
@@ -134,7 +134,7 @@ The module's name
 
 > `readonly` `static` **REGISTRATIONS**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L180)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L183)
 
 Standard controller configurations.
 
@@ -148,7 +148,7 @@ Standard controller configurations.
 
 > `readonly` `static` **Version**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:206](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L206)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L209)
 
 The (Babylon) version of this module.
 This is an integer representing the implementation version.
@@ -162,7 +162,7 @@ This number does not correspond to the webxr specs version
 
 > **get** **attached**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L69)
 
 Is this feature attached
 
@@ -184,7 +184,7 @@ Is this feature attached
 
 > **get** **movementDirection**(): [`Quaternion`](Quaternion.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:211](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L211)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L214)
 
 Current movement direction.  Will be null before XR Frames have been processed.
 
@@ -200,7 +200,7 @@ Current movement direction.  Will be null before XR Frames have been processed.
 
 > **get** **movementEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:218](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L218)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L221)
 
 Is movement enabled
 
@@ -212,7 +212,7 @@ Is movement enabled
 
 > **set** **movementEnabled**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:226](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L226)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L229)
 
 Sets whether movement is enabled or not
 
@@ -236,7 +236,7 @@ is movement enabled
 
 > **get** **movementOrientationFollowsViewerPose**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:233](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L233)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:236](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L236)
 
 If movement follows viewer pose
 
@@ -248,7 +248,7 @@ If movement follows viewer pose
 
 > **set** **movementOrientationFollowsViewerPose**(`followsPose`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:241](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L241)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:244](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L244)
 
 Sets whether movement follows viewer pose
 
@@ -272,7 +272,7 @@ is movement should follow viewer pose
 
 > **get** **movementSpeed**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:248](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L248)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L251)
 
 Gets movement speed
 
@@ -284,7 +284,7 @@ Gets movement speed
 
 > **set** **movementSpeed**(`movementSpeed`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:256](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L256)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:259](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L259)
 
 Sets movement speed
 
@@ -308,7 +308,7 @@ movement speed
 
 > **get** **movementThreshold**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:263](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L263)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:266](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L266)
 
 Gets minimum threshold the controller's thumbstick/touchpad must pass before being recognized for movement (avoids jitter/unintentional movement)
 
@@ -320,7 +320,7 @@ Gets minimum threshold the controller's thumbstick/touchpad must pass before bei
 
 > **set** **movementThreshold**(`movementThreshold`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L271)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:274](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L274)
 
 Sets minimum threshold the controller's thumbstick/touchpad must pass before being recognized for movement (avoids jitter/unintentional movement)
 
@@ -344,7 +344,7 @@ new threshold
 
 > **get** **rotationEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:278](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L278)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:281](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L281)
 
 Is rotation enabled
 
@@ -356,7 +356,7 @@ Is rotation enabled
 
 > **set** **rotationEnabled**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:286](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L286)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:289](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L289)
 
 Sets whether rotation is enabled or not
 
@@ -380,7 +380,7 @@ is rotation enabled
 
 > **get** **rotationSpeed**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:293](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L293)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L296)
 
 Gets rotation speed factor
 
@@ -392,7 +392,7 @@ Gets rotation speed factor
 
 > **set** **rotationSpeed**(`rotationSpeed`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:301](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L301)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:304](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L304)
 
 Sets rotation speed factor (1.0 is default)
 
@@ -416,7 +416,7 @@ new rotation speed factor
 
 > **get** **rotationThreshold**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:308](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L308)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:311](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L311)
 
 Gets minimum threshold the controller's thumbstick/touchpad must pass before being recognized for rotation (avoids jitter/unintentional rotation)
 
@@ -428,7 +428,7 @@ Gets minimum threshold the controller's thumbstick/touchpad must pass before bei
 
 > **set** **rotationThreshold**(`threshold`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:316](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L316)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:319](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L319)
 
 Sets minimum threshold the controller's thumbstick/touchpad must pass before being recognized for rotation (avoids jitter/unintentional rotation)
 
@@ -452,7 +452,7 @@ new threshold
 
 > **get** **xrNativeFeatureName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L34)
 
 The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
@@ -464,7 +464,7 @@ The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
 > **set** **xrNativeFeatureName**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L38)
 
 The name of the native xr feature name, if applicable (like anchor, hit-test, or hand-tracking)
 
@@ -490,7 +490,7 @@ The name of the native xr feature name, if applicable (like anchor, hit-test, or
 
 > **attach**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:361](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L361)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:364](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L364)
 
 attach this feature
 
@@ -510,7 +510,7 @@ true if successful, false is failed or already attached
 
 > **detach**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:378](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L378)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:381](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L381)
 
 detach this feature.
 
@@ -530,7 +530,7 @@ true if successful, false if failed or already detached
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L131)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L131)
 
 Dispose this feature and all of the resources attached
 
@@ -548,7 +548,7 @@ Dispose this feature and all of the resources attached
 
 > **isCompatible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L144)
 
 This function will be executed during before enabling the feature and can be used to not-allow enabling it.
 Note that at this point the session has NOT started, so this is purely checking if the browser supports it

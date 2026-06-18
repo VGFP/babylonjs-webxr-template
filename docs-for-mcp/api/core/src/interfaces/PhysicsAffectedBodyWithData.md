@@ -6,7 +6,7 @@
 
 # Interface: PhysicsAffectedBodyWithData
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1262](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1262)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1262](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1262)
 
 Interface for an affected physics body
 
@@ -18,7 +18,7 @@ Interface for an affected physics body
 
 > **body**: [`PhysicsBody`](../classes/PhysicsBody.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1266](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1266)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1266](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1266)
 
 The impostor affected by the effect
 
@@ -28,6 +28,6 @@ The impostor affected by the effect
 
 > **hitData**: [`PhysicsHitData`](PhysicsHitData.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1271)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1271](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1271)
 
 The data about the hit/force from the explosion

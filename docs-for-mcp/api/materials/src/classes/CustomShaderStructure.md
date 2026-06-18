@@ -6,7 +6,7 @@
 
 # Class: CustomShaderStructure
 
-Defined in: [babylonjs-source/packages/dev/materials/src/custom/customMaterial.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/materials/src/custom/customMaterial.ts#L19)
+Defined in: [babylonjs-source/packages/dev/materials/src/custom/customMaterial.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/materials/src/custom/customMaterial.ts#L19)
 
 Structure of a custom shader
 
@@ -16,7 +16,7 @@ Structure of a custom shader
 
 > **new CustomShaderStructure**(): `CustomShaderStructure`
 
-Defined in: [babylonjs-source/packages/dev/materials/src/custom/customMaterial.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/materials/src/custom/customMaterial.ts#L29)
+Defined in: [babylonjs-source/packages/dev/materials/src/custom/customMaterial.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/materials/src/custom/customMaterial.ts#L29)
 
 #### Returns
 
@@ -28,7 +28,7 @@ Defined in: [babylonjs-source/packages/dev/materials/src/custom/customMaterial.t
 
 > **FragmentStore**: `string`
 
-Defined in: [babylonjs-source/packages/dev/materials/src/custom/customMaterial.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/materials/src/custom/customMaterial.ts#L23)
+Defined in: [babylonjs-source/packages/dev/materials/src/custom/customMaterial.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/materials/src/custom/customMaterial.ts#L23)
 
 Fragment store
 
@@ -38,6 +38,6 @@ Fragment store
 
 > **VertexStore**: `string`
 
-Defined in: [babylonjs-source/packages/dev/materials/src/custom/customMaterial.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/materials/src/custom/customMaterial.ts#L27)
+Defined in: [babylonjs-source/packages/dev/materials/src/custom/customMaterial.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/materials/src/custom/customMaterial.ts#L27)
 
 Vertex store

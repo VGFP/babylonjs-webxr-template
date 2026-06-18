@@ -6,7 +6,7 @@
 
 # Class: FactorGradient
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/gradients.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/gradients.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/gradients.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/gradients.ts#L69)
 
 Class used to store factor gradient
 
@@ -20,7 +20,7 @@ Class used to store factor gradient
 
 > **new FactorGradient**(`gradient`, `factor1`, `factor2?`): `FactorGradient`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/gradients.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/gradients.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/gradients.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/gradients.ts#L76)
 
 Creates a new factor gradient
 
@@ -54,7 +54,7 @@ gets or sets second associated factor
 
 > **factor1**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/gradients.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/gradients.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/gradients.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/gradients.ts#L84)
 
 Gets or sets first associated factor
 
@@ -64,7 +64,7 @@ Gets or sets first associated factor
 
 > `optional` **factor2?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/gradients.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/gradients.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/gradients.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/gradients.ts#L88)
 
 Gets or sets second associated factor
 
@@ -74,7 +74,7 @@ Gets or sets second associated factor
 
 > **gradient**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/gradients.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/gradients.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/gradients.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/gradients.ts#L80)
 
 Gets or sets the gradient value (between 0 and 1)
 
@@ -88,7 +88,7 @@ Gets or sets the gradient value (between 0 and 1)
 
 > **getFactor**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/gradients.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/gradients.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/gradients.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/gradients.ts#L96)
 
 Will get a number picked randomly between factor1 and factor2.
 If factor2 is undefined then factor1 will be used

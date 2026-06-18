@@ -6,7 +6,7 @@
 
 # Interface: IVertexDataLike
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L97)
 
 Interface used to define a object like a vertex data structure
 
@@ -16,7 +16,7 @@ Interface used to define a object like a vertex data structure
 
 > `optional` **colors?**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L146)
 
 An array of the r, g, b, a, color of each vertex  [...., r, g, b, a, .....]
 
@@ -26,7 +26,7 @@ An array of the r, g, b, a, color of each vertex  [...., r, g, b, a, .....]
 
 > `optional` **indices?**: [`Nullable`](../type-aliases/Nullable.md)\<[`IndicesArray`](../type-aliases/IndicesArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:171](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L171)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:171](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L171)
 
 An array of i, j, k the three vertex indices required for each triangular facet  [...., i, j, k .....]
 
@@ -36,7 +36,7 @@ An array of i, j, k the three vertex indices required for each triangular facet 
 
 > `optional` **matricesIndices?**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L151)
 
 An array containing the list of indices to the array of matrices produced by bones, each vertex have up to 4 indices (8 if the matricesIndicesExtra is set).
 
@@ -46,7 +46,7 @@ An array containing the list of indices to the array of matrices produced by bon
 
 > `optional` **matricesIndicesExtra?**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:161](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L161)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:161](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L161)
 
 An array extending the number of possible indices
 
@@ -56,7 +56,7 @@ An array extending the number of possible indices
 
 > `optional` **matricesWeights?**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:156](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L156)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L156)
 
 An array containing the list of weights defining the weight of each indexed matrix in the final computation
 
@@ -66,7 +66,7 @@ An array containing the list of weights defining the weight of each indexed matr
 
 > `optional` **matricesWeightsExtra?**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L166)
 
 An array extending the number of possible weights when the number of indices is extended
 
@@ -76,7 +76,7 @@ An array extending the number of possible weights when the number of indices is 
 
 > `optional` **normals?**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L106)
 
 An array of the x, y, z normal vector of each vertex  [...., x, y, z, .....]
 
@@ -86,7 +86,7 @@ An array of the x, y, z normal vector of each vertex  [...., x, y, z, .....]
 
 > **positions**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L101)
 
 An array of the x, y, z position of each vertex  [...., x, y, z, .....]
 
@@ -96,7 +96,7 @@ An array of the x, y, z position of each vertex  [...., x, y, z, .....]
 
 > `optional` **tangents?**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L111)
 
 An array of the x, y, z, w tangent vector of each vertex  [...., x, y, z, w, .....]
 
@@ -106,7 +106,7 @@ An array of the x, y, z, w tangent vector of each vertex  [...., x, y, z, w, ...
 
 > `optional` **uvs?**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L116)
 
 An array of u,v which maps a texture image onto each vertex  [...., u, v, .....]
 
@@ -116,7 +116,7 @@ An array of u,v which maps a texture image onto each vertex  [...., u, v, .....]
 
 > `optional` **uvs2?**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L121)
 
 A second array of u,v which maps a texture image onto each vertex  [...., u, v, .....]
 
@@ -126,7 +126,7 @@ A second array of u,v which maps a texture image onto each vertex  [...., u, v, 
 
 > `optional` **uvs3?**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L126)
 
 A third array of u,v which maps a texture image onto each vertex  [...., u, v, .....]
 
@@ -136,7 +136,7 @@ A third array of u,v which maps a texture image onto each vertex  [...., u, v, .
 
 > `optional` **uvs4?**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L131)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L131)
 
 A fourth array of u,v which maps a texture image onto each vertex  [...., u, v, .....]
 
@@ -146,7 +146,7 @@ A fourth array of u,v which maps a texture image onto each vertex  [...., u, v, 
 
 > `optional` **uvs5?**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:136](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L136)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L136)
 
 A fifth array of u,v which maps a texture image onto each vertex  [...., u, v, .....]
 
@@ -156,6 +156,6 @@ A fifth array of u,v which maps a texture image onto each vertex  [...., u, v, .
 
 > `optional` **uvs6?**: [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L141)
 
 A sixth array of u,v which maps a texture image onto each vertex  [...., u, v, .....]

@@ -6,7 +6,7 @@
 
 # Enumeration: ParticleMathBlockOperations
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.pure.ts#L16)
 
 Operations supported by the Math block
 
@@ -16,7 +16,7 @@ Operations supported by the Math block
 
 > **Add**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.pure.ts#L18)
 
 Add
 
@@ -26,7 +26,7 @@ Add
 
 > **Divide**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.pure.ts#L24)
 
 Divide
 
@@ -36,7 +36,7 @@ Divide
 
 > **Max**: `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.pure.ts#L26)
 
 Max
 
@@ -46,7 +46,7 @@ Max
 
 > **Min**: `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.pure.ts#L28)
 
 Min
 
@@ -56,7 +56,7 @@ Min
 
 > **Multiply**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.pure.ts#L22)
 
 Multiply
 
@@ -66,6 +66,6 @@ Multiply
 
 > **Subtract**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleMathBlock.pure.ts#L20)
 
 Subtract

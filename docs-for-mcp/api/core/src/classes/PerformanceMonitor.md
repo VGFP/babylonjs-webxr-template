@@ -6,7 +6,7 @@
 
 # Class: PerformanceMonitor
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:7](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L7)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:7](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L7)
 
 Performance monitor tracks rolling average frame-time and frame-time variance over a user defined sliding-window
 
@@ -16,7 +16,7 @@ Performance monitor tracks rolling average frame-time and frame-time variance ov
 
 > **new PerformanceMonitor**(`frameSampleSize?`): `PerformanceMonitor`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L16)
 
 constructor
 
@@ -40,7 +40,7 @@ The number of samples required to saturate the sliding window
 
 > **get** **averageFPS**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L61)
 
 Returns the average framerate in frames per second over the sliding window (or the subset of frames sampled so far)
 
@@ -56,7 +56,7 @@ Returns the average framerate in frames per second over the sliding window (or t
 
 > **get** **averageFrameTime**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L40)
 
 Returns the average frame time in milliseconds over the sliding window (or the subset of frames sampled so far)
 
@@ -72,7 +72,7 @@ Returns the average frame time in milliseconds over the sliding window (or the s
 
 > **get** **averageFrameTimeVariance**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L47)
 
 Returns the variance frame time in milliseconds over the sliding window (or the subset of frames sampled so far)
 
@@ -88,7 +88,7 @@ Returns the variance frame time in milliseconds over the sliding window (or the 
 
 > **get** **instantaneousFPS**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L68)
 
 Returns the average framerate in frames per second using the most recent frame time
 
@@ -104,7 +104,7 @@ Returns the average framerate in frames per second using the most recent frame t
 
 > **get** **instantaneousFrameTime**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L54)
 
 Returns the frame time of the most recent frame
 
@@ -120,7 +120,7 @@ Returns the frame time of the most recent frame
 
 > **get** **isEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L105)
 
 Returns true if sampling is enabled
 
@@ -136,7 +136,7 @@ Returns true if sampling is enabled
 
 > **get** **isSaturated**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L81)
 
 Returns true if enough samples have been taken to completely fill the sliding window
 
@@ -150,7 +150,7 @@ Returns true if enough samples have been taken to completely fill the sliding wi
 
 > **disable**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L96)
 
 Disables contributions to the sliding window sample set
 Samples will not be interpolated over the disabled period
@@ -165,7 +165,7 @@ Samples will not be interpolated over the disabled period
 
 > **enable**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L88)
 
 Enables contributions to the sliding window sample set
 
@@ -179,7 +179,7 @@ Enables contributions to the sliding window sample set
 
 > **reset**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L112)
 
 Resets performance monitor
 
@@ -193,7 +193,7 @@ Resets performance monitor
 
 > **sampleFrame**(`timeMs?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L24)
 
 Samples current frame
 

@@ -6,7 +6,7 @@
 
 # Interface: VectorStatic\<T, _I\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L81)
 
 Static side of Vector
 
@@ -30,7 +30,7 @@ Static side of Vector
 
 > **new VectorStatic**(...`coords`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L81)
 
 Creates a new instance from the given coordinates
 
@@ -54,7 +54,7 @@ Creates a new instance from the given coordinates
 
 > **prototype**: `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:367](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L367)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:367](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L367)
 
 So [[static]].prototype has typings, instead of just any
 
@@ -68,7 +68,7 @@ So [[static]].prototype has typings, instead of just any
 
 > **Center**(`value1`, `value2`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:455](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L455)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:455](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L455)
 
 Gets a new instance located at the center of the instances "value1" and "value2"
 
@@ -102,7 +102,7 @@ a new instance
 
 > **CenterToRef**(`value1`, `value2`, `ref`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:464](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L464)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:464](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L464)
 
 Gets the center of the instances "value1" and "value2" and stores the result in the instance "ref"
 
@@ -142,7 +142,7 @@ ref
 
 > **CheckExtends**(`value`, `min`, `max`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L88)
 
 Checks if a given vector is inside a specific range
 
@@ -176,7 +176,7 @@ defines the maximum range
 
 > **Clamp**(`value`, `min`, `max`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:475](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L475)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:475](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L475)
 
 Returns a new instance set with same the coordinates than "value" ones if the instance "value" is in the square defined by "min" and "max".
 If a coordinate of "value" is lower than "min" coordinates, the returned instance is given this "min" coordinate.
@@ -218,7 +218,7 @@ a new instance
 
 > **ClampToRef**(`value`, `min`, `max`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:487](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L487)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:487](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L487)
 
 Returns a new instance set with same the coordinates than "value" ones if the instance "value" is in the square defined by "min" and "max".
 If a coordinate of "value" is lower than "min" coordinates, the returned instance is given this "min" coordinate.
@@ -266,7 +266,7 @@ the updated result instance
 
 > **Distance**(`value1`, `value2`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:439](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L439)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:439](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L439)
 
 Gets the distance between the instances "value1" and "value2"
 
@@ -300,7 +300,7 @@ the distance between instances
 
 > **DistanceSquared**(`value1`, `value2`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:447](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L447)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:447](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L447)
 
 Returns the squared distance between the instances "value1" and "value2"
 
@@ -334,7 +334,7 @@ the squared distance between instances
 
 > **Dot**(`left`, `right`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:415](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L415)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:415](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L415)
 
 Gets the dot product of the instance "left" and the instance "right"
 
@@ -368,7 +368,7 @@ the dot product (float)
 
 > **FromArray**(`array`, `offset?`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:392](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L392)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:392](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L392)
 
 Gets a new instance from the given index element of the given array
 
@@ -402,7 +402,7 @@ a new instance
 
 > **FromArrayToRef**(`array`, `offset`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:401](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L401)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:401](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L401)
 
 Sets "result" from the given index element of the given array
 
@@ -442,7 +442,7 @@ result input
 
 > **FromFloatsToRef**(...`args`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:407](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L407)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:407](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L407)
 
 Sets the given instance "result" with the given floats.
 
@@ -468,7 +468,7 @@ defines the coordinates of the source with the last paramater being the result
 
 > **Maximize**(`left`, `right`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:431](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L431)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:431](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L431)
 
 Gets a new instance set with the maximal coordinate values from the "left" and "right" instances
 
@@ -502,7 +502,7 @@ a new instance
 
 > **Minimize**(`left`, `right`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:423](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L423)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:423](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L423)
 
 Gets a new instance set with the minimal coordinate values from the "left" and "right" instances
 
@@ -536,7 +536,7 @@ a new instance
 
 > **Normalize**(`vector`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L95)
 
 Returns a new Vector equal to the normalized given vector
 
@@ -560,7 +560,7 @@ a new Vector
 
 > **NormalizeToRef**(`vector`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L103)
 
 Normalize a given vector into a second one
 
@@ -590,7 +590,7 @@ result input
 
 > **Random**(`min?`, `max?`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:375](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L375)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:375](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L375)
 
 Returns a new instance with random values between min and max
 
@@ -624,7 +624,7 @@ a instance with random values between min and max
 
 > **RandomToRef**(`min`, `max`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:384](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L384)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:384](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L384)
 
 Returns a new instance with random values between min and max
 

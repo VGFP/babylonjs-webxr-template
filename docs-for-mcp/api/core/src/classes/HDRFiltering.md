@@ -6,7 +6,7 @@
 
 # Class: HDRFiltering
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts#L31)
 
 Filters HDR maps to get correct renderings of PBR reflections
 
@@ -16,7 +16,7 @@ Filters HDR maps to get correct renderings of PBR reflections
 
 > **new HDRFiltering**(`engine`, `options?`): `HDRFiltering`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts#L56)
 
 Instantiates HDR filter for reflection maps
 
@@ -44,7 +44,7 @@ Options
 
 > **hdrScale**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts#L48)
 
 Scales pixel intensity for the input HDR map.
 
@@ -54,7 +54,7 @@ Scales pixel intensity for the input HDR map.
 
 > **quality**: `number` = `Constants.TEXTURE_FILTERING_QUALITY_OFFLINE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts#L43)
 
 Quality switch for prefiltering. Should be set to `Constants.TEXTURE_FILTERING_QUALITY_OFFLINE` unless
 you care about baking speed.
@@ -65,7 +65,7 @@ you care about baking speed.
 
 > **isReady**(`texture`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts:206](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts#L206)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts:206](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts#L206)
 
 Get a value indicating if the filter is ready to be used
 
@@ -89,7 +89,7 @@ true if the filter is ready
 
 > **prefilter**(`texture`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Filtering/hdrFiltering.ts#L219)
 
 Prefilters a cube texture to have mipmap levels representing roughness values.
 Prefiltering will be invoked at the end of next rendering pass.

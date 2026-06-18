@@ -6,7 +6,7 @@
 
 # Class: NodeParticleBuildState
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L17)
 
 Class used to store node based geometry build state
 
@@ -26,7 +26,7 @@ Class used to store node based geometry build state
 
 > **buildId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L31)
 
 Gets or sets the build identifier
 
@@ -36,7 +36,7 @@ Gets or sets the build identifier
 
 > **capacity**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L23)
 
 Gets the capactity of the particle system to build
 
@@ -46,7 +46,7 @@ Gets the capactity of the particle system to build
 
 > **gradientIndex**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L52)
 
 Gets or sets the index of the gradient to use
 
@@ -56,7 +56,7 @@ Gets or sets the index of the gradient to use
 
 > **nextGradientIndex**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L56)
 
 Gets or sets next gradient in line
 
@@ -66,7 +66,7 @@ Gets or sets next gradient in line
 
 > **nextGradientValue**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L60)
 
 Gets or sets the next gradient value
 
@@ -76,7 +76,7 @@ Gets or sets the next gradient value
 
 > **notConnectedNonOptionalInputs**: [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L34)
 
 Gets or sets the list of non connected mandatory inputs
 
@@ -86,7 +86,7 @@ Gets or sets the list of non connected mandatory inputs
 
 > **particleContext**: [`Nullable`](../type-aliases/Nullable.md)\<[`Particle`](Particle.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L42)
 
 Gets or sets the particle context for contextual data
 
@@ -96,7 +96,7 @@ Gets or sets the particle context for contextual data
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L28)
 
 Gets the scene where the particle system is built
 
@@ -106,7 +106,7 @@ Gets the scene where the particle system is built
 
 > **systemContext**: [`Nullable`](../type-aliases/Nullable.md)\<`ThinParticleSystem`\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L47)
 
 Gets or sets the system context for contextual data
 
@@ -116,7 +116,7 @@ Gets or sets the system context for contextual data
 
 > **verbose**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L37)
 
 Gets or sets a boolean indicating that verbose mode is on
 
@@ -128,7 +128,7 @@ Gets or sets a boolean indicating that verbose mode is on
 
 > **get** **emitterInverseWorldMatrix**(): [`Matrix`](Matrix.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L195)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L195)
 
 Gets the emitter inverse world matrix
 
@@ -144,7 +144,7 @@ Gets the emitter inverse world matrix
 
 > **get** **emitterPosition**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Vector3`](Vector3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L205)
 
 Gets the emitter position
 
@@ -160,7 +160,7 @@ Gets the emitter position
 
 > **get** **emitterWorldMatrix**(): [`Matrix`](Matrix.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L185)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L185)
 
 Gets the emitter world matrix
 
@@ -174,7 +174,7 @@ Gets the emitter world matrix
 
 > **adapt**(`source`, `targetType`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L102)
 
 Adapt a value to a target type
 
@@ -204,7 +204,7 @@ the adapted value
 
 > **emitErrors**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L65)
 
 Emits errors if any
 
@@ -218,7 +218,7 @@ Emits errors if any
 
 > **getContextualValue**(`source`): `number` \| [`Vector2`](Vector2.md) \| [`Color4`](Color4.md) \| [`Nullable`](../type-aliases/Nullable.md)\<[`Vector3`](Vector3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L126)
 
 Gets the value associated with a contextual source
 
@@ -242,7 +242,7 @@ the value associated with the source
 
 > **getSystemValue**(`source`): `number` \| [`Nullable`](../type-aliases/Nullable.md)\<[`Vector3`](Vector3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:226](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L226)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:226](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L226)
 
 Gets the value associated with a system source
 
@@ -266,7 +266,7 @@ the value associated with the source
 
 > **registerBuildPromise**(`promise`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L84)
 
 Registers an asynchronous operation that must complete before the node particle system is ready.
 
@@ -288,7 +288,7 @@ defines the promise to wait for
 
 > **waitForBuildPromisesAsync**(): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBuildState.ts#L92)
 
 Waits for all asynchronous build operations to complete.
 

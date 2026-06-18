@@ -6,7 +6,7 @@
 
 # Class: InternalTexture
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L91)
 
 Class used to store data associated with WebGL texture data for the engine
 This class should not be used directly
@@ -21,7 +21,7 @@ This class should not be used directly
 
 > **new InternalTexture**(`engine`, `source`, `delayAllocation?`): `InternalTexture`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:313](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L313)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L323)
 
 Creates a new InternalTexture
 
@@ -59,7 +59,7 @@ if the texture allocation should be delayed (default: false)
 
 > **baseDepth**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:184](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L184)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L194)
 
 Gets the initial depth of the texture (It could be rescaled if the current system does not support non power of two textures)
 
@@ -69,7 +69,7 @@ Gets the initial depth of the texture (It could be rescaled if the current syste
 
 > **baseHeight**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L180)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L190)
 
 Gets the initial height of the texture (It could be rescaled if the current system does not support non power of two textures)
 
@@ -79,7 +79,7 @@ Gets the initial height of the texture (It could be rescaled if the current syst
 
 > **baseWidth**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:186](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L186)
 
 Gets the initial width of the texture (It could be rescaled if the current system does not support non power of two textures)
 
@@ -89,7 +89,7 @@ Gets the initial width of the texture (It could be rescaled if the current syste
 
 > **depth**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L172)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L182)
 
 Gets the depth of the texture
 
@@ -99,7 +99,7 @@ Gets the depth of the texture
 
 > **format**: `number` = `-1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L142)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L152)
 
 Gets the format of the texture (RGB, RGBA...)
 
@@ -109,7 +109,7 @@ Gets the format of the texture (RGB, RGBA...)
 
 > **generateMipMaps**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L121)
 
 Gets a boolean indicating if the texture needs mipmaps generation
 
@@ -119,7 +119,7 @@ Gets a boolean indicating if the texture needs mipmaps generation
 
 > **height**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:168](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L168)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L178)
 
 Gets the height of the texture
 
@@ -129,7 +129,7 @@ Gets the height of the texture
 
 > **invertY**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:188](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L188)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L198)
 
 Gets a boolean indicating if the texture is inverted on Y axis
 
@@ -139,7 +139,7 @@ Gets a boolean indicating if the texture is inverted on Y axis
 
 > **is2DArray**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L107)
 
 Defines if the texture contains 2D array data
 
@@ -149,7 +149,7 @@ Defines if the texture contains 2D array data
 
 > **is3D**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L103)
 
 Defines if the texture contains 3D data
 
@@ -159,7 +159,7 @@ Defines if the texture contains 3D data
 
 > **isCube**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L99)
 
 Defines if the texture is a cube texture
 
@@ -169,7 +169,7 @@ Defines if the texture is a cube texture
 
 > **isMultiview**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L111)
 
 Defines if the texture contains multiview data
 
@@ -179,7 +179,7 @@ Defines if the texture contains multiview data
 
 > **isReady**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L95)
 
 Defines if the texture is ready
 
@@ -189,7 +189,7 @@ Defines if the texture is ready
 
 > `optional` **label?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L113)
 
 General label used for debugging or storing a name.
 
@@ -203,7 +203,7 @@ General label used for debugging or storing a name.
 
 > **mipLevelCount**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L140)
 
 Gets the number of mip levels for this texture.
 Note: This property has the correct value only if the texture was created through
@@ -215,7 +215,7 @@ Note: This property has the correct value only if the texture was created throug
 
 > **onErrorObservable**: [`Observable`](Observable.md)\<`Partial`\<\{ `exception`: `any`; `message`: `string`; \}\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L160)
 
 Observable called when the texture load is raising an error
 
@@ -225,7 +225,7 @@ Observable called when the texture load is raising an error
 
 > **onLoadedObservable**: [`Observable`](Observable.md)\<`InternalTexture`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L156)
 
 Observable called when the texture is loaded
 
@@ -235,7 +235,7 @@ Observable called when the texture is loaded
 
 > **onRebuildCallback**: [`Nullable`](../type-aliases/Nullable.md)\<(`internalTexture`) => `object`\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:154](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L154)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:164](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L164)
 
 If this callback is defined it will be called instead of the default _rebuild function
 
@@ -245,7 +245,7 @@ If this callback is defined it will be called instead of the default _rebuild fu
 
 > **samples**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L144)
 
 Gets the number of samples used by the texture (WebGL2+ only)
 
@@ -255,7 +255,7 @@ Gets the number of samples used by the texture (WebGL2+ only)
 
 > **samplingMode**: `number` = `-1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L11)
 
 Gets the sampling mode of the texture
 
@@ -269,7 +269,7 @@ Gets the sampling mode of the texture
 
 > **type**: `number` = `-1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L148)
 
 Gets the type of the texture (int, float...)
 
@@ -279,7 +279,7 @@ Gets the type of the texture (int, float...)
 
 > **url**: `string` = `""`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L115)
 
 Gets the URL used to load this texture
 
@@ -289,7 +289,7 @@ Gets the URL used to load this texture
 
 > **width**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:164](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L164)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L174)
 
 Gets the width of the texture
 
@@ -301,7 +301,7 @@ Gets the width of the texture
 
 > **get** **anisotropicFilteringLevel**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L63)
 
 With compliant hardware and browser (supporting anisotropic filtering)
 this defines the level of anisotropic filtering in the texture.
@@ -315,7 +315,7 @@ The higher the better but the slower.
 
 > **set** **anisotropicFilteringLevel**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L67)
 
 ##### Parameters
 
@@ -339,7 +339,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSa
 
 > **get** **comparisonFunction**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L74)
 
 Gets or sets the comparison function (Constants.LESS, Constants.EQUAL, etc). Set 0 to not use a comparison function
 
@@ -351,7 +351,7 @@ Gets or sets the comparison function (Constants.LESS, Constants.EQUAL, etc). Set
 
 > **set** **comparisonFunction**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L78)
 
 ##### Parameters
 
@@ -375,7 +375,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSa
 
 > **get** **source**(): [`InternalTextureSource`](../enumerations/InternalTextureSource.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:303](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L303)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:313](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L313)
 
 Gets the data source type of the texture
 
@@ -391,7 +391,7 @@ Gets the data source type of the texture
 
 > **get** **uniqueId**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:283](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L283)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:293](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L293)
 
 Gets the unique id of the internal texture
 
@@ -407,7 +407,7 @@ Gets the unique id of the internal texture
 
 > **get** **useMipMaps**(): [`Nullable`](../type-aliases/Nullable.md)\<`boolean`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L129)
 
 Indicates to use the mip maps (if available on the texture).
 Thanks to this flag, you can instruct the sampler to not sample the mipmaps even if they exist (and if the sampling mode is set to a value that normally samples the mipmaps!)
@@ -421,7 +421,7 @@ If useMipMaps is null, the value of generateMipMaps is returned by the getter (f
 
 > **set** **useMipMaps**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L122)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L132)
 
 Indicates to use the mip maps (if available on the texture).
 Thanks to this flag, you can instruct the sampler to not sample the mipmaps even if they exist (and if the sampling mode is set to a value that normally samples the mipmaps!)
@@ -448,7 +448,7 @@ Thanks to this flag, you can instruct the sampler to not sample the mipmaps even
 
 > **get** **wrapR**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L50)
 
 | Value | Type               | Description |
 | ----- | ------------------ | ----------- |
@@ -464,7 +464,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSa
 
 > **set** **wrapR**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L54)
 
 ##### Parameters
 
@@ -488,7 +488,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSa
 
 > **get** **wrapU**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L20)
 
 | Value | Type               | Description |
 | ----- | ------------------ | ----------- |
@@ -504,7 +504,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSa
 
 > **set** **wrapU**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L24)
 
 ##### Parameters
 
@@ -528,7 +528,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSa
 
 > **get** **wrapV**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L35)
 
 | Value | Type               | Description |
 | ----- | ------------------ | ----------- |
@@ -544,7 +544,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSa
 
 > **set** **wrapV**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L39)
 
 ##### Parameters
 
@@ -566,7 +566,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSa
 
 > **compareSampler**(`other`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L153)
 
 Compares this sampler with another one
 
@@ -594,7 +594,7 @@ true if the samplers have the same parametres, else false
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:617](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L617)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:641](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L641)
 
 Dispose the current allocated resources
 
@@ -608,7 +608,7 @@ Dispose the current allocated resources
 
 > **getEngine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:296](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L296)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:306](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L306)
 
 Gets the Engine the texture belongs to.
 
@@ -624,7 +624,7 @@ The babylon engine
 
 > **incrementReferences**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:328](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L328)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:338](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L338)
 
 Increments the number of references (ie. the number of Texture that point to it)
 
@@ -638,7 +638,7 @@ Increments the number of references (ie. the number of Texture that point to it)
 
 > **setParameters**(`wrapU?`, `wrapV?`, `wrapR?`, `anisotropicFilteringLevel?`, `samplingMode?`, `comparisonFunction?`): [`TextureSampler`](TextureSampler.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureSampler.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureSampler.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureSampler.ts#L130)
 
 Sets all the parameters of the sampler
 
@@ -696,7 +696,7 @@ the current sampler instance
 
 > **updateSize**(`width`, `height`, `depth?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:338](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/internalTexture.ts#L338)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/internalTexture.ts:348](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/internalTexture.ts#L348)
 
 Change the size of the texture (not the size of the content)
 

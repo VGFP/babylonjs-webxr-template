@@ -6,7 +6,7 @@
 
 # Interface: IExplorerExtensibilityOption
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/debugLayer.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/debugLayer.pure.ts#L21)
 
 Interface used to define scene explorer extensibility option
 
@@ -16,7 +16,7 @@ Interface used to define scene explorer extensibility option
 
 > **action**: (`entity`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/debugLayer.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/debugLayer.pure.ts#L29)
 
 Defines the action to execute on click
 
@@ -36,7 +36,7 @@ Defines the action to execute on click
 
 > `optional` **keepOpenAfterClick?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/debugLayer.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/debugLayer.pure.ts#L33)
 
 Keep popup open after click
 
@@ -46,6 +46,6 @@ Keep popup open after click
 
 > **label**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/debugLayer.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/debugLayer.pure.ts#L25)
 
 Define the option label

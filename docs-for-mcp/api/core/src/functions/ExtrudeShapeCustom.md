@@ -8,7 +8,7 @@
 
 > **ExtrudeShapeCustom**(`name`, `options`, `scene?`): [`Mesh`](../classes/Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/shapeBuilder.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/shapeBuilder.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/shapeBuilder.pure.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/shapeBuilder.pure.ts#L126)
 
 Creates an custom extruded shape mesh.
 The custom extrusion is a parametric shape. It has no predefined shape. Its final shape will depend on the input parameters.

@@ -6,7 +6,7 @@
 
 # Interface: IVertexBufferOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:285](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L285)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:289](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L289)
 
 Options to be used when creating a vertex buffer
 
@@ -16,7 +16,7 @@ Options to be used when creating a vertex buffer
 
 > `optional` **divisor?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:325](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L325)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:329](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L329)
 
 defines the instance divisor to use (default: 1, only used if instanced is true)
 
@@ -26,7 +26,7 @@ defines the instance divisor to use (default: 1, only used if instanced is true)
 
 > `optional` **instanced?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:301](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L301)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:305](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L305)
 
 whether the buffer is instanced (default: false)
 
@@ -36,7 +36,7 @@ whether the buffer is instanced (default: false)
 
 > `optional` **label?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:333](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L333)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:337](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L337)
 
 label to use for this vertex buffer (debugging purpose)
 
@@ -46,7 +46,7 @@ label to use for this vertex buffer (debugging purpose)
 
 > `optional` **normalized?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:317](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L317)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:321](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L321)
 
 whether the data contains normalized data (default: false)
 
@@ -56,7 +56,7 @@ whether the data contains normalized data (default: false)
 
 > `optional` **offset?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:305](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L305)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:309](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L309)
 
 the offset of the data (default: 0)
 
@@ -66,7 +66,7 @@ the offset of the data (default: 0)
 
 > `optional` **postponeInternalCreation?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:293](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L293)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:297](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L297)
 
 whether to postpone creating the internal WebGL buffer (default: false)
 
@@ -76,7 +76,7 @@ whether to postpone creating the internal WebGL buffer (default: false)
 
 > `optional` **size?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:309](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L309)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:313](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L313)
 
 the number of components (will be automatically computed from the kind parameter if not specified)
 
@@ -86,7 +86,7 @@ the number of components (will be automatically computed from the kind parameter
 
 > `optional` **stride?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:297](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L297)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:301](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L301)
 
 the stride (will be automatically computed from the kind parameter if not specified)
 
@@ -96,7 +96,7 @@ the stride (will be automatically computed from the kind parameter if not specif
 
 > `optional` **takeBufferOwnership?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:329](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L329)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:333](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L333)
 
 defines if the buffer should be released when the vertex buffer is disposed (default: false)
 
@@ -106,7 +106,7 @@ defines if the buffer should be released when the vertex buffer is disposed (def
 
 > `optional` **type?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:313](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L313)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:317](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L317)
 
 the type of the component (will be deduce from the data parameter if not specified)
 
@@ -116,7 +116,7 @@ the type of the component (will be deduce from the data parameter if not specifi
 
 > `optional` **updatable?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:289](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L289)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:293](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L293)
 
 whether the data is updatable (default: false)
 
@@ -126,6 +126,6 @@ whether the data is updatable (default: false)
 
 > `optional` **useBytes?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.ts:321](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/buffer.ts#L321)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:325](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L325)
 
 set to true if stride and offset are in bytes (default: false)

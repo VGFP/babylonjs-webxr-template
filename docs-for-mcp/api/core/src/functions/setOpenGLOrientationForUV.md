@@ -8,7 +8,7 @@
 
 > **setOpenGLOrientationForUV**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Compat/compatibilityOptions.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Compat/compatibilityOptions.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Compat/compatibilityOptions.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Compat/compatibilityOptions.ts#L12)
 
 Sets whether to use OpenGL convention for UVs
 

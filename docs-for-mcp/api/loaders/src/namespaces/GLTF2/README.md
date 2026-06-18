@@ -88,6 +88,8 @@
 - [ISkin](interfaces/ISkin.md)
 - [ITexture](interfaces/ITexture.md)
 - [ITextureInfo](interfaces/ITextureInfo.md)
+- [ITransmissionHelperMaterialImpl](interfaces/ITransmissionHelperMaterialImpl.md)
+- [ITransmissionHelperOptions](interfaces/ITransmissionHelperOptions.md)
 
 ## Type Aliases
 
@@ -102,6 +104,7 @@
 
 - [addNewInteractivityFlowGraphMapping](functions/addNewInteractivityFlowGraphMapping.md)
 - [AddObjectAccessorToKey](functions/AddObjectAccessorToKey.md)
+- [ensureTransmissionHelper](functions/ensureTransmissionHelper.md)
 - [getAllSupportedNativeNodeTypes](functions/getAllSupportedNativeNodeTypes.md)
 - [getMappingForDeclaration](functions/getMappingForDeclaration.md)
 - [getMappingForFullOperationName](functions/getMappingForFullOperationName.md)

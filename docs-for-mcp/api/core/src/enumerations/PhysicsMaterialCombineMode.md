@@ -6,7 +6,7 @@
 
 # Enumeration: PhysicsMaterialCombineMode
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L8)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L8)
 
 Determines how values from the PhysicsMaterial are combined when
 two objects are in contact. When each PhysicsMaterial specifies
@@ -20,7 +20,7 @@ a value later in this list will be preferentially used.
 
 > **ARITHMETIC\_MEAN**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L26)
 
 The final value will be the arithmetic mean of the two values:
 (valueA + valueB) / 2
@@ -31,7 +31,7 @@ The final value will be the arithmetic mean of the two values:
 
 > **GEOMETRIC\_MEAN**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L13)
 
 The final value will be the geometric mean of the two values:
 sqrt( valueA *  valueB )
@@ -42,7 +42,7 @@ sqrt( valueA *  valueB )
 
 > **MAXIMUM**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L22)
 
 The final value will be the larger of the two:
 max( valueA , valueB )
@@ -53,7 +53,7 @@ max( valueA , valueB )
 
 > **MINIMUM**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L18)
 
 The final value will be the smaller of the two:
 min( valueA , valueB )
@@ -64,7 +64,7 @@ min( valueA , valueB )
 
 > **MULTIPLY**: `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L31)
 
 The final value will be the product of the two values:
 valueA * valueB

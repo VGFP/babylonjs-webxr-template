@@ -6,7 +6,7 @@
 
 # Class: AnimatorAvatar
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatorAvatar.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatorAvatar.ts#L115)
 
 Represents an animator avatar that manages meshes, skeletons and morph target managers for a hierarchical transform node and mesh structure.
 This class is used to group and manage animation-related resources (meshes, skeletons and morph targets) associated with a root transform node and its descendants.
@@ -17,7 +17,7 @@ This class is used to group and manage animation-related resources (meshes, skel
 
 > **new AnimatorAvatar**(`name`, `rootNode?`, `_disposeResources?`, `setAvatarName?`): `AnimatorAvatar`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:156](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatorAvatar.ts#L156)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatorAvatar.ts#L156)
 
 Creates an instance of AnimatorAvatar.
 
@@ -57,7 +57,7 @@ Indicates whether to set the name of the root node to the avatar name. Default i
 
 > **meshes**: [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatorAvatar.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatorAvatar.ts#L119)
 
 List of meshes found in the hierarchy of the root node. Only meshes with at least one vertex are included.
 
@@ -67,7 +67,7 @@ List of meshes found in the hierarchy of the root node. Only meshes with at leas
 
 > **morphTargetManagers**: `Set`\<[`MorphTargetManager`](MorphTargetManager.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatorAvatar.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatorAvatar.ts#L130)
 
 Set of morph target managers found in the mesh hierarchy.
 Each morph target manager is configured with the appropriate mesh name and influencer count.
@@ -78,7 +78,7 @@ Each morph target manager is configured with the appropriate mesh name and influ
 
 > `readonly` **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:157](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatorAvatar.ts#L157)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:157](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatorAvatar.ts#L157)
 
 The name to assign to this avatar and its root node
 
@@ -88,7 +88,7 @@ The name to assign to this avatar and its root node
 
 > `readonly` `optional` **rootNode?**: [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:158](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatorAvatar.ts#L158)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatorAvatar.ts#L158)
 
 The root node of the avatar hierarchy. This node and its descendants will be scanned for meshes, skeletons and morph target managers. If not provided, you are expected to manually manage meshes, skeletons and morph target managers.
 
@@ -98,7 +98,7 @@ The root node of the avatar hierarchy. This node and its descendants will be sca
 
 > **showWarnings**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:147](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatorAvatar.ts#L147)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:147](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatorAvatar.ts#L147)
 
 Indicates whether to show warnings during retargeting operations.
 
@@ -108,7 +108,7 @@ Indicates whether to show warnings during retargeting operations.
 
 > **skeletons**: `Set`\<[`Skeleton`](Skeleton.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatorAvatar.ts#L124)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatorAvatar.ts#L124)
 
 Set of skeletons found in the mesh hierarchy.
 
@@ -120,7 +120,7 @@ Set of skeletons found in the mesh hierarchy.
 
 > **get** **mapMorphTargetNameToMorphTarget**(): [`Immutable`](../type-aliases/Immutable.md)\<`Map`\<`string`, [`MorphTarget`](MorphTarget.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatorAvatar.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatorAvatar.ts#L137)
 
 Map of morph target names to their corresponding MorphTarget instances.
 The keys are constructed using the format "meshName_morphTargetName".
@@ -135,7 +135,7 @@ The keys are constructed using the format "meshName_morphTargetName".
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:479](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatorAvatar.ts#L479)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:479](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatorAvatar.ts#L479)
 
 Disposes of the avatar and releases all associated resources.
 This will dispose all skeletons, morph target managers, and the root mesh with its descendants (including materials and textures).
@@ -151,7 +151,7 @@ If disposeResources was set to false in the constructor, this method does nothin
 
 > **findBoneByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Bone`](Bone.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:233](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatorAvatar.ts#L233)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:233](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatorAvatar.ts#L233)
 
 Finds a bone in the avatar's skeletons by its name.
 
@@ -175,7 +175,7 @@ The found bone or null if not found
 
 > **findBoneByTransformNode**(`nameOrTransformNode`): [`Nullable`](../type-aliases/Nullable.md)\<[`Bone`](Bone.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatorAvatar.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatorAvatar.ts#L205)
 
 Finds a bone in the avatar's skeletons by its linked transform node or the name of the linked transform node.
 
@@ -199,7 +199,7 @@ The found bone or null if not found
 
 > **retargetAnimationGroup**(`sourceAnimationGroup`, `options?`): [`AnimationGroup`](AnimationGroup.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:260](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatorAvatar.ts#L260)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatorAvatar.ts:260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatorAvatar.ts#L260)
 
 Make sures that the animation group passed as the first parameter will animate the bones in the skeleton(s) / the morphs in the morph target manager(s) of the avatar.
 Retargeting is based on the names of the targets (TransformNode or MorphTarget) in the animation and the names of the bones in the skeleton / morph targets in the morph target manager.

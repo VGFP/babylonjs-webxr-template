@@ -6,7 +6,7 @@
 
 # Class: PointerInfo
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/pointerEvents.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/pointerEvents.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/pointerEvents.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/pointerEvents.ts#L112)
 
 This type contains all the data related to a pointer event in Babylon.js.
 The event member is an instance of PointerEvent for all types except PointerWheel and is of type MouseWheelEvent when type equals PointerWheel. The different event types can be found in the PointerEventTypes class.
@@ -21,7 +21,7 @@ The event member is an instance of PointerEvent for all types except PointerWhee
 
 > **new PointerInfo**(`type`, `event`, `pickInfo`, `inputManager?`): `PointerInfo`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/pointerEvents.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/pointerEvents.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/pointerEvents.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/pointerEvents.ts#L133)
 
 Instantiates a PointerInfo to store pointer related info to the onPointerObservable event.
 
@@ -65,7 +65,7 @@ Defines the InputManager to use if there is no pickInfo
 
 > **event**: [`IMouseEvent`](../interfaces/IMouseEvent.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/pointerEvents.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/pointerEvents.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/pointerEvents.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/pointerEvents.ts#L60)
 
 Defines the related dom event
 
@@ -79,7 +79,7 @@ Defines the related dom event
 
 > **type**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/pointerEvents.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/pointerEvents.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/pointerEvents.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/pointerEvents.ts#L56)
 
 Defines the type of event (PointerEventTypes)
 
@@ -95,7 +95,7 @@ Defines the type of event (PointerEventTypes)
 
 > **get** **pickInfo**(): [`Nullable`](../type-aliases/Nullable.md)\<[`PickingInfo`](PickingInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/pointerEvents.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/pointerEvents.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/pointerEvents.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/pointerEvents.ts#L119)
 
 Defines the picking info associated with this PointerInfo object (if applicable)
 

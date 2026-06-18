@@ -6,7 +6,7 @@
 
 # Interface: IInspectable
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/iInspectable.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/iInspectable.ts#L75)
 
 Interface used to define custom inspectable properties.
 This interface is used by the inspector to display custom property grids
@@ -21,7 +21,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > `optional` **accept?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/iInspectable.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/iInspectable.ts#L116)
 
 Gets the extensions to accept when using "FileButton" mode.
 The value should be a comma separated string with the list of extensions to accept e.g., ".jpg, .png, .tga, .dds, .env".
@@ -32,7 +32,7 @@ The value should be a comma separated string with the list of extensions to acce
 
 > `optional` **callback?**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/iInspectable.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/iInspectable.ts#L103)
 
 Gets the callback function when using "Button" mode
 
@@ -46,7 +46,7 @@ Gets the callback function when using "Button" mode
 
 > `optional` **fileCallback?**: (`file`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/iInspectable.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/iInspectable.ts#L107)
 
 Gets the callback function when using "FileButton" mode
 
@@ -66,7 +66,7 @@ Gets the callback function when using "FileButton" mode
 
 > **label**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/iInspectable.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/iInspectable.ts#L79)
 
 Gets the label to display
 
@@ -76,7 +76,7 @@ Gets the label to display
 
 > `optional` **max?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/iInspectable.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/iInspectable.ts#L95)
 
 Gets the maximum value of the property when using in "slider" mode
 
@@ -86,7 +86,7 @@ Gets the maximum value of the property when using in "slider" mode
 
 > `optional` **min?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/iInspectable.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/iInspectable.ts#L91)
 
 Gets the minimum value of the property when using in "slider" mode
 
@@ -96,7 +96,7 @@ Gets the minimum value of the property when using in "slider" mode
 
 > `optional` **options?**: [`IInspectableOptions`](IInspectableOptions.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/iInspectable.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/iInspectable.ts#L111)
 
 Gets the list of options when using "Option" mode
 
@@ -106,7 +106,7 @@ Gets the list of options when using "Option" mode
 
 > **propertyName**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/iInspectable.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/iInspectable.ts#L83)
 
 Gets the name of the property to edit
 
@@ -116,7 +116,7 @@ Gets the name of the property to edit
 
 > `optional` **step?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/iInspectable.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/iInspectable.ts#L99)
 
 Gets the setp to use when using in "slider" mode
 
@@ -126,6 +126,6 @@ Gets the setp to use when using in "slider" mode
 
 > **type**: [`InspectableType`](../enumerations/InspectableType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/iInspectable.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/iInspectable.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/iInspectable.ts#L87)
 
 Gets the type of the editor to use

@@ -6,7 +6,7 @@
 
 # Class: SetStateAction
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/directActions.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.pure.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/directActions.pure.ts#L73)
 
 This defines an action responsible to set a the state field of the target
  to a desired value once triggered.
@@ -25,7 +25,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions
 
 > **new SetStateAction**(`triggerOptions`, `target`, `value`, `condition?`): `SetStateAction`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/directActions.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.pure.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/directActions.pure.ts#L88)
 
 Instantiate the action
 
@@ -69,7 +69,7 @@ defines the trigger related conditions
 
 > **onBeforeExecuteObservable**: [`Observable`](Observable.md)\<[`Action`](Action.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L102)
 
 An event triggered prior to action being executed.
 
@@ -83,7 +83,7 @@ An event triggered prior to action being executed.
 
 > **trigger**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L86)
 
 Trigger for the action
 
@@ -97,7 +97,7 @@ Trigger for the action
 
 > **triggerOptions**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L111)
 
 the trigger, with or without parameters, for the action
 
@@ -111,7 +111,7 @@ the trigger, with or without parameters, for the action
 
 > **value**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/directActions.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.pure.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/directActions.pure.ts#L77)
 
 The value to store in the state field.
 
@@ -121,7 +121,7 @@ The value to store in the state field.
 
 > **execute**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/directActions.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.pure.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/directActions.pure.ts#L97)
 
 Execute the action and store the value on the target state property.
 
@@ -139,7 +139,7 @@ Execute the action and store the value on the target state property.
 
 > **getTriggerParameter**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L137)
 
 Gets the trigger parameter
 
@@ -159,7 +159,7 @@ the trigger parameter
 
 > **serialize**(`parent`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/directActions.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/directActions.pure.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/directActions.pure.ts#L106)
 
 Serializes the actions and its related information.
 
@@ -187,7 +187,7 @@ the serialized object
 
 > **setTriggerParameter**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:143](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L143)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L145)
 
 Sets the trigger parameter
 
@@ -213,7 +213,7 @@ defines the new trigger parameter
 
 > **skipToNextActiveAction**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:194](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L194)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L196)
 
 Skips to next active action
 
@@ -231,7 +231,7 @@ Skips to next active action
 
 > **then**(`action`): [`Action`](Action.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L214)
 
 Adds action to chain of actions, may be a DoNothingAction
 

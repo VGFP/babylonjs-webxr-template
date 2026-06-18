@@ -6,7 +6,7 @@
 
 # Interface: IAdvancedDynamicTextureOptions
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/advancedDynamicTexture.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L34)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/advancedDynamicTexture.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L34)
 
 Interface used to define options to create an AdvancedDynamicTexture
 
@@ -20,7 +20,7 @@ Interface used to define options to create an AdvancedDynamicTexture
 
 > `optional` **buffer?**: [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<`string` \| `ArrayBuffer` \| `ArrayBufferView`\<`ArrayBufferLike`\> \| `HTMLImageElement` \| `ImageBitmap` \| `Blob`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/texture.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/texture.pure.ts#L47)
 
 Defines the buffer to load the texture from in case the texture is loaded from a buffer representation (default: null)
 
@@ -34,7 +34,7 @@ Defines the buffer to load the texture from in case the texture is loaded from a
 
 > `optional` **creationFlags?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/texture.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/texture.pure.ts#L62)
 
 Specific flags to use when creating the texture (Constants.TEXTURE_CREATIONFLAG_STORAGE for storage textures, for eg) (default: undefined)
 
@@ -48,7 +48,7 @@ Specific flags to use when creating the texture (Constants.TEXTURE_CREATIONFLAG_
 
 > `optional` **deleteBuffer?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/texture.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/texture.pure.ts#L50)
 
 Defines if the buffer we are loading the texture from should be deleted after load (default: false)
 
@@ -62,7 +62,7 @@ Defines if the buffer we are loading the texture from should be deleted after lo
 
 > `optional` **forcedExtension?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/texture.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.pure.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/texture.pure.ts#L74)
 
 Defines the extension to use to pick the right loader
 
@@ -76,7 +76,7 @@ Defines the extension to use to pick the right loader
 
 > `optional` **format?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/texture.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/texture.pure.ts#L53)
 
 Defines the format of the texture we are trying to load (Engine.TEXTUREFORMAT_RGBA...) (default: )
 
@@ -90,7 +90,7 @@ Defines the format of the texture we are trying to load (Engine.TEXTUREFORMAT_RG
 
 > `optional` **gammaSpace?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/texture.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.pure.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/texture.pure.ts#L71)
 
 Defines the underlying texture texture space
 
@@ -104,7 +104,7 @@ Defines the underlying texture texture space
 
 > `optional` **height?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/dynamicTexture.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/dynamicTexture.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts#L18)
 
 defines the height of the texture (default: 0)
 
@@ -118,7 +118,7 @@ defines the height of the texture (default: 0)
 
 > `optional` **internalTexture?**: [`InternalTexture`](../../../core/src/classes/InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/texture.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/texture.pure.ts#L68)
 
 Defines the underlying texture from an already existing one
 
@@ -132,7 +132,7 @@ Defines the underlying texture from an already existing one
 
 > `optional` **invertY?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/texture.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/texture.pure.ts#L35)
 
 Defines if the texture needs to be inverted on the y axis during loading (default: true)
 
@@ -146,7 +146,7 @@ Defines if the texture needs to be inverted on the y axis during loading (defaul
 
 > `optional` **loaderOptions?**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/texture.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.pure.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/texture.pure.ts#L59)
 
 Options to be passed to the loader (default: undefined)
 
@@ -160,7 +160,7 @@ Options to be passed to the loader (default: undefined)
 
 > `optional` **mimeType?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/texture.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/texture.pure.ts#L56)
 
 Defines an optional mime type information (default: undefined)
 
@@ -174,7 +174,7 @@ Defines an optional mime type information (default: undefined)
 
 > `optional` **noMipmap?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/texture.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/texture.pure.ts#L32)
 
 Defines if the texture will require mip maps or not (default: false)
 
@@ -188,7 +188,7 @@ Defines if the texture will require mip maps or not (default: false)
 
 > `optional` **onError?**: [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<(`message?`, `exception?`) => `void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/texture.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.pure.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/texture.pure.ts#L44)
 
 Defines a callback triggered when an error occurred during the loading session (default: null)
 
@@ -202,7 +202,7 @@ Defines a callback triggered when an error occurred during the loading session (
 
 > `optional` **onLoad?**: [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<() => `void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/texture.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/texture.pure.ts#L41)
 
 Defines a callback triggered when the texture has been loaded (default: null)
 
@@ -216,7 +216,7 @@ Defines a callback triggered when the texture has been loaded (default: null)
 
 > `optional` **samplingMode?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/texture.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/texture.pure.ts#L38)
 
 Defines the sampling mode we want for the texture while fetching from it (Texture.NEAREST_SAMPLINGMODE...) (default: Texture.TRILINEAR_SAMPLINGMODE)
 
@@ -230,7 +230,7 @@ Defines the sampling mode we want for the texture while fetching from it (Textur
 
 > `optional` **scene?**: [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`Scene`](../../../core/src/classes/Scene.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/dynamicTexture.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/dynamicTexture.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts#L20)
 
 defines the hosting scene (default: null)
 
@@ -244,7 +244,7 @@ defines the hosting scene (default: null)
 
 > `optional` **useSRGBBuffer?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/texture.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/texture.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/texture.pure.ts#L65)
 
 Defines if the texture must be loaded in a sRGB GPU buffer (if supported by the GPU) (default: false)
 
@@ -258,7 +258,7 @@ Defines if the texture must be loaded in a sRGB GPU buffer (if supported by the 
 
 > `optional` **useStandalone?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/advancedDynamicTexture.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L41)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/advancedDynamicTexture.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L41)
 
 Indicates whether the ADT will be used autonomously. In this mode:
 - _checkUpdate() is not called
@@ -271,7 +271,7 @@ It's up to the user to perform the required calls manually to update the ADT.
 
 > `optional` **width?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/dynamicTexture.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/dynamicTexture.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts#L16)
 
 defines the width of the texture (default: 0)
 

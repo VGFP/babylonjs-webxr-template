@@ -6,7 +6,7 @@
 
 # Class: EnvironmentHelper
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:193](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/environmentHelper.ts#L193)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/environmentHelper.ts#L193)
 
 The EnvironmentHelper class can be used to add a fully featured non-expensive background to your scene.
 It includes by default a skybox and a ground relying on the BackgroundMaterial.
@@ -18,7 +18,7 @@ It also helps with the default setup of your ImageProcessingConfiguration.
 
 > **new EnvironmentHelper**(`options`, `scene`): `EnvironmentHelper`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:343](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/environmentHelper.ts#L343)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:343](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/environmentHelper.ts#L343)
 
 constructor
 
@@ -46,7 +46,7 @@ The scene to add the material to
 
 > **onErrorObservable**: [`Observable`](Observable.md)\<\{ `exception?`: `any`; `message?`: `string`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:336](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/environmentHelper.ts#L336)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:336](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/environmentHelper.ts#L336)
 
 This observable will be notified with any error during the creation of the environment,
 mainly texture creation errors.
@@ -59,7 +59,7 @@ mainly texture creation errors.
 
 > **get** **ground**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Mesh`](Mesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:287](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/environmentHelper.ts#L287)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:287](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/environmentHelper.ts#L287)
 
 Gets the ground mesh created by the helper.
 
@@ -75,7 +75,7 @@ Gets the ground mesh created by the helper.
 
 > **get** **groundMaterial**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BackgroundMaterial`](BackgroundMaterial.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:322](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/environmentHelper.ts#L322)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:322](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/environmentHelper.ts#L322)
 
 Gets the ground material created by the helper.
 
@@ -91,7 +91,7 @@ Gets the ground material created by the helper.
 
 > **get** **groundMirror**(): [`Nullable`](../type-aliases/Nullable.md)\<[`MirrorTexture`](MirrorTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:303](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/environmentHelper.ts#L303)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:303](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/environmentHelper.ts#L303)
 
 Gets the ground mirror created by the helper.
 
@@ -107,7 +107,7 @@ Gets the ground mirror created by the helper.
 
 > **get** **groundMirrorRenderList**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:311](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/environmentHelper.ts#L311)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:311](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/environmentHelper.ts#L311)
 
 Gets the ground mirror render list to helps pushing the meshes
 you wish in the ground reflection.
@@ -124,7 +124,7 @@ you wish in the ground reflection.
 
 > **get** **groundTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:295](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/environmentHelper.ts#L295)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:295](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/environmentHelper.ts#L295)
 
 Gets the ground texture created by the helper.
 
@@ -140,7 +140,7 @@ Gets the ground texture created by the helper.
 
 > **get** **rootMesh**(): [`Mesh`](Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/environmentHelper.ts#L255)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:255](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/environmentHelper.ts#L255)
 
 Gets the root mesh created by the helper.
 
@@ -156,7 +156,7 @@ Gets the root mesh created by the helper.
 
 > **get** **skybox**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Mesh`](Mesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:263](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/environmentHelper.ts#L263)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:263](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/environmentHelper.ts#L263)
 
 Gets the skybox created by the helper.
 
@@ -172,7 +172,7 @@ Gets the skybox created by the helper.
 
 > **get** **skyboxMaterial**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BackgroundMaterial`](BackgroundMaterial.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:279](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/environmentHelper.ts#L279)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:279](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/environmentHelper.ts#L279)
 
 Gets the skybox material created by the helper.
 
@@ -188,7 +188,7 @@ Gets the skybox material created by the helper.
 
 > **get** **skyboxTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/environmentHelper.ts#L271)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:271](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/environmentHelper.ts#L271)
 
 Gets the skybox texture created by the helper.
 
@@ -202,7 +202,7 @@ Gets the skybox texture created by the helper.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:715](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/environmentHelper.ts#L715)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:715](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/environmentHelper.ts#L715)
 
 Dispose all the elements created by the Helper.
 
@@ -216,7 +216,7 @@ Dispose all the elements created by the Helper.
 
 > **setMainColor**(`color`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:424](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/environmentHelper.ts#L424)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:424](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/environmentHelper.ts#L424)
 
 Sets the primary color of all the available elements.
 
@@ -238,7 +238,7 @@ the main color to affect to the ground and the background
 
 > **updateOptions**(`options`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:359](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/environmentHelper.ts#L359)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/environmentHelper.ts:359](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/environmentHelper.ts#L359)
 
 Updates the environment according to the new options
 

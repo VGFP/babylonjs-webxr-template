@@ -6,7 +6,7 @@
 
 # Interface: ISceneLoaderProgressEvent
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L89)
 
 Interface used to represent data loading progression
 
@@ -16,7 +16,7 @@ Interface used to represent data loading progression
 
 > `readonly` **lengthComputable**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L93)
 
 Defines if data length to load can be evaluated
 
@@ -26,7 +26,7 @@ Defines if data length to load can be evaluated
 
 > `readonly` **loaded**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L98)
 
 Defines the loaded data length
 
@@ -36,6 +36,6 @@ Defines the loaded data length
 
 > `readonly` **total**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L103)
 
 Defines the data length to load

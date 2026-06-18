@@ -6,7 +6,7 @@
 
 # Class: LayerSceneComponent
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/layerSceneComponent.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/layerSceneComponent.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/layerSceneComponent.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/layerSceneComponent.ts#L14)
 
 Defines the layer scene component responsible to manage any layers
 in a given scene.
@@ -21,7 +21,7 @@ in a given scene.
 
 > **new LayerSceneComponent**(`scene?`): `LayerSceneComponent`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/layerSceneComponent.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/layerSceneComponent.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/layerSceneComponent.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/layerSceneComponent.ts#L31)
 
 Creates a new instance of the component for the given scene
 
@@ -43,7 +43,7 @@ Defines the scene to register the component in
 
 > `readonly` **name**: `"Layer"` = `SceneComponentConstants.NAME_LAYER`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/layerSceneComponent.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/layerSceneComponent.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/layerSceneComponent.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/layerSceneComponent.ts#L18)
 
 The component name helpful to identify the component in the list of scene components.
 
@@ -57,7 +57,7 @@ The component name helpful to identify the component in the list of scene compon
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/layerSceneComponent.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/layerSceneComponent.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/layerSceneComponent.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/layerSceneComponent.ts#L23)
 
 The scene the component belongs to.
 
@@ -71,7 +71,7 @@ The scene the component belongs to.
 
 > **addFromContainer**(`container`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/layerSceneComponent.ts:152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/layerSceneComponent.ts#L152)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/layerSceneComponent.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/layerSceneComponent.ts#L152)
 
 Adds all the elements from the container to the scene
 
@@ -93,7 +93,7 @@ the container holding the elements
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/layerSceneComponent.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/layerSceneComponent.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/layerSceneComponent.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/layerSceneComponent.ts#L71)
 
 Disposes the component and the associated resources.
 
@@ -111,7 +111,7 @@ Disposes the component and the associated resources.
 
 > **rebuild**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/layerSceneComponent.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/layerSceneComponent.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/layerSceneComponent.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/layerSceneComponent.ts#L60)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -130,7 +130,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/layerSceneComponent.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/layerSceneComponent.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/layerSceneComponent.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/layerSceneComponent.ts#L42)
 
 Registers the component in a given scene
 
@@ -148,7 +148,7 @@ Registers the component in a given scene
 
 > **removeFromContainer**(`container`, `dispose?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/layerSceneComponent.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/layerSceneComponent.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/layerSceneComponent.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/layerSceneComponent.ts#L166)
 
 Removes all the elements in the container from the scene
 

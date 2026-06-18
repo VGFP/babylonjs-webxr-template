@@ -6,7 +6,7 @@
 
 # Class: HemisphericParticleEmitter
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L12)
 
 Particle emitter emitting particles from the inside of a hemisphere.
 It emits the particles alongside the hemisphere radius. The emission direction might be randomized.
@@ -21,7 +21,7 @@ It emits the particles alongside the hemisphere radius. The emission direction m
 
 > **new HemisphericParticleEmitter**(`radius?`, `radiusRange?`, `directionRandomizer?`): `HemisphericParticleEmitter`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L19)
 
 Creates a new instance HemisphericParticleEmitter
 
@@ -55,7 +55,7 @@ defines how much to randomize the particle direction [0-1]
 
 > **directionRandomizer**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L31)
 
 [0] How much to randomize the particle direction [0-1].
 
@@ -65,7 +65,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemis
 
 > **radius**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L23)
 
 [1] The radius of the emission hemisphere.
 
@@ -75,7 +75,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemis
 
 > **radiusRange**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L27)
 
 [1] The range of emission [0-1] 0 Surface only, 1 Entire Radius.
 
@@ -85,7 +85,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemis
 
 > **applyToShader**(`uboOrEffect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L99)
 
 Called by the GPUParticleSystem to setup the update shader
 
@@ -111,7 +111,7 @@ defines the update shader
 
 > **buildUniformLayout**(`ubo`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L109)
 
 Creates the structure of the ubo for this particle emitter
 
@@ -137,7 +137,7 @@ ubo to create the structure for
 
 > **clone**(): `HemisphericParticleEmitter`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L87)
 
 Clones the current emitter and returns a copy of it
 
@@ -157,7 +157,7 @@ the new emitter
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L127)
 
 Returns the string "HemisphericParticleEmitter"
 
@@ -177,7 +177,7 @@ a string containing the class name
 
 > **getEffectDefines**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L119)
 
 Returns a string to use to update the GPU particles update shader
 
@@ -197,7 +197,7 @@ a string containing the defines string
 
 > **parse**(`serializationObject`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:149](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L149)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L149)
 
 Parse properties from a JSON object
 
@@ -223,7 +223,7 @@ defines the JSON object
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L135)
 
 Serializes the particle system to a JSON object.
 
@@ -243,7 +243,7 @@ the JSON object
 
 > **startDirectionFunction**(`worldMatrix`, `directionToUpdate`, `particle`, `isLocal`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L41)
 
 Called by the particle System when the direction is computed for the created particle.
 
@@ -287,7 +287,7 @@ defines if the direction should be set in local space
 
 > **startPositionFunction**(`worldMatrix`, `positionToUpdate`, `particle`, `isLocal`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/hemisphericParticleEmitter.ts#L66)
 
 Called by the particle System when the position is computed for the created particle.
 

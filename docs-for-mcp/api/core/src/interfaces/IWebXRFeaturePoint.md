@@ -6,7 +6,7 @@
 
 # Interface: IWebXRFeaturePoint
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRFeaturePointSystem.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRFeaturePointSystem.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRFeaturePointSystem.pure.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRFeaturePointSystem.pure.ts#L13)
 
 A babylon interface for a "WebXR" feature point.
 Represents the position and confidence value of a given feature point.
@@ -17,7 +17,7 @@ Represents the position and confidence value of a given feature point.
 
 > **confidenceValue**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRFeaturePointSystem.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRFeaturePointSystem.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRFeaturePointSystem.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRFeaturePointSystem.pure.ts#L21)
 
 Represents the confidence value of the feature point in world space. 0 being least confident, and 1 being most confident.
 
@@ -27,6 +27,6 @@ Represents the confidence value of the feature point in world space. 0 being lea
 
 > **position**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRFeaturePointSystem.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRFeaturePointSystem.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRFeaturePointSystem.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRFeaturePointSystem.pure.ts#L17)
 
 Represents the position of the feature point in world space.

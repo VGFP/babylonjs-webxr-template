@@ -6,7 +6,7 @@
 
 # Class: BoundingBox
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L15)
 
 Class used to store bounding box information
 
@@ -20,7 +20,7 @@ Class used to store bounding box information
 
 > **new BoundingBox**(`min`, `max`, `worldMatrix?`): `BoundingBox`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L80)
 
 Creates a new bounding box
 
@@ -54,7 +54,7 @@ defines the new world matrix
 
 > `readonly` **center**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L23)
 
 Gets the center of the bounding box in local space
 
@@ -64,7 +64,7 @@ Gets the center of the bounding box in local space
 
 > `readonly` **centerWorld**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L27)
 
 Gets the center of the bounding box in world space
 
@@ -74,7 +74,7 @@ Gets the center of the bounding box in world space
 
 > `readonly` **directions**: [`Vector3`](Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L39)
 
 Gets the OBB (object bounding box) directions
 
@@ -84,7 +84,7 @@ Gets the OBB (object bounding box) directions
 
 > `readonly` **extendSize**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L31)
 
 Gets half the size of the extent in local space. Multiply by 2 to obtain the full size of the box!
 
@@ -94,7 +94,7 @@ Gets half the size of the extent in local space. Multiply by 2 to obtain the ful
 
 > `readonly` **extendSizeWorld**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L35)
 
 Gets half the size of the extent in world space. Multiply by 2 to obtain the full size of the box!
 
@@ -104,7 +104,7 @@ Gets half the size of the extent in world space. Multiply by 2 to obtain the ful
 
 > `readonly` **maximum**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L59)
 
 Gets the maximum vector in local space
 
@@ -114,7 +114,7 @@ Gets the maximum vector in local space
 
 > `readonly` **maximumWorld**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L51)
 
 Gets the maximum vector in world space
 
@@ -124,7 +124,7 @@ Gets the maximum vector in world space
 
 > `readonly` **minimum**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L55)
 
 Gets the minimum vector in local space
 
@@ -134,7 +134,7 @@ Gets the minimum vector in local space
 
 > `readonly` **minimumWorld**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L47)
 
 Gets the minimum vector in world space
 
@@ -144,7 +144,7 @@ Gets the minimum vector in world space
 
 > `readonly` **vectors**: [`Vector3`](Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L19)
 
 Gets the 8 vectors representing the bounding box in local space
 
@@ -154,7 +154,7 @@ Gets the 8 vectors representing the bounding box in local space
 
 > `readonly` **vectorsWorld**: [`Vector3`](Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L43)
 
 Gets the 8 vectors representing the bounding box in world space
 
@@ -164,7 +164,7 @@ Gets the 8 vectors representing the bounding box in world space
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:293](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L293)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:293](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L293)
 
 Disposes the resources of the class
 
@@ -178,7 +178,7 @@ Disposes the resources of the class
 
 > **getWorldMatrix**(): [`DeepImmutable`](../type-aliases/DeepImmutable.md)\<[`Matrix`](Matrix.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L146)
 
 Gets the world matrix of the bounding box
 
@@ -194,7 +194,7 @@ a matrix
 
 > **intersectsMinMax**(`min`, `max`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:260](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L260)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L260)
 
 Tests if the bounding box intersects with a box defined by a min and max vectors
 
@@ -224,7 +224,7 @@ true if there is an intersection
 
 > **intersectsPoint**(`point`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L216)
 
 Tests if a point is inside the bounding box
 
@@ -248,7 +248,7 @@ true if the point is inside the bounding box
 
 > **intersectsSphere**(`sphere`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:250](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L250)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:250](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L250)
 
 Tests if the bounding box intersects with a bounding sphere
 
@@ -272,7 +272,7 @@ true if there is an intersection
 
 > **isCompletelyInFrustum**(`frustumPlanes`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:207](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L207)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:207](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L207)
 
 Tests if the bounding box is entirely inside the frustum planes
 
@@ -300,7 +300,7 @@ true if there is an inclusion
 
 > **isInFrustum**(`frustumPlanes`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:198](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L198)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L198)
 
 Tests if the bounding box is intersecting the frustum planes
 
@@ -328,7 +328,7 @@ true if there is an intersection
 
 > **reConstruct**(`min`, `max`, `worldMatrix?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L92)
 
 Recreates the entire bounding box from scratch as if we call the constructor in place
 
@@ -362,7 +362,7 @@ defines the new world matrix
 
 > **scale**(`factor`): `BoundingBox`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L126)
 
 Scale the current bounding box by applying a scale factor
 
@@ -386,7 +386,7 @@ the current bounding box
 
 > `static` **Intersects**(`box0`, `box1`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:306](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L306)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:306](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L306)
 
 Tests if two bounding boxes are intersections
 
@@ -416,7 +416,7 @@ true if there is an intersection
 
 > `static` **IntersectsSphere**(`minPoint`, `maxPoint`, `sphereCenter`, `sphereRadius`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:318](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L318)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:318](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L318)
 
 Tests if a bounding box defines by a min/max vectors intersects a sphere
 
@@ -458,7 +458,7 @@ true if there is an intersection
 
 > `static` **IsCompletelyInFrustum**(`boundingVectors`, `frustumPlanes`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:331](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L331)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:331](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L331)
 
 Tests if a bounding box defined with 8 vectors is entirely inside frustum planes
 
@@ -488,7 +488,7 @@ true if there is an inclusion
 
 > `static` **IsInFrustum**(`boundingVectors`, `frustumPlanes`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:349](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingBox.ts#L349)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingBox.ts:349](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingBox.ts#L349)
 
 Tests if a bounding box defined with 8 vectors intersects frustum planes
 

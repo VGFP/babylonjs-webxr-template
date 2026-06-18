@@ -6,7 +6,7 @@
 
 # Class: AssetContainer
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:253](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L253)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:253](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L253)
 
 Container with a set of assets that can be added or removed from a scene.
 
@@ -20,7 +20,7 @@ Container with a set of assets that can be added or removed from a scene.
 
 > **new AssetContainer**(`scene?`): `AssetContainer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:266](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L266)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:266](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L266)
 
 Instantiates an AssetContainer.
 
@@ -46,7 +46,7 @@ The scene the AssetContainer belongs to.
 
 > **actionManagers**: [`AbstractActionManager`](AbstractActionManager.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L124)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L124)
 
 ActionManagers available on the scene.
 
@@ -62,7 +62,7 @@ ActionManagers available on the scene.
 
 > **animationGroups**: [`AnimationGroup`](AnimationGroup.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L83)
 
 All of the animation groups added to this scene
 
@@ -80,7 +80,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/groupAnimations
 
 > **animations**: [`Animation`](Animation.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L77)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L77)
 
 Gets a list of Animations associated with the scene
 
@@ -94,7 +94,7 @@ Gets a list of Animations associated with the scene
 
 > **cameras**: [`Camera`](Camera.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L49)
 
 All of the cameras added to this scene
 
@@ -112,7 +112,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras
 
 > **effectLayers**: [`EffectLayer`](EffectLayer.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L159)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L159)
 
 The list of effect layers added to the scene
 
@@ -126,7 +126,7 @@ The list of effect layers added to the scene
 
 > **geometries**: [`Geometry`](Geometry.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L109)
 
 The list of geometries used in the scene.
 
@@ -140,7 +140,7 @@ The list of geometries used in the scene.
 
 > **layers**: [`Layer`](Layer.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:164](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L164)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:164](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L164)
 
 The list of layers added to the scene
 
@@ -154,7 +154,7 @@ The list of layers added to the scene
 
 > **lensFlareSystems**: [`LensFlareSystem`](LensFlareSystem.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:174](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L174)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L174)
 
 The list of lens flare systems added to the scene
 
@@ -168,7 +168,7 @@ The list of lens flare systems added to the scene
 
 > **lights**: [`Light`](Light.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L55)
 
 All of the lights added to this scene
 
@@ -186,7 +186,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/lights/lights_introduction
 
 > **materials**: [`Material`](Material.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L98)
 
 All of the materials added to this scene
 In the context of a Scene, it is not supposed to be modified manually.
@@ -207,7 +207,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/using/materials_in
 
 > **meshes**: [`AbstractMesh`](AbstractMesh.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L60)
 
 All of the (abstract) meshes added to this scene
 
@@ -221,7 +221,7 @@ All of the (abstract) meshes added to this scene
 
 > **morphTargetManagers**: [`MorphTargetManager`](MorphTargetManager.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L104)
 
 The list of morph target managers added to the scene
 
@@ -239,7 +239,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/dynamicMeshMorph
 
 > **multiMaterials**: [`MultiMaterial`](MultiMaterial.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L89)
 
 All of the multi-materials added to this scene
 
@@ -257,7 +257,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/using/multiMateria
 
 > **particleSystems**: [`IParticleSystem`](../interfaces/IParticleSystem.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L72)
 
 All of the particle systems added to this scene
 
@@ -275,7 +275,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/particles/particle_system/pa
 
 > **postProcesses**: [`PostProcess`](PostProcess.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:149](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L149)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L149)
 
 The list of postprocesses added to the scene
 
@@ -289,7 +289,7 @@ The list of postprocesses added to the scene
 
 > **proceduralTextures**: [`ProceduralTexture`](ProceduralTexture.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:179](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L179)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L179)
 
 The list of procedural textures added to the scene
 
@@ -303,7 +303,7 @@ The list of procedural textures added to the scene
 
 > **reflectionProbes**: [`ReflectionProbe`](ReflectionProbe.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:169](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L169)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L169)
 
 The list of reflection probes added to the scene
 
@@ -317,7 +317,7 @@ The list of reflection probes added to the scene
 
 > **rootNodes**: [`Node`](Node.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L44)
 
 Gets the list of root nodes (ie. nodes with no parent)
 
@@ -331,7 +331,7 @@ Gets the list of root nodes (ie. nodes with no parent)
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:260](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L260)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L260)
 
 The scene the AssetContainer belongs to.
 
@@ -341,7 +341,7 @@ The scene the AssetContainer belongs to.
 
 > **skeletons**: [`Skeleton`](Skeleton.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L66)
 
 The list of skeletons added to the scene
 
@@ -359,7 +359,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/bonesSkeletons
 
 > **sounds**: [`Nullable`](../type-aliases/Nullable.md)\<[`Sound`](Sound.md)[]\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:154](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L154)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:154](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L154)
 
 The list of sounds
 
@@ -373,7 +373,7 @@ The list of sounds
 
 > **spriteManagers**: [`SpriteManager`](SpriteManager.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:184](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L184)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:184](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L184)
 
 The list of sprite managers added to the scene
 
@@ -387,7 +387,7 @@ The list of sprite managers added to the scene
 
 > **textures**: [`BaseTexture`](BaseTexture.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L129)
 
 Textures to keep.
 
@@ -401,7 +401,7 @@ Textures to keep.
 
 > **transformNodes**: [`TransformNode`](TransformNode.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L118)
 
 All of the transform nodes added to this scene
 In the context of a Scene, it is not supposed to be modified manually.
@@ -424,7 +424,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/transforms/parent_pivot
 
 > **get** **environmentTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L138)
 
 Texture used in all pbr material as the reflection texture.
 As in the majority of the scene they are the same (exception for multi room and so on),
@@ -438,7 +438,7 @@ this is easier to reference from here than from all the materials.
 
 > **set** **environmentTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L142)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L142)
 
 Texture used in all pbr material as the reflection texture.
 As in the majority of the scene they are the same (exception for multi room and so on),
@@ -464,7 +464,7 @@ this is easier to reference from here than from all the materials.
 
 > **addAllAssetsToContainer**(`root`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1308](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L1308)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1308](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L1308)
 
 **`Since`**
 
@@ -489,7 +489,7 @@ root node
 
 > **addAllToScene**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:710](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L710)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:710](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L710)
 
 Adds all the assets from the container to the scene.
 
@@ -503,7 +503,7 @@ Adds all the assets from the container to the scene.
 
 > **addToScene**(`predicate?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:738](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L738)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:738](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L738)
 
 Adds assets from the container to the scene.
 
@@ -525,7 +525,7 @@ defines a predicate used to select which entity will be added (can be null)
 
 > **createRootMesh**(): [`Mesh`](Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1149](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L1149)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L1149)
 
 Adds all meshes in the asset container to a root mesh that can be used to position all the contained meshes. The root mesh is then added to the front of the meshes in the assetContainer.
 
@@ -541,7 +541,7 @@ the root mesh
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:999](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L999)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:999](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L999)
 
 Disposes all the assets in the container
 
@@ -555,7 +555,7 @@ Disposes all the assets in the container
 
 > **getCamerasByTags**(`tagsQuery`, `filter?`): [`Camera`](Camera.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1408](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L1408)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1408](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L1408)
 
 Get a list of cameras by tags
 
@@ -585,7 +585,7 @@ an array of Camera
 
 > **getLightsByTags**(`tagsQuery`, `filter?`): [`Light`](Light.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1418](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L1418)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1418](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L1418)
 
 Get a list of lights by tags
 
@@ -615,7 +615,7 @@ an array of Light
 
 > **getMaterialsByTags**(`tagsQuery`, `filter?`): [`Material`](Material.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1428](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L1428)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1428](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L1428)
 
 Get a list of materials by tags
 
@@ -645,7 +645,7 @@ an array of Material
 
 > **getMeshesByTags**(`tagsQuery`, `filter?`): [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1398](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L1398)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1398](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L1398)
 
 Get a list of meshes by tags
 
@@ -675,7 +675,7 @@ an array of Mesh
 
 > **getNodes**(): [`Node`](Node.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:189](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L189)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L189)
 
 #### Returns
 
@@ -693,7 +693,7 @@ all meshes, lights, cameras, transformNodes and bones
 
 > **getTransformNodesByTags**(`tagsQuery`, `filter?`): [`TransformNode`](TransformNode.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1438](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L1438)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1438](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L1438)
 
 Get a list of transform nodes by tags
 
@@ -723,7 +723,7 @@ an array of TransformNode
 
 > **instantiateModelsToScene**(`nameFunction?`, `cloneMaterials?`, `options?`): [`InstantiatedEntries`](InstantiatedEntries.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:479](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L479)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:479](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L479)
 
 Instantiate or clone all meshes and add the new ones to the scene.
 Skeletons and animation groups will all be cloned
@@ -770,7 +770,7 @@ a list of rootNodes, skeletons and animation groups that were duplicated
 
 > **mergeAnimationsTo**(`scene?`, `animatables`, `targetConverter?`): [`AnimationGroup`](AnimationGroup.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1167](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L1167)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L1167)
 
 Merge animations (direct and animation groups) from this asset container into a scene
 
@@ -806,7 +806,7 @@ an array of the new AnimationGroup added to the scene (empty array if none)
 
 > **moveAllFromScene**(`keepAssets?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L1126)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L1126)
 
 Removes all the assets contained in the scene and adds them to the container.
 
@@ -828,7 +828,7 @@ Set of assets to keep in the scene. (default: empty)
 
 > **populateRootNodes**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1279](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L1279)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:1279](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L1279)
 
 **`Since`**
 
@@ -847,7 +847,7 @@ there, if so.
 
 > **removeAllFromScene**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:876](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L876)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:876](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L876)
 
 Removes all the assets in the container from the scene
 
@@ -861,7 +861,7 @@ Removes all the assets in the container from the scene
 
 > **removeFromScene**(`predicate?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:898](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/assetContainer.ts#L898)
+Defined in: [babylonjs-source/packages/dev/core/src/assetContainer.ts:898](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/assetContainer.ts#L898)
 
 Removes assets in the container from the scene
 

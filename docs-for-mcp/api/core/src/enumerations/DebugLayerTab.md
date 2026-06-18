@@ -6,7 +6,7 @@
 
 # Enumeration: DebugLayerTab
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/debugLayer.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.pure.ts:175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/debugLayer.pure.ts#L175)
 
 Enum of inspector action tab
 
@@ -16,7 +16,7 @@ Enum of inspector action tab
 
 > **Debug**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.ts:208](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/debugLayer.ts#L208)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.pure.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/debugLayer.pure.ts#L183)
 
 Debug tab
 
@@ -26,7 +26,7 @@ Debug tab
 
 > **Properties**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.ts:204](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/debugLayer.ts#L204)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.pure.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/debugLayer.pure.ts#L179)
 
 Properties tag (default)
 
@@ -36,7 +36,7 @@ Properties tag (default)
 
 > **Settings**: `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.ts:220](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/debugLayer.ts#L220)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.pure.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/debugLayer.pure.ts#L195)
 
 Settings tab
 
@@ -46,7 +46,7 @@ Settings tab
 
 > **Statistics**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/debugLayer.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.pure.ts:187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/debugLayer.pure.ts#L187)
 
 Statistics tab
 
@@ -56,6 +56,6 @@ Statistics tab
 
 > **Tools**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/debugLayer.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.pure.ts:191](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/debugLayer.pure.ts#L191)
 
 Tools tab

@@ -6,7 +6,7 @@
 
 # Interface: IEllipsoidLike
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.geospatial.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.geospatial.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.geospatial.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.geospatial.ts#L18)
 
 A reference ellipsoid used for geospatial functions.
 
@@ -16,7 +16,7 @@ A reference ellipsoid used for geospatial functions.
 
 > **firstEccentricitySquared**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.geospatial.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.geospatial.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.geospatial.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.geospatial.ts#L26)
 
 The first eccentricity, squared.
 
@@ -26,7 +26,7 @@ The first eccentricity, squared.
 
 > **flattening**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.geospatial.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.geospatial.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.geospatial.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.geospatial.ts#L24)
 
 The flattening for the ellipsoid. Zero for a sphere.
 
@@ -36,7 +36,7 @@ The flattening for the ellipsoid. Zero for a sphere.
 
 > **secondEccentricitySquared**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.geospatial.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.geospatial.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.geospatial.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.geospatial.ts#L28)
 
 The second eccentricity, squared.
 
@@ -46,7 +46,7 @@ The second eccentricity, squared.
 
 > **semiMajorAxis**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.geospatial.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.geospatial.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.geospatial.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.geospatial.ts#L20)
 
 The larger radius for the ellipsoid.
 
@@ -56,6 +56,6 @@ The larger radius for the ellipsoid.
 
 > **semiMinorAxis**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.geospatial.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.geospatial.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.geospatial.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.geospatial.ts#L22)
 
 The smaller radius for the ellipsoid.

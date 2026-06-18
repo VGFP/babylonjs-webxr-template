@@ -6,7 +6,7 @@
 
 # Class: Lattice
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/lattice.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/lattice.ts#L30)
 
 Class used to represent a lattice
 
@@ -21,7 +21,7 @@ Class used to represent a lattice
 
 > **new Lattice**(`options?`): `Lattice`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/lattice.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/lattice.ts#L127)
 
 Creates a new Lattice
 
@@ -45,7 +45,7 @@ options for creating
 
 > **get** **cellSize**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/lattice.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/lattice.ts#L105)
 
 Gets the size of each cell in the lattice
 
@@ -61,7 +61,7 @@ Gets the size of each cell in the lattice
 
 > **get** **data**(): [`Vector3`](Vector3.md)[][][]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/lattice.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/lattice.ts#L98)
 
 Gets the data of the lattice
 
@@ -77,7 +77,7 @@ Gets the data of the lattice
 
 > **get** **max**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/lattice.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/lattice.ts#L119)
 
 Gets the max bounds of the lattice
 
@@ -93,7 +93,7 @@ Gets the max bounds of the lattice
 
 > **get** **min**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/lattice.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/lattice.ts#L112)
 
 Gets the min bounds of the lattice
 
@@ -109,7 +109,7 @@ Gets the min bounds of the lattice
 
 > **get** **position**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/lattice.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/lattice.ts#L91)
 
 Gets the lattice position in object space
 
@@ -125,7 +125,7 @@ Gets the lattice position in object space
 
 > **get** **resolutionX**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/lattice.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/lattice.ts#L62)
 
 Gets the resolution on x axis
 
@@ -141,7 +141,7 @@ Gets the resolution on x axis
 
 > **get** **resolutionY**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/lattice.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/lattice.ts#L69)
 
 Gets the resolution on y axis
 
@@ -157,7 +157,7 @@ Gets the resolution on y axis
 
 > **get** **resolutionZ**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/lattice.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/lattice.ts#L76)
 
 Gets the resolution on z axis
 
@@ -173,7 +173,7 @@ Gets the resolution on z axis
 
 > **get** **size**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/lattice.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/lattice.ts#L84)
 
 Gets the size of the lattice along each axis in object space
 Updating the size requires you to call update afterwards
@@ -188,7 +188,7 @@ Updating the size requires you to call update afterwards
 
 > **deform**(`positions`, `target?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:217](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/lattice.ts#L217)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/lattice.ts#L217)
 
 Apply the lattice to a set of points
 
@@ -216,7 +216,7 @@ optional target array to store the result (operation will be done in place in no
 
 > **deformMesh**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:182](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/lattice.ts#L182)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/lattice.ts#L182)
 
 Apply the lattice to a mesh
 
@@ -238,7 +238,7 @@ mesh to deform
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/lattice.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/lattice.ts#L55)
 
 #### Returns
 
@@ -252,7 +252,7 @@ the string "Lattice"
 
 > **update**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:164](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/lattice.ts#L164)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:164](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/lattice.ts#L164)
 
 Update of the lattice data
 
@@ -266,7 +266,7 @@ Update of the lattice data
 
 > **updateInternals**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:199](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/lattice.ts#L199)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/lattice.ts:199](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/lattice.ts#L199)
 
 Update the lattice internals (like min, max and cell size)
 

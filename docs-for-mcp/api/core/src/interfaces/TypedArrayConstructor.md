@@ -6,7 +6,7 @@
 
 # Interface: TypedArrayConstructor\<T\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/types.ts:227](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/types.ts#L227)
+Defined in: [babylonjs-source/packages/dev/core/src/types.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/types.ts#L227)
 
 Interface for a constructor of a TypedArray.
 
@@ -22,7 +22,7 @@ Interface for a constructor of a TypedArray.
 
 > **new TypedArrayConstructor**(`length`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/types.ts:228](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/types.ts#L228)
+Defined in: [babylonjs-source/packages/dev/core/src/types.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/types.ts#L228)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/types.ts:228](https://github
 
 > **new TypedArrayConstructor**(`elements`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/types.ts:229](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/types.ts#L229)
+Defined in: [babylonjs-source/packages/dev/core/src/types.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/types.ts#L229)
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/types.ts:229](https://github
 
 > **new TypedArrayConstructor**(`buffer`, `byteOffset?`, `length?`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/types.ts:230](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/types.ts#L230)
+Defined in: [babylonjs-source/packages/dev/core/src/types.ts:230](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/types.ts#L230)
 
 #### Parameters
 
@@ -80,6 +80,6 @@ Defined in: [babylonjs-source/packages/dev/core/src/types.ts:230](https://github
 
 > `readonly` **BYTES\_PER\_ELEMENT**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/types.ts:234](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/types.ts#L234)
+Defined in: [babylonjs-source/packages/dev/core/src/types.ts:234](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/types.ts#L234)
 
 The size in bytes of each element in the array.

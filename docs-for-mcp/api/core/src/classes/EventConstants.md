@@ -6,7 +6,7 @@
 
 # Class: EventConstants
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:294](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/deviceInputEvents.ts#L294)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:294](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/deviceInputEvents.ts#L294)
 
 Constants used for Events
 
@@ -26,7 +26,7 @@ Constants used for Events
 
 > `static` **DOM\_DELTA\_LINE**: `number` = `0x01`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:303](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/deviceInputEvents.ts#L303)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:303](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/deviceInputEvents.ts#L303)
 
 Line delta for Wheel Events
 
@@ -36,7 +36,7 @@ Line delta for Wheel Events
 
 > `static` **DOM\_DELTA\_PAGE**: `number` = `0x02`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:308](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/deviceInputEvents.ts#L308)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:308](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/deviceInputEvents.ts#L308)
 
 Page delta for Wheel Events
 
@@ -46,6 +46,6 @@ Page delta for Wheel Events
 
 > `static` **DOM\_DELTA\_PIXEL**: `number` = `0x00`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:298](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/deviceInputEvents.ts#L298)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/deviceInputEvents.ts#L298)
 
 Pixel delta for Wheel Events (Default)

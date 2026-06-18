@@ -6,7 +6,7 @@
 
 # Class: KeyboardInfoPre
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/keyboardEvents.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/keyboardEvents.ts#L43)
 
 This class is used to store keyboard related info for the onPreKeyboardObservable event.
 Set the skipOnKeyboardObservable property to true if you want the engine to stop any process after this event is triggered, even not calling onKeyboardObservable
@@ -21,7 +21,7 @@ Set the skipOnKeyboardObservable property to true if you want the engine to stop
 
 > **new KeyboardInfoPre**(`type`, `event`): `KeyboardInfoPre`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/keyboardEvents.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/keyboardEvents.ts#L66)
 
 Instantiates a new keyboard pre info.
 This class is used to store keyboard related info for the onPreKeyboardObservable event.
@@ -54,7 +54,7 @@ Defines the related dom event
 
 > **event**: [`IKeyboardEvent`](../interfaces/IKeyboardEvent.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/keyboardEvents.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/keyboardEvents.ts#L74)
 
 Defines the related dom event
 
@@ -68,7 +68,7 @@ Defines the related dom event
 
 > **skipOnKeyboardObservable**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/keyboardEvents.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/keyboardEvents.ts#L47)
 
 Defines whether the engine should skip the next onKeyboardObservable associated to this pre.
 
@@ -78,7 +78,7 @@ Defines whether the engine should skip the next onKeyboardObservable associated 
 
 > **type**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/keyboardEvents.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/keyboardEvents.ts#L70)
 
 Defines the type of event (KeyboardEventTypes)
 
@@ -94,7 +94,7 @@ Defines the type of event (KeyboardEventTypes)
 
 > **get** **skipOnPointerObservable**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/keyboardEvents.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/keyboardEvents.ts#L53)
 
 Defines whether the engine should skip the next onKeyboardObservable associated to this pre.
 
@@ -110,7 +110,7 @@ use skipOnKeyboardObservable property instead
 
 > **set** **skipOnPointerObservable**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/keyboardEvents.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/keyboardEvents.ts#L56)
 
 ##### Parameters
 

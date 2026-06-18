@@ -6,7 +6,7 @@
 
 # Class: PhysicsBody
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L29)
 
 PhysicsBody is useful for creating a physics body that can be used in a physics engine. It allows
 the user to set the mass and velocity of the body, which can then be used to calculate the
@@ -18,7 +18,7 @@ motion of the body in the physics engine.
 
 > **new PhysicsBody**(`transformNode`, `motionType`, `startsAsleep`, `scene`): `PhysicsBody`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L102)
 
 Constructs a new physics body for the given node.
 
@@ -65,7 +65,7 @@ It also sets the node's rotation quaternion if it is not already set. Finally, i
 
 > **\_pluginData**: `any` = `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L33)
 
 V2 Physics plugin private data for single Transform
 
@@ -75,7 +75,7 @@ V2 Physics plugin private data for single Transform
 
 > **\_pluginDataInstances**: `any`[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L37)
 
 V2 Physics plugin private data for instances
 
@@ -85,7 +85,7 @@ V2 Physics plugin private data for instances
 
 > **disableSync**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L74)
 
 Disable sync from physics to transformNode. This value is set to true at body creation or at motionType setting when the body is not dynamic.
 
@@ -95,7 +95,7 @@ Disable sync from physics to transformNode. This value is set to true at body cr
 
 > **startAsleep**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L79)
 
 Physics engine will try to make this body sleeping and not active
 
@@ -105,7 +105,7 @@ Physics engine will try to make this body sleeping and not active
 
 > **transformNode**: [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L57)
 
 The transform node associated with this Physics Body
 
@@ -117,7 +117,7 @@ The transform node associated with this Physics Body
 
 > **get** **disablePreStep**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L63)
 
 Disable pre-step that consists in updating Physics Body from Transform Node Translation/Orientation.
 True by default for maximum performance.
@@ -130,7 +130,7 @@ True by default for maximum performance.
 
 > **set** **disablePreStep**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L67)
 
 ##### Parameters
 
@@ -150,7 +150,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:67
 
 > **get** **isDisposed**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:699](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L699)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:699](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L699)
 
 Returns if the body has been disposed.
 
@@ -168,7 +168,7 @@ true if disposed, false otherwise.
 
 > **get** **motionType**(): [`PhysicsMotionType`](../enumerations/PhysicsMotionType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:192](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L192)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L192)
 
 Get the motion type of the physics body. Can be STATIC, DYNAMIC, or ANIMATED.
 
@@ -184,7 +184,7 @@ Get the motion type of the physics body. Can be STATIC, DYNAMIC, or ANIMATED.
 
 > **get** **numInstances**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L185)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L185)
 
 This returns the number of internal instances of the physics body
 
@@ -200,7 +200,7 @@ This returns the number of internal instances of the physics body
 
 > **get** **shape**(): [`Nullable`](../type-aliases/Nullable.md)\<[`PhysicsShape`](PhysicsShape.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L219)
 
 Retrieves the physics shape associated with this object.
 
@@ -218,7 +218,7 @@ which can be used to apply physical forces to the object or to detect collisions
 
 > **set** **shape**(`shape`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:203](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L203)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:203](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L203)
 
 Sets the shape of the physics body.
 
@@ -243,7 +243,7 @@ The shape is used to calculate the body's mass, inertia, and other properties.
 
 > **addConstraint**(`childBody`, `constraint`, `instanceIndex?`, `childInstanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:601](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L601)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:601](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L601)
 
 Adds a constraint to the physics engine.
 
@@ -283,7 +283,7 @@ If the child body is instanced, the index of the instance to which the constrain
 
 > **applyAngularImpulse**(`angularImpulse`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:485](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L485)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:485](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L485)
 
 Add torque to a physics body
 
@@ -311,7 +311,7 @@ For a instanced body, the instance to where the impulse should be applied. If no
 
 > **applyForce**(`force`, `location`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:512](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L512)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:512](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L512)
 
 Applies a force to the physics object.
 
@@ -348,7 +348,7 @@ collisions, and explosions. This can be used to create realistic physics simulat
 
 > **applyImpulse**(`impulse`, `location`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:476](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L476)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:476](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L476)
 
 Applies an impulse to the physics object.
 
@@ -385,7 +385,7 @@ collisions, and explosions. This can be used to create realistic physics simulat
 
 > **applyTorque**(`torque`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:498](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L498)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:498](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L498)
 
 Applies a torque to the physics body.
 
@@ -416,7 +416,7 @@ angular momentum, and rotational dynamics. This can be used to create realistic 
 
 > **clone**(`transformNode`): `PhysicsBody`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L163)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L163)
 
 Clone the PhysicsBody to a new body and assign it to the transformNode parameter
 
@@ -440,7 +440,7 @@ the newly cloned PhysicsBody
 
 > **computeMassProperties**(`instanceIndex?`): [`PhysicsMassProperties`](../interfaces/PhysicsMassProperties.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:302](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L302)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L302)
 
 Computes the mass properties of the physics object, based on the set of physics shapes this body uses.
 This method is useful for computing the initial mass properties of a physics object, such as its mass,
@@ -468,7 +468,7 @@ The mass properties of the object.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:708](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L708)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:708](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L708)
 
 Disposes the body from the physics engine.
 
@@ -484,7 +484,7 @@ This method is useful for cleaning up the physics engine when a body is no longe
 
 > **getAngularDamping**(`instanceIndex?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:383](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L383)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:383](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L383)
 
 Gets the angular damping of the physics body.
 
@@ -512,7 +512,7 @@ This is important for simulating realistic physics behavior in a game.
 
 > **getAngularVelocity**(`instanceIndex?`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:460](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L460)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:460](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L460)
 
 Gets the angular velocity of the physics body as a new vector3.
 
@@ -539,7 +539,7 @@ rotational speed. This information can be used to create realistic physics simul
 
 > **getAngularVelocityToRef**(`angVel`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:448](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L448)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:448](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L448)
 
 Gets the angular velocity of the physics body and stores it in the given vector3.
 
@@ -570,7 +570,7 @@ rotational speed. This information can be used to create realistic physics simul
 
 > **getBoundingBox**(): [`BoundingBox`](BoundingBox.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:227](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L227)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L227)
 
 Returns the bounding box of the physics body.
 
@@ -586,7 +586,7 @@ The bounding box of the physics body.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:154](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L154)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:154](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L154)
 
 Returns the string "PhysicsBody".
 
@@ -602,7 +602,7 @@ Returns the string "PhysicsBody".
 
 > **getCollisionEndedObservable**(`instanceIndex?`): [`Observable`](Observable.md)\<[`IBasePhysicsCollisionEvent`](../interfaces/IBasePhysicsCollisionEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:541](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L541)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:541](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L541)
 
 Returns an observable that will be notified when the body has finished colliding with another body
 
@@ -626,7 +626,7 @@ Observable
 
 > **getCollisionObservable**(`instanceIndex?`): [`Observable`](Observable.md)\<[`IPhysicsCollisionEvent`](../interfaces/IPhysicsCollisionEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:532](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L532)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:532](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L532)
 
 Returns an observable that will be notified for when a collision starts or continues for this PhysicsBody
 
@@ -650,7 +650,7 @@ Observable
 
 > **getEventMask**(`instanceIndex?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:254](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L254)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L254)
 
 Gets the event mask of the physics engine.
 
@@ -679,7 +679,7 @@ wasting resources on unnecessary events.
 
 > **getGeometry**(): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:523](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L523)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:523](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L523)
 
 Retrieves the geometry of the body from the physics plugin.
 
@@ -697,7 +697,7 @@ This method is useful for retrieving the geometry of the body from the physics p
 
 > **getGravityFactor**(`instanceIndex?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:681](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L681)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:681](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L681)
 
 Gets the gravity factor of the physics body
 
@@ -721,7 +721,7 @@ the gravity factor
 
 > **getLinearDamping**(`instanceIndex?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:356](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L356)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:356](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L356)
 
 Gets the linear damping of the physics body.
 
@@ -749,7 +749,7 @@ in a game.
 
 > **getLinearVelocity**(`instanceIndex?`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:421](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L421)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:421](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L421)
 
 Gets the linear velocity of the physics body as a new vector3.
 
@@ -776,7 +776,7 @@ This can be used to determine the speed and direction of the body, which can be 
 
 > **getLinearVelocityToRef**(`linVel`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:409](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L409)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:409](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L409)
 
 Gets the linear velocity of the physics body and stores it in the given vector3.
 
@@ -807,7 +807,7 @@ This can be used to determine the speed and direction of the body, which can be 
 
 > **getMassProperties**(`instanceIndex?`): [`PhysicsMassProperties`](../interfaces/PhysicsMassProperties.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:329](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L329)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:329](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L329)
 
 Retrieves the mass properties of the object.
 
@@ -836,7 +836,7 @@ simulations.
 
 > **getMotionType**(`instanceIndex?`): [`PhysicsMotionType`](../enumerations/PhysicsMotionType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:273](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L273)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:273](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L273)
 
 Gets the motion type of the physics body. Can be STATIC, DYNAMIC, or ANIMATED.
 
@@ -860,7 +860,7 @@ The motion type of the physics body.
 
 > **getObjectCenterWorld**(`instanceIndex?`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:568](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L568)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:568](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L568)
 
 Get the center of the object in world space.
 
@@ -884,7 +884,7 @@ geometric center of the associated mesh
 
 > **getObjectCenterWorldToRef**(`ref`, `instanceIndex?`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:579](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L579)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:579](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L579)
 
 Get the center of the object in world space.
 
@@ -914,7 +914,7 @@ geometric center of the associated mesh
 
 > **getPrestepType**(): [`PhysicsPrestepType`](../enumerations/PhysicsPrestepType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:289](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L289)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:289](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L289)
 
 Get the current prestep type of the body
 
@@ -930,7 +930,7 @@ the type of prestep associated with the body and its instance index
 
 > **iterateOverAllInstances**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:657](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L657)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:657](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L657)
 
 Executes a callback on the body or all of the instances of a body
 
@@ -952,7 +952,7 @@ the callback to execute
 
 > **setAngularDamping**(`damping`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:369](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L369)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:369](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L369)
 
 Sets the angular damping of the physics body.
 
@@ -984,7 +984,7 @@ This can be used to create realistic physical behavior in a physics engine.
 
 > **setAngularVelocity**(`angVel`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:436](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L436)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:436](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L436)
 
 Sets the angular velocity of the physics object.
 
@@ -1016,7 +1016,7 @@ which is important for simulating realistic motion.
 
 > **setCollisionCallbackEnabled**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:549](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L549)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:549](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L549)
 
 Enable or disable collision callback for this PhysicsBody.
 
@@ -1038,7 +1038,7 @@ true if PhysicsBody's collision will rise a collision event and notifies the obs
 
 > **setCollisionEndedCallbackEnabled**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:558](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L558)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:558](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L558)
 
 Enable or disable collision ended callback for this PhysicsBody.
 
@@ -1060,7 +1060,7 @@ true if PhysicsBody's collision ended will rise a collision event and notifies t
 
 > **setEventMask**(`eventMask`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:240](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L240)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:240](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L240)
 
 Sets the event mask for the physics engine.
 
@@ -1091,7 +1091,7 @@ will be sent to the physics engine. This allows the user to control which events
 
 > **setGravityFactor**(`factor`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:672](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L672)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:672](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L672)
 
 Sets the gravity factor of the physics body
 
@@ -1119,7 +1119,7 @@ the instance of the body to set, if undefined all instances will be set
 
 > **setLinearDamping**(`damping`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:343](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L343)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:343](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L343)
 
 Sets the linear damping of the physics body.
 
@@ -1151,7 +1151,7 @@ the effects of air resistance or other forms of friction.
 
 > **setLinearVelocity**(`linVel`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:397](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L397)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:397](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L397)
 
 Sets the linear velocity of the physics object.
 
@@ -1184,7 +1184,7 @@ This allows for realistic physics simulations, such as simulating the motion of 
 
 > **setMassProperties**(`massProps`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:315](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L315)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:315](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L315)
 
 Sets the mass properties of the physics object.
 
@@ -1215,7 +1215,7 @@ inertia, and center of mass. This is important for accurately simulating the phy
 
 > **setMotionType**(`motionType`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:263](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L263)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:263](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L263)
 
 Sets the motion type of the physics body. Can be STATIC, DYNAMIC, or ANIMATED.
 
@@ -1243,7 +1243,7 @@ If this body is instanced, the index of the instance to set the motion type for.
 
 > **setPrestepType**(`prestepType`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:281](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L281)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:281](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L281)
 
 Set the prestep type of the body
 
@@ -1265,7 +1265,7 @@ prestep type provided by PhysicsPrestepType
 
 > **setTargetTransform**(`position`, `rotation`, `instanceIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:691](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L691)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:691](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L691)
 
 Set the target transformation (position and rotation) of the body, such that the body will set its velocity to reach that target
 
@@ -1299,7 +1299,7 @@ The index of the instance in an instanced body
 
 > **syncWithBone**(`bone`, `boneMesh`, `jointPivot`, `distToJoint?`, `adjustRotation?`, `boneAxis?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:614](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L614)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:614](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L614)
 
 Sync with a bone
 
@@ -1351,7 +1351,7 @@ Optional vector3 axis the bone is aligned with
 
 > **updateBodyInstances**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:175](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsBody.ts#L175)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsBody.ts:175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsBody.ts#L175)
 
 If a physics body is connected to an instanced node, update the number physic instances to match the number of node instances.
 

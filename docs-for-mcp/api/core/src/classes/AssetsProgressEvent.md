@@ -6,7 +6,7 @@
 
 # Class: AssetsProgressEvent
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:197](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L197)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L197)
 
 Class used to share progress information about assets loading
 
@@ -20,7 +20,7 @@ Class used to share progress information about assets loading
 
 > **new AssetsProgressEvent**(`remainingCount`, `totalCount`, `task`): `AssetsProgressEvent`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:217](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L217)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L217)
 
 Creates a AssetsProgressEvent
 
@@ -54,7 +54,7 @@ defines the task that was just processed
 
 > **remainingCount**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:201](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L201)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L201)
 
 Defines the number of remaining tasks to process
 
@@ -68,7 +68,7 @@ Defines the number of remaining tasks to process
 
 > **task**: [`AbstractAssetTask`](AbstractAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:209](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L209)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L209)
 
 Defines the task that was just processed
 
@@ -82,7 +82,7 @@ Defines the task that was just processed
 
 > **totalCount**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L205)
 
 Defines the total number of tasks
 

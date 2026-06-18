@@ -6,7 +6,7 @@
 
 # Class: FlowGraphPathConverterComponent
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts#L15)
 
 **`Experimental`**
 
@@ -18,7 +18,7 @@ A component that converts a path to an object accessor.
 
 > **new FlowGraphPathConverterComponent**(`path`, `ownerBlock`): `FlowGraphPathConverterComponent`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts#L20)
 
 **`Experimental`**
 
@@ -42,7 +42,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphPathConve
 
 > **ownerBlock**: [`FlowGraphBlock`](FlowGraphBlock.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts#L22)
 
 **`Experimental`**
 
@@ -52,7 +52,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphPathConve
 
 > **path**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts#L21)
 
 **`Experimental`**
 
@@ -62,7 +62,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphPathConve
 
 > `readonly` **templatedInputs**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<[`FlowGraphInteger`](FlowGraphInteger.md)\>[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts#L19)
 
 **`Experimental`**
 
@@ -74,7 +74,7 @@ The templated inputs for the provided path.
 
 > **getAccessor**(`pathConverter`, `context`): [`IObjectInfo`](../interfaces/IObjectInfo.md)\<[`IObjectAccessor`](../interfaces/IObjectAccessor.md)\<`any`, `any`, `any`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphPathConverterComponent.ts#L44)
 
 **`Experimental`**
 

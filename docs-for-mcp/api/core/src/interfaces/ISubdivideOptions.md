@@ -6,7 +6,7 @@
 
 # Interface: ISubdivideOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts#L14)
 
 Interface used to configure the subdivision process
 
@@ -16,7 +16,7 @@ Interface used to configure the subdivision process
 
 > `optional` **flatOnly?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts#L16)
 
 Apply only flat subdivision - false by default
 
@@ -26,7 +26,7 @@ Apply only flat subdivision - false by default
 
 > `optional` **preserveEdges?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts#L22)
 
 Should edges / breaks in geometry be ignored during subdivision? - false by default
 
@@ -36,7 +36,7 @@ Should edges / breaks in geometry be ignored during subdivision? - false by defa
 
 > `optional` **split?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts#L18)
 
 Split all triangles at edges shared by coplanar triangles - true by default
 
@@ -46,7 +46,7 @@ Split all triangles at edges shared by coplanar triangles - true by default
 
 > `optional` **uvSmooth?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts#L20)
 
 Should UV values be averaged during subdivision - false by default
 
@@ -56,6 +56,6 @@ Should UV values be averaged during subdivision - false by default
 
 > `optional` **weight?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.subdivide.ts#L24)
 
 How much to weigh favoring heavy corners vs favoring Loop's formula - 1 by default

@@ -6,7 +6,7 @@
 
 # Class: PhysicsImpostor
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:206](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L206)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L197)
 
 Represents a physics imposter
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/physics/usingPhysicsEngine
 
 > **new PhysicsImpostor**(`object`, `type`, `_options?`, `_scene?`): `PhysicsImpostor`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:440](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L440)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:431](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L431)
 
 Initializes the physics imposter
 
@@ -60,7 +60,7 @@ The Babylon scene
 
 > **object**: [`IPhysicsEnabledObject`](../interfaces/IPhysicsEnabledObject.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:444](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L444)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:435](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L435)
 
 The physics-enabled object used as the physics imposter
 
@@ -70,7 +70,7 @@ The physics-enabled object used as the physics imposter
 
 > **onCollideEvent**: [`Nullable`](../type-aliases/Nullable.md)\<(`collider`, `collidedWith`) => `void`\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:915](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L915)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:906](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L906)
 
 Legacy collision detection event support
 
@@ -80,7 +80,7 @@ Legacy collision detection event support
 
 > **type**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:448](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L448)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:439](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L439)
 
 The type of the physics imposter
 
@@ -90,7 +90,7 @@ The type of the physics imposter
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:416](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L416)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:407](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L407)
 
 The unique id of the physics imposter
 set by the physics engine when adding this impostor to the array
@@ -101,7 +101,7 @@ set by the physics engine when adding this impostor to the array
 
 > `static` **BoxImpostor**: `number` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1263](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1263)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1254)
 
 Box-Imposter type
 
@@ -111,7 +111,7 @@ Box-Imposter type
 
 > `static` **CapsuleImpostor**: `number` = `6`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1275](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1275)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1266](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1266)
 
 Capsule-Impostor type (Ammo.js plugin only)
 
@@ -121,7 +121,7 @@ Capsule-Impostor type (Ammo.js plugin only)
 
 > `static` **ClothImpostor**: `number` = `102`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1303](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1303)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1294](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1294)
 
 Cloth-Imposter type
 
@@ -131,7 +131,7 @@ Cloth-Imposter type
 
 > `static` **ConvexHullImpostor**: `number` = `10`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1291](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1291)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1282)
 
 ConvexHull-Impostor type (Ammo.js plugin only)
 
@@ -141,7 +141,7 @@ ConvexHull-Impostor type (Ammo.js plugin only)
 
 > `static` **CustomImpostor**: `number` = `100`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1295](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1295)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1286](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1286)
 
 Custom-Imposter type (Ammo.js plugin only)
 
@@ -151,7 +151,7 @@ Custom-Imposter type (Ammo.js plugin only)
 
 > `static` **CylinderImpostor**: `number` = `7`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1279](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1279)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1270](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1270)
 
 Cylinder-Imposter type
 
@@ -161,7 +161,7 @@ Cylinder-Imposter type
 
 > `static` **DEFAULT\_OBJECT\_SIZE**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:210](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L210)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L201)
 
 The default object size of the imposter
 
@@ -171,7 +171,7 @@ The default object size of the imposter
 
 > `static` **HeightmapImpostor**: `number` = `9`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1287](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1287)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1278](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1278)
 
 Heightmap-Imposter type
 
@@ -181,7 +181,7 @@ Heightmap-Imposter type
 
 > `static` **IDENTITY\_QUATERNION**: [`Quaternion`](Quaternion.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:215](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L215)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:206](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L206)
 
 The identity quaternion of the imposter
 
@@ -191,7 +191,7 @@ The identity quaternion of the imposter
 
 > `static` **MeshImpostor**: `number` = `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1271)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1262](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1262)
 
 Mesh-imposter type (Only available to objects with vertices data)
 
@@ -201,7 +201,7 @@ Mesh-imposter type (Only available to objects with vertices data)
 
 > `static` **NoImpostor**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1255)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1246](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1246)
 
 No-Imposter type
 
@@ -211,7 +211,7 @@ No-Imposter type
 
 > `static` **ParticleImpostor**: `number` = `8`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1283](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1283)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1274](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1274)
 
 Particle-Imposter type
 
@@ -221,7 +221,7 @@ Particle-Imposter type
 
 > `static` **PlaneImpostor**: `number` = `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1267](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1267)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1258](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1258)
 
 Plane-Imposter type
 
@@ -231,7 +231,7 @@ Plane-Imposter type
 
 > `static` **RopeImpostor**: `number` = `101`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1299](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1299)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1290](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1290)
 
 Rope-Imposter type
 
@@ -241,7 +241,7 @@ Rope-Imposter type
 
 > `static` **SoftbodyImpostor**: `number` = `103`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1307](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1307)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1298)
 
 Softbody-Imposter type
 
@@ -251,7 +251,7 @@ Softbody-Imposter type
 
 > `static` **SphereImpostor**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1259](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1259)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1250](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1250)
 
 Sphere-Imposter type
 
@@ -263,7 +263,7 @@ Sphere-Imposter type
 
 > **get** **friction**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:269](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L269)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L260)
 
 Gets the coefficient of friction
 
@@ -275,7 +275,7 @@ Gets the coefficient of friction
 
 > **set** **friction**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:276](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L276)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:267](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L267)
 
 Sets the coefficient of friction
 
@@ -297,7 +297,7 @@ Sets the coefficient of friction
 
 > **get** **isDisposed**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:251](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L251)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:242](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L242)
 
 Specifies if the physics imposter is disposed
 
@@ -313,7 +313,7 @@ Specifies if the physics imposter is disposed
 
 > **get** **mass**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:258](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L258)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:249](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L249)
 
 Gets the mass of the physics imposter
 
@@ -325,7 +325,7 @@ Gets the mass of the physics imposter
 
 > **set** **mass**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:262](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L262)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:253](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L253)
 
 ##### Parameters
 
@@ -345,7 +345,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.t
 
 > **get** **parent**(): [`Nullable`](../type-aliases/Nullable.md)\<`PhysicsImpostor`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:582](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L582)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:573](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L573)
 
 Get the parent of the physics imposter
 
@@ -359,7 +359,7 @@ Physics imposter or null
 
 > **set** **parent**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:589](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L589)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:580](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L580)
 
 Sets the parent of the physics imposter
 
@@ -381,7 +381,7 @@ Sets the parent of the physics imposter
 
 > **get** **physicsBody**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:574](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L574)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:565](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L565)
 
 Gets the body that holds this impostor. Either its own, or its parent.
 
@@ -393,7 +393,7 @@ Gets the body that holds this impostor. Either its own, or its parent.
 
 > **set** **physicsBody**(`physicsBody`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:596](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L596)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:587](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L587)
 
 Set the physics body. Used mainly by the physics engine/plugin
 
@@ -415,7 +415,7 @@ Set the physics body. Used mainly by the physics engine/plugin
 
 > **get** **positionIterations**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:387](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L387)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:378](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L378)
 
 Gets the positionIterations of a soft body; only supported by the AmmoJSPlugin
 
@@ -427,7 +427,7 @@ Gets the positionIterations of a soft body; only supported by the AmmoJSPlugin
 
 > **set** **positionIterations**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:401](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L401)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:392](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L392)
 
 Sets the positionIterations of a soft body; only supported by the AmmoJSPlugin
 
@@ -449,7 +449,7 @@ Sets the positionIterations of a soft body; only supported by the AmmoJSPlugin
 
 > **get** **pressure**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:303](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L303)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:294](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L294)
 
 Gets the pressure of a soft body; only supported by the AmmoJSPlugin
 
@@ -461,7 +461,7 @@ Gets the pressure of a soft body; only supported by the AmmoJSPlugin
 
 > **set** **pressure**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:317](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L317)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:308](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L308)
 
 Sets the pressure of a soft body; only supported by the AmmoJSPlugin
 
@@ -483,7 +483,7 @@ Sets the pressure of a soft body; only supported by the AmmoJSPlugin
 
 > **get** **restitution**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:286](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L286)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:277](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L277)
 
 Gets the coefficient of restitution
 
@@ -495,7 +495,7 @@ Gets the coefficient of restitution
 
 > **set** **restitution**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:293](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L293)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:284](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L284)
 
 Sets the coefficient of restitution
 
@@ -517,7 +517,7 @@ Sets the coefficient of restitution
 
 > **get** **stiffness**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:331](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L331)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:322](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L322)
 
 Gets the stiffness of a soft body; only supported by the AmmoJSPlugin
 
@@ -529,7 +529,7 @@ Gets the stiffness of a soft body; only supported by the AmmoJSPlugin
 
 > **set** **stiffness**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:345](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L345)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:336](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L336)
 
 Sets the stiffness of a soft body; only supported by the AmmoJSPlugin
 
@@ -551,7 +551,7 @@ Sets the stiffness of a soft body; only supported by the AmmoJSPlugin
 
 > **get** **velocityIterations**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:359](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L359)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L350)
 
 Gets the velocityIterations of a soft body; only supported by the AmmoJSPlugin
 
@@ -563,7 +563,7 @@ Gets the velocityIterations of a soft body; only supported by the AmmoJSPlugin
 
 > **set** **velocityIterations**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:373](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L373)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:364](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L364)
 
 Sets the velocityIterations of a soft body; only supported by the AmmoJSPlugin
 
@@ -583,7 +583,7 @@ Sets the velocityIterations of a soft body; only supported by the AmmoJSPlugin
 
 > **addAnchor**(`otherImpostor`, `width`, `height`, `influence`, `noCollisionBetweenLinkedBodies`): `PhysicsImpostor`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1014](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1014)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1005](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1005)
 
 Add an anchor to a cloth impostor
 
@@ -631,7 +631,7 @@ impostor the soft imposter
 
 > **addHook**(`otherImpostor`, `length`, `influence`, `noCollisionBetweenLinkedBodies`): `PhysicsImpostor`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1036](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1036)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1027](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1027)
 
 Add a hook to a rope impostor
 
@@ -673,7 +673,7 @@ impostor the rope imposter
 
 > **addJoint**(`otherImpostor`, `joint`): `PhysicsImpostor`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:992](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L992)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:983](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L983)
 
 Add a joint to this impostor with a different impostor
 
@@ -703,7 +703,7 @@ The physics imposter
 
 > **afterStep**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:882](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L882)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:873](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L873)
 
 this function is executed by the physics engine
 
@@ -717,7 +717,7 @@ this function is executed by the physics engine
 
 > **applyForce**(`force`, `contactPoint`): `PhysicsImpostor`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:951](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L951)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:942](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L942)
 
 Apply a force
 
@@ -747,7 +747,7 @@ The physics imposter
 
 > **applyImpulse**(`force`, `contactPoint`): `PhysicsImpostor`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:964](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L964)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:955](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L955)
 
 Apply an impulse
 
@@ -777,7 +777,7 @@ The physics imposter
 
 > **beforeStep**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:852](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L852)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:843](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L843)
 
 this function is executed by the physics engine.
 
@@ -791,7 +791,7 @@ this function is executed by the physics engine.
 
 > **clone**(`newObject`): [`Nullable`](../type-aliases/Nullable.md)\<`PhysicsImpostor`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1079](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1079)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1070](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1070)
 
 Clones the physics imposter
 
@@ -815,7 +815,7 @@ A nullable physics imposter
 
 > **createJoint**(`otherImpostor`, `jointType`, `jointData`): `PhysicsImpostor`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:979](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L979)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:970](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L970)
 
 A help function to create a joint
 
@@ -851,7 +851,7 @@ The physics imposter
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1089](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1089)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1080](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1080)
 
 Disposes the physics imposter
 
@@ -865,7 +865,7 @@ Disposes the physics imposter
 
 > **executeNativeFunction**(`func`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:730](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L730)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:721](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L721)
 
 Execute a function with the physics plugin native code
 Provide a function the will have two variables - the world object and the physics body object
@@ -888,7 +888,7 @@ The function to execute with the physics plugin native code
 
 > **forceUpdate**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:560](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L560)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:551](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L551)
 
 Force a regeneration of this or the parent's impostor's body.
 Use with caution - This will remove all previously-instantiated joints.
@@ -903,7 +903,7 @@ Use with caution - This will remove all previously-instantiated joints.
 
 > **getAngularVelocity**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Vector3`](Vector3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:711](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L711)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:702](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L702)
 
 Gets the angular velocity
 
@@ -919,7 +919,7 @@ angular velocity or null
 
 > **getBoxSizeToRef**(`result`): `PhysicsImpostor`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1134)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1125)
 
 Gets the box size of the physics imposter and stores the result in the input parameter
 
@@ -943,7 +943,7 @@ The physics imposter
 
 > **getLinearVelocity**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Vector3`](Vector3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:693](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L693)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:684](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L684)
 
 Gets the linear velocity
 
@@ -959,7 +959,7 @@ linear velocity or null
 
 > **getObjectCenter**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:648](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L648)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:639](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L639)
 
 Gets the object center
 
@@ -975,7 +975,7 @@ The object center
 
 > **getObjectExtents**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:615](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L615)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:606](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L606)
 
 Gets the object extents
 
@@ -991,7 +991,7 @@ the object extents
 
 > **getParam**(`paramName`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:662](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L662)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:653](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L653)
 
 Get a specific parameter from the options parameters
 
@@ -1015,7 +1015,7 @@ The object parameter
 
 > **getParentsRotation**(): [`Quaternion`](Quaternion.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:834](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L834)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:825](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L825)
 
 Get the parent rotation
 
@@ -1031,7 +1031,7 @@ The parent rotation
 
 > **getRadius**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1146)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1137)
 
 Gets the radius of the physics imposter
 
@@ -1047,7 +1047,7 @@ Radius of the physics imposter
 
 > **isBodyInitRequired**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:545](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L545)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:536](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L536)
 
 Should a new body be generated.
 
@@ -1063,7 +1063,7 @@ boolean specifying if body initialization is required
 
 > **onCollide**(`e`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:921](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L921)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:912](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L912)
 
 define an onCollide function to call when this impostor collides against a different body
 
@@ -1103,7 +1103,7 @@ collide event data
 
 > **registerAfterPhysicsStep**(`func`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:762](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L762)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:753](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L753)
 
 Register a function that will be executed after the physics step
 
@@ -1125,7 +1125,7 @@ The function to execute after physics step
 
 > **registerBeforePhysicsStep**(`func`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:740](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L740)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:731](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L731)
 
 Register a function that will be executed before the physics world is stepping forward
 
@@ -1147,7 +1147,7 @@ The function to execute before the physics world is stepped forward
 
 > **registerOnPhysicsCollide**(`collideAgainst`, `func`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:785](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L785)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:776](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L776)
 
 register a function that will be executed when this impostor collides against a different body
 
@@ -1175,7 +1175,7 @@ Callback that is executed on collision
 
 > **resetUpdateFlags**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:607](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L607)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:598](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L598)
 
 Resets the update flags
 
@@ -1189,7 +1189,7 @@ Resets the update flags
 
 > **setAngularVelocity**(`velocity`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:719](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L719)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:710](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L710)
 
 Sets the angular velocity
 
@@ -1211,7 +1211,7 @@ The velocity or null
 
 > **setDeltaPosition**(`position`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1113)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1104)
 
 Sets the delta position
 
@@ -1233,7 +1233,7 @@ The delta position amount
 
 > **setDeltaRotation**(`rotation`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1121)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1112)
 
 Sets the delta rotation
 
@@ -1255,7 +1255,7 @@ The delta rotation amount
 
 > **setLinearVelocity**(`velocity`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:701](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L701)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:692](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L692)
 
 Sets the linear velocity
 
@@ -1277,7 +1277,7 @@ linear velocity or null
 
 > **setMass**(`mass`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:680](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L680)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:671](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L671)
 
 Specifically change the body's mass. Won't recreate the physics body object
 
@@ -1299,7 +1299,7 @@ The mass of the physics imposter
 
 > **setParam**(`paramName`, `value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:671](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L671)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:662](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L662)
 
 Sets a specific parameter in the options given to the physics plugin
 
@@ -1327,7 +1327,7 @@ The value of the parameter
 
 > **setScalingUpdated**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:552](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L552)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:543](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L543)
 
 Sets the updated scaling
 
@@ -1341,7 +1341,7 @@ Sets the updated scaling
 
 > **sleep**(): `PhysicsImpostor`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1054](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1054)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1045](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1045)
 
 Will keep this body still, in a sleep mode.
 
@@ -1357,7 +1357,7 @@ the physics imposter
 
 > **syncBoneWithImpostor**(`bone`, `boneMesh`, `jointPivot`, `distToJoint?`, `adjustRotation?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1158](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1158)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1149)
 
 Sync a bone with this impostor
 
@@ -1403,7 +1403,7 @@ Optional quaternion for adjusting the local rotation of the bone.
 
 > **syncImpostorWithBone**(`bone`, `boneMesh`, `jointPivot`, `distToJoint?`, `adjustRotation?`, `boneAxis?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1212)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1203](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1203)
 
 Sync impostor to a bone
 
@@ -1455,7 +1455,7 @@ Optional vector3 axis the bone is aligned with
 
 > **unregisterAfterPhysicsStep**(`func`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:770](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L770)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:761](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L761)
 
 Unregisters a function that will be executed after the physics step
 
@@ -1477,7 +1477,7 @@ The function to execute after physics step
 
 > **unregisterBeforePhysicsStep**(`func`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:748](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L748)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:739](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L739)
 
 Unregister a function that will be executed before the physics world is stepping forward
 
@@ -1499,7 +1499,7 @@ The function to execute before the physics world is stepped forward
 
 > **unregisterOnPhysicsCollide**(`collideAgainst`, `func`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:798](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L798)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:789](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L789)
 
 Unregisters the physics imposter's collision callback
 
@@ -1527,7 +1527,7 @@ Callback to execute on collision
 
 > **wakeUp**(): `PhysicsImpostor`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:1066](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L1066)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:1057](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L1057)
 
 Wake the body up.
 

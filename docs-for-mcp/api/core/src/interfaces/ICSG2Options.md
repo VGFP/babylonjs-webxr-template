@@ -6,7 +6,7 @@
 
 # Interface: ICSG2Options
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L39)
 
 Interface to customize the Manifold library import
 
@@ -16,7 +16,7 @@ Interface to customize the Manifold library import
 
 > **manifoldInstance**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L47)
 
 Custom manifold instance
 
@@ -26,7 +26,7 @@ Custom manifold instance
 
 > **manifoldMeshInstance**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L51)
 
 Custom manifold mesh instance
 
@@ -36,6 +36,6 @@ Custom manifold mesh instance
 
 > `optional` **manifoldUrl?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L43)
 
 Custom manifold URL

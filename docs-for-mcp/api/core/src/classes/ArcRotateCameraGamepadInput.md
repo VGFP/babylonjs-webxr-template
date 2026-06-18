@@ -6,7 +6,7 @@
 
 # Class: ArcRotateCameraGamepadInput
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L11)
 
 Manage the gamepad inputs to control an arc rotate camera.
 
@@ -34,7 +34,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **camera**: [`ArcRotateCamera`](ArcRotateCamera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L15)
 
 Defines the camera the input is attached to.
 
@@ -48,7 +48,7 @@ Defines the camera the input is attached to.
 
 > **gamepad**: [`Nullable`](../type-aliases/Nullable.md)\<[`Gamepad`](Gamepad.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L20)
 
 Defines the gamepad the input is gathering event from.
 
@@ -58,7 +58,7 @@ Defines the gamepad the input is gathering event from.
 
 > **gamepadMoveSensibility**: `number` = `40`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L34)
 
 Defines the gamepad move sensibility.
 This is the threshold from when moving starts to be accounted for for to prevent jittering.
@@ -69,7 +69,7 @@ This is the threshold from when moving starts to be accounted for for to prevent
 
 > **gamepadRotationSensibility**: `number` = `80`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L27)
 
 Defines the gamepad rotation sensibility.
 This is the threshold from when rotation starts to be accounted for to prevent jittering.
@@ -82,7 +82,7 @@ This is the threshold from when rotation starts to be accounted for to prevent j
 
 > **get** **invertYAxis**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L41)
 
 Gets or sets a boolean indicating that Yaxis (for right stick) should be inverted
 
@@ -94,7 +94,7 @@ Gets or sets a boolean indicating that Yaxis (for right stick) should be inverte
 
 > **set** **invertYAxis**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L45)
 
 ##### Parameters
 
@@ -112,7 +112,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCame
 
 > **attachControl**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L55)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -130,7 +130,7 @@ Attach the input controls to a specific dom element to get the input from.
 
 > **checkInputs**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L92)
 
 Update the current camera state depending on the inputs that have been used this frame.
 This is a dynamically created lambda to avoid the performance penalty of looping for inputs in the render loop.
@@ -149,7 +149,7 @@ This is a dynamically created lambda to avoid the performance penalty of looping
 
 > **detachControl**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L82)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L82)
 
 Detach the current controls from the specified dom element.
 
@@ -167,7 +167,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L130)
 
 Gets the class name of the current intput.
 
@@ -187,7 +187,7 @@ the class name
 
 > **getSimpleName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraGamepadInput.ts#L138)
 
 Get the friendly name associated with the input class.
 

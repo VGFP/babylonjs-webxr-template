@@ -8,7 +8,7 @@
 
 > `const` **TubeBuilder**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/tubeBuilder.ts:187](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/tubeBuilder.ts#L187)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/tubeBuilder.pure.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/tubeBuilder.pure.ts#L190)
 
 Class containing static functions to help procedurally build meshes
 

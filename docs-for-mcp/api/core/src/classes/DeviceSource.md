@@ -6,7 +6,7 @@
 
 # Class: DeviceSource\<T\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts#L21)
 
 Class that handles all input for a specific device
 
@@ -22,7 +22,7 @@ Class that handles all input for a specific device
 
 > **new DeviceSource**\<`T`\>(`deviceInputSystem`, `deviceType`, `deviceSlot?`): `DeviceSource`\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts#L37)
 
 Default Constructor
 
@@ -56,7 +56,7 @@ Type of device
 
 > `readonly` **deviceSlot**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts#L42)
 
 [0] "Slot" or index that device is referenced in
 
@@ -66,7 +66,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/dev
 
 > `readonly` **deviceType**: `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts#L40)
 
 Type of device
 
@@ -76,7 +76,7 @@ Type of device
 
 > `readonly` **onInputChangedObservable**: [`Observable`](Observable.md)\<[`DeviceSourceEvent`](../type-aliases/DeviceSourceEvent.md)\<`T`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts#L26)
 
 Observable to handle device input changes per device
 
@@ -86,7 +86,7 @@ Observable to handle device input changes per device
 
 > **getInput**(`inputIndex`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceSource.ts#L52)
 
 Get input for specific input
 

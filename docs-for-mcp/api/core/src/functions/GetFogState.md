@@ -8,7 +8,7 @@
 
 > **GetFogState**(`mesh`, `scene`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.functions.ts:598](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.functions.ts#L598)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.functions.ts:611](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.functions.ts#L611)
 
 Gets the current status of the fog (should it be enabled?)
 

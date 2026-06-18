@@ -6,7 +6,7 @@
 
 # Class: BoundingInfo
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L54)
 
 Info for a bounding data of a mesh
 
@@ -20,7 +20,7 @@ Info for a bounding data of a mesh
 
 > **new BoundingInfo**(`minimum`, `maximum`, `worldMatrix?`): `BoundingInfo`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L74)
 
 Constructs bounding info
 
@@ -54,7 +54,7 @@ defines the new world matrix
 
 > `readonly` **boundingBox**: [`BoundingBox`](BoundingBox.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L58)
 
 Bounding box for the mesh
 
@@ -64,7 +64,7 @@ Bounding box for the mesh
 
 > `readonly` **boundingSphere**: [`BoundingSphere`](BoundingSphere.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L62)
 
 Bounding sphere for the mesh
 
@@ -76,7 +76,7 @@ Bounding sphere for the mesh
 
 > **get** **diagonalLength**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L225)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L225)
 
 Gets the world distance between the min and max points of the bounding box
 
@@ -92,7 +92,7 @@ Gets the world distance between the min and max points of the bounding box
 
 > **get** **isLocked**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L107)
 
 If the info is locked and won't be updated to avoid perf overhead
 
@@ -104,7 +104,7 @@ If the info is locked and won't be updated to avoid perf overhead
 
 > **set** **isLocked**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L111)
 
 ##### Parameters
 
@@ -124,7 +124,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:111]
 
 > **get** **maximum**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L100)
 
 max vector of the bounding box/sphere
 
@@ -140,7 +140,7 @@ max vector of the bounding box/sphere
 
 > **get** **minimum**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L93)
 
 min vector of the bounding box/sphere
 
@@ -154,7 +154,7 @@ min vector of the bounding box/sphere
 
 > **centerOn**(`center`, `extend`): `BoundingInfo`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L134)
 
 Recreate the bounding info to be centered around a specific point given a specific extend.
 
@@ -184,7 +184,7 @@ the current bounding info
 
 > **encapsulate**(`point`): `BoundingInfo`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:149](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L149)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L149)
 
 Grows the bounding info to include the given point.
 
@@ -208,7 +208,7 @@ the current bounding info
 
 > **encapsulateBoundingInfo**(`toEncapsulate`): `BoundingInfo`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L162)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L162)
 
 Grows the bounding info to encapsulate the given bounding info.
 
@@ -232,7 +232,7 @@ the current bounding info
 
 > **intersects**(`boundingInfo`, `precise`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:276](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L276)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L276)
 
 Checks if another bounding info intersects the bounding box and bounding sphere or the mesh
 
@@ -266,7 +266,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/interactions/mesh_inter
 
 > **intersectsPoint**(`point`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:253](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L253)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:253](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L253)
 
 Checks if a point is inside the bounding box and bounding sphere or the mesh
 
@@ -294,7 +294,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/interactions/mesh_inter
 
 > **isCompletelyInFrustum**(`frustumPlanes`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:237](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L237)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:237](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L237)
 
 Checks if a cullable object (mesh...) is in the camera frustum
 Unlike isInFrustum this checks the full bounding box
@@ -323,7 +323,7 @@ true if the object is in frustum otherwise false
 
 > **isInFrustum**(`frustumPlanes`, `strategy?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L200)
 
 Returns `true` if the bounding info is within the frustum defined by the passed array of planes.
 
@@ -369,7 +369,7 @@ true if the bounding info is in the frustum planes
 
 > **reConstruct**(`min`, `max`, `worldMatrix?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L85)
 
 Recreates the entire bounding info from scratch as if we call the constructor in place
 
@@ -403,7 +403,7 @@ defines the new world matrix
 
 > **scale**(`factor`): `BoundingInfo`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:182](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L182)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L182)
 
 Scale the current bounding info by applying a scale factor
 
@@ -427,7 +427,7 @@ the current bounding info
 
 > **update**(`world`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingInfo.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L120)
 
 Updates the bounding sphere and box
 

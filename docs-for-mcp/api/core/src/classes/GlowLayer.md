@@ -6,7 +6,7 @@
 
 # Class: GlowLayer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L48)
 
 The glow layer Helps adding a glow effect around the emissive parts of a mesh.
 
@@ -24,7 +24,7 @@ Documentation: https://doc.babylonjs.com/features/featuresDeepDive/mesh/glowLaye
 
 > **new GlowLayer**(`name`, `scene?`, `options?`): `GlowLayer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:158](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L158)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L136)
 
 Instantiates a new glow Layer and references it to the scene.
 
@@ -62,7 +62,7 @@ Sets of none mandatory options to use with the layer (see IGlowLayerOptions for 
 
 > **onAfterComposeObservable**: [`Observable`](Observable.md)\<[`EffectLayer`](EffectLayer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:227](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L227)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L228)
 
 An event triggered when the generated texture has been merged in the scene.
 
@@ -76,7 +76,7 @@ An event triggered when the generated texture has been merged in the scene.
 
 > **onAfterRenderMeshToEffect**: [`Observable`](Observable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L222)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L223)
 
 An event triggered after the mesh has been rendered into the effect render target.
 
@@ -90,7 +90,7 @@ An event triggered after the mesh has been rendered into the effect render targe
 
 > **onBeforeComposeObservable**: [`Observable`](Observable.md)\<[`EffectLayer`](EffectLayer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:213](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L213)
 
 An event triggered when the generated texture is being merged in the scene.
 
@@ -104,7 +104,7 @@ An event triggered when the generated texture is being merged in the scene.
 
 > **onBeforeRenderMainTextureObservable**: [`Observable`](Observable.md)\<[`EffectLayer`](EffectLayer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:207](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L207)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L208)
 
 An event triggered when the effect layer is about rendering the main texture with the glowy parts.
 
@@ -118,7 +118,7 @@ An event triggered when the effect layer is about rendering the main texture wit
 
 > **onBeforeRenderMeshToEffect**: [`Observable`](Observable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:217](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L217)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L218)
 
 An event triggered when the mesh is rendered into the effect render target.
 
@@ -132,7 +132,7 @@ An event triggered when the mesh is rendered into the effect render target.
 
 > **onDisposeObservable**: [`Observable`](Observable.md)\<[`EffectLayer`](EffectLayer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:202](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L202)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:203](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L203)
 
 An event triggered when the effect layer has been disposed.
 
@@ -146,7 +146,7 @@ An event triggered when the effect layer has been disposed.
 
 > **onSizeChangedObservable**: [`Observable`](Observable.md)\<[`EffectLayer`](EffectLayer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:232](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L232)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:233](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L233)
 
 An event triggered when the effect layer changes its size.
 
@@ -160,7 +160,7 @@ An event triggered when the effect layer changes its size.
 
 > `readonly` **uniqueId**: `number` = `UniqueIdGenerator.UniqueId`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L131)
 
 The unique id of the layer
 
@@ -174,7 +174,7 @@ The unique id of the layer
 
 > `static` **DefaultBlurKernelSize**: `number` = `32`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L59)
 
 The default blur kernel size used for the glow.
 
@@ -184,7 +184,7 @@ The default blur kernel size used for the glow.
 
 > `static` **DefaultTextureRatio**: `number` = `0.5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L64)
 
 The default texture size ratio used for the glow.
 
@@ -196,7 +196,7 @@ The default texture size ratio used for the glow.
 
 > **get** **blurKernelSize**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L77)
 
 Gets the kernel size of the blur.
 
@@ -208,7 +208,7 @@ Gets the kernel size of the blur.
 
 > **set** **blurKernelSize**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L69)
 
 Sets the kernel size of the blur.
 
@@ -230,7 +230,7 @@ Sets the kernel size of the blur.
 
 > **get** **camera**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L172)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L173)
 
 Gets the camera attached to the layer.
 
@@ -250,7 +250,7 @@ Gets the camera attached to the layer.
 
 > **get** **customEmissiveColorSelector**(): (`mesh`, `subMesh`, `material`, `result`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L111)
 
 Callback used to let the user override the color selection on a per mesh basis
 
@@ -262,7 +262,7 @@ Callback used to let the user override the color selection on a per mesh basis
 
 > **set** **customEmissiveColorSelector**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L115)
 
 ##### Parameters
 
@@ -282,7 +282,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:137](htt
 
 > **get** **customEmissiveTextureSelector**(): (`mesh`, `subMesh`, `material`) => [`Texture`](Texture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L122)
 
 Callback used to let the user override the texture selection on a per mesh basis
 
@@ -294,7 +294,7 @@ Callback used to let the user override the texture selection on a per mesh basis
 
 > **set** **customEmissiveTextureSelector**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L148)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L126)
 
 ##### Parameters
 
@@ -314,7 +314,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:148](htt
 
 > **get** **disableBoundingBoxesFromEffectLayer**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L191)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L192)
 
 Specifies if the bounding boxes should be rendered normally or if they should undergo the effect of the layer
 
@@ -326,7 +326,7 @@ Specifies if the bounding boxes should be rendered normally or if they should un
 
 > **set** **disableBoundingBoxesFromEffectLayer**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L195)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L196)
 
 ##### Parameters
 
@@ -350,7 +350,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:195](h
 
 > **get** **intensity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L92)
 
 Gets the glow intensity.
 
@@ -362,7 +362,7 @@ Gets the glow intensity.
 
 > **set** **intensity**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L84)
 
 Sets the glow intensity.
 
@@ -384,7 +384,7 @@ Sets the glow intensity.
 
 > **get** **isEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:161](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L161)
 
 Specifies whether the highlight layer is enabled or not.
 
@@ -396,7 +396,7 @@ Specifies whether the highlight layer is enabled or not.
 
 > **set** **isEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:164](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L164)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L165)
 
 ##### Parameters
 
@@ -420,7 +420,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:164](h
 
 > **get** **mainTexture**(): [`RenderTargetTexture`](RenderTargetTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:237](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L237)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L238)
 
 Gets the main texture where the effect is rendered
 
@@ -440,7 +440,7 @@ Gets the main texture where the effect is rendered
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:136](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L136)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L137)
 
 The name of the layer
 
@@ -452,7 +452,7 @@ The name of the layer
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L140)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L141)
 
 ##### Parameters
 
@@ -476,7 +476,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:140](h
 
 > **get** **neutralColor**(): [`Color4`](Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L148)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L149)
 
 The clear color of the texture used to generate the glow map.
 
@@ -488,7 +488,7 @@ The clear color of the texture used to generate the glow map.
 
 > **set** **neutralColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L152)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L153)
 
 ##### Parameters
 
@@ -512,7 +512,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:152](h
 
 > **get** **renderingGroupId**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L180)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:181](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L181)
 
 Gets the rendering group id the layer should render in.
 
@@ -524,7 +524,7 @@ Gets the rendering group id the layer should render in.
 
 > **set** **renderingGroupId**(`renderingGroupId`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L183)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:184](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L184)
 
 ##### Parameters
 
@@ -548,7 +548,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:183](h
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:248](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L248)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:249](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L249)
 
 Gets the shader language used in this material.
 
@@ -568,7 +568,7 @@ Gets the shader language used in this material.
 
 > **get** `static` **EffectName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L52)
 
 Effect Name of the layer.
 
@@ -584,7 +584,7 @@ Effect Name of the layer.
 
 > **get** `static` **ForceGLSL**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L120)
 
 Force all the effect layers to compile to glsl even on WebGPU engines.
 False by default. This is mostly meant for backward compatibility.
@@ -597,7 +597,7 @@ False by default. This is mostly meant for backward compatibility.
 
 > **set** `static` **ForceGLSL**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L124)
 
 ##### Parameters
 
@@ -619,7 +619,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:123](h
 
 > **addExcludedMesh**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:409](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L409)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:387](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L387)
 
 Add a mesh in the exclusion list to prevent it to impact or being impacted by the glow layer.
 This will not have an effect if meshes are excluded by default (see setExcludedByDefault).
@@ -642,7 +642,7 @@ The mesh to exclude from the glow layer
 
 > **addIncludedOnlyMesh**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:426](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L426)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:404](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L404)
 
 Add a mesh in the inclusion list to impact or being impacted by the glow layer.
 
@@ -664,7 +664,7 @@ The mesh to include in the glow layer
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:653](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L653)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:655](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L655)
 
 Dispose the highlight layer and free resources.
 
@@ -682,7 +682,7 @@ Dispose the highlight layer and free resources.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:495](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L495)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:473](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L473)
 
 Gets the class name of the effect layer
 
@@ -702,7 +702,7 @@ the string with the class name of the effect layer
 
 > **getEffectIntensity**(`mesh`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:272](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L272)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:273](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L273)
 
 Gets the intensity of the effect for a specific mesh.
 
@@ -730,7 +730,7 @@ The intensity of the effect for the mesh
 
 > **getEffectName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L185)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L163)
 
 Get the effect name of the layer.
 
@@ -750,7 +750,7 @@ The effect name
 
 > **hasMesh**(`mesh`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:452](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L452)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:430](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L430)
 
 Determine if a given mesh will be used in the glow layer
 
@@ -778,7 +778,7 @@ true if the mesh will be highlighted by the current glow layer
 
 > **isLayerReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:537](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L537)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:539](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L539)
 
 Checks if the layer is ready to be used.
 
@@ -798,7 +798,7 @@ true if the layer is ready to be used
 
 > **isReady**(`subMesh`, `useInstances`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:348](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L348)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:326](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L326)
 
 Checks for the readiness of the element composing the layer.
 
@@ -832,7 +832,7 @@ true if ready otherwise, false
 
 > **needStencil**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:355](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L355)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:333](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L333)
 
 #### Returns
 
@@ -850,7 +850,7 @@ whether or not the layer needs stencil enabled during the mesh rendering.
 
 > **referenceMeshToUseItsOwnMaterial**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:469](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L469)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:447](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L447)
 
 Add a mesh to be rendered through its own material and not with emissive only.
 
@@ -872,7 +872,7 @@ The mesh for which we need to use its material
 
 > **removeExcludedMesh**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:418](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L418)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:396](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L396)
 
 Remove a mesh from the exclusion list to let it impact or being impacted by the glow layer.
 This will not have an effect if meshes are excluded by default (see setExcludedByDefault).
@@ -895,7 +895,7 @@ The mesh to remove
 
 > **removeIncludedOnlyMesh**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:434](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L434)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:412](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L412)
 
 Remove a mesh from the Inclusion list to prevent it to impact or being impacted by the glow layer.
 
@@ -917,7 +917,7 @@ The mesh to remove
 
 > **render**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:544](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L544)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:546](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L546)
 
 Renders the glowing part of the scene by blending the blurred glowing meshes on top of the rendered scene.
 
@@ -935,7 +935,7 @@ Renders the glowing part of the scene by blending the blurred glowing meshes on 
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:503](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L503)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:481](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L481)
 
 Serializes this glow layer
 
@@ -955,7 +955,7 @@ a serialized glow layer object
 
 > **setEffectIntensity**(`mesh`, `intensity`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:281](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L281)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L282)
 
 Sets the intensity of the effect for a specific mesh.
 
@@ -987,7 +987,7 @@ The intensity of the effect for the mesh
 
 > **setExcludedByDefault**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:443](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L443)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:421](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L421)
 
 Set the excluded by default option.
 If true, all meshes will be excluded by default unless they are added to the inclusion list.
@@ -1010,7 +1010,7 @@ The boolean value to set the excluded by default option to
 
 > **setMaterialForRendering**(`mesh`, `material?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:263](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L263)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:264](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L264)
 
 Sets a specific material to be used to render a mesh/a list of meshes in the layer
 
@@ -1042,7 +1042,7 @@ material to use by the layer when rendering the mesh(es). If undefined is passed
 
 > **shouldRender**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:579](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L579)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:581](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L581)
 
 Returns true if the layer contains information to display, otherwise false.
 
@@ -1062,7 +1062,7 @@ true if the glow layer should be rendered
 
 > **unReferenceMeshFromUsingItsOwnMaterial**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:477](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L477)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:455](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L455)
 
 Remove a mesh from being rendered through its own material and not with emissive only.
 
@@ -1084,7 +1084,7 @@ The mesh for which we need to not use its material
 
 > `static` **Parse**(`parsedGlowLayer`, `scene`, `rootUrl`): `GlowLayer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.ts:545](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/glowLayer.ts#L545)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/glowLayer.pure.ts:523](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/glowLayer.pure.ts#L523)
 
 Creates a Glow Layer from parsed glow layer data
 

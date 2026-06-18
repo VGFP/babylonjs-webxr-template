@@ -6,7 +6,7 @@
 
 # Interface: IPropertyDescriptionForEdition
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L80)
 
 Interface that describes an editable property
 
@@ -16,7 +16,7 @@ Interface that describes an editable property
 
 > **className**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L92)
 
 name of the class that contains the property
 
@@ -26,7 +26,7 @@ name of the class that contains the property
 
 > **displayName**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L84)
 
 display name of the property
 
@@ -36,7 +36,7 @@ display name of the property
 
 > **groupName**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L88)
 
 group of the property - all properties with the same group value will be displayed in a specific section
 
@@ -46,7 +46,7 @@ group of the property - all properties with the same group value will be display
 
 > **options**: [`IEditablePropertyOption`](IEditablePropertyOption.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L90)
 
 options for the property
 
@@ -56,7 +56,7 @@ options for the property
 
 > **propertyName**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L82)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L82)
 
 name of the property
 
@@ -66,6 +66,6 @@ name of the property
 
 > **type**: [`PropertyTypeForEdition`](../enumerations/PropertyTypeForEdition.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L86)
 
 type of the property

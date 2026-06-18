@@ -6,7 +6,7 @@
 
 # Interface: Vector\<N, I\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L27)
 
 Represents a vector of any dimension
 
@@ -30,7 +30,7 @@ Represents a vector of any dimension
 
 > `readonly` **dimension**: `Readonly`\<`Dimension`\<`N`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L31)
 
 #### See
 
@@ -46,7 +46,7 @@ Tensor.dimension
 
 > `readonly` **rank**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L36)
 
 #### See
 
@@ -62,7 +62,7 @@ Tensor.rank
 
 > **add**(`other`): `Tensor`\<`N`, `I`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L108)
 
 Add another instance with the current one
 
@@ -90,7 +90,7 @@ a new instance set with the addition of the current instance and the given one c
 
 > **addInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L123)
 
 Set the instance coordinates by adding the given instance coordinates
 
@@ -118,7 +118,7 @@ the current updated instance
 
 > **addInPlaceFromFloats**(...`floats`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L130)
 
 Adds the given coordinates to the current instance
 
@@ -146,7 +146,7 @@ the current updated instance
 
 > **addToRef**\<`R`\>(`other`, `result`): `R`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L116)
 
 Sets the "result" coordinates with the addition of the current instance and the given one coordinates
 
@@ -186,7 +186,7 @@ result input
 
 > **asArray**(): `TensorNumberArray`\<`N`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L75)
 
 Copy the current instance to an array
 
@@ -206,7 +206,7 @@ a new array with the instance coordinates.
 
 > **clone**(): `Tensor`\<`N`, `I`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:350](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L350)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L350)
 
 Gets a new instance copied from the instance
 
@@ -226,7 +226,7 @@ a new instance
 
 > **copyFrom**(`source`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L82)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L82)
 
 Sets the current instance coordinates with the given source coordinates
 
@@ -254,7 +254,7 @@ the current updated instance
 
 > **copyFromFloats**(...`floats`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L89)
 
 Sets the instance coordinates with the given floats
 
@@ -280,7 +280,7 @@ the current updated instance
 
 > **divide**(`other`): `Tensor`\<`N`, `I`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:202](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L202)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:202](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L202)
 
 Returns a new instance set with the instance coordinates divided by the given one coordinates
 
@@ -308,7 +308,7 @@ a new instance
 
 > **divideInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:217](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L217)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L217)
 
 Divides the current instance coordinates by the given ones
 
@@ -336,7 +336,7 @@ the current updated instance
 
 > **divideToRef**\<`R`\>(`other`, `result`): `R`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:210](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L210)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L210)
 
 Sets the "result" coordinates with the instance coordinates divided by the given one coordinates
 
@@ -376,7 +376,7 @@ result input
 
 > **equals**(`other`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:301](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L301)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:301](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L301)
 
 Gets a boolean if two instances are equals
 
@@ -404,7 +404,7 @@ true if the given instance coordinates strictly equal the current instance ones
 
 > **equalsToFloats**(...`floats`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:316](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L316)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:316](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L316)
 
 Returns true if the current Vectoe coordinates equals the given floats
 
@@ -432,7 +432,7 @@ true if both instances are equal
 
 > **equalsWithEpsilon**(`other`, `epsilon?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:309](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L309)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:309](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L309)
 
 Gets a boolean if two instances are equals (using an epsilon value)
 
@@ -466,7 +466,7 @@ true if the given instance coordinates are close to the current ones by a distan
 
 > **floor**(): `Tensor`\<`N`, `I`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L323)
 
 Gets a new instance from current instance floored values
 eg (1.2, 2.31) returns (1, 2)
@@ -487,7 +487,7 @@ a new instance
 
 > **floorToRef**\<`R`\>(`result`): `R`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:330](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L330)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:330](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L330)
 
 Gets the current instance's floored values and stores them in result
 
@@ -521,7 +521,7 @@ the result instance
 
 > **fract**(): `Tensor`\<`N`, `I`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:337](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L337)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:337](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L337)
 
 Gets a new instance from current instance fractional values
 eg (1.2, 2.31) returns (0.2, 0.31)
@@ -542,7 +542,7 @@ a new instance
 
 > **fractToRef**\<`R`\>(`result`): `R`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:344](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L344)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:344](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L344)
 
 Gets the current instance's fractional values and stores them in result
 
@@ -576,7 +576,7 @@ the result instance
 
 > **fromArray**(`array`, `index?`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L69)
 
 Update the current instance from an array
 
@@ -610,7 +610,7 @@ the current instance
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L47)
 
 Gets class name
 
@@ -630,7 +630,7 @@ the class name
 
 > **getHashCode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L53)
 
 Gets current instance hash code
 
@@ -650,7 +650,7 @@ the instance hash code as a number
 
 > **length**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L42)
 
 Gets the length of the vector
 
@@ -666,7 +666,7 @@ the vector length (float)
 
 > **lengthSquared**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L48)
 
 Gets the vector squared length
 
@@ -682,7 +682,7 @@ the vector squared length (float)
 
 > **maximizeInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:238](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L238)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L238)
 
 Updates the current instance with the maximal coordinate values between its and the given instance ones.
 
@@ -710,7 +710,7 @@ this current updated instance
 
 > **maximizeInPlaceFromFloats**(...`floats`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L245)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L245)
 
 Updates the current instance with the maximal coordinate values between its and the given floats.
 
@@ -738,7 +738,7 @@ this current updated instance
 
 > **minimizeInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:224](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L224)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:224](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L224)
 
 Updates the current instance with the minmal coordinate values between its and the given instance ones.
 
@@ -766,7 +766,7 @@ this current updated instance
 
 > **minimizeInPlaceFromFloats**(...`floats`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:231](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L231)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L231)
 
 Updates the current instance with the minmal coordinate values between its and the given floats.
 
@@ -794,7 +794,7 @@ this current updated instance
 
 > **multiply**(`other`): `Tensor`\<`N`, `I`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:174](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L174)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L174)
 
 Returns a new instance set with the multiplication of the current instance and the given one coordinates
 
@@ -822,7 +822,7 @@ a new instance
 
 > **multiplyByFloats**(...`floats`): `Tensor`\<`N`, `I`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L195)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L195)
 
 Gets a new instance set with the instance coordinates multiplied by the given floats
 
@@ -848,7 +848,7 @@ a new instance
 
 > **multiplyInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:189](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L189)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L189)
 
 Multiplies in place the current instance coordinates by the given ones
 
@@ -876,7 +876,7 @@ the current updated instance
 
 > **multiplyToRef**\<`R`\>(`other`, `result`): `R`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:182](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L182)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L182)
 
 Sets "result" coordinates with the multiplication of the current instance and the given one coordinates
 
@@ -916,7 +916,7 @@ result input
 
 > **negate**(): `Tensor`\<`N`, `I`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:251](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L251)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L251)
 
 Gets a new instance with current instance negated coordinates
 
@@ -936,7 +936,7 @@ a new instance
 
 > **negateInPlace**(): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:257](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L257)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:257](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L257)
 
 Negate this instance in place
 
@@ -956,7 +956,7 @@ this
 
 > **negateToRef**\<`R`\>(`result`): `R`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:264](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L264)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:264](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L264)
 
 Negate the current instance and stores the result in the given instance "result" coordinates
 
@@ -990,7 +990,7 @@ the result
 
 > **normalize**(): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L54)
 
 Normalize the vector
 
@@ -1006,7 +1006,7 @@ the current updated Vector
 
 > **normalizeFromLength**(`len`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L62)
 
 Normalize the current Vector with the given input length.
 Please note that this is an in place operation.
@@ -1031,7 +1031,7 @@ the current updated Vector
 
 > **normalizeToNew**(): `Vector`\<`N`, `I`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L68)
 
 Normalize the current Vector to a new vector
 
@@ -1047,7 +1047,7 @@ the new Vector
 
 > **normalizeToRef**\<`T`\>(`reference`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L75)
 
 Normalize the current Vector to the reference
 
@@ -1077,7 +1077,7 @@ the updated Vector
 
 > **scale**(`scale`): `Tensor`\<`N`, `I`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:278](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L278)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:278](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L278)
 
 Returns a new instance scaled by "scale" from the current instance
 
@@ -1105,7 +1105,7 @@ a new instance
 
 > **scaleAndAddToRef**\<`R`\>(`scale`, `result`): `R`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:294](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L294)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:294](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L294)
 
 Scale the current instance values by a factor and add the result to a given instance
 
@@ -1145,7 +1145,7 @@ result input
 
 > **scaleInPlace**(`scale`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L271)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:271](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L271)
 
 Multiply the instance coordinates by
 
@@ -1173,7 +1173,7 @@ the current updated instance
 
 > **scaleToRef**\<`R`\>(`scale`, `result`): `R`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:286](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L286)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:286](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L286)
 
 Scale the current instance values by a factor to a given instance
 
@@ -1213,7 +1213,7 @@ result input
 
 > **set**(...`values`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L95)
 
 Sets the instance coordinates with the given floats
 
@@ -1239,7 +1239,7 @@ the current updated instance
 
 > **setAll**(`value`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L101)
 
 Sets the instance coordinates to the given value
 
@@ -1265,7 +1265,7 @@ the current updated instance
 
 > **subtract**(`other`): `Tensor`\<`N`, `I`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L137)
 
 Returns a new instance set with the subtracted coordinates of other's coordinates from the current coordinates.
 
@@ -1293,7 +1293,7 @@ a new instance
 
 > **subtractFromFloats**(...`floats`): `Tensor`\<`N`, `I`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L159)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L159)
 
 Returns a new instance set with the subtraction of the given floats from the current instance coordinates
 
@@ -1321,7 +1321,7 @@ the resulting instance
 
 > **subtractFromFloatsToRef**\<`R`\>(...`args`): `R`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:167](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L167)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L167)
 
 Subtracts the given floats from the current instance coordinates and set the given instance "result" with this result
 Note: Implementation uses array magic so types may be confusing.
@@ -1356,7 +1356,7 @@ the result
 
 > **subtractInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L152)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L152)
 
 Sets the current instance coordinates by subtracting from it the given one coordinates
 
@@ -1384,7 +1384,7 @@ the current updated instance
 
 > **subtractToRef**\<`R`\>(`other`, `result`): `R`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:145](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L145)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L145)
 
 Sets the "result" coordinates with the subtraction of the other's coordinates from the current coordinates.
 
@@ -1424,7 +1424,7 @@ result input
 
 > **toArray**(`array`, `index?`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/tensor.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/tensor.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/tensor.ts#L61)
 
 Sets the instance coordinates in the given array from the given index.
 

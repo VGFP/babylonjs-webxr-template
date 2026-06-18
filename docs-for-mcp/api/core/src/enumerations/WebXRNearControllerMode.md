@@ -6,7 +6,7 @@
 
 # Enumeration: WebXRNearControllerMode
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRNearInteraction.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRNearInteraction.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRNearInteraction.pure.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRNearInteraction.pure.ts#L78)
 
 Where should the near interaction mesh be attached to when using a motion controller for near interaction
 
@@ -16,7 +16,7 @@ Where should the near interaction mesh be attached to when using a motion contro
 
 > **CENTERED\_IN\_FRONT**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRNearInteraction.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRNearInteraction.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRNearInteraction.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRNearInteraction.pure.ts#L90)
 
 The interaction point for motion controllers will be in front of the controller
 
@@ -26,7 +26,7 @@ The interaction point for motion controllers will be in front of the controller
 
 > **CENTERED\_ON\_CONTROLLER**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRNearInteraction.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRNearInteraction.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRNearInteraction.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRNearInteraction.pure.ts#L86)
 
 The interaction point for motion controllers will be inside of them
 
@@ -36,6 +36,6 @@ The interaction point for motion controllers will be inside of them
 
 > **DISABLED**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRNearInteraction.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRNearInteraction.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRNearInteraction.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRNearInteraction.pure.ts#L82)
 
 Motion controllers will not support near interaction

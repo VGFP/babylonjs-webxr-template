@@ -6,7 +6,7 @@
 
 # Class: PointerDragBehavior
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L22)
 
 A behavior that when attached to a mesh will allow the mesh to be dragged around the screen based on pointer events
 
@@ -20,7 +20,7 @@ A behavior that when attached to a mesh will allow the mesh to be dragged around
 
 > **new PointerDragBehavior**(`options?`): `PointerDragBehavior`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:168](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L168)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:168](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L168)
 
 Creates a pointer drag behavior that can be attached to a mesh
 
@@ -48,7 +48,7 @@ The drag axis or normal of the plane that will be dragged across. If no options 
 
 > `optional` **additionalTransformNode?**: [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L144)
 
 If set, the drag axis will be transformed by the inverse of this node's world matrix.
 Useful when the drag behavior is used with a gizmo that has an additionalTransformNode.
@@ -59,7 +59,7 @@ Useful when the drag behavior is used with a gizmo that has an additionalTransfo
 
 > **allowOtherButtonsDuringDrag**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L138)
 
 Normally a drag is canceled when the user presses another button on the same pointer. If this is set to true,
 the drag will continue even if another button is pressed on the same pointer.
@@ -70,7 +70,7 @@ the drag will continue even if another button is pressed on the same pointer.
 
 > **attachedNode**: [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L27)
 
 Abstract mesh the behavior is set on
 
@@ -84,7 +84,7 @@ Abstract mesh the behavior is set on
 
 > **currentDraggingPointerId**: `number` = `-1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L63)
 
 The id of the pointer that is currently interacting with the behavior (-1 when no pointer is active)
 
@@ -94,7 +94,7 @@ The id of the pointer that is currently interacting with the behavior (-1 when n
 
 > **detachCameraControls**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L127)
 
 If camera controls should be detached during the drag
 
@@ -104,7 +104,7 @@ If camera controls should be detached during the drag
 
 > **dragButtons**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L43)
 
 Butttons that can be used to initiate a drag
 
@@ -114,7 +114,7 @@ Butttons that can be used to initiate a drag
 
 > **dragDeltaRatio**: `number` = `0.2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L75)
 
 The distance towards the target drag position to move each frame. This can be useful to avoid jitter. Set this to 1 for no delay. (Default: 0.2)
 
@@ -124,7 +124,7 @@ The distance towards the target drag position to move each frame. This can be us
 
 > **dragging**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L71)
 
 If the behavior is currently in a dragging state
 
@@ -134,7 +134,7 @@ If the behavior is currently in a dragging state
 
 > **lastDragPosition**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L67)
 
 The last position where the pointer hit the drag plane in world space
 
@@ -144,7 +144,7 @@ The last position where the pointer hit the drag plane in world space
 
 > **maxDragAngle**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L39)
 
 The maximum tolerated angle between the drag plane and dragging pointer rays to trigger pointer events. Set to 0 to allow any angle (default: 0)
 
@@ -154,7 +154,7 @@ The maximum tolerated angle between the drag plane and dragging pointer rays to 
 
 > **moveAttached**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L103)
 
 If the attached mesh should be moved when dragged
 
@@ -164,7 +164,7 @@ If the attached mesh should be moved when dragged
 
 > **onDragEndObservable**: [`Observable`](Observable.md)\<[`DragStartEndEvent`](../type-aliases/DragStartEndEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:94](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L94)
 
 Fires each time a drag ends (eg. mouse release after drag)
 
@@ -174,7 +174,7 @@ Fires each time a drag ends (eg. mouse release after drag)
 
 > **onDragObservable**: [`Observable`](Observable.md)\<[`DragEvent`](../type-aliases/DragEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L86)
 
 Fires each time the attached mesh is dragged with the pointer
 
@@ -184,7 +184,7 @@ Fires each time the attached mesh is dragged with the pointer
 
 > **onDragStartObservable**: [`Observable`](Observable.md)\<[`DragStartEndEvent`](../type-aliases/DragStartEndEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L90)
 
 Fires each time a drag begins (eg. mouse down on mesh)
 
@@ -194,7 +194,7 @@ Fires each time a drag begins (eg. mouse down on mesh)
 
 > **onEnabledObservable**: [`Observable`](Observable.md)\<`boolean`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L98)
 
 Fires each time behavior enabled state changes
 
@@ -204,7 +204,7 @@ Fires each time behavior enabled state changes
 
 > **startAndReleaseDragOnPointerEvents**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L123)
 
 If pointer events should start and release the drag (Default: true)
 
@@ -214,7 +214,7 @@ If pointer events should start and release the drag (Default: true)
 
 > **updateDragPlane**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L79)
 
 If the drag plane orientation should be updated during the dragging (Default: true)
 
@@ -224,7 +224,7 @@ If the drag plane orientation should be updated during the dragging (Default: tr
 
 > **useObjectOrientationForDragging**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L132)
 
 If set, the drag plane/axis will be rotated based on the attached mesh's world rotation (Default: true)
 
@@ -236,7 +236,7 @@ If set, the drag plane/axis will be rotated based on the attached mesh's world r
 
 > **get** **currentDraggingPointerID**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L53)
 
 Get or set the currentDraggingPointerId
 
@@ -252,7 +252,7 @@ Please use currentDraggingPointerId instead
 
 > **set** **currentDraggingPointerID**(`currentDraggingPointerId`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L57)
 
 ##### Parameters
 
@@ -272,7 +272,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDrag
 
 > **get** **enabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L115)
 
 ##### Returns
 
@@ -282,7 +282,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDrag
 
 > **set** **enabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L108)
 
 If the drag behavior will react to drag events (Default: true)
 
@@ -304,7 +304,7 @@ If the drag behavior will react to drag events (Default: true)
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:198](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L198)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L198)
 
 The name of the behavior
 
@@ -326,7 +326,7 @@ gets or sets behavior's name
 
 > **get** **options**(): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L151)
 
 Gets the options used by the behavior
 
@@ -346,7 +346,7 @@ Gets the options used by the behavior
 
 > **set** **options**(`options`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:158](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L158)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L158)
 
 Sets the options used by the behavior
 
@@ -372,7 +372,7 @@ Sets the options used by the behavior
 
 > **attach**(`ownerNode`, `predicate?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:217](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L217)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L217)
 
 Attaches the drag behavior the passed in mesh
 
@@ -404,7 +404,7 @@ Predicate to use for pick filtering
 
 > **detach**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:603](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L603)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:603](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L603)
 
 Detaches the behavior from the mesh
 
@@ -422,7 +422,7 @@ Detaches the behavior from the mesh
 
 > **init**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L205)
 
 Initializes the behavior
 
@@ -440,7 +440,7 @@ Initializes the behavior
 
 > **releaseDrag**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:353](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L353)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:353](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L353)
 
 Force release the drag action by code.
 
@@ -454,7 +454,7 @@ Force release the drag action by code.
 
 > **startDrag**(`pointerId?`, `fromRay?`, `startPickedPoint?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:388](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L388)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:388](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L388)
 
 Simulates the start of a pointer drag event on the behavior
 
@@ -488,7 +488,7 @@ picked point of the pointer to be simulated (Default: attached mesh position)
 
 > **validateDrag**(`target`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L191)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts:191](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragBehavior.ts#L191)
 
 Predicate to determine if it is valid to move the object to a new position when it is moved.
 In the case of rotation gizmo, target contains the angle.

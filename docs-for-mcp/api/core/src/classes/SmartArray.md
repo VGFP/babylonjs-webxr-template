@@ -6,7 +6,7 @@
 
 # Class: SmartArray\<T\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/smartArray.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/smartArray.ts#L19)
 
 Defines an GC Friendly array where the backfield array do not shrink to prevent over allocations.
 
@@ -30,7 +30,7 @@ Defines an GC Friendly array where the backfield array do not shrink to prevent 
 
 > **new SmartArray**\<`T`\>(`capacity`): `SmartArray`\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/smartArray.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/smartArray.ts#L36)
 
 Instantiates a Smart Array.
 
@@ -52,7 +52,7 @@ defines the default capacity of the array.
 
 > **data**: `T`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/smartArray.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/smartArray.ts#L23)
 
 The full set of data from the array.
 
@@ -66,7 +66,7 @@ The full set of data from the array.
 
 > **length**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/smartArray.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/smartArray.ts#L28)
 
 The active length of the array.
 
@@ -80,7 +80,7 @@ The active length of the array.
 
 > **concat**(`array`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/smartArray.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/smartArray.ts#L93)
 
 Concats the active data with a given array.
 
@@ -102,7 +102,7 @@ defines the data to concatenate with.
 
 > **contains**(`value`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/smartArray.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/smartArray.ts#L126)
 
 Returns whether an element is part of the active data.
 
@@ -126,7 +126,7 @@ true if found in the active data otherwise false
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/smartArray.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/smartArray.ts#L81)
 
 Releases all the data from the array as well as the array.
 
@@ -140,7 +140,7 @@ Releases all the data from the array as well as the array.
 
 > **forEach**(`func`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/smartArray.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/smartArray.ts#L57)
 
 Iterates over the active data and apply the lambda to them.
 
@@ -162,7 +162,7 @@ defines the action to apply on each value.
 
 > **indexOf**(`value`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/smartArray.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/smartArray.ts#L111)
 
 Returns the position of a value in the active data.
 
@@ -186,7 +186,7 @@ the index if found in the active data otherwise -1
 
 > **push**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/smartArray.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/smartArray.ts#L45)
 
 Pushes a value at the end of the active data.
 
@@ -208,7 +208,7 @@ defines the object to push in the array.
 
 > **reset**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/smartArray.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/smartArray.ts#L74)
 
 Resets the active data to an empty array.
 
@@ -222,7 +222,7 @@ Resets the active data to an empty array.
 
 > **sort**(`compareFn`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/smartArray.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/smartArray.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/smartArray.ts#L67)
 
 Sorts the full sets of data.
 

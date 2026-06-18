@@ -6,7 +6,7 @@
 
 # Enumeration: FragmentOutputBlockColorSpace
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Fragment/fragmentOutputBlock.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Fragment/fragmentOutputBlock.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Fragment/fragmentOutputBlock.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Fragment/fragmentOutputBlock.pure.ts#L20)
 
 Color spaces supported by the fragment output block
 
@@ -16,7 +16,7 @@ Color spaces supported by the fragment output block
 
 > **Gamma**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Fragment/fragmentOutputBlock.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Fragment/fragmentOutputBlock.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Fragment/fragmentOutputBlock.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Fragment/fragmentOutputBlock.pure.ts#L24)
 
 Gamma
 
@@ -26,7 +26,7 @@ Gamma
 
 > **Linear**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Fragment/fragmentOutputBlock.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Fragment/fragmentOutputBlock.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Fragment/fragmentOutputBlock.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Fragment/fragmentOutputBlock.pure.ts#L26)
 
 Linear
 
@@ -36,6 +36,6 @@ Linear
 
 > **NoColorSpace**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Fragment/fragmentOutputBlock.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Fragment/fragmentOutputBlock.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Fragment/fragmentOutputBlock.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Fragment/fragmentOutputBlock.pure.ts#L22)
 
 Unspecified

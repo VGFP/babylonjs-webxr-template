@@ -8,7 +8,7 @@
 
 > **registerTextureLoader**(`extension`, `loaderFactory`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Loaders/textureLoaderManager.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Loaders/textureLoaderManager.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Loaders/textureLoaderManager.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Loaders/textureLoaderManager.ts#L15)
 
 Registers a texture loader.
 If a loader for the extension exists in the registry, it will be replaced.

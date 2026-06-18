@@ -6,7 +6,9 @@
 
 # Interface: IFlowGraphSetPropertyBlockConfiguration\<O\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphSetPropertyBlock.ts:10](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphSetPropertyBlock.ts#L10)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphSetPropertyBlock.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphSetPropertyBlock.pure.ts#L15)
+
+Configuration for the FlowGraphSetPropertyBlock
 
 ## Type Parameters
 
@@ -20,7 +22,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Execution/f
 
 > `optional` **propertyName?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphSetPropertyBlock.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphSetPropertyBlock.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphSetPropertyBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphSetPropertyBlock.pure.ts#L19)
 
 The name of the property that will be set
 
@@ -30,6 +32,6 @@ The name of the property that will be set
 
 > `optional` **target?**: [`AssetType`](../type-aliases/AssetType.md)\<`O`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphSetPropertyBlock.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphSetPropertyBlock.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphSetPropertyBlock.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphSetPropertyBlock.pure.ts#L24)
 
 The target asset from which the property will be retrieved

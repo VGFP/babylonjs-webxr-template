@@ -6,7 +6,7 @@
 
 # Class: EXT\_texture\_avif
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_texture\_avif.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_texture_avif.ts#L15)
+Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_texture\_avif.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_texture_avif.ts#L15)
 
 **`Experimental`**
 
@@ -22,7 +22,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/E
 
 > **new EXT\_texture\_avif**(`exporter`): `EXT_texture_avif`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_texture\_avif.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_texture_avif.ts#L30)
+Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_texture\_avif.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_texture_avif.ts#L30)
 
 **`Experimental`**
 
@@ -42,7 +42,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/E
 
 > **enabled**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_texture\_avif.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_texture_avif.ts#L18)
+Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_texture\_avif.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_texture_avif.ts#L18)
 
 **`Experimental`**
 
@@ -58,7 +58,7 @@ Defines whether this extension is enabled
 
 > `readonly` **name**: `"EXT_texture_avif"` = `NAME`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_texture\_avif.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_texture_avif.ts#L16)
+Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_texture\_avif.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_texture_avif.ts#L16)
 
 **`Experimental`**
 
@@ -74,7 +74,7 @@ The name of this extension
 
 > **required**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_texture\_avif.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_texture_avif.ts#L20)
+Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_texture\_avif.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_texture_avif.ts#L20)
 
 **`Experimental`**
 
@@ -92,7 +92,7 @@ Gets a boolean indicating that this extension is required for the file to work
 
 > **get** **wasUsed**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_texture\_avif.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_texture_avif.ts#L24)
+Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_texture\_avif.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_texture_avif.ts#L24)
 
 **`Experimental`**
 
@@ -112,7 +112,7 @@ Gets a boolean indicating that this extension was used
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_texture\_avif.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_texture_avif.ts#L34)
+Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_texture\_avif.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_texture_avif.ts#L34)
 
 **`Experimental`**
 
@@ -132,7 +132,7 @@ Releases all held resources
 
 > **postExportTexture**(`_`, `textureInfo`): `void`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_texture\_avif.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_texture_avif.ts#L36)
+Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_texture\_avif.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_texture_avif.ts#L36)
 
 **`Experimental`**
 

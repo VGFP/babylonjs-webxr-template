@@ -6,7 +6,7 @@
 
 # Interface: ICustomAnimationFrameRequester
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/customAnimationFrameRequester.ts:4](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/customAnimationFrameRequester.ts#L4)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/customAnimationFrameRequester.ts:4](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/customAnimationFrameRequester.ts#L4)
 
 Interface for any object that can request an animation frame
 
@@ -16,7 +16,7 @@ Interface for any object that can request an animation frame
 
 > `optional` **cancelAnimationFrame?**: `Function`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/customAnimationFrameRequester.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/customAnimationFrameRequester.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/customAnimationFrameRequester.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/customAnimationFrameRequester.ts#L23)
 
 Called to cancel the next frame request
 
@@ -26,7 +26,7 @@ Called to cancel the next frame request
 
 > `optional` **renderFunction?**: `Function`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/customAnimationFrameRequester.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/customAnimationFrameRequester.ts#L8)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/customAnimationFrameRequester.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/customAnimationFrameRequester.ts#L8)
 
 This function will be called when the render loop is ready. If this is not populated, the engine's renderloop function will be called
 
@@ -36,7 +36,7 @@ This function will be called when the render loop is ready. If this is not popul
 
 > **requestAnimationFrame**: `Function`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/customAnimationFrameRequester.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/customAnimationFrameRequester.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/customAnimationFrameRequester.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/customAnimationFrameRequester.ts#L13)
 
 Called to request the next frame to render to
 
@@ -50,7 +50,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
 
 > `optional` **requestID?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/customAnimationFrameRequester.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/customAnimationFrameRequester.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/customAnimationFrameRequester.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/customAnimationFrameRequester.ts#L19)
 
 You can pass this value to cancelAnimationFrame() to cancel the refresh callback request
 

@@ -6,7 +6,7 @@
 
 # Interface: IObjectAccessor\<GLTFTargetType, BabylonTargetType, BabylonValueType\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L30)
 
 An accessor that allows modifying properties on some other object.
 
@@ -30,7 +30,7 @@ An accessor that allows modifying properties on some other object.
 
 > `optional` **componentsCount?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L36)
 
 The number of components that are changed in the property when setting this value.
 This will usually be 1. But, for example, Babylon has both orthoLeft and orthoRight (two components) properties that are changed when setting xmag (single value in glTF).
@@ -42,7 +42,7 @@ Defaults to 1 if not provided!
 
 > **get**: (`target`, `index?`, `payload?`) => `BabylonValueType` \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L44)
 
 Get the value of the property.
 
@@ -70,7 +70,7 @@ Get the value of the property.
 
 > `optional` **getPropertyName?**: (`target`) => `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L56)
 
 #### Parameters
 
@@ -92,7 +92,7 @@ Use get instead
 
 > **getTarget**: (`target`, `index?`, `payload?`) => `BabylonTargetType` \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L48)
 
 Get the target of the property.
 
@@ -120,7 +120,7 @@ Get the target of the property.
 
 > `optional` **interpolation?**: [`IInterpolationPropertyInfo`](IInterpolationPropertyInfo.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L68)
 
 Interpolation/animation information for the property.
 This is an array that can be used to animate the value over time.
@@ -131,7 +131,7 @@ This is an array that can be used to animate the value over time.
 
 > `optional` **isReadOnly?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L52)
 
 is the property readonly?
 
@@ -141,7 +141,7 @@ is the property readonly?
 
 > `optional` **set?**: (`newValue`, `target`, `index?`, `payload?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L63)
 
 Set a new value to the property.
 
@@ -179,6 +179,6 @@ the index of the target object in the array (optional)
 
 > **type**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/typeDefinitions.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L40)
 
 The (babylon) type of the property.

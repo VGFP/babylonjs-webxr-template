@@ -6,7 +6,7 @@
 
 # Class: Style
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:10](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/style.ts#L10)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/style.ts#L10)
 
 Define a style used by control to automatically setup properties based on a template.
 Only support font related properties so far
@@ -21,7 +21,7 @@ Only support font related properties so far
 
 > **new Style**(`host`): `Style`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/style.ts#L28)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/style.ts#L28)
 
 Creates a new style object
 
@@ -43,7 +43,7 @@ defines the AdvancedDynamicTexture which hosts this style
 
 > **onChangedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<`Style`\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/style.ts#L22)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/style.ts#L22)
 
 Observable raised when the style values are changed
 
@@ -55,7 +55,7 @@ Observable raised when the style values are changed
 
 > **get** **fontFamily**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/style.ts#L52)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/style.ts#L52)
 
 Gets or sets the font family
 
@@ -67,7 +67,7 @@ Gets or sets the font family
 
 > **set** **fontFamily**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/style.ts#L56)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/style.ts#L56)
 
 ##### Parameters
 
@@ -87,7 +87,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:56](https://githu
 
 > **get** **fontSize**(): `string` \| `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/style.ts#L35)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/style.ts#L35)
 
 Gets or sets the font size
 
@@ -99,7 +99,7 @@ Gets or sets the font size
 
 > **set** **fontSize**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/style.ts#L39)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/style.ts#L39)
 
 ##### Parameters
 
@@ -119,7 +119,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:39](https://githu
 
 > **get** **fontStyle**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/style.ts#L68)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/style.ts#L68)
 
 Gets or sets the font style
 
@@ -131,7 +131,7 @@ Gets or sets the font style
 
 > **set** **fontStyle**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/style.ts#L72)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/style.ts#L72)
 
 ##### Parameters
 
@@ -151,7 +151,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:72](https://githu
 
 > **get** **fontWeight**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/style.ts#L82)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/style.ts#L82)
 
 Gets or sets font weight
 
@@ -163,7 +163,7 @@ Gets or sets font weight
 
 > **set** **fontWeight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/style.ts#L86)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/style.ts#L86)
 
 ##### Parameters
 
@@ -181,7 +181,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:86](https://githu
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/style.ts#L96)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/style.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/style.ts#L96)
 
 Dispose all associated resources
 

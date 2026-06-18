@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphConsoleLogBlockConfiguration
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphConsoleLogBlock.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphConsoleLogBlock.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphConsoleLogBlock.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphConsoleLogBlock.pure.ts#L15)
 
 Configuration for the console log block.
 
@@ -24,7 +24,7 @@ Configuration for the console log block.
 
 > `optional` **messageTemplate?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphConsoleLogBlock.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphConsoleLogBlock.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphConsoleLogBlock.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphConsoleLogBlock.pure.ts#L22)
 
 An optional message template to use for the log message.
 If provided, the template can hold placeholders for the message value.
@@ -37,7 +37,7 @@ The value of the message input will be used to replace the placeholder in the te
 
 > `optional` **name?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
 
 The name of the block.
 

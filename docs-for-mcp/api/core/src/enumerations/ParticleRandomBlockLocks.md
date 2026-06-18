@@ -6,7 +6,7 @@
 
 # Enumeration: ParticleRandomBlockLocks
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.pure.ts#L17)
 
 Locks supported by the random block
 
@@ -16,7 +16,7 @@ Locks supported by the random block
 
 > **None**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.pure.ts#L19)
 
 None
 
@@ -26,7 +26,7 @@ None
 
 > **OncePerParticle**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.pure.ts#L25)
 
 OncePerParticle
 
@@ -36,7 +36,7 @@ OncePerParticle
 
 > **PerParticle**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.pure.ts#L21)
 
 PerParticle
 
@@ -46,6 +46,6 @@ PerParticle
 
 > **PerSystem**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleRandomBlock.pure.ts#L23)
 
 PerSystem

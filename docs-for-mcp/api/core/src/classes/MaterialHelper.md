@@ -6,7 +6,7 @@
 
 # Class: MaterialHelper
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L56)
 
 "Static Class" containing the most commonly used helper while dealing with material for rendering purpose.
 
@@ -30,7 +30,7 @@ This works by convention in BabylonJS but is meant to be use only with shader fo
 
 > `static` **BindBonesParameters**: (`mesh?`, `effect?`, `prePassConfiguration?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:388](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L388)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:388](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L388)
 
 Binds the bones information from the mesh to the effect.
 
@@ -64,7 +64,7 @@ Configuration for the prepass, in case prepass is activated
 
 > `static` **BindFogParameters**: (`scene`, `mesh?`, `effect?`, `linearSpace?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:380](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L380)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:380](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L380)
 
 Binds the fog information from the scene to the effect for the given mesh.
 
@@ -104,7 +104,7 @@ Defines if the fog effect is applied in linear space
 
 > `static` **BindLight**: (`light`, `lightIndex`, `scene`, `effect`, `useSpecular`, `receiveShadows?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:361](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L361)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:361](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L361)
 
 Binds the lights information from the scene to the effect for the given mesh.
 
@@ -156,7 +156,7 @@ Defines if the effect (mesh) we bind the light for receives shadows
 
 > `static` **BindLightProperties**: (`light`, `effect`, `lightIndex`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:350](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L350)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L350)
 
 Binds the light information to the effect.
 
@@ -190,7 +190,7 @@ The light index in the effect used to render
 
 > `static` **BindLights**: (`scene`, `mesh`, `effect`, `defines`, `maxSimultaneousLights?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:371](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L371)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:371](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L371)
 
 Binds the lights information from the scene to the effect for the given mesh.
 
@@ -236,7 +236,7 @@ The maximum number of light that can be bound to the effect
 
 > `static` **BindLogDepth**: (`defines`, `effect`, `scene`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:403](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L403)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:403](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L403)
 
 Binds the logarithmic depth information from the scene to the effect for the given defines.
 
@@ -270,7 +270,7 @@ The scene we are willing to render with logarithmic scale for
 
 > `static` **BindMorphTargetParameters**: (`abstractMesh`, `effect`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:395](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L395)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:395](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L395)
 
 Binds the morph targets information from the mesh to the effect.
 
@@ -298,7 +298,7 @@ The effect we are binding the data to
 
 > `static` **BindSceneUniformBuffer**: (`effect`, `sceneUbo`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L62)
 
 Binds the scene's uniform buffer to the effect.
 
@@ -326,7 +326,7 @@ defines the uniform buffer storing scene data
 
 > `static` **BindTextureMatrix**: (`texture`, `uniformBuffer`, `key`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L79)
 
 Binds a texture matrix value to its corresponding uniform
 
@@ -360,7 +360,7 @@ The channel key "diffuse", "specular"... used in the shader
 
 > `static` **GetFogState**: (`mesh`, `scene`) => `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L87)
 
 Gets the current status of the fog (should it be enabled?)
 
@@ -390,7 +390,7 @@ true if fog must be enabled
 
 > `static` **HandleFallbacksForShadows**: (`defines`, `fallbacks`, `maxSimultaneousLights?`, `rank?`) => `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:295](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L295)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:295](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L295)
 
 This helps decreasing rank by rank the shadow quality (0 being the highest rank and quality)
 
@@ -432,7 +432,7 @@ The newly affected rank
 
 > `static` **PrepareAttributesForBakedVertexAnimation**: (`attribs`, `mesh`, `defines`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:319](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L319)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:319](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L319)
 
 Prepares the list of attributes required for baked vertex animations according to the effect defines.
 
@@ -466,7 +466,7 @@ The current Defines of the effect
 
 > `static` **PrepareAttributesForBones**: (`attribs`, `mesh`, `defines`, `fallbacks`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:328](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L328)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:328](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L328)
 
 Prepares the list of attributes required for bones according to the effect defines.
 
@@ -506,7 +506,7 @@ The current effect fallback strategy
 
 > `static` **PrepareAttributesForInstances**: (`attribs`, `defines`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:335](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L335)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:335](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L335)
 
 Check and prepare the list of attributes required for instances according to the effect defines.
 
@@ -534,7 +534,7 @@ The current MaterialDefines of the effect
 
 > `static` **PrepareAttributesForMorphTargets**: (`attribs`, `mesh`, `defines`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:311](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L311)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:311](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L311)
 
 Prepares the list of attributes required for morph targets according to the effect defines.
 
@@ -568,7 +568,7 @@ The current Defines of the effect
 
 > `static` **PrepareAttributesForMorphTargetsInfluencers**: (`attribs`, `mesh`, `influencers`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:303](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L303)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:303](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L303)
 
 Prepares the list of attributes required for morph targets according to the effect defines.
 
@@ -602,7 +602,7 @@ The number of influencers
 
 > `static` **PrepareDefinesForAttributes**: (`mesh`, `defines`, `useVertexColor`, `useBones`, `useMorphTargets?`, `useVertexAlpha?`, `useBakedVertexAnimation?`) => `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:171](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L171)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:171](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L171)
 
 Prepares the defines used in the shader depending on the attributes data available in the mesh
 
@@ -662,7 +662,7 @@ false if defines are considered not dirty and have not been checked
 
 > `static` **PrepareDefinesForBakedVertexAnimation**: (`mesh`, `defines`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:158](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L158)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L158)
 
 Prepares the defines for baked vertex animation
 
@@ -690,7 +690,7 @@ The defines to update
 
 > `static` **PrepareDefinesForBones**: (`mesh`, `defines`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L144)
 
 Prepares the defines for bones
 
@@ -718,7 +718,7 @@ The defines to update
 
 > `static` **PrepareDefinesForCamera**: (`scene`, `defines`) => `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L117)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L117)
 
 Helper used to prepare the defines relative to the active camera
 
@@ -748,7 +748,7 @@ true if the defines have been updated, else false
 
 > `static` **PrepareDefinesForFrameBoundValues**: (`scene`, `engine`, `material`, `defines`, `useInstances`, `useClipPlane?`, `useThinInstances?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L129)
 
 Helper used to prepare the list of defines associated with frame values for shader compilation
 
@@ -806,7 +806,7 @@ defines if thin instances have to be turned on
 
 > `static` **PrepareDefinesForLight**: (`scene`, `mesh`, `light`, `lightIndex`, `defines`, `specularSupported`, `state`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:220](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L220)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:220](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L220)
 
 Prepares the defines related to the light information passed in parameter
 
@@ -882,7 +882,7 @@ Defines the current state regarding what is needed (normals, etc...)
 
 > `static` **PrepareDefinesForLights**: (`scene`, `mesh`, `defines`, `specularSupported`, `maxSimultaneousLights?`, `disableLighting?`) => `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:246](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L246)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:246](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L246)
 
 Prepares the defines related to the light information passed in parameter
 
@@ -936,7 +936,7 @@ true if normals will be required for the rest of the effect
 
 > `static` **PrepareDefinesForMergedUV**: (`texture`, `defines`, `key`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L71)
 
 Helps preparing the defines values about the UVs in used in the effect.
 UVs are shared as much as we can across channels in the shaders.
@@ -971,7 +971,7 @@ The channel key "diffuse", "specular"... used in the shader
 
 > `static` **PrepareDefinesForMisc**: (`mesh`, `scene`, `useLogarithmicDepth`, `pointsCloud`, `fogEnabled`, `alphaTest`, `defines`, `applyDecalAfterDetail?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L100)
 
 Helper used to prepare the list of defines associated with misc. values for shader compilation
 
@@ -1035,7 +1035,7 @@ Defines if the decal is applied after or before the detail
 
 > `static` **PrepareDefinesForMorphTargets**: (`mesh`, `defines`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L151)
 
 Prepares the defines for morph targets
 
@@ -1063,7 +1063,7 @@ The defines to update
 
 > `static` **PrepareDefinesForMultiview**: (`scene`, `defines`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:186](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L186)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:186](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L186)
 
 Prepares the defines related to multiview
 
@@ -1091,7 +1091,7 @@ The defines to update
 
 > `static` **PrepareDefinesForOIT**: (`scene`, `defines`, `needAlphaBlending`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L195)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L195)
 
 Prepares the defines related to order independant transparency
 
@@ -1125,7 +1125,7 @@ Determines if the material needs alpha blending
 
 > `static` **PrepareDefinesForPrePass**: (`scene`, `defines`, `canRenderToMRT`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:203](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L203)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:203](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L203)
 
 Prepares the defines related to the prepass
 
@@ -1159,7 +1159,7 @@ Indicates if this material renders to several textures in the prepass
 
 > `static` **PrepareUniformsAndSamplersForLight**: (`lightIndex`, `uniformsList`, `samplersList`, `projectedLightTexture?`, `uniformBuffersList?`, `updateOnlyBuffersList?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:264](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L264)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:264](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L264)
 
 Prepares the uniforms and samplers list to be used in the effect (for a specific light)
 
@@ -1211,7 +1211,7 @@ True to only update the uniformBuffersList array
 
 > `static` **PrepareUniformsAndSamplersList**: (`uniformsListOrOptions`, `samplersList?`, `defines?`, `maxSimultaneousLights?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:280](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L280)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:280](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L280)
 
 Prepares the uniforms and samplers list to be used in the effect
 
@@ -1251,7 +1251,7 @@ The maximum number of simultaneous light allowed in the effect
 
 > `static` **PushAttributesForInstances**: (`attribs`, `needsPreviousMatrices?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:342](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.ts#L342)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.ts:342](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.ts#L342)
 
 Add the list of attributes required for instances to the attribs array.
 

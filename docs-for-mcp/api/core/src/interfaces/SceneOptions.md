@@ -6,7 +6,7 @@
 
 # Interface: SceneOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L131)
 
 Interface defining initialization parameters for Scene class
 
@@ -16,7 +16,7 @@ Interface defining initialization parameters for Scene class
 
 > `optional` **defaultCameraLayerMask?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L163)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L165)
 
 Defines the default layerMask used when creating cameras in the scene (default: 0x0fffffff)
 
@@ -26,7 +26,7 @@ Defines the default layerMask used when creating cameras in the scene (default: 
 
 > `optional` **defaultRenderableLayerMask?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:168](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L168)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L170)
 
 Defines the default layerMask used when creating renderable objects in the scene (default: 0x0fffffff)
 
@@ -36,7 +36,7 @@ Defines the default layerMask used when creating renderable objects in the scene
 
 > `optional` **useClonedMeshMap?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L148)
 
 Defines that each mesh of the scene should keep up-to-date a map of referencing cloned meshes for fast disposing
 It will improve performance when the number of mesh becomes important, but might consume a bit more memory
@@ -47,7 +47,7 @@ It will improve performance when the number of mesh becomes important, but might
 
 > `optional` **useFloatingOrigin?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:157](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L157)
 
 When enabled, the scene can handle large world coordinate rendering without jittering caused by floating point imprecision on the GPU.
 This mode offsets matrices and position-related attribute values before passing to shaders, centering camera at origin and offsetting other scene objects by camera active position.
@@ -61,7 +61,7 @@ HOWEVER if you want largeWorldRendering on ALL scenes, set the useLargeWorldRend
 
 > `optional` **useGeometryUniqueIdsMap?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L136)
 
 Defines that scene should keep up-to-date a map of geometry to enable fast look-up by uniqueId
 It will improve performance when the number of geometries becomes important.
@@ -72,7 +72,7 @@ It will improve performance when the number of geometries becomes important.
 
 > `optional` **useMaterialMeshMap?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L140)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L142)
 
 Defines that each material of the scene should keep up-to-date a map of referencing meshes for fast disposing
 It will improve performance when the number of mesh becomes important, but might consume a bit more memory
@@ -83,6 +83,6 @@ It will improve performance when the number of mesh becomes important, but might
 
 > `optional` **virtual?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:158](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L158)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L160)
 
 Defines if the creation of the scene should impact the engine (Eg. UtilityLayer's scene)

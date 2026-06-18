@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphFloatToIntConfiguration
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/Transformers/flowGraphTypeToTypeBlocks.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Data/Transformers/flowGraphTypeToTypeBlocks.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/Transformers/flowGraphTypeToTypeBlocks.pure.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Data/Transformers/flowGraphTypeToTypeBlocks.pure.ts#L58)
 
 Configuration for the float to int block.
 
@@ -24,7 +24,7 @@ Configuration for the float to int block.
 
 > `optional` **name?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
 
 The name of the block.
 
@@ -38,7 +38,7 @@ The name of the block.
 
 > `optional` **roundingMode?**: `"floor"` \| `"ceil"` \| `"round"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/Transformers/flowGraphTypeToTypeBlocks.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Data/Transformers/flowGraphTypeToTypeBlocks.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/Transformers/flowGraphTypeToTypeBlocks.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Data/Transformers/flowGraphTypeToTypeBlocks.pure.ts#L63)
 
 The rounding mode to use.
 if not defined, it will use the FlowGraphInteger default rounding ( a | 0 )

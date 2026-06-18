@@ -6,7 +6,7 @@
 
 # Class: FrameGraphFXAATask
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts#L8)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts#L8)
 
 Task which applies a FXAA post process.
 
@@ -20,7 +20,7 @@ Task which applies a FXAA post process.
 
 > **new FrameGraphFXAATask**(`name`, `frameGraph`, `thinPostProcess?`): `FrameGraphFXAATask`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts#L17)
 
 Constructs a new FXAA task.
 
@@ -58,7 +58,7 @@ The thin post process to use for the FXAA effect. If not provided, a new one wil
 
 > `optional` **dependencies?**: `Set`\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
 
 The (texture) dependencies of the task (optional).
 
@@ -72,7 +72,7 @@ The (texture) dependencies of the task (optional).
 
 > `optional` **depthAttachmentTexture?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L46)
 
 The depth attachment texture to use for the post process (optional).
 Note that a post-process task never writes to the depth buffer: attaching a depth texture is only useful if you want to test against the depth/stencil aspect or write to the stencil buffer.
@@ -87,7 +87,7 @@ Note that a post-process task never writes to the depth buffer: attaching a dept
 
 > **depthReadOnly**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L54)
 
 If true, the depth attachment will be read-only.
 This means that the post process will not write to the depth buffer.
@@ -104,7 +104,7 @@ Note that it will only work in WebGPU, as WebGL does not support read-only depth
 
 > **depthTest**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L78)
 
 If depth testing should be enabled (default is true).
 
@@ -118,7 +118,7 @@ If depth testing should be enabled (default is true).
 
 > **disableColorWrite**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L68)
 
 If true, color write will be disabled when applying the post process.
 This means that the post process will not write to the color buffer.
@@ -133,7 +133,7 @@ This means that the post process will not write to the color buffer.
 
 > **drawBackFace**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L73)
 
 If true, the post process will be generated by a back face full-screen quad (CW order).
 
@@ -147,7 +147,7 @@ If true, the post process will be generated by a back face full-screen quad (CW 
 
 > **onAfterTaskExecute**: [`Observable`](Observable.md)\<[`FrameGraphTask`](FrameGraphTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
 
 An observable that is triggered after the task is executed.
 
@@ -161,7 +161,7 @@ An observable that is triggered after the task is executed.
 
 > **onBeforeTaskExecute**: [`Observable`](Observable.md)\<[`FrameGraphTask`](FrameGraphTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
 
 An observable that is triggered before the task is executed.
 
@@ -175,7 +175,7 @@ An observable that is triggered before the task is executed.
 
 > **onTexturesAllocatedObservable**: [`Observable`](Observable.md)\<[`FrameGraphRenderContext`](FrameGraphRenderContext.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
 
 An observable that is triggered after the textures have been allocated.
 
@@ -189,7 +189,7 @@ An observable that is triggered after the textures have been allocated.
 
 > `readonly` **outputDepthAttachmentTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L108)
 
 The output depth attachment texture.
 This texture will point to the same texture than the depthAttachmentTexture property if it is set.
@@ -205,7 +205,7 @@ Note, however, that the handle itself will be different!
 
 > `readonly` **outputTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L101)
 
 The output texture of the post process.
 
@@ -219,7 +219,7 @@ The output texture of the post process.
 
 > `readonly` **postProcess**: [`ThinFXAAPostProcess`](ThinFXAAPostProcess.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts#L9)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts#L9)
 
 The post process to apply.
 
@@ -233,7 +233,7 @@ The post process to apply.
 
 > **sourceSamplingMode**: `number` = `Constants.TEXTURE_BILINEAR_SAMPLINGMODE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L29)
 
 The sampling mode to use for the source texture.
 
@@ -247,7 +247,7 @@ The sampling mode to use for the source texture.
 
 > `optional` **sourceTexture?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L24)
 
 The source texture to apply the post process on.
 It's allowed to be undefined if the post process does not require a source texture.
@@ -263,7 +263,7 @@ In that case, targetTexture must be provided.
 
 > **stencilReadOnly**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L62)
 
 If true, the stencil attachment will be read-only.
 This means that the post process will not write to the stencil buffer.
@@ -280,7 +280,7 @@ Note that it will only work in WebGPU, as WebGL does not support read-only depth
 
 > `optional` **stencilState?**: [`IStencilStateProperties`](../interfaces/IStencilStateProperties.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L40)
 
 The stencil state to use for the post process (optional).
 
@@ -294,7 +294,7 @@ The stencil state to use for the post process (optional).
 
 > `optional` **targetTexture?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L35)
 
 The target texture to render the post process to.
 If not supplied, a texture with the same configuration as the source texture will be created.
@@ -309,7 +309,7 @@ If not supplied, a texture with the same configuration as the source texture wil
 
 > `optional` **viewport?**: [`Nullable`](../type-aliases/Nullable.md)\<`IViewportLike`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L96)
 
 The viewport to use when applying the post process.
 If set to null, the currently active viewport is used.
@@ -327,7 +327,7 @@ If undefined (default), the viewport is reset to a full screen viewport before a
 
 > **get** **alphaMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L83)
 
 The alpha mode to use when applying the post process (default is ALPHA_DISABLE).
 
@@ -339,7 +339,7 @@ The alpha mode to use when applying the post process (default is ALPHA_DISABLE).
 
 > **set** **alphaMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L87)
 
 ##### Parameters
 
@@ -363,7 +363,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcess
 
 > **get** **disabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L43)
 
 Whether the task is disabled.
 
@@ -375,7 +375,7 @@ Whether the task is disabled.
 
 > **set** **disabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L47)
 
 ##### Parameters
 
@@ -399,7 +399,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts
 
 > **get** **drawWrapper**(): [`DrawWrapper`](DrawWrapper.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L118)
 
 The draw wrapper used by the post process
 
@@ -419,7 +419,7 @@ The draw wrapper used by the post process
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L30)
 
 The name of the task.
 
@@ -431,7 +431,7 @@ The name of the task.
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L34)
 
 ##### Parameters
 
@@ -455,7 +455,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts
 
 > **get** **passes**(): [`IFrameGraphPass`](../interfaces/IFrameGraphPass.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
 
 Gets the passes of the task.
 
@@ -475,7 +475,7 @@ Gets the passes of the task.
 
 > **get** **passesDisabled**(): [`IFrameGraphPass`](../interfaces/IFrameGraphPass.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
 
 Gets the disabled passes of the task.
 
@@ -493,7 +493,7 @@ Gets the disabled passes of the task.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:243](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L243)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L243)
 
 Disposes of the task.
 
@@ -511,7 +511,7 @@ Disposes of the task.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts#L21)
 
 Gets the current class name
 
@@ -531,7 +531,7 @@ the class name
 
 > **initAsync**(): `Promise`\<`unknown`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L90)
 
 This function is called once after the task has been added to the frame graph and before the frame graph is built for the first time.
 This allows you to initialize asynchronous resources, which is not possible in the constructor.
@@ -552,7 +552,7 @@ A promise that resolves when the initialization is complete.
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/postProcessTask.ts#L144)
 
 Checks if the task is ready to be executed.
 
@@ -572,7 +572,7 @@ True if the task is ready to be executed, else false.
 
 > **record**(`skipCreationOfDisabledPasses?`, `additionalExecute?`, `additionalBindings?`): [`FrameGraphRenderPass`](FrameGraphRenderPass.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/fxaaTask.ts#L25)
 
 Records the task in the frame graph. Use this function to add content (render passes, ...) to the task.
 

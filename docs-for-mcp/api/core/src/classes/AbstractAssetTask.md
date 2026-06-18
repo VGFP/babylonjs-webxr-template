@@ -6,7 +6,7 @@
 
 # Abstract Class: AbstractAssetTask
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L46)
 
 Define an abstract asset task used with a AssetsManager class to load assets into a scene
 
@@ -29,7 +29,7 @@ Define an abstract asset task used with a AssetsManager class to load assets int
 
 > **new AbstractAssetTask**(`name`): `AbstractAssetTask`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L61)
 
 Creates a new AssetsManager
 
@@ -51,7 +51,7 @@ defines the name of the task
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L64)
 
 Task name
 
@@ -61,7 +61,7 @@ Task name
 
 > **onError**: (`task`, `message?`, `exception?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L55)
 
 Callback called when the task is not successful
 
@@ -89,7 +89,7 @@ Callback called when the task is not successful
 
 > **onSuccess**: (`task`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L50)
 
 Callback called when the task is successful
 
@@ -111,7 +111,7 @@ Callback called when the task is successful
 
 > **get** **errorObject**(): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L88)
 
 Gets the current error object (if task is in error)
 
@@ -135,7 +135,7 @@ Gets the current error object (if task is in error)
 
 > **get** **isCompleted**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L74)
 
 Get if the task is completed
 
@@ -151,7 +151,7 @@ Get if the task is completed
 
 > **get** **taskState**(): [`AssetTaskState`](../enumerations/AssetTaskState.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L81)
 
 Gets the current state of the task
 
@@ -165,7 +165,7 @@ Gets the current state of the task
 
 > **reset**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L141)
 
 Reset will set the task state back to INIT, so the next load call of the assets manager will execute this task again.
 This can be used with failed tasks that have the reason for failure fixed.
@@ -180,7 +180,7 @@ This can be used with failed tasks that have the reason for failure fixed.
 
 > **run**(`scene`, `onSuccess`, `onError`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L113)
 
 Execute the current task
 
@@ -214,7 +214,7 @@ is a callback called if an error occurs
 
 > **runTask**(`scene`, `onSuccess`, `onError`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L133)
 
 Execute the current task
 

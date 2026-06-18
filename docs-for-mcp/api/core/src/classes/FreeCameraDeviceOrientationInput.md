@@ -6,7 +6,7 @@
 
 # Class: FreeCameraDeviceOrientationInput
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts#L18)
 
 Takes information about the orientation of the device as reported by the deviceorientation event to orient the camera.
 Screen rotation is taken into account.
@@ -25,7 +25,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **new FreeCameraDeviceOrientationInput**(): `FreeCameraDeviceOrientationInput`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts:117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts#L117)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts#L87)
 
 Instantiates a new input
 
@@ -43,7 +43,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **smoothFactor**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts#L31)
 
 alpha+beta+gamma smoothing. 0: no smoothing, 1: new data ignored, 0.9 recommended for smoothing
 
@@ -55,7 +55,7 @@ alpha+beta+gamma smoothing. 0: no smoothing, 1: new data ignored, 0.9 recommende
 
 > **get** **camera**(): [`FreeCamera`](FreeCamera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts#L95)
 
 Define the camera controlled by the input.
 
@@ -67,7 +67,7 @@ Define the camera controlled by the input.
 
 > **set** **camera**(`camera`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts#L99)
 
 Defines the camera the input is attached to.
 
@@ -93,7 +93,7 @@ Defines the camera the input is attached to.
 
 > **attachControl**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts#L114)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -111,7 +111,7 @@ Attach the input controls to a specific dom element to get the input from.
 
 > **checkInputs**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts:186](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts#L186)
 
 Update the current camera state depending on the inputs that have been used this frame.
 This is a dynamically created lambda to avoid the performance penalty of looping for inputs in the render loop.
@@ -130,7 +130,7 @@ This is a dynamically created lambda to avoid the performance penalty of looping
 
 > **detachControl**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts:206](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts#L206)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts#L176)
 
 Detach the current controls from the specified dom element.
 
@@ -148,7 +148,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts:240](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts#L240)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts:210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts#L210)
 
 Gets the class name of the current input.
 
@@ -168,7 +168,7 @@ the class name
 
 > **getSimpleName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts:248](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts#L248)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts:218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts#L218)
 
 Get the friendly name associated with the input class.
 
@@ -188,7 +188,7 @@ the input friendly name
 
 > `static` **WaitForOrientationChangeAsync**(`timeout?`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraDeviceOrientationInput.pure.ts#L38)
 
 Can be used to detect if a device orientation sensor is available on a device
 

@@ -6,7 +6,7 @@
 
 # Abstract Class: StaticSoundBuffer
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L39)
 
 Abstract class representing a static sound buffer.
 
@@ -26,7 +26,7 @@ Static sound buffers are created by the [CreateSoundBufferAsync](../functions/Cr
 
 > `abstract` `readonly` **channelCount**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L72)
 
 The number of channels in the sound buffer.
 
@@ -36,7 +36,7 @@ The number of channels in the sound buffer.
 
 > `abstract` `readonly` **duration**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L67)
 
 The duration of the sound buffer, in seconds.
 
@@ -46,7 +46,7 @@ The duration of the sound buffer, in seconds.
 
 > `readonly` **engine**: [`AudioEngineV2`](AudioEngineV2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L43)
 
 The engine that the sound buffer belongs to.
 
@@ -56,7 +56,7 @@ The engine that the sound buffer belongs to.
 
 > `abstract` `readonly` **length**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L62)
 
 The length of the sound buffer, in sample frames.
 
@@ -66,7 +66,7 @@ The length of the sound buffer, in sample frames.
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L48)
 
 The name of the sound buffer.
 
@@ -76,7 +76,7 @@ The name of the sound buffer.
 
 > `abstract` `readonly` **sampleRate**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L57)
 
 The sample rate of the sound buffer.
 
@@ -86,7 +86,7 @@ The sample rate of the sound buffer.
 
 > `abstract` **clone**(`options?`): `StaticSoundBuffer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L78)
 
 Clones the sound buffer.
 

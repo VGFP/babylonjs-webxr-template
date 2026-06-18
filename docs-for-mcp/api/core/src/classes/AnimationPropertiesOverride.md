@@ -6,7 +6,7 @@
 
 # Class: AnimationPropertiesOverride
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationPropertiesOverride.ts:6](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animationPropertiesOverride.ts#L6)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationPropertiesOverride.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationPropertiesOverride.ts#L6)
 
 Class used to override all child animations of a given target
 
@@ -26,7 +26,7 @@ Class used to override all child animations of a given target
 
 > **blendingSpeed**: `number` = `0.01`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationPropertiesOverride.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animationPropertiesOverride.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationPropertiesOverride.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationPropertiesOverride.ts#L15)
 
 Gets or sets the blending speed to use when enableBlending is true
 
@@ -36,7 +36,7 @@ Gets or sets the blending speed to use when enableBlending is true
 
 > **enableBlending**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationPropertiesOverride.ts:10](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animationPropertiesOverride.ts#L10)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationPropertiesOverride.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationPropertiesOverride.ts#L10)
 
 Gets or sets a value indicating if animation blending must be used
 
@@ -46,6 +46,6 @@ Gets or sets a value indicating if animation blending must be used
 
 > **loopMode**: `number` = `Animation.ANIMATIONLOOPMODE_CYCLE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationPropertiesOverride.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animationPropertiesOverride.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationPropertiesOverride.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationPropertiesOverride.ts#L20)
 
 Gets or sets the default loop mode to use

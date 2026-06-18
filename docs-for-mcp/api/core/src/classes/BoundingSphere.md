@@ -6,7 +6,7 @@
 
 # Class: BoundingSphere
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingSphere.ts#L9)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingSphere.ts#L9)
 
 Class used to store bounding sphere information
 
@@ -16,7 +16,7 @@ Class used to store bounding sphere information
 
 > **new BoundingSphere**(`min`, `max`, `worldMatrix?`): `BoundingSphere`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingSphere.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingSphere.ts#L44)
 
 Creates a new bounding sphere
 
@@ -50,7 +50,7 @@ defines the new world matrix
 
 > `readonly` **center**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingSphere.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingSphere.ts#L13)
 
 Gets the center of the bounding sphere in local space
 
@@ -60,7 +60,7 @@ Gets the center of the bounding sphere in local space
 
 > `readonly` **centerWorld**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingSphere.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingSphere.ts#L21)
 
 Gets the center of the bounding sphere in world space
 
@@ -70,7 +70,7 @@ Gets the center of the bounding sphere in world space
 
 > `readonly` **maximum**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingSphere.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingSphere.ts#L33)
 
 Gets the maximum vector in local space
 
@@ -80,7 +80,7 @@ Gets the maximum vector in local space
 
 > `readonly` **minimum**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingSphere.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingSphere.ts#L29)
 
 Gets the minimum vector in local space
 
@@ -90,7 +90,7 @@ Gets the minimum vector in local space
 
 > **radius**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingSphere.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingSphere.ts#L17)
 
 Radius of the bounding sphere in local space
 
@@ -100,7 +100,7 @@ Radius of the bounding sphere in local space
 
 > **radiusWorld**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingSphere.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingSphere.ts#L25)
 
 Radius of the bounding sphere in world space
 
@@ -110,7 +110,7 @@ Radius of the bounding sphere in world space
 
 > **getWorldMatrix**(): [`DeepImmutable`](../type-aliases/DeepImmutable.md)\<[`Matrix`](Matrix.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingSphere.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingSphere.ts#L87)
 
 Gets the world matrix of the bounding box
 
@@ -126,7 +126,7 @@ a matrix
 
 > **intersectsPoint**(`point`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingSphere.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingSphere.ts#L144)
 
 Tests if a point is inside the bounding sphere
 
@@ -150,7 +150,7 @@ true if the point is inside the bounding sphere
 
 > **isCenterInFrustum**(`frustumPlanes`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingSphere.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingSphere.ts#L129)
 
 Tests if the bounding sphere center is in between the frustum planes.
 Used for optimistic fast inclusion.
@@ -175,7 +175,7 @@ true if the sphere center is in between the frustum planes
 
 > **isInFrustum**(`frustumPlanes`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingSphere.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingSphere.ts#L112)
 
 Tests if the bounding sphere is intersecting the frustum planes
 
@@ -199,7 +199,7 @@ true if there is an intersection
 
 > **reConstruct**(`min`, `max`, `worldMatrix?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingSphere.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingSphere.ts#L54)
 
 Recreates the entire bounding sphere from scratch as if we call the constructor in place
 
@@ -233,7 +233,7 @@ defines the new world matrix
 
 > **scale**(`factor`): `BoundingSphere`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingSphere.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingSphere.ts#L71)
 
 Scale the current bounding sphere by applying a scale factor
 
@@ -257,7 +257,7 @@ the current bounding box
 
 > `static` **CreateFromCenterAndRadius**(`center`, `radius`, `matrix?`): `BoundingSphere`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingSphere.ts#L178)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingSphere.ts#L178)
 
 Creates a sphere from a center and a radius
 
@@ -293,7 +293,7 @@ The sphere
 
 > `static` **Intersects**(`sphere0`, `sphere1`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/boundingSphere.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingSphere.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingSphere.ts#L160)
 
 Checks if two sphere intersect
 

@@ -6,7 +6,7 @@
 
 # Class: AreaLightTextureTools
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/areaLightsTextureTools.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/areaLightsTextureTools.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/areaLightsTextureTools.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/areaLightsTextureTools.ts#L21)
 
 Class used for fast copy from one texture to another
 
@@ -16,7 +16,7 @@ Class used for fast copy from one texture to another
 
 > **new AreaLightTextureTools**(`engine`): `AreaLightTextureTools`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/areaLightsTextureTools.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/areaLightsTextureTools.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/areaLightsTextureTools.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/areaLightsTextureTools.ts#L49)
 
 Constructs a new instance of the class
 
@@ -40,7 +40,7 @@ The engine to use for the copy
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/areaLightsTextureTools.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/areaLightsTextureTools.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/areaLightsTextureTools.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/areaLightsTextureTools.ts#L37)
 
 Gets the shader language
 
@@ -54,7 +54,7 @@ Gets the shader language
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/areaLightsTextureTools.ts:281](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/areaLightsTextureTools.ts#L281)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/areaLightsTextureTools.ts:281](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/areaLightsTextureTools.ts#L281)
 
 Releases all the resources used by the class
 
@@ -68,7 +68,7 @@ Releases all the resources used by the class
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/areaLightsTextureTools.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/areaLightsTextureTools.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/areaLightsTextureTools.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/areaLightsTextureTools.ts#L106)
 
 Indicates if the effect is ready to be used for the copy
 
@@ -84,7 +84,7 @@ true if "copy" can be called without delay, else false
 
 > **processAsync**(`source`): `Promise`\<[`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/areaLightsTextureTools.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/areaLightsTextureTools.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/areaLightsTextureTools.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/areaLightsTextureTools.ts#L115)
 
 Pre-processes the texture to be used with RectAreaLight emissionTexture.
 

@@ -6,7 +6,7 @@
 
 # Interface: IAgentParameters
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:365](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L365)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:365](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L365)
 
 Configures an agent
 
@@ -16,7 +16,7 @@ Configures an agent
 
 > **collisionQueryRange**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:389](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L389)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:389](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L389)
 
 Defines how close a collision element must be before it is considered for steering behaviors. [Limits: > 0]
 
@@ -26,7 +26,7 @@ Defines how close a collision element must be before it is considered for steeri
 
 > **height**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:374](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L374)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:374](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L374)
 
 Agent height. [Limit: > 0]
 
@@ -36,7 +36,7 @@ Agent height. [Limit: > 0]
 
 > **maxAcceleration**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:379](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L379)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:379](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L379)
 
 Maximum allowed acceleration. [Limit: >= 0]
 
@@ -46,7 +46,7 @@ Maximum allowed acceleration. [Limit: >= 0]
 
 > **maxSpeed**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:384](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L384)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:384](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L384)
 
 Maximum allowed speed. [Limit: >= 0]
 
@@ -56,7 +56,7 @@ Maximum allowed speed. [Limit: >= 0]
 
 > **pathOptimizationRange**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:394](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L394)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:394](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L394)
 
 The path visibility optimization range. [Limit: > 0]
 
@@ -66,7 +66,7 @@ The path visibility optimization range. [Limit: > 0]
 
 > **radius**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:369](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L369)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:369](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L369)
 
 Agent radius. [Limit: >= 0]
 
@@ -76,7 +76,7 @@ Agent radius. [Limit: >= 0]
 
 > `optional` **reachRadius?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:405](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L405)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:405](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L405)
 
 Observers will be notified when agent gets inside the virtual circle with this Radius around destination point.
 Default is agent radius
@@ -87,6 +87,6 @@ Default is agent radius
 
 > **separationWeight**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:399](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L399)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:399](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L399)
 
 How aggressive the agent manager should be at avoiding collisions with this agent. [Limit: >= 0]

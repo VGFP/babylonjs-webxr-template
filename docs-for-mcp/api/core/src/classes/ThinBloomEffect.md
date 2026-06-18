@@ -6,7 +6,7 @@
 
 # Class: ThinBloomEffect
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:10](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L10)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L10)
 
 The bloom effect spreads bright areas of an image to simulate artifacts seen in cameras
 
@@ -16,7 +16,7 @@ The bloom effect spreads bright areas of an image to simulate artifacts seen in 
 
 > **new ThinBloomEffect**(`name`, `engine`, `scale`, `blockCompilation?`): `ThinBloomEffect`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L63)
 
 Creates a new instance of
 
@@ -60,7 +60,7 @@ ThinBloomEffect
 
 > `readonly` **scale**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L54)
 
 The ratio of the blur texture to the input texture that should be used to compute the bloom.
 
@@ -72,7 +72,7 @@ The ratio of the blur texture to the input texture that should be used to comput
 
 > **get** **kernel**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L43)
 
 Specifies the size of the bloom blur kernel, relative to the final output size
 
@@ -84,7 +84,7 @@ Specifies the size of the bloom blur kernel, relative to the final output size
 
 > **set** **kernel**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L46)
 
 ##### Parameters
 
@@ -104,7 +104,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffec
 
 > **get** **threshold**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L23)
 
 The luminance threshold to find bright areas of the image to bloom.
 
@@ -116,7 +116,7 @@ The luminance threshold to find bright areas of the image to bloom.
 
 > **set** **threshold**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L26)
 
 ##### Parameters
 
@@ -136,7 +136,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffec
 
 > **get** **weight**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L33)
 
 The strength of the bloom.
 
@@ -148,7 +148,7 @@ The strength of the bloom.
 
 > **set** **weight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L36)
 
 ##### Parameters
 
@@ -166,7 +166,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffec
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinBloomEffect.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinBloomEffect.ts#L75)
 
 Checks if the effect is ready to be used
 

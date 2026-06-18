@@ -6,7 +6,7 @@
 
 # Interface: ITextMetrics
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:209](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L209)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L209)
 
 Class used to abstract a text measurement
 
@@ -16,7 +16,7 @@ Class used to abstract a text measurement
 
 > `readonly` **actualBoundingBoxAscent**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:228](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L228)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L228)
 
 distance (in pixels) from the horizontal line indicated by the CanvasRenderingContext2D.textBaseline
 property to the top side of the bounding rectangle of the given text
@@ -27,7 +27,7 @@ property to the top side of the bounding rectangle of the given text
 
 > `readonly` **actualBoundingBoxDescent**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:233](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L233)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:233](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L233)
 
 distance (in pixels) from the horizontal line indicated by the CanvasRenderingContext2D.textBaseline
 property to the bottom side of the bounding rectangle of the given text
@@ -38,7 +38,7 @@ property to the bottom side of the bounding rectangle of the given text
 
 > `readonly` **actualBoundingBoxLeft**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:218](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L218)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L218)
 
 distance (in pixels) parallel to the baseline from the alignment point given by the CanvasRenderingContext2D.textAlign
 property to the left side of the bounding rectangle of the given text
@@ -49,7 +49,7 @@ property to the left side of the bounding rectangle of the given text
 
 > `readonly` **actualBoundingBoxRight**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:223](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L223)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L223)
 
 distance (in pixels) parallel to the baseline from the alignment point given by the CanvasRenderingContext2D.textAlign
 property to the right side of the bounding rectangle of the given text
@@ -60,6 +60,6 @@ property to the right side of the bounding rectangle of the given text
 
 > `readonly` **width**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:213](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L213)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:213](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L213)
 
 Text width.

@@ -8,7 +8,7 @@
 
 > **CreateText**(`name`, `text`, `fontData`, `options?`, `scene?`, `earcutInjection?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Mesh`](../classes/Mesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/textBuilder.ts:258](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/textBuilder.ts#L258)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/textBuilder.ts:258](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/textBuilder.ts#L258)
 
 Create a text mesh
 

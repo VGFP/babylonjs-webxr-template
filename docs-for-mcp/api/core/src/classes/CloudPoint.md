@@ -6,7 +6,7 @@
 
 # Class: CloudPoint
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L9)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L9)
 
 Represents one particle of a points cloud system.
 
@@ -16,7 +16,7 @@ Represents one particle of a points cloud system.
 
 > **new CloudPoint**(`particleIndex`, `group`, `groupId`, `idxInGroup`, `pcs`): `CloudPoint`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L104)
 
 Creates a Point Cloud object.
 Don't create particles manually, use instead the PCS internal tools like _addParticle()
@@ -63,7 +63,7 @@ defines the PCS it is associated to
 
 > **\_group**: [`PointsGroup`](PointsGroup.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L60)
 
 Group this particle belongs to
 
@@ -73,7 +73,7 @@ Group this particle belongs to
 
 > **color**: [`Nullable`](../type-aliases/Nullable.md)\<[`Color4`](Color4.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L17)
 
 The color of the particle
 
@@ -83,7 +83,7 @@ The color of the particle
 
 > **groupId**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L64)
 
 Group id of this particle
 
@@ -93,7 +93,7 @@ Group id of this particle
 
 > **idx**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L13)
 
 particle global index
 
@@ -103,7 +103,7 @@ particle global index
 
 > **idxInGroup**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L68)
 
 Index of the particle in its group id (Internal use)
 
@@ -113,7 +113,7 @@ Index of the particle in its group id (Internal use)
 
 > **parentId**: [`Nullable`](../type-aliases/Nullable.md)\<`number`\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L89)
 
 Parent particle Id, if any.
 Default null.
@@ -124,7 +124,7 @@ Default null.
 
 > **pivot**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L41)
 
 The pivot point in the particle local space.
 
@@ -134,7 +134,7 @@ The pivot point in the particle local space.
 
 > **position**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L21)
 
 The world space position of the particle.
 
@@ -144,7 +144,7 @@ The world space position of the particle.
 
 > **rotation**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L25)
 
 The world space rotation of the particle. (Not use if rotationQuaternion is set)
 
@@ -154,7 +154,7 @@ The world space rotation of the particle. (Not use if rotationQuaternion is set)
 
 > **rotationQuaternion**: [`Nullable`](../type-aliases/Nullable.md)\<[`Quaternion`](Quaternion.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L29)
 
 The world space rotation quaternion of the particle.
 
@@ -164,7 +164,7 @@ The world space rotation quaternion of the particle.
 
 > **translateFromPivot**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L47)
 
 Must the particle be translated from its pivot point in its local space ?
 In this case, the pivot point is set at the origin of the particle local space and the particle is translated.
@@ -176,7 +176,7 @@ Default : false
 
 > **uv**: [`Nullable`](../type-aliases/Nullable.md)\<[`Vector2`](Vector2.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L33)
 
 The uv of the particle.
 
@@ -186,7 +186,7 @@ The uv of the particle.
 
 > **velocity**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L37)
 
 The current speed of the particle.
 
@@ -198,7 +198,7 @@ The current speed of the particle.
 
 > **get** **quaternion**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Quaternion`](Quaternion.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L129)
 
 Legacy support, changed quaternion to rotationQuaternion
 
@@ -210,7 +210,7 @@ Legacy support, changed quaternion to rotationQuaternion
 
 > **set** **quaternion**(`q`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:136](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L136)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L136)
 
 Legacy support, changed quaternion to rotationQuaternion
 
@@ -232,7 +232,7 @@ Legacy support, changed quaternion to rotationQuaternion
 
 > **get** **size**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L115)
 
 get point size
 
@@ -244,7 +244,7 @@ get point size
 
 > **set** **size**(`scale`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L122)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L122)
 
 Set point size
 
@@ -264,7 +264,7 @@ Set point size
 
 > **intersectsMesh**(`target`, `isSphere`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:147](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/cloudPoint.ts#L147)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:147](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L147)
 
 Returns a boolean. True if the particle intersects a mesh, else false
 The intersection is computed on the particle position and Axis Aligned Bounding Box (AABB) or Sphere

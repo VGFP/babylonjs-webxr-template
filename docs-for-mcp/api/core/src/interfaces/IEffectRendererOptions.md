@@ -6,7 +6,7 @@
 
 # Interface: IEffectRendererOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectRenderer.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectRenderer.pure.ts#L20)
 
 Effect Render Options
 
@@ -16,7 +16,7 @@ Effect Render Options
 
 > `optional` **indices?**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectRenderer.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectRenderer.pure.ts#L28)
 
 Defines the indices.
 
@@ -26,6 +26,6 @@ Defines the indices.
 
 > `optional` **positions?**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectRenderer.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectRenderer.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectRenderer.pure.ts#L24)
 
 Defines the vertices positions.

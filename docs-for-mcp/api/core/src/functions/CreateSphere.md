@@ -8,7 +8,7 @@
 
 > **CreateSphere**(`name`, `options?`, `scene?`): [`Mesh`](../classes/Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/sphereBuilder.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/sphereBuilder.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/sphereBuilder.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/sphereBuilder.pure.ts#L137)
 
 Creates a sphere mesh
 * The parameter `diameter` sets the diameter size (float) of the sphere (default 1)

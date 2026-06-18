@@ -6,7 +6,7 @@
 
 # Enumeration: ConditionalBlockConditions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts#L17)
 
 Operations supported by the ConditionalBlock block
 
@@ -16,7 +16,7 @@ Operations supported by the ConditionalBlock block
 
 > **And**: `8`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts#L35)
 
 Logical And
 
@@ -26,7 +26,7 @@ Logical And
 
 > **Equal**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts#L19)
 
 Equal
 
@@ -36,7 +36,7 @@ Equal
 
 > **GreaterOrEqual**: `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts#L29)
 
 GreaterOrEqual
 
@@ -46,7 +46,7 @@ GreaterOrEqual
 
 > **GreaterThan**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts#L25)
 
 GreaterThan
 
@@ -56,7 +56,7 @@ GreaterThan
 
 > **LessOrEqual**: `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts#L27)
 
 LessOrEqual
 
@@ -66,7 +66,7 @@ LessOrEqual
 
 > **LessThan**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts#L23)
 
 LessThan
 
@@ -76,7 +76,7 @@ LessThan
 
 > **NotEqual**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts#L21)
 
 NotEqual
 
@@ -86,7 +86,7 @@ NotEqual
 
 > **Or**: `7`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts#L33)
 
 Logical Or
 
@@ -96,6 +96,6 @@ Logical Or
 
 > **Xor**: `6`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/conditionalBlock.pure.ts#L31)
 
 Logical Exclusive OR

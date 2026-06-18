@@ -6,7 +6,7 @@
 
 # Class: FrameGraphTextureManager
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L61)
 
 Manages the textures used by a frame graph
 
@@ -16,7 +16,7 @@ Manages the textures used by a frame graph
 
 > **new FrameGraphTextureManager**(`engine`, `_debugTextures?`, `_scene`): `FrameGraphTextureManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L88)
 
 Constructs a new instance of the texture manager
 
@@ -50,7 +50,7 @@ The scene the manager belongs to
 
 > `readonly` **engine**: [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L89)
 
 The engine to use
 
@@ -60,7 +60,7 @@ The engine to use
 
 > **showDebugLogsForTextureAllcationOptimization**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L76)
 
 Gets or sets a boolean indicating if debug logs should be shown when applying texture allocation optimization (default: false)
 
@@ -72,7 +72,7 @@ Gets or sets a boolean indicating if debug logs should be shown when applying te
 
 > **get** **backBufferTextureOverriden**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:513](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L513)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:513](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L513)
 
 True if the back buffer texture has been overriden by a call to setBackBufferTexture
 
@@ -88,7 +88,7 @@ True if the back buffer texture has been overriden by a call to setBackBufferTex
 
 > **get** **hasHistoryTextures**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:623](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L623)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:623](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L623)
 
 Returns true if the texture manager has at least one history texture
 
@@ -102,7 +102,7 @@ Returns true if the texture manager has at least one history texture
 
 > **computeTotalTextureSize**(`optimizedSize`, `outputWidth`, `outputHeight`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:468](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L468)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:468](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L468)
 
 Calculates the total byte size of all textures used by the frame graph texture manager (including external textures)
 
@@ -138,7 +138,7 @@ The total size of all textures
 
 > **createDanglingHandle**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:370](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L370)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:370](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L370)
 
 Creates a handle which is not associated with any texture.
 Call resolveDanglingHandle to associate the handle with a valid texture handle.
@@ -155,7 +155,7 @@ The dangling handle
 
 > **createRenderTarget**(`name`, `renderTargets?`, `renderTargetDepth?`, `depthReadOnly?`, `stencilReadOnly?`): `FrameGraphRenderTarget`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:330](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L330)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:330](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L330)
 
 Creates a (frame graph) render target wrapper
 Note that renderTargets or renderTargetDepth can be undefined, but not both at the same time!
@@ -204,7 +204,7 @@ The created render target wrapper
 
 > **createRenderTargetTexture**(`name`, `creationOptions`, `handle?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:305](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L305)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:305](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L305)
 
 Creates a new render target texture
 If multiple textures are described in FrameGraphTextureCreationOptions, the handle of the first texture is returned, handle+1 is the handle of the second texture, etc.
@@ -241,7 +241,7 @@ The handle to the texture
 
 > **getAbsoluteDimensions**(`size`, `screenWidth?`, `screenHeight?`): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:425](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L425)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:425](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L425)
 
 Gets the absolute dimensions of a texture.
 
@@ -285,7 +285,7 @@ The absolute dimensions of the texture
 
 > **getTextureAbsoluteDimensions**(`handleOrCreationOptions`): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:449](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L449)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:449](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L449)
 
 Gets the absolute dimensions of a texture from its handle or creation options.
 
@@ -317,7 +317,7 @@ The absolute dimensions of the texture
 
 > **getTextureCreationOptions**(`handle`, `preserveHistoryTextureFlag?`): [`FrameGraphTextureCreationOptions`](../type-aliases/FrameGraphTextureCreationOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L195)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L195)
 
 Gets the creation options of a texture
 
@@ -347,7 +347,7 @@ The creation options of the texture
 
 > **getTextureDescription**(`handle`): [`FrameGraphTextureDescription`](../type-aliases/FrameGraphTextureDescription.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:214](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L214)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L214)
 
 Gets the description of a texture
 
@@ -371,7 +371,7 @@ The description of the texture
 
 > **getTextureFromHandle**(`handle`, `historyGetWriteTexture?`): [`Nullable`](../type-aliases/Nullable.md)\<[`InternalTexture`](InternalTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:254](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L254)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L254)
 
 Gets a texture from a handle.
 Note that if the texture is a history texture, the read texture for the current frame will be returned, except if historyGetWriteTexture is true.
@@ -402,7 +402,7 @@ The texture or null if not found
 
 > **getTextureHandleOrCreateTexture**(`handle?`, `newTextureName?`, `creationOptions?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:237](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L237)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:237](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L237)
 
 Gets a texture handle or creates a new texture if the handle is not provided.
 If handle is not provided, newTextureName and creationOptions must be provided.
@@ -439,7 +439,7 @@ The handle to the texture.
 
 > **importTexture**(`name`, `texture`, `handle?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:274](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L274)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:274](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L274)
 
 Imports a texture into the texture manager
 
@@ -475,7 +475,7 @@ The handle to the texture
 
 > **isBackbuffer**(`handle`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L101)
 
 Checks if a handle is a backbuffer handle (color or depth/stencil)
 
@@ -499,7 +499,7 @@ True if the handle is a backbuffer handle
 
 > **isBackbufferColor**(`handle`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L128)
 
 Checks if a handle is a backbuffer color handle
 
@@ -523,7 +523,7 @@ True if the handle is a backbuffer color handle
 
 > **isBackbufferDepthStencil**(`handle`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L150)
 
 Checks if a handle is a backbuffer depth/stencil handle
 
@@ -547,7 +547,7 @@ True if the handle is a backbuffer depth/stencil handle
 
 > **isHistoryTexture**(`handle`, `checkAllTextures?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:174](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L174)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L174)
 
 Checks if a handle is a history texture (or points to a history texture, for a dangling handle)
 
@@ -578,7 +578,7 @@ True if the handle is a history texture, otherwise false
 
 > **resetBackBufferTextures**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:616](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L616)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:616](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L616)
 
 Resets the back buffer color/depth-stencil textures to the default (the engine's current back buffer textures)
 It has no effect if setBackBufferTextures has not been called before.
@@ -593,7 +593,7 @@ It has no effect if setBackBufferTextures has not been called before.
 
 > **resolveDanglingHandle**(`danglingHandle`, `handle?`, `newTextureName?`, `creationOptions?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:381](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L381)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:381](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L381)
 
 Associates a texture with a dangling handle
 
@@ -633,7 +633,7 @@ The options to use when creating the new texture (if handle is not provided)
 
 > **setBackBufferTextures**(`width`, `height`, `textureCreationOptions?`, `depthStencilTextureCreationOptions?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:527](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L527)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:527](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L527)
 
 Overrides the default back buffer color/depth-stencil textures used by the frame graph.
 Note that if both textureCreationOptions and depthStencilTextureCreationOptions are provided,
@@ -676,7 +676,7 @@ The depth/stencil texture creation options (optional)
 
 > `static` **CloneTextureOptions**(`options`, `textureIndex?`, `preserveLabels?`): [`FrameGraphTextureOptions`](../type-aliases/FrameGraphTextureOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:1099](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L1099)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts:1099](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTextureManager.ts#L1099)
 
 Clones a texture options
 

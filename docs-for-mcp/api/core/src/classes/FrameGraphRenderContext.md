@@ -6,7 +6,7 @@
 
 # Class: FrameGraphRenderContext
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L43)
 
 Frame graph context used render passes.
 
@@ -20,7 +20,7 @@ Frame graph context used render passes.
 
 > **enableDebugMarkers**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L13)
 
 If true, debug markers will be enabled in the context.
 
@@ -34,7 +34,7 @@ If true, debug markers will be enabled in the context.
 
 > **applyFullScreenEffect**(`drawWrapper`, `customBindings?`, `stencilState?`, `disableColorWrite?`, `drawBackFace?`, `depthTest?`, `noViewport?`, `alphaMode?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L245)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L245)
 
 Applies a full-screen effect to the current render target
 
@@ -100,7 +100,7 @@ True if the effect was applied, otherwise false (effect not ready)
 
 > **bindAttachments**(`attachments`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:157](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L157)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:157](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L157)
 
 Binds the attachments to the current render target
 
@@ -122,7 +122,7 @@ The attachments to bind
 
 > **bindRenderTarget**(`renderTarget?`, `applyImmediately?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:369](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L369)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:369](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L369)
 
 Binds a render target texture so that upcoming draw calls will render to it
 Note: it is a lazy operation, so the render target will only be bound when needed. This way, it is possible to call
@@ -152,7 +152,7 @@ If true, the render target will be applied immediately (otherwise it will be app
 
 > **bindTextureHandle**(`effect`, `name`, `handle`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:212](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L212)
 
 Binds a texture handle to a given effect (resolves the handle to a texture and binds it to the effect)
 
@@ -186,7 +186,7 @@ The handle of the texture to bind
 
 > **clear**(`color`, `backBuffer`, `depth`, `stencil?`, `stencilClearValue?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L122)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L122)
 
 Clears the current render buffer or the current render target (if any is set up)
 
@@ -232,7 +232,7 @@ Defines the value to use to clear the stencil buffer (default is 0)
 
 > **clearAttachments**(`color`, `attachments`, `backBuffer`, `depth`, `stencil?`, `stencilClearValue?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:147](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L147)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:147](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L147)
 
 Clears all attachments (color(s) + depth/stencil) of the current render target
 
@@ -284,7 +284,7 @@ Defines the value to use to clear the stencil buffer (default is 0)
 
 > **clearColorAttachments**(`color`, `attachments`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L132)
 
 Clears the color attachments of the current render target
 
@@ -312,7 +312,7 @@ The attachments to clear
 
 > **copyTexture**(`sourceTexture`, `forceCopyToBackbuffer?`, `noViewport?`, `lodLevel?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:303](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L303)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:303](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L303)
 
 Copies a texture to the current render target
 
@@ -352,7 +352,7 @@ The LOD level to use when copying the texture (default: 0).
 
 > **createRenderTarget**(`name`, `renderTargets?`, `renderTargetDepth?`, `depthReadOnly?`, `stencilReadOnly?`): `FrameGraphRenderTarget`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L104)
 
 Creates a (frame graph) render target wrapper
 Note that renderTargets or renderTargetDepth can be undefined, but not both at the same time!
@@ -401,7 +401,7 @@ The created render target wrapper
 
 > **generateMipMaps**(`handle?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L166)
 
 Generates mipmaps for the current render target
 
@@ -423,7 +423,7 @@ Optional handle of the texture to generate mipmaps for (if not provided, will ge
 
 > **getTextureFromHandle**(`handle`): [`Nullable`](../type-aliases/Nullable.md)\<[`InternalTexture`](InternalTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L55)
 
 Gets a texture from a handle.
 Note that if the texture is a history texture, the read texture for the current frame will be returned.
@@ -452,7 +452,7 @@ The texture or null if not found
 
 > **insertDebugMarker**(`text`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L78)
 
 Inserts a debug marker in the engine's debug stack.
 
@@ -478,7 +478,7 @@ The text of the debug marker
 
 > **isBackbuffer**(`handle`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L72)
 
 Checks whether a texture handle points to the backbuffer's color or depth texture
 
@@ -502,7 +502,7 @@ True if the handle points to the backbuffer's color or depth texture, otherwise 
 
 > **isBackbufferColor**(`handle`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L81)
 
 Checks whether a texture handle points to the backbuffer's color texture
 
@@ -526,7 +526,7 @@ True if the handle points to the backbuffer's color texture, otherwise false
 
 > **isBackbufferDepthStencil**(`handle`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L90)
 
 Checks whether a texture handle points to the backbuffer's depth texture
 
@@ -550,7 +550,7 @@ True if the handle points to the backbuffer's depth texture, otherwise false
 
 > **popDebugGroup**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L70)
 
 Pops a debug group from the engine's debug stack.
 
@@ -568,7 +568,7 @@ Pops a debug group from the engine's debug stack.
 
 > **pushDebugGroup**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L63)
 
 Pushes a debug group to the engine's debug stack.
 
@@ -594,7 +594,7 @@ The name of the debug group
 
 > **render**(`object`, `viewportWidth?`, `viewportHeight?`, `restoreDefaultFramebuffer?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:334](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L334)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:334](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L334)
 
 Renders a RenderTargetTexture or a layer
 
@@ -634,7 +634,7 @@ If true, the default framebuffer will be restored after rendering (default: fals
 
 > **renderUnmanaged**(`component`, `intermediateRendering?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L28)
 
 Renders a component without managing the render target.
 Use this method when you have a component that handles its own rendering logic which is not fully integrated into the frame graph system.
@@ -669,7 +669,7 @@ If true, the scene's intermediate rendering flag will be set to true during the 
 
 > **restoreDefaultFramebuffer**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:380](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L380)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:380](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L380)
 
 Restores the default framebuffer (back buffer) as the current render target
 
@@ -683,7 +683,7 @@ Restores the default framebuffer (back buffer) as the current render target
 
 > **restoreDepthStates**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L93)
 
 Restores the depth states saved by saveDepthStates
 
@@ -701,7 +701,7 @@ Restores the depth states saved by saveDepthStates
 
 > **saveDepthStates**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L85)
 
 Saves the current depth states (depth testing and depth writing)
 
@@ -719,7 +719,7 @@ Saves the current depth states (depth testing and depth writing)
 
 > **setDepthStates**(`depthTest`, `depthWrite`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L103)
 
 Sets the depth states for the current render target
 
@@ -751,7 +751,7 @@ If true, depth writing is enabled
 
 > **setTextureSamplingMode**(`handle`, `samplingMode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:198](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L198)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts:198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphRenderContext.ts#L198)
 
 Sets the texture sampling mode for a given texture handle
 
@@ -779,7 +779,7 @@ Sampling mode to set
 
 > **setViewport**(`viewport`, `requiredWidth?`, `requiredHeight?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L114)
 
 Sets the current viewport
 

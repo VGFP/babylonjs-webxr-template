@@ -6,7 +6,7 @@
 
 # Class: FramingBehavior
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L20)
 
 The framing behavior (FramingBehavior) is designed to automatically position an ArcRotateCamera when its target is set to a mesh. It is also useful if you want to prevent the camera to go under a virtual horizontal plane.
 
@@ -34,7 +34,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors/cameraBehaviors#fr
 
 > **autoCorrectCameraLimitsAndSensibility**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L172)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L172)
 
 Define if the behavior should automatically change the configured
 camera limits and sensibilities.
@@ -45,7 +45,7 @@ camera limits and sensibilities.
 
 > **onTargetFramingAnimationEndObservable**: [`Observable`](Observable.md)\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L31)
 
 An event triggered when the animation to zoom on target mesh has ended
 
@@ -55,7 +55,7 @@ An event triggered when the animation to zoom on target mesh has ended
 
 > `static` **EasingFunction**: [`ExponentialEase`](ExponentialEase.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L45)
 
 The easing function used by animations
 
@@ -65,7 +65,7 @@ The easing function used by animations
 
 > `static` **EasingMode**: `number` = `EasingFunction.EASINGMODE_EASEINOUT`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L50)
 
 The easing mode used by animations
 
@@ -75,7 +75,7 @@ The easing mode used by animations
 
 > `static` **FitFrustumSidesMode**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:535](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L535)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:535](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L535)
 
 The camera is not allowed to zoom closer to the mesh than the point at which the adjusted bounding sphere touches the frustum sides
 
@@ -85,7 +85,7 @@ The camera is not allowed to zoom closer to the mesh than the point at which the
 
 > `static` **IgnoreBoundsSizeMode**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:530](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L530)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:530](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L530)
 
 The camera can move all the way towards the mesh.
 
@@ -97,7 +97,7 @@ The camera can move all the way towards the mesh.
 
 > **get** **attachedNode**(): [`Nullable`](../type-aliases/Nullable.md)\<[`ArcRotateCamera`](ArcRotateCamera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L177)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L177)
 
 Attached node of this behavior
 
@@ -119,7 +119,7 @@ Gets the current attached target
 
 > **get** **defaultElevation**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L106)
 
 Gets the angle above/below the horizontal plane to return to when the return to default elevation idle
 behaviour is triggered, in radians.
@@ -132,7 +132,7 @@ behaviour is triggered, in radians.
 
 > **set** **defaultElevation**(`elevation`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L98)
 
 Sets the angle above/below the horizontal plane to return to when the return to default elevation idle
 behaviour is triggered, in radians.
@@ -155,7 +155,7 @@ behaviour is triggered, in radians.
 
 > **get** **elevationReturnTime**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L122)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L122)
 
 Gets the time (in milliseconds) taken to return to the default beta position.
 Negative value indicates camera should not return to default.
@@ -168,7 +168,7 @@ Negative value indicates camera should not return to default.
 
 > **set** **elevationReturnTime**(`speed`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L114)
 
 Sets the time (in milliseconds) taken to return to the default beta position.
 Negative value indicates camera should not return to default.
@@ -191,7 +191,7 @@ Negative value indicates camera should not return to default.
 
 > **get** **elevationReturnWaitTime**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:136](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L136)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L136)
 
 Gets the delay (in milliseconds) taken before the camera returns to the default beta position.
 
@@ -203,7 +203,7 @@ Gets the delay (in milliseconds) taken before the camera returns to the default 
 
 > **set** **elevationReturnWaitTime**(`time`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L129)
 
 Sets the delay (in milliseconds) taken before the camera returns to the default beta position.
 
@@ -225,7 +225,7 @@ Sets the delay (in milliseconds) taken before the camera returns to the default 
 
 > **get** **framingTime**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:164](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L164)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:164](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L164)
 
 Gets the transition time when framing the mesh, in milliseconds
 
@@ -237,7 +237,7 @@ Gets the transition time when framing the mesh, in milliseconds
 
 > **set** **framingTime**(`time`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:157](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L157)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:157](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L157)
 
 Sets the transition time when framing the mesh, in milliseconds
 
@@ -259,7 +259,7 @@ Sets the transition time when framing the mesh, in milliseconds
 
 > **get** **isUserIsMoving**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:510](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L510)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:510](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L510)
 
 Gets a value indicating if the user is moving the camera
 
@@ -275,7 +275,7 @@ Gets a value indicating if the user is moving the camera
 
 > **get** **mode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L62)
 
 Gets current mode used by the behavior.
 
@@ -287,7 +287,7 @@ Gets current mode used by the behavior.
 
 > **set** **mode**(`mode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L55)
 
 Sets the current mode used by the behavior
 
@@ -309,7 +309,7 @@ Sets the current mode used by the behavior
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L24)
 
 Gets the name of the behavior.
 
@@ -331,7 +331,7 @@ gets or sets behavior's name
 
 > **get** **positionScale**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L90)
 
 Gets the scale to apply on Y axis to position camera focus. 0.5 by default which means the center of the bounding box.
 
@@ -343,7 +343,7 @@ Gets the scale to apply on Y axis to position camera focus. 0.5 by default which
 
 > **set** **positionScale**(`scale`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L83)
 
 Sets the scale to apply on Y axis to position camera focus. 0.5 by default which means the center of the bounding box.
 
@@ -365,7 +365,7 @@ Sets the scale to apply on Y axis to position camera focus. 0.5 by default which
 
 > **get** **radiusScale**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L76)
 
 Gets the scale applied to the radius
 
@@ -377,7 +377,7 @@ Gets the scale applied to the radius
 
 > **set** **radiusScale**(`radius`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L69)
 
 Sets the scale applied to the radius (1 by default)
 
@@ -399,7 +399,7 @@ Sets the scale applied to the radius (1 by default)
 
 > **get** **zoomStopsAnimation**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L150)
 
 Gets the flag that indicates if user zooming should stop animation.
 
@@ -411,7 +411,7 @@ Gets the flag that indicates if user zooming should stop animation.
 
 > **set** **zoomStopsAnimation**(`flag`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:143](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L143)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L143)
 
 Sets the flag that indicates if user zooming should stop animation.
 
@@ -431,7 +431,7 @@ Sets the flag that indicates if user zooming should stop animation.
 
 > **attach**(`camera`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L200)
 
 Attaches the behavior to its arc rotate camera.
 
@@ -457,7 +457,7 @@ Defines the camera to attach the behavior to
 
 > **detach**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:238](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L238)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L238)
 
 Detaches the behavior from its current arc rotate camera.
 
@@ -475,7 +475,7 @@ Detaches the behavior from its current arc rotate camera.
 
 > **init**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:192](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L192)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L192)
 
 Initializes the behavior.
 
@@ -493,7 +493,7 @@ Initializes the behavior.
 
 > **stopAllAnimations**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:493](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L493)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:493](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L493)
 
 Stops and removes all animations that have been applied to the camera
 
@@ -507,7 +507,7 @@ Stops and removes all animations that have been applied to the camera
 
 > **zoomOnBoundingInfo**(`minimumWorld`, `maximumWorld`, `focusOnOriginXZ?`, `onAnimationEnd?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:320](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L320)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:320](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L320)
 
 Targets the bounding box info defined by its extends and updates zoom level accordingly.
 
@@ -549,7 +549,7 @@ true if the zoom was done
 
 > **zoomOnMesh**(`mesh`, `focusOnOriginXZ?`, `onAnimationEnd?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:273](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L273)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:273](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L273)
 
 Targets the given mesh and updates zoom level accordingly.
 
@@ -583,7 +583,7 @@ Callback triggered at the end of the framing animation
 
 > **zoomOnMeshesHierarchy**(`meshes`, `focusOnOriginXZ?`, `onAnimationEnd?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:299](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L299)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:299](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L299)
 
 Targets the given meshes with their children and updates zoom level accordingly.
 
@@ -617,7 +617,7 @@ Callback triggered at the end of the framing animation
 
 > **zoomOnMeshHierarchy**(`mesh`, `focusOnOriginXZ?`, `onAnimationEnd?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:286](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L286)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts:286](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/framingBehavior.ts#L286)
 
 Targets the given mesh with its children and updates zoom level accordingly.
 

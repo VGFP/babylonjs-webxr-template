@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphSendCustomEventBlockConfiguration
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphSendCustomEventBlock.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphSendCustomEventBlock.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphSendCustomEventBlock.pure.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphSendCustomEventBlock.pure.ts#L13)
 
 Parameters used to create a FlowGraphSendCustomEventBlock.
 
@@ -24,7 +24,7 @@ Parameters used to create a FlowGraphSendCustomEventBlock.
 
 > **eventData**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphSendCustomEventBlock.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphSendCustomEventBlock.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphSendCustomEventBlock.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphSendCustomEventBlock.pure.ts#L22)
 
 The names of the data inputs for that event.
 
@@ -38,7 +38,7 @@ The names of the data inputs for that event.
 
 > **eventId**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphSendCustomEventBlock.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphSendCustomEventBlock.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphSendCustomEventBlock.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphSendCustomEventBlock.pure.ts#L18)
 
 The id of the event to send.
 Note - in the glTF specs this is an index to the event array (i.e. - a number)
@@ -49,7 +49,7 @@ Note - in the glTF specs this is an index to the event array (i.e. - a number)
 
 > `optional` **name?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
 
 The name of the block.
 

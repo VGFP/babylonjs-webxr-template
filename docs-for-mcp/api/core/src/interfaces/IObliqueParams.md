@@ -6,7 +6,7 @@
 
 # Interface: IObliqueParams
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/camera.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L34)
 
 Oblique projection values
 
@@ -16,7 +16,7 @@ Oblique projection values
 
 > **angle**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/camera.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L36)
 
 The angle of the plane
 
@@ -26,7 +26,7 @@ The angle of the plane
 
 > **length**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/camera.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L38)
 
 The length of the plane
 
@@ -36,6 +36,6 @@ The length of the plane
 
 > **offset**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/camera.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L40)
 
 The offset of the plane

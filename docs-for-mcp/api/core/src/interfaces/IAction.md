@@ -6,7 +6,7 @@
 
 # Interface: IAction
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L23)
 
 Interface used to define Action
 
@@ -16,7 +16,7 @@ Interface used to define Action
 
 > **trigger**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L27)
 
 Trigger for the action
 
@@ -26,7 +26,7 @@ Trigger for the action
 
 > **triggerOptions**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L30)
 
 Options of the trigger
 
@@ -36,7 +36,7 @@ Options of the trigger
 
 > **getTriggerParameter**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L36)
 
 Gets the trigger parameters
 
@@ -52,7 +52,7 @@ the trigger parameters
 
 > **serialize**(`parent`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L49)
 
 Serialize placeholder for child classes
 
@@ -76,7 +76,7 @@ the serialized object
 
 > **then**(`action`): `IAction`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L69)
 
 Adds action to chain of actions, may be a DoNothingAction
 

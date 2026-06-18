@@ -6,7 +6,7 @@
 
 # Interface: IGreasedLineMaterial
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L8)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L8)
 
 Interface which defines the available methods for a GreasedLineMaterial
 
@@ -16,7 +16,7 @@ Interface which defines the available methods for a GreasedLineMaterial
 
 > **color**: [`Nullable`](../type-aliases/Nullable.md)\<[`Color3`](../classes/Color3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L72)
 
 Color of the line. Applies to all line segments.
 Defaults to White.
@@ -27,7 +27,7 @@ Defaults to White.
 
 > **colorMode**: [`GreasedLineMeshColorMode`](../enumerations/GreasedLineMeshColorMode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L54)
 
 The mixing mode of the color paramater. Default value is GreasedLineMeshColorMode.SET.
 MATERIAL_TYPE_SIMPLE mixes the color and colors of the greased line material.
@@ -43,7 +43,7 @@ GreasedLineMeshColorMode
 
 > **colors**: [`Nullable`](../type-aliases/Nullable.md)\<[`Color3`](../classes/Color3.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L60)
 
 Colors of the line segments.
 Defaults to empty.
@@ -54,7 +54,7 @@ Defaults to empty.
 
 > **colorsDistributionType**: [`GreasedLineMeshColorDistributionType`](../enumerations/GreasedLineMeshColorDistributionType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L79)
 
 The method used to distribute the colors along the line.
 You can use segment distribution when each segment will use on color from the color table.
@@ -66,7 +66,7 @@ Or you can use line distribution when the colors are distributed evenly along th
 
 > **colorsTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`RawTexture`](../classes/RawTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L90)
 
 You can provide a colorsTexture to use instead of one generated from the 'colors' option
 
@@ -76,7 +76,7 @@ You can provide a colorsTexture to use instead of one generated from the 'colors
 
 > **dashCount**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L31)
 
 #### See
 
@@ -90,7 +90,7 @@ Defaults to 1.
 
 > **dashOffset**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L36)
 
 Dash offset
 
@@ -100,7 +100,7 @@ Dash offset
 
 > **dashRatio**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L41)
 
 Length of the dash. 0 to 1. 0.5 means half empty, half drawn.
 
@@ -110,7 +110,7 @@ Length of the dash. 0 to 1. 0.5 means half empty, half drawn.
 
 > **resolution**: [`Vector2`](../classes/Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L85)
 
 Defaults to engine.getRenderWidth() and engine.getRenderHeight()
 Rendering resolution
@@ -121,7 +121,7 @@ Rendering resolution
 
 > **sizeAttenuation**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L66)
 
 If false then width units = scene units. If true then line will width be reduced.
 Defaults to false.
@@ -132,7 +132,7 @@ Defaults to false.
 
 > **useColors**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L46)
 
 Whether to use the colors option to colorize the line
 
@@ -142,7 +142,7 @@ Whether to use the colors option to colorize the line
 
 > **useDash**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L24)
 
 Turns on/off dash mode
 
@@ -152,7 +152,7 @@ Turns on/off dash mode
 
 > **visibility**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L14)
 
 Normalized value of how much of the line will be visible
 0 - 0% of the line will be visible
@@ -164,7 +164,7 @@ Normalized value of how much of the line will be visible
 
 > **width**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L19)
 
 Line base width. At each point the line width is calculated by widths[pointIndex] * width
 
@@ -174,7 +174,7 @@ Line base width. At each point the line width is calculated by widths[pointIndex
 
 > **setColor**(`value`, `doNotMarkDirty?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L98)
 
 Allows to change the color without marking the material dirty.
 MATERIAL_TYPE_STANDARD and MATERIAL_TYPE_PBR material's shaders will get recompiled if there was no color set and you set a color or when there was a color set and you set it to null.
@@ -203,7 +203,7 @@ the flag
 
 > **setColors**(`colors`, `lazy`, `forceNewTexture?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L106)
 
 Set the colors
 
@@ -237,7 +237,7 @@ forces to create a new colors texture
 
 > **updateLazy**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L111)
 
 Creates and sets the colors texture from the colors array which was created in lazy mode
 

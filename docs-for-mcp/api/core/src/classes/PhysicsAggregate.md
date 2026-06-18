@@ -6,7 +6,7 @@
 
 # Class: PhysicsAggregate
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L89)
 
 Helper class to create and interact with a PhysicsAggregate.
 This is a transition object that works like Physics Plugin V1 Impostors.
@@ -18,9 +18,9 @@ a small numbers of physics objects, it's good enough.
 
 ### Constructor
 
-> **new PhysicsAggregate**(`transformNode`, `type`, `_options?`, `_scene?`): `PhysicsAggregate`
+> **new PhysicsAggregate**(`transformNode`, `type`, `options?`, `_scene?`): `PhysicsAggregate`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L111)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ The physics-enabled object used as the physics aggregate
 
 The type of the physics aggregate
 
-##### \_options?
+##### options?
 
 [`PhysicsAggregateParameters`](../interfaces/PhysicsAggregateParameters.md) = `...`
 
@@ -54,7 +54,7 @@ The type of the physics aggregate
 
 > **body**: [`PhysicsBody`](PhysicsBody.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L93)
 
 The body that is associated with this aggregate
 
@@ -64,7 +64,7 @@ The body that is associated with this aggregate
 
 > **material**: [`PhysicsMaterial`](../interfaces/PhysicsMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L103)
 
 The material that is associated with this aggregate
 
@@ -74,7 +74,7 @@ The material that is associated with this aggregate
 
 > **shape**: [`PhysicsShape`](PhysicsShape.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L98)
 
 The shape that is associated with this aggregate
 
@@ -84,7 +84,7 @@ The shape that is associated with this aggregate
 
 > **transformNode**: [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L115)
 
 The physics-enabled object used as the physics aggregate
 
@@ -94,7 +94,7 @@ The physics-enabled object used as the physics aggregate
 
 > **type**: [`PhysicsShape`](PhysicsShape.md) \| [`PhysicsShapeType`](../enumerations/PhysicsShapeType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L117)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L119)
 
 The type of the physics aggregate
 
@@ -104,7 +104,7 @@ The type of the physics aggregate
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:254](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L254)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:262](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L262)
 
 Releases the body, shape and material
 

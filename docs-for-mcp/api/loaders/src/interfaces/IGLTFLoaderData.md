@@ -6,7 +6,7 @@
 
 # Interface: IGLTFLoaderData
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L120)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L120)
 
 Interface that contains the data for the glTF asset.
 
@@ -16,7 +16,7 @@ Interface that contains the data for the glTF asset.
 
 > **bin**: [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`IDataBuffer`](../../../core/src/interfaces/IDataBuffer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L129)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L129)
 
 The BIN chunk of a binary glTF.
 
@@ -26,6 +26,6 @@ The BIN chunk of a binary glTF.
 
 > **json**: `object`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L124)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L124)
 
 The object that represents the glTF JSON.

@@ -6,7 +6,7 @@
 
 # Interface: IKhronosTextureContainer2Options
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L183)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L183)
 
 Options for the KTX2 decoder
 
@@ -16,7 +16,7 @@ Options for the KTX2 decoder
 
 > `optional` **binariesAndModulesContainer?**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:197](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L197)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L197)
 
 Optional container for the KTX2 decoder module and its dependencies. If set, the module will be used from this container and the URLs will be ignored.
 
@@ -70,7 +70,7 @@ Optional container for the KTX2 decoder module and its dependencies. If set, the
 
 > `optional` **numWorkers?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:187](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L187)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L187)
 
 Number of workers to use for async operations. Specify `0` to disable web workers and run synchronously in the current context.
 
@@ -80,6 +80,6 @@ Number of workers to use for async operations. Specify `0` to disable web worker
 
 > `optional` **workerPool?**: [`AutoReleaseWorkerPool`](../classes/AutoReleaseWorkerPool.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L191)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/khronosTextureContainer2.ts:191](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/khronosTextureContainer2.ts#L191)
 
 Worker pool to use for async operations. If set, `numWorkers` will be ignored.

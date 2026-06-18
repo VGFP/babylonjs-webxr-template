@@ -6,7 +6,7 @@
 
 # Interface: IBoneWeightShaderOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/ISkeletonViewer.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/ISkeletonViewer.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/ISkeletonViewer.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/ISkeletonViewer.ts#L59)
 
 Defines the constructor options for the BoneWeight Shader.
 
@@ -16,7 +16,7 @@ Defines the constructor options for the BoneWeight Shader.
 
 > `optional` **colorBase?**: [`Color3`](../classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/ISkeletonViewer.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/ISkeletonViewer.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/ISkeletonViewer.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/ISkeletonViewer.ts#L64)
 
 Colors for Uninfluenced bones
 
@@ -26,7 +26,7 @@ Colors for Uninfluenced bones
 
 > `optional` **colorFull?**: [`Color3`](../classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/ISkeletonViewer.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/ISkeletonViewer.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/ISkeletonViewer.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/ISkeletonViewer.ts#L76)
 
 Color for 0.75-1 Weight Influence
 
@@ -36,7 +36,7 @@ Color for 0.75-1 Weight Influence
 
 > `optional` **colorHalf?**: [`Color3`](../classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/ISkeletonViewer.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/ISkeletonViewer.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/ISkeletonViewer.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/ISkeletonViewer.ts#L73)
 
 Color for 0.5-0.75 Weight Influence
 
@@ -46,7 +46,7 @@ Color for 0.5-0.75 Weight Influence
 
 > `optional` **colorQuarter?**: [`Color3`](../classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/ISkeletonViewer.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/ISkeletonViewer.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/ISkeletonViewer.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/ISkeletonViewer.ts#L70)
 
 Color for 0.25-0.5 Weight Influence
 
@@ -56,7 +56,7 @@ Color for 0.25-0.5 Weight Influence
 
 > `optional` **colorZero?**: [`Color3`](../classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/ISkeletonViewer.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/ISkeletonViewer.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/ISkeletonViewer.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/ISkeletonViewer.ts#L67)
 
 Colors for 0.0-0.25 Weight bones
 
@@ -66,7 +66,7 @@ Colors for 0.0-0.25 Weight bones
 
 > **skeleton**: [`Skeleton`](../classes/Skeleton.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/ISkeletonViewer.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/ISkeletonViewer.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/ISkeletonViewer.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/ISkeletonViewer.ts#L61)
 
 Skeleton to Map
 
@@ -76,6 +76,6 @@ Skeleton to Map
 
 > `optional` **targetBoneIndex?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/ISkeletonViewer.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/ISkeletonViewer.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/ISkeletonViewer.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/ISkeletonViewer.ts#L79)
 
 Color for Zero Weight Influence

@@ -8,7 +8,7 @@
 
 > **SizeLike** = `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:184](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L184)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L239)
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolat
 
 > **height**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:184](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L184)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L239)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolat
 
 > **width**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:184](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L184)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L239)

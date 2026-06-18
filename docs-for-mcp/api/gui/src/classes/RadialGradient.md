@@ -6,7 +6,7 @@
 
 # Class: RadialGradient
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:10](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L10)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L10)
 
 Gradient formed from two circles with their own centers and radius.
 The coordinates of the circles centers are relative to the canvas' space, not to any control's space.
@@ -25,7 +25,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/create
 
 > **new RadialGradient**(`x0?`, `y0?`, `r0?`, `x1?`, `y1?`, `r1?`): `RadialGradient`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L27)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L27)
 
 Creates a new radial gradient
 
@@ -83,7 +83,7 @@ radius of the second circle
 
 > **get** **colorStops**(): [`GradientColorStop`](../type-aliases/GradientColorStop.md)[]
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L89)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L89)
 
 Color stops of the gradient
 
@@ -103,7 +103,7 @@ Color stops of the gradient
 
 > **get** **r0**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L62)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L62)
 
 radius of the first circle
 
@@ -119,7 +119,7 @@ radius of the first circle
 
 > **get** **r1**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L67)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L67)
 
 radius of the second circle
 
@@ -135,7 +135,7 @@ radius of the second circle
 
 > **get** **x0**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L42)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L42)
 
 x coordinate of the first circle's center
 
@@ -151,7 +151,7 @@ x coordinate of the first circle's center
 
 > **get** **x1**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L47)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L47)
 
 x coordinate of the second circle's center
 
@@ -167,7 +167,7 @@ x coordinate of the second circle's center
 
 > **get** **y0**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L52)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L52)
 
 y coordinate of the first circle's center
 
@@ -183,7 +183,7 @@ y coordinate of the first circle's center
 
 > **get** **y1**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L57)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L57)
 
 y coordinate of the second circle's center
 
@@ -197,7 +197,7 @@ y coordinate of the second circle's center
 
 > **addColorStop**(`offset`, `color`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L64)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L64)
 
 Adds a new color stop to the gradient.
 
@@ -229,7 +229,7 @@ the color of the stop
 
 > **clearColorStops**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L81)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L81)
 
 Removes all color stops from the gradient
 
@@ -247,7 +247,7 @@ Removes all color stops from the gradient
 
 > **getCanvasGradient**(`context`): `CanvasGradient`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L49)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L49)
 
 If there are any changes or the context changed, regenerate the canvas gradient object. Else,
 reuse the existing gradient.
@@ -276,7 +276,7 @@ the canvas gradient
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L75)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L75)
 
 Class name of the gradient
 
@@ -296,7 +296,7 @@ the class name of the gradient
 
 > **parse**(`serializationObject`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L97)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L97)
 
 Parses a gradient from a serialization object
 
@@ -322,7 +322,7 @@ the object to parse from
 
 > **removeColorStop**(`offset`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L73)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L73)
 
 Removes an existing color stop with the specified offset from the gradient
 
@@ -348,7 +348,7 @@ the offset of the stop to be removed
 
 > **serialize**(`serializationObject`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L83)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/RadialGradient.ts#L83)
 
 Serializes this gradient
 

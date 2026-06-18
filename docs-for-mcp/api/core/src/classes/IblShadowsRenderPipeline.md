@@ -6,7 +6,7 @@
 
 # Class: IblShadowsRenderPipeline
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L118)
 
 Voxel-based shadow rendering for IBL's.
 This should not be instanciated directly, as it is part of a scene component
@@ -21,7 +21,7 @@ This should not be instanciated directly, as it is part of a scene component
 
 > **new IblShadowsRenderPipeline**(`name`, `scene`, `options?`, `cameras?`): `IblShadowsRenderPipeline`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:753](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L753)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:764](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L764)
 
 #### Parameters
 
@@ -63,7 +63,7 @@ Cameras to apply the pipeline to.
 
 > **inspectableCustomProperties**: [`IInspectable`](../interfaces/IInspectable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L26)
 
 List of inspectable custom properties (used by the Inspector)
 
@@ -81,7 +81,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > **onNewIblReadyObservable**: [`Observable`](Observable.md)\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L155)
 
 Observable that triggers when a new IBL is set and the importance sampling is ready
 
@@ -91,7 +91,7 @@ Observable that triggers when a new IBL is set and the importance sampling is re
 
 > **onShadowTextureReadyObservable**: [`Observable`](Observable.md)\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L150)
 
 Observable that triggers when the shadow renderer is ready
 
@@ -101,7 +101,7 @@ Observable that triggers when the shadow renderer is ready
 
 > **onVoxelizationCompleteObservable**: [`Observable`](Observable.md)\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L160)
 
 Observable that triggers when the voxelization is complete
 
@@ -111,7 +111,7 @@ Observable that triggers when the voxelization is complete
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L122)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L122)
 
 The scene that this pipeline is attached to
 
@@ -121,7 +121,7 @@ The scene that this pipeline is attached to
 
 > `readonly` **uniqueId**: `number` = `UniqueIdGenerator.UniqueId`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L47)
 
 Gets the unique id of the post process rendering pipeline
 
@@ -135,7 +135,7 @@ Gets the unique id of the post process rendering pipeline
 
 > **voxelGridSize**: `number` = `1.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L165)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L165)
 
 The current world-space size of that the voxel grid covers in the scene.
 
@@ -147,7 +147,7 @@ The current world-space size of that the voxel grid covers in the scene.
 
 > **get** **accumulationPassDebugEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:482](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L482)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:482](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L482)
 
 Display the debug view for the shadows accumulated over time.
 
@@ -159,7 +159,7 @@ Display the debug view for the shadows accumulated over time.
 
 > **set** **accumulationPassDebugEnabled**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:486](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L486)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:486](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L486)
 
 ##### Parameters
 
@@ -179,7 +179,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShad
 
 > **get** **allowDebugPasses**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:645](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L645)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:645](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L645)
 
 Allow debug passes to be enabled. Default is false.
 
@@ -191,7 +191,7 @@ Allow debug passes to be enabled. Default is false.
 
 > **set** **allowDebugPasses**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:652](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L652)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:652](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L652)
 
 Allow debug passes to be enabled. Default is false.
 
@@ -213,7 +213,7 @@ Allow debug passes to be enabled. Default is false.
 
 > **get** **cameras**(): [`Camera`](Camera.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L50)
 
 Gets the list of attached cameras
 
@@ -233,7 +233,7 @@ Gets the list of attached cameras
 
 > **get** **cdfDebugEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:401](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L401)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:401](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L401)
 
 Turn on or off the debug view of the CDF importance sampling data
 
@@ -245,7 +245,7 @@ Turn on or off the debug view of the CDF importance sampling data
 
 > **set** **cdfDebugEnabled**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:408](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L408)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:408](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L408)
 
 Turn on or off the debug view of the CDF importance sampling data
 
@@ -267,7 +267,7 @@ Turn on or off the debug view of the CDF importance sampling data
 
 > **get** **coloredShadows**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:192](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L192)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L192)
 
 Render the shadows in color rather than black and white.
 This is slightly more expensive than black and white shadows but can be much
@@ -281,7 +281,7 @@ more accurate when the strongest lights in the IBL are non-white.
 
 > **set** **coloredShadows**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:196](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L196)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L196)
 
 ##### Parameters
 
@@ -301,7 +301,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShad
 
 > **get** **engine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L57)
 
 Gets the active engine
 
@@ -321,7 +321,7 @@ Gets the active engine
 
 > **get** **envRotation**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:627](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L627)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:627](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L627)
 
 The global Y-axis rotation of the IBL for shadows. This should match the Y-rotation of the environment map applied to materials, skybox, etc.
 
@@ -333,7 +333,7 @@ The global Y-axis rotation of the IBL for shadows. This should match the Y-rotat
 
 > **set** **envRotation**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:634](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L634)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:634](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L634)
 
 The global Y-axis rotation of the IBL for shadows. This should match the Y-rotation of the environment map applied to materials, skybox, etc.
 
@@ -355,7 +355,7 @@ The global Y-axis rotation of the IBL for shadows. This should match the Y-rotat
 
 > **get** **gbufferDebugEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:381](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L381)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:381](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L381)
 
 Turn on or off the debug view of the G-Buffer. This will display only the targets
 of the g-buffer that are used by the shadow pipeline.
@@ -368,7 +368,7 @@ of the g-buffer that are used by the shadow pipeline.
 
 > **set** **gbufferDebugEnabled**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:385](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L385)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:385](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L385)
 
 ##### Parameters
 
@@ -388,7 +388,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShad
 
 > **get** **isSupported**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L90)
 
 If all the render effects in the pipeline are supported
 
@@ -408,7 +408,7 @@ If all the render effects in the pipeline are supported
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L40)
 
 Gets pipeline name
 
@@ -428,7 +428,7 @@ Gets pipeline name
 
 > **get** **resolutionExp**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:574](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L574)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:574](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L574)
 
 The exponent of the resolution of the voxel shadow grid. Higher resolutions will result in sharper
 shadows but are more expensive to compute and require more memory.
@@ -442,7 +442,7 @@ The resolution is calculated as 2 to the power of this number.
 
 > **set** **resolutionExp**(`newResolution`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:578](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L578)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:578](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L578)
 
 ##### Parameters
 
@@ -462,7 +462,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShad
 
 > **get** **sampleDirections**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:593](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L593)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:593](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L593)
 
 The number of different directions to sample during the voxel tracing pass
 
@@ -474,7 +474,7 @@ The number of different directions to sample during the voxel tracing pass
 
 > **set** **sampleDirections**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:600](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L600)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:600](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L600)
 
 The number of different directions to sample during the voxel tracing pass
 
@@ -496,7 +496,7 @@ The number of different directions to sample during the voxel tracing pass
 
 > **get** **shadowOpacity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L178)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L178)
 
 How dark the shadows appear. 1.0 is full opacity, 0.0 is no shadows.
 
@@ -508,7 +508,7 @@ How dark the shadows appear. 1.0 is full opacity, 0.0 is no shadows.
 
 > **set** **shadowOpacity**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:182](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L182)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L182)
 
 ##### Parameters
 
@@ -528,7 +528,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShad
 
 > **get** **shadowRemanence**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:610](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L610)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:610](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L610)
 
 The decree to which the shadows persist between frames. 0.0 is no persistence, 1.0 is full persistence.
 
@@ -540,7 +540,7 @@ The decree to which the shadows persist between frames. 0.0 is no persistence, 1
 
 > **set** **shadowRemanence**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:617](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L617)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:617](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L617)
 
 The decree to which the shadows persist between frames. 0.0 is no persistence, 1.0 is full persistence.
 
@@ -562,7 +562,7 @@ The decree to which the shadows persist between frames. 0.0 is no persistence, 1
 
 > **get** **shadowRenderSizeFactor**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:207](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L207)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:207](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L207)
 
 A multiplier for the render size of the shadows. Used for rendering lower-resolution shadows.
 
@@ -574,7 +574,7 @@ A multiplier for the render size of the shadows. Used for rendering lower-resolu
 
 > **set** **shadowRenderSizeFactor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:211](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L211)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:211](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L211)
 
 ##### Parameters
 
@@ -594,7 +594,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShad
 
 > **get** **spatialBlurPassDebugEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:456](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L456)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:456](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L456)
 
 Display the debug view for the spatial blur pass
 
@@ -606,7 +606,7 @@ Display the debug view for the spatial blur pass
 
 > **set** **spatialBlurPassDebugEnabled**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:460](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L460)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:460](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L460)
 
 ##### Parameters
 
@@ -626,7 +626,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShad
 
 > **get** **ssShadowDistanceScale**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:283](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L283)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L283)
 
 A scale for the maximum distance a screen-space shadow can be cast in world-space.
 The maximum distance that screen-space shadows cast is derived from the voxel size
@@ -640,7 +640,7 @@ and this value so shouldn't need to change if you scale your scene
 
 > **set** **ssShadowDistanceScale**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:287](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L287)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:287](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L287)
 
 ##### Parameters
 
@@ -660,7 +660,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShad
 
 > **get** **ssShadowOpacity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:236](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L236)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:236](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L236)
 
 How dark the screen-space shadows appear. 1.0 is full opacity, 0.0 is no shadows.
 
@@ -672,7 +672,7 @@ How dark the screen-space shadows appear. 1.0 is full opacity, 0.0 is no shadows
 
 > **set** **ssShadowOpacity**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:240](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L240)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:240](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L240)
 
 ##### Parameters
 
@@ -692,7 +692,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShad
 
 > **get** **ssShadowSampleCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:250](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L250)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:250](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L250)
 
 The number of samples used in the screen space shadow pass.
 
@@ -704,7 +704,7 @@ The number of samples used in the screen space shadow pass.
 
 > **set** **ssShadowSampleCount**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:254](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L254)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L254)
 
 ##### Parameters
 
@@ -724,7 +724,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShad
 
 > **get** **ssShadowStride**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:265](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L265)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:265](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L265)
 
 The stride of the screen-space shadow pass. This controls the distance between samples
 in pixels.
@@ -737,7 +737,7 @@ in pixels.
 
 > **set** **ssShadowStride**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:269](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L269)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:269](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L269)
 
 ##### Parameters
 
@@ -757,7 +757,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShad
 
 > **get** **ssShadowThicknessScale**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:299](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L299)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:299](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L299)
 
 Screen-space shadow thickness scale. This value controls the assumed thickness of
 on-screen surfaces in world-space. It scales with the size of the shadow-casting
@@ -771,7 +771,7 @@ region so shouldn't need to change if you scale your scene.
 
 > **set** **ssShadowThicknessScale**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:303](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L303)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:303](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L303)
 
 ##### Parameters
 
@@ -791,7 +791,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShad
 
 > **get** **voxelShadowOpacity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L222)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L222)
 
 How dark the voxel shadows appear. 1.0 is full opacity, 0.0 is no shadows.
 
@@ -803,7 +803,7 @@ How dark the voxel shadows appear. 1.0 is full opacity, 0.0 is no shadows.
 
 > **set** **voxelShadowOpacity**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:226](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L226)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:226](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L226)
 
 ##### Parameters
 
@@ -823,7 +823,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShad
 
 > **get** **voxelTracingDebugEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:430](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L430)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:430](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L430)
 
 Display the debug view for just the shadow samples taken this frame.
 
@@ -835,7 +835,7 @@ Display the debug view for just the shadow samples taken this frame.
 
 > **set** **voxelTracingDebugEnabled**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:434](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L434)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:434](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L434)
 
 ##### Parameters
 
@@ -855,7 +855,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShad
 
 > **get** `static` **IsSupported**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:673](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L673)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:673](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L673)
 
 Support test.
 
@@ -869,7 +869,7 @@ Support test.
 
 > **addEffect**(`renderEffect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L106)
 
 Adds an effect to the pipeline
 
@@ -895,7 +895,7 @@ the effect to add
 
 > **addShadowCastingMesh**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:510](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L510)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:510](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L510)
 
 Add a mesh to be used for shadow-casting in the IBL shadow pipeline.
 These meshes will be written to the voxel grid.
@@ -918,7 +918,7 @@ A mesh or list of meshes that you want to cast shadows
 
 > **addShadowReceivingMaterial**(`material?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:1033](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L1033)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:1044](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L1044)
 
 Apply the shadows to a material or array of materials. If no material is provided, all
 materials in the scene will be added.
@@ -941,7 +941,7 @@ Material that will be affected by the shadows. If not provided, all materials of
 
 > **clearShadowCastingMeshes**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:560](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L560)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:560](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L560)
 
 Clear the list of shadow-casting meshes. This will remove all meshes from the list
 
@@ -955,7 +955,7 @@ Clear the list of shadow-casting meshes. This will remove all meshes from the li
 
 > **clearShadowReceivingMaterials**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:1077](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L1077)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:1088](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L1088)
 
 Clear the list of materials that receive shadows. This will remove all materials from the list
 
@@ -969,7 +969,7 @@ Clear the list of materials that receive shadows. This will remove all materials
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:1163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L1163)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:1174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L1174)
 
 Disposes the IBL shadow pipeline and associated resources
 
@@ -987,7 +987,7 @@ Disposes the IBL shadow pipeline and associated resources
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:1156](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L1156)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:1167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L1167)
 
 Get the class name
 
@@ -1007,7 +1007,7 @@ Get the class name
 
 > **isReady**(): `boolean` \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:1140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L1140)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:1151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L1151)
 
 Checks if the IBL shadow pipeline is ready to render shadows
 
@@ -1023,7 +1023,7 @@ true if the IBL shadow pipeline is ready to render the shadows
 
 > **removeShadowCastingMesh**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:535](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L535)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:535](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L535)
 
 Remove a mesh from the shadow-casting list. The mesh will no longer be written
 to the voxel grid and will not cast shadows.
@@ -1046,7 +1046,7 @@ The mesh or list of meshes that you don't want to cast shadows.
 
 > **removeShadowReceivingMaterial**(`material`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:1054](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L1054)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:1065](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L1065)
 
 Remove a material from the list of materials that receive shadows. If no material
 is provided, all materials in the scene will be removed.
@@ -1069,7 +1069,7 @@ The material or array of materials that will no longer receive shadows
 
 > **resetAccumulation**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:171](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L171)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:171](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L171)
 
 Reset the shadow accumulation. This has a similar affect to lowering the remanence for a single frame.
 This is useful when making a sudden change to the IBL.
@@ -1084,7 +1084,7 @@ This is useful when making a sudden change to the IBL.
 
 > **setPrePassRenderer**(`prePassRenderer`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:274](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L274)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:277](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L277)
 
 Sets the required values to the prepass renderer.
 
@@ -1112,7 +1112,7 @@ true if the pre pass is needed.
 
 > **toggleShadow**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:685](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L685)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:685](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L685)
 
 Toggle the shadow tracing on or off
 
@@ -1134,7 +1134,7 @@ Toggle the shadow tracing on or off
 
 > **updateSceneBounds**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:717](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L717)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:717](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L717)
 
 Trigger the scene bounds of shadow-casters to be calculated. This is the world size that the voxel grid will cover and will always be a cube.
 
@@ -1148,7 +1148,7 @@ Trigger the scene bounds of shadow-casters to be calculated. This is the world s
 
 > **updateVoxelization**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts:702](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.ts#L702)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts:702](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/IBLShadows/iblShadowsRenderPipeline.pure.ts#L702)
 
 Trigger the scene to be re-voxelized. This should be run when any shadow-casters have been added, removed or moved.
 

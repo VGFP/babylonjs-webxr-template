@@ -8,7 +8,7 @@
 
 > **Hermite**(`value1`, `tangent1`, `value2`, `tangent2`, `amount`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.scalar.functions.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.scalar.functions.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.scalar.functions.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.scalar.functions.ts#L100)
 
 Returns a new scalar located for "amount" (float) on the Hermite spline defined by the scalars "value1", "value3", "tangent1", "tangent2".
 

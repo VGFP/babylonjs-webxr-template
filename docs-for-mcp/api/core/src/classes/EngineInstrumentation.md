@@ -6,7 +6,7 @@
 
 # Class: EngineInstrumentation
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:10](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L10)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L10)
 
 This class can be used to get instrumentation data from a Babylon engine
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/optimize_your_scene#en
 
 > **new EngineInstrumentation**(`engine`): `EngineInstrumentation`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L99)
 
 Instantiates a new engine instrumentation.
 This class can be used to get instrumentation data from a Babylon engine
@@ -51,7 +51,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/optimize_your_scene#en
 
 > **engine**: [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L103)
 
 Define the instrumented engine.
 
@@ -63,7 +63,7 @@ Define the instrumented engine.
 
 > **get** **captureGPUFrameTime**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L35)
 
 Gets the GPU frame time capture status
 
@@ -75,7 +75,7 @@ Gets the GPU frame time capture status
 
 > **set** **captureGPUFrameTime**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L42)
 
 Enable or disable the GPU frame time capture
 
@@ -97,7 +97,7 @@ Enable or disable the GPU frame time capture
 
 > **get** **captureShaderCompilationTime**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L61)
 
 Gets the shader compilation time capture status
 
@@ -109,7 +109,7 @@ Gets the shader compilation time capture status
 
 > **set** **captureShaderCompilationTime**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L68)
 
 Enable or disable the shader compilation time capture
 
@@ -131,7 +131,7 @@ Enable or disable the shader compilation time capture
 
 > **get** **gpuFrameTimeCounter**(): [`PerfCounter`](PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L28)
 
 Gets the perf counter used for GPU frame time
 
@@ -147,7 +147,7 @@ Gets the perf counter used for GPU frame time
 
 > **get** **shaderCompilationTimeCounter**(): [`PerfCounter`](PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L54)
 
 Gets the perf counter used for shader compilation time
 
@@ -161,7 +161,7 @@ Gets the perf counter used for shader compilation time
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/engineInstrumentation.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/engineInstrumentation.ts#L109)
 
 Dispose and release associated resources.
 

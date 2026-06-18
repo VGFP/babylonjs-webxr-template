@@ -6,7 +6,7 @@
 
 # Interface: IFluidRenderingRenderObject
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L112)
 
 An object rendered as a fluid.
 It consists of the object itself as well as the render target renderer (which is used to generate the textures (render target) needed for fluid rendering)
@@ -17,7 +17,7 @@ It consists of the object itself as well as the render target renderer (which is
 
 > **object**: [`FluidRenderingObject`](../classes/FluidRenderingObject.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.ts:162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.ts#L162)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L114)
 
 object rendered as a fluid
 
@@ -27,6 +27,6 @@ object rendered as a fluid
 
 > **targetRenderer**: [`FluidRenderingTargetRenderer`](../classes/FluidRenderingTargetRenderer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.ts:164](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.ts#L164)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L116)
 
 target renderer used to render the fluid object

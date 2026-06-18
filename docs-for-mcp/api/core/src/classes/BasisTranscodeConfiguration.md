@@ -6,7 +6,7 @@
 
 # Class: BasisTranscodeConfiguration
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/basis.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/basis.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/basis.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/basis.pure.ts#L46)
 
 Configuration options for the Basis transcoder
 
@@ -26,7 +26,7 @@ Configuration options for the Basis transcoder
 
 > `optional` **loadMipmapLevels?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/basis.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/basis.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/basis.pure.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/basis.pure.ts#L79)
 
 If mipmap levels should be loaded for transcoded images (Default: true)
 
@@ -36,7 +36,7 @@ If mipmap levels should be loaded for transcoded images (Default: true)
 
 > `optional` **loadSingleImage?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/basis.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/basis.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/basis.pure.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/basis.pure.ts#L83)
 
 Index of a single image to load (Default: all images)
 
@@ -46,7 +46,7 @@ Index of a single image to load (Default: all images)
 
 > `optional` **supportedCompressionFormats?**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/basis.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/basis.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/basis.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/basis.pure.ts#L50)
 
 Supported compression formats used to determine the supported output format of the transcoder
 

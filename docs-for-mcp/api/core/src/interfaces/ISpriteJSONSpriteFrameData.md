@@ -6,7 +6,7 @@
 
 # Interface: ISpriteJSONSpriteFrameData
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/ISprites.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/ISprites.ts#L19)
 
 Defines the basic options interface of a Sprite Frame Data.
 
@@ -16,7 +16,7 @@ Defines the basic options interface of a Sprite Frame Data.
 
 > **h**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/ISprites.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/ISprites.ts#L38)
 
 number of the height of the Frame
 
@@ -26,7 +26,7 @@ number of the height of the Frame
 
 > **w**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/ISprites.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/ISprites.ts#L33)
 
 number of the width of the Frame
 
@@ -36,7 +36,7 @@ number of the width of the Frame
 
 > **x**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/ISprites.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/ISprites.ts#L23)
 
 number of the x offset of the Frame
 
@@ -46,6 +46,6 @@ number of the x offset of the Frame
 
 > **y**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/ISprites.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/ISprites.ts#L28)
 
 number of the y offset of the Frame

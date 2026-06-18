@@ -8,7 +8,7 @@
 
 > **GenerateBase64StringFromTextureAsync**(`texture`, `faceIndex?`, `level?`): `Promise`\<[`Nullable`](../type-aliases/Nullable.md)\<`string`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTools.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/copyTools.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTools.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/copyTools.ts#L97)
 
 Reads the pixels stored in the webgl texture and returns them as a base64 string
 

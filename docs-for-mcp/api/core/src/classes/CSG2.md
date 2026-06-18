@@ -6,7 +6,7 @@
 
 # Class: CSG2
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L106)
 
 Wrapper around the Manifold library
 https://manifoldcad.org/
@@ -30,7 +30,7 @@ Use this class to perform fast boolean operations on meshes
 
 > **get** **numProp**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L114)
 
 Return the size of a vertex (at least 3 for the position)
 
@@ -44,7 +44,7 @@ Return the size of a vertex (at least 3 for the position)
 
 > **add**(`csg`): `CSG2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:154](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L154)
 
 Run an union operation between two CSG
 
@@ -68,7 +68,7 @@ a new csg
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:282](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L282)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L283)
 
 Dispose the CSG resources
 
@@ -86,7 +86,7 @@ Dispose the CSG resources
 
 > **intersect**(`csg`): `CSG2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L145)
 
 Run an intersection operation between two CSG
 
@@ -110,7 +110,7 @@ a new csg
 
 > **printDebug**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:161](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L161)
 
 Print debug information about the CSG
 
@@ -124,7 +124,7 @@ Print debug information about the CSG
 
 > **subtract**(`csg`): `CSG2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L136)
 
 Run a difference operation between two CSG
 
@@ -148,7 +148,7 @@ a new csg
 
 > **toMesh**(`name`, `scene?`, `options?`): [`Mesh`](Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L217)
 
 Generate a mesh from the CSG
 
@@ -184,7 +184,7 @@ a new Mesh
 
 > **toVertexData**(`options?`): [`VertexData`](VertexData.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:171](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L171)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L172)
 
 Generate a vertex data from the CSG
 
@@ -208,7 +208,7 @@ a new vertex data
 
 > `static` **FromMesh**(`mesh`, `ignoreWorldMatrix?`): `CSG2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:417](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L417)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:425](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L425)
 
 Create a new Constructive Solid Geometry from a mesh
 
@@ -238,7 +238,7 @@ a new CSG2 class
 
 > `static` **FromVertexData**(`vertexData`): `CSG2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:400](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L400)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:408](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L408)
 
 Create a new Constructive Solid Geometry from a vertexData
 

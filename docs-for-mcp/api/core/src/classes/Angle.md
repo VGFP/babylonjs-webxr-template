@@ -6,7 +6,7 @@
 
 # Class: Angle
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L57)
 
 Defines angle representation
 
@@ -16,7 +16,7 @@ Defines angle representation
 
 > **new Angle**(`radians`): `Angle`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L64)
 
 Creates an Angle object of "radians" radians (float).
 
@@ -38,7 +38,7 @@ the angle in radians
 
 > **degrees**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L75)
 
 Get value in degrees
 
@@ -54,7 +54,7 @@ the Angle value in degrees (float)
 
 > **radians**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L83)
 
 Get value in radians
 
@@ -70,7 +70,7 @@ the Angle value in radians (float)
 
 > `static` **BetweenTwoPoints**(`a`, `b`): `Angle`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L93)
 
 Gets a new Angle object with a value of the angle (in radians) between the line connecting the two points and the x-axis
 
@@ -100,7 +100,7 @@ a new Angle
 
 > `static` **BetweenTwoVectors**\<`Vec`\>(`a`, `b`): `Angle`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L105)
 
 Gets the angle between the two vectors
 
@@ -136,7 +136,7 @@ Returns an new Angle between 0 and PI
 
 > `static` **FromDegrees**(`degrees`): `Angle`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L130)
 
 Gets a new Angle object from the given float in degrees
 
@@ -160,7 +160,7 @@ a new Angle
 
 > `static` **FromRadians**(`radians`): `Angle`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L122)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L122)
 
 Gets a new Angle object from the given float in radians
 

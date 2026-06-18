@@ -6,7 +6,7 @@
 
 # Interface: IUIEvent
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/deviceInputEvents.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/deviceInputEvents.ts#L19)
 
 Native friendly interface for Event Object
 
@@ -21,7 +21,7 @@ Native friendly interface for Event Object
 
 > `optional` **currentTarget?**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/deviceInputEvents.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/deviceInputEvents.ts#L28)
 
 Current target for an event
 
@@ -31,7 +31,7 @@ Current target for an event
 
 > **inputIndex**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/deviceInputEvents.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/deviceInputEvents.ts#L23)
 
 Input array index
 
@@ -41,7 +41,7 @@ Input array index
 
 > **preventDefault**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/deviceInputEvents.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/deviceInputEvents.ts#L49)
 
 Tells user agent what to do when not explicitly handled
 
@@ -55,7 +55,7 @@ Tells user agent what to do when not explicitly handled
 
 > `optional` **srcElement?**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/deviceInputEvents.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/deviceInputEvents.ts#L34)
 
 Alias for target
 
@@ -69,7 +69,7 @@ Use target instead
 
 > **target**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/deviceInputEvents.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/deviceInputEvents.ts#L44)
 
 Reference to object where object was dispatched
 
@@ -79,6 +79,6 @@ Reference to object where object was dispatched
 
 > **type**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/deviceInputEvents.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/deviceInputEvents.ts#L39)
 
 Type of event

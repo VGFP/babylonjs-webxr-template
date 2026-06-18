@@ -6,7 +6,7 @@
 
 # Class: UniformBuffer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L21)
 
 Uniform buffer objects.
 
@@ -23,7 +23,7 @@ https://www.khronos.org/opengl/wiki/Uniform_Buffer_Object
 
 > **new UniformBuffer**(`engine`, `data?`, `dynamic?`, `name?`, `forceNoUniformBuffer?`, `trackUBOsInFrame?`): `UniformBuffer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:241](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L241)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:241](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L241)
 
 Instantiates a new Uniform buffer objects.
 
@@ -85,7 +85,7 @@ https://www.khronos.org/opengl/wiki/Uniform_Buffer_Object
 
 > **updateArray**: (`name`, `array`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L104)
 
 Lambda to Update an array of number in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -111,7 +111,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateColor3**: (`name`, `color`, `suffix?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L153)
 
 Lambda to Update vec3 of float from a Color in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -141,7 +141,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateColor4**: (`name`, `color`, `alpha`, `suffix?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L160)
 
 Lambda to Update vec4 of float from a Color in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -175,7 +175,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateDirectColor4**: (`name`, `color`, `suffix?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:167](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L167)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L167)
 
 Lambda to Update vec4 of float from a Color in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -205,7 +205,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateFloat**: (`name`, `x`, `suffix?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L69)
 
 Lambda to Update a single float in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -235,7 +235,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateFloat2**: (`name`, `x`, `y`, `suffix?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L76)
 
 Lambda to Update a vec2 of float in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -269,7 +269,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateFloat3**: (`name`, `x`, `y`, `z`, `suffix?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L83)
 
 Lambda to Update a vec3 of float in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -307,7 +307,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateFloat4**: (`name`, `x`, `y`, `z`, `w`, `suffix?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L90)
 
 Lambda to Update a vec4 of float in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -349,7 +349,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateFloatArray**: (`name`, `array`, `suffix?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L97)
 
 Lambda to Update an array of float in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -379,7 +379,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateInt**: (`name`, `x`, `suffix?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:174](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L174)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L174)
 
 Lambda to Update a int a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -409,7 +409,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateInt2**: (`name`, `x`, `y`, `suffix?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:181](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L181)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:181](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L181)
 
 Lambda to Update a vec2 of int in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -443,7 +443,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateInt3**: (`name`, `x`, `y`, `z`, `suffix?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:188](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L188)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:188](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L188)
 
 Lambda to Update a vec3 of int in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -481,7 +481,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateInt4**: (`name`, `x`, `y`, `z`, `w`, `suffix?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L195)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L195)
 
 Lambda to Update a vec4 of int in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -523,7 +523,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateIntArray**: (`name`, `array`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L111)
 
 Lambda to Update an array of number in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -549,7 +549,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateMatrices**: (`name`, `mat`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L132)
 
 Lambda to Update an array of 4x4 Matrix in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -575,7 +575,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateMatrix**: (`name`, `mat`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L125)
 
 Lambda to Update a 4x4 Matrix in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -601,7 +601,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateMatrix2x2**: (`name`, `matrix`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L62)
 
 Lambda to Update a 2x2 Matrix in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -627,7 +627,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateMatrix3x3**: (`name`, `matrix`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L55)
 
 Lambda to Update a 3x3 Matrix in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -653,7 +653,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateUInt**: (`name`, `x`, `suffix?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:202](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L202)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:202](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L202)
 
 Lambda to Update a unsigned int a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -683,7 +683,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateUInt2**: (`name`, `x`, `y`, `suffix?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:209](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L209)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L209)
 
 Lambda to Update a vec2 of unsigned int in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -717,7 +717,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateUInt3**: (`name`, `x`, `y`, `z`, `suffix?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L216)
 
 Lambda to Update a vec3 of unsigned int in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -755,7 +755,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateUInt4**: (`name`, `x`, `y`, `z`, `w`, `suffix?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:223](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L223)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L223)
 
 Lambda to Update a vec4 of unsigned int in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -797,7 +797,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateUIntArray**: (`name`, `array`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L118)
 
 Lambda to Update an array of number in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -823,7 +823,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateVector3**: (`name`, `vector`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L139)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L139)
 
 Lambda to Update vec3 of float from a Vector in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -849,7 +849,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **updateVector4**: (`name`, `vector`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L146)
 
 Lambda to Update vec4 of float from a Vector in a uniform buffer.
 This is dynamic to allow compat with webgl 1 and 2.
@@ -877,7 +877,7 @@ You will need to pass the name of the uniform as well as the value.
 
 > **get** **currentEffect**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Effect`](Effect.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:642](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L642)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:642](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L642)
 
 Gets the current effect
 
@@ -893,7 +893,7 @@ Gets the current effect
 
 > **get** **isSync**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:334](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L334)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:334](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L334)
 
 Indicates if the WebGL underlying uniform buffer is in sync
 with the javascript cache data.
@@ -910,7 +910,7 @@ with the javascript cache data.
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:633](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L633)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:633](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L633)
 
 Gets or sets the name of this buffer
 
@@ -922,7 +922,7 @@ Gets or sets the name of this buffer
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:637](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L637)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:637](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L637)
 
 ##### Parameters
 
@@ -942,7 +942,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:6
 
 > **get** **useUbo**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:326](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L326)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:326](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L326)
 
 Indicates if the buffer is using the WebGL2 UBO implementation,
 or just falling back on setUniformXXX calls.
@@ -957,7 +957,7 @@ or just falling back on setUniformXXX calls.
 
 > **addColor3**(`name`, `color`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:516](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L516)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:516](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L516)
 
 Adds a vec3 to the uniform buffer.
 
@@ -985,7 +985,7 @@ Define the vec3 from a Color
 
 > **addColor4**(`name`, `color`, `alpha`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:527](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L527)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:527](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L527)
 
 Adds a vec4 to the uniform buffer.
 
@@ -1019,7 +1019,7 @@ Define the a component of the vec4
 
 > **addFloat2**(`name`, `x`, `y`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:494](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L494)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:494](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L494)
 
 Adds a vec2 to the uniform buffer.
 
@@ -1053,7 +1053,7 @@ Define the y component value of the vec2
 
 > **addFloat3**(`name`, `x`, `y`, `z`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:506](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L506)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:506](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L506)
 
 Adds a vec3 to the uniform buffer.
 
@@ -1093,7 +1093,7 @@ Define the z component value of the vec3
 
 > **addMatrix**(`name`, `mat`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:484](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L484)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:484](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L484)
 
 Adds a Matrix 4x4 to the uniform buffer.
 
@@ -1121,7 +1121,7 @@ A 4x4 matrix.
 
 > **addMatrix2x2**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:554](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L554)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:554](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L554)
 
 Adds a Matrix 2x2 to the uniform buffer.
 
@@ -1143,7 +1143,7 @@ Name of the uniform, as used in the uniform block in the shader.
 
 > **addMatrix3x3**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:546](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L546)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:546](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L546)
 
 Adds a Matrix 3x3 to the uniform buffer.
 
@@ -1165,7 +1165,7 @@ Name of the uniform, as used in the uniform block in the shader.
 
 > **addUniform**(`name`, `size`, `arraySize?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:410](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L410)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:410](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L410)
 
 Adds an uniform in the buffer.
 Warning : the subsequents calls of this function must be in the same order as declared in the shader
@@ -1202,7 +1202,7 @@ The number of elements in the array, 0 if not an array.
 
 > **addVector3**(`name`, `vector`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:537](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L537)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:537](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L537)
 
 Adds a vec3 to the uniform buffer.
 
@@ -1230,7 +1230,7 @@ Define the vec3 components from a Vector
 
 > **bindTexture**(`name`, `texture`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L1152)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L1152)
 
 Sets a sampler uniform on the effect.
 
@@ -1258,7 +1258,7 @@ Define the (internal) texture to set in the sampler
 
 > **bindToEffect**(`effect`, `name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L1172)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L1172)
 
 Associates an effect to this uniform buffer
 
@@ -1286,7 +1286,7 @@ Name of the uniform block in the shader.
 
 > **bindUniformBuffer**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L1180)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L1180)
 
 Binds the current (GPU) buffer to the effect
 
@@ -1300,7 +1300,7 @@ Binds the current (GPU) buffer to the effect
 
 > **create**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:561](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L561)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:561](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L561)
 
 Effectively creates the WebGL Uniform Buffer, once layout is completed with `addUniform`.
 
@@ -1314,7 +1314,7 @@ Effectively creates the WebGL Uniform Buffer, once layout is completed with `add
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L1239)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L1239)
 
 Disposes the uniform buffer.
 
@@ -1328,7 +1328,7 @@ Disposes the uniform buffer.
 
 > **getBuffer**(): [`Nullable`](../type-aliases/Nullable.md)\<[`DataBuffer`](DataBuffer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:360](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L360)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:360](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L360)
 
 The underlying WebGL Uniform buffer.
 
@@ -1344,7 +1344,7 @@ the webgl buffer
 
 > **getData**(): `Float32Array`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:352](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L352)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:352](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L352)
 
 The data cache on JS side.
 
@@ -1360,7 +1360,7 @@ the underlying data as a float array
 
 > **getUniformNames**(): `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:368](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L368)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:368](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L368)
 
 The names of the uniforms in the buffer.
 
@@ -1376,7 +1376,7 @@ an array of uniform names
 
 > **has**(`name`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1232](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L1232)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L1232)
 
 Checks if the uniform buffer has a uniform with the given name.
 
@@ -1400,7 +1400,7 @@ True if the uniform exists, false otherwise.
 
 > **isDynamic**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:344](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L344)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:344](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L344)
 
 Indicates if the WebGL underlying uniform buffer is dynamic.
 Also, a dynamic UniformBuffer will disable cache verification and always
@@ -1418,7 +1418,7 @@ if Dynamic, otherwise false
 
 > **setDataBuffer**(`dataBuffer`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L1200)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L1200)
 
 Sets the current state of the class (_bufferIndex, _buffer) to point to the data buffer passed in parameter if this buffer is one of the buffers handled by the class (meaning if it can be found in the _buffers array)
 This method is meant to be able to update a buffer at any time: just call setDataBuffer to set the class in the right state, call some updateXXX methods and then call udpate() => that will update the GPU buffer on the graphic card
@@ -1443,7 +1443,7 @@ true if the buffer has been found and the class internal state points to it, els
 
 > **setTexture**(`name`, `texture`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L1135)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L1135)
 
 Sets a sampler uniform on the effect.
 
@@ -1471,7 +1471,7 @@ Define the texture to set in the sampler
 
 > **setTextureArray**(`name`, `textures`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L1144)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L1144)
 
 Sets an array of sampler uniforms on the effect.
 
@@ -1499,7 +1499,7 @@ Define the textures to set in the array of samplers
 
 > **unbindEffect**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1189](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L1189)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L1189)
 
 Dissociates the current effect from this uniform buffer
 
@@ -1513,7 +1513,7 @@ Dissociates the current effect from this uniform buffer
 
 > **update**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:666](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L666)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:666](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L666)
 
 Updates the WebGL Uniform Buffer on the GPU.
 If the `dynamic` flag is set to true, no cache comparison is done.
@@ -1529,7 +1529,7 @@ Otherwise, the buffer will be updated only if the cache differs.
 
 > **updateUniform**(`uniformName`, `data`, `size`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:736](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L736)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:736](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L736)
 
 Updates the value of an uniform. The `update` method must be called afterwards to make it effective in the GPU.
 
@@ -1563,7 +1563,7 @@ Define the size of the data.
 
 > **updateUniformArray**(`uniformName`, `data`, `size`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:785](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L785)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:785](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L785)
 
 Updates the value of an uniform. The `update` method must be called afterwards to make it effective in the GPU.
 
@@ -1597,7 +1597,7 @@ Define the size of the data.
 
 > **updateUniformDirectly**(`uniformName`, `data`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1161](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/uniformBuffer.ts#L1161)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/uniformBuffer.ts:1161](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/uniformBuffer.ts#L1161)
 
 Directly updates the value of the uniform in the cache AND on the GPU.
 

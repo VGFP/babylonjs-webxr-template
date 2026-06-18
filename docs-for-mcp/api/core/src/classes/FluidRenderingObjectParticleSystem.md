@@ -6,7 +6,7 @@
 
 # Class: FluidRenderingObjectParticleSystem
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L16)
 
 Defines a rendering object based on a particle system
 
@@ -20,7 +20,7 @@ Defines a rendering object based on a particle system
 
 > **new FluidRenderingObjectParticleSystem**(`scene`, `ps`, `shaderLanguage?`): `FluidRenderingObjectParticleSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L85)
 
 Creates a new instance of the class
 
@@ -58,7 +58,7 @@ The shader language to use
 
 > **onParticleSizeChanged**: [`Observable`](Observable.md)\<[`FluidRenderingObject`](FluidRenderingObject.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L28)
 
 Observable triggered when the size of the particle is changed
 
@@ -72,7 +72,7 @@ Observable triggered when the size of the particle is changed
 
 > **particleThicknessAlpha**: `number` = `0.05`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L45)
 
 Defines the alpha value of a particle
 
@@ -86,7 +86,7 @@ Defines the alpha value of a particle
 
 > **priority**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L23)
 
 Defines the priority of the object. Objects will be rendered in ascending order of priority
 
@@ -102,7 +102,7 @@ Defines the priority of the object. Objects will be rendered in ascending order 
 
 > **get** **indexBuffer**(): [`Nullable`](../type-aliases/Nullable.md)\<[`DataBuffer`](DataBuffer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L75)
 
 Gets the index buffer (or null if the object is using instancing)
 
@@ -122,7 +122,7 @@ Gets the index buffer (or null if the object is using instancing)
 
 > **get** **numParticles**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L114)
 
 Gets the number of particles in this particle system
 
@@ -144,7 +144,7 @@ The number of particles
 
 > **get** **particleSize**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L31)
 
 Gets or sets the size of the particle
 
@@ -156,7 +156,7 @@ Gets or sets the size of the particle
 
 > **set** **particleSize**(`size`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L35)
 
 ##### Parameters
 
@@ -180,7 +180,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **particleSystem**(): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L24)
 
 Gets the particle system
 
@@ -196,7 +196,7 @@ Gets the particle system
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L97)
 
 Gets the shader language used in this object
 
@@ -216,7 +216,7 @@ Gets the shader language used in this object
 
 > **get** **useInstancing**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L48)
 
 Indicates if the object uses instancing or not
 
@@ -236,7 +236,7 @@ Indicates if the object uses instancing or not
 
 > **get** **useTrueRenderingForDiffuseTexture**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L42)
 
 Gets or sets a boolean indicating that the diffuse texture should be generated based on the regular rendering of the particle system (default: true).
 Sometimes, generating the diffuse texture this way may be sub-optimal. In that case, you can disable this property, in which case the particle system will be
@@ -250,7 +250,7 @@ rendered using a ALPHA_COMBINE mode instead of the one used by the particle syst
 
 > **set** **useTrueRenderingForDiffuseTexture**(`use`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L46)
 
 ##### Parameters
 
@@ -270,7 +270,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **useVelocity**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L55)
 
 Indicates if velocity of particles should be used when rendering the object. The vertex buffer set must contain a "velocity" buffer for this to work!
 
@@ -282,7 +282,7 @@ Indicates if velocity of particles should be used when rendering the object. The
 
 > **set** **useVelocity**(`use`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L59)
 
 ##### Parameters
 
@@ -306,7 +306,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **vertexBuffers**(): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L68)
 
 Gets the vertex buffers
 
@@ -324,7 +324,7 @@ Gets the vertex buffers
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L128)
 
 Releases the resources used by the class
 
@@ -342,7 +342,7 @@ Releases the resources used by the class
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L31)
 
 #### Returns
 
@@ -360,7 +360,7 @@ the name of the class
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L106)
 
 Indicates if the object is ready to be rendered
 
@@ -380,7 +380,7 @@ True if everything is ready for the object to be rendered, otherwise false
 
 > **renderDepthTexture**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:199](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L199)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:199](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L199)
 
 Render the depth texture for this object
 
@@ -398,7 +398,7 @@ Render the depth texture for this object
 
 > **renderDiffuseTexture**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObjectParticleSystem.ts#L121)
 
 Render the diffuse texture for this object
 
@@ -416,7 +416,7 @@ Render the diffuse texture for this object
 
 > **renderThicknessTexture**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:227](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L227)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingObject.ts#L227)
 
 Render the thickness texture for this object
 

@@ -6,7 +6,7 @@
 
 # Class: BoundingBoxRenderer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L41)
 
 Component responsible of rendering the bounding box of the meshes in a scene.
 This is usually used through the mesh.showBoundingBox or the scene.forceShowBoundingBoxes properties
@@ -21,7 +21,7 @@ This is usually used through the mesh.showBoundingBox or the scene.forceShowBoun
 
 > **new BoundingBoxRenderer**(`scene`): `BoundingBoxRenderer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:207](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L207)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L137)
 
 Instantiates a new bounding box renderer in a scene.
 
@@ -43,7 +43,7 @@ the scene the  renderer renders in
 
 > **backColor**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L59)
 
 Color of the bounding box lines placed behind an object
 
@@ -53,7 +53,7 @@ Color of the bounding box lines placed behind an object
 
 > **enabled**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:161](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L161)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L91)
 
 When false, no bounding boxes will be rendered
 
@@ -63,7 +63,7 @@ When false, no bounding boxes will be rendered
 
 > **frontColor**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L55)
 
 Color of the bounding box lines placed in front of an object
 
@@ -73,7 +73,7 @@ Color of the bounding box lines placed in front of an object
 
 > `readonly` **name**: `"BoundingBoxRenderer"` = `SceneComponentConstants.NAME_BOUNDINGBOXRENDERER`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L45)
 
 The component name helpful to identify the component in the list of scene components.
 
@@ -87,7 +87,7 @@ The component name helpful to identify the component in the list of scene compon
 
 > **onAfterBoxRenderingObservable**: [`Observable`](Observable.md)\<[`BoundingBox`](BoundingBox.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L81)
 
 Observable raised after rendering a bounding box
 When [BoundingBoxRenderer.useInstances](#useinstances) enabled,
@@ -101,7 +101,7 @@ the passed bounding box has no meaning and should be ignored.
 
 > **onBeforeBoxRenderingObservable**: [`Observable`](Observable.md)\<[`BoundingBox`](BoundingBox.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L142)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L72)
 
 Observable raised before rendering a bounding box
 When [BoundingBoxRenderer.useInstances](#useinstances) enabled,
@@ -115,7 +115,7 @@ the passed bounding box has no meaning and should be ignored.
 
 > **onResourcesReadyObservable**: [`Observable`](Observable.md)\<`BoundingBoxRenderer`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:156](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L156)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L86)
 
 Observable raised after resources are created
 
@@ -125,7 +125,7 @@ Observable raised after resources are created
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L50)
 
 The scene the component belongs to.
 
@@ -139,7 +139,7 @@ The scene the component belongs to.
 
 > **showBackLines**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L63)
 
 Defines if the renderer should show the back lines or not
 
@@ -151,7 +151,7 @@ Defines if the renderer should show the back lines or not
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:169](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L169)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L99)
 
 Gets the shader language used in this renderer.
 
@@ -167,7 +167,7 @@ Gets the shader language used in this renderer.
 
 > **get** **useInstances**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:603](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L603)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:533](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L533)
 
 ##### Returns
 
@@ -177,7 +177,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRendere
 
 > **set** **useInstances**(`val`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:593](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L593)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:523](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L523)
 
 Sets whether to use instanced rendering.
 When not enabled, BoundingBoxRenderer renders in a loop,
@@ -214,7 +214,7 @@ whether to use instanced rendering
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:802](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L802)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:732](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L732)
 
 Dispose and release the resources attached to this renderer.
 
@@ -232,7 +232,7 @@ Dispose and release the resources attached to this renderer.
 
 > **rebuild**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:375](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L375)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:305](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L305)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -251,7 +251,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:233](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L233)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L163)
 
 Registers the component in a given scene
 
@@ -269,7 +269,7 @@ Registers the component in a given scene
 
 > **render**(`renderingGroupId`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:398](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L398)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:328](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L328)
 
 Render the bounding boxes of a specific rendering group
 
@@ -291,7 +291,7 @@ defines the rendering group to render
 
 > **renderOcclusionBoundingBox**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:506](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L506)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:436](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L436)
 
 In case of occlusion queries, we can render the occlusion bounding box through this method
 
@@ -313,7 +313,7 @@ Define the mesh to render the occlusion bounding box for
 
 > **whenReadyAsync**(`timeStep?`, `maxTimeout?`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.ts:249](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/boundingBoxRenderer.ts#L249)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/boundingBoxRenderer.pure.ts#L179)
 
 Checks if the renderer is ready asynchronously.
 

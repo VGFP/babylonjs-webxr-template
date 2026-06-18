@@ -8,7 +8,7 @@
 
 > **GetFloatData**(`data`, `size`, `type`, `byteOffset`, `byteStride`, `normalized`, `totalVertices`, `forceCopy?`): [`FloatArray`](../type-aliases/FloatArray.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/bufferUtils.ts:226](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Buffers/bufferUtils.ts#L226)
+Defined in: [babylonjs-source/packages/dev/core/src/Buffers/bufferUtils.ts:237](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/bufferUtils.ts#L237)
 
 Gets the given data array as a float array. Float data is constructed if the data array cannot be returned directly.
 

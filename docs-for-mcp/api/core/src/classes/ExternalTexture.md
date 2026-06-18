@@ -6,7 +6,7 @@
 
 # Class: ExternalTexture
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:7](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/externalTexture.ts#L7)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:7](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/externalTexture.ts#L7)
 
 Class used to store an external texture (like GPUExternalTexture in WebGPU)
 
@@ -16,7 +16,7 @@ Class used to store an external texture (like GPUExternalTexture in WebGPU)
 
 > **new ExternalTexture**(`video`): `ExternalTexture`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/externalTexture.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/externalTexture.ts#L58)
 
 Constructs the texture
 
@@ -38,7 +38,7 @@ The video the texture should be wrapped around
 
 > `readonly` **format**: `4294967295` = `Constants.TEXTUREFORMAT_UNDEFINED`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/externalTexture.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/externalTexture.ts#L47)
 
 The format of the underlying texture is implementation dependent, so return "UNDEFINED" for the format
 
@@ -48,7 +48,7 @@ The format of the underlying texture is implementation dependent, so return "UND
 
 > `readonly` **type**: `16` = `Constants.TEXTURETYPE_UNDEFINED`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/externalTexture.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/externalTexture.ts#L42)
 
 The type of the underlying texture is implementation dependent, so return "UNDEFINED" for the type
 
@@ -58,7 +58,7 @@ The type of the underlying texture is implementation dependent, so return "UNDEF
 
 > `readonly` **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/externalTexture.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/externalTexture.ts#L52)
 
 Gets the unique id of this texture
 
@@ -68,7 +68,7 @@ Gets the unique id of this texture
 
 > **useMipMaps**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/externalTexture.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/externalTexture.ts#L37)
 
 Gets a boolean indicating if the texture uses mipmaps
 
@@ -80,7 +80,7 @@ Gets a boolean indicating if the texture uses mipmaps
 
 > **get** **underlyingResource**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/externalTexture.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/externalTexture.ts#L30)
 
 Gets the underlying texture object
 
@@ -94,7 +94,7 @@ Gets the underlying texture object
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/externalTexture.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/externalTexture.ts#L74)
 
 Dispose the texture and release its associated resources.
 
@@ -108,7 +108,7 @@ Dispose the texture and release its associated resources.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/externalTexture.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/externalTexture.ts#L23)
 
 Get the class name of the texture.
 
@@ -124,7 +124,7 @@ Get the class name of the texture.
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/externalTexture.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/externalTexture.ts#L67)
 
 Get if the texture is ready to be used (downloaded, converted, mip mapped...).
 
@@ -140,7 +140,7 @@ true if fully ready
 
 > `static` **IsExternalTexture**(`texture`): `texture is ExternalTexture`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/externalTexture.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/externalTexture.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/externalTexture.ts#L13)
 
 Checks if a texture is an external or internal texture
 

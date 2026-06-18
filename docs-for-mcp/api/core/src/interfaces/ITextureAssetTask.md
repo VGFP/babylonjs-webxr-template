@@ -6,7 +6,7 @@
 
 # Interface: ITextureAssetTask\<Tex\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:709](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L709)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:709](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L709)
 
 Defines the interface used by texture loading tasks
 
@@ -22,6 +22,6 @@ Defines the interface used by texture loading tasks
 
 > **texture**: `Tex`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:713](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L713)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:713](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L713)
 
 Gets the loaded texture

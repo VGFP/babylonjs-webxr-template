@@ -6,7 +6,7 @@
 
 # Class: RenderingGroupInfo
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L35)
 
 This class is used by the onRenderingGroupObservable
 
@@ -26,7 +26,7 @@ This class is used by the onRenderingGroupObservable
 
 > **camera**: [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L44)
 
 The camera currently used for the rendering pass
 
@@ -36,7 +36,7 @@ The camera currently used for the rendering pass
 
 > **renderingGroupId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L49)
 
 The ID of the renderingGroup being processed
 
@@ -46,7 +46,7 @@ The ID of the renderingGroup being processed
 
 > **renderingManager**: [`RenderingManager`](RenderingManager.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L54)
 
 The rendering manager
 
@@ -56,6 +56,6 @@ The rendering manager
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/renderingManager.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/renderingManager.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/renderingManager.ts#L39)
 
 The Scene that being rendered

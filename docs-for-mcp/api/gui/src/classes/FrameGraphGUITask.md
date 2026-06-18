@@ -6,7 +6,7 @@
 
 # Class: FrameGraphGUITask
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L8)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L8)
 
 Task that renders a GUI texture.
 
@@ -20,7 +20,7 @@ Task that renders a GUI texture.
 
 > **new FrameGraphGUITask**(`name`, `frameGraph`, `adt?`): `FrameGraphGUITask`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L44)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L44)
 
 Constructs a new GUI task.
 
@@ -58,7 +58,7 @@ The GUI texture. If not provided, a new fullscreen GUI will be created.
 
 > `optional` **dependencies?**: `Set`\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
 
 The (texture) dependencies of the task (optional).
 
@@ -72,7 +72,7 @@ The (texture) dependencies of the task (optional).
 
 > **onAfterTaskExecute**: [`Observable`](../../../core/src/classes/Observable.md)\<[`FrameGraphTask`](../../../core/src/classes/FrameGraphTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
 
 An observable that is triggered after the task is executed.
 
@@ -86,7 +86,7 @@ An observable that is triggered after the task is executed.
 
 > **onBeforeTaskExecute**: [`Observable`](../../../core/src/classes/Observable.md)\<[`FrameGraphTask`](../../../core/src/classes/FrameGraphTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
 
 An observable that is triggered before the task is executed.
 
@@ -100,7 +100,7 @@ An observable that is triggered before the task is executed.
 
 > **onTexturesAllocatedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`FrameGraphRenderContext`](../../../core/src/classes/FrameGraphRenderContext.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
 
 An observable that is triggered after the textures have been allocated.
 
@@ -114,7 +114,7 @@ An observable that is triggered after the textures have been allocated.
 
 > `readonly` **outputTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L18)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L18)
 
 The output texture of the task.
 This is the same texture as the target texture, but the handles are different!
@@ -125,7 +125,7 @@ This is the same texture as the target texture, but the handles are different!
 
 > **targetTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L12)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L12)
 
 The target texture to render the GUI to.
 
@@ -137,7 +137,7 @@ The target texture to render the GUI to.
 
 > **get** **disabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L20)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L20)
 
 Whether the task is disabled.
 
@@ -149,7 +149,7 @@ Whether the task is disabled.
 
 > **set** **disabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L24)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L24)
 
 Whether the task is disabled.
 
@@ -175,7 +175,7 @@ Whether the task is disabled.
 
 > **get** **gui**(): [`AdvancedDynamicTexture`](AdvancedDynamicTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L32)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L32)
 
 Gets the underlying advanced dynamic texture.
 
@@ -191,7 +191,7 @@ Gets the underlying advanced dynamic texture.
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L30)
 
 The name of the task.
 
@@ -203,7 +203,7 @@ The name of the task.
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L34)
 
 ##### Parameters
 
@@ -227,7 +227,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts
 
 > **get** **passes**(): [`IFrameGraphPass`](../../../core/src/interfaces/IFrameGraphPass.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
 
 Gets the passes of the task.
 
@@ -247,7 +247,7 @@ Gets the passes of the task.
 
 > **get** **passesDisabled**(): [`IFrameGraphPass`](../../../core/src/interfaces/IFrameGraphPass.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
 
 Gets the disabled passes of the task.
 
@@ -265,7 +265,7 @@ Gets the disabled passes of the task.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L88)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L88)
 
 Disposes of the task.
 
@@ -283,7 +283,7 @@ Disposes of the task.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L63)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L63)
 
 Gets the current class name
 
@@ -303,7 +303,7 @@ the class name
 
 > **initAsync**(): `Promise`\<`unknown`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L90)
 
 This function is called once after the task has been added to the frame graph and before the frame graph is built for the first time.
 This allows you to initialize asynchronous resources, which is not possible in the constructor.
@@ -324,7 +324,7 @@ A promise that resolves when the initialization is complete.
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L59)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L59)
 
 Checks if the task is ready to be executed.
 
@@ -344,7 +344,7 @@ True if the task is ready to be executed, else false.
 
 > **record**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L67)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/FrameGraph/guiTask.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/FrameGraph/guiTask.ts#L67)
 
 Records the task in the frame graph. Use this function to add content (render passes, ...) to the task.
 

@@ -6,7 +6,7 @@
 
 # Class: ValidatedNativeDataStream
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts#L14)
 
 Validated Native Data Stream
 
@@ -16,7 +16,7 @@ Validated Native Data Stream
 
 > **new ValidatedNativeDataStream**(): `ValidatedNativeDataStream`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts#L15)
 
 #### Returns
 
@@ -32,7 +32,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNati
 
 > **writeBoolean**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts#L54)
 
 Writes a boolean to the stream
 
@@ -58,7 +58,7 @@ the value to write
 
 > **writeFloat32**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts#L29)
 
 Writes a float32 to the stream
 
@@ -84,7 +84,7 @@ the value to write
 
 > **writeFloat32Array**(`values`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts#L44)
 
 Writes a float32 array to the stream
 
@@ -110,7 +110,7 @@ the values to write
 
 > **writeInt32**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts#L24)
 
 Writes an int32 to the stream
 
@@ -136,7 +136,7 @@ the value to write
 
 > **writeInt32Array**(`values`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts#L39)
 
 Writes an int32 array to the stream
 
@@ -162,7 +162,7 @@ the values to write
 
 > **writeNativeData**(`handle`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts#L49)
 
 Writes native data to the stream
 
@@ -188,7 +188,7 @@ the handle to the native data
 
 > **writeUint32**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts#L19)
 
 Writes a uint32 to the stream
 
@@ -214,7 +214,7 @@ the value to write
 
 > **writeUint32Array**(`values`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Native/validatedNativeDataStream.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Native/validatedNativeDataStream.pure.ts#L34)
 
 Writes a uint32 array to the stream
 

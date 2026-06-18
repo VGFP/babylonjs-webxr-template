@@ -6,7 +6,7 @@
 
 # Class: WebXRHand
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:294](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L294)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:295](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L295)
 
 Representing a single hand (with its corresponding native XRHand object)
 
@@ -20,7 +20,7 @@ Representing a single hand (with its corresponding native XRHand object)
 
 > **new WebXRHand**(`xrController`, `_jointMeshes`, `_handMesh`, `rigMapping`, `_leftHandedMeshes?`, `_jointsInvisible?`, `_jointScaleFactor?`): `WebXRHand`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:364](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L364)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:365](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L365)
 
 Construct a new hand object
 
@@ -81,7 +81,7 @@ Scale factor for all joint meshes
 
 > **onHandMeshSetObservable**: [`Observable`](Observable.md)\<`WebXRHand`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:299](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L299)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:300](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L300)
 
 This observable will notify registered observers when the hand object has been set with a new mesh.
 you can get the hand mesh using `webxrHand.handMesh`
@@ -92,7 +92,7 @@ you can get the hand mesh using `webxrHand.handMesh`
 
 > `readonly` **rigMapping**: [`Nullable`](../type-aliases/Nullable.md)\<[`XRHandMeshRigMapping`](../type-aliases/XRHandMeshRigMapping.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:371](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L371)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:372](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L372)
 
 An optional rig mapping for the hand mesh. If not provided (but a hand mesh is provided),
 it will be assumed that the hand mesh's bones are named directly after the WebXR bone names.
@@ -103,7 +103,7 @@ it will be assumed that the hand mesh's bones are named directly after the WebXR
 
 > `readonly` **xrController**: [`WebXRInputSource`](WebXRInputSource.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:366](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L366)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:367](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L367)
 
 The controller to which the hand correlates.
 
@@ -115,7 +115,7 @@ The controller to which the hand correlates.
 
 > **get** **handMesh**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:329](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L329)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:330](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L330)
 
 Get the hand mesh.
 
@@ -129,7 +129,7 @@ Get the hand mesh.
 
 > **dispose**(`disposeMeshes?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:535](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L535)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:536](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L536)
 
 Dispose this Hand object
 
@@ -155,7 +155,7 @@ Should the meshes be disposed as well
 
 > **getHandPartMeshes**(`part`): [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:338](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L338)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:339](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L339)
 
 Get meshes of part of the hand.
 
@@ -179,7 +179,7 @@ An array of meshes that correlate to the hand part requested.
 
 > **getJointMesh**(`jointName`): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:347](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L347)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:348](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L348)
 
 Retrieves a mesh linked to a named joint in the hand.
 
@@ -203,7 +203,7 @@ An AbstractMesh whose position corresponds with the joint position.
 
 > **setHandMesh**(`handMesh`, `rigMapping`, `_xrSessionManager?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:413](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L413)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:414](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L414)
 
 Sets the current hand mesh to render for the WebXRHand.
 
@@ -237,7 +237,7 @@ The XRSessionManager used to initialize the hand mesh.
 
 > **updateFromXRFrame**(`xrFrame`, `referenceSpace`, `xrCamera`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:449](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L449)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:450](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L450)
 
 Update this hand from the latest xr frame.
 

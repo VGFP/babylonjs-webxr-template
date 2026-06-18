@@ -6,7 +6,7 @@
 
 # Interface: IBehaviorAware\<T\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/behavior.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/behavior.ts#L33)
 
 Interface implemented by classes supporting behaviors
 
@@ -22,7 +22,7 @@ Interface implemented by classes supporting behaviors
 
 > **addBehavior**(`behavior`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/behavior.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/behavior.ts#L39)
 
 Attach a behavior
 
@@ -46,7 +46,7 @@ the current host
 
 > **getBehaviorByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Behavior`](Behavior.md)\<`T`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/behavior.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/behavior.ts#L51)
 
 Gets a behavior using its name to search
 
@@ -70,7 +70,7 @@ the behavior or null if not found
 
 > **removeBehavior**(`behavior`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/behavior.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/behavior.ts#L45)
 
 Remove a behavior from the current object
 

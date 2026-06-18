@@ -8,7 +8,7 @@
 
 > **RemoveSmartAssetAsync**(`scene`, `key`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetManager.ts:180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/SmartAssets/smartAssetManager.ts#L180)
+Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetManager.pure.ts:194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/SmartAssets/smartAssetManager.pure.ts#L194)
 
 Removes a key from the registry. If the asset is loaded, it is unloaded first.
 

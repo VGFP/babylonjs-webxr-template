@@ -8,7 +8,7 @@
 
 > **PrepareDefinesForCamera**(`scene`, `defines`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.functions.ts:1349](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialHelper.functions.ts#L1349)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.functions.ts:1410](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.functions.ts#L1410)
 
 Helper used to prepare the defines relative to the active camera
 

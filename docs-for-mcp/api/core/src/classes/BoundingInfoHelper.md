@@ -6,7 +6,7 @@
 
 # Class: BoundingInfoHelper
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts#L15)
 
 Utility class to help with bounding info management
 Warning: using the BoundingInfoHelper class may be slower than executing calculations on the CPU!
@@ -21,7 +21,7 @@ The BoundingInfoHelper will perform better if there are few meshes / a lot of ve
 
 > **new BoundingInfoHelper**(`engine`): `BoundingInfoHelper`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts#L23)
 
 Creates a new BoundingInfoHelper
 
@@ -43,7 +43,7 @@ defines the engine to use
 
 > **batchFetchResultsAsync**(): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts#L78)
 
 Update the bounding info of the meshes registered with batchRegisterAsync, after batchProcess has been called once or several times
 
@@ -59,7 +59,7 @@ a promise that resolves when the bounding info is/are computed
 
 > **batchInitializeAsync**(`target`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts#L57)
 
 Register a mesh / array of meshes to be processed per batch
 This method must be called before calling batchProcess (which can be called several times) and batchFetchResultsAsync
@@ -84,7 +84,7 @@ a promise that resolves when the initialization is done
 
 > **batchProcess**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts#L66)
 
 Processes meshes registered with batchRegisterAsync
 If called multiple times, the second, third, etc calls will perform a union of the bounding boxes calculated in the previous calls
@@ -99,7 +99,7 @@ If called multiple times, the second, third, etc calls will perform a union of t
 
 > **computeAsync**(`target`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts#L46)
 
 Compute the bounding info of a mesh / array of meshes using shaders
 
@@ -123,7 +123,7 @@ a promise that resolves when the bounding info is/are computed
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Helper/boundingInfoHelper.ts#L86)
 
 Dispose and release associated resources
 

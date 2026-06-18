@@ -6,7 +6,7 @@
 
 # Interface: INodeRenderGraphCustomBlockDescription
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts#L17)
 
 Description of a custom block to be used in the node render graph editor
 
@@ -16,7 +16,7 @@ Description of a custom block to be used in the node render graph editor
 
 > **description**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts#L21)
 
 Description (tooltip) of the block.
 
@@ -26,7 +26,7 @@ Description (tooltip) of the block.
 
 > **factory**: (`frameGraph`, `scene`) => [`NodeRenderGraphBlock`](../classes/NodeRenderGraphBlock.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts#L25)
 
 Factory function to create the block.
 
@@ -50,7 +50,7 @@ Factory function to create the block.
 
 > **menu**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts#L23)
 
 Category of the block. Spaces must be replaced by underscores in the category name.
 
@@ -60,6 +60,6 @@ Category of the block. Spaces must be replaced by underscores in the category na
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts#L19)
 
 Block name. It will be used as the block name in the left menu of the editor. Spaces must be replaced by underscores in the name.

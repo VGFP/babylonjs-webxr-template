@@ -6,7 +6,7 @@
 
 # Class: Plane
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L8)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L8)
 
 Represents a plane by the equation ax + by + cz + d = 0
 
@@ -16,7 +16,7 @@ Represents a plane by the equation ax + by + cz + d = 0
 
 > **new Plane**(`a`, `b`, `c`, `d`): `Plane`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L26)
 
 Creates a Plane object according to the given floats a, b, c, d and the plane equation : ax + by + cz + d = 0
 
@@ -56,7 +56,7 @@ d component of the plane
 
 > **d**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L18)
 
 d component of the plane
 
@@ -70,7 +70,7 @@ d component of the plane
 
 > **normal**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L14)
 
 Normal of the plane (a,b,c)
 
@@ -84,7 +84,7 @@ Normal of the plane (a,b,c)
 
 > **asArray**(): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L34)
 
 #### Returns
 
@@ -98,7 +98,7 @@ the plane coordinates as a new array of 4 elements [a, b, c, d].
 
 > **clone**(): `Plane`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L42)
 
 #### Returns
 
@@ -112,7 +112,7 @@ a new plane copied from the current Plane.
 
 > **copyFromPoints**(`point1`, `point2`, `point3`): `Plane`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L114)
 
 Updates the current Plane from the plane defined by the three given points.
 
@@ -148,7 +148,7 @@ the updated Plane.
 
 > **dotCoordinate**(`point`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L103)
 
 Compute the dot product between the point and the plane normal
 
@@ -172,7 +172,7 @@ the dot product (float) of the point coordinates and the plane normal.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L48)
 
 #### Returns
 
@@ -186,7 +186,7 @@ the string "Plane".
 
 > **getHashCode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L54)
 
 #### Returns
 
@@ -200,7 +200,7 @@ the Plane hash code.
 
 > **isFrontFacingTo**(`direction`, `epsilon`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L150)
 
 Checks if the plane is facing a given direction (meaning if the plane's normal is pointing in the opposite direction of the given vector).
 Note that for this function to work as expected you should make sure that:
@@ -233,7 +233,7 @@ True if the plane is facing the given direction
 
 > **normalize**(): `Plane`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L63)
 
 Normalize the current Plane in place.
 
@@ -253,7 +253,7 @@ the updated Plane.
 
 > **signedDistanceTo**(`point`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L160)
 
 Calculates the distance to a point
 
@@ -277,7 +277,7 @@ the signed distance (float) from the given point to the Plane.
 
 > **transform**(`transformation`): `Plane`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L81)
 
 Applies a transformation the plane and returns the result
 
@@ -301,7 +301,7 @@ a new Plane as the result of the transformation of the current Plane by the give
 
 > `static` **FromArray**(`array`): `Plane`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L170)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L170)
 
 Creates a plane from an  array
 
@@ -325,7 +325,7 @@ a new Plane from the given array.
 
 > `static` **FromPoints**(`point1`, `point2`, `point3`): `Plane`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L180)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L180)
 
 Creates a plane from three points
 
@@ -361,7 +361,7 @@ a new Plane defined by the three given points.
 
 > `static` **FromPositionAndNormal**(`origin`, `normal`): `Plane`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L191)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:191](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L191)
 
 Creates a plane from an origin point and a normal
 
@@ -391,7 +391,7 @@ a new Plane the normal vector to this plane at the given origin point.
 
 > `static` **FromPositionAndNormalToRef**\<`T`\>(`origin`, `normal`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:203](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L203)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:203](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L203)
 
 Updates the given Plane "result" from an origin point and a normal.
 
@@ -433,7 +433,7 @@ result input
 
 > `static` **SignedDistanceToPlaneFromPositionAndNormal**(`origin`, `normal`, `point`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:217](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.plane.ts#L217)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.plane.ts:217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.plane.ts#L217)
 
 Calculates the distance from a plane and a point
 

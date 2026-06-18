@@ -8,7 +8,7 @@
 
 > **\_GetCompatibleTextureLoader**(`extension`, `mimeType?`): [`Nullable`](../type-aliases/Nullable.md)\<`Promise`\<[`IInternalTextureLoader`](../interfaces/IInternalTextureLoader.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Loaders/textureLoaderManager.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Loaders/textureLoaderManager.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Loaders/textureLoaderManager.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Loaders/textureLoaderManager.ts#L38)
 
 Function used to get the correct texture loader for a specific extension.
 

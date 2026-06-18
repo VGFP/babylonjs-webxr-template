@@ -6,7 +6,7 @@
 
 # Class: FilesInput
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/filesInput.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/filesInput.ts#L12)
 
 Class used to help managing file picking and drag-n-drop
 
@@ -16,7 +16,7 @@ Class used to help managing file picking and drag-n-drop
 
 > **new FilesInput**(`engine`, `scene`, `sceneLoadedCallback`, `progressCallback`, `additionalRenderLoopLogicCallback`, `textureLoadingCallback`, `startingProcessingFilesCallback`, `onReloadCallback`, `errorCallback`, `useAppend?`, `dontInjectRenderLoop?`): `FilesInput`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/filesInput.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/filesInput.ts#L72)
 
 Creates a new FilesInput
 
@@ -98,7 +98,7 @@ defines if the render loop mustn't be injected into engine (default is false). U
 
 > **displayLoadingUI**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/filesInput.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/filesInput.ts#L31)
 
 If a loading UI should be displayed while loading a file
 
@@ -108,7 +108,7 @@ If a loading UI should be displayed while loading a file
 
 > `readonly` **dontInjectRenderLoop**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/filesInput.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/filesInput.ts#L83)
 
 defines if the render loop mustn't be injected into engine (default is false). Used only if useAppend is false.
 
@@ -118,7 +118,7 @@ defines if the render loop mustn't be injected into engine (default is false). U
 
 > **loadAsync**: (`sceneFile`, `onProgress`) => `Promise`\<[`Scene`](Scene.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/filesInput.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/filesInput.ts#L39)
 
 Function used when loading the scene file
 
@@ -148,7 +148,7 @@ a promise completing when the load is complete
 
 > **onProcessFileCallback**: (`file`, `name`, `extension`, `setSceneFileToLoad`) => `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/filesInput.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/filesInput.ts#L24)
 
 Callback called when a file is processed
 
@@ -182,7 +182,7 @@ false to abort the process
 
 > `readonly` **useAppend**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/filesInput.ts#L82)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/filesInput.ts#L82)
 
 defines if the file loaded must be appended (true) or have the scene replaced (false, default behavior)
 
@@ -194,7 +194,7 @@ defines if the file loaded must be appended (true) or have the scene replaced (f
 
 > **get** **filesToLoad**(): `File`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/filesInput.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/filesInput.ts#L128)
 
 Gets the current list of files to load
 
@@ -210,7 +210,7 @@ Gets the current list of files to load
 
 > **get** `static` **FilesToLoad**(): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/filesInput.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/filesInput.ts#L16)
 
 List of files ready to be loaded
 
@@ -224,7 +224,7 @@ List of files ready to be loaded
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/filesInput.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/filesInput.ts#L135)
 
 Release all associated resources
 
@@ -238,7 +238,7 @@ Release all associated resources
 
 > **loadFiles**(`event`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:221](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/filesInput.ts#L221)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/filesInput.ts#L221)
 
 Load files from a drop event
 
@@ -260,7 +260,7 @@ defines the drop event to use as source
 
 > **monitorElementForDragNDrop**(`elementToMonitor`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/filesInput.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/filesInput.ts#L107)
 
 Calls this function to listen to drag'n'drop events on a specific DOM element
 
@@ -282,7 +282,7 @@ defines the DOM element to track
 
 > **reload**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:301](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/filesInput.ts#L301)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInput.ts:301](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/filesInput.ts#L301)
 
 Reload the current scene from the loaded files
 

@@ -6,7 +6,7 @@
 
 # Class: DepthRendererSceneComponent
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRendererSceneComponent.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRendererSceneComponent.pure.ts#L19)
 
 Defines the Depth Renderer scene component responsible to manage a depth buffer useful
 in several rendering techniques.
@@ -21,7 +21,7 @@ in several rendering techniques.
 
 > **new DepthRendererSceneComponent**(`scene`): `DepthRendererSceneComponent`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRendererSceneComponent.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRendererSceneComponent.pure.ts#L34)
 
 Creates a new instance of the component for the given scene
 
@@ -43,7 +43,7 @@ Defines the scene to register the component in
 
 > `readonly` **name**: `"DepthRenderer"` = `SceneComponentConstants.NAME_DEPTHRENDERER`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRendererSceneComponent.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRendererSceneComponent.pure.ts#L23)
 
 The component name helpful to identify the component in the list of scene components.
 
@@ -57,7 +57,7 @@ The component name helpful to identify the component in the list of scene compon
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRendererSceneComponent.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRendererSceneComponent.pure.ts#L28)
 
 The scene the component belongs to.
 
@@ -71,7 +71,7 @@ The scene the component belongs to.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRendererSceneComponent.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRendererSceneComponent.pure.ts#L62)
 
 Disposes the component and the associated resources
 
@@ -89,7 +89,7 @@ Disposes the component and the associated resources
 
 > **rebuild**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRendererSceneComponent.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRendererSceneComponent.pure.ts#L55)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -108,7 +108,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRendererSceneComponent.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRendererSceneComponent.pure.ts#L41)
 
 Registers the component in a given scene
 

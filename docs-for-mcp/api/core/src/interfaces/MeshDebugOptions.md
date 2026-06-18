@@ -6,7 +6,7 @@
 
 # Interface: MeshDebugOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts:340](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts#L340)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:344](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L344)
 
 Options for MeshDebugPluginMaterial visualizations
 
@@ -16,7 +16,7 @@ Options for MeshDebugPluginMaterial visualizations
 
 > `optional` **mode?**: [`MeshDebugMode`](../enumerations/MeshDebugMode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts:345](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts#L345)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:349](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L349)
 
 The mesh debug visualization.
 Defaults to NONE.
@@ -27,7 +27,7 @@ Defaults to NONE.
 
 > `optional` **multiply?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts:350](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts#L350)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:354](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L354)
 
 Whether the mesh debug visualization should multiply with color underneath.
 Defaults to true.
@@ -38,7 +38,7 @@ Defaults to true.
 
 > `optional` **shadedDiffuseColor?**: [`Color3`](../classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts:355](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts#L355)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:359](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L359)
 
 Diffuse color used to shade the mesh.
 Defaults to (1.0, 1.0, 1.0).
@@ -49,7 +49,7 @@ Defaults to (1.0, 1.0, 1.0).
 
 > `optional` **shadedSpecularColor?**: [`Color3`](../classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts:360](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts#L360)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:364](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L364)
 
 Specular color used to shade the mesh.
 Defaults to (0.8, 0.8, 0.8).
@@ -60,7 +60,7 @@ Defaults to (0.8, 0.8, 0.8).
 
 > `optional` **shadedSpecularPower?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts:365](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts#L365)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:369](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L369)
 
 Specular power used to shade the mesh.
 Defaults to 10.
@@ -71,7 +71,7 @@ Defaults to 10.
 
 > `optional` **uvPrimaryColor?**: [`Color3`](../classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts:400](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts#L400)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:404](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L404)
 
 1st color of checkerboard grid in UV1 or UV2 modes.
 Defaults to (1.0, 1.0, 1.0).
@@ -82,7 +82,7 @@ Defaults to (1.0, 1.0, 1.0).
 
 > `optional` **uvScale?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts:395](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts#L395)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:399](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L399)
 
 Size of tiles in UV1 or UV2 modes.
 Defaults to 20.
@@ -93,7 +93,7 @@ Defaults to 20.
 
 > `optional` **uvSecondaryColor?**: [`Color3`](../classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts:405](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts#L405)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:409](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L409)
 
 2nd color of checkerboard grid in UV1 or UV2 modes.
 Defaults to (0.5, 0.5, 0.5).
@@ -104,7 +104,7 @@ Defaults to (0.5, 0.5, 0.5).
 
 > `optional` **vertexColor?**: [`Color3`](../classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts:385](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts#L385)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:389](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L389)
 
 Color of vertices in TRIANGLES_VERTICES and VERTICES mode.
 Defaults to (0.0, 0.0, 0.0).
@@ -115,7 +115,7 @@ Defaults to (0.0, 0.0, 0.0).
 
 > `optional` **vertexRadius?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts:390](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts#L390)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:394](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L394)
 
 Radius of dots drawn over vertices in TRIANGLE_VERTICES and VERTICES mode.
 Defaults to 1.2.
@@ -126,7 +126,7 @@ Defaults to 1.2.
 
 > `optional` **wireframeThickness?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts:370](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts#L370)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:374](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L374)
 
 Width of edge lines in TRIANGLES and TRIANGLE_VERTICES modes.
 Defaults to 0.7.
@@ -137,7 +137,7 @@ Defaults to 0.7.
 
 > `optional` **wireframeTrianglesColor?**: [`Color3`](../classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts:375](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts#L375)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:379](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L379)
 
 Color of edge lines in TRIANGLES mode.
 Defaults to (0.0, 0.0, 0.0).
@@ -148,7 +148,7 @@ Defaults to (0.0, 0.0, 0.0).
 
 > `optional` **wireframeVerticesColor?**: [`Color3`](../classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts:380](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/meshDebugPluginMaterial.ts#L380)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:384](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L384)
 
 Color of edge lines in TRIANGLES_VERTICES modes.
 Defaults to (0.8, 0.8, 0.8).

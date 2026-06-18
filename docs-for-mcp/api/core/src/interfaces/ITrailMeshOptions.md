@@ -6,7 +6,7 @@
 
 # Interface: ITrailMeshOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/trailMesh.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/trailMesh.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/trailMesh.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/trailMesh.pure.ts#L17)
 
 Options to be used when creating a trail mesh
 
@@ -16,7 +16,7 @@ Options to be used when creating a trail mesh
 
 > `optional` **autoStart?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/trailMesh.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/trailMesh.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/trailMesh.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/trailMesh.pure.ts#L41)
 
 automatically start trailing mesh. (default: true)
 
@@ -26,7 +26,7 @@ automatically start trailing mesh. (default: true)
 
 > `optional` **diameter?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/trailMesh.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/trailMesh.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/trailMesh.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/trailMesh.pure.ts#L21)
 
 diameter of trailing mesh (default: 1)
 
@@ -36,7 +36,7 @@ diameter of trailing mesh (default: 1)
 
 > `optional` **doNotTaper?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/trailMesh.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/trailMesh.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/trailMesh.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/trailMesh.pure.ts#L37)
 
 tapers the trailing mesh (default: false)
 
@@ -46,7 +46,7 @@ tapers the trailing mesh (default: false)
 
 > `optional` **length?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/trailMesh.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/trailMesh.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/trailMesh.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/trailMesh.pure.ts#L25)
 
 length of trailing mesh (default: 60)
 
@@ -56,7 +56,7 @@ length of trailing mesh (default: 60)
 
 > `optional` **sections?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/trailMesh.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/trailMesh.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/trailMesh.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/trailMesh.pure.ts#L33)
 
 sections of trailing mesh (default: 4)
 
@@ -66,6 +66,6 @@ sections of trailing mesh (default: 4)
 
 > `optional` **segments?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/trailMesh.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/trailMesh.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/trailMesh.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/trailMesh.pure.ts#L29)
 
 segments of trailing mesh (default: length)

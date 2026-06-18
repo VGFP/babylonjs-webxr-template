@@ -6,7 +6,7 @@
 
 # Interface: ICameraInput\<Tcamera\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L17)
 
 This is the contract to implement in order to create a new input class.
 Inputs are dealing with listening to user actions and moving the camera accordingly.
@@ -23,7 +23,7 @@ Inputs are dealing with listening to user actions and moving the camera accordin
 
 > **camera**: [`Nullable`](../type-aliases/Nullable.md)\<`Tcamera`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L21)
 
 Defines the camera the input is attached to.
 
@@ -33,7 +33,7 @@ Defines the camera the input is attached to.
 
 > `optional` **checkInputs?**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L45)
 
 Update the current camera state depending on the inputs that have been used this frame.
 This is a dynamically created lambda to avoid the performance penalty of looping for inputs in the render loop.
@@ -48,7 +48,7 @@ This is a dynamically created lambda to avoid the performance penalty of looping
 
 > **attachControl**(`noPreventDefault?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L36)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -70,7 +70,7 @@ Defines whether event caught by the controls should call preventdefault() (https
 
 > **detachControl**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L40)
 
 Detach the current controls from the specified dom element.
 
@@ -84,7 +84,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L26)
 
 Gets the class name of the current input.
 
@@ -100,7 +100,7 @@ the class name
 
 > **getSimpleName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/cameraInputsManager.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraInputsManager.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraInputsManager.ts#L31)
 
 Get the friendly name associated with the input class.
 

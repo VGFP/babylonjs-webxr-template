@@ -6,7 +6,7 @@
 
 # Class: WorkerPool
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/workerPool.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/workerPool.ts#L12)
 
 Helper class to push actions to a pool of workers.
 
@@ -24,7 +24,7 @@ Helper class to push actions to a pool of workers.
 
 > **new WorkerPool**(`workers`): `WorkerPool`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/workerPool.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/workerPool.ts#L20)
 
 Constructor
 
@@ -46,7 +46,7 @@ Array of workers to use for actions
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/workerPool.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/workerPool.ts#L30)
 
 Terminates all workers and clears any pending actions.
 
@@ -64,7 +64,7 @@ Terminates all workers and clears any pending actions.
 
 > **push**(`action`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/workerPool.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/workerPool.ts#L47)
 
 Pushes an action to the worker pool. If all the workers are active, the action will be
 pended until a worker has completed its action.

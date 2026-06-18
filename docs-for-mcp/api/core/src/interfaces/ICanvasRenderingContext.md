@@ -6,7 +6,7 @@
 
 # Interface: ICanvasRenderingContext
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:342](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L342)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:342](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L342)
 
 Class used to abstract canvas rendering
 
@@ -16,7 +16,7 @@ Class used to abstract canvas rendering
 
 > `readonly` **canvas**: [`ICanvas`](ICanvas.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:406](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L406)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:406](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L406)
 
 canvas is a read-only reference to ICanvas.
 
@@ -26,7 +26,7 @@ canvas is a read-only reference to ICanvas.
 
 > **fillStyle**: `string` \| [`ICanvasGradient`](ICanvasGradient.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:366](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L366)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:366](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L366)
 
 Color or style to use inside shapes. Default #000 (black).
 
@@ -36,7 +36,7 @@ Color or style to use inside shapes. Default #000 (black).
 
 > **filter**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:371](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L371)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:371](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L371)
 
 Provides filter effects such as blurring and grayscaling. It is similar to the CSS filter property and accepts the same values.
 
@@ -46,7 +46,7 @@ Provides filter effects such as blurring and grayscaling. It is similar to the C
 
 > **font**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:356](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L356)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:356](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L356)
 
 Font setting. Default value 10px sans-serif.
 
@@ -56,7 +56,7 @@ Font setting. Default value 10px sans-serif.
 
 > **globalAlpha**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:376](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L376)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:376](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L376)
 
 Alpha value that is applied to shapes and images before they are composited onto the canvas. Default 1.0 (opaque).
 
@@ -66,7 +66,7 @@ Alpha value that is applied to shapes and images before they are composited onto
 
 > **lineJoin**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:346](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L346)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:346](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L346)
 
 Defines the type of corners where two lines meet. Possible values: round, bevel, miter (default).
 
@@ -76,7 +76,7 @@ Defines the type of corners where two lines meet. Possible values: round, bevel,
 
 > **lineWidth**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:401](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L401)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:401](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L401)
 
 Width of lines. Default 1.0.
 
@@ -86,7 +86,7 @@ Width of lines. Default 1.0.
 
 > **miterLimit**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:351](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L351)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:351](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L351)
 
 Miter limit ratio. Default 10.
 
@@ -96,7 +96,7 @@ Miter limit ratio. Default 10.
 
 > **shadowBlur**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:386](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L386)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:386](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L386)
 
 Specifies the blurring effect. Default: 0.
 
@@ -106,7 +106,7 @@ Specifies the blurring effect. Default: 0.
 
 > **shadowColor**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:381](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L381)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:381](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L381)
 
 Color of the shadow. Default: fully-transparent black.
 
@@ -116,7 +116,7 @@ Color of the shadow. Default: fully-transparent black.
 
 > **shadowOffsetX**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:391](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L391)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:391](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L391)
 
 Horizontal distance the shadow will be offset. Default: 0.
 
@@ -126,7 +126,7 @@ Horizontal distance the shadow will be offset. Default: 0.
 
 > **shadowOffsetY**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:396](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L396)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:396](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L396)
 
 Vertical distance the shadow will be offset. Default: 0.
 
@@ -136,7 +136,7 @@ Vertical distance the shadow will be offset. Default: 0.
 
 > **strokeStyle**: `string` \| [`ICanvasGradient`](ICanvasGradient.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:361](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L361)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:361](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L361)
 
 Color or style to use for the lines around shapes. Default #000 (black).
 
@@ -146,7 +146,7 @@ Color or style to use for the lines around shapes. Default #000 (black).
 
 > **arc**(`x`, `y`, `radius`, `startAngle`, `endAngle`, `anticlockwise?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:496](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L496)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:496](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L496)
 
 Adds a circular arc to the current path.
 
@@ -198,7 +198,7 @@ An optional Boolean. If true, draws the arc counter-clockwise between the start 
 
 > **beginPath**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:501](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L501)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:501](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L501)
 
 Starts a new path by emptying the list of sub-paths. Call this method when you want to create a new path.
 
@@ -212,7 +212,7 @@ Starts a new path by emptying the list of sub-paths. Call this method when you w
 
 > **clearRect**(`x`, `y`, `width`, `height`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:415](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L415)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:415](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L415)
 
 Sets all pixels in the rectangle defined by starting point (x, y) and size (width, height) to transparent black, erasing any previously drawn content.
 
@@ -252,7 +252,7 @@ The rectangle's height. Positive values are down, and negative are up.
 
 > **clip**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:477](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L477)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:477](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L477)
 
 Creates a clipping path from the current sub-paths. Everything drawn after clip() is called appears inside the clipping path only.
 
@@ -266,7 +266,7 @@ Creates a clipping path from the current sub-paths. Everything drawn after clip(
 
 > **closePath**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:507](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L507)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:507](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L507)
 
 Causes the point of the pen to move back to the start of the current sub-path. It tries to draw a straight line from the current point to the start.
 If the shape has already been closed or has only one point, this function does nothing.
@@ -281,7 +281,7 @@ If the shape has already been closed or has only one point, this function does n
 
 > **createLinearGradient**(`x0`, `y0`, `x1`, `y1`): [`ICanvasGradient`](ICanvasGradient.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:624](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L624)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:624](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L624)
 
 Creates a linear gradient along the line given by the coordinates represented by the parameters.
 
@@ -323,7 +323,7 @@ ICanvasGradient A linear ICanvasGradient initialized with the specified line.
 
 > **createRadialGradient**(`x0`, `y0`, `r0`, `x1`, `y1`, `r1`): [`ICanvasGradient`](ICanvasGradient.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:636](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L636)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:636](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L636)
 
 Creates a linear gradient along the line given by the coordinates represented by the parameters.
 
@@ -379,7 +379,7 @@ ICanvasGradient A linear ICanvasGradient initialized with the two specified circ
 
 > **drawImage**(`image`, `sx`, `sy`, `sWidth`, `sHeight`, `dx`, `dy`, `dWidth`, `dHeight`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:563](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L563)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:563](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L563)
 
 Draws the specified image. This method is available in multiple formats, providing a great deal of flexibility in its use.
 
@@ -447,7 +447,7 @@ The height to draw the image in the destination canvas. This allows scaling of t
 
 > **drawImage**(`image`, `dx`, `dy`, `dWidth`, `dHeight`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:572](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L572)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:572](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L572)
 
 Draws the specified image. This method is available in multiple formats, providing a great deal of flexibility in its use.
 
@@ -491,7 +491,7 @@ The height to draw the image in the destination canvas. This allows scaling of t
 
 > **drawImage**(`image`, `dx`, `dy`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:580](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L580)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:580](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L580)
 
 Draws the specified image. This method is available in multiple formats, providing a great deal of flexibility in its use.
 
@@ -525,7 +525,7 @@ The y-axis coordinate in the destination canvas at which to place the top-left c
 
 > **fill**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:548](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L548)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:548](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L548)
 
 Fills the current sub-paths with the current fill style.
 
@@ -539,7 +539,7 @@ Fills the current sub-paths with the current fill style.
 
 > **fillRect**(`x`, `y`, `width`, `height`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:434](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L434)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:434](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L434)
 
 Draws a filled rectangle at (x, y) position whose size is determined by width and height.
 
@@ -579,7 +579,7 @@ The rectangle's height. Positive values are down, and negative are up.
 
 > **fillText**(`text`, `x`, `y`, `maxWidth?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:605](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L605)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:605](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L605)
 
 Draws (fills) a given text at the given (x, y) position.
 
@@ -619,7 +619,7 @@ The maximum number of pixels wide the text may be once rendered. If not specifie
 
 > **getImageData**(`sx`, `sy`, `sw`, `sh`): `ImageData`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:590](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L590)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:590](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L590)
 
 Returns an ImageData object representing the underlying pixel data for the area of the canvas denoted by the rectangle which starts at (sx, sy) and has an sw width and sh height.
 
@@ -661,7 +661,7 @@ ImageData An ImageData object containing the image data for the rectangle of the
 
 > **getTransform**(): [`DOMMatrix`](DOMMatrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:652](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L652)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:652](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L652)
 
 Retrieves the current transformation matrix being applied to the context.
 
@@ -675,7 +675,7 @@ Retrieves the current transformation matrix being applied to the context.
 
 > **lineTo**(`x`, `y`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:521](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L521)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:521](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L521)
 
 Connects the last point in the current sub-path to the specified (x, y) coordinates with a straight line.
 
@@ -703,7 +703,7 @@ The y-axis coordinate of the line's end point.
 
 > **measureText**(`text`): [`ITextMetrics`](ITextMetrics.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:537](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L537)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:537](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L537)
 
 Returns a TextMetrics object.
 
@@ -727,7 +727,7 @@ ITextMetrics A ITextMetrics object.
 
 > **moveTo**(`x`, `y`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:514](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L514)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:514](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L514)
 
 Moves the starting point of a new sub-path to the (x, y) coordinates.
 
@@ -755,7 +755,7 @@ The y-axis (vertical) coordinate of the point.
 
 > **putImageData**(`imageData`, `dx`, `dy`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:485](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L485)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:485](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L485)
 
 Paints data from the given ImageData object onto the bitmap. If a dirty rectangle is provided, only the pixels from that rectangle are painted.
 
@@ -789,7 +789,7 @@ Vertical position (y coordinate) at which to place the image data in the destina
 
 > **quadraticCurveTo**(`cpx`, `cpy`, `x`, `y`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:530](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L530)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:530](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L530)
 
 Adds a quadratic Bézier curve to the current path.
 
@@ -829,7 +829,7 @@ The y-axis coordinate of the end point.
 
 > **rect**(`x`, `y`, `width`, `height`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:472](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L472)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:472](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L472)
 
 Creates a path for a rectangle at position (x, y) with a size that is determined by width and height.
 
@@ -869,7 +869,7 @@ The rectangle's height. Positive values are down, and negative are up.
 
 > **restore**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:425](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L425)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:425](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L425)
 
 Restores the drawing style state to the last element on the 'state stack' saved by save().
 
@@ -883,7 +883,7 @@ Restores the drawing style state to the last element on the 'state stack' saved 
 
 > **rotate**(`angle`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:447](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L447)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:447](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L447)
 
 Adds a rotation to the transformation matrix. The angle argument represents a clockwise rotation angle and is expressed in radians.
 
@@ -905,7 +905,7 @@ The rotation angle, clockwise in radians. You can use degree * Math.PI / 180 to 
 
 > **save**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:420](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L420)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:420](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L420)
 
 Saves the current drawing style state using a stack so you can revert any change you make to it using restore().
 
@@ -919,7 +919,7 @@ Saves the current drawing style state using a stack so you can revert any change
 
 > **scale**(`x`, `y`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:441](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L441)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:441](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L441)
 
 Adds a scaling transformation to the canvas units by x horizontally and by y vertically.
 
@@ -947,7 +947,7 @@ Scaling factor in the vertical direction. A negative value flips pixels across t
 
 > **setLineDash**(`segments`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:596](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L596)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:596](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L596)
 
 Sets the current line dash pattern.
 
@@ -969,7 +969,7 @@ An Array of numbers that specify distances to alternately draw a line and a gap 
 
 > **setTransform**(`a`, `b`, `c`, `d`, `e`, `f`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:647](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L647)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:647](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L647)
 
 Resets the current transform to matrix composed with a, b, c, d, e, f.
 
@@ -1021,7 +1021,7 @@ Vertical translation (moving).
 
 > **stroke**(`path?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:543](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L543)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:543](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L543)
 
 Strokes the current sub-paths with the current stroke style.
 
@@ -1043,7 +1043,7 @@ Optional Path2D.
 
 > **strokeRect**(`x`, `y`, `width`, `height`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:463](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L463)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:463](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L463)
 
 Paints a rectangle which has a starting point at (x, y) and has a w width and an h height onto the canvas, using the current stroke style.
 
@@ -1083,7 +1083,7 @@ The rectangle's height. Positive values are down, and negative are up.
 
 > **strokeText**(`text`, `x`, `y`, `maxWidth?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:614](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L614)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:614](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L614)
 
 Draws (strokes) a given text at the given (x, y) position.
 
@@ -1123,7 +1123,7 @@ The maximum number of pixels wide the text may be once rendered. If not specifie
 
 > **translate**(`x`, `y`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:454](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L454)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:454](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L454)
 
 Adds a translation transformation by moving the canvas and its origin x horizontally and y vertically on the grid.
 

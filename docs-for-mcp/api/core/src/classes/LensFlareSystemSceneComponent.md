@@ -6,7 +6,7 @@
 
 # Class: LensFlareSystemSceneComponent
 
-Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts#L18)
 
 Defines the lens flare scene component responsible to manage any lens flares
 in a given scene.
@@ -21,7 +21,7 @@ in a given scene.
 
 > **new LensFlareSystemSceneComponent**(`scene`): `LensFlareSystemSceneComponent`
 
-Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts#L33)
 
 Creates a new instance of the component for the given scene
 
@@ -43,7 +43,7 @@ Defines the scene to register the component in
 
 > `readonly` **name**: `"LensFlareSystem"` = `SceneComponentConstants.NAME_LENSFLARESYSTEM`
 
-Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts#L22)
 
 The component name helpful to identify the component in the list of scene components.
 
@@ -57,7 +57,7 @@ The component name helpful to identify the component in the list of scene compon
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts:117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts#L117)
+Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts#L27)
 
 The scene the component belongs to.
 
@@ -71,7 +71,7 @@ The scene the component belongs to.
 
 > **addFromContainer**(`container`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts#L148)
+Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts#L58)
 
 Adds all the elements from the container to the scene
 
@@ -97,7 +97,7 @@ the container holding the elements
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts#L100)
 
 Disposes the component and the associated resources.
 
@@ -115,7 +115,7 @@ Disposes the component and the associated resources.
 
 > **rebuild**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts#L48)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -134,7 +134,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts#L40)
 
 Registers the component in a given scene
 
@@ -152,7 +152,7 @@ Registers the component in a given scene
 
 > **removeFromContainer**(`container`, `dispose?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts:162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts#L162)
+Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts#L72)
 
 Removes all the elements in the container from the scene
 
@@ -184,7 +184,7 @@ if the removed element should be disposed (default: false)
 
 > **serialize**(`serializationObject`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts:178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.ts#L178)
+Defined in: [babylonjs-source/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/LensFlares/lensFlareSystemSceneComponent.pure.ts#L88)
 
 Serializes the component data to the specified json object
 

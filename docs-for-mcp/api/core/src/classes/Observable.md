@@ -6,7 +6,7 @@
 
 # Class: Observable\<T\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L163)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L165)
 
 The Observable class is a simple implementation of the Observable pattern.
 
@@ -31,7 +31,7 @@ A given observer can register itself with only Move and Stop (mask = 0x03), then
 
 > **new Observable**\<`T`\>(`onObserverAdded?`, `notifyIfTriggered?`): `Observable`\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:215](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L215)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L217)
 
 Creates a new observable
 
@@ -59,7 +59,7 @@ If set to true the observable will notify when an observer was added if the obse
 
 > `optional` **\_coroutineScheduler?**: `CoroutineScheduler`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observableCoroutine.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observableCoroutine.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observableCoroutine.types.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observableCoroutine.types.ts#L10)
 
 Internal observable-based coroutine scheduler instance.
 
@@ -69,7 +69,7 @@ Internal observable-based coroutine scheduler instance.
 
 > `optional` **\_coroutineSchedulerDispose?**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observableCoroutine.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observableCoroutine.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observableCoroutine.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observableCoroutine.types.ts#L15)
 
 Internal disposal method for observable-based coroutine scheduler instance.
 
@@ -83,7 +83,7 @@ Internal disposal method for observable-based coroutine scheduler instance.
 
 > **notifyIfTriggered**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:221](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L221)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L223)
 
 [false] If set to true the observable will notify when an observer was added if the observable was already triggered.
 This is helpful to single-state observables like the scene onReady or the dispose observable.
@@ -96,7 +96,7 @@ This is helpful to single-state observables like the scene onReady or the dispos
 
 > **get** **observers**(): [`Observer`](Observer.md)\<`T`\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:206](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L206)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L208)
 
 Gets the list of observers
 Note that observers that were recently deleted may still be present in the list because they are only really deleted on the next javascript tick!
@@ -113,7 +113,7 @@ Note that observers that were recently deleted may still be present in the list 
 
 > **add**(`callback?`, `mask?`, `insertFirst?`, `scope?`, `unregisterOnFirstCall?`): `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L239)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:241](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L241)
 
 Create a new Observer with the specified callback
 
@@ -163,7 +163,7 @@ the new observer created for the callback
 
 > **add**(`callback`, `mask?`, `insertFirst?`, `scope?`, `unregisterOnFirstCall?`): [`Observer`](Observer.md)\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:240](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L240)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:242](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L242)
 
 Create a new Observer with the specified callback
 
@@ -213,7 +213,7 @@ the new observer created for the callback
 
 > **add**(`callback?`, `mask?`, `insertFirst?`, `scope?`, `unregisterOnFirstCall?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Observer`](Observer.md)\<`T`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:241](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L241)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L243)
 
 Create a new Observer with the specified callback
 
@@ -267,7 +267,7 @@ the new observer created for the callback
 
 > **addOnce**(`callback?`): `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:296](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L296)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L298)
 
 Create a new Observer with the specified callback and unregisters after the next notification
 
@@ -293,7 +293,7 @@ the new observer created for the callback
 
 > **addOnce**(`callback`): [`Observer`](Observer.md)\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:297](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L297)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:299](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L299)
 
 Create a new Observer with the specified callback and unregisters after the next notification
 
@@ -319,7 +319,7 @@ the new observer created for the callback
 
 > **addOnce**(`callback?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Observer`](Observer.md)\<`T`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:298](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L298)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:300](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L300)
 
 Create a new Observer with the specified callback and unregisters after the next notification
 
@@ -347,7 +347,7 @@ the new observer created for the callback
 
 > **cancelAllCoroutines**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observableCoroutine.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observableCoroutine.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observableCoroutine.types.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observableCoroutine.types.ts#L27)
 
 Cancels all coroutines currently running on this observable
 
@@ -361,7 +361,7 @@ Cancels all coroutines currently running on this observable
 
 > **cleanLastNotifiedState**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:502](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L502)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:504](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L504)
 
 Clean the last notified state - both the internal last value and the has-notified flag
 
@@ -375,7 +375,7 @@ Clean the last notified state - both the internal last value and the has-notifie
 
 > **clear**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:487](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L487)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:489](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L489)
 
 Clear the list of observers
 
@@ -389,7 +389,7 @@ Clear the list of observers
 
 > **clone**(): `Observable`\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:511](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L511)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:513](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L513)
 
 Clone the current observable
 
@@ -405,7 +405,7 @@ a new observable
 
 > **hasObservers**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:480](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L480)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:482](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L482)
 
 Gets a boolean indicating if the observable has at least one observer
 
@@ -421,7 +421,7 @@ true is the Observable has at least one Observer registered
 
 > **hasSpecificMask**(`mask?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:524](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L524)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:526](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L526)
 
 Does this observable handles observer registered with a given mask
 
@@ -445,7 +445,7 @@ whether or not one observer registered with the given mask is handled
 
 > **makeObserverBottomPriority**(`observer`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:393](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L393)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:395](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L395)
 
 Moves the observable to the bottom of the observer list making it get called last when notified
 
@@ -467,7 +467,7 @@ the observer to move
 
 > **makeObserverTopPriority**(`observer`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:384](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L384)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:386](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L386)
 
 Moves the observable to the top of the observer list making it get called first when notified
 
@@ -489,7 +489,7 @@ the observer to move
 
 > **notifyObserver**(`observer`, `eventData`, `mask?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:455](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L455)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:457](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L457)
 
 Notify a specific observer
 
@@ -523,7 +523,7 @@ is used to filter observers defaults to -1
 
 > **notifyObservers**(`eventData`, `mask?`, `target?`, `currentTarget?`, `userInfo?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:408](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L408)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:410](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L410)
 
 Notify all Observers by calling their respective callback with the given data
 Will return true if all observers were executed, false if an observer set skipNextObservers to true, then prevent the subsequent ones to execute
@@ -572,7 +572,7 @@ false if the complete observer chain was not processed (because one observer set
 
 > **notifyObserversWithPromise**(`eventData`, `mask?`, `target?`, `currentTarget?`, `userInfo?`): `Promise`\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.extensions.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.extensions.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.extensions.types.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.extensions.types.ts#L19)
 
 Calling this will execute each callback, expecting it to be a promise or return a value.
 If at any point in the chain one function fails, the promise will fail and the execution will not continue.
@@ -624,7 +624,7 @@ will return a Promise than resolves when all callbacks executed successfully.
 
 > **remove**(`observer`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:308](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L308)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L310)
 
 Remove an Observer from the Observable object
 
@@ -648,7 +648,7 @@ false if it doesn't belong to this Observable
 
 > **removeCallback**(`callback`, `scope?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:330](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L330)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:332](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L332)
 
 Remove a callback from the Observable object
 
@@ -678,7 +678,7 @@ false if it doesn't belong to this Observable
 
 > **runCoroutineAsync**(`coroutine`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observableCoroutine.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observableCoroutine.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observableCoroutine.types.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observableCoroutine.types.ts#L22)
 
 Runs a coroutine asynchronously on this observable
 
@@ -702,7 +702,7 @@ a promise which will be resolved when the coroutine finishes or rejected if the 
 
 > `static` **FromPromise**\<`T`, `E`\>(`promise`, `onErrorObservable?`): `Observable`\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:182](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L182)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:184](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L184)
 
 Create an observable from a Promise.
 

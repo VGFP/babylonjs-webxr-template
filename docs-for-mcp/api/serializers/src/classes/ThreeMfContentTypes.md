@@ -6,7 +6,7 @@
 
 # Class: ThreeMfContentTypes
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L17)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L17)
 
 ## Implements
 
@@ -28,7 +28,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.op
 
 > **items**: [`ThreeMfContentType`](ThreeMfContentType.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L21)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L21)
 
 #### Implementation of
 

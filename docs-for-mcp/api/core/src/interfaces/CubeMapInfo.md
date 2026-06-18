@@ -6,7 +6,7 @@
 
 # Interface: CubeMapInfo
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L9)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L9)
 
 CubeMap information grouping all the data for each faces as well as the cubemap size.
 
@@ -16,7 +16,7 @@ CubeMap information grouping all the data for each faces as well as the cubemap 
 
 > **back**: [`Nullable`](../type-aliases/Nullable.md)\<`ArrayBufferView`\<`ArrayBufferLike`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L20)
 
 The pixel array for the back face.
 This is stored in format, left to right, up to down format.
@@ -27,7 +27,7 @@ This is stored in format, left to right, up to down format.
 
 > **down**: [`Nullable`](../type-aliases/Nullable.md)\<`ArrayBufferView`\<`ArrayBufferLike`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L44)
 
 The pixel array for the down face.
 This is stored in format, left to right, up to down format.
@@ -38,7 +38,7 @@ This is stored in format, left to right, up to down format.
 
 > **format**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L58)
 
 The format of the texture.
 
@@ -50,7 +50,7 @@ RGBA, RGB.
 
 > **front**: [`Nullable`](../type-aliases/Nullable.md)\<`ArrayBufferView`\<`ArrayBufferLike`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L14)
 
 The pixel array for the front face.
 This is stored in format, left to right, up to down format.
@@ -61,7 +61,7 @@ This is stored in format, left to right, up to down format.
 
 > **gammaSpace**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L70)
 
 Specifies whether the texture is in gamma space.
 
@@ -71,7 +71,7 @@ Specifies whether the texture is in gamma space.
 
 > **left**: [`Nullable`](../type-aliases/Nullable.md)\<`ArrayBufferView`\<`ArrayBufferLike`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L26)
 
 The pixel array for the left face.
 This is stored in format, left to right, up to down format.
@@ -82,7 +82,7 @@ This is stored in format, left to right, up to down format.
 
 > **right**: [`Nullable`](../type-aliases/Nullable.md)\<`ArrayBufferView`\<`ArrayBufferLike`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L32)
 
 The pixel array for the right face.
 This is stored in format, left to right, up to down format.
@@ -93,7 +93,7 @@ This is stored in format, left to right, up to down format.
 
 > **size**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L51)
 
 The size of the cubemap stored.
 
@@ -105,7 +105,7 @@ Each faces will be size * size pixels.
 
 > **type**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L65)
 
 The type of the texture data.
 
@@ -117,7 +117,7 @@ UNSIGNED_INT, FLOAT.
 
 > **up**: [`Nullable`](../type-aliases/Nullable.md)\<`ArrayBufferView`\<`ArrayBufferLike`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L38)
 
 The pixel array for the up face.
 This is stored in format, left to right, up to down format.

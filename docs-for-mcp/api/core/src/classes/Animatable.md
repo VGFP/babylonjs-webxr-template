@@ -6,7 +6,7 @@
 
 # Class: Animatable
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L14)
 
 Class used to store an actual running animation
 
@@ -16,7 +16,7 @@ Class used to store an actual running animation
 
 > **new Animatable**(`scene`, `target`, `fromFrame?`, `toFrame?`, `loopAnimation?`, `speedRatio?`, `onAnimationEnd?`, `animations?`, `onAnimationLoop?`, `isAdditive?`, `playOrder?`): `Animatable`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:136](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L136)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L136)
 
 Creates a new Animatable
 
@@ -98,7 +98,7 @@ defines the order in which this animatable should be processed in the list of ac
 
 > `optional` **animationPropertiesOverride?**: [`AnimationPropertiesOverride`](AnimationPropertiesOverride.md)
 
-Defined in: [babylonjs-source/packages/dev/inspector-v2/src/components/properties/animation/animationsProperties.tsx:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/inspector-v2/src/components/properties/animation/animationsProperties.tsx#L34)
+Defined in: [babylonjs-source/packages/dev/inspector-v2/src/components/properties/animation/animationsProperties.tsx:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/inspector-v2/src/components/properties/animation/animationsProperties.tsx#L34)
 
 ***
 
@@ -106,7 +106,7 @@ Defined in: [babylonjs-source/packages/dev/inspector-v2/src/components/propertie
 
 > **animationStarted**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L45)
 
 Gets a boolean indicating if the animation has started
 
@@ -116,7 +116,7 @@ Gets a boolean indicating if the animation has started
 
 > **disposeOnEnd**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L40)
 
 Gets or sets a boolean indicating if the animatable must be disposed and removed at the end of the animation.
 This will only apply for non looping animation (default is true)
@@ -127,7 +127,7 @@ This will only apply for non looping animation (default is true)
 
 > **fromFrame**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L141)
 
 [0] defines the starting frame number (default is 0)
 
@@ -137,7 +137,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.t
 
 > **isAdditive**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L153)
 
 [false] defines whether the animation should be evaluated additively
 
@@ -147,7 +147,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.t
 
 > **loopAnimation**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:145](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L145)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L145)
 
 [false] defines if the animation must loop (default is false)
 
@@ -157,7 +157,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.t
 
 > `optional` **onAnimationEnd?**: [`Nullable`](../type-aliases/Nullable.md)\<() => `void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L148)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L148)
 
 defines a callback to call when animation ends if it is not looping
 
@@ -167,7 +167,7 @@ defines a callback to call when animation ends if it is not looping
 
 > **onAnimationEndObservable**: [`Observable`](Observable.md)\<`Animatable`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L50)
 
 Observer raised when the animation ends
 
@@ -177,7 +177,7 @@ Observer raised when the animation ends
 
 > `optional` **onAnimationLoop?**: [`Nullable`](../type-aliases/Nullable.md)\<() => `void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L151)
 
 defines a callback to call when animation loops
 
@@ -187,7 +187,7 @@ defines a callback to call when animation loops
 
 > **onAnimationLoopObservable**: [`Observable`](Observable.md)\<`Animatable`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L55)
 
 Observer raised when the animation loops
 
@@ -197,7 +197,7 @@ Observer raised when the animation loops
 
 > **playOrder**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L155)
 
 [0] defines the order in which this animatable should be processed in the list of active animatables (default: 0)
 
@@ -207,7 +207,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.t
 
 > **target**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L139)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L139)
 
 defines the target object
 
@@ -217,7 +217,7 @@ defines the target object
 
 > **toFrame**: `number` = `100`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:143](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L143)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L143)
 
 [100] defines the ending frame number (default is 100)
 
@@ -227,7 +227,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.t
 
 > `static` **ProcessPausedAnimatables**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L20)
 
 If true, the animatable will be processed even if it is considered actively paused (weight of 0 and previous weight of 0).
 This can be used to force the full processing of paused animatables in the animation engine.
@@ -241,7 +241,7 @@ Default is false.
 
 > **get** **elapsedTime**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L118)
 
 Gets the elapsed time since the animatable started in milliseconds
 
@@ -257,7 +257,7 @@ Gets the elapsed time since the animatable started in milliseconds
 
 > **get** **masterFrame**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L68)
 
 Gets the current frame of the first RuntimeAnimation
 Used to synchronize Animatables
@@ -274,7 +274,7 @@ Used to synchronize Animatables
 
 > **get** **paused**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:316](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L316)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:316](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L316)
 
 Returns true if the animations for this animatable are paused
 
@@ -290,7 +290,7 @@ Returns true if the animations for this animatable are paused
 
 > **get** **speedRatio**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L97)
 
 Gets or sets the speed ratio to apply to the animatable (1.0 by default)
 
@@ -302,7 +302,7 @@ Gets or sets the speed ratio to apply to the animatable (1.0 by default)
 
 > **set** **speedRatio**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L101)
 
 ##### Parameters
 
@@ -322,7 +322,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.t
 
 > **get** **syncRoot**(): [`Nullable`](../type-aliases/Nullable.md)\<`Animatable`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L60)
 
 Gets the root Animatable used to synchronize and normalize animations
 
@@ -338,7 +338,7 @@ Gets the root Animatable used to synchronize and normalize animations
 
 > **get** **weight**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L79)
 
 Gets or sets the animatable weight (-1.0 by default meaning not weighted)
 
@@ -350,7 +350,7 @@ Gets or sets the animatable weight (-1.0 by default meaning not weighted)
 
 > **set** **weight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L83)
 
 ##### Parameters
 
@@ -368,7 +368,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.t
 
 > **appendAnimations**(`target`, `animations`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:201](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L201)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L201)
 
 Adds more animations to the current animatable
 
@@ -396,7 +396,7 @@ defines the new animations to add
 
 > **disableBlending**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:283](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L283)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L283)
 
 Disable animation blending
 
@@ -414,7 +414,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/advanced_animation
 
 > **enableBlending**(`blendingSpeed`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:270](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L270)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:270](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L270)
 
 Allows the animatable to blend with current running animations
 
@@ -440,7 +440,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/advanced_animation
 
 > **getAnimationByTargetProperty**(`property`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animation`](Animation.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L222)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L222)
 
 Gets the source animation for a specific property
 
@@ -464,7 +464,7 @@ null or the source animation for the given property
 
 > **getAnimations**(): [`RuntimeAnimation`](RuntimeAnimation.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:192](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L192)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L192)
 
 Gets the list of runtime animations
 
@@ -480,7 +480,7 @@ an array of RuntimeAnimation
 
 > **getRuntimeAnimationByTargetProperty**(`property`): [`Nullable`](../type-aliases/Nullable.md)\<[`RuntimeAnimation`](RuntimeAnimation.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L239)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L239)
 
 Gets the runtime animation for a specific property
 
@@ -504,7 +504,7 @@ null or the runtime animation for the given property
 
 > **goToFrame**(`frame`, `useWeight?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:296](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L296)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:296](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L296)
 
 Jump directly to a given frame
 
@@ -532,7 +532,7 @@ defines whether the animation weight should be applied to the image to be jumped
 
 > **pause**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L323)
 
 Pause the animation
 
@@ -546,7 +546,7 @@ Pause the animation
 
 > **reset**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:254](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L254)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L254)
 
 Resets the animatable to its original state
 
@@ -560,7 +560,7 @@ Resets the animatable to its original state
 
 > **restart**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:333](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L333)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:333](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L333)
 
 Restart the animation
 
@@ -574,7 +574,7 @@ Restart the animation
 
 > **stop**(`animationName?`, `targetMask?`, `useGlobalSplice?`, `skipOnAnimationEnd?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:352](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L352)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:352](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L352)
 
 Stop and delete the current animation
 
@@ -614,7 +614,7 @@ defines if the system should not raise onAnimationEnd. Default is false
 
 > **syncWith**(`root`): `Animatable`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:173](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L173)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L173)
 
 Synchronize and normalize current Animatable with a source Animatable
 This is useful when using animation weights and when animations are not of the same length
@@ -639,7 +639,7 @@ the current Animatable
 
 > **waitAsync**(): `Promise`\<`Animatable`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:407](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animatable.core.ts#L407)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animatable.core.ts:407](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animatable.core.ts#L407)
 
 Wait asynchronously for the animation to end
 

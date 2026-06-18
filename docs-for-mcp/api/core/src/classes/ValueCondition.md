@@ -6,7 +6,7 @@
 
 # Class: ValueCondition
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/condition.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L81)
 
 Defines specific conditional operators as extensions of Condition
 
@@ -20,7 +20,7 @@ Defines specific conditional operators as extensions of Condition
 
 > **new ValueCondition**(`actionManager`, `target`, `propertyPath`, `value`, `operator?`): `ValueCondition`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/condition.ts#L131)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L133)
 
 Creates a new ValueCondition
 
@@ -70,7 +70,7 @@ the conditional operator, default ValueCondition.IsEqual
 
 > **operator**: `number` = `ValueCondition.IsEqual`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/condition.ts#L139)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L141)
 
 [number] the conditional operator, default ValueCondition.IsEqual
 
@@ -80,7 +80,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.ts:139](ht
 
 > **propertyPath**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/condition.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L137)
 
 path to specify the property of the target the conditional operator uses
 
@@ -90,7 +90,7 @@ path to specify the property of the target the conditional operator uses
 
 > **value**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/condition.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L139)
 
 the value compared by the conditional operator against the current value of the property
 
@@ -102,7 +102,7 @@ the value compared by the conditional operator against the current value of the 
 
 > **get** `static` **IsDifferent**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/condition.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L97)
 
 Returns the number for IsDifferent
 
@@ -118,7 +118,7 @@ Returns the number for IsDifferent
 
 > **get** `static` **IsEqual**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/condition.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L90)
 
 returns the number for IsEqual
 
@@ -134,7 +134,7 @@ returns the number for IsEqual
 
 > **get** `static` **IsGreater**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/condition.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L104)
 
 Returns the number for IsGreater
 
@@ -150,7 +150,7 @@ Returns the number for IsGreater
 
 > **get** `static` **IsLesser**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/condition.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L111)
 
 Returns the number for IsLesser
 
@@ -164,7 +164,7 @@ Returns the number for IsLesser
 
 > **isValid**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.ts:152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/condition.ts#L152)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:154](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L154)
 
 Compares the given value with the property value for the specified conditional operator
 
@@ -184,7 +184,7 @@ the result of the comparison
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.ts:178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/condition.ts#L178)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L180)
 
 Serialize the ValueCondition into a JSON compatible object
 
@@ -204,7 +204,7 @@ serialization object
 
 > `static` **GetOperatorName**(`operator`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.ts:195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/condition.ts#L195)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L197)
 
 Gets the name of the conditional operator for the ValueCondition
 

@@ -6,7 +6,7 @@
 
 # Class: RuntimeError
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/error.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/error.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/error.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/error.ts#L59)
 
 Application runtime error
 
@@ -26,7 +26,7 @@ Application runtime error
 
 > **new RuntimeError**(`message`, `errorCode`, `innerError?`): `RuntimeError`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/error.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/error.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/error.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/error.ts#L76)
 
 Creates a new RuntimeError
 
@@ -64,7 +64,7 @@ the error that caused the outer error
 
 > **errorCode**: [`ErrorCodesType`](../type-aliases/ErrorCodesType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/error.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/error.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/error.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/error.ts#L63)
 
 The error code
 
@@ -74,6 +74,6 @@ The error code
 
 > `optional` **innerError?**: `Error`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/error.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/error.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/error.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/error.ts#L68)
 
 The error that caused this outer error

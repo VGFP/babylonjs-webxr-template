@@ -6,7 +6,7 @@
 
 # Class: GreasedLinePluginMaterial
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L61)
 
 GreasedLinePluginMaterial for GreasedLineMesh/GreasedLineRibbonMesh.
 Use the GreasedLineBuilder.CreateGreasedLineMaterial function to create and instance of this class.
@@ -25,7 +25,7 @@ Use the GreasedLineBuilder.CreateGreasedLineMaterial function to create and inst
 
 > **new GreasedLinePluginMaterial**(`material`, `scene?`, `options?`): `GreasedLinePluginMaterial`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L152)
 
 Creates a new instance of the GreasedLinePluginMaterial
 
@@ -63,7 +63,7 @@ Plugin options
 
 > **colorMode**: [`GreasedLineMeshColorMode`](../enumerations/GreasedLineMeshColorMode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L114)
 
 The mixing mode of the color paramater. Default value is GreasedLineMeshColorMode.SET
 
@@ -81,7 +81,7 @@ GreasedLineMeshColorMode
 
 > **colorsSampling**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L103)
 
 The type of sampling of the colors texture. The values are the same when using with textures.
 
@@ -91,7 +91,7 @@ The type of sampling of the colors texture. The values are the same when using w
 
 > **colorsTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`RawTexture`](RawTexture.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L117)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L119)
 
 You can provide a colorsTexture to use instead of one generated from the 'colors' option
 
@@ -105,7 +105,7 @@ You can provide a colorsTexture to use instead of one generated from the 'colors
 
 > **dashOffset**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L88)
 
 Dash offset
 
@@ -119,7 +119,7 @@ Dash offset
 
 > **dashRatio**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L93)
 
 Length of the dash. 0 to 1. 0.5 means half empty, half drawn.
 
@@ -133,7 +133,7 @@ Length of the dash. 0 to 1. 0.5 means half empty, half drawn.
 
 > **doNotSerialize**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L56)
 
 Specifies if the material plugin should be serialized, `true` to skip serialization
 
@@ -147,7 +147,7 @@ Specifies if the material plugin should be serialized, `true` to skip serializat
 
 > `readonly` **markAllDefinesAsDirty**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L85)
 
 Helper function to mark defines as being dirty.
 
@@ -165,7 +165,7 @@ Helper function to mark defines as being dirty.
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L33)
 
 Defines the name of the plugin
 
@@ -179,7 +179,7 @@ Defines the name of the plugin
 
 > **priority**: `number` = `500`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L39)
 
 Defines the priority of the plugin. Lower numbers run first.
 
@@ -193,7 +193,7 @@ Defines the priority of the plugin. Lower numbers run first.
 
 > **registerForExtraEvents**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L51)
 
 Indicates that this plugin should be notified for the extra events (HasRenderTargetTextures / FillRenderTargetTextures / HardBindForSubMesh)
 
@@ -207,7 +207,7 @@ Indicates that this plugin should be notified for the extra events (HasRenderTar
 
 > **resolveIncludes**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L45)
 
 Indicates that any #include directive in the plugin code must be replaced by the corresponding code.
 
@@ -221,7 +221,7 @@ Indicates that any #include directive in the plugin code must be replaced by the
 
 > **useColors**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L76)
 
 Whether to use the colors option to colorize the line
 
@@ -235,7 +235,7 @@ Whether to use the colors option to colorize the line
 
 > **useDash**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L108)
 
 Turns on/off dash mode
 
@@ -249,7 +249,7 @@ Turns on/off dash mode
 
 > **visibility**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L83)
 
 Normalized value of how much of the line will be visible
 0 - 0% of the line will be visible
@@ -265,7 +265,7 @@ Normalized value of how much of the line will be visible
 
 > **width**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L98)
 
 Line base width. At each point the line width is calculated by widths[pointIndex] * width
 
@@ -279,7 +279,7 @@ Line base width. At each point the line width is calculated by widths[pointIndex
 
 > `static` **ForceGLSL**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L71)
 
 Force all the greased lines to compile to glsl even on WebGPU engines.
 False by default. This is mostly meant for backward compatibility.
@@ -290,7 +290,7 @@ False by default. This is mostly meant for backward compatibility.
 
 > `readonly` `static` **GREASED\_LINE\_MATERIAL\_NAME**: `"GreasedLinePluginMaterial"` = `"GreasedLinePluginMaterial"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L65)
 
 Plugin name
 
@@ -302,7 +302,7 @@ Plugin name
 
 > **get** **color**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Color3`](Color3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:460](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L460)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:462](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L462)
 
 Gets the color of the line
 
@@ -314,7 +314,7 @@ Gets the color of the line
 
 > **set** **color**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:468](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L468)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:470](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L470)
 
 Sets the color of the line
 
@@ -345,7 +345,7 @@ Defaults to White.
 
 > **get** **colors**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Color3`](Color3.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:375](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L375)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:377](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L377)
 
 Returns the colors used to colorize the line
 
@@ -357,7 +357,7 @@ Returns the colors used to colorize the line
 
 > **set** **colors**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:382](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L382)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:384](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L384)
 
 Sets the colors used to colorize the line
 
@@ -386,7 +386,7 @@ Defaults to empty.
 
 > **get** **colorsDistributionType**(): [`GreasedLineMeshColorDistributionType`](../enumerations/GreasedLineMeshColorDistributionType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:491](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L491)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:493](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L493)
 
 Gets the color distributiopn type
 
@@ -398,7 +398,7 @@ Gets the color distributiopn type
 
 > **set** **colorsDistributionType**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:500](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L500)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:502](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L502)
 
 Sets the color distribution type
 
@@ -434,7 +434,7 @@ Or you can use line distribution when the colors are distributed evenly along th
 
 > **get** **dashCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:427](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L427)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:429](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L429)
 
 Gets the number of dashes in the line
 
@@ -446,7 +446,7 @@ Gets the number of dashes in the line
 
 > **set** **dashCount**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:434](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L434)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:436](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L436)
 
 Sets the number of dashes in the line
 
@@ -480,7 +480,7 @@ Defaults to 1.
 
 > **get** **isEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:283](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L283)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:285](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L285)
 
 ##### Returns
 
@@ -494,7 +494,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/grease
 
 > **get** **resolution**(): [`Vector2`](Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:508](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L508)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:510](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L510)
 
 Gets the resolution
 
@@ -506,7 +506,7 @@ Gets the resolution
 
 > **set** **resolution**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:516](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L516)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:518](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L518)
 
 Sets the resolution
 
@@ -537,7 +537,7 @@ Rendering resolution
 
 > **get** **sizeAttenuation**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:443](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L443)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:445](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L445)
 
 If set to true the line will be rendered always with the same width regardless how far it is located from the camera.
 Not supported for non camera facing lines.
@@ -550,7 +550,7 @@ Not supported for non camera facing lines.
 
 > **set** **sizeAttenuation**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:452](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L452)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:454](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L454)
 
 Turn on/off size attenuation of the width option and widths array.
 Not supported for non camera facing lines.
@@ -580,7 +580,7 @@ Defaults to false.
 
 > **addFallbacks**(`defines`, `fallbacks`, `currentRank`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:258](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L258)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L260)
 
 Add fallbacks to the effect fallbacks list.
 
@@ -620,7 +620,7 @@ the new fallback rank.
 
 > **bindForSubMesh**(`uniformBuffer`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:291](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L291)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:293](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L293)
 
 Bind the uniform buffer
 
@@ -644,7 +644,7 @@ Bind the uniform buffer
 
 > **collectDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L183)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L185)
 
 Collects all defines.
 
@@ -668,7 +668,7 @@ The object to append to.
 
 > **copyTo**(`plugin`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:622](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L622)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:624](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L624)
 
 Makes a duplicate of the current configuration into another one.
 
@@ -694,7 +694,7 @@ define the config where to copy the info
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:367](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L367)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:369](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L369)
 
 Disposes the plugin material.
 
@@ -712,7 +712,7 @@ Disposes the plugin material.
 
 > **fillRenderTargetTextures**(`_renderTargets`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:237](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L237)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L239)
 
 Fills the list of render target textures.
 
@@ -738,7 +738,7 @@ the list of render targets to update
 
 > **getActiveTextures**(`activeTextures`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:231](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L231)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:233](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L233)
 
 Get the shader textures
 
@@ -764,7 +764,7 @@ array which will be filled with the textures
 
 > **getAnimatables**(`_animatables`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:249](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L249)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L251)
 
 Returns the animatable textures.
 
@@ -790,7 +790,7 @@ Array of animatable textures.
 
 > **getAttributes**(`attributes`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:206](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L206)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L208)
 
 Get the shader attributes
 
@@ -816,7 +816,7 @@ array which will be filled with the attributes
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:347](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L347)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:349](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L349)
 
 Get the class name
 
@@ -836,7 +836,7 @@ class name
 
 > **getCustomCode**(`shaderType`, `shaderLanguage?`): [`Nullable`](../type-aliases/Nullable.md)\<\{\[`pointName`: `string`\]: `string`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:357](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L357)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:359](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L359)
 
 Get shader code
 
@@ -870,7 +870,7 @@ shader code
 
 > **getSamplers**(`samplers`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:223](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L223)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L225)
 
 Get the shader samplers
 
@@ -894,7 +894,7 @@ Get the shader samplers
 
 > **getUniformBuffersNames**(`_ubos`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:280](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L280)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L282)
 
 Gets the uniform buffers names added by the plugin.
 
@@ -920,7 +920,7 @@ list that the ubo names should be added to.
 
 > **getUniforms**(`shaderLanguage?`): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:242](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L242)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:244](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L244)
 
 Get the shader uniforms
 
@@ -960,7 +960,7 @@ uniforms
 
 > **hardBindForSubMesh**(`_uniformBuffer`, `_scene`, `_engine`, `_subMesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:149](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L149)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L151)
 
 Binds the material data (this function is called even if mustRebind() returns false)
 
@@ -1004,7 +1004,7 @@ the submesh to bind data for
 
 > **hasRenderTargetTextures**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:229](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L229)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L231)
 
 Gets a boolean indicating that current material needs to register RTT
 
@@ -1024,7 +1024,7 @@ true if this uses a render target otherwise false.
 
 > **hasTexture**(`_texture`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:221](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L221)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L223)
 
 Checks to see if a texture is used in the material.
 
@@ -1052,7 +1052,7 @@ Base texture to use.
 
 > **isCompatible**(`_shaderLanguage`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L140)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L142)
 
 Gets a boolean indicating that the plugin is compatible with a given shader language
 
@@ -1080,7 +1080,7 @@ true if the plugin is compatible with the shader language. Return always true si
 
 > **isReadyForSubMesh**(`_defines`, `_scene`, `_engine`, `_subMesh`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L140)
 
 Specifies that the submesh is ready to be used.
 
@@ -1126,7 +1126,7 @@ the submesh to check for readiness
 
 > **parse**(`source`, `scene`, `rootUrl`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:561](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L561)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:563](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L563)
 
 Parses a serialized objects
 
@@ -1164,7 +1164,7 @@ root url for textures
 
 > **prepareDefines**(`defines`, `_scene`, `mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:334](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L334)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:336](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L336)
 
 Prepare the defines
 
@@ -1196,7 +1196,7 @@ Prepare the defines
 
 > **prepareDefinesBeforeAttributes**(`_defines`, `_scene`, `_mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:206](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L206)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L208)
 
 Sets the defines for the next rendering. Called before PrepareDefinesForAttributes is called.
 
@@ -1234,7 +1234,7 @@ the mesh being rendered
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:525](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L525)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:527](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L527)
 
 Serializes this plugin material
 
@@ -1254,7 +1254,7 @@ serializationObjec
 
 > **setColor**(`value`, `doNotMarkDirty?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:477](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L477)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:479](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L479)
 
 Sets the color of the line. If set the whole line will be mixed with this color according to the colorMode option.
 
@@ -1286,7 +1286,7 @@ if true, the material will not be marked as dirty
 
 > **setColors**(`colors`, `lazy?`, `forceNewTexture?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:392](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L392)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:394](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L394)
 
 Creates or updates the colors texture
 
@@ -1324,7 +1324,7 @@ force creation of a new texture
 
 > **updateLazy**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts:418](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.ts#L418)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts:420](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLinePluginMaterial.pure.ts#L420)
 
 Updates the material. Use when material created in lazy mode.
 

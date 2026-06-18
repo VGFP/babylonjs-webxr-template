@@ -8,7 +8,7 @@
 
 > **GoldbergVertexDataOption** = `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts#L15)
 
 Defines the set of data required to create goldberg vertex data.
 
@@ -18,7 +18,7 @@ Defines the set of data required to create goldberg vertex data.
 
 > `optional` **sideOrientation?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts#L35)
 
 optional and takes the values : Mesh.FRONTSIDE (default), Mesh.BACKSIDE or Mesh.DOUBLESIDE
 
@@ -28,7 +28,7 @@ optional and takes the values : Mesh.FRONTSIDE (default), Mesh.BACKSIDE or Mesh.
 
 > `optional` **size?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts#L19)
 
 the size of the Goldberg, optional default 1
 
@@ -38,7 +38,7 @@ the size of the Goldberg, optional default 1
 
 > `optional` **sizeX?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts#L23)
 
 allows stretching in the x direction, optional, default size
 
@@ -48,7 +48,7 @@ allows stretching in the x direction, optional, default size
 
 > `optional` **sizeY?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts#L27)
 
 allows stretching in the y direction, optional, default size
 
@@ -58,6 +58,6 @@ allows stretching in the y direction, optional, default size
 
 > `optional` **sizeZ?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/goldbergBuilder.ts#L31)
 
 allows stretching in the z direction, optional, default size

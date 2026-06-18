@@ -6,7 +6,7 @@
 
 # Class: PostProcessManager
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/postProcessManager.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/postProcessManager.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/postProcessManager.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/postProcessManager.ts#L15)
 
 PostProcessManager is used to manage one or more post processes or post process pipelines
 See https://doc.babylonjs.com/features/featuresDeepDive/postProcesses/usePostProcesses
@@ -17,7 +17,7 @@ See https://doc.babylonjs.com/features/featuresDeepDive/postProcesses/usePostPro
 
 > **new PostProcessManager**(`scene`): `PostProcessManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/postProcessManager.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/postProcessManager.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/postProcessManager.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/postProcessManager.ts#L25)
 
 Creates a new instance PostProcess
 
@@ -39,7 +39,9 @@ The scene that the post process is associated with.
 
 > **onBeforeRenderObservable**: [`Observable`](Observable.md)\<`PostProcessManager`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/postProcessManager.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/postProcessManager.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/postProcessManager.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/postProcessManager.ts#L77)
+
+Observable raised before post processes are rendered.
 
 ## Methods
 
@@ -47,7 +49,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/postProcessMan
 
 > **directRender**(`postProcesses`, `targetTexture?`, `forceFullscreenViewport?`, `faceIndex?`, `lodLevel?`, `doNotBindFrambuffer?`, `numPostsProcesses?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/postProcessManager.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/postProcessManager.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/postProcessManager.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/postProcessManager.ts#L128)
 
 Manually render a set of post processes to a texture.
 Please note, the frame buffer won't be unbound after the call in case you have more render to do.
@@ -106,7 +108,7 @@ The number of post processes to render. Defaults to the length of the postProces
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/postProcessManager.ts:245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/postProcessManager.ts#L245)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/postProcessManager.ts:248](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/postProcessManager.ts#L248)
 
 Disposes of the post process manager.
 

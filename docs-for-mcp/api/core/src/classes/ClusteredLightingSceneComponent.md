@@ -6,7 +6,7 @@
 
 # Class: ClusteredLightingSceneComponent
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.ts:10](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.ts#L10)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.pure.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.pure.ts#L11)
 
 A scene component required for running the clustering step in clustered lights
 
@@ -20,7 +20,7 @@ A scene component required for running the clustering step in clustered lights
 
 > **new ClusteredLightingSceneComponent**(`scene`): `ClusteredLightingSceneComponent`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.pure.ts#L26)
 
 Creates a new scene component.
 
@@ -42,7 +42,7 @@ The scene the component belongs to
 
 > **name**: `string` = `SceneComponentConstants.NAME_CLUSTEREDLIGHTING`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.pure.ts#L15)
 
 The name of the component. Each component must have a unique name.
 
@@ -56,7 +56,7 @@ The name of the component. Each component must have a unique name.
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.pure.ts#L20)
 
 The scene the component belongs to.
 
@@ -70,7 +70,7 @@ The scene the component belongs to.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.pure.ts#L33)
 
 Disposes the component and the associated resources.
 
@@ -88,7 +88,7 @@ Disposes the component and the associated resources.
 
 > **rebuild**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.pure.ts#L39)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -107,7 +107,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.pure.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Clustered/clusteredLightingSceneComponent.pure.ts#L44)
 
 Register the component to one instance of a scene.
 

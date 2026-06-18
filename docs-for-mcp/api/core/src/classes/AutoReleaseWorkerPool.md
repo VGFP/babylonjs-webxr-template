@@ -6,7 +6,7 @@
 
 # Class: AutoReleaseWorkerPool
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/workerPool.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/workerPool.ts#L95)
 
 Similar to the WorkerPool class except it creates and destroys workers automatically with a maximum of `maxWorkers` workers.
 Workers are terminated when it is idle for at least `idleTimeElapsedBeforeRelease` milliseconds.
@@ -21,7 +21,7 @@ Workers are terminated when it is idle for at least `idleTimeElapsedBeforeReleas
 
 > **new AutoReleaseWorkerPool**(`maxWorkers`, `createWorkerAsync`, `options?`): `AutoReleaseWorkerPool`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/workerPool.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/workerPool.ts#L108)
 
 #### Parameters
 
@@ -51,7 +51,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:108](http
 
 > `static` **DefaultOptions**: [`AutoReleaseWorkerPoolOptions`](../interfaces/AutoReleaseWorkerPoolOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/workerPool.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/workerPool.ts#L100)
 
 Default options for the constructor.
 Override to change the defaults.
@@ -62,7 +62,7 @@ Override to change the defaults.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/workerPool.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/workerPool.ts#L30)
 
 Terminates all workers and clears any pending actions.
 
@@ -80,7 +80,7 @@ Terminates all workers and clears any pending actions.
 
 > **push**(`action`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/workerPool.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/workerPool.ts#L116)
 
 Pushes an action to the worker pool. If all the workers are active, the action will be
 pended until a worker has completed its action.

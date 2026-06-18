@@ -6,7 +6,7 @@
 
 # Class: WebGPURenderTargetWrapper
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/webgpuRenderTargetWrapper.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/WebGPU/webgpuRenderTargetWrapper.ts#L9)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/webgpuRenderTargetWrapper.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/webgpuRenderTargetWrapper.ts#L9)
 
 Specialized class used to store a render target of a WebGPU engine
 
@@ -20,7 +20,7 @@ Specialized class used to store a render target of a WebGPU engine
 
 > **new WebGPURenderTargetWrapper**(`isMulti`, `isCube`, `size`, `engine`, `label?`): `WebGPURenderTargetWrapper`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/webgpuRenderTargetWrapper.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/WebGPU/webgpuRenderTargetWrapper.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/webgpuRenderTargetWrapper.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/webgpuRenderTargetWrapper.ts#L27)
 
 Initializes the render target wrapper
 
@@ -70,7 +70,7 @@ defines the label to use for the wrapper (for debugging purpose only)
 
 > **depthReadOnly**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L200)
 
 Indicates if the depth texture is in read-only mode (may allow some optimizations in WebGPU)
 
@@ -84,7 +84,7 @@ Indicates if the depth texture is in read-only mode (may allow some optimization
 
 > **disableAutomaticMSAAResolve**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:179](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L179)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L179)
 
 Sets this property to true to disable the automatic MSAA resolve that happens when the render target wrapper is unbound (default is false)
 
@@ -98,7 +98,7 @@ Sets this property to true to disable the automatic MSAA resolve that happens wh
 
 > `readonly` `optional` **gpuTimeInFrame?**: `WebGPUPerfCounter`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/webgpuRenderTargetWrapper.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/WebGPU/webgpuRenderTargetWrapper.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/webgpuRenderTargetWrapper.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/webgpuRenderTargetWrapper.ts#L17)
 
 Gets the GPU time spent rendering this render target in the last frame (in nanoseconds).
 You have to enable the "timestamp-query" extension in the engine constructor options and set engine.enableGPUTimingMeasurements = true.
@@ -109,7 +109,7 @@ You have to enable the "timestamp-query" extension in the engine constructor opt
 
 > `optional` **label?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L49)
 
 Gets or sets the label of the render target wrapper (optional, for debugging purpose)
 
@@ -123,7 +123,7 @@ Gets or sets the label of the render target wrapper (optional, for debugging pur
 
 > **resolveMSAAColors**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L185)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L185)
 
 Indicates if MSAA color texture(s) should be resolved when a resolve occur (either automatically by the engine or manually by the user) (default is true)
 Note that you can trigger a MSAA resolve at any time by calling resolveMSAATextures()
@@ -138,7 +138,7 @@ Note that you can trigger a MSAA resolve at any time by calling resolveMSAATextu
 
 > **resolveMSAADepth**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L190)
 
 Indicates if MSAA depth texture should be resolved when a resolve occur (either automatically by the engine or manually by the user) (default is false)
 
@@ -152,7 +152,7 @@ Indicates if MSAA depth texture should be resolved when a resolve occur (either 
 
 > **resolveMSAAStencil**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L195)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L195)
 
 Indicates if MSAA stencil texture should be resolved when a resolve occur (either automatically by the engine or manually by the user) (default is false)
 
@@ -166,7 +166,7 @@ Indicates if MSAA stencil texture should be resolved when a resolve occur (eithe
 
 > **stencilReadOnly**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L205)
 
 Indicates if the stencil texture is in read-only mode (may allow some optimizations in WebGPU)
 
@@ -182,7 +182,7 @@ Indicates if the stencil texture is in read-only mode (may allow some optimizati
 
 > **get** **depth**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L144)
 
 Gets the depth of the render target wrapper (only used if is3D is true and wrapper is not a multi render target)
 
@@ -202,7 +202,7 @@ Gets the depth of the render target wrapper (only used if is3D is true and wrapp
 
 > **get** **depthStencilTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`InternalTexture`](InternalTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L54)
 
 Gets the depth/stencil texture
 
@@ -222,7 +222,7 @@ Gets the depth/stencil texture
 
 > **get** **depthStencilTextureWithStencil**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L81)
 
 Indicates if the depth/stencil texture has a stencil aspect
 
@@ -242,7 +242,7 @@ Indicates if the depth/stencil texture has a stencil aspect
 
 > **get** **faceIndices**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L165)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L165)
 
 Gets the face indices that correspond to the list of render textures. If we are not in a multi render target, the list will be null
 
@@ -262,7 +262,7 @@ Gets the face indices that correspond to the list of render textures. If we are 
 
 > **get** **height**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L130)
 
 Gets the height of the render target wrapper
 
@@ -282,7 +282,7 @@ Gets the height of the render target wrapper
 
 > **get** **is2DArray**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L102)
 
 Defines if the render target wrapper is for a single or an array of textures
 
@@ -302,7 +302,7 @@ Defines if the render target wrapper is for a single or an array of textures
 
 > **get** **is3D**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L109)
 
 Defines if the render target wrapper is for a 3D texture
 
@@ -322,7 +322,7 @@ Defines if the render target wrapper is for a 3D texture
 
 > **get** **isCube**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L88)
 
 Defines if the render target wrapper is for a cube texture or if false a 2d texture
 
@@ -342,7 +342,7 @@ Defines if the render target wrapper is for a cube texture or if false a 2d text
 
 > **get** **isMulti**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L95)
 
 Defines if the render target wrapper is for a single or multi target render wrapper
 
@@ -362,7 +362,7 @@ Defines if the render target wrapper is for a single or multi target render wrap
 
 > **get** **layerIndices**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L172)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L172)
 
 Gets the layer indices that correspond to the list of render textures. If we are not in a multi render target, the list will be null
 
@@ -382,7 +382,7 @@ Gets the layer indices that correspond to the list of render textures. If we are
 
 > **get** **layers**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L137)
 
 Gets the number of layers of the render target wrapper (only used if is2DArray is true and wrapper is not a multi render target)
 
@@ -402,7 +402,7 @@ Gets the number of layers of the render target wrapper (only used if is2DArray i
 
 > **get** **samples**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:228](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L228)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L228)
 
 Gets the sample count of the render target
 
@@ -422,7 +422,7 @@ Gets the sample count of the render target
 
 > **get** **size**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L116)
 
 Gets the size of the render target wrapper (used for cubes, as width=height in this case)
 
@@ -442,7 +442,7 @@ Gets the size of the render target wrapper (used for cubes, as width=height in t
 
 > **get** **texture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`InternalTexture`](InternalTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L151)
 
 Gets the render texture. If this is a multi render target, gets the first texture
 
@@ -462,7 +462,7 @@ Gets the render texture. If this is a multi render target, gets the first textur
 
 > **get** **textures**(): [`Nullable`](../type-aliases/Nullable.md)\<[`InternalTexture`](InternalTexture.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:158](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L158)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L158)
 
 Gets the list of render textures. If we are not in a multi render target, the list will be null (use the texture getter instead)
 
@@ -482,7 +482,7 @@ Gets the list of render textures. If we are not in a multi render target, the li
 
 > **get** **width**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L123)
 
 Gets the width of the render target wrapper
 
@@ -500,7 +500,7 @@ Gets the width of the render target wrapper
 
 > **\_shareDepth**(`renderTarget`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:408](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L408)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:408](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L408)
 
 #### Parameters
 
@@ -528,7 +528,7 @@ Use shareDepth instead
 
 > **createDepthStencilTexture**(`comparisonFunction?`, `bilinearFiltering?`, `generateStencil?`, `samples?`, `format?`, `label?`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:375](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L375)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:375](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L375)
 
 Creates the depth/stencil texture
 
@@ -586,7 +586,7 @@ the depth/stencil created texture
 
 > **dispose**(`disposeOnlyFramebuffers?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:632](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L632)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:632](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L632)
 
 Disposes the whole render target wrapper
 
@@ -612,7 +612,7 @@ true if only the frame buffers should be released (used for the WebGL engine). I
 
 > **generateMipMaps**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:266](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L266)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:266](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L266)
 
 Generates mipmaps for each texture of the render target
 
@@ -630,7 +630,7 @@ Generates mipmaps for each texture of the render target
 
 > **getBaseArrayLayer**(`index`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:213](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L213)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:213](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L213)
 
 Gets the base array layer of a texture in the textures array
 This is an number that is calculated based on the layer and face indices set for this texture at that index
@@ -659,7 +659,7 @@ the base array layer of the texture at the given index
 
 > **releaseTextures**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:619](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L619)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:619](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L619)
 
 Releases the internal render textures
 
@@ -677,7 +677,7 @@ Releases the internal render textures
 
 > **resolveMSAATextures**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L255)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:255](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L255)
 
 Resolves the MSAA textures into their non-MSAA version.
 Note that if samples equals 1 (no MSAA), no resolve is performed.
@@ -696,7 +696,7 @@ Note that if samples equals 1 (no MSAA), no resolve is performed.
 
 > **setDepthStencilTexture**(`texture`, `disposeExisting?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L63)
 
 Sets the depth/stencil texture
 
@@ -728,7 +728,7 @@ True to dispose the existing depth/stencil texture (if any) before replacing it 
 
 > **setLayerAndFaceIndex**(`index?`, `layer?`, `face?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:349](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L349)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:349](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L349)
 
 Sets the layer and face indices of a texture in the textures array that should be bound to each color attachment
 
@@ -766,7 +766,7 @@ The face of the texture to be set
 
 > **setLayerAndFaceIndices**(`layers`, `faces`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:338](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L338)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:338](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L338)
 
 Sets the layer and face indices of every render target texture bound to each color attachment
 
@@ -798,7 +798,7 @@ The faces of each texture to be set
 
 > **setSamples**(`value`, `initializeBuffers?`, `force?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L239)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L239)
 
 Sets the sample count of the render target
 
@@ -838,7 +838,7 @@ the sample count that has been set
 
 > **setTexture**(`texture`, `index?`, `disposePrevious?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:318](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L318)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:318](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L318)
 
 Set a texture in the textures array
 
@@ -876,7 +876,7 @@ If this function should dispose the previous texture
 
 > **setTextures**(`textures`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:302](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L302)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L302)
 
 Sets the render target texture(s)
 
@@ -902,7 +902,7 @@ texture(s) to set
 
 > **shareDepth**(`renderTarget`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:416](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/renderTargetWrapper.ts#L416)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:416](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L416)
 
 Shares the depth buffer of this render target with another render target.
 

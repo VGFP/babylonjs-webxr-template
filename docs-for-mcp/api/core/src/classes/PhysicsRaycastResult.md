@@ -6,7 +6,7 @@
 
 # Class: PhysicsRaycastResult
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsRaycastResult.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsRaycastResult.ts#L24)
 
 Holds the data for the raycast result
 
@@ -38,7 +38,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/physics/usingPhysicsEngine
 
 > `optional` **body?**: [`PhysicsBody`](PhysicsBody.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/castingResult.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/castingResult.ts#L17)
 
 The Physics body that the query hit.
 
@@ -52,7 +52,7 @@ The Physics body that the query hit.
 
 > `optional` **bodyIndex?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/castingResult.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/castingResult.ts#L21)
 
 The body Index in case the Physics body is using instances
 
@@ -66,7 +66,7 @@ The body Index in case the Physics body is using instances
 
 > `optional` **shape?**: [`PhysicsShape`](PhysicsShape.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/castingResult.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/castingResult.ts#L26)
 
 The shape hit by the query.
 
@@ -82,7 +82,7 @@ The shape hit by the query.
 
 > **get** **hasHit**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/castingResult.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/castingResult.ts#L43)
 
 Gets if there was a hit
 
@@ -102,7 +102,7 @@ Gets if there was a hit
 
 > **get** **hitDistance**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsRaycastResult.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsRaycastResult.ts#L32)
 
 Gets the distance from the hit
 
@@ -118,7 +118,7 @@ Gets the distance from the hit
 
 > **get** **hitNormal**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/castingResult.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/castingResult.ts#L37)
 
 Gets the hit normal.
 
@@ -138,7 +138,7 @@ Gets the hit normal.
 
 > **get** **hitNormalWorld**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsRaycastResult.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsRaycastResult.ts#L39)
 
 Gets the hit normal/direction in the world
 
@@ -154,7 +154,7 @@ Gets the hit normal/direction in the world
 
 > **get** **hitPoint**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/castingResult.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/castingResult.ts#L31)
 
 Gets the hit point.
 
@@ -174,7 +174,7 @@ Gets the hit point.
 
 > **get** **hitPointWorld**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsRaycastResult.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsRaycastResult.ts#L46)
 
 Gets the hit point in the world
 
@@ -190,7 +190,7 @@ Gets the hit point in the world
 
 > **get** **rayFromWorld**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsRaycastResult.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsRaycastResult.ts#L53)
 
 Gets the ray "start point" of the ray in the world
 
@@ -206,7 +206,7 @@ Gets the ray "start point" of the ray in the world
 
 > **get** **rayToWorld**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsRaycastResult.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsRaycastResult.ts#L60)
 
 Gets the ray "end point" of the ray in the world
 
@@ -222,7 +222,7 @@ Gets the ray "end point" of the ray in the world
 
 > **get** **triangleIndex**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/castingResult.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/castingResult.ts#L50)
 
 The index of the original triangle which was hit. Will be -1 if contact point is not on a mesh shape
 
@@ -240,7 +240,7 @@ The index of the original triangle which was hit. Will be -1 if contact point is
 
 > **calculateHitDistance**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsRaycastResult.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsRaycastResult.ts#L75)
 
 Calculates the distance manually
 
@@ -254,7 +254,7 @@ Calculates the distance manually
 
 > **reset**(`from?`, `to?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsRaycastResult.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsRaycastResult.ts#L84)
 
 Resets all the values to default
 
@@ -286,7 +286,7 @@ The to point on world space
 
 > **setHitData**(`hitNormal`, `hitPoint`, `triangleIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/castingResult.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/castingResult.ts#L60)
 
 Sets the hit data
 
@@ -324,7 +324,7 @@ defines the index of the triangle in case of mesh shape
 
 > **setHitDistance**(`distance`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsRaycastResult.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsRaycastResult.ts#L68)
 
 Sets the distance from the start point to the hit point
 

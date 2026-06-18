@@ -8,7 +8,7 @@
 
 > `const` **ScreenshotTools**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/screenshotTools.ts:872](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/screenshotTools.ts#L872)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/screenshotTools.pure.ts:874](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/screenshotTools.pure.ts#L874)
 
 Class containing a set of static utilities functions for screenshots
 
@@ -101,13 +101,19 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/renderToPNG
 
 #### Param
 
+**engine**
+
 defines the rendering engine
 
 #### Param
 
+**camera**
+
 defines the source camera. If the camera is not the scene's active camera, [CreateScreenshotUsingRenderTarget](../functions/CreateScreenshotUsingRenderTarget.md) will be used instead, and `useFill` will be ignored
 
 #### Param
+
+**size**
 
 This parameter can be set to a single number or to an object with the
 following (optional) properties: precision, width, height. If a single number is passed,
@@ -117,24 +123,34 @@ rendering at a higher or lower resolution
 
 #### Param
 
+**successCallback**
+
 defines the callback receives a single parameter which contains the
 screenshot as a string of base64-encoded characters. This string can be assigned to the
 src parameter of an <img> to display it
 
 #### Param
 
+**mimeType**
+
 defines the MIME type of the screenshot image (default: image/png).
 Check your browser for supported MIME types
 
 #### Param
 
+**forceDownload**
+
 force the system to download the image even if a successCallback is provided
 
 #### Param
 
+**quality**
+
 The quality of the image if lossy mimeType is used (e.g. image/jpeg, image/webp). See [HTMLCanvasElement.toBlob()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toBlob)'s `quality` parameter.
 
 #### Param
+
+**useFill**
 
 fill the screenshot dimensions with the render canvas and clip any overflow. If false, fit the canvas within the screenshot, as in letterboxing.
 
@@ -220,13 +236,19 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/renderToPNG
 
 #### Param
 
+**engine**
+
 defines the rendering engine
 
 #### Param
 
+**camera**
+
 defines the source camera. If the camera is not the scene's active camera, [CreateScreenshotUsingRenderTarget](../functions/CreateScreenshotUsingRenderTarget.md) will be used instead, and `useFill` will be ignored
 
 #### Param
+
+**size**
 
 This parameter can be set to a single number or to an object with the
 following (optional) properties: precision, width, height. If a single number is passed,
@@ -236,18 +258,26 @@ rendering at a higher or lower resolution
 
 #### Param
 
+**mimeType**
+
 defines the MIME type of the screenshot image (default: image/png).
 Check your browser for supported MIME types
 
 #### Param
 
+**quality**
+
 The quality of the image if lossy mimeType is used (e.g. image/jpeg, image/webp). See [HTMLCanvasElement.toBlob()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toBlob)'s `quality` parameter.
 
 #### Param
 
+**useFill**
+
 fill the screenshot dimensions with the render canvas and clip any overflow. If false, fit the canvas within the screenshot, as in letterboxing.
 
 #### Param
+
+**forceDownload**
 
 force the system to download the image
 
@@ -357,13 +387,19 @@ to the src parameter of an <img> to display it. If automaticDownload is true, nu
 
 #### Param
 
+**frameGraph**
+
 The frame graph to use for rendering
 
 #### Param
 
+**camera**
+
 The camera to use for rendering
 
 #### Param
+
+**size**
 
 This parameter can be set to a single number or to an object with the
 following (optional) properties: precision, width, height. If a single number is passed,
@@ -373,30 +409,44 @@ rendering at a higher or lower resolution
 
 #### Param
 
+**mimeType**
+
 The MIME type of the screenshot image (default: image/png).
 Check your browser for supported MIME types
 
 #### Param
 
+**samples**
+
 Texture samples (default: 1)
 
 #### Param
+
+**antialiasing**
 
 Whether antialiasing should be turned on or not (default: false)
 
 #### Param
 
+**fileName**
+
 A name for for the downloaded file.
 
 #### Param
+
+**quality**
 
 The quality of the image if lossy mimeType is used (e.g. image/jpeg, image/webp). See [HTMLCanvasElement.toBlob()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toBlob)'s `quality` parameter.
 
 #### Param
 
+**customDumpData**
+
 The function to use to dump the data. If not provided, the default DumpData function will be used.
 
 #### Param
+
+**automaticDownload**
 
 If true, the screenshot will be automatically downloaded as a file instead of being returned as a string: in this case, null is returned.
 
@@ -534,13 +584,19 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/renderToPNG
 
 #### Param
 
+**engine**
+
 The engine to use for rendering
 
 #### Param
 
+**camera**
+
 The camera to use for rendering
 
 #### Param
+
+**size**
 
 This parameter can be set to a single number or to an object with the
 following (optional) properties: precision, width, height. If a single number is passed,
@@ -550,36 +606,52 @@ rendering at a higher or lower resolution
 
 #### Param
 
+**successCallback**
+
 The callback receives a single parameter which contains the
 screenshot as a string of base64-encoded characters. This string can be assigned to the
 src parameter of an <img> to display it
 
 #### Param
 
+**mimeType**
+
 The MIME type of the screenshot image (default: image/png).
 Check your browser for supported MIME types
 
 #### Param
 
+**samples**
+
 Texture samples (default: 1)
 
 #### Param
+
+**antialiasing**
 
 Whether antialiasing should be turned on or not (default: false)
 
 #### Param
 
+**fileName**
+
 A name for for the downloaded file.
 
 #### Param
+
+**renderSprites**
 
 Whether the sprites should be rendered or not (default: false)
 
 #### Param
 
+**enableStencilBuffer**
+
 Whether the stencil buffer should be enabled or not (default: false)
 
 #### Param
+
+**quality**
 
 The quality of the image if lossy mimeType is used (e.g. image/jpeg, image/webp). See [HTMLCanvasElement.toBlob()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toBlob)'s `quality` parameter.
 
@@ -695,13 +767,19 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/renderToPNG
 
 #### Param
 
+**engine**
+
 The engine to use for rendering
 
 #### Param
 
+**camera**
+
 The camera to use for rendering
 
 #### Param
+
+**size**
 
 This parameter can be set to a single number or to an object with the
 following (optional) properties: precision, width, height. If a single number is passed,
@@ -711,26 +789,38 @@ rendering at a higher or lower resolution
 
 #### Param
 
+**mimeType**
+
 The MIME type of the screenshot image (default: image/png).
 Check your browser for supported MIME types
 
 #### Param
 
+**samples**
+
 Texture samples (default: 1)
 
 #### Param
+
+**antialiasing**
 
 Whether antialiasing should be turned on or not (default: false)
 
 #### Param
 
+**fileName**
+
 A name for for the downloaded file.
 
 #### Param
 
+**renderSprites**
+
 Whether the sprites should be rendered or not (default: false)
 
 #### Param
+
+**quality**
 
 The quality of the image if lossy mimeType is used (e.g. image/jpeg, image/webp). See [HTMLCanvasElement.toBlob()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toBlob)'s `quality` parameter.
 
@@ -812,30 +902,44 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/renderToPNG
 
 #### Param
 
+**engine**
+
 defines the rendering engine
 
 #### Param
+
+**camera**
 
 defines the source camera. If the camera is not the scene's active camera, [CreateScreenshotUsingRenderTarget](../functions/CreateScreenshotUsingRenderTarget.md) will be used instead, and `useFill` will be ignored
 
 #### Param
 
+**width**
+
 defines the expected width
 
 #### Param
 
+**height**
+
 defines the expected height
 
 #### Param
+
+**mimeType**
 
 defines the MIME type of the screenshot image (default: image/png).
 Check your browser for supported MIME types
 
 #### Param
 
+**quality**
+
 The quality of the image if lossy mimeType is used (e.g. image/jpeg, image/webp). See [HTMLCanvasElement.toBlob()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toBlob)'s `quality` parameter.
 
 #### Param
+
+**useFill**
 
 fill the screenshot dimensions with the render canvas and clip any overflow. If false, fit the canvas within the screenshot, as in letterboxing.
 

@@ -6,7 +6,7 @@
 
 # Interface: ISceneComponent
 
-Defined in: [babylonjs-source/packages/dev/core/src/sceneComponent.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/sceneComponent.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/sceneComponent.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/sceneComponent.ts#L114)
 
 This represents a scene component.
 
@@ -23,7 +23,7 @@ layers, post processes...
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/sceneComponent.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/sceneComponent.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/sceneComponent.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/sceneComponent.ts#L118)
 
 The name of the component. Each component must have a unique name.
 
@@ -33,7 +33,7 @@ The name of the component. Each component must have a unique name.
 
 > **scene**: [`Scene`](../classes/Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/sceneComponent.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/sceneComponent.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/sceneComponent.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/sceneComponent.ts#L123)
 
 The scene the component belongs to.
 
@@ -43,7 +43,7 @@ The scene the component belongs to.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/sceneComponent.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/sceneComponent.ts#L139)
+Defined in: [babylonjs-source/packages/dev/core/src/sceneComponent.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/sceneComponent.ts#L139)
 
 Disposes the component and the associated resources.
 
@@ -57,7 +57,7 @@ Disposes the component and the associated resources.
 
 > **rebuild**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/sceneComponent.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/sceneComponent.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/sceneComponent.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/sceneComponent.ts#L134)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -72,7 +72,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/sceneComponent.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/sceneComponent.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/sceneComponent.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/sceneComponent.ts#L128)
 
 Register the component to one instance of a scene.
 

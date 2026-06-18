@@ -6,7 +6,7 @@
 
 # Class: GUI3DManager
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/gui3DManager.ts#L21)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/gui3DManager.ts#L21)
 
 Class used to manage 3D user interface
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui3D
 
 > **new GUI3DManager**(`scene?`): `GUI3DManager`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/gui3DManager.ts#L100)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/gui3DManager.ts#L100)
 
 Creates a new GUI3DManager
 
@@ -44,7 +44,7 @@ Creates a new GUI3DManager
 
 > **onPickedPointChangedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`Vector3`](../../../core/src/classes/Vector3.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/gui3DManager.ts#L41)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/gui3DManager.ts#L41)
 
 Observable raised when the point picked by the pointer events changed
 
@@ -54,7 +54,7 @@ Observable raised when the point picked by the pointer events changed
 
 > **onPickingObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`AbstractMesh`](../../../core/src/classes/AbstractMesh.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/gui3DManager.ts#L46)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/gui3DManager.ts#L46)
 
 Observable raised when a picking happens
 
@@ -66,7 +66,7 @@ Observable raised when a picking happens
 
 > **get** **controlScaling**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/gui3DManager.ts#L66)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/gui3DManager.ts#L66)
 
 Gets the scaling for all UI elements owned by this manager
 
@@ -78,7 +78,7 @@ Gets the scaling for all UI elements owned by this manager
 
 > **set** **controlScaling**(`newScale`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/gui3DManager.ts#L71)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/gui3DManager.ts#L71)
 
 Sets the scaling adjustment for all UI elements owned by this manager
 
@@ -100,7 +100,7 @@ Sets the scaling adjustment for all UI elements owned by this manager
 
 > **get** **rootContainer**(): [`Container3D`](Container3D.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:204](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/gui3DManager.ts#L204)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:204](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/gui3DManager.ts#L204)
 
 Gets the root container
 
@@ -116,7 +116,7 @@ Gets the root container
 
 > **get** **scene**(): [`Scene`](../../../core/src/classes/Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/gui3DManager.ts#L56)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/gui3DManager.ts#L56)
 
 Gets the hosting scene
 
@@ -132,7 +132,7 @@ Gets the hosting scene
 
 > **get** **useRealisticScaling**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/gui3DManager.ts#L87)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/gui3DManager.ts#L87)
 
 Gets if controls attached to this manager are realistically sized, based on the fact that 1 unit length is 1 meter
 
@@ -144,7 +144,7 @@ Gets if controls attached to this manager are realistically sized, based on the 
 
 > **set** **useRealisticScaling**(`newValue`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/gui3DManager.ts#L92)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/gui3DManager.ts#L92)
 
 Sets if controls attached to this manager are realistically sized, based on the fact that 1 unit length is 1 meter
 
@@ -166,7 +166,7 @@ Sets if controls attached to this manager are realistically sized, based on the 
 
 > **get** **utilityLayer**(): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`UtilityLayerRenderer`](../../../core/src/classes/UtilityLayerRenderer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/gui3DManager.ts#L61)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/gui3DManager.ts#L61)
 
 Gets associated utility layer
 
@@ -180,7 +180,7 @@ Gets associated utility layer
 
 > **addControl**(`control`): `GUI3DManager`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/gui3DManager.ts#L222)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/gui3DManager.ts#L222)
 
 Adds a control to the root child list
 
@@ -204,7 +204,7 @@ the current manager
 
 > **containsControl**(`control`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:213](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/gui3DManager.ts#L213)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:213](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/gui3DManager.ts#L213)
 
 Gets a boolean indicating if the given control is in the root child list
 
@@ -228,7 +228,7 @@ true if the control is in the root child list
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:248](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/gui3DManager.ts#L248)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:248](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/gui3DManager.ts#L248)
 
 Releases all associated resources
 
@@ -246,7 +246,7 @@ Releases all associated resources
 
 > **removeControl**(`control`): `GUI3DManager`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:236](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/gui3DManager.ts#L236)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/gui3DManager.ts:236](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/gui3DManager.ts#L236)
 
 Removes a control from the root child list
 

@@ -6,7 +6,7 @@
 
 # Class: ValueAndUnit
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:7](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L7)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:7](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L7)
 
 Class used to specific a value and its associated unit
 
@@ -16,7 +16,7 @@ Class used to specific a value and its associated unit
 
 > **new ValueAndUnit**(`value`, `unit?`, `negativeValueAllowed?`): `ValueAndUnit`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L29)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L29)
 
 Creates a new ValueAndUnit
 
@@ -50,7 +50,7 @@ defines a boolean indicating if the value can be negative
 
 > **ignoreAdaptiveScaling**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L16)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L16)
 
 Gets or sets a value indicating that this value will not scale accordingly with adaptive scaling property
 
@@ -64,7 +64,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#adaptive-scaling
 
 > **negativeValueAllowed**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L34)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L34)
 
 defines a boolean indicating if the value can be negative
 
@@ -74,7 +74,7 @@ defines a boolean indicating if the value can be negative
 
 > **onChangedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L21)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L21)
 
 Observable event triggered each time the value or unit changes
 
@@ -86,7 +86,7 @@ Observable event triggered each time the value or unit changes
 
 > **get** **internalValue**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L55)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L55)
 
 Gets value (without units)
 
@@ -106,7 +106,7 @@ use value property instead
 
 > **get** **isPercentage**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L42)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L42)
 
 Gets a boolean indicating if the value is a percentage
 
@@ -122,7 +122,7 @@ Gets a boolean indicating if the value is a percentage
 
 > **get** **isPixel**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L47)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L47)
 
 Gets a boolean indicating if the value is store as pixel
 
@@ -138,7 +138,7 @@ Gets a boolean indicating if the value is store as pixel
 
 > **get** **unit**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L73)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L73)
 
 Gets units (without value)
 
@@ -150,7 +150,7 @@ Gets units (without value)
 
 > **set** **unit**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L78)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L78)
 
 Sets units (without value)
 
@@ -172,7 +172,7 @@ Sets units (without value)
 
 > **get** **value**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L60)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L60)
 
 Gets value (without units)
 
@@ -184,7 +184,7 @@ Gets value (without units)
 
 > **set** **value**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L65)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L65)
 
 Sets value (without units)
 
@@ -206,7 +206,7 @@ Sets value (without units)
 
 > **get** `static` **UNITMODE\_PERCENTAGE**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L222)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L222)
 
 UNITMODE_PERCENTAGE
 
@@ -222,7 +222,7 @@ UNITMODE_PERCENTAGE
 
 > **get** `static` **UNITMODE\_PIXEL**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:227](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L227)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L227)
 
 UNITMODE_PIXEL
 
@@ -236,7 +236,7 @@ UNITMODE_PIXEL
 
 > **fromString**(`source`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L177)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L177)
 
 Store a value parsed from a string
 
@@ -260,7 +260,7 @@ true if the value was successfully parsed and updated
 
 > **getValue**(`host`): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L121)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L121)
 
 Gets the value accordingly to its unit
 
@@ -284,7 +284,7 @@ the value
 
 > **getValueInPixel**(`host`, `refValue`): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L91)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L91)
 
 Gets value as pixel
 
@@ -314,7 +314,7 @@ the value as pixel
 
 > **toString**(`host`, `decimals?`): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:157](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L157)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:157](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L157)
 
 Gets a string representation of the value
 
@@ -344,7 +344,7 @@ a string
 
 > **updateInPlace**(`value`, `unit?`): `ValueAndUnit`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/valueAndUnit.ts#L105)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/valueAndUnit.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/valueAndUnit.ts#L105)
 
 Update the current value and unit.
 

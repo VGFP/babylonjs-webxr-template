@@ -6,7 +6,7 @@
 
 # Class: GIRSMManager
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L41)
 
 Class used to manage the global illumination contribution calculated from reflective shadow maps (RSM).
 
@@ -16,7 +16,7 @@ Class used to manage the global illumination contribution calculated from reflec
 
 > **new GIRSMManager**(`scene`, `outputDimensions`, `giTextureDimensions?`, `maxSamples?`, `giTextureType?`): `GIRSMManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:439](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L439)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:440](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L440)
 
 Creates a new GIRSMManager
 
@@ -74,7 +74,7 @@ The texture type used by the GI texture. Default is Constants.TEXTURETYPE_UNSIGN
 
 > **blurDepthThreshold**: `number` = `0.05`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:154](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L154)
 
 Defines the depth threshold used by the bilateral blur post-processes (also used by the upsampling, if enabled).
 You may have to change this value, depending on your scene.
@@ -85,7 +85,7 @@ You may have to change this value, depending on your scene.
 
 > **blurKernel**: `number` = `12`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:164](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L164)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L165)
 
 Defines the kernel size used by the bilateral blur post-processes. Default is 12.
 
@@ -95,7 +95,7 @@ Defines the kernel size used by the bilateral blur post-processes. Default is 12
 
 > **blurNormalThreshold**: `number` = `0.25`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L159)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L160)
 
 Defines the normal threshold used by the bilateral blur post-processes (also used by the upsampling, if enabled).
 You may have to change this value, depending on your scene.
@@ -106,7 +106,7 @@ You may have to change this value, depending on your scene.
 
 > **pause**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L112)
 
 Defines if the global illumination calculation is paused or not.
 Use this setting to pause the global illumination calculation when you know that the scene (camera/mesh/light positions) is not changing anymore to save some GPU power.
@@ -118,7 +118,7 @@ The scene will still be rendered with the latest global illumination contributio
 
 > **upsamplerKernel**: `number` = `6`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:206](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L206)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:207](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L207)
 
 Defines the kernel size used by the bilateral upsampling post-processes. Default is 6.
 
@@ -128,7 +128,7 @@ Defines the kernel size used by the bilateral upsampling post-processes. Default
 
 > `static` **GeometryBufferTextureTypesAndFormats**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L69)
 
 Defines the default texture types and formats used by the geometry buffer renderer.
 
@@ -144,7 +144,7 @@ Defines the default texture types and formats used by the geometry buffer render
 
 > **get** **countersGPU**(): `object`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:361](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L361)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:362](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L362)
 
 Gets the list of GPU counters used by the manager.
 GPU timing measurements must be enabled for the counters to be filled (engine.enableGPUTimingMeasurements = true).
@@ -162,7 +162,7 @@ Only available with WebGPU. You will still get the list of counters with other e
 
 > **get** **enable**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L82)
 
 Enables or disables the manager. Default is false.
 If disabled, the global illumination won't be calculated and the scene will be rendered normally, without any global illumination contribution.
@@ -175,7 +175,7 @@ If disabled, the global illumination won't be calculated and the scene will be r
 
 > **set** **enable**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L86)
 
 ##### Parameters
 
@@ -195,7 +195,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination
 
 > **get** **enableBlur**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L119)
 
 Defines if the global illumination contribution should be blurred or not (using a bilateral blur). Default is true.
 
@@ -207,7 +207,7 @@ Defines if the global illumination contribution should be blurred or not (using 
 
 > **set** **enableBlur**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L122)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L123)
 
 ##### Parameters
 
@@ -227,7 +227,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination
 
 > **get** **fullSizeBlur**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L172)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L173)
 
 Defines if the blur should be done at full resolution or not. Default is false.
 If this setting is enabled, upampling will be disabled (ignored) as it is not needed anymore.
@@ -240,7 +240,7 @@ If this setting is enabled, upampling will be disabled (ignored) as it is not ne
 
 > **set** **fullSizeBlur**(`mode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L177)
 
 ##### Parameters
 
@@ -260,7 +260,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination
 
 > **get** **giRSM**(): [`GIRSM`](GIRSM.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:296](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L296)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:297](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L297)
 
 Gets the list of GIRSM used by the manager.
 
@@ -276,7 +276,7 @@ Gets the list of GIRSM used by the manager.
 
 > **get** **giTextureType**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:272](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L272)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:273](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L273)
 
 Gets or sets the texture type used by the GI texture. Default is Constants.TEXTURETYPE_UNSIGNED_INT_2_10_10_10_REV.
 
@@ -288,7 +288,7 @@ Gets or sets the texture type used by the GI texture. Default is Constants.TEXTU
 
 > **set** **giTextureType**(`textureType`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:276](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L276)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:277](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L277)
 
 ##### Parameters
 
@@ -308,7 +308,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:289](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L289)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:290](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L290)
 
 Gets the shader language used in this material.
 
@@ -324,7 +324,7 @@ Gets the shader language used in this material.
 
 > **get** **showOnlyGI**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:214](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L214)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:215](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L215)
 
 Defines if the debug layer should be enabled or not. Default is false.
 Use this setting for debugging purpose, to show the global illumination contribution only.
@@ -337,7 +337,7 @@ Use this setting for debugging purpose, to show the global illumination contribu
 
 > **set** **showOnlyGI**(`show`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:218](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L218)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L219)
 
 ##### Parameters
 
@@ -357,7 +357,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination
 
 > **get** **use32BitsDepthBuffer**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:232](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L232)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:233](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L233)
 
 Defines if the depth buffer used by the geometry buffer renderer should be 32 bits or not. Default is false (16 bits).
 
@@ -369,7 +369,7 @@ Defines if the depth buffer used by the geometry buffer renderer should be 32 bi
 
 > **set** **use32BitsDepthBuffer**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:236](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L236)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:237](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L237)
 
 ##### Parameters
 
@@ -389,7 +389,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination
 
 > **get** **useQualityBlur**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:136](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L136)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L137)
 
 Defines if the blur should be done with a better quality but slower or not. Default is false.
 
@@ -401,7 +401,7 @@ Defines if the blur should be done with a better quality but slower or not. Defa
 
 > **set** **useQualityBlur**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L140)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L141)
 
 ##### Parameters
 
@@ -421,7 +421,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination
 
 > **get** **useQualityUpsampling**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:191](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L191)
 
 Defines if the upsampling should be done with a better quality but slower or not. Default is false.
 
@@ -433,7 +433,7 @@ Defines if the upsampling should be done with a better quality but slower or not
 
 > **set** **useQualityUpsampling**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:194](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L194)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L195)
 
 ##### Parameters
 
@@ -451,7 +451,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination
 
 > **addGIRSM**(`rsm`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:304](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L304)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:305](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L305)
 
 Adds a (list of) GIRSM to the manager.
 
@@ -473,7 +473,7 @@ The GIRSM (or array of GIRSM) to add to the manager
 
 > **addMaterial**(`material?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:344](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L344)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L345)
 
 Add a material to the manager. This will enable the global illumination contribution for the material.
 
@@ -495,7 +495,7 @@ Material that will be affected by the global illumination contribution. If not p
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:423](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L423)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:424](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L424)
 
 Disposes the manager.
 
@@ -509,7 +509,7 @@ Disposes the manager.
 
 > **generateSampleTexture**(`maxSamples`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:387](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L387)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:388](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L388)
 
 Generates the sample texture used by the the global illumination calculation process.
 
@@ -531,7 +531,7 @@ The maximum number of samples to generate in the texture. Default value is 2048.
 
 > **recreateResources**(`disposeGeometryBufferRenderer?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:370](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L370)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:371](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L371)
 
 Recreates the resources used by the manager.
 You should normally not have to call this method manually, except if you change the useFullTexture property of a GIRSM, because the manager won't track this change.
@@ -554,7 +554,7 @@ Defines if the geometry buffer renderer should be disposed and recreated. Defaul
 
 > **removeGIRSM**(`rsm`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:318](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L318)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:319](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L319)
 
 Removes a (list of) GIRSM from the manager.
 
@@ -576,7 +576,7 @@ The GIRSM (or array of GIRSM) to remove from the manager
 
 > **setGITextureDimensions**(`dimensions`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:262](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L262)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:263](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L263)
 
 Sets the dimensions of the GI texture. Try to use the smallest size possible for better performance.
 
@@ -604,7 +604,7 @@ The dimensions of the GI texture (width and height)
 
 > **setOutputDimensions**(`dimensions`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts:251](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.ts#L251)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts:252](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/GlobalIllumination/giRSMManager.pure.ts#L252)
 
 Sets the output dimensions of the final process. It should normally be the same as the output dimensions of the screen.
 

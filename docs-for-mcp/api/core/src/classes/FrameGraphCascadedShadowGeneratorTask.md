@@ -6,7 +6,7 @@
 
 # Class: FrameGraphCascadedShadowGeneratorTask
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L13)
 
 Task used to generate a cascaded shadow map from a list of objects.
 
@@ -20,7 +20,7 @@ Task used to generate a cascaded shadow map from a list of objects.
 
 > **new FrameGraphCascadedShadowGeneratorTask**(`name`, `frameGraph`): `FrameGraphCascadedShadowGeneratorTask`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:221](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L221)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L221)
 
 Creates a new shadow generator task.
 
@@ -52,7 +52,7 @@ The frame graph the task belongs to.
 
 > `optional` **dependencies?**: `Set`\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
 
 The (texture) dependencies of the task (optional).
 
@@ -66,7 +66,7 @@ The (texture) dependencies of the task (optional).
 
 > `optional` **depthTexture?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L31)
 
 The depth texture used by the autoCalcDepthBounds feature (optional if autoCalcDepthBounds is set to false).
 This texture is used to compute the min/max depth bounds of the scene to setup the cascaded shadow generator.
@@ -79,7 +79,7 @@ Warning: Do not set a texture if you are not using the autoCalcDepthBounds featu
 
 > **depthTextureType**: `DepthTextureType` = `DepthTextureType.NormalizedViewDepth`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L36)
 
 The type of the depth texture used by the autoCalcDepthBounds feature.
 
@@ -89,7 +89,7 @@ The type of the depth texture used by the autoCalcDepthBounds feature.
 
 > **objectList**: [`FrameGraphObjectList`](FrameGraphObjectList.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L12)
 
 The object list that generates shadows.
 
@@ -103,7 +103,7 @@ The object list that generates shadows.
 
 > **onAfterTaskExecute**: [`Observable`](Observable.md)\<[`FrameGraphTask`](FrameGraphTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
 
 An observable that is triggered after the task is executed.
 
@@ -117,7 +117,7 @@ An observable that is triggered after the task is executed.
 
 > **onBeforeTaskExecute**: [`Observable`](Observable.md)\<[`FrameGraphTask`](FrameGraphTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
 
 An observable that is triggered before the task is executed.
 
@@ -131,7 +131,7 @@ An observable that is triggered before the task is executed.
 
 > **onTexturesAllocatedObservable**: [`Observable`](Observable.md)\<[`FrameGraphRenderContext`](FrameGraphRenderContext.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
 
 An observable that is triggered after the textures have been allocated.
 
@@ -145,7 +145,7 @@ An observable that is triggered after the textures have been allocated.
 
 > `readonly` **outputTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:273](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L273)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:273](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L273)
 
 The shadow map texture.
 
@@ -159,7 +159,7 @@ The shadow map texture.
 
 > `readonly` **shadowGenerator**: [`ShadowGenerator`](ShadowGenerator.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:268](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L268)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:268](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L268)
 
 The shadow generator.
 
@@ -175,7 +175,7 @@ The shadow generator.
 
 > **get** **autoCalcDepthBounds**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:157](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L157)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:157](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L157)
 
 Gets or sets a value indicating whether the shadow generator should automatically calculate the depth bounds.
 
@@ -187,7 +187,7 @@ Gets or sets a value indicating whether the shadow generator should automaticall
 
 > **set** **autoCalcDepthBounds**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:161](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L161)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:161](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L161)
 
 ##### Parameters
 
@@ -207,7 +207,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/c
 
 > **get** **autoCalcDepthBoundsRefreshRate**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:186](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L186)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:186](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L186)
 
 Defines the refresh rate of the min/max computation used when autoCalcDepthBounds is set to true
 Use 0 to compute just once, 1 to compute on every frame, 2 to compute every two frames and so on...
@@ -220,7 +220,7 @@ Use 0 to compute just once, 1 to compute on every frame, 2 to compute every two 
 
 > **set** **autoCalcDepthBoundsRefreshRate**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L190)
 
 ##### Parameters
 
@@ -240,7 +240,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/c
 
 > **get** **bias**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L117)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L117)
 
 The bias to apply to the shadow map.
 
@@ -252,7 +252,7 @@ The bias to apply to the shadow map.
 
 > **set** **bias**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L121)
 
 ##### Parameters
 
@@ -276,7 +276,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/s
 
 > **get** **camera**(): [`Camera`](Camera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L39)
 
 Gets or sets the camera used to generate the shadow generator.
 
@@ -288,7 +288,7 @@ Gets or sets the camera used to generate the shadow generator.
 
 > **set** **camera**(`camera`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L43)
 
 ##### Parameters
 
@@ -312,7 +312,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/s
 
 > **get** **cascadeBlendPercentage**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L119)
 
 Gets or sets the cascade blend percentage.
 
@@ -324,7 +324,7 @@ Gets or sets the cascade blend percentage.
 
 > **set** **cascadeBlendPercentage**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L123)
 
 ##### Parameters
 
@@ -344,7 +344,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/c
 
 > **get** **darkness**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L155)
 
 The darkness of the shadows.
 
@@ -356,7 +356,7 @@ The darkness of the shadows.
 
 > **set** **darkness**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L159)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L159)
 
 ##### Parameters
 
@@ -380,7 +380,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/s
 
 > **get** **debug**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L62)
 
 Gets or sets a value indicating whether the shadow generator should display the cascades.
 
@@ -392,7 +392,7 @@ Gets or sets a value indicating whether the shadow generator should display the 
 
 > **set** **debug**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L66)
 
 ##### Parameters
 
@@ -412,7 +412,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/c
 
 > **get** **depthClamp**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L138)
 
 Gets or sets a value indicating whether the shadow generator should use depth clamping.
 
@@ -424,7 +424,7 @@ Gets or sets a value indicating whether the shadow generator should use depth cl
 
 > **set** **depthClamp**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L142)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L142)
 
 ##### Parameters
 
@@ -444,7 +444,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/c
 
 > **get** **disabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L43)
 
 Whether the task is disabled.
 
@@ -456,7 +456,7 @@ Whether the task is disabled.
 
 > **set** **disabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L47)
 
 ##### Parameters
 
@@ -480,7 +480,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts
 
 > **get** **enableSoftTransparentShadow**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:193](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L193)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L193)
 
 Enables or disables shadows with varying strength based on the transparency
 
@@ -492,7 +492,7 @@ Enables or disables shadows with varying strength based on the transparency
 
 > **set** **enableSoftTransparentShadow**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:197](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L197)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L197)
 
 ##### Parameters
 
@@ -516,7 +516,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/s
 
 > **get** **filter**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:231](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L231)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L231)
 
 The filter to apply to the shadow map.
 
@@ -528,7 +528,7 @@ The filter to apply to the shadow map.
 
 > **set** **filter**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:235](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L235)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:235](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L235)
 
 ##### Parameters
 
@@ -552,7 +552,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/s
 
 > **get** **filteringQuality**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:250](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L250)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:250](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L250)
 
 The filtering quality to apply to the filter.
 
@@ -564,7 +564,7 @@ The filtering quality to apply to the filter.
 
 > **set** **filteringQuality**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:254](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L254)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L254)
 
 ##### Parameters
 
@@ -588,7 +588,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/s
 
 > **get** **lambda**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L100)
 
 Gets or sets the lambda parameter of the shadow generator.
 
@@ -600,7 +600,7 @@ Gets or sets the lambda parameter of the shadow generator.
 
 > **set** **lambda**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L104)
 
 ##### Parameters
 
@@ -620,7 +620,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/c
 
 > **get** **light**(): [`IShadowLight`](../interfaces/IShadowLight.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L18)
 
 The light to generate shadows from.
 
@@ -632,7 +632,7 @@ The light to generate shadows from.
 
 > **set** **light**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L22)
 
 ##### Parameters
 
@@ -656,7 +656,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/s
 
 > **get** **mapSize**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L57)
 
 The size of the shadow map.
 
@@ -668,7 +668,7 @@ The size of the shadow map.
 
 > **set** **mapSize**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L61)
 
 ##### Parameters
 
@@ -692,7 +692,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/s
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L30)
 
 The name of the task.
 
@@ -704,7 +704,7 @@ The name of the task.
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L34)
 
 ##### Parameters
 
@@ -728,7 +728,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts
 
 > **get** **normalBias**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:136](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L136)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L136)
 
 The normal bias to apply to the shadow map.
 
@@ -740,7 +740,7 @@ The normal bias to apply to the shadow map.
 
 > **set** **normalBias**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L140)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L140)
 
 ##### Parameters
 
@@ -764,7 +764,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/s
 
 > **get** **numCascades**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L42)
 
 The number of cascades.
 
@@ -776,7 +776,7 @@ The number of cascades.
 
 > **set** **numCascades**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L46)
 
 ##### Parameters
 
@@ -796,7 +796,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/c
 
 > **get** **passes**(): [`IFrameGraphPass`](../interfaces/IFrameGraphPass.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
 
 Gets the passes of the task.
 
@@ -816,7 +816,7 @@ Gets the passes of the task.
 
 > **get** **passesDisabled**(): [`IFrameGraphPass`](../interfaces/IFrameGraphPass.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
 
 Gets the disabled passes of the task.
 
@@ -836,7 +836,7 @@ Gets the disabled passes of the task.
 
 > **get** **shadowMaxZ**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:199](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L199)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:199](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L199)
 
 Gets or sets the maximum shadow Z value.
 
@@ -848,7 +848,7 @@ Gets or sets the maximum shadow Z value.
 
 > **set** **shadowMaxZ**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:203](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L203)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:203](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L203)
 
 ##### Parameters
 
@@ -868,7 +868,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/c
 
 > **get** **stabilizeCascades**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L81)
 
 Gets or sets a value indicating whether the shadow generator should stabilize the cascades.
 
@@ -880,7 +880,7 @@ Gets or sets a value indicating whether the shadow generator should stabilize th
 
 > **set** **stabilizeCascades**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L85)
 
 ##### Parameters
 
@@ -900,7 +900,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/c
 
 > **get** **transparencyShadow**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:174](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L174)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L174)
 
 Gets or sets the ability to have transparent shadow
 
@@ -912,7 +912,7 @@ Gets or sets the ability to have transparent shadow
 
 > **set** **transparencyShadow**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L178)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L178)
 
 ##### Parameters
 
@@ -936,7 +936,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/s
 
 > **get** **useFloat32TextureType**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L77)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L77)
 
 If true, the shadow map will use a 32 bits float texture type (else, 16 bits float is used if supported).
 
@@ -948,7 +948,7 @@ If true, the shadow map will use a 32 bits float texture type (else, 16 bits flo
 
 > **set** **useFloat32TextureType**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L81)
 
 ##### Parameters
 
@@ -972,7 +972,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/s
 
 > **get** **useOpacityTextureForTransparentShadow**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:212](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L212)
 
 If this is true, use the opacity texture's alpha channel for transparent shadows instead of the diffuse one
 
@@ -984,7 +984,7 @@ If this is true, use the opacity texture's alpha channel for transparent shadows
 
 > **set** **useOpacityTextureForTransparentShadow**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L216)
 
 ##### Parameters
 
@@ -1008,7 +1008,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/s
 
 > **get** **useRedTextureFormat**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L97)
 
 If true, the shadow map will use a red texture format (else, a RGBA format is used).
 
@@ -1020,7 +1020,7 @@ If true, the shadow map will use a red texture format (else, a RGBA format is us
 
 > **set** **useRedTextureFormat**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L101)
 
 ##### Parameters
 
@@ -1042,7 +1042,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/s
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:370](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L370)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:370](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L370)
 
 Disposes of the task.
 
@@ -1060,7 +1060,7 @@ Disposes of the task.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:299](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L299)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:299](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L299)
 
 Gets the current class name
 
@@ -1080,7 +1080,7 @@ the class name
 
 > **initAsync**(): `Promise`\<`unknown`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L90)
 
 This function is called once after the task has been added to the frame graph and before the frame graph is built for the first time.
 This allows you to initialize asynchronous resources, which is not possible in the constructor.
@@ -1101,7 +1101,7 @@ A promise that resolves when the initialization is complete.
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:319](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L319)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts:319](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/shadowGeneratorTask.ts#L319)
 
 Checks if the task is ready to be executed.
 
@@ -1121,7 +1121,7 @@ True if the task is ready to be executed, else false.
 
 > **record**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:303](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L303)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:303](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L303)
 
 Records the task in the frame graph. Use this function to add content (render passes, ...) to the task.
 
@@ -1139,7 +1139,7 @@ Records the task in the frame graph. Use this function to add content (render pa
 
 > `static` **IsCascadedShadowGenerator**(`task`): `task is FrameGraphCascadedShadowGeneratorTask`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/csmShadowGeneratorTask.ts#L21)
 
 Checks if a shadow generator task is a cascaded shadow generator task.
 

@@ -6,7 +6,7 @@
 
 # Interface: IShadowGenerator
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L75)
 
 Interface to implement to create a shadow generator compatible with BJS.
 
@@ -16,7 +16,7 @@ Interface to implement to create a shadow generator compatible with BJS.
 
 > `optional` **doNotSerialize?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L82)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L83)
 
 Specifies if the `ShadowGenerator` should be serialized, `true` to skip serialization.
 Note a `ShadowGenerator` will not be serialized if its light has `doNotSerialize=true`
@@ -27,7 +27,7 @@ Note a `ShadowGenerator` will not be serialized if its light has `doNotSerialize
 
 > **id**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L77)
 
 Gets or set the id of the shadow generator. It will be the one from the light if not defined
 
@@ -37,7 +37,7 @@ Gets or set the id of the shadow generator. It will be the one from the light if
 
 > **bindShadowLight**(`lightIndex`, `effect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L113)
 
 Binds the shadow related information inside of an effect (information like near, far, darkness...
 defined in the generator but impacting the effect).
@@ -67,7 +67,7 @@ The effect we are binding the information for
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:149](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L149)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L150)
 
 Disposes the Shadow map and related Textures and effects.
 
@@ -81,7 +81,7 @@ Disposes the Shadow map and related Textures and effects.
 
 > **forceCompilation**(`onCompiled?`, `options?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L131)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L132)
 
 Forces all the attached effect to compile to enable rendering only once ready vs. lazily compiling effects.
 
@@ -109,7 +109,7 @@ Sets of optional options forcing the compilation with different modes
 
 > **forceCompilationAsync**(`options?`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L139)
 
 Forces all the attached effect to compile to enable rendering only once ready vs. lazily compiling effects.
 
@@ -133,7 +133,7 @@ A promise that resolves when the compilation completes
 
 > **getShadowMap**(): [`Nullable`](../type-aliases/Nullable.md)\<[`RenderTargetTexture`](../classes/RenderTargetTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L89)
 
 Gets the main RTT containing the shadow map (usually storing depth from the light point of view).
 
@@ -149,7 +149,7 @@ The render target texture if present otherwise, null
 
 > **getTransformMatrix**(): [`Matrix`](../classes/Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L119)
 
 Gets the transformation matrix used to project the meshes into the map from the light point of view.
 (eq to shadow projection matrix * light transform matrix)
@@ -166,7 +166,7 @@ The transform matrix used to create the shadow map
 
 > **isReady**(`subMesh`, `useInstances`, `isTransparent`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L98)
 
 Determine whether the shadow generator is ready or not (mainly all effects and related post processes needs to be ready).
 
@@ -202,7 +202,7 @@ true if ready otherwise, false
 
 > **prepareDefines**(`defines`, `lightIndex`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L105)
 
 Prepare all the defines in a material relying on a shadow map at the specified light index.
 
@@ -230,7 +230,7 @@ Index of the light in the enabled light list of the material
 
 > **recreateShadowMap**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L124)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L125)
 
 Recreates the shadow map dependencies like RTT and post processes. This can be used during the switch between
 Cube and 2D textures for instance.
@@ -245,7 +245,7 @@ Cube and 2D textures for instance.
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/Shadows/shadowGenerator.ts#L145)
 
 Serializes the shadow generator setup to a json object.
 

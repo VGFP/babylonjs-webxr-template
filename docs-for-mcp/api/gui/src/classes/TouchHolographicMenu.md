@@ -6,7 +6,7 @@
 
 # Class: TouchHolographicMenu
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts#L20)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts#L20)
 
 Simple menu that can contain holographic buttons
 
@@ -25,7 +25,7 @@ Simple menu that can contain holographic buttons
 
 > **new TouchHolographicMenu**(`name?`): `TouchHolographicMenu`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts#L135)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts#L135)
 
 Creates a holographic menu GUI 3D control
 
@@ -51,7 +51,7 @@ name of the menu
 
 > **margin**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts#L25)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts#L25)
 
 Gets or sets the distance between elements
 
@@ -65,7 +65,7 @@ Gets or sets the distance between elements
 
 > `optional` **name?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L216)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:220](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L220)
 
 Defines the control name
 
@@ -79,7 +79,7 @@ Defines the control name
 
 > **onPointerClickObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Vector3WithInfo`](Vector3WithInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L106)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L106)
 
 An event triggered when a control is clicked on (with a mouse)
 
@@ -93,7 +93,7 @@ An event triggered when a control is clicked on (with a mouse)
 
 > **onPointerDownObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Vector3WithInfo`](Vector3WithInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L96)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L96)
 
 An event triggered when the pointer taps the control
 
@@ -107,7 +107,7 @@ An event triggered when the pointer taps the control
 
 > **onPointerEnterObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Control3D`](Control3D.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L111)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L111)
 
 An event triggered when pointer enters the control
 
@@ -121,7 +121,7 @@ An event triggered when pointer enters the control
 
 > **onPointerMoveObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Vector3`](../../../core/src/classes/Vector3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L86)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L86)
 
 An event triggered when the pointer moves over the control
 
@@ -135,7 +135,7 @@ An event triggered when the pointer moves over the control
 
 > **onPointerOutObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Control3D`](Control3D.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L91)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L91)
 
 An event triggered when the pointer moves out of the control
 
@@ -149,7 +149,7 @@ An event triggered when the pointer moves out of the control
 
 > **onPointerUpObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Vector3WithInfo`](Vector3WithInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L101)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L101)
 
 An event triggered when pointer is up
 
@@ -163,7 +163,7 @@ An event triggered when pointer is up
 
 > **parent**: [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`Container3D`](Container3D.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L116)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L116)
 
 Gets or sets the parent container
 
@@ -177,7 +177,7 @@ Gets or sets the parent container
 
 > **pointerDownAnimation**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L79)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L79)
 
 Callback used to start pointer down animation
 
@@ -195,7 +195,7 @@ Callback used to start pointer down animation
 
 > **pointerEnterAnimation**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L75)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L75)
 
 Callback used to start pointer enter animation
 
@@ -213,7 +213,7 @@ Callback used to start pointer enter animation
 
 > **pointerOutAnimation**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L77)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L77)
 
 Callback used to start pointer out animation
 
@@ -231,7 +231,7 @@ Callback used to start pointer out animation
 
 > **pointerUpAnimation**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L81)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L81)
 
 Callback used to start pointer up animation
 
@@ -249,7 +249,7 @@ Callback used to start pointer up animation
 
 > `readonly` `static` **FACEFORWARD\_ORIENTATION**: `3` = `3`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:156](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/container3D.ts#L156)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/container3D.ts#L156)
 
 Control will rotate to look at z axis (0, 0, 1)
 
@@ -263,7 +263,7 @@ Control will rotate to look at z axis (0, 0, 1)
 
 > `readonly` `static` **FACEFORWARDREVERSED\_ORIENTATION**: `4` = `4`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/container3D.ts#L159)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/container3D.ts#L159)
 
 Control will rotate to look at negative z axis (0, 0, -1)
 
@@ -277,7 +277,7 @@ Control will rotate to look at negative z axis (0, 0, -1)
 
 > `readonly` `static` **FACEORIGIN\_ORIENTATION**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/container3D.ts#L150)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/container3D.ts#L150)
 
 Control will rotate to make it look at sphere central axis
 
@@ -291,7 +291,7 @@ Control will rotate to make it look at sphere central axis
 
 > `readonly` `static` **FACEORIGINREVERSED\_ORIENTATION**: `2` = `2`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/container3D.ts#L153)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/container3D.ts#L153)
 
 Control will rotate to make it look back at sphere central axis
 
@@ -305,7 +305,7 @@ Control will rotate to make it look back at sphere central axis
 
 > `readonly` `static` **UNSET\_ORIENTATION**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:147](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/container3D.ts#L147)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:147](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/container3D.ts#L147)
 
 Control rotation will remain unchanged
 
@@ -321,7 +321,7 @@ Control rotation will remain unchanged
 
 > **get** **backPlateMargin**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts#L40)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts#L40)
 
 Gets or sets the margin size of the backplate in button size units.
 Setting this to 1, will make the backPlate margin the size of 1 button
@@ -334,7 +334,7 @@ Setting this to 1, will make the backPlate margin the size of 1 button
 
 > **set** **backPlateMargin**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts#L44)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts#L44)
 
 ##### Parameters
 
@@ -354,7 +354,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/touchHolographicM
 
 > **get** **behaviors**(): [`Behavior`](../../../core/src/interfaces/Behavior.md)\<[`Control3D`](Control3D.md)\>[]
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L125)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L125)
 
 Gets the list of attached behaviors
 
@@ -378,7 +378,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **get** **blockLayout**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/container3D.ts#L29)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/container3D.ts#L29)
 
 Gets or sets a boolean indicating if the layout must be blocked (default is false).
 This is helpful to optimize layout operation when adding multiple children in a row
@@ -391,7 +391,7 @@ This is helpful to optimize layout operation when adding multiple children in a 
 
 > **set** **blockLayout**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/container3D.ts#L33)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/container3D.ts#L33)
 
 ##### Parameters
 
@@ -415,7 +415,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:33
 
 > **get** **children**(): [`Control3D`](Control3D.md)[]
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/container3D.ts#L21)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/container3D.ts#L21)
 
 Gets the list of child controls
 
@@ -435,7 +435,7 @@ Gets the list of child controls
 
 > **get** **columns**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts#L57)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts#L57)
 
 Gets or sets the number of columns requested (10 by default).
 The panel will automatically compute the number of rows based on number of child controls.
@@ -448,7 +448,7 @@ The panel will automatically compute the number of rows based on number of child
 
 > **set** **columns**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts#L61)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts#L61)
 
 ##### Parameters
 
@@ -472,7 +472,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/volumeBasedPanel.
 
 > **get** **isVisible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:193](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L193)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L197)
 
 Gets or sets a boolean indicating if the control is visible
 
@@ -484,7 +484,7 @@ Gets or sets a boolean indicating if the control is visible
 
 > **set** **isVisible**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:197](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L197)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L201)
 
 ##### Parameters
 
@@ -508,7 +508,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:197]
 
 > **get** **mesh**(): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`AbstractMesh`](../../../core/src/classes/AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:248](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L248)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:252](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L252)
 
 Gets the mesh used to render this control
 
@@ -528,7 +528,7 @@ Gets the mesh used to render this control
 
 > **get** **node**(): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`TransformNode`](../../../core/src/classes/TransformNode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:241](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L241)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L245)
 
 Gets the transform node used by this control
 
@@ -548,7 +548,7 @@ Gets the transform node used by this control
 
 > **get** **orientation**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts#L37)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts#L37)
 
 Gets or sets the orientation to apply to all controls (BABYLON.Container3D.FaceOriginReversedOrientation by default)
 | Value | Type                                | Description |
@@ -567,7 +567,7 @@ Gets or sets the orientation to apply to all controls (BABYLON.Container3D.FaceO
 
 > **set** **orientation**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts#L41)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts#L41)
 
 ##### Parameters
 
@@ -591,7 +591,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/volumeBasedPanel.
 
 > **get** **position**(): [`Vector3`](../../../core/src/classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L36)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L36)
 
 Gets or sets the control position in world space
 
@@ -603,7 +603,7 @@ Gets or sets the control position in world space
 
 > **set** **position**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L45)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L45)
 
 ##### Parameters
 
@@ -627,7 +627,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:45](
 
 > **get** **rows**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts#L78)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts#L78)
 
 Gets or sets a the number of rows requested.
 The panel will automatically compute the number of columns based on number of child controls.
@@ -640,7 +640,7 @@ The panel will automatically compute the number of columns based on number of ch
 
 > **set** **rows**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts#L82)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/volumeBasedPanel.ts#L82)
 
 ##### Parameters
 
@@ -664,7 +664,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/volumeBasedPanel.
 
 > **get** **scaling**(): [`Vector3`](../../../core/src/classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L55)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L55)
 
 Gets or sets the control scaling in world space
 
@@ -676,7 +676,7 @@ Gets or sets the control scaling in world space
 
 > **set** **scaling**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L64)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L64)
 
 ##### Parameters
 
@@ -700,7 +700,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:64](
 
 > **get** **typeName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L222)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:226](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L226)
 
 Gets a string representing the class name
 
@@ -718,7 +718,7 @@ Gets a string representing the class name
 
 > **addBehavior**(`behavior`): [`Control3D`](Control3D.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L135)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L135)
 
 Attach a behavior to the control
 
@@ -750,7 +750,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **addButton**(`button`): `TouchHolographicMenu`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts#L146)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts#L146)
 
 Adds a button to the menu.
 Please note that the back material of the button will be set to transparent as it is attached to the menu.
@@ -775,7 +775,7 @@ This menu
 
 > **addControl**(`_control`): [`Container3D`](Container3D.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts:171](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts#L171)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts:171](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts#L171)
 
 This method should not be used directly. It is inherited from `Container3D`.
 Please use `addButton` instead.
@@ -804,7 +804,7 @@ the current container
 
 > **containsControl**(`control`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/container3D.ts#L67)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/container3D.ts#L67)
 
 Gets a boolean indicating if the given control is in the children of this control
 
@@ -832,7 +832,7 @@ true if the control is in the child list
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts:180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts#L180)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts:180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/touchHolographicMenu.ts#L180)
 
 Disposes the menu
 
@@ -850,7 +850,7 @@ Disposes the menu
 
 > **getBehaviorByName**(`name`): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`Behavior`](../../../core/src/interfaces/Behavior.md)\<[`Control3D`](Control3D.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:182](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L182)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:186](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L186)
 
 Gets an attached behavior by name
 
@@ -882,7 +882,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:230](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L230)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:234](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L234)
 
 Get the current class name of the control.
 
@@ -902,7 +902,7 @@ current class name
 
 > **linkToTransformNode**(`node`): [`Control3D`](Control3D.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L261)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:265](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L265)
 
 Link the control as child of the given node
 
@@ -930,7 +930,7 @@ the current control
 
 > **removeBehavior**(`behavior`): [`Control3D`](Control3D.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/control3D.ts#L163)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/control3D.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/control3D.ts#L163)
 
 Remove an attached behavior
 
@@ -962,7 +962,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **removeControl**(`control`): [`Container3D`](Container3D.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/container3D.ts#L116)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/container3D.ts#L116)
 
 Removes a control from the children of this control
 
@@ -990,7 +990,7 @@ the current container
 
 > **updateLayout**(): [`Container3D`](Container3D.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/3D/controls/container3D.ts#L57)
+Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/container3D.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/container3D.ts#L57)
 
 Force the container to update the layout. Please note that it will not take blockLayout property in account
 

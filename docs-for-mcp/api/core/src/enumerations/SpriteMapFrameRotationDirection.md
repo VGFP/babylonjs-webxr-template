@@ -6,7 +6,7 @@
 
 # Enumeration: SpriteMapFrameRotationDirection
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteMap.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteMap.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteMap.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteMap.pure.ts#L17)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteMap.ts:17](htt
 
 > **CCW**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteMap.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteMap.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteMap.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteMap.pure.ts#L18)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteMap.ts:18](htt
 
 > **CW**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteMap.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteMap.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteMap.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteMap.pure.ts#L19)

@@ -6,7 +6,7 @@
 
 # Interface: ISoundOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:4](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L4)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:4](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L4)
 
 Interface used to define options for Sound class
 
@@ -16,7 +16,7 @@ Interface used to define options for Sound class
 
 > `optional` **autoplay?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L8)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L8)
 
 Does the sound autoplay once loaded.
 
@@ -26,7 +26,7 @@ Does the sound autoplay once loaded.
 
 > `optional` **distanceModel?**: `"linear"` \| `"inverse"` \| `"exponential"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L43)
 
 Define the distance attenuation model the sound will follow.
 
@@ -40,7 +40,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/audio/playingSoundsMusic#cre
 
 > `optional` **length?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L55)
 
 Defines an optional length (in seconds) inside the sound file
 
@@ -50,7 +50,7 @@ Defines an optional length (in seconds) inside the sound file
 
 > `optional` **loop?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L12)
 
 Does the sound loop after it finishes playing once.
 
@@ -60,7 +60,7 @@ Does the sound loop after it finishes playing once.
 
 > `optional` **maxDistance?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L24)
 
 Maximum distance to hear that sound
 
@@ -70,7 +70,7 @@ Maximum distance to hear that sound
 
 > `optional` **offset?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L59)
 
 Defines an optional offset (in seconds) inside the sound file
 
@@ -80,7 +80,7 @@ Defines an optional offset (in seconds) inside the sound file
 
 > `optional` **playbackRate?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L47)
 
 Defines the playback speed (1 by default)
 
@@ -90,7 +90,7 @@ Defines the playback speed (1 by default)
 
 > `optional` **refDistance?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L38)
 
 Define the reference distance the sound should be heard perfectly.
 
@@ -104,7 +104,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/audio/playingSoundsMusic#cre
 
 > `optional` **rolloffFactor?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L33)
 
 Define the roll off factor of spatial sounds.
 
@@ -118,7 +118,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/audio/playingSoundsMusic#cre
 
 > `optional` **skipCodecCheck?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L63)
 
 If true, URLs will not be required to state the audio file codec to use.
 
@@ -128,7 +128,7 @@ If true, URLs will not be required to state the audio file codec to use.
 
 > `optional` **spatialSound?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L20)
 
 Is it a spatial sound?
 
@@ -138,7 +138,7 @@ Is it a spatial sound?
 
 > `optional` **streaming?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L51)
 
 Defines if the sound is from a streaming source
 
@@ -148,7 +148,7 @@ Defines if the sound is from a streaming source
 
 > `optional` **useCustomAttenuation?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L28)
 
 Uses user defined attenuation function
 
@@ -158,6 +158,6 @@ Uses user defined attenuation function
 
 > `optional` **volume?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/Interfaces/ISoundOptions.ts#L16)
 
 Sound's volume

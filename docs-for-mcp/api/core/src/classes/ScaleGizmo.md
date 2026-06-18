@@ -6,7 +6,7 @@
 
 # Class: ScaleGizmo
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L79)
 
 Gizmo that enables scaling a mesh along 3 axis
 
@@ -24,7 +24,7 @@ Gizmo that enables scaling a mesh along 3 axis
 
 > **new ScaleGizmo**(`gizmoLayer?`, `thickness?`, `gizmoManager?`, `options?`): `ScaleGizmo`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:208](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L208)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L208)
 
 Creates a ScaleGizmo
 
@@ -66,7 +66,7 @@ More options
 
 > **\_rootMesh**: [`Mesh`](Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L129)
 
 The root mesh of the gizmo
 
@@ -84,7 +84,7 @@ The root mesh of the gizmo
 
 > **gizmoLayer**: [`UtilityLayerRenderer`](UtilityLayerRenderer.md) = `UtilityLayerRenderer.DefaultUtilityLayer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:314](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L314)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:314](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L314)
 
 [Object] The utility layer the gizmo will be added to
 
@@ -102,7 +102,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:314](https:/
 
 > **onDragEndObservable**: [`Observable`](Observable.md)\<[`DragStartEndEvent`](../type-aliases/DragStartEndEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L132)
 
 Fires an event when any of it's sub gizmos are released from dragging
 
@@ -116,7 +116,7 @@ Fires an event when any of it's sub gizmos are released from dragging
 
 > **onDragObservable**: [`Observable`](Observable.md)\<[`DragEvent`](../type-aliases/DragEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L130)
 
 Fires an event when any of it's sub gizmos are being dragged
 
@@ -130,7 +130,7 @@ Fires an event when any of it's sub gizmos are being dragged
 
 > **onDragStartObservable**: [`Observable`](Observable.md)\<[`DragStartEndEvent`](../type-aliases/DragStartEndEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L128)
 
 Fires an event when any of it's sub gizmos are dragged
 
@@ -144,7 +144,7 @@ Fires an event when any of it's sub gizmos are dragged
 
 > **uniformScaleGizmo**: [`IAxisScaleGizmo`](../interfaces/IAxisScaleGizmo.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L96)
 
 Internal gizmo used to scale all axis equally
 
@@ -158,7 +158,7 @@ Internal gizmo used to scale all axis equally
 
 > **xGizmo**: [`IAxisScaleGizmo`](../interfaces/IAxisScaleGizmo.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L83)
 
 Internal gizmo used for interactions on the x axis
 
@@ -172,7 +172,7 @@ Internal gizmo used for interactions on the x axis
 
 > **yGizmo**: [`IAxisScaleGizmo`](../interfaces/IAxisScaleGizmo.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L87)
 
 Internal gizmo used for interactions on the y axis
 
@@ -186,7 +186,7 @@ Internal gizmo used for interactions on the y axis
 
 > **zGizmo**: [`IAxisScaleGizmo`](../interfaces/IAxisScaleGizmo.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L91)
 
 Internal gizmo used for interactions on the z axis
 
@@ -200,7 +200,7 @@ Internal gizmo used for interactions on the z axis
 
 > `static` **PreserveScaling**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L148)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L148)
 
 When enabled, any gizmo operation will preserve scaling sign. Default is off.
 Only valid for TransformNode derived classes (Mesh, AbstractMesh, ...)
@@ -215,7 +215,7 @@ Only valid for TransformNode derived classes (Mesh, AbstractMesh, ...)
 
 > `static` **UseAbsoluteScaling**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L155)
 
 There are 2 ways to preserve scaling: using mesh scaling or absolute scaling. Depending of hierarchy, non uniform scaling and LH or RH coordinates. One is preferable than the other.
 If the scaling to be preserved is the local scaling, then set this value to false.
@@ -233,7 +233,7 @@ Default is true which means scaling to be preserved is absolute one (with hierar
 
 > **get** **additionalTransformNode**(): [`TransformNode`](TransformNode.md) \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L190)
 
 Additional transform applied to the gizmo.
 It's useful when the gizmo is attached to a bone: if the bone is part of a skeleton attached to a mesh, you should define the mesh as additionalTransformNode if you want the gizmo to be displayed at the bone's correct location.
@@ -247,7 +247,7 @@ Otherwise, as the gizmo is relative to the skeleton root, the mesh transformatio
 
 > **set** **additionalTransformNode**(`transformNode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:194](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L194)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L194)
 
 Additional transform applied to the gizmo.
 It's useful when the gizmo is attached to a bone: if the bone is part of a skeleton attached to a mesh, you should define the mesh as additionalTransformNode if you want the gizmo to be displayed at the bone's correct location.
@@ -283,7 +283,7 @@ Otherwise, as the gizmo is relative to the skeleton root, the mesh transformatio
 
 > **get** **anchorPoint**(): [`GizmoAnchorPoint`](../enumerations/GizmoAnchorPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:311](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L311)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:311](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L311)
 
 Defines where the gizmo will be positioned if `updateGizmoPositionToMatchAttachedMesh` is enabled.
 (Default: GizmoAnchorPoint.Origin)
@@ -296,7 +296,7 @@ Defines where the gizmo will be positioned if `updateGizmoPositionToMatchAttache
 
 > **set** **anchorPoint**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:302](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L302)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L302)
 
 Defines where the gizmo will be positioned if `updateGizmoPositionToMatchAttachedMesh` is enabled.
 (Default: GizmoAnchorPoint.Origin)
@@ -330,7 +330,7 @@ Defines where the gizmo will be positioned if `updateGizmoPositionToMatchAttache
 
 > **get** **attachedMesh**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L134)
 
 Mesh that the gizmo will be attached to. (eg. on a drag gizmo the mesh that will be dragged)
 * When set, interactions will be enabled
@@ -343,7 +343,7 @@ Mesh that the gizmo will be attached to. (eg. on a drag gizmo the mesh that will
 
 > **set** **attachedMesh**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L137)
 
 Mesh that the gizmo will be attached to. (eg. on a drag gizmo the mesh that will be dragged)
 * When set, interactions will be enabled
@@ -377,7 +377,7 @@ Mesh that the gizmo will be attached to. (eg. on a drag gizmo the mesh that will
 
 > **get** **attachedNode**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L150)
 
 Node that the gizmo will be attached to. (eg. on a drag gizmo the mesh, bone or NodeTransform that will be dragged)
 * When set, interactions will be enabled
@@ -390,7 +390,7 @@ Node that the gizmo will be attached to. (eg. on a drag gizmo the mesh, bone or 
 
 > **set** **attachedNode**(`node`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L153)
 
 Node that the gizmo will be attached to. (eg. on a drag gizmo the mesh, bone or NodeTransform that will be dragged)
 * When set, interactions will be enabled
@@ -424,7 +424,7 @@ Node that the gizmo will be attached to. (eg. on a drag gizmo the mesh, bone or 
 
 > **get** **coloredMaterial**(): [`StandardMaterial`](StandardMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L114)
 
 Default material used to render when gizmo is not disabled or hovered
 
@@ -446,7 +446,7 @@ Default material used to render when gizmo is not disabled or hovered
 
 > **set** **coordinatesMode**(`coordinatesMode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:338](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L338)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:338](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L338)
 
 Set the coordinate system to use. By default it's local.
 But it's possible for a user to tweak so its local for translation and world for rotation.
@@ -480,7 +480,7 @@ Set the coordinate mode to use. By default it's local.
 
 > **get** **customRotationQuaternion**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Quaternion`](Quaternion.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:319](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L319)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:319](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L319)
 
 Orientation that the gizmo will be displayed with.
 When set null, default value will be used (Quaternion(0, 0, 0, 1))
@@ -493,7 +493,7 @@ When set null, default value will be used (Quaternion(0, 0, 0, 1))
 
 > **set** **customRotationQuaternion**(`customRotationQuaternion`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L323)
 
 Orientation that the gizmo will be displayed with.
 When set null, default value will be used (Quaternion(0, 0, 0, 1))
@@ -527,7 +527,7 @@ When set null, default value will be used (Quaternion(0, 0, 0, 1))
 
 > **get** **disableMaterial**(): [`StandardMaterial`](StandardMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L124)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L124)
 
 Material used to render when gizmo is disabled. typically grey.
 
@@ -549,7 +549,7 @@ Material used to render when gizmo is disabled. typically grey.
 
 > **get** **hoverMaterial**(): [`StandardMaterial`](StandardMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L119)
 
 Material used to render when gizmo is hovered with mouse
 
@@ -571,7 +571,7 @@ Material used to render when gizmo is hovered with mouse
 
 > **get** **incrementalSnap**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:376](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L376)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:376](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L376)
 
 Incremental snap scaling. When true, with a snapDistance of 0.1, scaling will be 1.1,1.2,1.3 instead of, when false: 1.1,1.21,1.33,...
 
@@ -583,7 +583,7 @@ Incremental snap scaling. When true, with a snapDistance of 0.1, scaling will be
 
 > **set** **incrementalSnap**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:367](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L367)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:367](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L367)
 
 Incremental snap scaling (default is false). When true, with a snapDistance of 0.1, scaling will be 1.1,1.2,1.3 instead of, when false: 1.1,1.21,1.33,...
 
@@ -611,7 +611,7 @@ Incremental snap scaling. When true, with a snapDistance of 0.1, scaling will be
 
 > **get** **isDragging**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:186](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L186)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:186](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L186)
 
 True when the mouse pointer is dragging a gizmo mesh
 
@@ -633,7 +633,7 @@ True when the mouse pointer is dragging a gizmo mesh
 
 > **get** **isHovered**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:179](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L179)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L179)
 
 True when the mouse pointer is hovering a gizmo mesh
 
@@ -659,7 +659,7 @@ True when the mouse pointer is hovered a gizmo mesh
 
 > **get** **scaleRatio**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:391](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L391)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:391](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L391)
 
 Ratio for the scale of the gizmo (Default: 1)
 
@@ -671,7 +671,7 @@ Ratio for the scale of the gizmo (Default: 1)
 
 > **set** **scaleRatio**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:382](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L382)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:382](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L382)
 
 Ratio for the scale of the gizmo (Default: 1)
 
@@ -703,7 +703,7 @@ Ratio for the scale of the gizmo
 
 > **get** **sensitivity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:407](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L407)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:407](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L407)
 
 Sensitivity factor for dragging
 
@@ -715,7 +715,7 @@ Sensitivity factor for dragging
 
 > **set** **sensitivity**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:398](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L398)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:398](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L398)
 
 Sensitivity factor for dragging (Default: 1)
 
@@ -743,7 +743,7 @@ Sensitivity factor for dragging
 
 > **get** **snapDistance**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:360](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L360)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:360](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L360)
 
 Drag distance in babylon units that the gizmo will snap to when dragged
 
@@ -755,7 +755,7 @@ Drag distance in babylon units that the gizmo will snap to when dragged
 
 > **set** **snapDistance**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:351](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L351)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:351](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L351)
 
 Drag distance in babylon units that the gizmo will snap to when dragged (Default: 0)
 
@@ -783,7 +783,7 @@ Drag distance in babylon units that the gizmo will snap to when dragged
 
 > **get** **updateGizmoPositionToMatchAttachedMesh**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:260](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L260)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L260)
 
 If set the gizmo's position will be updated to match the attached mesh each frame (Default: true)
 
@@ -795,7 +795,7 @@ If set the gizmo's position will be updated to match the attached mesh each fram
 
 > **set** **updateGizmoPositionToMatchAttachedMesh**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:257](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L257)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:257](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L257)
 
 If set the gizmo's position will be updated to match the attached mesh each frame (Default: true)
 
@@ -827,7 +827,7 @@ If set the gizmo's position will be updated to match the attached mesh each fram
 
 > **get** **updateGizmoRotationToMatchAttachedMesh**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:298](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L298)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L298)
 
 If set the gizmo's rotation will be updated to match the attached mesh each frame (Default: true)
 NOTE: This is only possible for meshes with uniform scaling, as otherwise it's not possible to decompose the rotation
@@ -840,7 +840,7 @@ NOTE: This is only possible for meshes with uniform scaling, as otherwise it's n
 
 > **set** **updateGizmoRotationToMatchAttachedMesh**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:285](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L285)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:285](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L285)
 
 If set the gizmo's rotation will be updated to match the attached mesh each frame (Default: true)
 NOTE: This is only possible for meshes with uniform scaling, as otherwise it's not possible to decompose the rotation
@@ -873,7 +873,7 @@ If set the gizmo's rotation will be updated to match the attached mesh each fram
 
 > **get** **updateScale**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:173](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L173)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L173)
 
 When set, the gizmo will always appear the same size no matter where the camera is (default: true)
 
@@ -885,7 +885,7 @@ When set, the gizmo will always appear the same size no matter where the camera 
 
 > **set** **updateScale**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L166)
 
 When set, the gizmo will always appear the same size no matter where the camera is (default: true)
 
@@ -915,7 +915,7 @@ When set, the gizmo will always appear the same size no matter where the camera 
 
 > **addToAxisCache**(`mesh`, `cache`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:416](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L416)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:416](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L416)
 
 Builds Gizmo Axis Cache to enable features such as hover state preservation and graying out other axis during manipulation
 
@@ -947,7 +947,7 @@ Gizmo axis definition used for reactive gizmo UI
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:442](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L442)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:442](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L442)
 
 Disposes of the gizmo
 
@@ -969,7 +969,7 @@ Disposes of the gizmo
 
 > **getAxisCache**(`mesh`): [`GizmoAxisCache`](../interfaces/GizmoAxisCache.md) \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:425](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L425)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:425](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L425)
 
 Get the cache set with addToAxisCache for a specific mesh
 
@@ -993,7 +993,7 @@ Gizmo axis definition used for reactive gizmo UI
 
 > **releaseDrag**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:432](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/scaleGizmo.ts#L432)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/scaleGizmo.ts:432](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/scaleGizmo.ts#L432)
 
 Force release the drag action by code
 
@@ -1011,7 +1011,7 @@ Force release the drag action by code
 
 > **setCustomMesh**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:212](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L212)
 
 Disposes and replaces the current meshes in the gizmo with the specified mesh
 
@@ -1041,7 +1041,7 @@ The mesh to replace the default mesh of the gizmo
 
 > `static` **GizmoAxisPointerObserver**(`gizmoLayer`, `gizmoAxisCache`): [`Observer`](Observer.md)\<[`PointerInfo`](PointerInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:613](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L613)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:613](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L613)
 
 Subscribes to pointer up, down, and hover events. Used for responsive gizmos.
 

@@ -6,7 +6,7 @@
 
 # Interface: IWebXRInputOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRInput.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRInput.ts#L12)
 
 The schema for initialization options of the XR Input class
 
@@ -16,7 +16,7 @@ The schema for initialization options of the XR Input class
 
 > `optional` **controllerOptions?**: [`IWebXRControllerOptions`](IWebXRControllerOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRInput.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRInput.ts#L45)
 
 Optional options to pass to the controller. Will be overridden by the Input options where applicable
 
@@ -26,7 +26,7 @@ Optional options to pass to the controller. Will be overridden by the Input opti
 
 > `optional` **customControllersRepositoryURL?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRInput.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRInput.ts#L35)
 
 A custom URL for the controllers repository
 
@@ -36,7 +36,7 @@ A custom URL for the controllers repository
 
 > `optional` **disableControllerAnimation?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRInput.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRInput.ts#L40)
 
 Should the controller model's components not move according to the user input
 
@@ -46,7 +46,7 @@ Should the controller model's components not move according to the user input
 
 > `optional` **disableOnlineControllerRepository?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRInput.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRInput.ts#L30)
 
 Do not send a request to the controller repository to load the profile.
 
@@ -58,7 +58,7 @@ Instead, use the controllers available in babylon itself.
 
 > `optional` **doNotLoadControllerMeshes?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRInput.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRInput.ts#L16)
 
 If set to true no model will be automatically loaded
 
@@ -68,7 +68,7 @@ If set to true no model will be automatically loaded
 
 > `optional` **forceInputProfile?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRInput.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRInput.ts#L23)
 
 If set, this profile will be used for all controllers loaded (for example "microsoft-mixed-reality")
 If not found, the xr input profile data will be used.

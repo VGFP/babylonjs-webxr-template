@@ -6,7 +6,7 @@
 
 # Interface: IImage
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L40)
 
 Class used to abstract am image to use with the canvas and its context
 
@@ -16,7 +16,7 @@ Class used to abstract am image to use with the canvas and its context
 
 > **crossOrigin**: `string` \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L80)
 
 provides support for CORS, defining how the element handles crossorigin requests,
 thereby enabling the configuration of the CORS requests for the element's fetched data.
@@ -27,7 +27,7 @@ thereby enabling the configuration of the CORS requests for the element's fetche
 
 > `readonly` **height**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L64)
 
 Image height.
 
@@ -37,7 +37,7 @@ Image height.
 
 > `readonly` **naturalHeight**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L69)
 
 The original height of the image resource before sizing.
 
@@ -47,7 +47,7 @@ The original height of the image resource before sizing.
 
 > `readonly` **naturalWidth**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L74)
 
 The original width of the image resource before sizing.
 
@@ -57,7 +57,7 @@ The original width of the image resource before sizing.
 
 > **onerror**: ((`this`, `ev`) => `any`) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L49)
 
 Error callback.
 
@@ -67,7 +67,7 @@ Error callback.
 
 > **onload**: ((`this`, `ev`) => `any`) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L44)
 
 onload callback.
 
@@ -77,7 +77,7 @@ onload callback.
 
 > **referrerPolicy**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L86)
 
 provides support for referrer policy on xhr load request,
 it is used to control the request header.
@@ -88,7 +88,7 @@ it is used to control the request header.
 
 > **src**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L54)
 
 Image source.
 
@@ -98,6 +98,6 @@ Image source.
 
 > `readonly` **width**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L59)
 
 Image width.

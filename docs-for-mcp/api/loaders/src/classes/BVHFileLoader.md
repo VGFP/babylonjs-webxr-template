@@ -6,7 +6,7 @@
 
 # Class: BVHFileLoader
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L30)
+Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L30)
 
 **`Experimental`**
 
@@ -24,7 +24,7 @@ This is a babylon scene loader plugin.
 
 > **new BVHFileLoader**(`loadingOptions?`): `BVHFileLoader`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L45)
+Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L45)
 
 **`Experimental`**
 
@@ -48,7 +48,7 @@ Options for the bvh loader
 
 > `readonly` **name**: `"bvh"` = `BVHFileLoaderMetadata.name`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L34)
+Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L34)
 
 **`Experimental`**
 
@@ -64,7 +64,7 @@ Name of the loader ("bvh")
 
 > **canDirectLoad**(`data`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L65)
+Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L65)
 
 **`Experimental`**
 
@@ -94,7 +94,7 @@ if the data can be loaded directly
 
 > **importMeshAsync**(`_meshesNames`, `scene`, `data`): `Promise`\<[`ISceneLoaderAsyncResult`](../../../core/src/interfaces/ISceneLoaderAsyncResult.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L85)
+Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L85)
 
 **`Experimental`**
 
@@ -136,7 +136,7 @@ a promise containing the loaded skeletons and animations
 
 > **isBvhHeader**(`text`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L69)
+Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L69)
 
 **`Experimental`**
 
@@ -156,7 +156,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:69](
 
 > **isNotBvhHeader**(`text`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L73)
+Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L73)
 
 **`Experimental`**
 
@@ -176,7 +176,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:73](
 
 > **loadAssetContainerAsync**(`scene`, `data`): `Promise`\<[`AssetContainer`](../../../core/src/classes/AssetContainer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L142)
+Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L142)
 
 **`Experimental`**
 
@@ -212,7 +212,7 @@ The loaded asset container
 
 > **loadAsync**(`scene`, `data`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L119)
+Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L119)
 
 **`Experimental`**
 

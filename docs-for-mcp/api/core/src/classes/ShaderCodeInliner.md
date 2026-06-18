@@ -6,7 +6,7 @@
 
 # Class: ShaderCodeInliner
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts#L15)
 
 Class used to inline functions in shader code
 
@@ -16,7 +16,7 @@ Class used to inline functions in shader code
 
 > **new ShaderCodeInliner**(`sourceCode`, `numMaxIterations?`): `ShaderCodeInliner`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts#L38)
 
 Initializes the inliner
 
@@ -44,7 +44,7 @@ maximum number of iterations (used to detect recursive calls)
 
 > **debug**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts#L26)
 
 Gets or sets the debug mode
 
@@ -54,7 +54,7 @@ Gets or sets the debug mode
 
 > **inlineToken**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts#L23)
 
 Gets or sets the token used to mark the functions to inline
 
@@ -66,7 +66,7 @@ Gets or sets the token used to mark the functions to inline
 
 > **get** **code**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts#L29)
 
 Gets the code after the inlining process
 
@@ -80,7 +80,7 @@ Gets the code after the inlining process
 
 > **processCode**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Processors/shaderCodeInliner.ts#L48)
 
 Start the processing of the shader code
 

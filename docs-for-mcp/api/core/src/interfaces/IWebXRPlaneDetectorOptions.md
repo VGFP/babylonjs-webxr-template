@@ -6,7 +6,7 @@
 
 # Interface: IWebXRPlaneDetectorOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRPlaneDetector.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRPlaneDetector.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts#L15)
 
 Options used in the plane detector module
 
@@ -16,7 +16,7 @@ Options used in the plane detector module
 
 > `optional` **doNotRemovePlanesOnSessionEnded?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRPlaneDetector.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRPlaneDetector.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts#L24)
 
 If set to true a reference of the created planes will be kept until the next session starts
 If not defined, planes will be removed from the array when the feature is detached or the session ended.
@@ -27,7 +27,7 @@ If not defined, planes will be removed from the array when the feature is detach
 
 > `optional` **preferredDetectorOptions?**: `XRGeometryDetectorOptions`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRPlaneDetector.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRPlaneDetector.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts#L28)
 
 Preferred detector configuration, not all preferred options will be supported by all platforms.
 
@@ -37,6 +37,6 @@ Preferred detector configuration, not all preferred options will be supported by
 
 > `optional` **worldParentNode?**: [`TransformNode`](../classes/TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRPlaneDetector.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRPlaneDetector.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts#L19)
 
 The node to use to transform the local results to world coordinates

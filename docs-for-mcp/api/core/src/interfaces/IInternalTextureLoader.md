@@ -6,7 +6,7 @@
 
 # Interface: IInternalTextureLoader
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Loaders/internalTextureLoader.ts:7](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Loaders/internalTextureLoader.ts#L7)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Loaders/internalTextureLoader.ts:7](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Loaders/internalTextureLoader.ts#L7)
 
 This represents the required contract to create a new type of texture loader.
 
@@ -16,7 +16,7 @@ This represents the required contract to create a new type of texture loader.
 
 > **supportCascades**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Loaders/internalTextureLoader.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Loaders/internalTextureLoader.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Loaders/internalTextureLoader.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Loaders/internalTextureLoader.ts#L11)
 
 Defines whether the loader supports cascade loading the different faces.
 
@@ -26,7 +26,7 @@ Defines whether the loader supports cascade loading the different faces.
 
 > **loadCubeData**(`data`, `texture`, `createPolynomials`, `onLoad`, `onError`, `options?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Loaders/internalTextureLoader.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Loaders/internalTextureLoader.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Loaders/internalTextureLoader.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Loaders/internalTextureLoader.ts#L22)
 
 Uploads the cube texture data to the WebGL texture. It has already been bound.
 
@@ -78,7 +78,7 @@ options to be passed to the loader
 
 > **loadData**(`data`, `texture`, `callback`, `options?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Loaders/internalTextureLoader.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Loaders/internalTextureLoader.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Loaders/internalTextureLoader.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Loaders/internalTextureLoader.ts#L38)
 
 Uploads the 2D texture data to the WebGL texture. It has already been bound once in the callback.
 

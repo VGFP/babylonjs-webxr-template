@@ -6,7 +6,7 @@
 
 # Class: SubSurfaceSceneComponent
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts#L15)
 
 Defines the Geometry Buffer scene component responsible to manage a G-Buffer useful
 in several rendering techniques.
@@ -21,7 +21,7 @@ in several rendering techniques.
 
 > **new SubSurfaceSceneComponent**(`scene`): `SubSurfaceSceneComponent`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts#L30)
 
 Creates a new instance of the component for the given scene
 
@@ -43,7 +43,7 @@ Defines the scene to register the component in
 
 > `readonly` **name**: `"PrePassRenderer"` = `SceneComponentConstants.NAME_PREPASSRENDERER`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts#L19)
 
 The component name helpful to identify the component in the list of scene components.
 
@@ -57,7 +57,7 @@ The component name helpful to identify the component in the list of scene compon
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts#L24)
 
 The scene the component belongs to.
 
@@ -71,7 +71,7 @@ The scene the component belongs to.
 
 > **addFromContainer**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts#L63)
 
 Adds all the elements from the container to the scene
 
@@ -89,7 +89,7 @@ Adds all the elements from the container to the scene
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts#L92)
 
 Disposes the component and the associated resources
 
@@ -107,7 +107,7 @@ Disposes the component and the associated resources
 
 > **rebuild**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts:159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts#L159)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts#L85)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -126,7 +126,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts#L37)
 
 Registers the component in a given scene
 
@@ -144,7 +144,7 @@ Registers the component in a given scene
 
 > **removeFromContainer**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts#L70)
 
 Removes all the elements in the container from the scene
 
@@ -162,7 +162,7 @@ Removes all the elements in the container from the scene
 
 > **serialize**(`serializationObject`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts:117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/subSurfaceSceneComponent.ts#L117)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/subSurfaceSceneComponent.pure.ts#L43)
 
 Serializes the component data to the specified json object
 

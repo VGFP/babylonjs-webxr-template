@@ -6,7 +6,7 @@
 
 # Class: Measure
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/measure.ts#L14)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/measure.ts#L14)
 
 Class used to store 2D control sizes
 
@@ -16,7 +16,7 @@ Class used to store 2D control sizes
 
 > **new Measure**(`left`, `top`, `width`, `height`): `Measure`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/measure.ts#L22)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/measure.ts#L22)
 
 Creates a new measure
 
@@ -56,7 +56,7 @@ defines height dimension
 
 > **height**: `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/measure.ts#L30)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/measure.ts#L30)
 
 defines height dimension
 
@@ -66,7 +66,7 @@ defines height dimension
 
 > **left**: `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/measure.ts#L24)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/measure.ts#L24)
 
 defines left coordinate
 
@@ -76,7 +76,7 @@ defines left coordinate
 
 > **top**: `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/measure.ts#L26)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/measure.ts#L26)
 
 defines top coordinate
 
@@ -86,7 +86,7 @@ defines top coordinate
 
 > **width**: `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/measure.ts#L28)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/measure.ts#L28)
 
 defines width dimension
 
@@ -96,7 +96,7 @@ defines width dimension
 
 > **addAndTransformToRef**(`transform`, `addX`, `addY`, `addWidth`, `addHeight`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/measure.ts#L84)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/measure.ts#L84)
 
 Computes the axis aligned bounding box of the measure after it is modified by a given transform
 
@@ -148,7 +148,7 @@ the resulting AABB
 
 > **copyFrom**(`other`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/measure.ts#L37)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/measure.ts#L37)
 
 Copy from another measure
 
@@ -170,7 +170,7 @@ defines the other measure to copy from
 
 > **copyFromFloats**(`left`, `top`, `width`, `height`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/measure.ts#L51)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/measure.ts#L51)
 
 Copy from a group of 4 floats
 
@@ -210,7 +210,7 @@ defines height dimension
 
 > **isEqualsTo**(`other`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/measure.ts#L123)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/measure.ts#L123)
 
 Check equality between this measure and another one
 
@@ -234,7 +234,7 @@ true if both measures are equals
 
 > **transformToRef**(`transform`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/measure.ts#L115)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/measure.ts#L115)
 
 Computes the axis aligned bounding box of the measure after it is modified by a given transform
 
@@ -262,7 +262,7 @@ the resulting AABB
 
 > `static` **CombineToRef**(`a`, `b`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/measure.ts#L64)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/measure.ts#L64)
 
 Computes the axis aligned bounding box measure for two given measures
 
@@ -296,7 +296,7 @@ the resulting bounding measure
 
 > `static` **Empty**(): `Measure`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:147](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/measure.ts#L147)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/measure.ts:147](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/measure.ts#L147)
 
 Creates an empty measure
 

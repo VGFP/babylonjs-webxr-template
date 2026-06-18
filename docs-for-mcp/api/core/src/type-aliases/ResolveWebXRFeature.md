@@ -8,7 +8,7 @@
 
 > **ResolveWebXRFeature**\<`T`\> = `T` *extends* keyof [`IWebXRFeatureNameTypeMap`](../interfaces/IWebXRFeatureNameTypeMap.md) ? [`IWebXRFeatureNameTypeMap`](../interfaces/IWebXRFeatureNameTypeMap.md)\[`T`\] : [`IWebXRFeature`](../interfaces/IWebXRFeature.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:253](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L253)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:300](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L300)
 
 Helper type to resolve the specific feature type based on the feature name,
 or fallback to IWebXRFeature if the feature name is not in the type map.

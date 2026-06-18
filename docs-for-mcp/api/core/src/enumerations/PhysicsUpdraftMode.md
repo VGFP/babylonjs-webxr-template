@@ -6,7 +6,7 @@
 
 # Enumeration: PhysicsUpdraftMode
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1161](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1161)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1161](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1161)
 
 The strength of the force in correspondence to the distance of the affected object
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/physics/usingPhysicsEngine#f
 
 > **Center**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1163)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1163)
 
 Defines that the upstream forces will pull towards the top center of the cylinder
 
@@ -30,6 +30,6 @@ Defines that the upstream forces will pull towards the top center of the cylinde
 
 > **Perpendicular**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1165)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1165)
 
 Defines that once a impostor is inside the cylinder, it will shoot out perpendicular from the ground of the cylinder

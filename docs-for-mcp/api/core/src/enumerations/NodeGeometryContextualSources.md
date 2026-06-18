@@ -6,7 +6,7 @@
 
 # Enumeration: NodeGeometryContextualSources
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:5](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L5)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:5](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L5)
 
 Defines the kind of contextual sources for node geometry
 
@@ -16,7 +16,7 @@ Defines the kind of contextual sources for node geometry
 
 > **CollectionID**: `14`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L35)
 
 CollectionID
 
@@ -26,7 +26,7 @@ CollectionID
 
 > **Colors**: `10`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L27)
 
 Colors
 
@@ -36,7 +36,7 @@ Colors
 
 > **FaceID**: `12`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L31)
 
 FaceID
 
@@ -46,7 +46,7 @@ FaceID
 
 > **GeometryID**: `13`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L33)
 
 GeometryID
 
@@ -56,7 +56,7 @@ GeometryID
 
 > **InstanceID**: `16`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L39)
 
 InstanceID
 
@@ -66,7 +66,7 @@ InstanceID
 
 > **LatticeControl**: `18`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L43)
 
 LatticeControl
 
@@ -76,7 +76,7 @@ LatticeControl
 
 > **LatticeID**: `17`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L41)
 
 LatticeID
 
@@ -86,7 +86,7 @@ LatticeID
 
 > **LoopID**: `15`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L37)
 
 LoopID
 
@@ -96,7 +96,7 @@ LoopID
 
 > **None**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:7](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L7)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:7](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L7)
 
 None
 
@@ -106,7 +106,7 @@ None
 
 > **Normals**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L11)
 
 Normals
 
@@ -116,7 +116,7 @@ Normals
 
 > **Positions**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L9)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L9)
 
 Positions
 
@@ -126,7 +126,7 @@ Positions
 
 > **Tangents**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L13)
 
 Tangents
 
@@ -136,7 +136,7 @@ Tangents
 
 > **UV**: `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L15)
 
 UV
 
@@ -146,7 +146,7 @@ UV
 
 > **UV2**: `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L17)
 
 UV2
 
@@ -156,7 +156,7 @@ UV2
 
 > **UV3**: `6`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L19)
 
 UV3
 
@@ -166,7 +166,7 @@ UV3
 
 > **UV4**: `7`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L21)
 
 UV4
 
@@ -176,7 +176,7 @@ UV4
 
 > **UV5**: `8`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L23)
 
 UV5
 
@@ -186,7 +186,7 @@ UV5
 
 > **UV6**: `9`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L25)
 
 UV6
 
@@ -196,6 +196,6 @@ UV6
 
 > **VertexID**: `11`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryContextualSources.ts#L29)
 
 VertexID
