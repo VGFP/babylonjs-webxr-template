@@ -6,7 +6,7 @@
 
 # Class: GizmoManager
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L21)
 
 Helps set up gizmos in the scene to rotate/scale/position nodes
 
@@ -20,7 +20,7 @@ Helps set up gizmos in the scene to rotate/scale/position nodes
 
 > **new GizmoManager**(`_scene`, `thickness?`, `utilityLayer?`, `keepDepthUtilityLayer?`): `GizmoManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L183)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L183)
 
 Instantiates a gizmo manager
 
@@ -60,7 +60,7 @@ the layer where occluded gizmos are rendered
 
 > **attachableMeshes**: [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)[]\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L65)
 
 Array of meshes which will have the gizmo attached when a pointer selected them. If null, all meshes are attachable. (Default: null)
 
@@ -70,7 +70,7 @@ Array of meshes which will have the gizmo attached when a pointer selected them.
 
 > **attachableNodes**: [`Nullable`](../type-aliases/Nullable.md)\<[`Node`](Node.md)[]\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L69)
 
 Array of nodes which will have the gizmo attached when a pointer selected them. If null, all nodes are attachable. (Default: null)
 
@@ -80,7 +80,7 @@ Array of nodes which will have the gizmo attached when a pointer selected them. 
 
 > **boundingBoxDragBehavior**: [`SixDofDragBehavior`](SixDofDragBehavior.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L61)
 
 When bounding box gizmo is enabled, this can be used to track drag/end events
 
@@ -90,7 +90,7 @@ When bounding box gizmo is enabled, this can be used to track drag/end events
 
 > **clearGizmoOnEmptyPointerEvent**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L33)
 
 When true, the gizmo will be detached from the current object when a pointer down occurs with an empty picked mesh
 
@@ -100,7 +100,7 @@ When true, the gizmo will be detached from the current object when a pointer dow
 
 > **enableAutoPicking**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L36)
 
 When true (default), picking to attach a new mesh is enabled. This works in sync with inspector autopicking.
 
@@ -110,7 +110,7 @@ When true (default), picking to attach a new mesh is enabled. This works in sync
 
 > **gizmos**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L25)
 
 Gizmos created by the gizmo manager, gizmo will be null until gizmo has been enabled for the first time
 
@@ -136,7 +136,7 @@ Gizmos created by the gizmo manager, gizmo will be null until gizmo has been ena
 
 > **onAttachedToMeshObservable**: [`Observable`](Observable.md)\<[`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L39)
 
 Fires an event when the manager is attached to a mesh
 
@@ -146,7 +146,7 @@ Fires an event when the manager is attached to a mesh
 
 > **onAttachedToNodeObservable**: [`Observable`](Observable.md)\<[`Nullable`](../type-aliases/Nullable.md)\<[`Node`](Node.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L42)
 
 Fires an event when the manager is attached to a node
 
@@ -156,7 +156,7 @@ Fires an event when the manager is attached to a node
 
 > **usePointerToAttachGizmos**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L73)
 
 If pointer events should perform attaching/detaching a gizmo, if false this can be done manually via attachToMesh/attachToNode. (Default: true)
 
@@ -168,7 +168,7 @@ If pointer events should perform attaching/detaching a gizmo, if false this can 
 
 > **get** **additionalTransformNode**(): [`TransformNode`](TransformNode.md) \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L172)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L172)
 
 Additional transform node that will be used to transform all the gizmos
 
@@ -180,7 +180,7 @@ Additional transform node that will be used to transform all the gizmos
 
 > **set** **additionalTransformNode**(`node`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:406](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L406)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:406](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L406)
 
 Sets the additional transform applied to all the gizmos.
 
@@ -206,7 +206,7 @@ Gizmo.additionalTransformNode for more detail
 
 > **get** **attachedMesh**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:158](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L158)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L158)
 
 The mesh the gizmo's is attached to
 
@@ -222,7 +222,7 @@ The mesh the gizmo's is attached to
 
 > **get** **attachedNode**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L165)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L165)
 
 The node the gizmo's is attached to
 
@@ -238,7 +238,7 @@ The node the gizmo's is attached to
 
 > **get** **boundingBoxGizmoEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:398](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L398)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:398](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L398)
 
 ##### Returns
 
@@ -248,7 +248,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:398](
 
 > **set** **boundingBoxGizmoEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:371](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L371)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:371](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L371)
 
 If the boundingBox gizmo is enabled
 
@@ -270,7 +270,7 @@ If the boundingBox gizmo is enabled
 
 > **get** **coordinatesMode**(): [`GizmoCoordinatesMode`](../enumerations/GizmoCoordinatesMode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L151)
 
 ##### Returns
 
@@ -280,7 +280,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:151](
 
 > **set** **coordinatesMode**(`coordinatesMode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L141)
 
 Set the coordinate system to use. By default it's local.
 But it's possible for a user to tweak so its local for translation and world for rotation.
@@ -304,7 +304,7 @@ In that case, setting the coordinate system will change `updateGizmoRotationToMa
 
 > **get** **isDragging**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L107)
 
 True when the mouse pointer is dragging a gizmo mesh
 
@@ -320,7 +320,7 @@ True when the mouse pointer is dragging a gizmo mesh
 
 > **get** **isHovered**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L92)
 
 True when the mouse pointer is hovering a gizmo mesh
 
@@ -336,7 +336,7 @@ True when the mouse pointer is hovering a gizmo mesh
 
 > **get** **keepDepthUtilityLayer**(): [`UtilityLayerRenderer`](UtilityLayerRenderer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L78)
 
 Utility layer that the bounding box gizmo belongs to
 
@@ -352,7 +352,7 @@ Utility layer that the bounding box gizmo belongs to
 
 > **get** **positionGizmoEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L323)
 
 ##### Returns
 
@@ -362,7 +362,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:323](
 
 > **set** **positionGizmoEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:307](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L307)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:307](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L307)
 
 If the position gizmo is enabled
 
@@ -384,7 +384,7 @@ If the position gizmo is enabled
 
 > **get** **rotationGizmoEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:345](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L345)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L345)
 
 ##### Returns
 
@@ -394,7 +394,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:345](
 
 > **set** **rotationGizmoEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:329](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L329)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:329](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L329)
 
 If the rotation gizmo is enabled
 
@@ -416,7 +416,7 @@ If the rotation gizmo is enabled
 
 > **get** **scaleGizmoEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:365](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L365)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:365](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L365)
 
 ##### Returns
 
@@ -426,7 +426,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:365](
 
 > **set** **scaleGizmoEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:351](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L351)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:351](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L351)
 
 If the scale gizmo is enabled
 
@@ -448,7 +448,7 @@ If the scale gizmo is enabled
 
 > **get** **scaleRatio**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L132)
 
 ##### Returns
 
@@ -458,7 +458,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:132](
 
 > **set** **scaleRatio**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L123)
 
 Ratio for the scale of the gizmo (Default: 1)
 
@@ -480,7 +480,7 @@ Ratio for the scale of the gizmo (Default: 1)
 
 > **get** **utilityLayer**(): [`UtilityLayerRenderer`](UtilityLayerRenderer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L85)
 
 Utility layer that all gizmos besides bounding box belong to
 
@@ -494,7 +494,7 @@ Utility layer that all gizmos besides bounding box belong to
 
 > **addToAxisCache**(`gizmoAxisCache`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:424](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L424)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:424](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L424)
 
 Builds Gizmo Axis Cache to enable features such as hover state preservation and graying out other axis during manipulation
 
@@ -516,7 +516,7 @@ Gizmo axis definition used for reactive gizmo UI
 
 > **attachToMesh**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:258](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L258)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:258](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L258)
 
 Attaches a set of gizmos to the specified mesh
 
@@ -538,7 +538,7 @@ The mesh the gizmo's should be attached to
 
 > **attachToNode**(`node`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:283](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L283)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L283)
 
 Attaches a set of gizmos to the specified node
 
@@ -560,7 +560,7 @@ The node the gizmo's should be attached to
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:445](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L445)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:445](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L445)
 
 Disposes of the gizmo manager
 
@@ -578,7 +578,7 @@ Disposes of the gizmo manager
 
 > **releaseDrag**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:435](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmoManager.ts#L435)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmoManager.ts:435](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmoManager.ts#L435)
 
 Force release the drag action by code
 

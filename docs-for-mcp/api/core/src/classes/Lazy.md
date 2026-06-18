@@ -6,7 +6,7 @@
 
 # Class: Lazy\<T\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/lazy.ts:4](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/lazy.ts#L4)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/lazy.ts:4](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/lazy.ts#L4)
 
 A class that lazily initializes a value given a factory function.
 
@@ -22,7 +22,7 @@ A class that lazily initializes a value given a factory function.
 
 > **new Lazy**\<`T`\>(`factory`): `Lazy`\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/lazy.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/lazy.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/lazy.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/lazy.ts#L12)
 
 Creates a new instance of the Lazy class.
 
@@ -46,7 +46,7 @@ A function that creates the value.
 
 > **get** **value**(): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/lazy.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/lazy.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/lazy.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/lazy.ts#L19)
 
 Gets the lazily initialized value.
 

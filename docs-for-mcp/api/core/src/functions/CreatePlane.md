@@ -8,7 +8,7 @@
 
 > **CreatePlane**(`name`, `options?`, `scene?`): [`Mesh`](../classes/Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/planeBuilder.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/planeBuilder.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/planeBuilder.pure.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/planeBuilder.pure.ts#L89)
 
 Creates a plane mesh
 * The parameter `size` sets the size (float) of both sides of the plane at once (default 1)

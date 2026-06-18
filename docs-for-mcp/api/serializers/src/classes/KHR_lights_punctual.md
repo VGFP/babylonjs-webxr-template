@@ -6,7 +6,7 @@
 
 # Class: KHR\_lights\_punctual
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_lights\_punctual.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_lights_punctual.ts#L30)
+Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_lights\_punctual.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_lights_punctual.ts#L30)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_lights_punctual/README.md)
 
@@ -20,7 +20,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/K
 
 > **enabled**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_lights\_punctual.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_lights_punctual.ts#L35)
+Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_lights\_punctual.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_lights_punctual.ts#L35)
 
 Defines whether this extension is enabled.
 
@@ -34,7 +34,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `"KHR_lights_punctual"` = `NAME`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_lights\_punctual.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_lights_punctual.ts#L32)
+Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_lights\_punctual.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_lights_punctual.ts#L32)
 
 The name of this extension.
 
@@ -48,7 +48,7 @@ The name of this extension.
 
 > **required**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_lights\_punctual.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_lights_punctual.ts#L38)
+Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_lights\_punctual.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_lights_punctual.ts#L38)
 
 Defines whether this extension is required
 
@@ -62,7 +62,7 @@ Defines whether this extension is required
 
 > **postExportNodeAsync**(`context`, `node`, `babylonNode`, `nodeMap`, `convertToRightHanded`): `Promise`\<[`Nullable`](../../../core/src/type-aliases/Nullable.md)\<`INode`\>\>
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_lights\_punctual.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_lights_punctual.ts#L75)
+Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_lights\_punctual.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_lights_punctual.ts#L75)
 
 Define this method to modify the default behavior when exporting a node
 

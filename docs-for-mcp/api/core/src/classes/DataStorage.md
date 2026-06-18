@@ -6,7 +6,7 @@
 
 # Class: DataStorage
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataStorage.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dataStorage.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataStorage.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dataStorage.ts#L11)
 
 Class for storing data to local storage if available or in-memory storage otherwise
 
@@ -26,7 +26,7 @@ Class for storing data to local storage if available or in-memory storage otherw
 
 > `static` **ReadBoolean**(`key`, `defaultValue`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataStorage.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dataStorage.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataStorage.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dataStorage.ts#L59)
 
 Reads a boolean from the data storage
 
@@ -56,7 +56,7 @@ The boolean value
 
 > `static` **ReadJson**\<`T`\>(`key`, `defaultValue`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataStorage.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dataStorage.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataStorage.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dataStorage.ts#L99)
 
 Reads a JSON value from the data storage
 
@@ -92,7 +92,7 @@ The JSON value
 
 > `static` **ReadNumber**(`key`, `defaultValue`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataStorage.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dataStorage.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataStorage.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dataStorage.ts#L79)
 
 Reads a number from the data storage
 
@@ -122,7 +122,7 @@ The number value
 
 > `static` **ReadString**(`key`, `defaultValue`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataStorage.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dataStorage.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataStorage.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dataStorage.ts#L39)
 
 Reads a string from the data storage
 
@@ -152,7 +152,7 @@ The string value
 
 > `static` **WriteBoolean**(`key`, `value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataStorage.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dataStorage.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataStorage.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dataStorage.ts#L69)
 
 Writes a boolean to the data storage
 
@@ -180,7 +180,7 @@ The value to write
 
 > `static` **WriteJson**\<`T`\>(`key`, `value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataStorage.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dataStorage.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataStorage.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dataStorage.ts#L114)
 
 Writes a JSON value to the data storage
 
@@ -214,7 +214,7 @@ The JSON value to write
 
 > `static` **WriteNumber**(`key`, `value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataStorage.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dataStorage.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataStorage.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dataStorage.ts#L89)
 
 Writes a number to the data storage
 
@@ -242,7 +242,7 @@ The value to write
 
 > `static` **WriteString**(`key`, `value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataStorage.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dataStorage.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataStorage.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dataStorage.ts#L49)
 
 Writes a string to the data storage
 

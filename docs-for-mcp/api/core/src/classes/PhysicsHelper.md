@@ -6,7 +6,7 @@
 
 # Class: PhysicsHelper
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L73)
 
 A helper for physics simulations
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/physics/usingPhysicsEngine#f
 
 > **new PhysicsHelper**(`scene`): `PhysicsHelper`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L82)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L82)
 
 Initializes the Physics helper
 
@@ -42,7 +42,7 @@ Babylon.js scene
 
 > **applyRadialExplosionForce**(`origin`, `radiusOrEventOptions`, `strength?`, `falloff?`): [`Nullable`](../type-aliases/Nullable.md)\<`PhysicsRadialExplosionEvent`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:171](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L171)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:171](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L171)
 
 Applies a radial explosion force
 
@@ -84,7 +84,7 @@ A physics radial explosion event, or null
 
 > **applyRadialExplosionImpulse**(`origin`, `radiusOrEventOptions`, `strength?`, `falloff?`): [`Nullable`](../type-aliases/Nullable.md)\<`PhysicsRadialExplosionEvent`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L100)
 
 Applies a radial explosion impulse
 
@@ -126,7 +126,7 @@ A physics radial explosion event, or null
 
 > **gravitationalField**(`origin`, `radiusOrEventOptions`, `strength?`, `falloff?`): [`Nullable`](../type-aliases/Nullable.md)\<`PhysicsGravitationalFieldEvent`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:270](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L270)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:270](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L270)
 
 Creates a gravitational field
 
@@ -168,7 +168,7 @@ A physics gravitational field event, or null
 
 > **updraft**(`origin`, `radiusOrEventOptions`, `strength?`, `height?`, `updraftMode?`): [`Nullable`](../type-aliases/Nullable.md)\<`PhysicsUpdraftEvent`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:313](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L313)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:313](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L313)
 
 Creates a physics updraft event
 
@@ -216,7 +216,7 @@ A physics updraft event, or null
 
 > **vortex**(`origin`, `radiusOrEventOptions`, `strength?`, `height?`): [`Nullable`](../type-aliases/Nullable.md)\<`PhysicsVortexEvent`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:358](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L358)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:358](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L358)
 
 Creates a physics vortex event
 

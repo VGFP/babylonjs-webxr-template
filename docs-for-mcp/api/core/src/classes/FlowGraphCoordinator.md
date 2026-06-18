@@ -6,7 +6,7 @@
 
 # Class: FlowGraphCoordinator
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L46)
 
 **`Experimental`**
 
@@ -21,7 +21,7 @@ This is the entry point for the flow graph system.
 
 > **new FlowGraphCoordinator**(`config`): `FlowGraphCoordinator`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L81)
 
 **`Experimental`**
 
@@ -43,7 +43,7 @@ the configuration of the block
 
 > **config**: [`IFlowGraphCoordinatorConfiguration`](../interfaces/IFlowGraphCoordinatorConfiguration.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L85)
 
 **`Experimental`**
 
@@ -55,7 +55,7 @@ the configuration of the block
 
 > **dispatchEventsSynchronously**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L68)
 
 **`Experimental`**
 
@@ -68,7 +68,7 @@ This means that the events will be dispatched immediately when they are triggere
 
 > `static` **MaxEventsPerType**: `number` = `30`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L52)
 
 **`Experimental`**
 
@@ -82,7 +82,7 @@ This is to prevent infinite loops.
 
 > `static` **MaxEventTypeExecutionPerFrame**: `number` = `30`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L57)
 
 **`Experimental`**
 
@@ -96,7 +96,7 @@ The maximum number of execution of a specific event in a single frame.
 
 > **get** **flowGraphs**(): [`FlowGraph`](FlowGraph.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:189](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L189)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L189)
 
 **`Experimental`**
 
@@ -112,7 +112,7 @@ Gets the list of flow graphs
 
 > **createGraph**(`name?`): [`FlowGraph`](FlowGraph.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L124)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L124)
 
 **`Experimental`**
 
@@ -138,7 +138,7 @@ a new flow graph
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L155)
 
 **`Experimental`**
 
@@ -154,7 +154,7 @@ Disposes all graphs
 
 > **getCustomEventObservable**(`id`): [`Observable`](Observable.md)\<`any`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:198](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L198)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L198)
 
 **`Experimental`**
 
@@ -180,7 +180,7 @@ the observable for the event
 
 > **notifyCustomEvent**(`id`, `data`, `async?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:214](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L214)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L214)
 
 **`Experimental`**
 
@@ -216,7 +216,7 @@ if true, the event will be dispatched asynchronously
 
 > **removeGraph**(`graph`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L135)
 
 **`Experimental`**
 
@@ -240,7 +240,7 @@ the graph to remove
 
 > **serialize**(`serializationObject`, `valueSerializeFunction?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L176)
 
 **`Experimental`**
 
@@ -270,7 +270,7 @@ the function to use to serialize the value
 
 > **start**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L146)
 
 **`Experimental`**
 

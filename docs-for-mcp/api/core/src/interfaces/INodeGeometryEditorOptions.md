@@ -6,7 +6,7 @@
 
 # Interface: INodeGeometryEditorOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L30)
 
 Interface used to configure the node geometry editor
 
@@ -16,7 +16,7 @@ Interface used to configure the node geometry editor
 
 > `optional` **editorURL?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L32)
 
 Define the URL to load node editor script from
 
@@ -26,7 +26,7 @@ Define the URL to load node editor script from
 
 > `optional` **nodeGeometryEditorConfig?**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L34)
 
 Additional configuration for the NGE
 

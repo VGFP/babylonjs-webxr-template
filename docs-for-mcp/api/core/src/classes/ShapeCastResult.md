@@ -6,7 +6,7 @@
 
 # Class: ShapeCastResult
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/shapeCastResult.ts:6](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/shapeCastResult.ts#L6)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/shapeCastResult.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/shapeCastResult.ts#L6)
 
 Class representing a contact point produced in a shape cast
 
@@ -34,7 +34,7 @@ Class representing a contact point produced in a shape cast
 
 > `optional` **body?**: [`PhysicsBody`](PhysicsBody.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/castingResult.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/castingResult.ts#L17)
 
 The Physics body that the query hit.
 
@@ -48,7 +48,7 @@ The Physics body that the query hit.
 
 > `optional` **bodyIndex?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/castingResult.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/castingResult.ts#L21)
 
 The body Index in case the Physics body is using instances
 
@@ -62,7 +62,7 @@ The body Index in case the Physics body is using instances
 
 > `optional` **shape?**: [`PhysicsShape`](PhysicsShape.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/castingResult.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/castingResult.ts#L26)
 
 The shape hit by the query.
 
@@ -78,7 +78,7 @@ The shape hit by the query.
 
 > **get** **hasHit**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/castingResult.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/castingResult.ts#L43)
 
 Gets if there was a hit
 
@@ -98,7 +98,7 @@ Gets if there was a hit
 
 > **get** **hitFraction**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/shapeCastResult.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/shapeCastResult.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/shapeCastResult.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/shapeCastResult.ts#L12)
 
 Gets the hit fraction along the casting ray
 
@@ -114,7 +114,7 @@ Gets the hit fraction along the casting ray
 
 > **get** **hitNormal**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/castingResult.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/castingResult.ts#L37)
 
 Gets the hit normal.
 
@@ -134,7 +134,7 @@ Gets the hit normal.
 
 > **get** **hitPoint**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/castingResult.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/castingResult.ts#L31)
 
 Gets the hit point.
 
@@ -154,7 +154,7 @@ Gets the hit point.
 
 > **get** **triangleIndex**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/castingResult.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/castingResult.ts#L50)
 
 The index of the original triangle which was hit. Will be -1 if contact point is not on a mesh shape
 
@@ -172,7 +172,7 @@ The index of the original triangle which was hit. Will be -1 if contact point is
 
 > **reset**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/shapeCastResult.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/shapeCastResult.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/shapeCastResult.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/shapeCastResult.ts#L27)
 
 Resets all the values to default
 
@@ -190,7 +190,7 @@ Resets all the values to default
 
 > **setHitData**(`hitNormal`, `hitPoint`, `triangleIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/castingResult.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/castingResult.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/castingResult.ts#L60)
 
 Sets the hit data
 
@@ -228,7 +228,7 @@ defines the index of the triangle in case of mesh shape
 
 > **setHitFraction**(`fraction`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/shapeCastResult.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/shapeCastResult.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/shapeCastResult.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/shapeCastResult.ts#L20)
 
 Sets the hit fraction along the casting ray
 

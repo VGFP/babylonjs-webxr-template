@@ -6,7 +6,7 @@
 
 # Interface: INavigationEnginePlugin
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:10](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L10)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L10)
 
 Navigation plugin interface to add navigation constrained by a navigation mesh
 
@@ -16,7 +16,7 @@ Navigation plugin interface to add navigation constrained by a navigation mesh
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L14)
 
 plugin name
 
@@ -26,7 +26,7 @@ plugin name
 
 > **addBoxObstacle**(`position`, `extent`, `angle`): [`Nullable`](../type-aliases/Nullable.md)\<[`IObstacle`](../type-aliases/IObstacle.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:186](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L186)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:186](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L186)
 
 Creates an oriented box obstacle and add it to the navigation
 
@@ -62,7 +62,7 @@ the obstacle freshly created
 
 > **addCylinderObstacle**(`position`, `radius`, `height`): [`Nullable`](../type-aliases/Nullable.md)\<[`IObstacle`](../type-aliases/IObstacle.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L177)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L177)
 
 Creates a cylinder obstacle and add it to the navigation
 
@@ -98,7 +98,7 @@ the obstacle freshly created
 
 > **buildFromNavmeshData**(`data`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L127)
 
 build the navmesh from a previously saved state using getNavmeshData
 
@@ -120,7 +120,7 @@ the Uint8Array returned by getNavmeshData
 
 > **computePath**(`start`, `end`): [`Vector3`](../classes/Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L83)
 
 Compute a navigation path from start to end. Returns an empty array if no path can be computed.
 Path is straight.
@@ -151,7 +151,7 @@ array containing world position composing the path
 
 > **computePathSmooth**(`start`, `end`): [`Vector3`](../classes/Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L92)
 
 Compute a navigation path from start to end. Returns an empty array if no path can be computed.
 Path follows navigation mesh geometry.
@@ -182,7 +182,7 @@ array containing world position composing the path
 
 > **createCrowd**(`maxAgents`, `maxAgentRadius`, `scene`): [`ICrowd`](ICrowd.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L107)
 
 Create a new Crowd so you can add agents
 
@@ -218,7 +218,7 @@ the crowd you can add agents to
 
 > **createDebugNavMesh**(`scene`): [`Mesh`](../classes/Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L28)
 
 Create a navigation mesh debug mesh
 
@@ -242,7 +242,7 @@ debug display mesh
 
 > **createNavMesh**(`meshes`, `parameters`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L21)
 
 Creates a navigation mesh
 
@@ -270,7 +270,7 @@ bunch of parameters used to filter geometry
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:197](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L197)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L197)
 
 Release all resources
 
@@ -284,7 +284,7 @@ Release all resources
 
 > **getClosestPoint**(`position`): [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L35)
 
 Get a navigation mesh constrained position, closest to the parameter position
 
@@ -308,7 +308,7 @@ the closest point to position constrained by the navigation mesh
 
 > **getClosestPointToRef**(`position`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L42)
 
 Get a navigation mesh constrained position, closest to the parameter position
 
@@ -336,7 +336,7 @@ output the closest point to position constrained by the navigation mesh
 
 > **getDefaultQueryExtent**(): [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L121)
 
 Get the Bounding box extent specified by setDefaultQueryExtent
 
@@ -352,7 +352,7 @@ the box extent values
 
 > **getDefaultQueryExtentToRef**(`result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L139)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L139)
 
 Get the Bounding box extent result specified by setDefaultQueryExtent
 
@@ -374,7 +374,7 @@ output the box extent values
 
 > **getMaximumSubStepCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:168](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L168)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:168](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L168)
 
 Get the maximum number of iterations per navigation tick update
 
@@ -390,7 +390,7 @@ the maximum number of iterations
 
 > **getNavmeshData**(): `Uint8Array`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L133)
 
 returns the navmesh data that can be used later. The navmesh must be built before retrieving the data
 
@@ -406,7 +406,7 @@ data the Uint8Array that can be saved and reused
 
 > **getRandomPointAround**(`position`, `maxRadius`): [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L50)
 
 Get a navigation mesh constrained position, within a particular radius
 
@@ -436,7 +436,7 @@ the closest point to position constrained by the navigation mesh
 
 > **getRandomPointAroundToRef**(`position`, `maxRadius`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L58)
 
 Get a navigation mesh constrained position, within a particular radius
 
@@ -470,7 +470,7 @@ output the closest point to position constrained by the navigation mesh
 
 > **getTimeStep**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L153)
 
 Get the time step of the navigation tick update.
 
@@ -486,7 +486,7 @@ the current time step
 
 > **isSupported**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L98)
 
 If this plugin is supported
 
@@ -502,7 +502,7 @@ true if plugin is supported
 
 > **moveAlong**(`position`, `destination`): [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L66)
 
 Compute the final position from a segment made of destination-position
 
@@ -532,7 +532,7 @@ the resulting point along the navmesh
 
 > **moveAlongToRef**(`position`, `destination`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L74)
 
 Compute the final position from a segment made of destination-position
 
@@ -566,7 +566,7 @@ output the resulting point along the navmesh
 
 > **removeObstacle**(`obstacle`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:192](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L192)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L192)
 
 Removes an obstacle created by addCylinderObstacle or addBoxObstacle
 
@@ -588,7 +588,7 @@ obstacle to remove from the navigation
 
 > **setDefaultQueryExtent**(`extent`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L115)
 
 Set the Bounding box extent for doing spatial queries (getClosestPoint, getRandomPointAround, ...)
 The queries will try to find a solution within those bounds
@@ -612,7 +612,7 @@ x,y,z value that define the extent around the queries point of reference
 
 > **setMaximumSubStepCount**(`newStepCount`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L162)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L162)
 
 If delta time in navigation tick update is greater than the time step
 a number of sub iterations are done. If more iterations are needed to reach deltatime
@@ -637,7 +637,7 @@ the maximum number of iterations
 
 > **setTimeStep**(`newTimeStep`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:147](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Navigation/INavigationEngine.ts#L147)
+Defined in: [babylonjs-source/packages/dev/core/src/Navigation/INavigationEngine.ts:147](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Navigation/INavigationEngine.ts#L147)
 
 Set the time step of the navigation tick update.
 Default is 1/60.

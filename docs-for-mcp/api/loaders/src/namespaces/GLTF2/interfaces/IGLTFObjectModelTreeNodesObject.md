@@ -6,7 +6,7 @@
 
 # Interface: IGLTFObjectModelTreeNodesObject\<GLTFTargetType, BabylonTargetType\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L44)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L44)
 
 ## Type Parameters
 
@@ -24,7 +24,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 > **\_\_array\_\_**: `object`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L46)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L46)
 
 #### \_\_target\_\_
 
@@ -100,4 +100,4 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 > **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`GLTFTargetType`[], `BabylonTargetType`[], `number`\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L45)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L45)

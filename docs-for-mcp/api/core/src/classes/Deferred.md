@@ -6,7 +6,7 @@
 
 # Class: Deferred\<T\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/deferred.ts:4](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/deferred.ts#L4)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/deferred.ts:4](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/deferred.ts#L4)
 
 Wrapper class for promise with external resolve and reject.
 
@@ -22,7 +22,7 @@ Wrapper class for promise with external resolve and reject.
 
 > **new Deferred**\<`T`\>(): `Deferred`\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/deferred.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/deferred.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/deferred.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/deferred.ts#L30)
 
 Constructor for this deferred object.
 
@@ -36,7 +36,7 @@ Constructor for this deferred object.
 
 > `readonly` **promise**: `Promise`\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/deferred.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/deferred.ts#L8)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/deferred.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/deferred.ts#L8)
 
 The promise associated with this deferred object.
 
@@ -48,7 +48,7 @@ The promise associated with this deferred object.
 
 > **get** **reject**(): (`reason?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/deferred.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/deferred.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/deferred.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/deferred.ts#L23)
 
 The reject method of the promise associated with this deferred object.
 
@@ -64,7 +64,7 @@ The reject method of the promise associated with this deferred object.
 
 > **get** **resolve**(): (`value`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/deferred.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/deferred.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/deferred.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/deferred.ts#L16)
 
 The resolve method of the promise associated with this deferred object.
 

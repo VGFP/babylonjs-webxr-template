@@ -6,7 +6,7 @@
 
 # Class: MorphTarget
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L19)
 
 Defines a target to use with MorphTargetManager
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/morphTargets
 
 > **new MorphTarget**(`name`, `influence?`, `scene?`, `morphTargetManager?`): `MorphTarget`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L98)
 
 Creates a new MorphTarget
 
@@ -64,7 +64,7 @@ morph target manager this morph target is associated with
 
 > **animations**: [`Animation`](Animation.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L23)
 
 Gets or sets the list of animations
 
@@ -78,7 +78,7 @@ Gets or sets the list of animations
 
 > **id**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L67)
 
 Gets or sets the id of the morph Target
 
@@ -88,7 +88,7 @@ Gets or sets the id of the morph Target
 
 > **morphTargetManager**: [`Nullable`](../type-aliases/Nullable.md)\<[`MorphTargetManager`](MorphTargetManager.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L73)
 
 Gets or sets the morph target manager this morph target is associated with
 
@@ -98,7 +98,7 @@ Gets or sets the morph target manager this morph target is associated with
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L99)
 
 defines the name of the target
 
@@ -108,7 +108,7 @@ defines the name of the target
 
 > **onInfluenceChanged**: [`Observable`](Observable.md)\<`boolean`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L38)
 
 Observable raised when the influence changes
 
@@ -120,7 +120,7 @@ Observable raised when the influence changes
 
 > **get** **animationPropertiesOverride**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationPropertiesOverride`](AnimationPropertiesOverride.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L80)
 
 Gets or sets the animation properties override
 
@@ -132,7 +132,7 @@ Gets or sets the animation properties override
 
 > **set** **animationPropertiesOverride**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L87)
 
 ##### Parameters
 
@@ -152,7 +152,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:87](htt
 
 > **get** **hasColors**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:156](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L156)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L156)
 
 ##### Returns
 
@@ -166,7 +166,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:156](ht
 
 > **get** **hasNormals**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L131)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L131)
 
 Gets a boolean defining if the target contains normal data
 
@@ -182,7 +182,7 @@ Gets a boolean defining if the target contains normal data
 
 > **get** **hasPositions**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L124)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L124)
 
 Gets a boolean defining if the target contains position data
 
@@ -198,7 +198,7 @@ Gets a boolean defining if the target contains position data
 
 > **get** **hasTangents**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L138)
 
 Gets a boolean defining if the target contains tangent data
 
@@ -214,7 +214,7 @@ Gets a boolean defining if the target contains tangent data
 
 > **get** **hasUV2s**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L152)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L152)
 
 Gets a boolean defining if the target contains texture coordinates 2 data
 
@@ -230,7 +230,7 @@ Gets a boolean defining if the target contains texture coordinates 2 data
 
 > **get** **hasUVs**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:145](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L145)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L145)
 
 Gets a boolean defining if the target contains texture coordinates data
 
@@ -246,7 +246,7 @@ Gets a boolean defining if the target contains texture coordinates data
 
 > **get** **influence**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L46)
 
 Gets or sets the influence of this target (ie. its weight in the overall morphing)
 
@@ -258,7 +258,7 @@ Gets or sets the influence of this target (ie. its weight in the overall morphin
 
 > **set** **influence**(`influence`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L50)
 
 ##### Parameters
 
@@ -278,7 +278,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:50](htt
 
 > **get** **uniqueId**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L117)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L117)
 
 Gets the unique ID of this manager
 
@@ -294,7 +294,7 @@ Gets the unique ID of this manager
 
 > **get** **vertexCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L163)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L163)
 
 Gets the number of vertices stored in this target
 
@@ -308,7 +308,7 @@ Gets the number of vertices stored in this target
 
 > **clone**(): `MorphTarget`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:315](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L315)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:315](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L315)
 
 Clone the current target
 
@@ -324,7 +324,7 @@ a new MorphTarget
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:370](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L370)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:370](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L370)
 
 Returns the string "MorphTarget"
 
@@ -340,7 +340,7 @@ Returns the string "MorphTarget"
 
 > **getColors**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:307](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L307)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:307](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L307)
 
 Gets the color data stored in this target
 
@@ -356,7 +356,7 @@ a FloatArray containing the color data (or null if not present)
 
 > **getNormals**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L219)
 
 Gets the normal data stored in this target
 
@@ -372,7 +372,7 @@ a FloatArray containing the normal data (or null if not present)
 
 > **getPositions**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:197](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L197)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L197)
 
 Gets the position data stored in this target
 
@@ -388,7 +388,7 @@ a FloatArray containing the position data (or null if not present)
 
 > **getTangents**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:241](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L241)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:241](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L241)
 
 Gets the tangent data stored in this target
 
@@ -404,7 +404,7 @@ a FloatArray containing the tangent data (or null if not present)
 
 > **getUV2s**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:285](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L285)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:285](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L285)
 
 Gets the texture coordinates 2 data stored in this target
 
@@ -420,7 +420,7 @@ a FloatArray containing the texture coordinates 2 data (or null if not present)
 
 > **getUVs**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:263](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L263)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:263](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L263)
 
 Gets the texture coordinates data stored in this target
 
@@ -436,7 +436,7 @@ a FloatArray containing the texture coordinates data (or null if not present)
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:332](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L332)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:332](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L332)
 
 Serializes the current target into a Serialization object
 
@@ -452,7 +452,7 @@ the serialized object
 
 > **setColors**(`data`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:293](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L293)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:293](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L293)
 
 Affects color data to this target
 
@@ -474,7 +474,7 @@ defines the color data to use
 
 > **setNormals**(`data`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L205)
 
 Affects normal data to this target
 
@@ -496,7 +496,7 @@ defines the normal data to use
 
 > **setPositions**(`data`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L183)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L183)
 
 Affects position data to this target
 
@@ -518,7 +518,7 @@ defines the position data to use
 
 > **setTangents**(`data`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:227](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L227)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L227)
 
 Affects tangent data to this target
 
@@ -540,7 +540,7 @@ defines the tangent data to use
 
 > **setUV2s**(`data`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L271)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:271](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L271)
 
 Affects texture coordinates 2 data to this target
 
@@ -562,7 +562,7 @@ defines the texture coordinates 2 data to use
 
 > **setUVs**(`data`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:249](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L249)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:249](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L249)
 
 Affects texture coordinates data to this target
 
@@ -584,7 +584,7 @@ defines the texture coordinates data to use
 
 > `static` **FromMesh**(`mesh`, `name?`, `influence?`): `MorphTarget`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:438](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L438)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:438](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L438)
 
 Creates a MorphTarget from mesh data
 
@@ -620,7 +620,7 @@ a new MorphTarget
 
 > `static` **Parse**(`serializationObject`, `scene?`, `morphTargetManager?`): `MorphTarget`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:383](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTarget.ts#L383)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTarget.ts:383](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTarget.ts#L383)
 
 Creates a new target from serialized data
 

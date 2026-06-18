@@ -6,7 +6,7 @@
 
 # Class: WebXRBodyTracking
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.ts:2320](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRBodyTracking.ts#L2320)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2490](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2490)
 
 WebXR Body Tracking feature.
 
@@ -74,7 +74,7 @@ https://immersive-web.github.io/body-tracking/
 
 > **new WebXRBodyTracking**(`_xrSessionManager`, `options?`): `WebXRBodyTracking`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.ts:2392](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRBodyTracking.ts#L2392)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2562](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2562)
 
 Construct a new WebXRBodyTracking feature.
 
@@ -106,7 +106,7 @@ Configuration options.
 
 > `optional` **dependsOn?**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
 
 The dependencies of this feature, if any
 
@@ -120,7 +120,7 @@ The dependencies of this feature, if any
 
 > **disableAutoAttach**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L27)
 
 Should auto-attach be disabled?
 
@@ -134,7 +134,7 @@ Should auto-attach be disabled?
 
 > **isDisposed**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L22)
 
 Is this feature disposed?
 
@@ -148,7 +148,7 @@ Is this feature disposed?
 
 > `readonly` **onBodyMeshSetObservable**: [`Observable`](Observable.md)\<[`WebXRTrackedBody`](WebXRTrackedBody.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.ts:2355](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRBodyTracking.ts#L2355)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2525](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2525)
 
 Observable fired when the body mesh has been set via [setBodyMesh](#setbodymesh)
 or during initial configuration.
@@ -159,7 +159,7 @@ or during initial configuration.
 
 > `readonly` **onBodyTrackingEndedObservable**: [`Observable`](Observable.md)\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.ts:2343](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRBodyTracking.ts#L2343)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2513](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2513)
 
 Observable fired when body tracking is lost (i.e. `XRFrame.body` becomes
 `null` or returns no valid poses after previously tracking).
@@ -170,7 +170,7 @@ Observable fired when body tracking is lost (i.e. `XRFrame.body` becomes
 
 > `readonly` **onBodyTrackingFrameUpdateObservable**: [`Observable`](Observable.md)\<[`WebXRTrackedBody`](WebXRTrackedBody.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.ts:2349](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRBodyTracking.ts#L2349)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2519](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2519)
 
 Observable fired every frame that has valid body tracking data.
 At the point of notification, all joint transforms are up-to-date.
@@ -181,7 +181,7 @@ At the point of notification, all joint transforms are up-to-date.
 
 > `readonly` **onBodyTrackingStartedObservable**: [`Observable`](Observable.md)\<[`WebXRTrackedBody`](WebXRTrackedBody.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.ts:2337](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRBodyTracking.ts#L2337)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2507](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2507)
 
 Observable fired when body tracking starts (i.e. the first frame where
 `XRFrame.body` returns valid data).
@@ -192,7 +192,7 @@ Observable fired when body tracking starts (i.e. the first frame where
 
 > **onFeatureAttachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L49)
 
 Observers registered here will be executed when the feature is attached
 
@@ -206,7 +206,7 @@ Observers registered here will be executed when the feature is attached
 
 > **onFeatureDetachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L53)
 
 Observers registered here will be executed when the feature is detached
 
@@ -220,7 +220,7 @@ Observers registered here will be executed when the feature is detached
 
 > `readonly` **options**: [`IWebXRBodyTrackingOptions`](../interfaces/IWebXRBodyTrackingOptions.md) = `{}`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.ts:2395](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRBodyTracking.ts#L2395)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2565](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2565)
 
 Configuration options for the body tracking feature.
 
@@ -230,7 +230,7 @@ Configuration options for the body tracking feature.
 
 > `readonly` `static` **Name**: `"xr-body-tracking"` = `WebXRFeatureName.BODY_TRACKING`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.ts:2325](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRBodyTracking.ts#L2325)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2495](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2495)
 
 The module's name, used when enabling the feature on the features manager.
 Value: `"xr-body-tracking"`.
@@ -241,7 +241,7 @@ Value: `"xr-body-tracking"`.
 
 > `readonly` `static` **Version**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.ts:2331](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRBodyTracking.ts#L2331)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2501](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2501)
 
 The (Babylon) version of this module.
 This is an integer representing the implementation version.
@@ -255,7 +255,7 @@ This number does not correspond to the WebXR specs version.
 
 > **get** **attached**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L69)
 
 Is this feature attached
 
@@ -277,7 +277,7 @@ Is this feature attached
 
 > **get** **isTracking**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.ts:2383](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRBodyTracking.ts#L2383)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2553](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2553)
 
 Returns `true` while body tracking data is actively being received.
 
@@ -293,7 +293,7 @@ Returns `true` while body tracking data is actively being received.
 
 > **get** **trackedBody**(): [`Nullable`](../type-aliases/Nullable.md)\<[`WebXRTrackedBody`](WebXRTrackedBody.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.ts:2376](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRBodyTracking.ts#L2376)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2546](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2546)
 
 Get the currently tracked body, if any.
 
@@ -309,7 +309,7 @@ Get the currently tracked body, if any.
 
 > **get** **xrNativeFeatureName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L34)
 
 The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
@@ -321,7 +321,7 @@ The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
 > **set** **xrNativeFeatureName**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L38)
 
 The name of the native xr feature name, if applicable (like anchor, hit-test, or hand-tracking)
 
@@ -349,7 +349,7 @@ The name of the native xr feature name, if applicable (like anchor, hit-test, or
 
 > **get** `static` **AllBodyJoints**(): readonly [`WebXRBodyJoint`](../enumerations/WebXRBodyJoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.ts:2584](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRBodyTracking.ts#L2584)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2754](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2754)
 
 Returns the complete ordered list of body joint names tracked by this feature.
 Useful for iterating over all joints or building UI.
@@ -364,7 +364,7 @@ readonly [`WebXRBodyJoint`](../enumerations/WebXRBodyJoint.md)[]
 
 > **attach**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.ts:2435](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRBodyTracking.ts#L2435)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2605](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2605)
 
 Attach the feature.
 Called by the features manager when the XR session initialises.
@@ -391,7 +391,7 @@ enabled-features check is skipped, then restore it afterwards.
 
 > **detach**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.ts:2493](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRBodyTracking.ts#L2493)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2663](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2663)
 
 Detach the feature.
 Called by the features manager when the XR session ends.
@@ -412,7 +412,7 @@ Called by the features manager when the XR session ends.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.ts:2519](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRBodyTracking.ts#L2519)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2689](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2689)
 
 Dispose this feature and all resources.
 
@@ -430,7 +430,7 @@ Dispose this feature and all resources.
 
 > **isCompatible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L144)
 
 This function will be executed during before enabling the feature and can be used to not-allow enabling it.
 Note that at this point the session has NOT started, so this is purely checking if the browser supports it
@@ -451,7 +451,7 @@ whether or not the feature is compatible in this environment
 
 > **setBodyMesh**(`bodyMesh`, `rigMapping?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.ts:2412](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRBodyTracking.ts#L2412)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2582](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2582)
 
 Attach a rigged body mesh (or replace the current one) at any time.
 
@@ -484,7 +484,7 @@ Optional mapping from [WebXRBodyJoint](../enumerations/WebXRBodyJoint.md) names 
 
 > **snapshotFrameToClipboardAsync**(): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.ts:2602](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRBodyTracking.ts#L2602)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2772](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2772)
 
 Capture a single-frame snapshot of all 83 joints and copy it to the
 clipboard.  Call this from a playground button or the console while

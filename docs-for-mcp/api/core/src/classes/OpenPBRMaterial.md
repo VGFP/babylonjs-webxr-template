@@ -6,7 +6,7 @@
 
 # Class: OpenPBRMaterial
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:496](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L496)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:515](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L515)
 
 A Physically based material that follows the specification of OpenPBR.
 
@@ -23,7 +23,7 @@ https://academysoftwarefoundation.github.io/OpenPBR/index.html
 
 > **new OpenPBRMaterial**(`name`, `scene?`, `forceGLSL?`): `OpenPBRMaterial`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1918](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1918)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1937](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1937)
 
 Instantiates a new OpenPBRMaterial instance.
 
@@ -61,7 +61,7 @@ Use the GLSL code generation for the shader (even on WebGPU). Default is false
 
 > **\_imageProcessingConfiguration**: [`ImageProcessingConfiguration`](ImageProcessingConfiguration.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L30)
 
 Default configuration related to image processing available in the standard Material.
 
@@ -75,7 +75,7 @@ Default configuration related to image processing available in the standard Mate
 
 > **\_imageProcessingObserver**: [`Nullable`](../type-aliases/Nullable.md)\<[`Observer`](Observer.md)\<[`ImageProcessingConfiguration`](ImageProcessingConfiguration.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L56)
 
 Keep track of the image processing observer to allow dispose and replace.
 
@@ -89,7 +89,7 @@ Keep track of the image processing observer to allow dispose and replace.
 
 > **\_useFuzzRoughnessFromTextureAlpha**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1601](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1601)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1620](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1620)
 
 Specifies that the fuzz roughness is stored in the alpha channel of the texture.
 This is for compatibility with glTF where the fuzz roughness is often stored in
@@ -101,7 +101,7 @@ the alpha channel of the fuzz color texture.
 
 > **\_useSubsurfaceWeightFromTextureAlpha**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1608](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1608)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1627](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1627)
 
 Specifies that the subsurface weight is stored in the alpha channel of the texture.
 This is for compatibility with glTF where the subsurface weight is stored in
@@ -113,7 +113,7 @@ the alpha channel of the diffuseTransmissionTexture.
 
 > **allowShaderHotSwapping**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:256](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L256)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:258](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L258)
 
 Gets or sets a boolean indicating that the material is allowed (if supported) to do shader hot swapping.
 This means that the material can keep using a previous shader while a new one is being compiled.
@@ -129,7 +129,7 @@ This is mostly used when shader parallel compilation is supported (true by defau
 
 > **alphaCutOff**: `number` = `0.4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1312](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1312)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1331](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1331)
 
 Defines the alpha limits in alpha test mode.
 
@@ -139,7 +139,7 @@ Defines the alpha limits in alpha test mode.
 
 > **ambientOcclusionTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1198](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1198)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1217)
 
 Defines the ambient occlusion texture.
 
@@ -149,7 +149,7 @@ Defines the ambient occlusion texture.
 
 > **animations**: [`Nullable`](../type-aliases/Nullable.md)\<[`Animation`](Animation.md)[]\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:563](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L563)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:565](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L565)
 
 Stores the animations for the material
 
@@ -163,7 +163,7 @@ Stores the animations for the material
 
 > **applyDecalMapAfterDetailMap**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1535](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1535)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1554](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1554)
 
 If sets to true, the decal map will be applied after the detail map. Else, it is applied before (default: false)
 
@@ -173,7 +173,7 @@ If sets to true, the decal map will be applied after the detail map. Else, it is
 
 > **baseColor**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:519](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L519)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:538](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L538)
 
 Color of the base diffuse lobe.
 See OpenPBR's specs for base_color
@@ -184,7 +184,7 @@ See OpenPBR's specs for base_color
 
 > **baseColorTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:528](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L528)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:547](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L547)
 
 Base Color Texture property.
 See OpenPBR's specs for base_color
@@ -195,7 +195,7 @@ See OpenPBR's specs for base_color
 
 > **baseDiffuseRoughness**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:537](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L537)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:556](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L556)
 
 Roughness of the diffuse lobe.
 See OpenPBR's specs for base_diffuse_roughness
@@ -206,7 +206,7 @@ See OpenPBR's specs for base_diffuse_roughness
 
 > **baseDiffuseRoughnessTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:546](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L546)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:565](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L565)
 
 Roughness texture of the diffuse lobe.
 See OpenPBR's specs for base_diffuse_roughness
@@ -217,7 +217,7 @@ See OpenPBR's specs for base_diffuse_roughness
 
 > **baseMetalness**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:555](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L555)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:574](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L574)
 
 Metalness of the base lobe.
 See OpenPBR's specs for base_metalness
@@ -228,7 +228,7 @@ See OpenPBR's specs for base_metalness
 
 > **baseMetalnessTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:564](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L564)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:583](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L583)
 
 Metalness texture.
 See OpenPBR's specs for base_metalness
@@ -239,7 +239,7 @@ See OpenPBR's specs for base_metalness
 
 > **baseWeight**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:501](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L501)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:520](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L520)
 
 Base Weight is a multiplier on the diffuse and metal lobes.
 See OpenPBR's specs for base_weight
@@ -250,7 +250,7 @@ See OpenPBR's specs for base_weight
 
 > **baseWeightTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:510](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L510)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:529](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L529)
 
 Base Weight is a multiplier on the diffuse and metal lobes.
 See OpenPBR's specs for base_weight
@@ -261,7 +261,7 @@ See OpenPBR's specs for base_weight
 
 > **checkReadyOnEveryCall**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:337](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L337)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:339](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L339)
 
 Specifies if the ready state should be checked on each call
 
@@ -275,7 +275,7 @@ Specifies if the ready state should be checked on each call
 
 > **checkReadyOnlyOnce**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:343](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L343)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L345)
 
 Specifies if the ready state should be checked once
 
@@ -289,7 +289,7 @@ Specifies if the ready state should be checked once
 
 > **clipPlane**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:875](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L875)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:877](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L877)
 
 Gets or sets the active clipplane 1
 
@@ -303,7 +303,7 @@ Gets or sets the active clipplane 1
 
 > **clipPlane2**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:880](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L880)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:882](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L882)
 
 Gets or sets the active clipplane 2
 
@@ -317,7 +317,7 @@ Gets or sets the active clipplane 2
 
 > **clipPlane3**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:885](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L885)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:887](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L887)
 
 Gets or sets the active clipplane 3
 
@@ -331,7 +331,7 @@ Gets or sets the active clipplane 3
 
 > **clipPlane4**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:890](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L890)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:892](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L892)
 
 Gets or sets the active clipplane 4
 
@@ -345,7 +345,7 @@ Gets or sets the active clipplane 4
 
 > **clipPlane5**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:895](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L895)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:897](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L897)
 
 Gets or sets the active clipplane 5
 
@@ -359,7 +359,7 @@ Gets or sets the active clipplane 5
 
 > **clipPlane6**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:900](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L900)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:902](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L902)
 
 Gets or sets the active clipplane 6
 
@@ -373,7 +373,7 @@ Gets or sets the active clipplane 6
 
 > **coatColor**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:852](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L852)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:871](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L871)
 
 Defines the color of the clear coat on the surface.
 See OpenPBR's specs for coat_color
@@ -384,7 +384,7 @@ See OpenPBR's specs for coat_color
 
 > **coatColorTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:861](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L861)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:880](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L880)
 
 Color texture of the clear coat.
 See OpenPBR's specs for coat_color
@@ -395,7 +395,7 @@ See OpenPBR's specs for coat_color
 
 > **coatDarkening**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:917](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L917)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:936](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L936)
 
 Defines the amount that interreflections within the coat allow the underlying surface
 to be darkened. A value of 1.0 means that the physically correct amount of darkening
@@ -408,7 +408,7 @@ See OpenPBR's specs for coat_darkening
 
 > **coatDarkeningTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:928](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L928)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:947](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L947)
 
 Defines the amount that interreflections within the coat allow the underlying surface
 to be darkened. A value of 1.0 means that the physically correct amount of darkening
@@ -421,7 +421,7 @@ See OpenPBR's specs for coat_darkening
 
 > **coatIor**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:906](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L906)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:925](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L925)
 
 Defines the IOR of the clear coat on the surface.
 See OpenPBR's specs for coat_ior
@@ -432,7 +432,7 @@ See OpenPBR's specs for coat_ior
 
 > **coatRoughness**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:870](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L870)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:889](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L889)
 
 Defines the roughness of the clear coat on the surface.
 See OpenPBR's specs for coat_roughness
@@ -443,7 +443,7 @@ See OpenPBR's specs for coat_roughness
 
 > **coatRoughnessAnisotropy**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:888](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L888)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:907](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L907)
 
 Defines the anisotropy of the clear coat on the surface.
 See OpenPBR's specs for coat_roughness_anisotropy
@@ -454,7 +454,7 @@ See OpenPBR's specs for coat_roughness_anisotropy
 
 > **coatRoughnessAnisotropyTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:897](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L897)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:916](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L916)
 
 Anisotropic Roughness texture of the clear coat.
 See OpenPBR's specs for coat_roughness_anisotropy
@@ -465,7 +465,7 @@ See OpenPBR's specs for coat_roughness_anisotropy
 
 > **coatRoughnessTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:879](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L879)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:898](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L898)
 
 Roughness texture of the clear coat.
 See OpenPBR's specs for coat_roughness
@@ -476,7 +476,7 @@ See OpenPBR's specs for coat_roughness
 
 > **coatWeight**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:834](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L834)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:853](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L853)
 
 Defines the amount of clear coat on the surface.
 See OpenPBR's specs for coat_weight
@@ -487,7 +487,7 @@ See OpenPBR's specs for coat_weight
 
 > **coatWeightTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:843](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L843)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:862](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L862)
 
 Coat weight texture.
 See OpenPBR's specs for coat_weight
@@ -498,7 +498,7 @@ See OpenPBR's specs for coat_weight
 
 > **customShaderNameResolve**: (`shaderName`, `uniforms`, `uniformBuffers`, `samplers`, `defines`, `attributes?`, `options?`) => `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:236](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L236)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L238)
 
 Custom callback helping to override the default shader used in the material.
 
@@ -546,7 +546,7 @@ Custom callback helping to override the default shader used in the material.
 
 > **depthFunction**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:762](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L762)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:764](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L764)
 
 Specifies the depth function that should be used. 0 means the default engine function
 
@@ -560,7 +560,7 @@ Specifies the depth function that should be used. 0 means the default engine fun
 
 > **directIntensity**: `number` = `1.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1283](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1283)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1302)
 
 Intensity of the direct lights e.g. the four lights available in your scene.
 This impacts both the direct diffuse and specular highlights.
@@ -571,7 +571,7 @@ This impacts both the direct diffuse and specular highlights.
 
 > **disableColorWrite**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:750](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L750)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:752](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L752)
 
 Specifies if color writing should be disabled
 
@@ -585,7 +585,7 @@ Specifies if color writing should be disabled
 
 > **disableDepthWrite**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:744](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L744)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:746](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L746)
 
 Specifies if depth writing should be disabled
 
@@ -599,7 +599,7 @@ Specifies if depth writing should be disabled
 
 > **disableLighting**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1427](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1427)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1446](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1446)
 
 If sets to true, disables all the lights affecting the material.
 
@@ -609,7 +609,7 @@ If sets to true, disables all the lights affecting the material.
 
 > **doNotSerialize**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:553](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L553)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:555](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L555)
 
 Specifies if the material should be serialized
 
@@ -623,7 +623,7 @@ Specifies if the material should be serialized
 
 > **emissionColor**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1131)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1150)
 
 Defines the color of the material's emission.
 See OpenPBR's specs for emission_color
@@ -634,7 +634,7 @@ See OpenPBR's specs for emission_color
 
 > **emissionColorTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1140)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1159)
 
 Defines the texture of the material's emission color.
 See OpenPBR's specs for emission_color
@@ -645,7 +645,7 @@ See OpenPBR's specs for emission_color
 
 > **emissionLuminance**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1122)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1141)
 
 Defines the luminance of the material's emission.
 See OpenPBR's specs for emission_luminance
@@ -656,7 +656,7 @@ See OpenPBR's specs for emission_luminance
 
 > **enableSpecularAntiAliasing**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1505](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1505)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1524](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1524)
 
 Enables specular anti aliasing in the PBR shader.
 It will both interacts on the Geometry for analytical and IBL lighting.
@@ -668,7 +668,7 @@ It also prefilter the roughness map based on the normalmap values.
 
 > **environmentBRDFTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1489](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1489)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1508](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1508)
 
 Let user defines the brdf lookup texture used for IBL.
 A default 8bit version is embedded but you could point at :
@@ -683,7 +683,7 @@ A default 8bit version is embedded but you could point at :
 
 > **environmentIntensity**: `number` = `1.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1291](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1291)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1310)
 
 Intensity of the environment e.g. how much the environment will light the object
 either through harmonics for rough material or through the reflection for shiny ones.
@@ -694,7 +694,7 @@ either through harmonics for rough material or through the reflection for shiny 
 
 > **forceAlphaTest**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1305](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1305)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1324](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1324)
 
 Enforces alpha test in opaque or blend mode in order to improve the performances of some situations.
 
@@ -704,7 +704,7 @@ Enforces alpha test in opaque or blend mode in order to improve the performances
 
 > **forceDepthWrite**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:756](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L756)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:758](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L758)
 
 Specifies if depth writing should be forced
 
@@ -718,7 +718,7 @@ Specifies if depth writing should be forced
 
 > **forceIrradianceInFragment**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1434](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1434)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1453](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1453)
 
 Force the shader to compute irradiance in the fragment shader in order to take normal mapping into account.
 
@@ -728,7 +728,7 @@ Force the shader to compute irradiance in the fragment shader in order to take n
 
 > **forceNormalForward**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1496](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1496)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1515](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1515)
 
 Force normal to face away from face.
 
@@ -738,7 +738,7 @@ Force normal to face away from face.
 
 > **fuzzColor**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:961](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L961)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:980](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L980)
 
 Defines the color of the fuzz layer on the surface.
 See OpenPBR's specs for fuzz_color
@@ -749,7 +749,7 @@ See OpenPBR's specs for fuzz_color
 
 > **fuzzColorTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:970](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L970)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:989](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L989)
 
 Color texture of the fuzz layer.
 See OpenPBR's specs for fuzz_color
@@ -760,7 +760,7 @@ See OpenPBR's specs for fuzz_color
 
 > **fuzzRoughness**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:979](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L979)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:998](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L998)
 
 Defines the roughness of the fuzz layer on the surface.
 See OpenPBR's specs for fuzz_roughness
@@ -771,7 +771,7 @@ See OpenPBR's specs for fuzz_roughness
 
 > **fuzzRoughnessTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:988](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L988)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1007](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1007)
 
 Roughness texture of the fuzz layer.
 See OpenPBR's specs for fuzz_roughness
@@ -782,7 +782,7 @@ See OpenPBR's specs for fuzz_roughness
 
 > **fuzzWeight**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:943](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L943)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:962](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L962)
 
 Defines the weight of the fuzz layer on the surface.
 See OpenPBR's specs for fuzz_weight
@@ -793,7 +793,7 @@ See OpenPBR's specs for fuzz_weight
 
 > **fuzzWeightTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:952](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L952)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:971](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L971)
 
 Weight texture of the fuzz layer.
 See OpenPBR's specs for fuzz_weight
@@ -804,7 +804,7 @@ See OpenPBR's specs for fuzz_weight
 
 > **geometryCoatNormalTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1045](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1045)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1064](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1064)
 
 Defines the normal of the material's coat layer.
 See OpenPBR's specs for geometry_coat_normal
@@ -815,7 +815,7 @@ See OpenPBR's specs for geometry_coat_normal
 
 > **geometryCoatTangent**: [`Vector2`](Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1054](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1054)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1073](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1073)
 
 Defines the tangent of the material's coat layer. Used only for anisotropic reflections.
 See OpenPBR's specs for geometry_coat_tangent
@@ -826,7 +826,7 @@ See OpenPBR's specs for geometry_coat_tangent
 
 > **geometryCoatTangentTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1077](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1077)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1096](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1096)
 
 Defines the tangent of the material's coat layer. Used only for anisotropic reflections.
 See OpenPBR's specs for geometry_coat_tangent
@@ -837,7 +837,7 @@ See OpenPBR's specs for geometry_coat_tangent
 
 > **geometryNormalTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1006](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1006)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1025](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1025)
 
 Defines the normal of the material's geometry.
 See OpenPBR's specs for geometry_normal
@@ -848,7 +848,7 @@ See OpenPBR's specs for geometry_normal
 
 > **geometryOpacity**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1086](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1086)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1105)
 
 Defines the opacity of the material's geometry.
 See OpenPBR's specs for geometry_opacity
@@ -859,7 +859,7 @@ See OpenPBR's specs for geometry_opacity
 
 > **geometryOpacityTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1095](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1095)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1114)
 
 Defines the opacity texture of the material's geometry.
 See OpenPBR's specs for geometry_opacity
@@ -870,7 +870,7 @@ See OpenPBR's specs for geometry_opacity
 
 > **geometryTangent**: [`Vector2`](Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1015](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1015)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1034](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1034)
 
 Defines the tangent of the material's geometry. Used only for anisotropic reflections.
 See OpenPBR's specs for geometry_tangent
@@ -881,7 +881,7 @@ See OpenPBR's specs for geometry_tangent
 
 > **geometryTangentTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1036](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1036)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1055](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1055)
 
 Defines the tangent of the material's geometry. Used only for anisotropic reflections.
 See OpenPBR's specs for geometry_tangent
@@ -892,7 +892,7 @@ See OpenPBR's specs for geometry_tangent
 
 > **geometryThickness**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1104)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1123)
 
 Defines the thickness of the material's geometry.
 Not part of OpenPBR's specs but useful for rasterization approximations of volume.
@@ -903,7 +903,7 @@ Not part of OpenPBR's specs but useful for rasterization approximations of volum
 
 > **geometryThicknessTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1113)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1132)
 
 Defines the thickness of the material's geometry.
 Not part of OpenPBR's specs but useful for rasterization approximations of volume.
@@ -914,7 +914,7 @@ Not part of OpenPBR's specs but useful for rasterization approximations of volum
 
 > **geometryThinWalled**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:997](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L997)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1016](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1016)
 
 Defines whether the geometry is thin-walled (like a sheet of paper) or not.
 See OpenPBR's specs for geometry_thin_walled
@@ -925,7 +925,7 @@ See OpenPBR's specs for geometry_thin_walled
 
 > **getRenderTargetTextures**: [`Nullable`](../type-aliases/Nullable.md)\<() => [`SmartArray`](SmartArray.md)\<[`RenderTargetTexture`](RenderTargetTexture.md)\>\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:539](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L539)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:541](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L541)
 
 Callback triggered to get the render target textures
 
@@ -939,7 +939,7 @@ Callback triggered to get the render target textures
 
 > **id**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:302](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L302)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:304](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L304)
 
 The ID of the material
 
@@ -953,7 +953,7 @@ The ID of the material
 
 > **inspectableCustomProperties**: [`IInspectable`](../interfaces/IInspectable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:370](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L370)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:372](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L372)
 
 List of inspectable custom properties (used by the Inspector)
 
@@ -971,7 +971,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > **invertNormalMapX**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1448](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1448)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1467](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1467)
 
 If sets to true, x component of normal map value will invert (x = 1.0 - x).
 
@@ -981,7 +981,7 @@ If sets to true, x component of normal map value will invert (x = 1.0 - x).
 
 > **invertNormalMapY**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1455](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1455)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1474](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1474)
 
 If sets to true, y component of normal map value will invert (y = 1.0 - y).
 
@@ -991,7 +991,7 @@ If sets to true, y component of normal map value will invert (y = 1.0 - y).
 
 > **maxSimultaneousLights**: `number` = `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1441](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1441)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1460](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1460)
 
 Number of Simultaneous lights allowed on the material.
 
@@ -1001,7 +1001,7 @@ Number of Simultaneous lights allowed on the material.
 
 > **metadata**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:325](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L325)
 
 Gets or sets user defined metadata
 
@@ -1015,7 +1015,7 @@ Gets or sets user defined metadata
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:317](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L317)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:319](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L319)
 
 The name of the material
 
@@ -1029,7 +1029,7 @@ The name of the material
 
 > **onCompiled**: [`Nullable`](../type-aliases/Nullable.md)\<(`effect`) => `void`\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:529](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L529)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:531](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L531)
 
 Callback triggered when the material is compiled
 
@@ -1043,7 +1043,7 @@ Callback triggered when the material is compiled
 
 > **onDisposeObservable**: [`Observable`](Observable.md)\<[`Material`](Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:568](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L568)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:570](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L570)
 
 An event triggered when the material is disposed
 
@@ -1057,7 +1057,7 @@ An event triggered when the material is disposed
 
 > **onError**: [`Nullable`](../type-aliases/Nullable.md)\<(`effect`, `errors`) => `void`\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:534](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L534)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:536](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L536)
 
 Callback triggered when an error occurs
 
@@ -1071,7 +1071,7 @@ Callback triggered when an error occurs
 
 > **parallaxScaleBias**: `number` = `0.05`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1420](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1420)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1439](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1439)
 
 Controls the scale bias of the parallax mode.
 
@@ -1081,7 +1081,7 @@ Controls the scale bias of the parallax mode.
 
 > `optional` **pluginManager?**: [`MaterialPluginManager`](MaterialPluginManager.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginManager.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginManager.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginManager.types.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginManager.types.ts#L8)
 
 Plugin manager for this material
 
@@ -1095,7 +1095,7 @@ Plugin manager for this material
 
 > **pointSize**: `number` = `1.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:798](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L798)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:800](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L800)
 
 Stores the size of points
 
@@ -1109,7 +1109,7 @@ Stores the size of points
 
 > `readonly` **prePassConfiguration**: `PrePassConfiguration`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1907](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1907)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1926](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1926)
 
 Defines additional PrePass parameters for the material.
 
@@ -1119,7 +1119,7 @@ Defines additional PrePass parameters for the material.
 
 > **reservedDataStore**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:331](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L331)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:333](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L333)
 
 For internal use only. Please do not use.
 
@@ -1133,7 +1133,7 @@ For internal use only. Please do not use.
 
 > **separateCullingPass**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:768](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L768)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:770](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L770)
 
 Specifies if there should be a separate pass for culling
 
@@ -1147,7 +1147,7 @@ Specifies if there should be a separate pass for culling
 
 > **shadowDepthWrapper**: [`Nullable`](../type-aliases/Nullable.md)\<[`ShadowDepthWrapper`](ShadowDepthWrapper.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:249](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L249)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L251)
 
 Custom shadow depth material to use for shadow rendering instead of the in-built one
 
@@ -1161,7 +1161,7 @@ Custom shadow depth material to use for shadow rendering instead of the in-built
 
 > **sideOrientation**: [`Nullable`](../type-aliases/Nullable.md)\<`number`\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:524](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L524)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:526](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L526)
 
 Stores the value for side orientation
 
@@ -1175,7 +1175,7 @@ Stores the value for side orientation
 
 > **specularColor**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:591](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L591)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:610](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L610)
 
 Color of the specular lobe.
 See OpenPBR's specs for specular_color
@@ -1186,7 +1186,7 @@ See OpenPBR's specs for specular_color
 
 > **specularColorTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:600](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L600)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:619](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L619)
 
 Specular Color Texture property.
 See OpenPBR's specs for specular_color
@@ -1197,7 +1197,7 @@ See OpenPBR's specs for specular_color
 
 > **specularIor**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:645](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L645)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:664](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L664)
 
 IOR of the specular lobe.
 See OpenPBR's specs for specular_ior
@@ -1208,7 +1208,7 @@ See OpenPBR's specs for specular_ior
 
 > **specularRoughness**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:609](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L609)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:628](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L628)
 
 Roughness of the specular lobe.
 See OpenPBR's specs for specular_roughness
@@ -1219,7 +1219,7 @@ See OpenPBR's specs for specular_roughness
 
 > **specularRoughnessAnisotropy**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:627](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L627)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:646](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L646)
 
 Anisotropic roughness of the specular lobe.
 See OpenPBR's specs for specular_roughness_anisotropy
@@ -1230,7 +1230,7 @@ See OpenPBR's specs for specular_roughness_anisotropy
 
 > **specularRoughnessAnisotropyTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:636](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L636)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:655](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L655)
 
 Anisotropic Roughness texture.
 See OpenPBR's specs for specular_roughness
@@ -1241,7 +1241,7 @@ See OpenPBR's specs for specular_roughness
 
 > **specularRoughnessTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:618](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L618)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:637](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L637)
 
 Roughness texture of the specular lobe.
 See OpenPBR's specs for specular_roughness
@@ -1252,7 +1252,7 @@ See OpenPBR's specs for specular_roughness
 
 > **specularWeight**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:573](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L573)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:592](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L592)
 
 Weight of the specular lobe.
 See OpenPBR's specs for specular_weight
@@ -1263,7 +1263,7 @@ See OpenPBR's specs for specular_weight
 
 > **specularWeightTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:582](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L582)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:601](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L601)
 
 Weight texture of the specular lobe.
 See OpenPBR's specs for specular_weight
@@ -1274,7 +1274,7 @@ See OpenPBR's specs for specular_weight
 
 > **state**: `string` = `""`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:349](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L349)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:351](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L351)
 
 The state of the material
 
@@ -1288,7 +1288,7 @@ The state of the material
 
 > `readonly` **stencil**: [`MaterialStencilState`](MaterialStencilState.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:905](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L905)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:907](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L907)
 
 Gives access to the stencil properties of the material
 
@@ -1302,7 +1302,7 @@ Gives access to the stencil properties of the material
 
 > **subsurfaceColor**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:780](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L780)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:799](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L799)
 
 Defines the color of the subsurface scattering in the volume.
 See OpenPBR's specs for subsurface_color
@@ -1313,7 +1313,7 @@ See OpenPBR's specs for subsurface_color
 
 > **subsurfaceColorTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:789](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L789)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:808](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L808)
 
 Subsurface color texture.
 See OpenPBR's specs for subsurface_color
@@ -1324,7 +1324,7 @@ See OpenPBR's specs for subsurface_color
 
 > **subsurfaceRadius**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:798](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L798)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:817](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L817)
 
 Defines the radius of the subsurface scattering in the volume.
 See OpenPBR's specs for subsurface_radius
@@ -1335,7 +1335,7 @@ See OpenPBR's specs for subsurface_radius
 
 > **subsurfaceRadiusScale**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:807](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L807)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:826](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L826)
 
 Defines the scale factor applied to the subsurface radius.
 See OpenPBR's specs for subsurface_radius_scale
@@ -1346,7 +1346,7 @@ See OpenPBR's specs for subsurface_radius_scale
 
 > **subsurfaceRadiusScaleTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:816](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L816)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:835](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L835)
 
 Subsurface radius scale texture.
 See OpenPBR's specs for subsurface_radius_scale
@@ -1357,7 +1357,7 @@ See OpenPBR's specs for subsurface_radius_scale
 
 > **subsurfaceScatterAnisotropy**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:825](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L825)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:844](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L844)
 
 Defines the anisotropy of the subsurface scattering in the volume.
 See OpenPBR's specs for subsurface_scatter_anisotropy
@@ -1368,7 +1368,7 @@ See OpenPBR's specs for subsurface_scatter_anisotropy
 
 > **subsurfaceWeight**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:762](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L762)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:781](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L781)
 
 Defines the amount of subsurface scattering on the surface.
 See OpenPBR's specs for subsurface_weight
@@ -1379,7 +1379,7 @@ See OpenPBR's specs for subsurface_weight
 
 > **subsurfaceWeightTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:771](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L771)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:790](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L790)
 
 Subsurface weight texture.
 See OpenPBR's specs for subsurface_weight
@@ -1390,7 +1390,7 @@ See OpenPBR's specs for subsurface_weight
 
 > **textureRepetitionHexTilingParams**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:457](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L457)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:459](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L459)
 
 Parameters for the hex tiling texture repetition mode (TEXTURE_REPETITION_HEX_TILING).
 x = rotation strength (0..1, default 1.0) — how much each hex tile is rotated.
@@ -1412,7 +1412,7 @@ https://jcgt.org/published/0011/03/05/
 
 > **thinFilmIor**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1190)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1209)
 
 Defines the index of refraction of the thin film layer.
 
@@ -1422,7 +1422,7 @@ Defines the index of refraction of the thin film layer.
 
 > **thinFilmThickness**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1166)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1185)
 
 Defines the thickness of the thin film layer in μm. If a texture is provided for thinFilmWeightTexture,
 this value will act as a multiplier to the texture values.
@@ -1434,7 +1434,7 @@ See OpenPBR's specs for thin_film_thickness
 
 > **thinFilmThicknessMin**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1174](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1174)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1193)
 
 Defines the minimum thickness of the thin film layer in μm.
 
@@ -1444,7 +1444,7 @@ Defines the minimum thickness of the thin film layer in μm.
 
 > **thinFilmThicknessTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1182](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1182)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1201)
 
 Defines the maximum thickness of the thin film layer in μm.
 
@@ -1454,7 +1454,7 @@ Defines the maximum thickness of the thin film layer in μm.
 
 > **thinFilmWeight**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1148)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1167)
 
 Defines the weight of the thin film layer on top of the base layer for iridescent effects.
 
@@ -1464,7 +1464,7 @@ Defines the weight of the thin film layer on top of the base layer for iridescen
 
 > **thinFilmWeightTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1156](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1156)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1175)
 
 Thin film weight texture.
 
@@ -1474,7 +1474,7 @@ Thin film weight texture.
 
 > **transmissionColor**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:672](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L672)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:691](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L691)
 
 Transmission color of the surface.
 See OpenPBR's specs for transmission_color
@@ -1485,7 +1485,7 @@ See OpenPBR's specs for transmission_color
 
 > **transmissionColorTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:681](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L681)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:700](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L700)
 
 Transmission color texture.
 See OpenPBR's specs for transmission_color
@@ -1496,7 +1496,7 @@ See OpenPBR's specs for transmission_color
 
 > **transmissionDepth**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:690](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L690)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:709](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L709)
 
 Transmission depth of the volume
 See OpenPBR's specs for transmission_depth
@@ -1507,7 +1507,7 @@ See OpenPBR's specs for transmission_depth
 
 > **transmissionDepthTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:699](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L699)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:718](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L718)
 
 Transmission depth texture.
 See OpenPBR's specs for transmission_depth
@@ -1518,7 +1518,7 @@ See OpenPBR's specs for transmission_depth
 
 > **transmissionDispersionAbbeNumber**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:753](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L753)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:772](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L772)
 
 Transmission Dispersion Abbe number.
 See OpenPBR's specs for transmission_dispersion_abbe_number
@@ -1529,7 +1529,7 @@ See OpenPBR's specs for transmission_dispersion_abbe_number
 
 > **transmissionDispersionScale**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:735](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L735)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:754](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L754)
 
 Transmission Dispersion Scale factor.
 See OpenPBR's specs for transmission_dispersion_scale
@@ -1540,7 +1540,7 @@ See OpenPBR's specs for transmission_dispersion_scale
 
 > **transmissionDispersionScaleTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:744](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L744)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:763](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L763)
 
 Transmission Dispersion Scale texture.
 See OpenPBR's specs for transmission_dispersion_scale
@@ -1551,7 +1551,7 @@ See OpenPBR's specs for transmission_dispersion_scale
 
 > **transmissionScatter**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:708](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L708)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:727](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L727)
 
 Transmission scatter of the surface.
 See OpenPBR's specs for transmission_scatter
@@ -1562,7 +1562,7 @@ See OpenPBR's specs for transmission_scatter
 
 > **transmissionScatterAnisotropy**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:726](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L726)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:745](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L745)
 
 Transmission scatter anisotropy
 See OpenPBR's specs for transmission_scatter_anisotropy
@@ -1573,7 +1573,7 @@ See OpenPBR's specs for transmission_scatter_anisotropy
 
 > **transmissionScatterTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:717](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L717)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:736](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L736)
 
 Transmission scatter texture.
 See OpenPBR's specs for transmission_scatter
@@ -1584,7 +1584,7 @@ See OpenPBR's specs for transmission_scatter
 
 > **transmissionWeight**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:654](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L654)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:673](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L673)
 
 Transmission weight of the surface.
 See OpenPBR's specs for transmission_weight
@@ -1595,7 +1595,7 @@ See OpenPBR's specs for transmission_weight
 
 > **transmissionWeightTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:663](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L663)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:682](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L682)
 
 Transmission weight texture.
 See OpenPBR's specs for transmission_weight
@@ -1606,7 +1606,7 @@ See OpenPBR's specs for transmission_weight
 
 > **twoSidedLighting**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1462](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1462)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1481](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1481)
 
 If sets to true and backfaceCulling is false, normals will be flipped on the backside.
 
@@ -1616,7 +1616,7 @@ If sets to true and backfaceCulling is false, normals will be flipped on the bac
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:308](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L308)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L310)
 
 Gets or sets the unique id of the material
 
@@ -1630,7 +1630,7 @@ Gets or sets the unique id of the material
 
 > **unlit**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1528](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1528)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1547](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1547)
 
 If set to true, no lighting calculations will be applied.
 
@@ -1640,7 +1640,7 @@ If set to true, no lighting calculations will be applied.
 
 > **useAlphaFresnel**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1470](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1470)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1489](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1489)
 
 A fresnel is applied to the alpha of the model to ensure grazing angles edges are not alpha tested.
 And/Or occlude the blended part. (alpha is converted to gamma to compute the fresnel)
@@ -1651,7 +1651,7 @@ And/Or occlude the blended part. (alpha is converted to gamma to compute the fre
 
 > **useAmbientInGrayScale**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1326](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1326)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1345)
 
 Specifies if the ambient texture contains the ambient occlusion information in its red channel only.
 
@@ -1661,7 +1661,7 @@ Specifies if the ambient texture contains the ambient occlusion information in i
 
 > **useAmbientOcclusionFromMetallicTextureRed**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1319](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1319)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1338](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1338)
 
 Specifies if the metallic texture contains the ambient occlusion information in its red channel.
 
@@ -1671,7 +1671,7 @@ Specifies if the metallic texture contains the ambient occlusion information in 
 
 > **useCoatRoughnessFromWeightTexture**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:937](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L937)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:956](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L956)
 
 Specifies whether the coat roughness is taken from the
 same texture as the coat_weight.
@@ -1682,7 +1682,7 @@ same texture as the coat_weight.
 
 > **useHorizonOcclusion**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1513](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1513)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1532](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1532)
 
 This parameters will enable/disable Horizon occlusion to prevent normal maps to look shiny when the normal
 makes the reflect vector face the model (under horizon).
@@ -1693,7 +1693,7 @@ makes the reflect vector face the model (under horizon).
 
 > **useLinearAlphaFresnel**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1478](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1478)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1497](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1497)
 
 A fresnel is applied to the alpha of the model to ensure grazing angles edges are not alpha tested.
 And/Or occlude the blended part. (alpha stays linear to compute the fresnel)
@@ -1704,7 +1704,7 @@ And/Or occlude the blended part. (alpha stays linear to compute the fresnel)
 
 > **useObjectSpaceNormalMap**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1399](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1399)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1418](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1418)
 
 Allows using an object space normal map (instead of tangent space).
 
@@ -1714,7 +1714,7 @@ Allows using an object space normal map (instead of tangent space).
 
 > **useParallax**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1406](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1406)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1425](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1425)
 
 Allows using the normal map in parallax mode.
 
@@ -1724,7 +1724,7 @@ Allows using the normal map in parallax mode.
 
 > **useParallaxOcclusion**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1413](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1413)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1432](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1432)
 
 Allows using the normal map in parallax occlusion mode.
 
@@ -1734,7 +1734,7 @@ Allows using the normal map in parallax occlusion mode.
 
 > **useRadianceOcclusion**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1521](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1521)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1540](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1540)
 
 This parameters will enable/disable radiance occlusion by preventing the radiance to lit
 too much the area relying on ambient texture to define their ambient occlusion.
@@ -1745,7 +1745,7 @@ too much the area relying on ambient texture to define their ambient occlusion.
 
 > **useSpecularWeightFromTextureAlpha**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1298](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1298)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1317](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1317)
 
 Specifies that the specular weight is stored in the alpha channel of the specular weight texture.
 
@@ -1755,7 +1755,7 @@ Specifies that the specular weight is stored in the alpha channel of the specula
 
 > **zOffset**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:804](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L804)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:806](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L806)
 
 Stores the z offset Factor value
 
@@ -1769,7 +1769,7 @@ Stores the z offset Factor value
 
 > **zOffsetUnits**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:810](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L810)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:812](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L812)
 
 Stores the z offset Units value
 
@@ -1783,7 +1783,7 @@ Stores the z offset Units value
 
 > `readonly` `static` **AllDirtyFlag**: `127` = `Constants.MATERIAL_AllDirtyFlag`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:171](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L171)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L173)
 
 The all dirty flag value
 
@@ -1797,7 +1797,7 @@ The all dirty flag value
 
 > `readonly` `static` **AttributesDirtyFlag**: `8` = `Constants.MATERIAL_AttributesDirtyFlag`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:156](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L156)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L158)
 
 The dirty attribute flag value
 
@@ -1811,7 +1811,7 @@ The dirty attribute flag value
 
 > `readonly` `static` **ClockWiseSideOrientation**: `0` = `Constants.MATERIAL_ClockWiseSideOrientation`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L128)
 
 Stores the clock-wise side orientation
 
@@ -1825,7 +1825,7 @@ Stores the clock-wise side orientation
 
 > `readonly` `static` **CounterClockWiseSideOrientation**: `1` = `Constants.MATERIAL_CounterClockWiseSideOrientation`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L131)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L133)
 
 Stores the counter clock-wise side orientation
 
@@ -1839,7 +1839,7 @@ Stores the counter clock-wise side orientation
 
 > `static` **ForceGLSL**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1541](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1541)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1560](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1560)
 
 Force all the PBR materials to compile to glsl even on WebGPU engines.
 False by default. This is mostly meant for backward compatibility.
@@ -1850,7 +1850,7 @@ False by default. This is mostly meant for backward compatibility.
 
 > `static` **ForceVertexOutputInvariant**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:231](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L231)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:233](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L233)
 
 If true, all materials will have their vertex output set to invariant (see the vertexOutputInvariant property).
 
@@ -1864,7 +1864,7 @@ If true, all materials will have their vertex output set to invariant (see the v
 
 > `readonly` `static` **FresnelDirtyFlag**: `4` = `Constants.MATERIAL_FresnelDirtyFlag`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L153)
 
 The dirty fresnel flag value
 
@@ -1878,7 +1878,7 @@ The dirty fresnel flag value
 
 > `readonly` `static` **ImageProcessingDirtyFlag**: `64` = `Constants.MATERIAL_ImageProcessingDirtyFlag`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:136](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L136)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L138)
 
 The dirty image processing flag value
 
@@ -1892,7 +1892,7 @@ The dirty image processing flag value
 
 > `readonly` `static` **LightDirtyFlag**: `2` = `Constants.MATERIAL_LightDirtyFlag`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L148)
 
 The dirty light flag value
 
@@ -1906,7 +1906,7 @@ The dirty light flag value
 
 > `readonly` `static` **LIGHTFALLOFF\_GLTF**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:215](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L215)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L217)
 
 PBRMaterialLightFalloff gltf: light is falling off as described in the gltf moving to PBR document
 to enhance interoperability with other engines.
@@ -1921,7 +1921,7 @@ to enhance interoperability with other engines.
 
 > `readonly` `static` **LIGHTFALLOFF\_PHYSICAL**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:209](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L209)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:211](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L211)
 
 PBRMaterialLightFalloff Physical: light is falling off following the inverse squared distance law.
 
@@ -1935,7 +1935,7 @@ PBRMaterialLightFalloff Physical: light is falling off following the inverse squ
 
 > `readonly` `static` **LIGHTFALLOFF\_STANDARD**: `2` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:221](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L221)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L223)
 
 PBRMaterialLightFalloff Standard: light is falling off like in the standard material
 to enhance interoperability with other materials.
@@ -1950,7 +1950,7 @@ to enhance interoperability with other materials.
 
 > `readonly` `static` **LineListDrawMode**: `4` = `Constants.MATERIAL_LineListDrawMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L107)
 
 Returns the line list draw mode
 
@@ -1964,7 +1964,7 @@ Returns the line list draw mode
 
 > `readonly` `static` **LineLoopDrawMode**: `5` = `Constants.MATERIAL_LineLoopDrawMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L111)
 
 Returns the line loop draw mode
 
@@ -1978,7 +1978,7 @@ Returns the line loop draw mode
 
 > `readonly` `static` **LineStripDrawMode**: `6` = `Constants.MATERIAL_LineStripDrawMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L115)
 
 Returns the line strip draw mode
 
@@ -1992,7 +1992,7 @@ Returns the line strip draw mode
 
 > `readonly` `static` **MATERIAL\_ALPHABLEND**: `2` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:186](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L186)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:188](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L188)
 
 MaterialTransparencyMode: Pixels are blended (according to the alpha mode) with the already drawn pixels in the current frame buffer.
 
@@ -2006,7 +2006,7 @@ MaterialTransparencyMode: Pixels are blended (according to the alpha mode) with 
 
 > `readonly` `static` **MATERIAL\_ALPHATEST**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:181](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L181)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L183)
 
 MaterialTransparencyMode: Alpha Test mode, pixel are discarded below a certain threshold defined by the alpha cutoff value.
 
@@ -2020,7 +2020,7 @@ MaterialTransparencyMode: Alpha Test mode, pixel are discarded below a certain t
 
 > `readonly` `static` **MATERIAL\_ALPHATESTANDBLEND**: `3` = `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:192](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L192)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L194)
 
 MaterialTransparencyMode: Pixels are blended (according to the alpha mode) with the already drawn pixels in the current frame buffer.
 They are also discarded below the alpha cutoff threshold to improve performances.
@@ -2035,7 +2035,7 @@ They are also discarded below the alpha cutoff threshold to improve performances
 
 > `readonly` `static` **MATERIAL\_NORMALBLENDMETHOD\_RNM**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:204](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L204)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:206](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L206)
 
 The Reoriented Normal Mapping method is used to blend normals.
 Details of the algorithm can be found here: https://blog.selfshadow.com/publications/blending-in-detail/
@@ -2050,7 +2050,7 @@ Details of the algorithm can be found here: https://blog.selfshadow.com/publicat
 
 > `readonly` `static` **MATERIAL\_NORMALBLENDMETHOD\_WHITEOUT**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:198](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L198)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L200)
 
 The Whiteout method is used to blend normals.
 Details of the algorithm can be found here: https://blog.selfshadow.com/publications/blending-in-detail/
@@ -2065,7 +2065,7 @@ Details of the algorithm can be found here: https://blog.selfshadow.com/publicat
 
 > `readonly` `static` **MATERIAL\_OPAQUE**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L178)
 
 MaterialTransparencyMode: No transparency mode, Alpha channel is not use.
 
@@ -2079,7 +2079,7 @@ MaterialTransparencyMode: No transparency mode, Alpha channel is not use.
 
 > `readonly` `static` **MiscDirtyFlag**: `16` = `Constants.MATERIAL_MiscDirtyFlag`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:161](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L161)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L163)
 
 The dirty misc flag value
 
@@ -2093,7 +2093,7 @@ The dirty misc flag value
 
 > `static` **OnEventObservable**: [`Observable`](Observable.md)\<[`Material`](Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:226](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L226)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L228)
 
 Event observable which raises global events common to all materials (like MaterialPluginEvent.Created)
 
@@ -2107,7 +2107,7 @@ Event observable which raises global events common to all materials (like Materi
 
 > `readonly` `static` **PointFillMode**: `2` = `Constants.MATERIAL_PointFillMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L99)
 
 Returns the point fill mode
 
@@ -2121,7 +2121,7 @@ Returns the point fill mode
 
 > `readonly` `static` **PointListDrawMode**: `3` = `Constants.MATERIAL_PointListDrawMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L103)
 
 Returns the point list draw mode
 
@@ -2135,7 +2135,7 @@ Returns the point list draw mode
 
 > `readonly` `static` **PrePassDirtyFlag**: `32` = `Constants.MATERIAL_PrePassDirtyFlag`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:168](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L168)
 
 The dirty prepass flag value
 
@@ -2149,7 +2149,7 @@ The dirty prepass flag value
 
 > `readonly` `static` **SSS\_QUALITY\_HIGH**: `2` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1208](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1208)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1227)
 
 SSS convolution uses 32 samples.
 
@@ -2159,7 +2159,7 @@ SSS convolution uses 32 samples.
 
 > `readonly` `static` **SSS\_QUALITY\_LOW**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1204](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1204)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1223)
 
 SSS convolution uses 8 samples.
 
@@ -2169,7 +2169,7 @@ SSS convolution uses 8 samples.
 
 > `readonly` `static` **SSS\_QUALITY\_MEDIUM**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1206](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1206)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1225)
 
 SSS convolution uses 16 samples (default).
 
@@ -2179,7 +2179,7 @@ SSS convolution uses 16 samples (default).
 
 > `readonly` `static` **TextureDirtyFlag**: `1` = `Constants.MATERIAL_TextureDirtyFlag`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L143)
 
 The dirty texture flag value
 
@@ -2193,7 +2193,7 @@ The dirty texture flag value
 
 > `readonly` `static` **TriangleFanDrawMode**: `8` = `Constants.MATERIAL_TriangleFanDrawMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L123)
 
 Returns the triangle fan draw mode
 
@@ -2207,7 +2207,7 @@ Returns the triangle fan draw mode
 
 > `readonly` `static` **TriangleFillMode**: `0` = `Constants.MATERIAL_TriangleFillMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L91)
 
 Returns the triangle fill mode
 
@@ -2221,7 +2221,7 @@ Returns the triangle fill mode
 
 > `readonly` `static` **TriangleStripDrawMode**: `7` = `Constants.MATERIAL_TriangleStripDrawMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L117)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L119)
 
 Returns the triangle strip draw mode
 
@@ -2235,7 +2235,7 @@ Returns the triangle strip draw mode
 
 > `readonly` `static` **WireFrameFillMode**: `1` = `Constants.MATERIAL_WireFrameFillMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L95)
 
 Returns the wireframe mode
 
@@ -2251,7 +2251,7 @@ Returns the wireframe mode
 
 > **get** **alpha**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:392](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L392)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:394](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L394)
 
 Gets the alpha value of the material
 
@@ -2263,7 +2263,7 @@ Gets the alpha value of the material
 
 > **set** **alpha**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:375](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L375)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:377](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L377)
 
 Sets the alpha value of the material
 
@@ -2289,7 +2289,7 @@ Sets the alpha value of the material
 
 > **get** **alphaMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:683](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L683)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:685](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L685)
 
 Gets the value of the alpha mode
 
@@ -2301,7 +2301,7 @@ Gets the value of the alpha mode
 
 > **set** **alphaMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:672](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L672)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:674](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L674)
 
 Sets the value of the alpha mode.
 
@@ -2351,7 +2351,7 @@ Sets the value of the alpha mode.
 
 > **get** **alphaModes**(): readonly `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:690](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L690)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:692](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L692)
 
 Gets the list of alpha modes (length greater than 1 for multi-targets)
 
@@ -2371,7 +2371,7 @@ readonly `number`[]
 
 > **get** **backFaceCulling**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:416](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L416)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:418](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L418)
 
 Gets the culling state
 
@@ -2383,7 +2383,7 @@ Gets the culling state
 
 > **set** **backFaceCulling**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:405](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L405)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:407](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L407)
 
 Sets the culling state (true to enable culling, false to disable)
 
@@ -2409,7 +2409,7 @@ Sets the culling state (true to enable culling, false to disable)
 
 > **set** **backgroundRefractionTexture**(`texture`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1771](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1771)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1790](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1790)
 
 ##### Parameters
 
@@ -2429,7 +2429,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMateria
 
 > **get** **blockDirtyMechanism**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:489](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L489)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:491](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L491)
 
 Block the dirty-mechanism for this specific material
 When set to false after being true the material will be marked as dirty.
@@ -2442,7 +2442,7 @@ When set to false after being true the material will be marked as dirty.
 
 > **set** **blockDirtyMechanism**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:493](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L493)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:495](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L495)
 
 ##### Parameters
 
@@ -2466,7 +2466,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:493](h
 
 > **get** **cameraColorCurves**(): [`Nullable`](../type-aliases/Nullable.md)\<[`ColorCurves`](ColorCurves.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:179](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L179)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L179)
 
 The color grading curves provide additional color adjustmnent that is applied after any color grading transform (3D LUT).
 They allow basic adjustment of saturation and small exposure adjustments, along with color filter tinting to provide white balance adjustment or more stylistic effects.
@@ -2481,7 +2481,7 @@ corresponding to low luminance, medium luminance, and high luminance areas respe
 
 > **set** **cameraColorCurves**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:188](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L188)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:188](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L188)
 
 The color grading curves provide additional color adjustment that is applied after any color grading transform (3D LUT).
 They allow basic adjustment of saturation and small exposure adjustments, along with color filter tinting to provide white balance adjustment or more stylistic effects.
@@ -2510,7 +2510,7 @@ corresponding to low luminance, medium luminance, and high luminance areas respe
 
 > **get** **cameraColorCurvesEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L93)
 
 Gets whether the color curves effect is enabled.
 
@@ -2522,7 +2522,7 @@ Gets whether the color curves effect is enabled.
 
 > **set** **cameraColorCurvesEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L99)
 
 Sets whether the color curves effect is enabled.
 
@@ -2548,7 +2548,7 @@ Sets whether the color curves effect is enabled.
 
 > **get** **cameraColorGradingEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L106)
 
 Gets whether the color grading effect is enabled.
 
@@ -2560,7 +2560,7 @@ Gets whether the color grading effect is enabled.
 
 > **set** **cameraColorGradingEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L112)
 
 Gets whether the color grading effect is enabled.
 
@@ -2586,7 +2586,7 @@ Gets whether the color grading effect is enabled.
 
 > **get** **cameraColorGradingTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L163)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L163)
 
 Gets the Color Grading 2D Lookup Texture.
 
@@ -2598,7 +2598,7 @@ Gets the Color Grading 2D Lookup Texture.
 
 > **set** **cameraColorGradingTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:169](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L169)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L169)
 
 Sets the Color Grading 2D Lookup Texture.
 
@@ -2624,7 +2624,7 @@ Sets the Color Grading 2D Lookup Texture.
 
 > **get** **cameraContrast**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:149](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L149)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L149)
 
 Gets The camera contrast used on this material.
 
@@ -2636,7 +2636,7 @@ Gets The camera contrast used on this material.
 
 > **set** **cameraContrast**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:156](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L156)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L156)
 
 Sets The camera contrast used on this material.
 
@@ -2662,7 +2662,7 @@ Sets The camera contrast used on this material.
 
 > **get** **cameraExposure**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L134)
 
 The camera exposure used on this material.
 This property is here and not in the camera to allow controlling exposure without full screen post process.
@@ -2676,7 +2676,7 @@ This corresponds to a photographic exposure.
 
 > **set** **cameraExposure**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L142)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L142)
 
 The camera exposure used on this material.
 This property is here and not in the camera to allow controlling exposure without full screen post process.
@@ -2704,7 +2704,7 @@ This corresponds to a photographic exposure.
 
 > **get** **cameraToneMappingEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L119)
 
 Gets whether tonemapping is enabled or not.
 
@@ -2716,7 +2716,7 @@ Gets whether tonemapping is enabled or not.
 
 > **set** **cameraToneMappingEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L125)
 
 Sets whether tonemapping is enabled or not
 
@@ -2742,7 +2742,7 @@ Sets whether tonemapping is enabled or not
 
 > **get** **canRenderToMRT**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1838](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1838)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1857](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1857)
 
 Can this material render to several textures at once
 
@@ -2762,7 +2762,7 @@ Can this material render to several textures at once
 
 > **get** **cullBackFaces**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:479](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L479)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:481](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L481)
 
 Gets the type of faces that should be culled
 
@@ -2774,7 +2774,7 @@ Gets the type of faces that should be culled
 
 > **set** **cullBackFaces**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:468](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L468)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:470](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L470)
 
 Sets the type of faces that should be culled (true for back faces, false for front faces)
 
@@ -2800,7 +2800,7 @@ Sets the type of faces that should be culled (true for back faces, false for fro
 
 > **get** **fillMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:856](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L856)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:858](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L858)
 
 Gets the material fill mode
 
@@ -2812,7 +2812,7 @@ Gets the material fill mode
 
 > **set** **fillMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:863](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L863)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:865](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L865)
 
 Sets the material fill mode
 
@@ -2838,7 +2838,7 @@ Sets the material fill mode
 
 > **get** **fogEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:790](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L790)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:792](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L792)
 
 Gets the value of the fog enabled state
 
@@ -2850,7 +2850,7 @@ Gets the value of the fog enabled state
 
 > **set** **fogEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:779](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L779)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:781](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L781)
 
 Sets the state for enabling fog
 
@@ -2876,7 +2876,7 @@ Sets the state for enabling fog
 
 > **get** **fuzzSampleNumber**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1827](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1827)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1846](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1846)
 
 The number of samples used to compute the fuzz IBL lighting.
 
@@ -2888,7 +2888,7 @@ The number of samples used to compute the fuzz IBL lighting.
 
 > **set** **fuzzSampleNumber**(`n`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1830](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1830)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1849](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1849)
 
 ##### Parameters
 
@@ -2908,7 +2908,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMateria
 
 > **get** **geometryCoatTangentAngle**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1062](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1062)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1081](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1081)
 
 Defines the angle of the tangent of the material's coat layer.
 
@@ -2920,7 +2920,7 @@ Defines the angle of the tangent of the material's coat layer.
 
 > **set** **geometryCoatTangentAngle**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1069](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1069)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1088](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1088)
 
 Defines the angle of the tangent of the material's coat layer.
 
@@ -2942,7 +2942,7 @@ Defines the angle of the tangent of the material's coat layer.
 
 > **get** **geometryTangentAngle**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1024](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1024)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1043](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1043)
 
 Defines the angle of the tangent of the material's geometry. Used only for anisotropic reflections.
 See OpenPBR's specs for geometry_tangent
@@ -2955,7 +2955,7 @@ See OpenPBR's specs for geometry_tangent
 
 > **set** **geometryTangentAngle**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1028](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1028)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1047](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1047)
 
 ##### Parameters
 
@@ -2975,7 +2975,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMateria
 
 > **get** **hasRenderTargetTextures**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:2094](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L2094)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2113)
 
 Gets a boolean indicating that current material needs to register RTT
 
@@ -2995,7 +2995,7 @@ Gets a boolean indicating that current material needs to register RTT
 
 > **get** **hasScattering**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1336](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1336)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1355](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1355)
 
 Specifies if the material has scattering properties such as subsurface scattering or transmission scattering.
 
@@ -3011,7 +3011,7 @@ Specifies if the material has scattering properties such as subsurface scatterin
 
 > **get** **hasTransparency**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1331](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1331)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1350)
 
 Specifies if we can see through the surface of the material due to subsurface scattering or transmission.
 
@@ -3027,7 +3027,7 @@ Specifies if we can see through the surface of the material due to subsurface sc
 
 > **get** **imageProcessingConfiguration**(): [`ImageProcessingConfiguration`](ImageProcessingConfiguration.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L35)
 
 Gets the image processing configuration used either in this material.
 
@@ -3039,7 +3039,7 @@ Gets the image processing configuration used either in this material.
 
 > **set** **imageProcessingConfiguration**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L44)
 
 Sets the Default image processing configuration used either in the this material.
 
@@ -3067,7 +3067,7 @@ If sets to null, the scene one is in use.
 
 > **get** **isFrozen**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1156](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1156)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1158)
 
 Specifies if updates for the material been locked
 
@@ -3087,7 +3087,7 @@ Specifies if updates for the material been locked
 
 > **get** **isPrePassCapable**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:2109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L2109)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2128)
 
 Can this material render to prepass
 
@@ -3107,7 +3107,7 @@ Can this material render to prepass
 
 > **get** **isVertexOutputInvariant**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:940](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L940)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:942](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L942)
 
 Gets or sets the vertex output invariant state
 Setting this property to true will force the shader compiler to disable some optimization to make sure the vertex output is always calculated
@@ -3123,7 +3123,7 @@ Note that this may have an impact on performance, so leave this option disabled 
 
 > **set** **isVertexOutputInvariant**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:944](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L944)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:946](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L946)
 
 ##### Parameters
 
@@ -3147,7 +3147,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:944](h
 
 > **get** **needDepthPrePass**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:729](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L729)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:731](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L731)
 
 Gets the depth pre-pass value
 
@@ -3159,7 +3159,7 @@ Gets the depth pre-pass value
 
 > **set** **needDepthPrePass**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:716](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L716)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:718](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L718)
 
 Sets the need depth pre-pass value
 
@@ -3185,7 +3185,7 @@ Sets the need depth pre-pass value
 
 > **set** **onBind**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:607](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L607)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:609](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L609)
 
 Called during a bind event
 
@@ -3211,7 +3211,7 @@ Called during a bind event
 
 > **get** **onBindObservable**(): [`Observable`](Observable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:591](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L591)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:593](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L593)
 
 An event triggered when the material is bound
 
@@ -3231,7 +3231,7 @@ An event triggered when the material is bound
 
 > **set** **onDispose**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:579](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L579)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:581](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L581)
 
 Called during a dispose event
 
@@ -3257,7 +3257,7 @@ Called during a dispose event
 
 > **get** **onEffectCreatedObservable**(): [`Observable`](Observable.md)\<\{ `effect`: [`Effect`](Effect.md); `subMesh`: [`Nullable`](../type-aliases/Nullable.md)\<[`SubMesh`](SubMesh.md)\>; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:630](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L630)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:632](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L632)
 
 An event triggered when the effect is (re)created
 
@@ -3277,7 +3277,7 @@ An event triggered when the effect is (re)created
 
 > **get** **onUnBindObservable**(): [`Observable`](Observable.md)\<[`Material`](Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:617](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L617)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:619](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L619)
 
 An event triggered when the material is unbound
 
@@ -3297,7 +3297,7 @@ An event triggered when the material is unbound
 
 > **get** **pointsCloud**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:835](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L835)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:837](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L837)
 
 Gets the value specifying if point clouds are enabled
 
@@ -3309,7 +3309,7 @@ Gets the value specifying if point clouds are enabled
 
 > **set** **pointsCloud**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:848](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L848)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:850](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L850)
 
 Sets the state of point cloud mode
 
@@ -3335,7 +3335,7 @@ Sets the state of point cloud mode
 
 > **get** **realTimeFiltering**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1802](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1802)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1821](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1821)
 
 Enables realtime filtering on the texture.
 
@@ -3347,7 +3347,7 @@ Enables realtime filtering on the texture.
 
 > **set** **realTimeFiltering**(`b`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1805](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1805)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1824](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1824)
 
 ##### Parameters
 
@@ -3367,7 +3367,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMateria
 
 > **get** **realTimeFilteringQuality**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1814](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1814)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1833](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1833)
 
 Quality switch for realtime filtering
 
@@ -3379,7 +3379,7 @@ Quality switch for realtime filtering
 
 > **set** **realTimeFilteringQuality**(`n`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1817](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1817)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1836](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1836)
 
 ##### Parameters
 
@@ -3399,7 +3399,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMateria
 
 > **get** **refractionHighQualityBlur**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1782](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1782)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1801](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1801)
 
 When true, uses a 4-tap rotated-grid kernel for refractive background blur,
 eliminating bilinear block artifacts at the cost of 3 extra texture samples.
@@ -3413,7 +3413,7 @@ When false, a single dithered sample is used. Default: true.
 
 > **set** **refractionHighQualityBlur**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1785](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1785)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1804](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1804)
 
 ##### Parameters
 
@@ -3433,7 +3433,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMateria
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:294](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L294)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L296)
 
 Gets the shader language used in this material.
 
@@ -3453,7 +3453,7 @@ Gets the shader language used in this material.
 
 > **get** **sssDepthTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`ThinTexture`](ThinTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1253](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1253)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1272](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1272)
 
 Defines the depth texture used for subsurface scattering. This is the depth defined
 in screen space. If it's not provided, the depth will be looked for in the scene.geometryBufferRenderer.
@@ -3469,7 +3469,7 @@ Setting this property marks all sub-meshes as textures-dirty so the shader recom
 
 > **set** **sssDepthTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1256](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1256)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1275](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1275)
 
 ##### Parameters
 
@@ -3489,7 +3489,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMateria
 
 > **get** **sssIrradianceTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`ThinTexture`](ThinTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1234](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1234)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1253](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1253)
 
 Defines the irradiance texture used for subsurface scattering.
 If it's not provided, the irradiance will be looked for in the scene.geometryBufferRenderer.
@@ -3505,7 +3505,7 @@ Setting this property marks all sub-meshes as textures-dirty so the shader recom
 
 > **set** **sssIrradianceTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1237](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1237)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1256](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1256)
 
 ##### Parameters
 
@@ -3525,7 +3525,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMateria
 
 > **get** **sssQuality**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1216)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1235](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1235)
 
 Controls the sample count of the screen-space SSS convolution kernel.
 Use the SSS_QUALITY_LOW / MEDIUM / HIGH constants (8 / 16 / 32 samples).
@@ -3539,7 +3539,7 @@ Higher quality reduces noise at the cost of GPU time. Default: MEDIUM.
 
 > **set** **sssQuality**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1219)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1238)
 
 ##### Parameters
 
@@ -3559,7 +3559,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMateria
 
 > **get** **textureRepetitionMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:444](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L444)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:446](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L446)
 
 Gets the texture repetition breaking mode.
 
@@ -3575,7 +3575,7 @@ https://iquilezles.org/articles/texturerepetition/
 
 > **set** **textureRepetitionMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:431](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L431)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:433](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L433)
 
 Sets the texture repetition breaking mode.
 Use one of the Constants.TEXTURE_REPETITION_* values to break visible texture tiling patterns.
@@ -3609,7 +3609,7 @@ Not supported on WebGL1 — the mode will be forced to NONE.
 
 > **get** **transparencyMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:2123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L2123)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2142)
 
 Gets the current transparency mode.
 
@@ -3621,7 +3621,7 @@ Gets the current transparency mode.
 
 > **set** **transparencyMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:2127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L2127)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2146)
 
 Gets the current transparency mode.
 
@@ -3647,7 +3647,7 @@ Gets the current transparency mode.
 
 > **get** **useGLTFLightFalloff**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1373](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1373)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1392](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1392)
 
 In order to support the falloff compatibility with gltf, a special mode has been added
 to reproduce the gltf light falloff.
@@ -3660,7 +3660,7 @@ to reproduce the gltf light falloff.
 
 > **set** **useGLTFLightFalloff**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1381](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1381)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1400](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1400)
 
 In order to support the falloff compatibility with gltf, a special mode has been added
 to reproduce the gltf light falloff.
@@ -3683,7 +3683,7 @@ to reproduce the gltf light falloff.
 
 > **get** **useLogarithmicDepth**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:915](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L915)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:917](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L917)
 
 In case the depth buffer does not allow enough depth precision for your scene (might be the case in large scenes)
 You can try switching to logarithmic depth.
@@ -3700,7 +3700,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/advanced/logarithm
 
 > **set** **useLogarithmicDepth**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:919](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L919)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:921](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L921)
 
 ##### Parameters
 
@@ -3724,7 +3724,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:919](h
 
 > **get** **usePhysicalLightFalloff**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1346](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1346)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1365](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1365)
 
 BJS is using an hardcoded light falloff based on a manually sets up range.
 In PBR, one way to represents the falloff is to use the inverse squared root algorithm.
@@ -3738,7 +3738,7 @@ This parameter can help you switch back to the BJS mode in order to create scene
 
 > **set** **usePhysicalLightFalloff**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:1355](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L1355)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:1374](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L1374)
 
 BJS is using an hardcoded light falloff based on a manually sets up range.
 In PBR, one way to represents the falloff is to use the inverse squared root algorithm.
@@ -3762,7 +3762,7 @@ This parameter can help you switch back to the BJS mode in order to create scene
 
 > **get** **useVertexPulling**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:268](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L268)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:270](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L270)
 
 Tells the engine to draw geometry using vertex pulling instead of index drawing. This will automatically
 set the vertex buffers as storage buffers and make them accessible to the vertex shader (WebGPU only).
@@ -3775,7 +3775,7 @@ set the vertex buffers as storage buffers and make them accessible to the vertex
 
 > **set** **useVertexPulling**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:272](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L272)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:274](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L274)
 
 ##### Parameters
 
@@ -3799,7 +3799,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:272](h
 
 > **get** **wireframe**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:812](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L812)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:814](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L814)
 
 ##### Returns
 
@@ -3809,7 +3809,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:812](h
 
 > **set** **wireframe**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:827](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L827)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:829](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L829)
 
 Sets the state of wireframe mode
 
@@ -3833,7 +3833,7 @@ Sets the state of wireframe mode
 
 > **\_attachImageProcessingConfiguration**(`configuration`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/imageProcessing.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessing.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessing.ts#L62)
 
 Attaches a new image processing configuration to the Standard Material.
 
@@ -3857,7 +3857,7 @@ Attaches a new image processing configuration to the Standard Material.
 
 > **atomicMaterialsUpdate**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:511](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L511)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:513](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L513)
 
 This allows you to modify the material without marking it as dirty after every change.
 This function should be used if you need to make more than one dirty-enabling change to the material - adding a texture, setting a new fill mode and so on.
@@ -3885,7 +3885,7 @@ the callback to be executed that will update the material
 
 > **bind**(`world`, `mesh?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/pushMaterial.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/pushMaterial.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/pushMaterial.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/pushMaterial.ts#L72)
 
 Binds the material to the mesh
 
@@ -3917,7 +3917,7 @@ defines the mesh to bind the material to
 
 > **bindEyePosition**(`effect`, `variableName?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1505](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1505)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1507](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1507)
 
 Binds the view matrix to the effect
 
@@ -3949,7 +3949,7 @@ name of the shader variable that will hold the eye position
 
 > **bindForSubMesh**(`world`, `mesh`, `subMesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:2489](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L2489)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2527](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2527)
 
 Binds the submesh data.
 
@@ -3987,7 +3987,7 @@ A submesh of the BJS mesh.
 
 > **bindOnlyNormalMatrix**(`normalMatrix`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/pushMaterial.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/pushMaterial.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/pushMaterial.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/pushMaterial.ts#L68)
 
 Binds the given normal matrix to the active effect
 
@@ -4013,7 +4013,7 @@ the matrix to bind
 
 > **bindOnlyWorldMatrix**(`world`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/pushMaterial.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/pushMaterial.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/pushMaterial.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/pushMaterial.ts#L59)
 
 Binds the given world matrix to the active effect
 
@@ -4039,7 +4039,7 @@ the matrix to bind
 
 > **bindPropertiesForSubMesh**(`uniformBuffer`, `scene`, `engine`, `subMesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:2472](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L2472)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2510](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2510)
 
 Binds the material data (this function is called even if mustRebind() returns false)
 
@@ -4079,7 +4079,7 @@ the submesh to bind data for
 
 > **bindView**(`effect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1478](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1478)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1480](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1480)
 
 Binds the view matrix to the effect
 
@@ -4105,7 +4105,7 @@ defines the effect to bind the view matrix to
 
 > **bindViewProjection**(`effect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1490](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1490)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1492](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1492)
 
 Binds the view projection and projection matrices to the effect
 
@@ -4131,7 +4131,7 @@ defines the effect to bind the view projection and projection matrices to
 
 > **buildUniformLayout**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:2437](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L2437)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2475](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2475)
 
 Initializes the uniform buffer layout for the shader.
 
@@ -4149,7 +4149,7 @@ Initializes the uniform buffer layout for the shader.
 
 > **clone**(`name`, `cloneTexturesOnlyOnce?`, `rootUrl?`): `OpenPBRMaterial`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:2158](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L2158)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2196)
 
 Makes a duplicate of the current material.
 
@@ -4189,7 +4189,7 @@ cloned material instance
 
 > **dispose**(`forceDisposeEffect?`, `forceDisposeTextures?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:2794](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L2794)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2833](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2833)
 
 Disposes the resources of the material.
 
@@ -4221,7 +4221,7 @@ Forces the disposal of all textures.
 
 > **forceCompilation**(`mesh`, `onCompiled?`, `options?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:2208](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L2208)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2246](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2246)
 
 Force shader compilation
 
@@ -4259,7 +4259,7 @@ Define the options used to create the compilation
 
 > **forceCompilationAsync**(`mesh`, `options?`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1751](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1751)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1753](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1753)
 
 Force shader compilation
 
@@ -4293,7 +4293,7 @@ a promise that resolves when the compilation completes
 
 > **freeze**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1178)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1180)
 
 Locks updates for the material.
 
@@ -4326,7 +4326,7 @@ influences and `freeze()` again afterwards.
 
 > **getActiveTextures**(): [`BaseTexture`](BaseTexture.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:2736](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L2736)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2775](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2775)
 
 Returns an array of the actively used textures.
 
@@ -4346,7 +4346,7 @@ Returns an array of the actively used textures.
 
 > **getAlphaTestTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1365](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1365)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1367](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1367)
 
 Gets the texture used for the alpha test
 
@@ -4366,7 +4366,7 @@ the texture to use for alpha testing
 
 > **getAnimatables**(): [`IAnimatable`](../interfaces/IAnimatable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:2714](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L2714)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2753](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2753)
 
 Returns the animatable textures.
 If material have animatable metallic texture, then reflectivity texture will not be returned, even if it has animations.
@@ -4387,7 +4387,7 @@ If material have animatable metallic texture, then reflectivity texture will not
 
 > **getBindedMeshes**(): [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1648](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1648)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1650](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1650)
 
 Gets the meshes bound to the material
 
@@ -4407,7 +4407,7 @@ an array of meshes bound to the material
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:2116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L2116)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2135)
 
 #### Returns
 
@@ -4425,7 +4425,7 @@ the name of the material class.
 
 > **getEffect**(): [`Effect`](Effect.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/pushMaterial.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/pushMaterial.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/pushMaterial.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/pushMaterial.ts#L23)
 
 Returns the material effect
 
@@ -4445,7 +4445,7 @@ the effect associated with the material
 
 > **getScene**(): [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1235](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1235)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1237](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1237)
 
 Returns the current scene
 
@@ -4465,7 +4465,7 @@ a Scene
 
 > **hasTexture**(`texture`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:2759](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L2759)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2798](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2798)
 
 Checks to see if a texture is used in the material.
 
@@ -4493,7 +4493,7 @@ Base texture to use.
 
 > **isReady**(`mesh?`, `useInstances?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/pushMaterial.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/pushMaterial.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/pushMaterial.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/pushMaterial.ts#L27)
 
 Specifies if the material is ready to be used
 
@@ -4527,7 +4527,7 @@ a boolean indicating if the material is ready to be used
 
 > **isReadyForSubMesh**(`mesh`, `subMesh`, `useInstances?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:2257](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L2257)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2295](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2295)
 
 Specifies that the submesh is ready to be used.
 
@@ -4567,7 +4567,7 @@ Specifies that instances should be used.
 
 > **markAsDirty**(`flag`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1797](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1797)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1799](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1799)
 
 Marks a define in the material to indicate that it needs to be re-computed
 
@@ -4593,7 +4593,7 @@ defines a flag used to determine which parts of the material have to be marked a
 
 > **markDirty**(`forceMaterialDirty?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1373](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1373)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1375](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1375)
 
 Marks the material to indicate that it needs to be re-calculated
 
@@ -4615,25 +4615,20 @@ Forces the material to be marked as dirty for all components (same as this.markA
 
 ***
 
-### ~~needAlphaBlending()~~
+### needAlphaBlending()
 
 > **needAlphaBlending**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1302](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1302)
-
-Specifies whether or not this material should be rendered in alpha blend mode.
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2174)
 
 #### Returns
 
 `boolean`
 
-a boolean specifying if alpha blending is needed
+true when the material needs alpha blending — i.e. when geometry_opacity < 1
+or a geometry opacity texture is present.
 
-#### Deprecated
-
-Please use needAlphaBlendingForMesh instead
-
-#### Inherited from
+#### Overrides
 
 `OpenPBRMaterialBase.needAlphaBlending`
 
@@ -4643,9 +4638,11 @@ Please use needAlphaBlendingForMesh instead
 
 > **needAlphaBlendingForMesh**(`mesh`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1319](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1319)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2185)
 
-Specifies if the mesh will require alpha blending
+Specifies if the mesh will require alpha blending.
+Overridden to check geometry_opacity before the _hasTransparencyMode short-circuit in the
+base class, which would otherwise always return false when _transparencyMode is MATERIAL_OPAQUE.
 
 #### Parameters
 
@@ -4653,15 +4650,15 @@ Specifies if the mesh will require alpha blending
 
 [`AbstractMesh`](AbstractMesh.md)
 
-defines the mesh to check
+The mesh to check
 
 #### Returns
 
 `boolean`
 
-a boolean specifying if alpha blending is needed for the mesh
+true if alpha blending is needed for the mesh
 
-#### Inherited from
+#### Overrides
 
 `OpenPBRMaterialBase.needAlphaBlendingForMesh`
 
@@ -4671,7 +4668,7 @@ a boolean specifying if alpha blending is needed for the mesh
 
 > **needAlphaTesting**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1340](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1340)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1342](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1342)
 
 Specifies whether or not this material should be rendered in alpha test mode.
 
@@ -4695,7 +4692,7 @@ Please use needAlphaTestingForMesh instead
 
 > **needAlphaTestingForMesh**(`mesh`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1353](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1353)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1355](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1355)
 
 Specifies if material alpha testing should be turned on for the mesh
 
@@ -4723,7 +4720,7 @@ a boolean specifying if alpha testing should be turned on for the mesh
 
 > **resetDrawCache**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1842](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1842)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1844](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1844)
 
 Resets the draw wrappers cache for all submeshes that are using this material
 
@@ -4741,7 +4738,7 @@ Resets the draw wrappers cache for all submeshes that are using this material
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:2175](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L2175)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2213](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2213)
 
 Serializes this PBR Material.
 
@@ -4761,7 +4758,7 @@ Serializes this PBR Material.
 
 > **setAlphaMode**(`value`, `targetIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:699](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L699)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:701](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L701)
 
 Sets the value of the alpha mode for a specific target index.
 
@@ -4793,7 +4790,7 @@ The index of the target to set the alpha mode for. Defaults to 0.
 
 > **setPrePassRenderer**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:2785](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L2785)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2824](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2824)
 
 Sets the required values to the prepass renderer.
 It can't be sets when subsurface scattering of this material is disabled.
@@ -4815,7 +4812,7 @@ When scene have ability to enable subsurface prepass effect, it will enable.
 
 > **toString**(`fullDetails?`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1135)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1137)
 
 Returns a string representation of the current material
 
@@ -4843,7 +4840,7 @@ a string with material information
 
 > **unbind**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1560](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1560)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1562](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1562)
 
 Unbinds the material from the mesh
 
@@ -4861,7 +4858,7 @@ Unbinds the material from the mesh
 
 > **unfreeze**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:1186](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L1186)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1188](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1188)
 
 Unlocks updates for the material
 
@@ -4879,7 +4876,7 @@ Unlocks updates for the material
 
 > `static` **Parse**(`source`, `scene`, `rootUrl`): `OpenPBRMaterial`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts:2190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/openpbrMaterial.ts#L2190)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts:2228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/openpbrMaterial.pure.ts#L2228)
 
 Parses a PBR Material from a serialized object.
 
@@ -4919,7 +4916,7 @@ url for the scene object
 
 > `static` **ParseAlphaMode**(`parsedMaterial`, `material`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:2141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L2141)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:2143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L2143)
 
 Parses the alpha mode from the material data to parse
 

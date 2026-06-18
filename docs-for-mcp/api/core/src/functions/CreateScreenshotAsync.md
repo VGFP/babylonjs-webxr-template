@@ -8,7 +8,7 @@
 
 > **CreateScreenshotAsync**(`engine`, `camera`, `size`, `mimeType?`, `quality?`, `useFill?`, `clearWithSceneColor?`, `forceDownload?`): `Promise`\<`string`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/screenshotTools.ts:170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/screenshotTools.ts#L170)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/screenshotTools.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/screenshotTools.pure.ts#L172)
 
 Captures a screenshot of the current rendering
 Please note that simultaneous screenshots are not supported: you must wait until one screenshot is complete before taking another.

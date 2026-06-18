@@ -6,7 +6,7 @@
 
 # Enumeration: HandPart
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L139)
 
 Parts of the hands divided to writs and finger names
 
@@ -16,7 +16,7 @@ Parts of the hands divided to writs and finger names
 
 > **INDEX**: `"index"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L151)
 
 HandPart - Index finger
 
@@ -26,7 +26,7 @@ HandPart - Index finger
 
 > **LITTLE**: `"little"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L162)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L163)
 
 HandPart - Little finger
 
@@ -36,7 +36,7 @@ HandPart - Little finger
 
 > **MIDDLE**: `"middle"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:154](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L154)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L155)
 
 HandPart - Middle finger
 
@@ -46,7 +46,7 @@ HandPart - Middle finger
 
 > **RING**: `"ring"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:158](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L158)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L159)
 
 HandPart - Ring finger
 
@@ -56,7 +56,7 @@ HandPart - Ring finger
 
 > **THUMB**: `"thumb"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:147](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L147)
 
 HandPart - The thumb
 
@@ -66,6 +66,6 @@ HandPart - The thumb
 
 > **WRIST**: `"wrist"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L142)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L143)
 
 HandPart - Wrist

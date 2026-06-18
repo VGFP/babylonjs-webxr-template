@@ -6,7 +6,7 @@
 
 # Class: Sprite
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L16)
 
 Class used to represent a sprite
 
@@ -28,7 +28,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/sprites
 
 > **new Sprite**(`name`, `manager`): `Sprite`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L72)
 
 Creates a new Sprite
 
@@ -60,7 +60,7 @@ defines the manager
 
 > **actionManager**: [`Nullable`](../type-aliases/Nullable.md)\<[`ActionManager`](ActionManager.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L33)
 
 Gets or sets the associated action manager
 
@@ -70,7 +70,7 @@ Gets or sets the associated action manager
 
 > **angle**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/thinSprite.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/thinSprite.ts#L23)
 
 Gets or sets rotation angle
 
@@ -84,7 +84,7 @@ Gets or sets rotation angle
 
 > **animations**: [`Nullable`](../type-aliases/Nullable.md)\<[`Animation`](Animation.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L24)
 
 Gets the list of attached animations
 
@@ -98,7 +98,7 @@ Gets the list of attached animations
 
 > **cellIndex**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/thinSprite.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/thinSprite.ts#L11)
 
 Gets or sets the cell index in the sprite sheet
 
@@ -112,7 +112,7 @@ Gets or sets the cell index in the sprite sheet
 
 > **cellRef**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/thinSprite.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/thinSprite.ts#L13)
 
 Gets or sets the cell reference in the sprite sheet, uses sprite's filename when added to sprite sheet
 
@@ -126,7 +126,7 @@ Gets or sets the cell reference in the sprite sheet, uses sprite's filename when
 
 > **color**: [`Color4`](Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L20)
 
 Gets or sets the main color
 
@@ -140,7 +140,7 @@ Gets or sets the main color
 
 > **disposeWhenFinishedAnimating**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L22)
 
 Gets or sets a boolean indicating that this sprite should be disposed after animation ends
 
@@ -150,7 +150,7 @@ Gets or sets a boolean indicating that this sprite should be disposed after anim
 
 > **height**: `number` = `1.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/thinSprite.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/thinSprite.ts#L21)
 
 Gets or sets the height
 
@@ -164,7 +164,7 @@ Gets or sets the height
 
 > **invertU**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/thinSprite.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/thinSprite.ts#L25)
 
 Gets or sets a boolean indicating if UV coordinates should be inverted in U axis
 
@@ -178,7 +178,7 @@ Gets or sets a boolean indicating if UV coordinates should be inverted in U axis
 
 > **invertV**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/thinSprite.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/thinSprite.ts#L27)
 
 Gets or sets a boolean indicating if UV coordinates should be inverted in B axis
 
@@ -192,7 +192,7 @@ Gets or sets a boolean indicating if UV coordinates should be inverted in B axis
 
 > **isPickable**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L26)
 
 Gets or sets a boolean indicating if the sprite can be picked
 
@@ -202,7 +202,7 @@ Gets or sets a boolean indicating if the sprite can be picked
 
 > **isVisible**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/thinSprite.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/thinSprite.ts#L29)
 
 Gets or sets a boolean indicating if the sprite is visible (renderable). Default is true
 
@@ -216,7 +216,7 @@ Gets or sets a boolean indicating if the sprite is visible (renderable). Default
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L74)
 
 defines the name
 
@@ -226,7 +226,7 @@ defines the name
 
 > **onDisposeObservable**: [`Observable`](Observable.md)\<`Sprite`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L38)
 
 An event triggered when the control has been disposed
 
@@ -236,7 +236,7 @@ An event triggered when the control has been disposed
 
 > **position**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L18)
 
 Gets or sets the current world position
 
@@ -250,7 +250,7 @@ Gets or sets the current world position
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L58)
 
 Gets or sets the unique id of the sprite
 
@@ -260,7 +260,7 @@ Gets or sets the unique id of the sprite
 
 > **useAlphaForPicking**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L28)
 
 Gets or sets a boolean indicating that sprite texture alpha will be used for precise picking (false by default)
 
@@ -270,7 +270,7 @@ Gets or sets a boolean indicating that sprite texture alpha will be used for pre
 
 > **width**: `number` = `1.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/thinSprite.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/thinSprite.ts#L19)
 
 Gets or sets the width
 
@@ -286,7 +286,7 @@ Gets or sets the width
 
 > **get** **animationStarted**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/thinSprite.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/thinSprite.ts#L34)
 
 Returns a boolean indicating if the animation is started
 
@@ -306,7 +306,7 @@ Returns a boolean indicating if the animation is started
 
 > **get** **delay**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L119)
 
 Gets or sets the delay between cell changes (setting it will restart the animation)
 
@@ -318,7 +318,7 @@ Gets or sets the delay between cell changes (setting it will restart the animati
 
 > **set** **delay**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L122)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L122)
 
 Gets or sets the delay between cell changes (setting it will restart the animation)
 
@@ -344,7 +344,7 @@ Gets or sets the delay between cell changes (setting it will restart the animati
 
 > **get** **fromIndex**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L95)
 
 Gets or sets the initial key for the animation (setting it will restart the animation)
 
@@ -356,7 +356,7 @@ Gets or sets the initial key for the animation (setting it will restart the anim
 
 > **set** **fromIndex**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L98)
 
 Gets the initial key for the animation (setting it will restart the animation)
 
@@ -382,7 +382,7 @@ Gets the initial key for the animation (setting it will restart the animation)
 
 > **get** **loopAnimation**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L111)
 
 Gets or sets a boolean indicating if the animation is looping (setting it will restart the animation)
 
@@ -394,7 +394,7 @@ Gets or sets a boolean indicating if the animation is looping (setting it will r
 
 > **set** **loopAnimation**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L114)
 
 Gets or sets a boolean indicating if the animation is looping (setting it will restart the animation)
 
@@ -420,7 +420,7 @@ Gets or sets a boolean indicating if the animation is looping (setting it will r
 
 > **get** **manager**(): [`ISpriteManager`](../interfaces/ISpriteManager.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L63)
 
 Gets the manager of this sprite
 
@@ -436,7 +436,7 @@ Gets the manager of this sprite
 
 > **get** **size**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L46)
 
 Gets or sets the sprite size
 
@@ -448,7 +448,7 @@ Gets or sets the sprite size
 
 > **set** **size**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L50)
 
 ##### Parameters
 
@@ -468,7 +468,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:50](https:
 
 > **get** **toIndex**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L103)
 
 Gets or sets the end key for the animation (setting it will restart the animation)
 
@@ -480,7 +480,7 @@ Gets or sets the end key for the animation (setting it will restart the animatio
 
 > **set** **toIndex**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L106)
 
 Gets or sets the end key for the animation (setting it will restart the animation)
 
@@ -504,7 +504,7 @@ Gets or sets the end key for the animation (setting it will restart the animatio
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L150)
 
 Release associated resources
 
@@ -518,7 +518,7 @@ Release associated resources
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L90)
 
 Returns the string "Sprite"
 
@@ -534,7 +534,7 @@ Returns the string "Sprite"
 
 > **playAnimation**(`from`, `to`, `loop`, `delay`, `onAnimationEnd?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L134)
 
 Starts an animation
 
@@ -584,7 +584,7 @@ defines a callback to call when animation ends
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L166)
 
 Serializes the sprite to a JSON object
 
@@ -600,7 +600,7 @@ the JSON object
 
 > **stopAnimation**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/thinSprite.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/thinSprite.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/thinSprite.ts#L113)
 
 Stops current animation (if any)
 
@@ -618,7 +618,7 @@ Stops current animation (if any)
 
 > `static` **Parse**(`parsedSprite`, `manager`): `Sprite`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:199](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/sprite.ts#L199)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/sprite.ts:199](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/sprite.ts#L199)
 
 Parses a JSON object to create a new sprite
 

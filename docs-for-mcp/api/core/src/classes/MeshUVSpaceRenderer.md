@@ -6,7 +6,7 @@
 
 # Class: MeshUVSpaceRenderer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshUVSpaceRenderer.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshUVSpaceRenderer.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L54)
 
 **`Since`**
 
@@ -19,7 +19,7 @@ Class used to render in the mesh UV space
 
 > **new MeshUVSpaceRenderer**(`mesh`, `scene`, `options?`): `MeshUVSpaceRenderer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshUVSpaceRenderer.ts:165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshUVSpaceRenderer.ts#L165)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L156)
 
 Creates a new MeshUVSpaceRenderer
 
@@ -53,7 +53,7 @@ The options to use when creating the texture
 
 > **clearColor**: [`Color4`](Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshUVSpaceRenderer.ts:140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshUVSpaceRenderer.ts#L140)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L131)
 
 Clear color of the texture
 
@@ -63,7 +63,7 @@ Clear color of the texture
 
 > **texture**: [`Nullable`](../type-aliases/Nullable.md)\<[`Texture`](Texture.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshUVSpaceRenderer.ts:147](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshUVSpaceRenderer.ts#L147)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L138)
 
 Target texture used for rendering
 If you don't set the property, a RenderTargetTexture will be created internally given the options provided to the constructor.
@@ -77,7 +77,7 @@ If you provide a RenderTargetTexture, it will be used directly.
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshUVSpaceRenderer.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshUVSpaceRenderer.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L146)
 
 Gets the shader language used in this material.
 
@@ -91,7 +91,7 @@ Gets the shader language used in this material.
 
 > **clear**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshUVSpaceRenderer.ts:278](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshUVSpaceRenderer.ts#L278)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:269](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L269)
 
 Clears the texture map
 
@@ -105,7 +105,7 @@ Clears the texture map
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshUVSpaceRenderer.ts:298](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshUVSpaceRenderer.ts#L298)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:289](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L289)
 
 Disposes of the resources
 
@@ -119,7 +119,7 @@ Disposes of the resources
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshUVSpaceRenderer.ts:217](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshUVSpaceRenderer.ts#L217)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L208)
 
 Checks if the texture is ready to be used
 
@@ -135,7 +135,7 @@ true if the texture is ready to be used
 
 > **renderTexture**(`texture`, `position`, `normal`, `size`, `angle?`, `checkIsReady?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshUVSpaceRenderer.ts:245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshUVSpaceRenderer.ts#L245)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:236](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L236)
 
 Projects and renders a texture in the mesh UV space
 

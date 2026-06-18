@@ -6,7 +6,7 @@
 
 # Class: CopyTextureToTexture
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/copyTextureToTexture.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/copyTextureToTexture.ts#L23)
 
 Class used for fast copy from one texture to another
 
@@ -16,7 +16,7 @@ Class used for fast copy from one texture to another
 
 > **new CopyTextureToTexture**(`engine`, `isDepthTexture?`, `sameSizeCopy?`): `CopyTextureToTexture`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/copyTextureToTexture.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/copyTextureToTexture.ts#L81)
 
 Constructs a new instance of the class
 
@@ -52,7 +52,7 @@ True means that the copy will be done without any sampling (more efficient, but 
 
 > **get** **effectWrapper**(): [`EffectWrapper`](EffectWrapper.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/copyTextureToTexture.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/copyTextureToTexture.ts#L45)
 
 Gets the effect wrapper used for the copy
 
@@ -68,7 +68,7 @@ Gets the effect wrapper used for the copy
 
 > **get** **lodLevel**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/copyTextureToTexture.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/copyTextureToTexture.ts#L63)
 
 Gets or sets the LOD level to copy from the source texture
 
@@ -80,7 +80,7 @@ Gets or sets the LOD level to copy from the source texture
 
 > **set** **lodLevel**(`level`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/copyTextureToTexture.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/copyTextureToTexture.ts#L67)
 
 ##### Parameters
 
@@ -100,7 +100,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/copyTextureToTexture.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/copyTextureToTexture.ts#L38)
 
 Gets the shader language
 
@@ -116,7 +116,7 @@ Gets the shader language
 
 > **get** **source**(): [`ThinTexture`](ThinTexture.md) \| [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/copyTextureToTexture.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/copyTextureToTexture.ts#L52)
 
 Gets or sets the source texture
 
@@ -128,7 +128,7 @@ Gets or sets the source texture
 
 > **set** **source**(`texture`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/copyTextureToTexture.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/copyTextureToTexture.ts#L56)
 
 ##### Parameters
 
@@ -146,7 +146,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts
 
 > **copy**(`source`, `destination?`, `conversion?`, `lod?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:164](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/copyTextureToTexture.ts#L164)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:164](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/copyTextureToTexture.ts#L164)
 
 Copy one texture into another
 
@@ -186,7 +186,7 @@ The LOD level to copy from the source texture
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/copyTextureToTexture.ts#L195)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/copyTextureToTexture.ts#L195)
 
 Releases all the resources used by the class
 
@@ -200,7 +200,7 @@ Releases all the resources used by the class
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/copyTextureToTexture.ts#L152)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/copyTextureToTexture.ts#L152)
 
 Indicates if the effect is ready to be used for the copy
 

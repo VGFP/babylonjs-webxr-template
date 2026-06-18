@@ -6,7 +6,7 @@
 
 # Interface: IEdgesRenderer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/edgesRenderer.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/edgesRenderer.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/edgesRenderer.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L37)
 
 Defines the minimum contract an Edges renderer should follow.
 
@@ -20,7 +20,7 @@ Defines the minimum contract an Edges renderer should follow.
 
 > **customInstances**: [`SmartArray`](../classes/SmartArray.md)\<[`Matrix`](../classes/Matrix.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/edgesRenderer.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/edgesRenderer.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/edgesRenderer.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L57)
 
 List of instances to render in case the source mesh has instances
 
@@ -30,7 +30,7 @@ List of instances to render in case the source mesh has instances
 
 > **isEnabled**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/edgesRenderer.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/edgesRenderer.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/edgesRenderer.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L41)
 
 Gets or sets a boolean indicating if the edgesRenderer is active
 
@@ -40,7 +40,7 @@ Gets or sets a boolean indicating if the edgesRenderer is active
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L122)
 
 Releases all held resources
 
@@ -58,7 +58,7 @@ Releases all held resources
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/edgesRenderer.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/edgesRenderer.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/edgesRenderer.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L52)
 
 Checks whether or not the edges renderer is ready to render.
 
@@ -74,7 +74,7 @@ true if ready, otherwise false.
 
 > **render**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/edgesRenderer.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/edgesRenderer.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/edgesRenderer.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L46)
 
 Renders the edges of the attached mesh,
 

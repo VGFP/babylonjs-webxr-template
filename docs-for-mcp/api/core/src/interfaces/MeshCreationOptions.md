@@ -6,7 +6,7 @@
 
 # Interface: MeshCreationOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.ts:246](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.ts#L246)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.pure.ts:249](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.pure.ts#L249)
 
 Options used to create a mesh
 
@@ -20,7 +20,7 @@ Options used to create a mesh
 
 > `optional` **clonePhysicsImpostor?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.ts:236](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.ts#L236)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.pure.ts#L239)
 
 Includes cloning mesh physics impostor (default: true)
 
@@ -34,7 +34,7 @@ Includes cloning mesh physics impostor (default: true)
 
 > `optional` **cloneThinInstances?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.ts:239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.ts#L239)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.pure.ts:242](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.pure.ts#L242)
 
 Includes cloning thin instances (default: false)
 
@@ -48,7 +48,7 @@ Includes cloning thin instances (default: false)
 
 > `optional` **doNotCloneChildren?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.ts:233](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.ts#L233)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.pure.ts:236](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.pure.ts#L236)
 
 Skips cloning child meshes of source (default: false. When false, achieved by calling a clone(), also passing False. This will make creation of children, recursive.
 
@@ -62,7 +62,7 @@ Skips cloning child meshes of source (default: false. When false, achieved by ca
 
 > `optional` **parent?**: [`Nullable`](../type-aliases/Nullable.md)\<[`Node`](../classes/Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.ts:230](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.ts#L230)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.pure.ts:233](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.pure.ts#L233)
 
 The parent of the mesh, if it has one
 
@@ -76,6 +76,6 @@ The parent of the mesh, if it has one
 
 > `optional` **source?**: [`Nullable`](../type-aliases/Nullable.md)\<[`Mesh`](../classes/Mesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.ts:248](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.ts#L248)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.pure.ts#L251)
 
 An optional Mesh from which the new mesh will be cloned from (geometry will be shared)

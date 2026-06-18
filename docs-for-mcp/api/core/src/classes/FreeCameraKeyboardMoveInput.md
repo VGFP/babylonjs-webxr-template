@@ -6,7 +6,7 @@
 
 # Class: FreeCameraKeyboardMoveInput
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L15)
 
 Manage the keyboard inputs to control the movement of a free camera.
 
@@ -34,7 +34,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **camera**: [`FreeCamera`](FreeCamera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L19)
 
 Defines the camera the input is attached to.
 
@@ -48,7 +48,7 @@ Defines the camera the input is attached to.
 
 > **keysDown**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L37)
 
 Gets or Set the list of keyboard keys used to control the backward move of the camera.
 
@@ -58,7 +58,7 @@ Gets or Set the list of keyboard keys used to control the backward move of the c
 
 > **keysDownward**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L43)
 
 Gets or Set the list of keyboard keys used to control the downward move of the camera.
 
@@ -68,7 +68,7 @@ Gets or Set the list of keyboard keys used to control the downward move of the c
 
 > **keysLeft**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L49)
 
 Gets or Set the list of keyboard keys used to control the left strafe move of the camera.
 
@@ -78,7 +78,7 @@ Gets or Set the list of keyboard keys used to control the left strafe move of th
 
 > **keysRight**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L55)
 
 Gets or Set the list of keyboard keys used to control the right strafe move of the camera.
 
@@ -88,7 +88,7 @@ Gets or Set the list of keyboard keys used to control the right strafe move of t
 
 > **keysRotateDown**: `number`[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L85)
 
 Gets or Set the list of keyboard keys used to control the down rotation move of the camera.
 
@@ -98,7 +98,7 @@ Gets or Set the list of keyboard keys used to control the down rotation move of 
 
 > **keysRotateLeft**: `number`[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L67)
 
 Gets or Set the list of keyboard keys used to control the left rotation move of the camera.
 
@@ -108,7 +108,7 @@ Gets or Set the list of keyboard keys used to control the left rotation move of 
 
 > **keysRotateRight**: `number`[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L73)
 
 Gets or Set the list of keyboard keys used to control the right rotation move of the camera.
 
@@ -118,7 +118,7 @@ Gets or Set the list of keyboard keys used to control the right rotation move of
 
 > **keysRotateUp**: `number`[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L79)
 
 Gets or Set the list of keyboard keys used to control the up rotation move of the camera.
 
@@ -128,7 +128,7 @@ Gets or Set the list of keyboard keys used to control the up rotation move of th
 
 > **keysUp**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L25)
 
 Gets or Set the list of keyboard keys used to control the forward move of the camera.
 
@@ -138,7 +138,7 @@ Gets or Set the list of keyboard keys used to control the forward move of the ca
 
 > **keysUpward**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L31)
 
 Gets or Set the list of keyboard keys used to control the upward move of the camera.
 
@@ -148,7 +148,7 @@ Gets or Set the list of keyboard keys used to control the upward move of the cam
 
 > **rotationSpeed**: `number` = `0.5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L61)
 
 Defines the pointer angular sensibility  along the X and Y axis or how fast is the camera rotating.
 
@@ -158,7 +158,7 @@ Defines the pointer angular sensibility  along the X and Y axis or how fast is t
 
 > **attachControl**(`noPreventDefault?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L97)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -184,7 +184,7 @@ Defines whether event caught by the controls should call preventdefault() (https
 
 > **checkInputs**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L183)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L183)
 
 Update the current camera state depending on the inputs that have been used this frame.
 This is a dynamically created lambda to avoid the performance penalty of looping for inputs in the render loop.
@@ -203,7 +203,7 @@ This is a dynamically created lambda to avoid the performance penalty of looping
 
 > **detachControl**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:164](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L164)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:164](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L164)
 
 Detach the current controls from the specified dom element.
 
@@ -221,7 +221,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:232](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L232)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:253](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L253)
 
 Gets the class name of the current input.
 
@@ -241,7 +241,7 @@ the class name
 
 > **getSimpleName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L245)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts:266](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraKeyboardMoveInput.ts#L266)
 
 Get the friendly name associated with the input class.
 

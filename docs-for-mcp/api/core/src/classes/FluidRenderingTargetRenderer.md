@@ -6,7 +6,7 @@
 
 # Class: FluidRenderingTargetRenderer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L35)
 
 Class used to render an object as a fluid thanks to different render target textures (depth, thickness, diffuse)
 
@@ -16,7 +16,7 @@ Class used to render an object as a fluid thanks to different render target text
 
 > **new FluidRenderingTargetRenderer**(`scene`, `camera?`, `shaderLanguage?`): `FluidRenderingTargetRenderer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:517](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L517)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:517](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L517)
 
 Creates an instance of the class
 
@@ -50,7 +50,7 @@ The shader language to use
 
 > **density**: `number` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L79)
 
 Density of the fluid (positive number). The higher the value, the more opaque the fluid.
 
@@ -60,7 +60,7 @@ Density of the fluid (positive number). The higher the value, the more opaque th
 
 > **dirLight**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L104)
 
 Direction of the light. The fluid is assumed to be lit by a directional light
 
@@ -70,7 +70,7 @@ Direction of the light. The fluid is assumed to be lit by a directional light
 
 > **fluidColor**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L74)
 
 Fluid color. Not used if generateDiffuseTexture is true
 
@@ -80,7 +80,7 @@ Fluid color. Not used if generateDiffuseTexture is true
 
 > **fresnelClamp**: `number` = `1.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L89)
 
 Strength of the fresnel effect (value between 0 and 1). Lower the value if you want to soften the specular effect
 
@@ -90,7 +90,7 @@ Strength of the fresnel effect (value between 0 and 1). Lower the value if you w
 
 > **minimumThickness**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L99)
 
 Minimum thickness of the particles (positive number). If useFixedThickness is true, minimumThickness is the thickness used
 
@@ -100,7 +100,7 @@ Minimum thickness of the particles (positive number). If useFixedThickness is tr
 
 > **refractionStrength**: `number` = `0.1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L84)
 
 Strength of the refraction (positive number, but generally between 0 and 0.3).
 
@@ -110,7 +110,7 @@ Strength of the refraction (positive number, but generally between 0 and 0.3).
 
 > **specularPower**: `number` = `250`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:94](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L94)
 
 Strength of the specular power (positive number). Increase the value to make the specular effect more concentrated
 
@@ -122,7 +122,7 @@ Strength of the specular power (positive number). Increase the value to make the
 
 > **get** **blurDepthDepthScale**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:257](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L257)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:257](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L257)
 
 Depth weight in the calculation when applying the bilateral blur to generate the depth blur texture (positive number, generally between 0 and 100)
 
@@ -134,7 +134,7 @@ Depth weight in the calculation when applying the bilateral blur to generate the
 
 > **set** **blurDepthDepthScale**(`scale`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L261)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L261)
 
 ##### Parameters
 
@@ -154,7 +154,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **blurDepthFilterSize**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:203](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L203)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:203](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L203)
 
 Size of the kernel used to filter the depth blur texture (positive number, generally between 1 and 20 - higher values will require more processing power from the GPU)
 
@@ -166,7 +166,7 @@ Size of the kernel used to filter the depth blur texture (positive number, gener
 
 > **set** **blurDepthFilterSize**(`filterSize`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:207](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L207)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:207](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L207)
 
 ##### Parameters
 
@@ -186,7 +186,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **blurDepthMaxFilterSize**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L239)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L239)
 
 Maximum size of the kernel used to blur the depth texture (positive number, generally between 1 and 200 - higher values will require more processing power from the GPU when the particles are larger on screen)
 
@@ -198,7 +198,7 @@ Maximum size of the kernel used to blur the depth texture (positive number, gene
 
 > **set** **blurDepthMaxFilterSize**(`maxFilterSize`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:243](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L243)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L243)
 
 ##### Parameters
 
@@ -218,7 +218,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **blurDepthNumIterations**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:221](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L221)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L221)
 
 Number of blurring iterations used to generate the depth blur texture (positive number, generally between 1 and 10 - higher values will require more processing power from the GPU)
 
@@ -230,7 +230,7 @@ Number of blurring iterations used to generate the depth blur texture (positive 
 
 > **set** **blurDepthNumIterations**(`numIterations`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L225)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L225)
 
 ##### Parameters
 
@@ -250,7 +250,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **blurDepthSizeDivisor**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L185)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L185)
 
 Gets or sets the depth size divisor (positive number, generally between 1 and 4), which is used as a divisor when creating the texture used for blurring the depth
 For eg. if blurDepthSizeDivisor=2, the texture used to blur the depth will be half the size of the depth texture
@@ -263,7 +263,7 @@ For eg. if blurDepthSizeDivisor=2, the texture used to blur the depth will be ha
 
 > **set** **blurDepthSizeDivisor**(`scale`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:189](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L189)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L189)
 
 ##### Parameters
 
@@ -283,7 +283,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **blurThicknessFilterSize**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:312](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L312)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:312](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L312)
 
 Size of the kernel used to filter the thickness blur texture (positive number, generally between 1 and 20 - higher values will require more processing power from the GPU)
 
@@ -295,7 +295,7 @@ Size of the kernel used to filter the thickness blur texture (positive number, g
 
 > **set** **blurThicknessFilterSize**(`filterSize`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:316](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L316)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:316](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L316)
 
 ##### Parameters
 
@@ -315,7 +315,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **blurThicknessNumIterations**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:330](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L330)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:330](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L330)
 
 Number of blurring iterations used to generate the thickness blur texture (positive number, generally between 1 and 10 - higher values will require more processing power from the GPU)
 
@@ -327,7 +327,7 @@ Number of blurring iterations used to generate the thickness blur texture (posit
 
 > **set** **blurThicknessNumIterations**(`numIterations`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:334](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L334)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:334](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L334)
 
 ##### Parameters
 
@@ -347,7 +347,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **blurThicknessSizeDivisor**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:294](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L294)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:294](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L294)
 
 Gets or sets the thickness size divisor (positive number, generally between 1 and 4), which is used as a divisor when creating the texture used for blurring the thickness
 For eg. if blurThicknessSizeDivisor=2, the texture used to blur the thickness will be half the size of the thickness texture
@@ -360,7 +360,7 @@ For eg. if blurThicknessSizeDivisor=2, the texture used to blur the thickness wi
 
 > **set** **blurThicknessSizeDivisor**(`scale`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:298](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L298)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L298)
 
 ##### Parameters
 
@@ -380,7 +380,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **camera**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:485](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L485)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:485](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L485)
 
 Gets the camera used for the rendering
 
@@ -396,7 +396,7 @@ Gets the camera used for the rendering
 
 > **get** **compositeMode**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:469](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L469)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:469](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L469)
 
 If compositeMode is true (default: false), when the alpha value of the background (the scene rendered without the fluid objects) is 0, the final alpha value of the pixel will be set to the thickness value.
 This way, it is possible to composite the fluid rendering on top of the HTML background.
@@ -409,7 +409,7 @@ This way, it is possible to composite the fluid rendering on top of the HTML bac
 
 > **set** **compositeMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:473](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L473)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:473](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L473)
 
 ##### Parameters
 
@@ -429,7 +429,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **debug**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L129)
 
 Gets or sets a boolean indicating if we should display a specific texture (given by debugFeature) for debugging purpose
 
@@ -441,7 +441,7 @@ Gets or sets a boolean indicating if we should display a specific texture (given
 
 > **set** **debug**(`debug`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L133)
 
 ##### Parameters
 
@@ -461,7 +461,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **debugFeature**(): [`FluidRenderingDebug`](../enumerations/FluidRenderingDebug.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L111)
 
 Gets or sets the feature (texture) to be debugged. Not used if debug is false
 
@@ -473,7 +473,7 @@ Gets or sets the feature (texture) to be debugged. Not used if debug is false
 
 > **set** **debugFeature**(`feature`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L115)
 
 ##### Parameters
 
@@ -493,7 +493,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **depthMapSize**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:393](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L393)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:393](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L393)
 
 Defines the size of the depth texture.
 If null, the texture will have the size of the screen
@@ -506,7 +506,7 @@ If null, the texture will have the size of the screen
 
 > **set** **depthMapSize**(`size`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:397](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L397)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:397](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L397)
 
 ##### Parameters
 
@@ -526,7 +526,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **diffuseMapSize**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:431](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L431)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:431](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L431)
 
 Defines the size of the diffuse texture.
 If null, the texture will have the size of the screen
@@ -539,7 +539,7 @@ If null, the texture will have the size of the screen
 
 > **set** **diffuseMapSize**(`size`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:435](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L435)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:435](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L435)
 
 ##### Parameters
 
@@ -559,7 +559,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **enableBlurDepth**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L166)
 
 Gets or sets a boolean indicating that the depth texture should be blurred
 
@@ -571,7 +571,7 @@ Gets or sets a boolean indicating that the depth texture should be blurred
 
 > **set** **enableBlurDepth**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L170)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L170)
 
 ##### Parameters
 
@@ -591,7 +591,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **enableBlurThickness**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:275](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L275)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:275](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L275)
 
 Gets or sets a boolean indicating that the thickness texture should be blurred
 
@@ -603,7 +603,7 @@ Gets or sets a boolean indicating that the thickness texture should be blurred
 
 > **set** **enableBlurThickness**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:279](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L279)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:279](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L279)
 
 ##### Parameters
 
@@ -623,7 +623,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **environmentMap**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\> \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L148)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L148)
 
 Gets or sets the environment map used for the reflection part of the shading
 If null, no map will be used. If undefined, the scene.environmentMap will be used (if defined)
@@ -636,7 +636,7 @@ If null, no map will be used. If undefined, the scene.environmentMap will be use
 
 > **set** **environmentMap**(`map`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L152)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L152)
 
 ##### Parameters
 
@@ -656,7 +656,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **generateDiffuseTexture**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L58)
 
 Gets or sets a boolean indicating that the diffuse texture should be generated and used for the rendering
 
@@ -668,7 +668,7 @@ Gets or sets a boolean indicating that the diffuse texture should be generated a
 
 > **set** **generateDiffuseTexture**(`generate`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L62)
 
 ##### Parameters
 
@@ -688,7 +688,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **needInitialization**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L49)
 
 Returns true if the class needs to be reinitialized (because of changes in parameterization)
 
@@ -704,7 +704,7 @@ Returns true if the class needs to be reinitialized (because of changes in param
 
 > **get** **samples**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:450](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L450)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:450](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L450)
 
 Gets or sets the number of samples used by MSAA
 Note: changing this value in WebGL does not work because depth/stencil textures can't be created with MSAA (see https://github.com/BabylonJS/Babylon.js/issues/12444)
@@ -717,7 +717,7 @@ Note: changing this value in WebGL does not work because depth/stencil textures 
 
 > **set** **samples**(`samples`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:454](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L454)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:454](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L454)
 
 ##### Parameters
 
@@ -737,7 +737,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:507](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L507)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:507](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L507)
 
 Gets the shader language used in this renderer
 
@@ -753,7 +753,7 @@ Gets the shader language used in this renderer
 
 > **get** **thicknessMapSize**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:412](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L412)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:412](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L412)
 
 Defines the size of the thickness texture.
 If null, the texture will have the size of the screen
@@ -766,7 +766,7 @@ If null, the texture will have the size of the screen
 
 > **set** **thicknessMapSize**(`size`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:416](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L416)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:416](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L416)
 
 ##### Parameters
 
@@ -786,7 +786,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **useFixedThickness**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:348](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L348)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:348](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L348)
 
 Gets or sets a boolean indicating that a fixed thickness should be used instead of generating a thickness texture
 
@@ -798,7 +798,7 @@ Gets or sets a boolean indicating that a fixed thickness should be used instead 
 
 > **set** **useFixedThickness**(`use`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:352](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L352)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:352](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L352)
 
 ##### Parameters
 
@@ -818,7 +818,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **get** **useVelocity**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:373](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L373)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:373](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L373)
 
 Gets or sets a boolean indicating that the velocity should be used when rendering the particles as a fluid.
 Note: the vertex buffers must contain a "velocity" buffer for this to work!
@@ -831,7 +831,7 @@ Note: the vertex buffers must contain a "velocity" buffer for this to work!
 
 > **set** **useVelocity**(`use`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:377](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L377)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:377](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L377)
 
 ##### Parameters
 
@@ -849,7 +849,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/flui
 
 > **dispose**(`onlyPostProcesses?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:962](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L962)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts:962](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderingTargetRenderer.ts#L962)
 
 Releases all the resources used by the class
 

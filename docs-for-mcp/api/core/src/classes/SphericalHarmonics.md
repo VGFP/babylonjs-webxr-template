@@ -6,7 +6,7 @@
 
 # Class: SphericalHarmonics
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L89)
 
 Class representing spherical harmonics coefficients to the 3rd degree
 
@@ -26,7 +26,7 @@ Class representing spherical harmonics coefficients to the 3rd degree
 
 > **l00**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L98)
 
 The l0,0 coefficients of the spherical harmonics
 
@@ -36,7 +36,7 @@ The l0,0 coefficients of the spherical harmonics
 
 > **l1\_1**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L103)
 
 The l1,-1 coefficients of the spherical harmonics
 
@@ -46,7 +46,7 @@ The l1,-1 coefficients of the spherical harmonics
 
 > **l10**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L108)
 
 The l1,0 coefficients of the spherical harmonics
 
@@ -56,7 +56,7 @@ The l1,0 coefficients of the spherical harmonics
 
 > **l11**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L113)
 
 The l1,1 coefficients of the spherical harmonics
 
@@ -66,7 +66,7 @@ The l1,1 coefficients of the spherical harmonics
 
 > **l2\_1**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L123)
 
 The l2,-1 coefficients of the spherical harmonics
 
@@ -76,7 +76,7 @@ The l2,-1 coefficients of the spherical harmonics
 
 > **l2\_2**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L118)
 
 The l2,-2 coefficients of the spherical harmonics
 
@@ -86,7 +86,7 @@ The l2,-2 coefficients of the spherical harmonics
 
 > **l20**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L128)
 
 The l2,0 coefficients of the spherical harmonics
 
@@ -96,7 +96,7 @@ The l2,0 coefficients of the spherical harmonics
 
 > **l21**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L131)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L133)
 
 The l2,1 coefficients of the spherical harmonics
 
@@ -106,7 +106,7 @@ The l2,1 coefficients of the spherical harmonics
 
 > **l22**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:136](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L136)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L138)
 
 The l2,2 coefficients of the spherical harmonics
 
@@ -116,7 +116,7 @@ The l2,2 coefficients of the spherical harmonics
 
 > **preScaled**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L93)
 
 Defines whether or not the harmonics have been prescaled for rendering.
 
@@ -126,7 +126,7 @@ Defines whether or not the harmonics have been prescaled for rendering.
 
 > **addLight**(`direction`, `color`, `deltaSolidAngle`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L146)
 
 Adds a light to the spherical harmonics
 
@@ -160,7 +160,7 @@ the delta solid angle of the light
 
 > **convertIncidentRadianceToIrradiance**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:199](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L199)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L201)
 
 Convert from incident radiance (Li) to irradiance (E) by applying convolution with the cosine-weighted hemisphere.
 
@@ -182,7 +182,7 @@ the scaling factors are given in equation 9.
 
 > **convertIrradianceToLambertianRadiance**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L225)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L227)
 
 Convert from irradiance to outgoing radiance for Lambertian BDRF, suitable for efficient shader evaluation.
 
@@ -202,7 +202,7 @@ This is done by an additional scale by 1/pi, so is a fairly trivial operation bu
 
 > **preScaleForRendering**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L239)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:241](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L241)
 
 Integrates the reconstruction coefficients directly in to the SH preventing further
 required operations at run time.
@@ -220,7 +220,7 @@ The trigonometric part being applied by the shader at run time.
 
 > **scaleInPlace**(`scale`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L178)
 
 Scales the spherical harmonics by the given amount
 
@@ -242,7 +242,7 @@ the amount to scale
 
 > **updateFromArray**(`data`): `SphericalHarmonics`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:260](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L260)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:262](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L262)
 
 update the spherical harmonics coefficients from the given array
 
@@ -266,7 +266,7 @@ the spherical harmonics (this)
 
 > **updateFromFloatsArray**(`data`): `SphericalHarmonics`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:278](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L278)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:280](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L280)
 
 update the spherical harmonics coefficients from the given floats array
 
@@ -290,7 +290,7 @@ the spherical harmonics (this)
 
 > `static` **FromArray**(`data`): `SphericalHarmonics`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:296](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L296)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L298)
 
 Constructs a spherical harmonics from an array.
 
@@ -314,7 +314,7 @@ the spherical harmonics
 
 > `static` **FromPolynomial**(`polynomial`): `SphericalHarmonics`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.ts:307](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/sphericalPolynomial.ts#L307)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:309](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L309)
 
 Gets the spherical harmonics from polynomial
 

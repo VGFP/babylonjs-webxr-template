@@ -6,7 +6,7 @@
 
 # Class: ThreeMfSerializer
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/3mfSerializer.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/3mfSerializer.ts#L90)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/3mfSerializer.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/3mfSerializer.ts#L90)
 
 Babylon.js to 3MF serializer.
 
@@ -29,7 +29,7 @@ Design notes:
 
 > **new ThreeMfSerializer**(`opts?`): `ThreeMfSerializer`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/3mfSerializer.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/3mfSerializer.ts#L111)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/3mfSerializer.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/3mfSerializer.ts#L111)
 
 #### Parameters
 
@@ -53,7 +53,7 @@ serializer options (merged with defaults in base class).
 
 > `static` **DefaultOptions**: [`IThreeMfSerializerOptions`](../interfaces/IThreeMfSerializerOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/3mfSerializer.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/3mfSerializer.ts#L94)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/3mfSerializer.ts:94](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/3mfSerializer.ts#L94)
 
 Default serialization options: meter units, no instance export.
 
@@ -65,7 +65,7 @@ Default serialization options: meter units, no instance export.
 
 > **get** **options**(): `Readonly`\<`O`\>
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts#L70)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts#L70)
 
 Expose the resolved options (defaults + overrides) as readonly.
 
@@ -83,7 +83,7 @@ Expose the resolved options (defaults + overrides) as readonly.
 
 > **ensureZipLibReadyAsync**(): `Promise`\<`any`\>
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/3mfSerializer.ts:249](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/3mfSerializer.ts#L249)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/3mfSerializer.ts:249](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/3mfSerializer.ts#L249)
 
 Ensure the zip library (fflate) is available in the current runtime.
 
@@ -105,7 +105,7 @@ Host assumptions:
 
 > **serializeAsync**(`sink`, ...`meshes`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts#L86)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts#L86)
 
 Generic 3MF binary serializer.
 Pipeline overview:
@@ -143,7 +143,7 @@ the meshes to serialize.
 
 > **toDocument**(...`meshes`): [`I3mfDocument`](../interfaces/I3mfDocument.md) \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts:178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts#L178)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts#L178)
 
 Build a full 3MF OPC document from meshes.
 
@@ -170,7 +170,7 @@ Override if you need custom parts (textures, thumbnails, print ticket, etc.).
 
 > **toModel**(`builder`, ...`meshes`): [`I3mfModel`](../interfaces/I3mfModel.md)
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/3mfSerializer.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/3mfSerializer.ts#L124)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/3mfSerializer.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/3mfSerializer.ts#L124)
 
 Build a 3MF model from Babylon meshes.
 

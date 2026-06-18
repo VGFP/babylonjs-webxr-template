@@ -6,7 +6,7 @@
 
 # Class: SolidParticleSystem
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L32)
 
 The SPS is a single updatable mesh. The solid particles are simply separate parts or faces of this big mesh.
 As it is just a mesh, the SPS has all the same properties than any other BJS mesh : not more, not less. It can be scaled, rotated, translated, enlighted, textured, moved, etc.
@@ -26,7 +26,7 @@ Full documentation here : https://doc.babylonjs.com/features/featuresDeepDive/pa
 
 > **new SolidParticleSystem**(`name`, `scene`, `options?`): `SolidParticleSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:198](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L198)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L198)
 
 Creates a SPS (Solid Particle System) object.
 
@@ -124,7 +124,7 @@ bSphereRadiusFactor = 1.0 / Math.sqrt(3.0) => the bounding sphere exactly matche
 
 > **billboard**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L45)
 
 If the particles must ever face the camera (default false). Useful for planar particles.
 
@@ -134,7 +134,7 @@ If the particles must ever face the camera (default false). Useful for planar pa
 
 > **counter**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L53)
 
 This a counter ofr your own usage. It's not set by any SPS functions.
 
@@ -144,7 +144,7 @@ This a counter ofr your own usage. It's not set by any SPS functions.
 
 > **depthSortedParticles**: `DepthSortedParticle`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L95)
 
 This array is populated when `enableDepthSort` is set to true.
 Each element of this array is an instance of the class DepthSortedParticle.
@@ -155,7 +155,7 @@ Each element of this array is an instance of the class DepthSortedParticle.
 
 > **mesh**: [`Mesh`](Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L61)
 
 The SPS mesh. It's a standard BJS Mesh, so all the methods from the Mesh class are available.
 
@@ -165,7 +165,7 @@ The SPS mesh. It's a standard BJS Mesh, so all the methods from the Mesh class a
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L57)
 
 The SPS name. This name is also given to the underlying mesh.
 
@@ -175,7 +175,7 @@ The SPS name. This name is also given to the underlying mesh.
 
 > **nbParticles**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L41)
 
 The SPS total number of particles. Read only. Use SPS.counter instead if you need to set your own value.
 
@@ -185,7 +185,7 @@ The SPS total number of particles. Read only. Use SPS.counter instead if you nee
 
 > **particles**: [`SolidParticle`](SolidParticle.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L37)
 
 The SPS array of Solid Particle objects. Just access each particle as with any classic array.
  Example : var p = SPS.particles[i];
@@ -196,7 +196,7 @@ The SPS array of Solid Particle objects. Just access each particle as with any c
 
 > **pickedBySubMesh**: `object`[][]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L90)
 
 This array is populated when the SPS is set as 'pickable'
 Each key of this array is a submesh index.
@@ -214,7 +214,7 @@ Please read : https://doc.babylonjs.com/features/featuresDeepDive/particles/soli
 
 > **pickedParticles**: `object`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L78)
 
 This array is populated when the SPS is set as 'pickable'.
 Each key of this array is a `faceId` value that you can get from a pickResult object.
@@ -240,7 +240,7 @@ Please read : https://doc.babylonjs.com/features/featuresDeepDive/particles/soli
 
 > **recomputeNormals**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L49)
 
 Recompute normals when adding a shape
 
@@ -250,7 +250,7 @@ Recompute normals when adding a shape
 
 > **updateSpeed**: `number` = `0.01`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L163)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L163)
 
 The overall motion speed (0.01 is default update speed, faster updates = faster animation)
 
@@ -260,7 +260,7 @@ The overall motion speed (0.01 is default update speed, faster updates = faster 
 
 > **vars**: `any` = `{}`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L66)
 
 This empty object is intended to store some SPS specific or temporary values in order to lower the Garbage Collector activity.
 Please read : https://doc.babylonjs.com/features/featuresDeepDive/particles/solid_particle_system/optimize_sps#limit-garbage-collection
@@ -273,7 +273,7 @@ Please read : https://doc.babylonjs.com/features/featuresDeepDive/particles/soli
 
 > **get** **autoUpdateSubMeshes**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2044](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L2044)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2044](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L2044)
 
 If the subMeshes must be updated on the next call to setParticles()
 
@@ -285,7 +285,7 @@ If the subMeshes must be updated on the next call to setParticles()
 
 > **set** **autoUpdateSubMeshes**(`val`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2047](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L2047)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2047](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L2047)
 
 ##### Parameters
 
@@ -305,7 +305,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSyste
 
 > **get** **computeBoundingBox**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1976](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1976)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1976](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1976)
 
 Gets if `setParticles()` computes or not the mesh bounding box when computing the particle positions.
 
@@ -317,7 +317,7 @@ Gets if `setParticles()` computes or not the mesh bounding box when computing th
 
 > **set** **computeBoundingBox**(`val`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1925](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1925)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1925](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1925)
 
 Tells to `setParticles()` to compute or not the mesh bounding box when computing the particle positions.
 
@@ -339,7 +339,7 @@ Tells to `setParticles()` to compute or not the mesh bounding box when computing
 
 > **get** **computeParticleColor**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1951](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1951)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1951](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1951)
 
 Gets if `setParticles()` computes the particle colors or not.
 Default value : true. The SPS is faster when it's set to false.
@@ -353,7 +353,7 @@ Note : the particle colors are stored values, so setting `computeParticleColor` 
 
 > **set** **computeParticleColor**(`val`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1907](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1907)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1907](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1907)
 
 Tells to `setParticles()` to compute the particle colors or not.
 Default value : true. The SPS is faster when it's set to false.
@@ -377,7 +377,7 @@ Note : the particle colors are stored values, so setting `computeParticleColor` 
 
 > **get** **computeParticleRotation**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1942](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1942)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1942](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1942)
 
 Gets if `setParticles()` computes the particle rotations or not.
 Default value : true. The SPS is faster when it's set to false.
@@ -391,7 +391,7 @@ Note : the particle rotations aren't stored values, so setting `computeParticleR
 
 > **set** **computeParticleRotation**(`val`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1898](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1898)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1898](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1898)
 
 Tells to `setParticles()` to compute the particle rotations or not.
 Default value : true. The SPS is faster when it's set to false.
@@ -415,7 +415,7 @@ Note : the particle rotations aren't stored values, so setting `computeParticleR
 
 > **get** **computeParticleTexture**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1960](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1960)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1960](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1960)
 
 Gets if `setParticles()` computes the particle textures or not.
 Default value : true. The SPS is faster when it's set to false.
@@ -429,7 +429,7 @@ Note : the particle textures are stored values, so setting `computeParticleTextu
 
 > **set** **computeParticleTexture**(`val`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1911](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1911)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1911](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1911)
 
 ##### Parameters
 
@@ -449,7 +449,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSyste
 
 > **get** **computeParticleVertex**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1969](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1969)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1969](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1969)
 
 Gets if `setParticles()` calls the vertex function for each vertex of each particle, or not.
 Default value : false. The SPS is faster when it's set to false.
@@ -463,7 +463,7 @@ Note : the particle custom vertex positions aren't stored values.
 
 > **set** **computeParticleVertex**(`val`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1919](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1919)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1919](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1919)
 
 Tells to `setParticles()` to call the vertex function for each vertex of each particle, or not.
 Default value : false. The SPS is faster when it's set to false.
@@ -487,7 +487,7 @@ Note : the particle custom vertex positions aren't stored values.
 
 > **get** **depthSortParticles**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1985](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1985)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1985](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1985)
 
 Gets if `setParticles()` sorts or not the distance between each particle and the camera.
 Skipped when `enableDepthSort` is set to `false` (default) at construction time.
@@ -501,7 +501,7 @@ Default : `true`
 
 > **set** **depthSortParticles**(`val`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1933](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1933)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1933](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1933)
 
 Tells to `setParticles()` to sort or not the distance between each particle and the camera.
 Skipped when `enableDepthSort` is set to `false` (default) at construction time.
@@ -525,7 +525,7 @@ Default : `true`
 
 > **get** **expandable**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1993](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1993)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1993](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1993)
 
 Gets if the SPS is created as expandable at construction time.
 Default : `false`
@@ -542,7 +542,7 @@ Default : `false`
 
 > **get** **isAlwaysVisible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1860](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1860)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1860](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1860)
 
 Gets whether the SPS as always visible or not
 doc : https://doc.babylonjs.com/features/featuresDeepDive/particles/solid_particle_system/sps_visibility
@@ -555,7 +555,7 @@ doc : https://doc.babylonjs.com/features/featuresDeepDive/particles/solid_partic
 
 > **set** **isAlwaysVisible**(`val`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1868](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1868)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1868](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1868)
 
 Sets the SPS as always visible or not
 doc : https://doc.babylonjs.com/features/featuresDeepDive/particles/solid_particle_system/sps_visibility
@@ -578,7 +578,7 @@ doc : https://doc.babylonjs.com/features/featuresDeepDive/particles/solid_partic
 
 > **get** **isVisibilityBoxLocked**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1889](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1889)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1889](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1889)
 
 Gets if the SPS visibility box as locked or not. This enables/disables the underlying mesh bounding box updates.
 doc : https://doc.babylonjs.com/features/featuresDeepDive/particles/solid_particle_system/sps_visibility
@@ -591,7 +591,7 @@ doc : https://doc.babylonjs.com/features/featuresDeepDive/particles/solid_partic
 
 > **set** **isVisibilityBoxLocked**(`val`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1877](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1877)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1877](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1877)
 
 Sets the SPS visibility box as locked or not. This enables/disables the underlying mesh bounding box updates.
 doc : https://doc.babylonjs.com/features/featuresDeepDive/particles/solid_particle_system/sps_visibility
@@ -614,7 +614,7 @@ doc : https://doc.babylonjs.com/features/featuresDeepDive/particles/solid_partic
 
 > **get** **materials**(): [`Material`](Material.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2011](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L2011)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2011](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L2011)
 
 The SPS used material array.
 
@@ -630,7 +630,7 @@ The SPS used material array.
 
 > **get** **multimaterial**(): [`MultiMaterial`](MultiMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2035](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L2035)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2035](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L2035)
 
 The SPS computed multimaterial object
 
@@ -642,7 +642,7 @@ The SPS computed multimaterial object
 
 > **set** **multimaterial**(`mm`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2038](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L2038)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2038](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L2038)
 
 ##### Parameters
 
@@ -662,7 +662,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSyste
 
 > **get** **multimaterialEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1999](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1999)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1999](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1999)
 
 Gets if the SPS supports the Multi Materials
 
@@ -678,7 +678,7 @@ Gets if the SPS supports the Multi Materials
 
 > **get** **started**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2173](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L2173)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L2173)
 
 Gets if the particle system is started
 
@@ -694,7 +694,7 @@ Gets if the particle system is started
 
 > **get** **stopped**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L2180)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L2180)
 
 Gets if the particle system is stopped
 
@@ -710,7 +710,7 @@ Gets if the particle system is stopped
 
 > **get** **useModelMaterial**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2005](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L2005)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2005](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L2005)
 
 Gets if the SPS uses the model materials for its own multimaterial.
 
@@ -724,7 +724,7 @@ Gets if the SPS uses the model materials for its own multimaterial.
 
 > **addShape**(`mesh`, `nb`, `options?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:813](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L813)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:813](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L813)
 
 Adds some particles to the SPS from the model shape. Returns the shape id.
 Please read the doc : https://doc.babylonjs.com/features/featuresDeepDive/particles/solid_particle_system/immutable_sps
@@ -773,7 +773,7 @@ the number of shapes in the system
 
 > **afterUpdateParticles**(`start?`, `stop?`, `update?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L2117)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L2117)
 
 This will be called  by `setParticles()` after all the other treatments and just before the actual mesh update.
 This will be passed three parameters.
@@ -809,7 +809,7 @@ the boolean update value actually passed to setParticles()
 
 > **beforeUpdateParticles**(`start?`, `stop?`, `update?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L2107)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L2107)
 
 This will be called before any other treatment by `setParticles()` and will be passed three parameters.
 This does nothing and may be overwritten by the user.
@@ -844,7 +844,7 @@ the boolean update value actually passed to setParticles()
 
 > **buildMesh**(): [`Mesh`](Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L255)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:255](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L255)
 
 Builds the SPS underlying mesh. Returns a standard Mesh.
 If no model shape was added to the SPS, the returned mesh is just a single triangular plane.
@@ -861,7 +861,7 @@ the created mesh
 
 > **computeSubMeshes**(): `SolidParticleSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1700](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1700)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1700](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1700)
 
 Computes the required SubMeshes according the materials assigned to the particles.
 
@@ -878,7 +878,7 @@ Does nothing if called before the SPS mesh is built.
 
 > **digest**(`mesh`, `options?`): `SolidParticleSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:371](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L371)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:371](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L371)
 
 Digests the mesh and generates as many solid particles in the system as wanted. Returns the SPS.
 These particles will have the same geometry than the mesh parts and will be positioned at the same localisation than the mesh original places.
@@ -932,7 +932,7 @@ the current SPS
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1599](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1599)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1599](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1599)
 
 Disposes the SPS.
 
@@ -950,7 +950,7 @@ Disposes the SPS.
 
 > **getParticleById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`SolidParticle`](SolidParticle.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1646](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1646)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1646](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1646)
 
 Returns a SolidParticle object from its identifier : particle.id
 
@@ -974,7 +974,7 @@ the searched particle or null if not found in the SPS.
 
 > **getParticlesByShapeId**(`shapeId`): [`SolidParticle`](SolidParticle.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1673](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1673)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1673](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1673)
 
 Returns a new array populated with the particles having the passed shapeId.
 
@@ -998,7 +998,7 @@ a new solid particle array
 
 > **getParticlesByShapeIdToRef**(`shapeId`, `ref`): `SolidParticleSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1685](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1685)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1685](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1685)
 
 Populates the passed array "ref" with the particles having the passed shapeId.
 
@@ -1028,7 +1028,7 @@ the SPS
 
 > **initParticles**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2059](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L2059)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2059](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L2059)
 
 This function does nothing. It may be overwritten to set all the particle first values.
 The SPS doesn't call this function, you may have to call it by your own.
@@ -1044,7 +1044,7 @@ doc : https://doc.babylonjs.com/features/featuresDeepDive/particles/solid_partic
 
 > **insertParticlesFromArray**(`solidParticleArray`): `SolidParticleSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1001](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1001)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1001](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1001)
 
 Inserts some pre-created particles in the solid particle system so that they can be managed by setParticles().
 
@@ -1068,7 +1068,7 @@ the SPS
 
 > **pickedParticle**(`pickingInfo`): [`Nullable`](../type-aliases/Nullable.md)\<\{ `faceId`: `number`; `idx`: `number`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1629](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1629)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1629](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1629)
 
 Returns an object {idx: number faceId: number} for the picked particle from the passed pickingInfo object.
 idx is the particle index in the SPS
@@ -1095,7 +1095,7 @@ or null
 
 > **rebuildMesh**(`reset?`): `SolidParticleSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:912](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L912)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:912](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L912)
 
 Rebuilds the whole mesh and updates the VBO : custom positions and vertices are recomputed if needed.
 
@@ -1119,7 +1119,7 @@ the SPS.
 
 > **recycleParticle**(`particle`): [`SolidParticle`](SolidParticle.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2068](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L2068)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2068](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L2068)
 
 This function does nothing. It may be overwritten to recycle a particle.
 The SPS doesn't call this function, you may have to call it by your own.
@@ -1145,7 +1145,7 @@ the recycled particle
 
 > **refreshVisibleSize**(): `SolidParticleSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1838](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1838)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1838](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1838)
 
 Visibility helper : Recomputes the visible size according to the mesh bounding box
 doc : https://doc.babylonjs.com/features/featuresDeepDive/particles/solid_particle_system/sps_visibility
@@ -1162,7 +1162,7 @@ the SPS.
 
 > **removeParticles**(`start`, `end`): [`SolidParticle`](SolidParticle.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:929](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L929)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:929](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L929)
 
 Removes the particles from the start-th to the end-th included from an expandable SPS (required).
  Returns an array with the removed particles.
@@ -1196,7 +1196,7 @@ an array populated with the removed particles
 
 > **setMultiMaterial**(`materials`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2019](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L2019)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2019](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L2019)
 
 Sets the SPS MultiMaterial from the passed materials.
 Note : the passed array is internally copied and not used then by reference.
@@ -1219,7 +1219,7 @@ an array of material objects. This array indexes are the materialIndex values of
 
 > **setParticles**(`start?`, `end?`, `update?`): `SolidParticleSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1129)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1129)
 
 Sets all the particles : this method actually really updates the mesh according to the particle positions, rotations, colors, textures, etc.
  This method calls `updateParticle()` for each particle of the SPS.
@@ -1258,7 +1258,7 @@ the SPS.
 
 > **setVisibilityBox**(`size`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1851](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L1851)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:1851](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L1851)
 
 Visibility helper : Sets the size of a visibility box, this sets the underlying mesh bounding box.
 
@@ -1282,7 +1282,7 @@ doc : https://doc.babylonjs.com/features/featuresDeepDive/particles/solid_partic
 
 > **start**(`delay?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L2124)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L2124)
 
 Starts the particle system and begins to emit.
 This will call buildMesh(), initParticles(), setParticles() and register the update loop.
@@ -1305,7 +1305,7 @@ defines the delay in milliseconds before starting the system (0 by default)
 
 > **stop**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2156](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L2156)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L2156)
 
 Stops the particle system.
 
@@ -1319,7 +1319,7 @@ Stops the particle system.
 
 > **updateParticle**(`particle`): [`SolidParticle`](SolidParticle.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2080](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L2080)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2080](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L2080)
 
 Updates a particle : this function should  be overwritten by the user.
 It is called on each particle by `setParticles()`. This is the place to code each particle behavior.
@@ -1351,7 +1351,7 @@ the updated particle
 
 > **updateParticleVertex**(`particle`, `vertex`, `pt`): `SolidParticleSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2095](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/solidParticleSystem.ts#L2095)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/solidParticleSystem.ts:2095](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/solidParticleSystem.ts#L2095)
 
 Updates a vertex of a particle : it can be overwritten by the user.
 This will be called on each vertex particle by `setParticles()` if `computeParticleVertex` is set to true only.

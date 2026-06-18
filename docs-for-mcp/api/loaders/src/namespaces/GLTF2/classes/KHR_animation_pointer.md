@@ -6,7 +6,7 @@
 
 # Class: KHR\_animation\_pointer
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_animation\_pointer.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_animation_pointer.ts#L32)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_animation\_pointer.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_animation_pointer.ts#L32)
 
 [Specification PR](https://github.com/KhronosGroup/glTF/pull/2147)
 !!! Experimental Extension Subject to Changes !!!
@@ -21,7 +21,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_
 
 > `readonly` **name**: `"KHR_animation_pointer"` = `NAME`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_animation\_pointer.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_animation_pointer.ts#L36)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_animation\_pointer.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_animation_pointer.ts#L36)
 
 The name of this extension.
 
@@ -37,7 +37,7 @@ The name of this extension.
 
 > **get** **enabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_animation\_pointer.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_animation_pointer.ts#L52)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_animation\_pointer.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_animation_pointer.ts#L52)
 
 Defines whether this extension is enabled.
 
@@ -57,7 +57,7 @@ Defines whether this extension is enabled.
 
 > **\_loadAnimationChannelAsync**(`context`, `animationContext`, `animation`, `channel`, `onLoad`): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<`Promise`\<`void`\>\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_animation\_pointer.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_animation_pointer.ts#L72)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_animation\_pointer.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_animation_pointer.ts#L72)
 
 Loads a glTF animation channel.
 

@@ -6,7 +6,7 @@
 
 # Class: GeometryBufferRenderer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L101)
 
 This renderer is helpful to fill one of the render target with a geometry buffer.
 
@@ -16,7 +16,7 @@ This renderer is helpful to fill one of the render target with a geometry buffer
 
 > **new GeometryBufferRenderer**(`scene`, `ratioOrDimensions?`, `depthFormat?`, `textureTypesAndFormats?`): `GeometryBufferRenderer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:580](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L580)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:576](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L576)
 
 Creates a new G Buffer for the scene
 
@@ -55,7 +55,7 @@ If not provided, all textures will be RGBA and float or half float, depending on
 
 > **excludedSkinnedMeshesFromVelocity**: [`AbstractMesh`](AbstractMesh.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:171](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L171)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L167)
 
 Array used to store the ignored skinned meshes while computing velocity map (typically used by the motion blur post-process).
 Avoids computing bones velocities and computes only mesh's velocity itself (position, rotation, scaling).
@@ -66,7 +66,7 @@ Avoids computing bones velocities and computes only mesh's velocity itself (posi
 
 > **generateIrradianceWithScatterMask**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:532](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L532)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:528](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L528)
 
 This will store a mask in the alpha channel of the irradiance texture to indicate which pixels have
 scattering and should be taken into account when applying image-based lighting.
@@ -77,7 +77,7 @@ scattering and should be taken into account when applying image-based lighting.
 
 > **generateNormalsInWorldSpace**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:179](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L179)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L175)
 
 Gets or sets a boolean indicating if normals should be generated in world space (default: false, meaning normals are generated in view space)
 
@@ -87,7 +87,7 @@ Gets or sets a boolean indicating if normals should be generated in world space 
 
 > **renderTransparentMeshes**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:174](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L174)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L170)
 
 Gets or sets a boolean indicating if transparent meshes should be rendered
 
@@ -97,7 +97,7 @@ Gets or sets a boolean indicating if transparent meshes should be rendered
 
 > **useSpecificClearForDepthTexture**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:538](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L538)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:534](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L534)
 
 If set to true (default: false), the depth texture will be cleared with the depth value corresponding to the far plane (1 in normal mode, 0 in reverse depth buffer mode)
 If set to false, the depth texture is always cleared with 0.
@@ -108,7 +108,7 @@ If set to false, the depth texture is always cleared with 0.
 
 > `readonly` `static` **DEPTH\_TEXTURE\_TYPE**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L111)
 
 Constant used to retrieve the depth texture index in the G-Buffer textures array
 using getIndex(GeometryBufferRenderer.DEPTH_TEXTURE_INDEX)
@@ -119,7 +119,7 @@ using getIndex(GeometryBufferRenderer.DEPTH_TEXTURE_INDEX)
 
 > `static` **ForceGLSL**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:110](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L110)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L106)
 
 Force all the standard materials to compile to glsl even on WebGPU engines.
 False by default. This is mostly meant for backward compatibility.
@@ -130,7 +130,7 @@ False by default. This is mostly meant for backward compatibility.
 
 > `readonly` `static` **IRRADIANCE\_TEXTURE\_TYPE**: `7` = `7`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L149)
 
 Constant used to retrieve the irradiance texture index in the G-Buffer textures array
 using getIndex(GeometryBufferRenderer.IRRADIANCE_TEXTURE_TYPE)
@@ -141,7 +141,7 @@ using getIndex(GeometryBufferRenderer.IRRADIANCE_TEXTURE_TYPE)
 
 > `readonly` `static` **NORMAL\_TEXTURE\_TYPE**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L116)
 
 Constant used to retrieve the normal texture index in the G-Buffer textures array
 using getIndex(GeometryBufferRenderer.NORMAL_TEXTURE_INDEX)
@@ -152,7 +152,7 @@ using getIndex(GeometryBufferRenderer.NORMAL_TEXTURE_INDEX)
 
 > `readonly` `static` **POSITION\_TEXTURE\_TYPE**: `2` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L121)
 
 Constant used to retrieve the position texture index in the G-Buffer textures array
 using getIndex(GeometryBufferRenderer.POSITION_TEXTURE_INDEX)
@@ -163,7 +163,7 @@ using getIndex(GeometryBufferRenderer.POSITION_TEXTURE_INDEX)
 
 > `readonly` `static` **REFLECTIVITY\_TEXTURE\_TYPE**: `4` = `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L131)
 
 Constant used to retrieve the reflectivity texture index in the G-Buffer textures array
 using the getIndex(GeometryBufferRenderer.REFLECTIVITY_TEXTURE_TYPE)
@@ -174,7 +174,7 @@ using the getIndex(GeometryBufferRenderer.REFLECTIVITY_TEXTURE_TYPE)
 
 > `readonly` `static` **SCREENSPACE\_DEPTH\_TEXTURE\_TYPE**: `5` = `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L137)
 
 Constant used to retrieve the screen-space depth texture index in the G-Buffer textures array
 using getIndex(GeometryBufferRenderer.SCREENSPACE_DEPTH_TEXTURE_TYPE)
@@ -185,7 +185,7 @@ using getIndex(GeometryBufferRenderer.SCREENSPACE_DEPTH_TEXTURE_TYPE)
 
 > `readonly` `static` **VELOCITY\_LINEAR\_TEXTURE\_TYPE**: `6` = `6`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:147](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L147)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L143)
 
 Constant used to retrieve the linear velocity texture index in the G-Buffer textures array
 using getIndex(GeometryBufferRenderer.VELOCITY_LINEAR_TEXTURE_TYPE)
@@ -196,7 +196,7 @@ using getIndex(GeometryBufferRenderer.VELOCITY_LINEAR_TEXTURE_TYPE)
 
 > `readonly` `static` **VELOCITY\_TEXTURE\_TYPE**: `3` = `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L126)
 
 Constant used to retrieve the velocity texture index in the G-Buffer textures array
 using getIndex(GeometryBufferRenderer.VELOCITY_TEXTURE_INDEX)
@@ -209,7 +209,7 @@ using getIndex(GeometryBufferRenderer.VELOCITY_TEXTURE_INDEX)
 
 > **get** **enableDepth**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:371](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L371)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:367](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L367)
 
 ##### Returns
 
@@ -221,7 +221,7 @@ a boolean indicating if object's depths are enabled for the G buffer.
 
 > **set** **enableDepth**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:378](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L378)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:374](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L374)
 
 Sets whether or not object's depths are enabled for the G buffer.
 
@@ -243,7 +243,7 @@ Sets whether or not object's depths are enabled for the G buffer.
 
 > **get** **enableIrradiance**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:512](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L512)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:508](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L508)
 
 Gets a boolean indicating if objects irradiance are enabled in the G buffer.
 
@@ -255,7 +255,7 @@ Gets a boolean indicating if objects irradiance are enabled in the G buffer.
 
 > **set** **enableIrradiance**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:519](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L519)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:515](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L515)
 
 Sets whether or not objects irradiance are enabled for the G buffer.
 
@@ -277,7 +277,7 @@ Sets whether or not objects irradiance are enabled for the G buffer.
 
 > **get** **enableNormal**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:390](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L390)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:386](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L386)
 
 ##### Returns
 
@@ -289,7 +289,7 @@ a boolean indicating if object's normals are enabled for the G buffer.
 
 > **set** **enableNormal**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:397](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L397)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:393](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L393)
 
 Sets whether or not object's normals are enabled for the G buffer.
 
@@ -311,7 +311,7 @@ Sets whether or not object's normals are enabled for the G buffer.
 
 > **get** **enablePosition**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:409](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L409)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:405](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L405)
 
 ##### Returns
 
@@ -323,7 +323,7 @@ a boolean indicating if objects positions are enabled for the G buffer.
 
 > **set** **enablePosition**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:416](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L416)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:412](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L412)
 
 Sets whether or not objects positions are enabled for the G buffer.
 
@@ -345,7 +345,7 @@ Sets whether or not objects positions are enabled for the G buffer.
 
 > **get** **enableReflectivity**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:473](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L473)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:469](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L469)
 
 Gets a boolean indicating if objects reflectivity are enabled in the G buffer.
 
@@ -357,7 +357,7 @@ Gets a boolean indicating if objects reflectivity are enabled in the G buffer.
 
 > **set** **enableReflectivity**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:484](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L484)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:480](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L480)
 
 Sets whether or not objects reflectivity are enabled for the G buffer.
 For Metallic-Roughness workflow with ORM texture, we assume that ORM texture is defined according to the default layout:
@@ -383,7 +383,7 @@ pbr.useMetallnessFromMetallicTextureBlue = true;
 
 > **get** **enableScreenspaceDepth**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:496](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L496)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:492](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L492)
 
 Sets whether or not objects screenspace depth are enabled for the G buffer.
 
@@ -395,7 +395,7 @@ Sets whether or not objects screenspace depth are enabled for the G buffer.
 
 > **set** **enableScreenspaceDepth**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:500](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L500)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:496](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L496)
 
 ##### Parameters
 
@@ -415,7 +415,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRend
 
 > **get** **enableVelocity**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:429](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L429)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:425](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L425)
 
 ##### Returns
 
@@ -427,7 +427,7 @@ a boolean indicating if objects velocities are enabled for the G buffer.
 
 > **set** **enableVelocity**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:436](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L436)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:432](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L432)
 
 Sets whether or not objects velocities are enabled for the G buffer.
 
@@ -449,7 +449,7 @@ Sets whether or not objects velocities are enabled for the G buffer.
 
 > **get** **enableVelocityLinear**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:454](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L454)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:450](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L450)
 
 ##### Returns
 
@@ -461,7 +461,7 @@ a boolean indicating if object's linear velocities are enabled for the G buffer.
 
 > **set** **enableVelocityLinear**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:461](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L461)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:457](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L457)
 
 Sets whether or not object's linear velocities are enabled for the G buffer.
 
@@ -483,7 +483,7 @@ Sets whether or not object's linear velocities are enabled for the G buffer.
 
 > **get** **isSupported**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:336](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L336)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:332](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L332)
 
 Gets whether or not G buffer are supported by the running hardware.
 This requires draw buffer supports
@@ -500,7 +500,7 @@ This requires draw buffer supports
 
 > **get** **normalsAreUnsigned**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:186](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L186)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L182)
 
 Gets a boolean indicating if normals are encoded in the [0,1] range in the render target. If true, you should do `normal = normal_rt * 2.0 - 1.0` to get the right normal
 
@@ -516,7 +516,7 @@ Gets a boolean indicating if normals are encoded in the [0,1] range in the rende
 
 > **get** **ratio**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:551](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L551)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:547](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L547)
 
 Gets the ratio used by the buffer during its creation.
 How big is the buffer related to the main canvas.
@@ -533,7 +533,7 @@ How big is the buffer related to the main canvas.
 
 > **get** **renderList**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:321](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L321)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:317](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L317)
 
 Gets the render list (meshes to be rendered) used in the G buffer.
 
@@ -545,7 +545,7 @@ Gets the render list (meshes to be rendered) used in the G buffer.
 
 > **set** **renderList**(`meshes`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:328](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L328)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:324](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L324)
 
 Set the render list (meshes to be rendered) used in the G buffer.
 
@@ -567,7 +567,7 @@ Set the render list (meshes to be rendered) used in the G buffer.
 
 > **get** **samples**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:1044](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L1044)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:1050](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L1050)
 
 Gets the number of samples used to render the buffer (anti aliasing).
 
@@ -579,7 +579,7 @@ Gets the number of samples used to render the buffer (anti aliasing).
 
 > **set** **samples**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:1051](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L1051)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:1057](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L1057)
 
 Sets the number of samples used to render the buffer (anti aliasing).
 
@@ -601,7 +601,7 @@ Sets the number of samples used to render the buffer (anti aliasing).
 
 > **get** **scene**(): [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:543](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L543)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:539](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L539)
 
 Gets the scene associated with the buffer.
 
@@ -617,7 +617,7 @@ Gets the scene associated with the buffer.
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:561](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L561)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:557](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L557)
 
 Gets the shader language used in this material.
 
@@ -631,7 +631,7 @@ Gets the shader language used in this material.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:1058](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L1058)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:1064](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L1064)
 
 Disposes the renderer and frees up associated resources.
 
@@ -645,7 +645,7 @@ Disposes the renderer and frees up associated resources.
 
 > **getGBuffer**(): [`MultiRenderTarget`](MultiRenderTarget.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:1037](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L1037)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:1043](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L1043)
 
 Gets the current underlying G Buffer.
 
@@ -661,7 +661,7 @@ the buffer
 
 > **getTextureIndex**(`textureType`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:345](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L345)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:341](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L341)
 
 Returns the index of the given texture type in the G-Buffer textures array
 
@@ -685,7 +685,7 @@ the index of the given texture type in the G-Buffer textures array
 
 > **isReady**(`subMesh`, `useInstances`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:623](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L623)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:620](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L620)
 
 Checks whether everything is ready to render a submesh to the G buffer.
 

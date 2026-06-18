@@ -6,7 +6,7 @@
 
 # Interface: IGLTF
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:257](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L257)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:257](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L257)
 
 Loader interface with additional members.
 
@@ -20,7 +20,7 @@ Loader interface with additional members.
 
 > **asset**: `IAsset`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:854](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L854)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:854](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L854)
 
 Metadata about the glTF asset
 
@@ -34,7 +34,7 @@ Metadata about the glTF asset
 
 > `optional` **extensions?**: `object`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:282](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L282)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L282)
 
 Dictionary object with extension-specific objects
 
@@ -52,7 +52,7 @@ Dictionary object with extension-specific objects
 
 > `optional` **extensionsRequired?**: `string`[]
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:874](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L874)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:874](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L874)
 
 Names of glTF extensions required to properly load this asset
 
@@ -66,7 +66,7 @@ Names of glTF extensions required to properly load this asset
 
 > `optional` **extensionsUsed?**: `string`[]
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:870](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L870)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:870](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L870)
 
 Names of glTF extensions used somewhere in this asset
 
@@ -80,7 +80,7 @@ Names of glTF extensions used somewhere in this asset
 
 > `optional` **extras?**: `any`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:288](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L288)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:288](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L288)
 
 Application-Specific data
 
@@ -94,7 +94,7 @@ Application-Specific data
 
 > `optional` **scene?**: `number`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:898](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L898)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:898](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L898)
 
 The index of the default scene
 

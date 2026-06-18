@@ -6,7 +6,7 @@
 
 # Class: WebXRWalkingLocomotion
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts:347](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts#L347)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts:349](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts#L349)
 
 A module that will enable VR locomotion by detecting when the user walks in place.
 
@@ -20,7 +20,7 @@ A module that will enable VR locomotion by detecting when the user walks in plac
 
 > **new WebXRWalkingLocomotion**(`sessionManager`, `options`): `WebXRWalkingLocomotion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts:404](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts#L404)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts:406](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts#L406)
 
 Construct a new Walking Locomotion feature.
 
@@ -52,7 +52,7 @@ creation options, prominently including the vector target for locomotion
 
 > `optional` **dependsOn?**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
 
 The dependencies of this feature, if any
 
@@ -66,7 +66,7 @@ The dependencies of this feature, if any
 
 > **disableAutoAttach**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L27)
 
 Should auto-attach be disabled?
 
@@ -80,7 +80,7 @@ Should auto-attach be disabled?
 
 > **isDisposed**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L22)
 
 Is this feature disposed?
 
@@ -94,7 +94,7 @@ Is this feature disposed?
 
 > **onFeatureAttachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L49)
 
 Observers registered here will be executed when the feature is attached
 
@@ -108,7 +108,7 @@ Observers registered here will be executed when the feature is attached
 
 > **onFeatureDetachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L53)
 
 Observers registered here will be executed when the feature is detached
 
@@ -124,7 +124,7 @@ Observers registered here will be executed when the feature is detached
 
 > **get** **attached**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L69)
 
 Is this feature attached
 
@@ -146,7 +146,7 @@ Is this feature attached
 
 > **get** **locomotionTarget**(): [`TransformNode`](TransformNode.md) \| [`WebXRCamera`](WebXRCamera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts:382](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts#L382)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts:384](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts#L384)
 
 The target to be articulated by walking locomotion.
 When the walking locomotion feature detects walking in place, this element's
@@ -163,7 +163,7 @@ of the WebXRCamera directly and is thus discouraged.
 
 > **set** **locomotionTarget**(`locomotionTarget`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts:394](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts#L394)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts:396](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts#L396)
 
 The target to be articulated by walking locomotion.
 When the walking locomotion feature detects walking in place, this element's
@@ -190,7 +190,7 @@ of the WebXRCamera directly and is thus discouraged.
 
 > **get** **xrNativeFeatureName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L34)
 
 The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
@@ -202,7 +202,7 @@ The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
 > **set** **xrNativeFeatureName**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L38)
 
 The name of the native xr feature name, if applicable (like anchor, hit-test, or hand-tracking)
 
@@ -230,7 +230,7 @@ The name of the native xr feature name, if applicable (like anchor, hit-test, or
 
 > **get** `static` **Name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts:351](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts#L351)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts:353](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts#L353)
 
 The module's name.
 
@@ -246,7 +246,7 @@ The module's name.
 
 > **get** `static` **Version**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts:360](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts#L360)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts:362](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts#L362)
 
 The (Babylon) version of this module.
 This is an integer representing the implementation version.
@@ -262,7 +262,7 @@ This number has no external basis.
 
 > **attach**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts:429](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts#L429)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts:431](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts#L431)
 
 Attaches the feature.
 Typically called automatically by the features manager.
@@ -283,7 +283,7 @@ true if attach succeeded, false otherwise
 
 > **detach**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts:443](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts#L443)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts:445](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts#L445)
 
 Detaches the feature.
 Typically called automatically by the features manager.
@@ -304,7 +304,7 @@ true if detach succeeded, false otherwise
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L131)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L131)
 
 Dispose this feature and all of the resources attached
 
@@ -322,7 +322,7 @@ Dispose this feature and all of the resources attached
 
 > **isCompatible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts:420](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts#L420)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts:422](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts#L422)
 
 Checks whether this feature is compatible with the current WebXR session.
 Walking locomotion is only compatible with "immersive-vr" sessions.

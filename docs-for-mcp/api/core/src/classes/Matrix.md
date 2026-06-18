@@ -6,7 +6,7 @@
 
 # Class: Matrix
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6118)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6151)
 
 Class used to store matrix data (4x4)
 Note on matrix definitions in Babylon.js for setting values directly
@@ -39,7 +39,7 @@ Example Playground - Overview Projection - https://playground.babylonjs.com/#AV9
 
 > **new Matrix**(): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6179](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6179)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6212](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6212)
 
 Creates an empty matrix (filled with zeros)
 
@@ -53,7 +53,7 @@ Creates an empty matrix (filled with zeros)
 
 > `readonly` **dimension**: readonly \[`4`, `4`\]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6122)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6155)
 
 #### See
 
@@ -69,7 +69,7 @@ Tensor.dimension
 
 > `readonly` **rank**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6127)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6160)
 
 #### See
 
@@ -85,7 +85,7 @@ Tensor.rank
 
 > **updateFlag**: `number` = `-1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6147](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6147)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6180)
 
 Gets the update flag of the matrix which is an unique number for the matrix.
 It will be incremented every time the matrix data change.
@@ -103,7 +103,7 @@ You can use it to speed the comparison between two versions of the same matrix.
 
 > **get** **m**(): `DeepImmutableArray`\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6154](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6154)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6187)
 
 Gets the internal data of the matrix
 
@@ -119,7 +119,7 @@ Gets the internal data of the matrix
 
 > **get** `static` **IdentityReadOnly**(): [`DeepImmutable`](../type-aliases/DeepImmutable.md)\<`Matrix`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7333](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7333)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7381](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7381)
 
 Gets an identity matrix that must not be updated
 
@@ -135,7 +135,7 @@ Gets an identity matrix that must not be updated
 
 > **get** `static` **Use64Bits**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6132)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6165)
 
 Gets the precision of matrix computations
 
@@ -149,7 +149,7 @@ Gets the precision of matrix computations
 
 > **add**(`other`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6399](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6399)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6447](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6447)
 
 Adds the current matrix with a second one
 Example Playground - https://playground.babylonjs.com/#AV9X17#44
@@ -178,7 +178,7 @@ a new matrix as the addition of the current matrix and the given one
 
 > **addAtIndex**(`index`, `value`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6543](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6543)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6591](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6591)
 
 add a value at the specified position in the current Matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#47
@@ -209,7 +209,7 @@ the current updated matrix
 
 > **addInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6452](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6452)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6500](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6500)
 
 Set the instance coordinates by adding the given instance coordinates
 
@@ -237,7 +237,7 @@ the current updated instance
 
 > **addInPlaceFromFloats**(...`floats`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6462](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6462)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6510](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6510)
 
 Adds the given coordinates to the current instance
 
@@ -265,7 +265,7 @@ the current updated instance
 
 > **addToRef**\<`T`\>(`other`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6412](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6412)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6460](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6460)
 
 Sets the given matrix "result" to the addition of the current matrix and the given one
 Example Playground - https://playground.babylonjs.com/#AV9X17#45
@@ -306,7 +306,7 @@ result input
 
 > **addToSelf**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6429](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6429)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6477](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6477)
 
 Adds in place the given matrix to the current matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#46
@@ -331,7 +331,7 @@ the current updated matrix
 
 > **addTranslationFromFloats**(`x`, `y`, `z`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6586](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6586)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6634](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6634)
 
 Adds the translation vector (using 3 floats) in the current matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#20
@@ -369,7 +369,7 @@ the current updated matrix
 
 > **asArray**(): \[`number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`\]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6344](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6344)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6377](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6377)
 
 Returns the matrix as a Float32Array or Array<number>
 Example Playground - https://playground.babylonjs.com/#AV9X17#114
@@ -390,7 +390,7 @@ the matrix underlying array.
 
 > **clone**(): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6937](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6937)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6985](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6985)
 
 Clone the current matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#18
@@ -411,7 +411,7 @@ a new matrix from the current matrix
 
 > **copyFrom**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6643](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6643)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6691](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6691)
 
 Copy the current matrix from the given one
 Example Playground - https://playground.babylonjs.com/#AV9X17#21
@@ -440,9 +440,9 @@ the current updated matrix
 
 > **copyFromFloats**(...`floats`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6352](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6352)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6390](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6390)
 
-Sets the instance coordinates with the given floats
+Sets all the matrix values from a float array
 
 #### Parameters
 
@@ -450,11 +450,13 @@ Sets the instance coordinates with the given floats
 
 ...\[`number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`\]
 
+the 16 float values to set
+
 #### Returns
 
 `this`
 
-the current updated instance
+the current updated matrix
 
 #### Implementation of
 
@@ -466,7 +468,7 @@ the current updated instance
 
 > **copyToArray**(`array`, `offset?`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6657](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6657)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6705](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6705)
 
 Populates the given array from the starting index with the current matrix values
 
@@ -496,7 +498,7 @@ the current matrix
 
 > **decompose**(`scale?`, `rotation?`, `translation?`, `preserveScalingNode?`, `useAbsoluteScaling?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6983](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6983)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7031](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7031)
 
 Decomposes the current Matrix into a translation, rotation and scaling components
 Example Playground - https://playground.babylonjs.com/#AV9X17#12
@@ -545,7 +547,7 @@ true if operation was successful
 
 > **decomposeToTransformNode**(`node`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6969](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6969)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7017](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7017)
 
 Decomposes the current Matrix into a translation, rotation and scaling components of the provided node
 Example Playground - https://playground.babylonjs.com/#AV9X17#13
@@ -570,7 +572,7 @@ true if operation was successful
 
 > **determinant**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6259](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6259)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6292](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6292)
 
 Gets the determinant of the matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#34
@@ -587,7 +589,7 @@ the matrix determinant
 
 > **divide**(`other`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6758](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6758)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6806](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6806)
 
 Returns a new instance set with the instance coordinates divided by the given one coordinates
 
@@ -615,7 +617,7 @@ a new instance
 
 > **divideInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6773](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6773)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6821](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6821)
 
 Divides the current instance coordinates by the given ones
 
@@ -643,7 +645,7 @@ the current updated instance
 
 > **divideToRef**\<`T`\>(`other`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6762](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6762)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6810](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6810)
 
 Sets the "result" coordinates with the instance coordinates divided by the given one coordinates
 
@@ -683,7 +685,7 @@ result input
 
 > **equals**(`value`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6849](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6849)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6897](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6897)
 
 Check equality between this matrix and a second one
 
@@ -711,7 +713,7 @@ true is the current matrix and the given one values are strictly equal
 
 > **equalsToFloats**(...`floats`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6894](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6894)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6942](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6942)
 
 Returns true if the current Vectoe coordinates equals the given floats
 
@@ -739,7 +741,7 @@ true if both instances are equal
 
 > **equalsWithEpsilon**(`other`, `epsilon?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6883](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6883)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6931](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6931)
 
 Gets a boolean if two instances are equals (using an epsilon value)
 
@@ -773,7 +775,7 @@ true if the given instance coordinates are close to the current ones by a distan
 
 > **floor**(): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6904](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6904)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6952](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6952)
 
 Gets a new instance from current instance floored values
 eg (1.2, 2.31) returns (1, 2)
@@ -794,7 +796,7 @@ a new instance
 
 > **floorToRef**\<`T`\>(`result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6908](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6908)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6956](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6956)
 
 Gets the current instance's floored values and stores them in result
 
@@ -828,7 +830,7 @@ the result instance
 
 > **fract**(): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6918](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6918)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6966](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6966)
 
 Gets a new instance from current instance fractional values
 eg (1.2, 2.31) returns (0.2, 0.31)
@@ -849,7 +851,7 @@ a new instance
 
 > **fractToRef**\<`T`\>(`result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6922](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6922)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6970](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6970)
 
 Gets the current instance's fractional values and stores them in result
 
@@ -883,7 +885,7 @@ the result instance
 
 > **fromArray**(`array`, `index?`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6348](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6348)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6381](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6381)
 
 Update the current instance from an array
 
@@ -917,7 +919,7 @@ the current instance
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6947](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6947)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6995](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6995)
 
 Returns the name of the current matrix class
 
@@ -937,7 +939,7 @@ the string "Matrix"
 
 > **getHashCode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6955](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6955)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7003](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7003)
 
 Gets the hash code of the current matrix
 
@@ -957,7 +959,7 @@ the hash code
 
 > **getRotationMatrix**(): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7215](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7215)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7263](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7263)
 
 Gets only rotation part of the current matrix
 
@@ -973,7 +975,7 @@ a new matrix sets to the extracted rotation matrix from the current one
 
 > **getRotationMatrixToRef**\<`T`\>(`result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7226](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7226)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7274](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7274)
 
 Extracts the rotation matrix from the current one and sets it as the given "result"
 
@@ -1003,7 +1005,7 @@ result input
 
 > **getRow**(`index`): [`Nullable`](../type-aliases/Nullable.md)\<[`Vector4`](Vector4.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7065](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7065)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7113)
 
 Gets specific row of the matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#36
@@ -1028,7 +1030,7 @@ the index-th row of the current matrix as a new Vector4
 
 > **getRowToRef**\<`T`\>(`index`, `rowVector`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7080](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7080)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7128)
 
 Gets specific row of the matrix to ref
 Example Playground - https://playground.babylonjs.com/#AV9X17#36
@@ -1065,7 +1067,7 @@ result input
 
 > **getTranslation**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6609](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6609)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6657](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6657)
 
 Gets the translation value of the current matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#122
@@ -1082,7 +1084,7 @@ a new Vector3 as the extracted translation from the matrix
 
 > **getTranslationToRef**\<`T`\>(`result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6619](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6619)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6667](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6667)
 
 Fill a Vector3 with the extracted translation from the matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#123
@@ -1113,7 +1115,7 @@ the current matrix
 
 > **invert**(): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6379](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6379)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6427](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6427)
 
 Inverts the current matrix in place
 Example Playground - https://playground.babylonjs.com/#AV9X17#118
@@ -1130,7 +1132,7 @@ the current inverted matrix
 
 > **invertToRef**\<`T`\>(`other`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6522](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6522)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6570](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6570)
 
 Sets the given matrix to the current inverted Matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#119
@@ -1161,7 +1163,7 @@ result input
 
 > **isIdentity**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6195)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6228)
 
 Check if the current matrix is identity
 
@@ -1177,7 +1179,7 @@ true is the matrix is the identity matrix
 
 > **isIdentityAs3x2**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6225)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6258](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6258)
 
 Check if the current matrix is identity as a texture matrix (3x2 store in 4x4)
 
@@ -1193,7 +1195,7 @@ true is the matrix is the identity matrix
 
 > **markAsUpdated**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6161](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6161)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6194)
 
 Update the updateFlag to indicate that the matrix has been updated
 
@@ -1207,7 +1209,7 @@ Update the updateFlag to indicate that the matrix has been updated
 
 > **maximizeInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6802](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6802)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6850](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6850)
 
 Updates the current instance with the maximal coordinate values between its and the given instance ones.
 
@@ -1235,7 +1237,7 @@ this current updated instance
 
 > **maximizeInPlaceFromFloats**(...`floats`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6812](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6812)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6860](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6860)
 
 Updates the current instance with the maximal coordinate values between its and the given floats.
 
@@ -1263,7 +1265,7 @@ this current updated instance
 
 > **minimizeInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6783](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6783)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6831](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6831)
 
 Updates the current instance with the minmal coordinate values between its and the given instance ones.
 
@@ -1291,7 +1293,7 @@ this current updated instance
 
 > **minimizeInPlaceFromFloats**(...`floats`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6793](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6793)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6841](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6841)
 
 Updates the current instance with the minmal coordinate values between its and the given floats.
 
@@ -1319,7 +1321,7 @@ this current updated instance
 
 > **multiply**(`other`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6669](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6669)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6717](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6717)
 
 Multiply two matrices
 Example Playground - https://playground.babylonjs.com/#AV9X17#15
@@ -1349,7 +1351,7 @@ a new matrix set with the multiplication result of the current Matrix and the gi
 
 > **multiplyAtIndex**(`index`, `value`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6555](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6555)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6603](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6603)
 
 mutiply the specified position in the current Matrix by a value
 
@@ -1379,7 +1381,7 @@ the current updated matrix
 
 > **multiplyByFloats**(...`floats`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6697](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6697)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6745](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6745)
 
 This method performs a component-by-component multiplication of the current matrix with the array of transmitted numbers.
 Use multiply or multiplyToRef for matrix multiplication.
@@ -1408,7 +1410,7 @@ the current updated matrix
 
 > **multiplyByFloatsToRef**\<`T`\>(...`args`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6711](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6711)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6759](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6759)
 
 Multiples the current matrix by the given floats and stores them in the given ref
 
@@ -1438,7 +1440,7 @@ The updated ref
 
 > **multiplyInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6681](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6681)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6729](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6729)
 
 This method performs component-by-component in-place multiplication, rather than true matrix multiplication.
 Use multiply or multiplyToRef for matrix multiplication.
@@ -1467,7 +1469,7 @@ the current updated matrix
 
 > **multiplyToArray**(`other`, `result`, `offset`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6753](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6753)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6801](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6801)
 
 Sets the Float32Array "result" from the given index "offset" with the multiplication of the current matrix and the given one
 
@@ -1503,7 +1505,7 @@ the current matrix
 
 > **multiplyToRef**\<`T`\>(`other`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6731](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6731)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6779](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6779)
 
 Sets the given matrix "result" with the multiplication result of the current Matrix and the given one
 A.multiplyToRef(B, R) means apply B to A and store in R and R = B x A
@@ -1545,7 +1547,7 @@ result input
 
 > **negate**(): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6821](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6821)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6869](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6869)
 
 Gets a new instance with current instance negated coordinates
 
@@ -1565,7 +1567,7 @@ a new instance
 
 > **negateInPlace**(): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6825](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6825)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6873](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6873)
 
 Negate this instance in place
 
@@ -1585,7 +1587,7 @@ this
 
 > **negateToRef**\<`T`\>(`result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6834](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6834)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6882](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6882)
 
 Negate the current instance and stores the result in the given instance "result" coordinates
 
@@ -1619,7 +1621,7 @@ the result
 
 > **removeRotationAndScaling**(): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6630](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6630)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6678](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6678)
 
 Remove rotation and scaling part from the matrix
 
@@ -1635,7 +1637,7 @@ the updated matrix
 
 > **reset**(): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6387](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6387)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6435](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6435)
 
 Sets all the matrix elements to zero
 
@@ -1651,7 +1653,7 @@ the current matrix
 
 > **scale**(`scale`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7153)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7201)
 
 Compute a new matrix set with the current matrix values multiplied by scale (float)
 
@@ -1679,7 +1681,7 @@ a new matrix
 
 > **scaleAndAddToRef**\<`T`\>(`scale`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7179](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7179)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7227)
 
 Scale the current matrix values by a factor and add the result to a given matrix
 
@@ -1719,7 +1721,7 @@ result input
 
 > **scaleInPlace**(`scale`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7187](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7187)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7235](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7235)
 
 Multiply the instance coordinates by
 
@@ -1747,7 +1749,7 @@ the current updated instance
 
 > **scaleToRef**\<`T`\>(`scale`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7165)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7213](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7213)
 
 Scale the current matrix values by a factor to a given result matrix
 
@@ -1787,9 +1789,9 @@ result input
 
 > **set**(...`values`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6356](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6356)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6399](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6399)
 
-Sets the instance coordinates with the given floats
+Sets the matrix values
 
 #### Parameters
 
@@ -1797,11 +1799,13 @@ Sets the instance coordinates with the given floats
 
 ...\[`number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`, `number`\]
 
+the 16 values to set
+
 #### Returns
 
 `this`
 
-the current updated instance
+the current updated matrix
 
 #### Implementation of
 
@@ -1813,9 +1817,9 @@ the current updated instance
 
 > **setAll**(`value`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6365](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6365)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6413](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6413)
 
-Sets the instance coordinates to the given value
+Sets all the matrix values to the given value
 
 #### Parameters
 
@@ -1823,11 +1827,13 @@ Sets the instance coordinates to the given value
 
 `number`
 
+the value to set
+
 #### Returns
 
 `this`
 
-the current updated instance
+the current updated matrix
 
 #### Implementation of
 
@@ -1839,7 +1845,7 @@ the current updated instance
 
 > **setRow**(`index`, `row`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7098](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7098)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7146)
 
 Sets the index-th row of the current matrix to the vector4 values
 Example Playground - https://playground.babylonjs.com/#AV9X17#36
@@ -1870,7 +1876,7 @@ the updated current matrix
 
 > **setRowFromFloats**(`index`, `x`, `y`, `z`, `w`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7134)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7182)
 
 Sets the index-th row of the current matrix with the given 4 x float values
 Example Playground - https://playground.babylonjs.com/#AV9X17#36
@@ -1919,7 +1925,7 @@ the updated current matrix
 
 > **setTranslation**(`vector3`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6600](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6600)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6648](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6648)
 
 Inserts the translation vector in the current matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#121
@@ -1944,7 +1950,7 @@ the current updated matrix
 
 > **setTranslationFromFloats**(`x`, `y`, `z`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6569](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6569)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6617](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6617)
 
 Inserts the translation vector (using 3 floats) in the current matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#120
@@ -1981,7 +1987,7 @@ the current updated matrix
 
 > **subtract**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6471](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6471)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6519](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6519)
 
 Returns a new instance set with the subtracted coordinates of other's coordinates from the current coordinates.
 
@@ -2009,7 +2015,7 @@ a new instance
 
 > **subtractFromFloats**(...`floats`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6500](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6500)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6548](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6548)
 
 Returns a new instance set with the subtraction of the given floats from the current instance coordinates
 
@@ -2037,7 +2043,7 @@ the resulting instance
 
 > **subtractFromFloatsToRef**\<`T`\>(...`args`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6504](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6504)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6552](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6552)
 
 Subtracts the given floats from the current instance coordinates and set the given instance "result" with this result
 Note: Implementation uses array magic so types may be confusing.
@@ -2072,7 +2078,7 @@ the result
 
 > **subtractInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6490](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6490)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6538](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6538)
 
 Sets the current instance coordinates by subtracting from it the given one coordinates
 
@@ -2100,7 +2106,7 @@ the current updated instance
 
 > **subtractToRef**\<`T`\>(`other`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6480](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6480)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6528](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6528)
 
 Sets the "result" coordinates with the subtraction of the other's coordinates from the current coordinates.
 
@@ -2142,7 +2148,7 @@ result input
 
 > **toArray**(): [`FloatArray`](../type-aliases/FloatArray.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6318](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6318)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6351](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6351)
 
 Returns the matrix as a Float32Array or Array<number>
 
@@ -2162,7 +2168,7 @@ Use asArray
 
 > **toArray**(`array`, `index`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6327](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6327)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6360](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6360)
 
 Stores the matrix in a Float32Array or Array<number>
 Example Playground - https://playground.babylonjs.com/#AV9X17#49
@@ -2197,7 +2203,7 @@ the matrix
 
 > **toggleModelMatrixHandInPlace**(): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7245)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7293](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7293)
 
 Toggles model matrix from being right handed to left handed in place and vice versa
 
@@ -2213,7 +2219,7 @@ the current updated matrix
 
 > **toggleProjectionMatrixHandInPlace**(): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7260](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7260)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7308](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7308)
 
 Toggles projection matrix from being right handed to left handed in place and vice versa
 
@@ -2229,7 +2235,7 @@ the current updated matrix
 
 > **toNormalMatrix**\<`T`\>(`ref`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7202](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7202)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7250](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7250)
 
 Writes to the given matrix a normal matrix, computed from this one (using values from identity matrix for fourth row and column).
 Example Playground - https://playground.babylonjs.com/#AV9X17#17
@@ -2260,7 +2266,7 @@ the reference matrix
 
 > **toString**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6310](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6310)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6343](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6343)
 
 Gets a string with the Matrix values
 
@@ -2276,7 +2282,7 @@ a string with the Matrix values
 
 > **transpose**(): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7107)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7155)
 
 Compute the transpose of the matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#40
@@ -2293,7 +2299,7 @@ the new transposed matrix
 
 > **transposeToRef**\<`T`\>(`result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7119)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7167)
 
 Compute the transpose of the matrix and store it in a given matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#41
@@ -2324,7 +2330,7 @@ result input
 
 > `static` **Compose**(`scale`, `rotation`, `translation`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7465](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7465)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7513](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7513)
 
 Creates a new matrix composed by merging scale (vector3), rotation (quaternion) and translation (vector3)
 Example Playground - https://playground.babylonjs.com/#AV9X17#24
@@ -2361,7 +2367,7 @@ a new matrix
 
 > `static` **ComposeToRef**\<`T`\>(`scale`, `rotation`, `translation`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7480](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7480)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7528](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7528)
 
 Sets a matrix to a value composed by merging scale (vector3), rotation (quaternion) and translation (vector3)
 Example Playground - https://playground.babylonjs.com/#AV9X17#25
@@ -2410,7 +2416,7 @@ result input
 
 > `static` **DecomposeLerp**(`startValue`, `endValue`, `gradient`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7894](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7894)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7942](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7942)
 
 Builds a new matrix whose values are computed by:
 * decomposing the "startValue" and "endValue" matrices into their respective scale, rotation and translation matrices
@@ -2451,7 +2457,7 @@ the new matrix
 
 > `static` **DecomposeLerpToRef**\<`T`\>(`startValue`, `endValue`, `gradient`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7913](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7913)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7961](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7961)
 
 Update a matrix to values which are computed by:
 * decomposing the "startValue" and "endValue" matrices into their respective scale, rotation and translation matrices
@@ -2504,7 +2510,7 @@ result input
 
 > `static` **FromArray**(`array`, `offset?`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7278](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7278)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7326](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7326)
 
 Creates a matrix from an array
 Example Playground - https://playground.babylonjs.com/#AV9X17#42
@@ -2535,7 +2541,7 @@ a new Matrix set from the starting index of the given array
 
 > `static` **FromArrayToRef**\<`T`\>(`array`, `offset`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7292](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7292)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7340](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7340)
 
 Copy the content of an array into a given matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#43
@@ -2578,7 +2584,7 @@ result input
 
 > `static` **FromFloat32ArrayToRefScaled**\<`T`\>(`array`, `offset`, `scale`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7309](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7309)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7357](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7357)
 
 Stores an array into a matrix after having multiplied each component by a given factor
 Example Playground - https://playground.babylonjs.com/#AV9X17#50
@@ -2627,7 +2633,7 @@ result input
 
 > `static` **FromQuaternionToRef**\<`T`\>(`quat`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8800](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8800)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8848](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8848)
 
 Creates a rotation matrix from a quaternion and stores it in a target matrix
 
@@ -2663,7 +2669,7 @@ result input
 
 > `static` **FromValues**(`initialM11`, `initialM12`, `initialM13`, `initialM14`, `initialM21`, `initialM22`, `initialM23`, `initialM24`, `initialM31`, `initialM32`, `initialM33`, `initialM34`, `initialM41`, `initialM42`, `initialM43`, `initialM44`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7417](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7417)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7465](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7465)
 
 Creates new matrix from a list of values (16)
 
@@ -2777,7 +2783,7 @@ the new matrix
 
 > `static` **FromValuesToRef**(`initialM11`, `initialM12`, `initialM13`, `initialM14`, `initialM21`, `initialM22`, `initialM23`, `initialM24`, `initialM31`, `initialM32`, `initialM33`, `initialM34`, `initialM41`, `initialM42`, `initialM43`, `initialM44`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7357](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7357)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7405](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7405)
 
 Stores a list of values (16) inside a given matrix
 
@@ -2895,7 +2901,7 @@ defines the target matrix
 
 > `static` **FromXYZAxesToRef**\<`T`\>(`xaxis`, `yaxis`, `zaxis`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8789](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8789)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8837](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8837)
 
 Sets the given matrix as a rotation matrix composed from the 3 left handed axes
 
@@ -2943,7 +2949,7 @@ result input
 
 > `static` **GetAsMatrix2x2**(`matrix`): `number`[] \| `Float32Array`\<`ArrayBufferLike`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8651](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8651)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8699](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8699)
 
 Extracts a 2x2 matrix from a given matrix and store the result in a Float32Array
 
@@ -2967,7 +2973,7 @@ a new Float32Array array with 4 elements : the 2x2 matrix extracted from the giv
 
 > `static` **GetAsMatrix3x3**(`matrix`): `number`[] \| `Float32Array`\<`ArrayBufferLike`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8661](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8661)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8709](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8709)
 
 Extracts a 3x3 matrix from a given matrix and store the result in a Float32Array
 
@@ -2991,7 +2997,7 @@ a new Float32Array array with 9 elements : the 3x3 matrix extracted from the giv
 
 > `static` **GetFinalMatrix**(`viewport`, `world`, `view`, `projection`, `zmin`, `zmax`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8625](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8625)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8673](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8673)
 
 Computes a complete transformation matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#113
@@ -3046,7 +3052,7 @@ the transformation matrix
 
 > `static` **Identity**(): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7531](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7531)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7579](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7579)
 
 Creates a new identity matrix
 
@@ -3062,7 +3068,7 @@ a new identity matrix
 
 > `static` **IdentityToRef**\<`T`\>(`result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7542](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7542)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7590](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7590)
 
 Creates a new identity matrix and stores the result in a given matrix
 
@@ -3092,7 +3098,7 @@ result input
 
 > `static` **Invert**(`source`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7576](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7576)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7624](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7624)
 
 Creates a new matrix as the invert of a given matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#124
@@ -3117,7 +3123,7 @@ the new matrix
 
 > `static` **Lerp**(`startValue`, `endValue`, `gradient`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7856](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7856)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7904](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7904)
 
 Returns a new Matrix whose values are the interpolated values for "gradient" (float) between the ones of the matrices "startValue" and "endValue".
 Example Playground - https://playground.babylonjs.com/#AV9X17#55
@@ -3154,7 +3160,7 @@ the new matrix
 
 > `static` **LerpToRef**\<`T`\>(`startValue`, `endValue`, `gradient`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7871](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7871)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7919](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7919)
 
 Set the given matrix "result" as the interpolated values for "gradient" (float) between the ones of the matrices "startValue" and "endValue".
 Example Playground - https://playground.babylonjs.com/#AV9X17#54
@@ -3203,7 +3209,7 @@ result input
 
 > `static` **LookAtLH**(`eye`, `target`, `up`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7946](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7946)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7994](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7994)
 
 Creates a new matrix that transforms vertices from world space to camera space. It takes three vectors as arguments that together describe the position and orientation of the camera.
 This function generates a matrix suitable for a left handed coordinate system
@@ -3242,7 +3248,7 @@ the new matrix
 
 > `static` **LookAtLHToRef**(`eye`, `target`, `up`, `result`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7963](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7963)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8011](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8011)
 
 Sets the given "result" Matrix to a matrix that transforms vertices from world space to camera space. It takes three vectors as arguments that together describe the position and orientation of the camera.
 This function generates a matrix suitable for a left handed coordinate system
@@ -3287,7 +3293,7 @@ result input
 
 > `static` **LookAtRH**(`eye`, `target`, `up`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8005](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8005)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8053](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8053)
 
 Creates a new matrix that transforms vertices from world space to camera space. It takes three vectors as arguments that together describe the position and orientation of the camera.
 This function generates a matrix suitable for a right handed coordinate system
@@ -3326,7 +3332,7 @@ the new matrix
 
 > `static` **LookAtRHToRef**\<`T`\>(`eye`, `target`, `up`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8022](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8022)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8070](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8070)
 
 Sets the given "result" Matrix to a matrix that transforms vertices from world space to camera space. It takes three vectors as arguments that together describe the position and orientation of the camera.
 This function generates a matrix suitable for a right handed coordinate system
@@ -3377,7 +3383,7 @@ result input
 
 > `static` **LookDirectionLH**(`forward`, `up`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8062](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8062)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8110)
 
 Creates a new matrix that transforms vertices from world space to camera space. It takes two vectors as arguments that together describe the orientation of the camera. The position is assumed to be at the origin (0,0,0)
 This function generates a matrix suitable for a left handed coordinate system
@@ -3409,7 +3415,7 @@ the new matrix
 
 > `static` **LookDirectionLHToRef**\<`T`\>(`forward`, `up`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8077](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8077)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8125)
 
 Sets the given "result" Matrix to a matrix that transforms vertices from world space to camera space. It takes two vectors as arguments that together describe the orientation of the camera. The position is assumed to be at the origin (0,0,0)
 This function generates a matrix suitable for a left handed coordinate system
@@ -3453,7 +3459,7 @@ result input
 
 > `static` **LookDirectionRH**(`forward`, `up`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8097](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8097)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8145)
 
 Creates a new matrix that transforms vertices from world space to camera space. It takes two vectors as arguments that together describe the orientation of the camera. The position is assumed to be at the origin (0,0,0)
 This function generates a matrix suitable for a right handed coordinate system
@@ -3485,7 +3491,7 @@ the new matrix
 
 > `static` **LookDirectionRHToRef**\<`T`\>(`forward`, `up`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8112)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8160)
 
 Sets the given "result" Matrix to a matrix that transforms vertices from world space to camera space. It takes two vectors as arguments that together describe the orientation of the camera. The position is assumed to be at the origin (0,0,0)
 This function generates a matrix suitable for a right handed coordinate system
@@ -3529,7 +3535,7 @@ result input
 
 > `static` **ObliqueOffCenterLHToRef**\<`T`\>(`left`, `right`, `bottom`, `top`, `znear`, `zfar`, `length`, `angle`, `distance`, `result`, `halfZRange?`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8243](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8243)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8291](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8291)
 
 Stores a left-handed oblique projection into a given matrix
 
@@ -3619,7 +3625,7 @@ result input
 
 > `static` **ObliqueOffCenterRHToRef**\<`T`\>(`left`, `right`, `bottom`, `top`, `znear`, `zfar`, `length`, `angle`, `distance`, `result`, `halfZRange?`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8332](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8332)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8380](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8380)
 
 Stores a right-handed oblique projection into a given matrix
 
@@ -3709,7 +3715,7 @@ result input
 
 > `static` **OrthoLH**(`width`, `height`, `znear`, `zfar`, `halfZRange?`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8131)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8179)
 
 Create a left-handed orthographic projection matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#70
@@ -3758,7 +3764,7 @@ a new matrix as a left-handed orthographic projection matrix
 
 > `static` **OrthoLHToRef**\<`T`\>(`width`, `height`, `znear`, `zfar`, `result`, `halfZRange?`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8148)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8196)
 
 Store a left-handed orthographic projection to a given matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#71
@@ -3819,7 +3825,7 @@ result input
 
 > `static` **OrthoOffCenterLH**(`left`, `right`, `bottom`, `top`, `znear`, `zfar`, `halfZRange?`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8179](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8179)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8227)
 
 Create a left-handed orthographic projection matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#72
@@ -3880,7 +3886,7 @@ a new matrix as a left-handed orthographic projection matrix
 
 > `static` **OrthoOffCenterLHToRef**\<`T`\>(`left`, `right`, `bottom`, `top`, `znear`, `zfar`, `result`, `halfZRange?`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8198](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8198)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8246](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8246)
 
 Stores a left-handed orthographic projection into a given matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#73
@@ -3953,7 +3959,7 @@ result input
 
 > `static` **OrthoOffCenterRH**(`left`, `right`, `bottom`, `top`, `znear`, `zfar`, `halfZRange?`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8283](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8283)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8331](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8331)
 
 Creates a right-handed orthographic projection matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#76
@@ -4014,7 +4020,7 @@ a new matrix as a right-handed orthographic projection matrix
 
 > `static` **OrthoOffCenterRHToRef**\<`T`\>(`left`, `right`, `bottom`, `top`, `znear`, `zfar`, `result`, `halfZRange?`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8302](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8302)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8350)
 
 Stores a right-handed orthographic projection into a given matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#77
@@ -4087,7 +4093,7 @@ result input
 
 > `static` **PerspectiveFovLH**(`fov`, `aspect`, `znear`, `zfar`, `halfZRange?`, `projectionPlaneTilt?`, `reverseDepthBufferMode?`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8405](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8405)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8453](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8453)
 
 Creates a left-handed perspective projection matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#78
@@ -4148,7 +4154,7 @@ a new matrix as a left-handed perspective projection matrix
 
 > `static` **PerspectiveFovLHToRef**\<`T`\>(`fov`, `aspect`, `znear`, `zfar`, `result`, `isVerticalFovFixed?`, `halfZRange?`, `projectionPlaneTilt?`, `reverseDepthBufferMode?`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8433](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8433)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8481](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8481)
 
 Stores a left-handed perspective projection into a given matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#81
@@ -4227,7 +4233,7 @@ result input
 
 > `static` **PerspectiveFovReverseLHToRef**\<`T`\>(`fov`, `aspect`, `znear`, `zfar`, `result`, `isVerticalFovFixed?`, `halfZRange?`, `projectionPlaneTilt?`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8477](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8477)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8525](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8525)
 
 Stores a left-handed perspective projection into a given matrix with depth reversed
 Example Playground - https://playground.babylonjs.com/#AV9X17#89
@@ -4300,7 +4306,7 @@ result input
 
 > `static` **PerspectiveFovReverseRHToRef**\<`T`\>(`fov`, `aspect`, `znear`, `zfar`, `result`, `isVerticalFovFixed?`, `halfZRange?`, `projectionPlaneTilt?`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8589](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8589)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8637](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8637)
 
 Stores a right-handed perspective projection into a given matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#90
@@ -4373,7 +4379,7 @@ result input
 
 > `static` **PerspectiveFovRH**(`fov`, `aspect`, `znear`, `zfar`, `halfZRange?`, `projectionPlaneTilt?`, `reverseDepthBufferMode?`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8512](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8512)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8560](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8560)
 
 Creates a right-handed perspective projection matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#83
@@ -4434,7 +4440,7 @@ a new matrix as a right-handed perspective projection matrix
 
 > `static` **PerspectiveFovRHToRef**\<`T`\>(`fov`, `aspect`, `znear`, `zfar`, `result`, `isVerticalFovFixed?`, `halfZRange?`, `projectionPlaneTilt?`, `reverseDepthBufferMode?`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8540](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8540)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8588](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8588)
 
 Stores a right-handed perspective projection into a given matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#84
@@ -4513,7 +4519,7 @@ result input
 
 > `static` **PerspectiveLH**(`width`, `height`, `znear`, `zfar`, `halfZRange?`, `projectionPlaneTilt?`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8371](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8371)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8419](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8419)
 
 Creates a left-handed perspective projection matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#85
@@ -4568,7 +4574,7 @@ a new matrix as a left-handed perspective projection matrix
 
 > `static` **Reflection**(`plane`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8738](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8738)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8786](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8786)
 
 Computes a reflection matrix from a plane
 Example Playground - https://playground.babylonjs.com/#AV9X17#87
@@ -4593,7 +4599,7 @@ a new matrix
 
 > `static` **ReflectionToRef**\<`T`\>(`plane`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8751](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8751)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8799](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8799)
 
 Computes a reflection matrix from a plane
 Example Playground - https://playground.babylonjs.com/#AV9X17#88
@@ -4630,7 +4636,7 @@ result input
 
 > `static` **RotationAlignToRef**\<`T`\>(`from`, `to`, `result`, `useYAxisForCoplanar?`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7716](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7716)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7764](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7764)
 
 Takes normalised vectors and returns a rotation matrix to align "from" with "to".
 Taken from http://www.iquilezles.org/www/articles/noacos/noacos.htm
@@ -4680,7 +4686,7 @@ result input
 
 > `static` **RotationAxis**(`axis`, `angle`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7661](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7661)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7709](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7709)
 
 Creates a new rotation matrix for "angle" radians around the given axis
 Example Playground - https://playground.babylonjs.com/#AV9X17#96
@@ -4711,7 +4717,7 @@ the new matrix
 
 > `static` **RotationAxisToRef**\<`T`\>(`axis`, `angle`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7675](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7675)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7723](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7723)
 
 Creates a new rotation matrix for "angle" radians around the given axis and stores it in a given matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#94
@@ -4754,7 +4760,7 @@ result input
 
 > `static` **RotationX**(`angle`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7564](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7564)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7612](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7612)
 
 Creates a new rotation matrix for "angle" radians around the X axis
 Example Playground - https://playground.babylonjs.com/#AV9X17#97
@@ -4779,7 +4785,7 @@ the new matrix
 
 > `static` **RotationXToRef**\<`T`\>(`angle`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7589](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7589)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7637](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7637)
 
 Creates a new rotation matrix for "angle" radians around the X axis and stores it in a given matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#98
@@ -4816,7 +4822,7 @@ result input
 
 > `static` **RotationY**(`angle`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7604](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7604)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7652](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7652)
 
 Creates a new rotation matrix for "angle" radians around the Y axis
 Example Playground - https://playground.babylonjs.com/#AV9X17#99
@@ -4841,7 +4847,7 @@ the new matrix
 
 > `static` **RotationYawPitchRoll**(`yaw`, `pitch`, `roll`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7768](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7768)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7816](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7816)
 
 Creates a rotation matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#103
@@ -4879,7 +4885,7 @@ the new rotation matrix
 
 > `static` **RotationYawPitchRollToRef**\<`T`\>(`yaw`, `pitch`, `roll`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7783](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7783)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7831](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7831)
 
 Creates a rotation matrix and stores it in a given matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#104
@@ -4928,7 +4934,7 @@ result input
 
 > `static` **RotationYToRef**\<`T`\>(`angle`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7617](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7617)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7665](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7665)
 
 Creates a new rotation matrix for "angle" radians around the Y axis and stores it in a given matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#100
@@ -4965,7 +4971,7 @@ result input
 
 > `static` **RotationZ**(`angle`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7632](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7632)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7680](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7680)
 
 Creates a new rotation matrix for "angle" radians around the Z axis
 Example Playground - https://playground.babylonjs.com/#AV9X17#101
@@ -4990,7 +4996,7 @@ the new matrix
 
 > `static` **RotationZToRef**\<`T`\>(`angle`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7645](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7645)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7693](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7693)
 
 Creates a new rotation matrix for "angle" radians around the Z axis and stores it in a given matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#102
@@ -5027,7 +5033,7 @@ result input
 
 > `static` **Scaling**(`x`, `y`, `z`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7797](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7797)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7845](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7845)
 
 Creates a scaling matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#107
@@ -5064,7 +5070,7 @@ the new matrix
 
 > `static` **ScalingToRef**\<`T`\>(`x`, `y`, `z`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7812](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7812)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7860](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7860)
 
 Creates a scaling matrix and stores it in a given matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#108
@@ -5113,7 +5119,7 @@ result input
 
 > `static` **Translation**(`x`, `y`, `z`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7827](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7827)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7875](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7875)
 
 Creates a translation matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#109
@@ -5150,7 +5156,7 @@ the new matrix
 
 > `static` **TranslationToRef**\<`T`\>(`x`, `y`, `z`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7842](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7842)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7890](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7890)
 
 Creates a translation matrix and stores it in a given matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#110
@@ -5199,7 +5205,7 @@ result input
 
 > `static` **Transpose**(`matrix`): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8673](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8673)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8721](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8721)
 
 Compute the transpose of a given matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#111
@@ -5224,7 +5230,7 @@ the new matrix
 
 > `static` **TransposeToRef**\<`T`\>(`matrix`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:8686](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L8686)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:8734](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L8734)
 
 Compute the transpose of a matrix and store it in a target matrix
 Example Playground - https://playground.babylonjs.com/#AV9X17#112
@@ -5261,7 +5267,7 @@ result input
 
 > `static` **Zero**(): `Matrix`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:7552](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L7552)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:7600](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L7600)
 
 Creates a new zero matrix
 

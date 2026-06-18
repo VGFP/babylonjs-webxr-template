@@ -6,7 +6,7 @@
 
 # Enumeration: GreasedLineMeshColorDistributionType
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L159)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L159)
 
 Color distribution type of the
 
@@ -21,7 +21,7 @@ colors.
 
 > **COLOR\_DISTRIBUTION\_TYPE\_LINE**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:167](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L167)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L167)
 
 Colors distributed along the line ingoring the segments
 
@@ -31,6 +31,6 @@ Colors distributed along the line ingoring the segments
 
 > **COLOR\_DISTRIBUTION\_TYPE\_SEGMENT**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L163)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L163)
 
 Colors distributed between segments of the line

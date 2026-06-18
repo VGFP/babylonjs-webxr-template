@@ -6,7 +6,7 @@
 
 # Class: SceneOptimizer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:613](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L613)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:614](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L614)
 
 Class used to run optimizations in order to reach a target frame rate
 
@@ -24,7 +24,7 @@ More details at https://doc.babylonjs.com/features/featuresDeepDive/scene/sceneO
 
 > **new SceneOptimizer**(`scene`, `options?`, `autoGeneratePriorities?`, `improvementMode?`): `SceneOptimizer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:704](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L704)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:705](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L705)
 
 Creates a new SceneOptimizer
 
@@ -64,7 +64,7 @@ defines if the scene optimizer must run the maximum optimization while staying o
 
 > **onFailureObservable**: [`Observable`](Observable.md)\<`SceneOptimizer`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:635](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L635)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:636](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L636)
 
 Defines an observable called when the optimizer is not able to reach the target frame rate
 
@@ -74,7 +74,7 @@ Defines an observable called when the optimizer is not able to reach the target 
 
 > **onNewOptimizationAppliedObservable**: [`Observable`](Observable.md)\<[`SceneOptimization`](SceneOptimization.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:631](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L631)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:632](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L632)
 
 Defines an observable called when the optimizer enables an optimization
 
@@ -84,7 +84,7 @@ Defines an observable called when the optimizer enables an optimization
 
 > **onSuccessObservable**: [`Observable`](Observable.md)\<`SceneOptimizer`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:627](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L627)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:628](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L628)
 
 Defines an observable called when the optimizer reaches the target frame rate
 
@@ -96,7 +96,7 @@ Defines an observable called when the optimizer reaches the target frame rate
 
 > **get** **currentFrameRate**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:658](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L658)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:659](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L659)
 
 Gets the current frame rate checked by the SceneOptimizer
 
@@ -112,7 +112,7 @@ Gets the current frame rate checked by the SceneOptimizer
 
 > **get** **currentPriorityLevel**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:651](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L651)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:652](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L652)
 
 Gets the current priority level (0 at start)
 
@@ -128,7 +128,7 @@ Gets the current priority level (0 at start)
 
 > **get** **isInImprovementMode**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:640](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L640)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:641](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L641)
 
 Gets or sets a boolean indicating if the optimizer is in improvement mode
 
@@ -140,7 +140,7 @@ Gets or sets a boolean indicating if the optimizer is in improvement mode
 
 > **set** **isInImprovementMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:644](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L644)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:645](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L645)
 
 ##### Parameters
 
@@ -160,7 +160,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:644](
 
 > **get** **optimizations**(): [`SceneOptimization`](SceneOptimization.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:693](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L693)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:694](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L694)
 
 Gets the list of active optimizations
 
@@ -176,7 +176,7 @@ Gets the list of active optimizations
 
 > **get** **targetFrameRate**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:665](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L665)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:666](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L666)
 
 Gets or sets the current target frame rate (60 by default)
 
@@ -188,7 +188,7 @@ Gets or sets the current target frame rate (60 by default)
 
 > **set** **targetFrameRate**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:672](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L672)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:673](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L673)
 
 Gets or sets the current target frame rate (60 by default)
 
@@ -210,7 +210,7 @@ Gets or sets the current target frame rate (60 by default)
 
 > **get** **trackerDuration**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:679](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L679)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:680](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L680)
 
 Gets or sets the current interval between two checks (every 2000ms by default)
 
@@ -222,7 +222,7 @@ Gets or sets the current interval between two checks (every 2000ms by default)
 
 > **set** **trackerDuration**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:686](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L686)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:687](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L687)
 
 Gets or sets the current interval between two checks (every 2000ms by default)
 
@@ -242,7 +242,7 @@ Gets or sets the current interval between two checks (every 2000ms by default)
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:820](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L820)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:821](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L821)
 
 Release all resources
 
@@ -260,7 +260,7 @@ Release all resources
 
 > **reset**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:744](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L744)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:745](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L745)
 
 Reset the optimizer to initial step (current priority level = 0)
 
@@ -274,7 +274,7 @@ Reset the optimizer to initial step (current priority level = 0)
 
 > **start**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:752](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L752)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:753](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L753)
 
 Start the optimizer. By default it will try to reach a specific framerate
 but if the optimizer is set with improvementMode === true then it will run all optimization while frame rate is above the target frame rate
@@ -289,7 +289,7 @@ but if the optimizer is set with improvementMode === true then it will run all o
 
 > **stop**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:737](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L737)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:738](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L738)
 
 Stops the current optimizer
 
@@ -303,7 +303,7 @@ Stops the current optimizer
 
 > `static` **OptimizeAsync**(`scene`, `options?`, `onSuccess?`, `onFailure?`): `SceneOptimizer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:840](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L840)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:841](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L841)
 
 Helper function to create a SceneOptimizer with one single line of code
 

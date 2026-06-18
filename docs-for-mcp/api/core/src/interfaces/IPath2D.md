@@ -6,7 +6,7 @@
 
 # Interface: IPath2D
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L92)
 
 Class used to abstract a 2D path to use with the canvas and its context
 
@@ -16,7 +16,7 @@ Class used to abstract a 2D path to use with the canvas and its context
 
 > **addPath**(`path`, `transform?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L98)
 
 Adds a path to the current path.
 
@@ -44,7 +44,7 @@ A DOMMatrix to be used as the transformation matrix for the path that is added.
 
 > **arc**(`x`, `y`, `radius`, `startAngle`, `endAngle`, `counterclockwise?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:149](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L149)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L149)
 
 Adds a circular arc to the current path.
 
@@ -96,7 +96,7 @@ An optional Boolean. If true, draws the arc counter-clockwise between the start 
 
 > **arcTo**(`x1`, `y1`, `x2`, `y2`, `radius`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L159)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L159)
 
 Adds a circular arc to the current sub-path, using the given control points and radius.
 
@@ -142,7 +142,7 @@ The arc's radius. Must be non-negative.
 
 > **bezierCurveTo**(`cp1x`, `cp1y`, `cp2x`, `cp2y`, `x`, `y`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L129)
 
 Adds a cubic Bézier curve to the current path.
 
@@ -194,7 +194,7 @@ The y-axis coordinate of the end point.
 
 > **closePath**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L104)
 
 Causes the point of the pen to move back to the start of the current sub-path. It tries to draw a straight line from the current point to the start.
 If the shape has already been closed or has only one point, this function does nothing.
@@ -209,7 +209,7 @@ If the shape has already been closed or has only one point, this function does n
 
 > **ellipse**(`x`, `y`, `radiusX`, `radiusY`, `rotation`, `startAngle`, `endAngle`, `counterclockwise?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L172)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L172)
 
 Creates an elliptical arc centered at (x, y) with the radii radiusX and radiusY. The path starts at startAngle and ends at endAngle, and travels in the direction given by counterclockwise.
 
@@ -273,7 +273,7 @@ An optional boolean value which, if true, draws the ellipse counterclockwise (an
 
 > **lineTo**(`x`, `y`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L118)
 
 Connects the last point in the current sub-path to the specified (x, y) coordinates with a straight line.
 
@@ -301,7 +301,7 @@ The y-axis coordinate of the line's end point.
 
 > **moveTo**(`x`, `y`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L111)
 
 Moves the starting point of a new sub-path to the (x, y) coordinates.
 
@@ -329,7 +329,7 @@ The y-axis (vertical) coordinate of the point.
 
 > **quadraticCurveTo**(`cpx`, `cpy`, `x`, `y`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L138)
 
 Adds a quadratic Bézier curve to the current path.
 
@@ -369,7 +369,7 @@ The y-axis coordinate of the end point.
 
 > **rect**(`x`, `y`, `width`, `height`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:181](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L181)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:181](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L181)
 
 Creates a path for a rectangle at position (x, y) with a size that is determined by width and height.
 
@@ -409,7 +409,7 @@ The rectangle's height. Positive values are down, and negative are up.
 
 > **roundRect**(`x`, `y`, `width`, `height`, `radii`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/ICanvas.ts#L191)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:191](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L191)
 
 Adds a rounded rectangle to the current path.
 

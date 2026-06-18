@@ -6,7 +6,7 @@
 
 # Class: BloomEffect
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/bloomEffect.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/bloomEffect.ts#L15)
 
 The bloom effect spreads bright areas of an image to simulate artifacts seen in cameras
 
@@ -20,7 +20,7 @@ The bloom effect spreads bright areas of an image to simulate artifacts seen in 
 
 > **new BloomEffect**(`sceneOrEngine`, `bloomScale`, `bloomWeight`, `bloomKernel`, `pipelineTextureType?`, `blockCompilation?`): `BloomEffect`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/bloomEffect.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/bloomEffect.ts#L74)
 
 Creates a new instance of
 
@@ -82,7 +82,7 @@ BloomEffect
 
 > **get** **bloomScale**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/bloomEffect.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/bloomEffect.ts#L59)
 
 ##### Returns
 
@@ -96,7 +96,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts
 
 > **get** **isSupported**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts#L49)
 
 Checks if all the post processes in the effect are supported.
 
@@ -116,7 +116,7 @@ Checks if all the post processes in the effect are supported.
 
 > **get** **kernel**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/bloomEffect.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/bloomEffect.ts#L52)
 
 Specifies the size of the bloom blur kernel, relative to the final output size
 
@@ -128,7 +128,7 @@ Specifies the size of the bloom blur kernel, relative to the final output size
 
 > **set** **kernel**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/bloomEffect.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/bloomEffect.ts#L55)
 
 ##### Parameters
 
@@ -148,7 +148,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts
 
 > **get** **threshold**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/bloomEffect.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/bloomEffect.ts#L32)
 
 The luminance threshold to find bright areas of the image to bloom.
 
@@ -160,7 +160,7 @@ The luminance threshold to find bright areas of the image to bloom.
 
 > **set** **threshold**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/bloomEffect.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/bloomEffect.ts#L35)
 
 ##### Parameters
 
@@ -180,7 +180,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts
 
 > **get** **weight**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/bloomEffect.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/bloomEffect.ts#L42)
 
 The strength of the bloom.
 
@@ -192,7 +192,7 @@ The strength of the bloom.
 
 > **set** **weight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/bloomEffect.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/bloomEffect.ts#L45)
 
 ##### Parameters
 
@@ -210,7 +210,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts
 
 > **disposeEffects**(`camera?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/bloomEffect.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/bloomEffect.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/bloomEffect.ts#L138)
 
 Disposes each of the internal effects for a given camera.
 
@@ -232,7 +232,7 @@ The camera to dispose the effect on.
 
 > **getPostProcesses**(`camera?`): [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts:254](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts#L254)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts#L254)
 
 Gets a list of the post processes contained in the effect.
 

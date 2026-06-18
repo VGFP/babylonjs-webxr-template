@@ -6,7 +6,7 @@
 
 # Interface: IWebXRWalkingLocomotionOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts:334](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts#L334)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts:336](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts#L336)
 
 Options for the walking locomotion feature.
 
@@ -16,7 +16,7 @@ Options for the walking locomotion feature.
 
 > **locomotionTarget**: [`TransformNode`](../classes/TransformNode.md) \| [`WebXRCamera`](../classes/WebXRCamera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts:341](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.ts#L341)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts:343](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRWalkingLocomotion.pure.ts#L343)
 
 The target to be moved by walking locomotion. This should be the transform node
 which is the root of the XR space (i.e., the WebXRCamera's parent node). However,

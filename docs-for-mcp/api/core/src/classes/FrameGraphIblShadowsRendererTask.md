@@ -6,7 +6,7 @@
 
 # Class: FrameGraphIblShadowsRendererTask
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L26)
 
 Composite task that owns the individual IBL shadows frame graph tasks.
 The frame graph remains flat internally, but this task groups the pipeline
@@ -22,7 +22,7 @@ and owns the child task implementation details.
 
 > **new FrameGraphIblShadowsRendererTask**(`name`, `frameGraph`): `FrameGraphIblShadowsRendererTask`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:547](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L547)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:548](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L548)
 
 Creates a new IBL shadows composite task.
 
@@ -54,7 +54,7 @@ The owning frame graph.
 
 > `optional` **dependencies?**: `Set`\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
 
 The (texture) dependencies of the task (optional).
 
@@ -68,7 +68,7 @@ The (texture) dependencies of the task (optional).
 
 > **depthTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L134)
 
 Depth texture handle used by tracing and blur.
 This should be the screen-space depth of all objects in the scene
@@ -81,7 +81,7 @@ It is important that this texture stores 32-bit depth values to avoid artifacts.
 
 > **normalTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L142)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L143)
 
 World-space normal texture handle used by tracing and blur.
 This should store the world-space normals of all objects in the scene
@@ -95,7 +95,7 @@ loss in quality.
 
 > **onAfterTaskExecute**: [`Observable`](Observable.md)\<[`FrameGraphTask`](FrameGraphTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
 
 An observable that is triggered after the task is executed.
 
@@ -109,7 +109,7 @@ An observable that is triggered after the task is executed.
 
 > **onBeforeTaskExecute**: [`Observable`](Observable.md)\<[`FrameGraphTask`](FrameGraphTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
 
 An observable that is triggered before the task is executed.
 
@@ -123,7 +123,7 @@ An observable that is triggered before the task is executed.
 
 > **onTexturesAllocatedObservable**: [`Observable`](Observable.md)\<[`FrameGraphRenderContext`](FrameGraphRenderContext.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
 
 An observable that is triggered after the textures have been allocated.
 
@@ -137,7 +137,7 @@ An observable that is triggered after the textures have been allocated.
 
 > `readonly` **outputTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L28)
 
 Final frame-graph texture handle produced by the task.
 
@@ -147,7 +147,7 @@ Final frame-graph texture handle produced by the task.
 
 > **positionTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L151)
 
 Position texture handle used by accumulation.
 This should store the world-space position of all objects in the scene
@@ -160,7 +160,7 @@ Should be stored as 16-bit floating point.
 
 > **velocityTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:158](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L158)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L159)
 
 Velocity texture handle used by accumulation.
 This should store the linear velocity per pixel of all objects in the scene
@@ -175,7 +175,7 @@ Should be stored as 16-bit floating point.
 
 > **get** **camera**(): [`Camera`](Camera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L102)
 
 Camera used by the tracing stage.
 
@@ -187,7 +187,7 @@ Camera used by the tracing stage.
 
 > **set** **camera**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L107)
 
 Camera used by the tracing stage.
 
@@ -209,7 +209,7 @@ Camera used by the tracing stage.
 
 > **get** **coloredShadows**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:174](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L174)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L175)
 
 Whether traced shadows preserve environment color.
 
@@ -221,7 +221,7 @@ Whether traced shadows preserve environment color.
 
 > **set** **coloredShadows**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:179](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L179)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L180)
 
 Whether traced shadows preserve environment color.
 
@@ -243,7 +243,7 @@ Whether traced shadows preserve environment color.
 
 > **get** **disabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L87)
 
 Whether the task is disabled.
 
@@ -255,7 +255,7 @@ Whether the task is disabled.
 
 > **set** **disabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L91)
 
 Whether the task is disabled.
 
@@ -281,7 +281,7 @@ Whether the task is disabled.
 
 > **get** **envRotation**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:277](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L277)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:278](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L278)
 
 Environment rotation in radians.
 
@@ -293,7 +293,7 @@ Environment rotation in radians.
 
 > **set** **envRotation**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:282](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L282)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L283)
 
 Environment rotation in radians.
 
@@ -315,7 +315,7 @@ Environment rotation in radians.
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L63)
 
 The name of the task.
 
@@ -327,7 +327,7 @@ The name of the task.
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L67)
 
 The name of the task.
 
@@ -353,7 +353,7 @@ The name of the task.
 
 > **get** **objectList**(): [`FrameGraphObjectList`](FrameGraphObjectList.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L112)
 
 Object list used by voxelization.
 
@@ -365,7 +365,7 @@ Object list used by voxelization.
 
 > **set** **objectList**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L117)
 
 Object list used by voxelization.
 
@@ -387,7 +387,7 @@ Object list used by voxelization.
 
 > **get** **onOutputTextureReadyObservable**(): [`Observable`](Observable.md)\<[`InternalTexture`](InternalTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:354](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L354)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:355](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L355)
 
 Notifies when the accumulated output texture becomes ready.
 
@@ -403,7 +403,7 @@ Notifies when the accumulated output texture becomes ready.
 
 > **get** **outputTextureReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:349](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L349)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L350)
 
 True when the accumulated output texture is ready.
 
@@ -419,7 +419,7 @@ True when the accumulated output texture is ready.
 
 > **get** **passes**(): [`IFrameGraphPass`](../interfaces/IFrameGraphPass.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
 
 Gets the passes of the task.
 
@@ -439,7 +439,7 @@ Gets the passes of the task.
 
 > **get** **passesDisabled**(): [`IFrameGraphPass`](../interfaces/IFrameGraphPass.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
 
 Gets the disabled passes of the task.
 
@@ -459,7 +459,7 @@ Gets the disabled passes of the task.
 
 > **get** **refreshRate**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:324](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L324)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:325](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L325)
 
 Voxelization refresh rate.
 
@@ -471,7 +471,7 @@ Voxelization refresh rate.
 
 > **set** **refreshRate**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:329](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L329)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:330](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L330)
 
 Voxelization refresh rate.
 
@@ -493,7 +493,7 @@ Voxelization refresh rate.
 
 > **get** **resolutionExp**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:313](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L313)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:314](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L314)
 
 Voxelization resolution exponent.
 
@@ -505,7 +505,7 @@ Voxelization resolution exponent.
 
 > **set** **resolutionExp**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:318](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L318)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:319](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L319)
 
 Voxelization resolution exponent.
 
@@ -527,7 +527,7 @@ Voxelization resolution exponent.
 
 > **get** **sampleDirections**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L163)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:164](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L164)
 
 Number of tracing sample directions.
 
@@ -539,7 +539,7 @@ Number of tracing sample directions.
 
 > **set** **sampleDirections**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:168](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L168)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L169)
 
 Number of tracing sample directions.
 
@@ -561,7 +561,7 @@ Number of tracing sample directions.
 
 > **get** **shadowOpacity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:300](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L300)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:301](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L301)
 
 Final material shadow opacity.
 
@@ -573,7 +573,7 @@ Final material shadow opacity.
 
 > **set** **shadowOpacity**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:305](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L305)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:306](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L306)
 
 Final material shadow opacity.
 
@@ -595,7 +595,7 @@ Final material shadow opacity.
 
 > **get** **shadowRemanence**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:290](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L290)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:291](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L291)
 
 Temporal shadow remanence while moving.
 
@@ -607,7 +607,7 @@ Temporal shadow remanence while moving.
 
 > **set** **shadowRemanence**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:295](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L295)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L296)
 
 Temporal shadow remanence while moving.
 
@@ -629,7 +629,7 @@ Temporal shadow remanence while moving.
 
 > **get** **ssShadowDistanceScale**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:233](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L233)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:234](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L234)
 
 Distance scale used by screen-space shadow tracing.
 
@@ -641,7 +641,7 @@ Distance scale used by screen-space shadow tracing.
 
 > **set** **ssShadowDistanceScale**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:238](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L238)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L239)
 
 Distance scale used by screen-space shadow tracing.
 
@@ -663,7 +663,7 @@ Distance scale used by screen-space shadow tracing.
 
 > **get** **ssShadowOpacity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L201)
 
 Opacity of screen-space shadows.
 
@@ -675,7 +675,7 @@ Opacity of screen-space shadows.
 
 > **set** **ssShadowOpacity**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:206](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L206)
 
 Opacity of screen-space shadows.
 
@@ -697,7 +697,7 @@ Opacity of screen-space shadows.
 
 > **get** **ssShadowSampleCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:211](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L211)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:212](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L212)
 
 Number of screen-space shadow samples.
 
@@ -709,7 +709,7 @@ Number of screen-space shadow samples.
 
 > **set** **ssShadowSampleCount**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L217)
 
 Number of screen-space shadow samples.
 
@@ -731,7 +731,7 @@ Number of screen-space shadow samples.
 
 > **get** **ssShadowStride**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L222)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L223)
 
 Stride used by screen-space shadow sampling.
 
@@ -743,7 +743,7 @@ Stride used by screen-space shadow sampling.
 
 > **set** **ssShadowStride**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:227](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L227)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L228)
 
 Stride used by screen-space shadow sampling.
 
@@ -765,7 +765,7 @@ Stride used by screen-space shadow sampling.
 
 > **get** **ssShadowThicknessScale**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:244](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L244)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L245)
 
 Thickness scale used by screen-space shadow tracing.
 
@@ -777,7 +777,7 @@ Thickness scale used by screen-space shadow tracing.
 
 > **set** **ssShadowThicknessScale**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:249](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L249)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:250](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L250)
 
 Thickness scale used by screen-space shadow tracing.
 
@@ -799,7 +799,7 @@ Thickness scale used by screen-space shadow tracing.
 
 > **get** **triPlanarVoxelization**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:334](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L334)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:335](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L335)
 
 Whether tri-planar voxelization is used.
 
@@ -811,7 +811,7 @@ Whether tri-planar voxelization is used.
 
 > **set** **triPlanarVoxelization**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:339](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L339)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:340](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L340)
 
 Whether tri-planar voxelization is used.
 
@@ -833,7 +833,7 @@ Whether tri-planar voxelization is used.
 
 > **get** **voxelDirectionBias**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:266](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L266)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:267](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L267)
 
 Voxel tracing direction bias.
 
@@ -845,7 +845,7 @@ Voxel tracing direction bias.
 
 > **set** **voxelDirectionBias**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L271)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:272](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L272)
 
 Voxel tracing direction bias.
 
@@ -867,7 +867,7 @@ Voxel tracing direction bias.
 
 > **get** **voxelGridSize**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:344](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L344)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L345)
 
 Current world-space voxel grid size.
 
@@ -883,7 +883,7 @@ Current world-space voxel grid size.
 
 > **get** **voxelNormalBias**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L255)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:256](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L256)
 
 Voxel tracing normal bias.
 
@@ -895,7 +895,7 @@ Voxel tracing normal bias.
 
 > **set** **voxelNormalBias**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:260](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L260)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L261)
 
 Voxel tracing normal bias.
 
@@ -917,7 +917,7 @@ Voxel tracing normal bias.
 
 > **get** **voxelShadowOpacity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:189](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L189)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L190)
 
 Opacity of voxel-traced shadows.
 
@@ -929,7 +929,7 @@ Opacity of voxel-traced shadows.
 
 > **set** **voxelShadowOpacity**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:194](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L194)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L195)
 
 Opacity of voxel-traced shadows.
 
@@ -949,7 +949,7 @@ Opacity of voxel-traced shadows.
 
 > **addShadowCastingMesh**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:430](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L430)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:431](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L431)
 
 Adds one or more meshes to the voxelization object list.
 
@@ -971,7 +971,7 @@ The mesh or meshes to add.
 
 > **addShadowReceivingMaterial**(`material?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:379](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L379)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:380](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L380)
 
 Adds one or more materials that should receive IBL shadows.
 
@@ -993,7 +993,7 @@ The material or materials to register. If omitted, all scene materials are added
 
 > **clearShadowCastingMeshes**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:456](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L456)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:457](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L457)
 
 Clears all shadow-casting meshes from the voxelization object list.
 
@@ -1007,7 +1007,7 @@ Clears all shadow-casting meshes from the voxelization object list.
 
 > **clearShadowReceivingMaterials**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:415](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L415)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:416](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L416)
 
 Clears all registered shadow-receiving materials.
 
@@ -1021,7 +1021,7 @@ Clears all registered shadow-receiving materials.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:530](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L530)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:531](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L531)
 
 Disposes the task and owned resources.
 
@@ -1039,7 +1039,7 @@ Disposes the task and owned resources.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L59)
 
 Gets the class name.
 
@@ -1059,7 +1059,7 @@ The class name.
 
 > **initAsync**(): `Promise`\<`unknown`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:466](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L466)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:467](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L467)
 
 This function is called once after the task has been added to the frame graph and before the frame graph is built for the first time.
 This allows you to initialize asynchronous resources, which is not possible in the constructor.
@@ -1080,7 +1080,7 @@ A promise that resolves when the initialization is complete.
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:490](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L490)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:491](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L491)
 
 Checks if the task is ready to be executed.
 
@@ -1100,7 +1100,7 @@ True if the task is ready to be executed, else false.
 
 > **record**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:498](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L498)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:499](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L499)
 
 Records the parent task.
 Child tasks record the actual passes.
@@ -1119,7 +1119,7 @@ Child tasks record the actual passes.
 
 > **removeShadowCastingMesh**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:444](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L444)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:445](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L445)
 
 Removes one or more meshes from the voxelization object list.
 
@@ -1141,7 +1141,7 @@ The mesh or meshes to remove.
 
 > **removeShadowReceivingMaterial**(`material`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:399](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L399)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:400](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L400)
 
 Removes one or more materials from IBL shadow reception.
 
@@ -1163,7 +1163,7 @@ The material or materials to unregister.
 
 > **resetAccumulation**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:371](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L371)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:372](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L372)
 
 Resets temporal accumulation.
 
@@ -1177,7 +1177,7 @@ Resets temporal accumulation.
 
 > **updateSceneBounds**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:366](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L366)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:367](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L367)
 
 Recomputes the voxelization scene bounds from the current object list.
 
@@ -1191,7 +1191,7 @@ Recomputes the voxelization scene bounds from the current object list.
 
 > **updateVoxelization**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts:361](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.ts#L361)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts:362](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/iblShadowsRendererTask.pure.ts#L362)
 
 Triggers a voxelization refresh on the next eligible frame.
 

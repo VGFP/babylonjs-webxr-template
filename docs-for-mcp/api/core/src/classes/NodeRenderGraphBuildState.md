@@ -6,7 +6,7 @@
 
 # Class: NodeRenderGraphBuildState
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBuildState.ts:7](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBuildState.ts#L7)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBuildState.ts:7](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBuildState.ts#L7)
 
 Class used to store node based render graph build state
 
@@ -26,7 +26,7 @@ Class used to store node based render graph build state
 
 > **buildId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBuildState.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBuildState.ts#L9)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBuildState.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBuildState.ts#L9)
 
 Gets or sets the build identifier
 
@@ -36,7 +36,7 @@ Gets or sets the build identifier
 
 > **verbose**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBuildState.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBuildState.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBuildState.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBuildState.ts#L12)
 
 Gets or sets a boolean indicating that verbose mode is on
 
@@ -46,7 +46,7 @@ Gets or sets a boolean indicating that verbose mode is on
 
 > **emitErrors**(`errorObservable?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBuildState.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBuildState.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBuildState.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBuildState.ts#L25)
 
 Emits console errors and exceptions if there is a failing check
 

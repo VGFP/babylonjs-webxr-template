@@ -6,7 +6,7 @@
 
 # Class: FrameGraphGeometryRendererTask
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L42)
 
 Task used to render geometry to a set of textures.
 
@@ -20,7 +20,7 @@ Task used to render geometry to a set of textures.
 
 > **new FrameGraphGeometryRendererTask**(`name`, `frameGraph`, `scene`, `options?`, `existingObjectRenderer?`): `FrameGraphGeometryRendererTask`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:187](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L187)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L187)
 
 Constructs a new geometry renderer task.
 
@@ -70,7 +70,7 @@ An existing object renderer to use (optional). If provided, the options paramete
 
 > `optional` **dependencies?**: `Set`\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
 
 The (texture) dependencies of the task (optional).
 
@@ -84,7 +84,7 @@ The (texture) dependencies of the task (optional).
 
 > **depthTest**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L69)
 
 If depth testing should be enabled (default is true).
 
@@ -98,7 +98,7 @@ If depth testing should be enabled (default is true).
 
 > `optional` **depthTexture?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L40)
 
 The depth attachment texture where the objects will be rendered (optional).
 
@@ -112,7 +112,7 @@ The depth attachment texture where the objects will be rendered (optional).
 
 > **depthWrite**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L74)
 
 If depth writing should be enabled (default is true).
 
@@ -126,7 +126,7 @@ If depth writing should be enabled (default is true).
 
 > **disableShadows**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L79)
 
 If shadows should be disabled (default is false).
 
@@ -140,7 +140,7 @@ If shadows should be disabled (default is false).
 
 > **dontRenderWhenMaterialDepthWriteIsDisabled**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L79)
 
 Indicates if a mesh shouldn't be rendered when its material has depth write disabled (default is true).
 
@@ -150,7 +150,7 @@ Indicates if a mesh shouldn't be rendered when its material has depth write disa
 
 > `readonly` **geometryAlbedoTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:145](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L145)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L145)
 
 The albedo output texture. Will point to a valid texture only if that texture has been requested in textureDescriptions!
 
@@ -160,7 +160,7 @@ The albedo output texture. Will point to a valid texture only if that texture ha
 
 > `readonly` **geometryIrradianceTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L104)
 
 The irradiance output texture. Will point to a valid texture only if that texture has been requested in textureDescriptions!
 
@@ -170,7 +170,7 @@ The irradiance output texture. Will point to a valid texture only if that textur
 
 > `readonly` **geometryLinearVelocityTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L160)
 
 The linear velocity output texture. Will point to a valid texture only if that texture has been requested in textureDescriptions!
 
@@ -180,7 +180,7 @@ The linear velocity output texture. Will point to a valid texture only if that t
 
 > `readonly` **geometryLocalPositionTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L135)
 
 The position (in local space) output texture. Will point to a valid texture only if that texture has been requested in textureDescriptions!
 
@@ -190,7 +190,7 @@ The position (in local space) output texture. Will point to a valid texture only
 
 > `readonly` **geometryNormViewDepthTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L115)
 
 The normalized depth (in view space) output texture. Will point to a valid texture only if that texture has been requested in textureDescriptions!
 The normalization is (d - near) / (far - near), where d is the depth value in view space and near and far are the near and far planes of the camera.
@@ -201,7 +201,7 @@ The normalization is (d - near) / (far - near), where d is the depth value in vi
 
 > `readonly` **geometryReflectivityTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L150)
 
 The reflectivity output texture. Will point to a valid texture only if that texture has been requested in textureDescriptions!
 
@@ -211,7 +211,7 @@ The reflectivity output texture. Will point to a valid texture only if that text
 
 > `readonly` **geometryScreenDepthTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L120)
 
 The depth (in screen space) output texture. Will point to a valid texture only if that texture has been requested in textureDescriptions!
 
@@ -221,7 +221,7 @@ The depth (in screen space) output texture. Will point to a valid texture only i
 
 > `readonly` **geometryVelocityTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L155)
 
 The velocity output texture. Will point to a valid texture only if that texture has been requested in textureDescriptions!
 
@@ -231,7 +231,7 @@ The velocity output texture. Will point to a valid texture only if that texture 
 
 > `readonly` **geometryViewDepthTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L109)
 
 The depth (in view space) output texture. Will point to a valid texture only if that texture has been requested in textureDescriptions!
 
@@ -241,7 +241,7 @@ The depth (in view space) output texture. Will point to a valid texture only if 
 
 > `readonly` **geometryViewNormalTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L125)
 
 The normal (in view space) output texture. Will point to a valid texture only if that texture has been requested in textureDescriptions!
 
@@ -251,7 +251,7 @@ The normal (in view space) output texture. Will point to a valid texture only if
 
 > `readonly` **geometryWorldNormalTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L130)
 
 The normal (in world space) output texture. Will point to a valid texture only if that texture has been requested in textureDescriptions!
 
@@ -261,7 +261,7 @@ The normal (in world space) output texture. Will point to a valid texture only i
 
 > `readonly` **geometryWorldPositionTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L140)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L140)
 
 The position (in world space) output texture. Will point to a valid texture only if that texture has been requested in textureDescriptions!
 
@@ -271,7 +271,7 @@ The position (in world space) output texture. Will point to a valid texture only
 
 > **isMainObjectRenderer**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L105)
 
 Sets this property to true if this task is the main object renderer of the frame graph.
 It will help to locate the main object renderer in the frame graph when multiple object renderers are used.
@@ -288,7 +288,7 @@ It is also used to determine the main camera used by the frame graph: this is th
 
 > **objectList**: [`FrameGraphObjectList`](FrameGraphObjectList.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L64)
 
 The list of objects to render.
 
@@ -302,7 +302,7 @@ The list of objects to render.
 
 > **onAfterTaskExecute**: [`Observable`](Observable.md)\<[`FrameGraphTask`](FrameGraphTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
 
 An observable that is triggered after the task is executed.
 
@@ -316,7 +316,7 @@ An observable that is triggered after the task is executed.
 
 > **onBeforeTaskExecute**: [`Observable`](Observable.md)\<[`FrameGraphTask`](FrameGraphTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
 
 An observable that is triggered before the task is executed.
 
@@ -330,7 +330,7 @@ An observable that is triggered before the task is executed.
 
 > **onTexturesAllocatedObservable**: [`Observable`](Observable.md)\<[`FrameGraphRenderContext`](FrameGraphRenderContext.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
 
 An observable that is triggered after the textures have been allocated.
 
@@ -344,7 +344,7 @@ An observable that is triggered after the textures have been allocated.
 
 > `readonly` **outputDepthTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:331](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L331)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:331](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L331)
 
 The output depth attachment texture.
 This texture will point to the same texture than the depthTexture property if it is set.
@@ -360,7 +360,7 @@ Note, however, that the handle itself will be different!
 
 > `readonly` **outputTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:324](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L324)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:324](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L324)
 
 The output texture.
 This texture will point to the same texture than the targetTexture property.
@@ -376,7 +376,7 @@ Note, however, that the handle itself will be different!
 
 > **resolveMSAAColors**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:312](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L312)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:312](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L312)
 
 If true, targetTexture will be resolved at the end of the render pass, if this/these texture(s) is/are MSAA (default: true)
 
@@ -390,7 +390,7 @@ If true, targetTexture will be resolved at the end of the render pass, if this/t
 
 > **resolveMSAADepth**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:317](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L317)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:317](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L317)
 
 If true, depthTexture will be resolved at the end of the render pass, if this texture is provided and is MSAA (default: false).
 
@@ -404,7 +404,7 @@ If true, depthTexture will be resolved at the end of the render pass, if this te
 
 > **samples**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L56)
 
 The number of samples to use for the output textures (default is 1).
 
@@ -414,7 +414,7 @@ The number of samples to use for the output textures (default is 1).
 
 > `optional` **shadowGenerators?**: [`FrameGraphShadowGeneratorTask`](FrameGraphShadowGeneratorTask.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L45)
 
 The shadow generators used to render the objects (optional).
 
@@ -428,7 +428,7 @@ The shadow generators used to render the objects (optional).
 
 > **size**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L46)
 
 The size of the output textures (default is 100% of the back buffer texture size).
 
@@ -446,7 +446,7 @@ The size of the output textures (default is 100% of the back buffer texture size
 
 > **sizeIsPercentage**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L51)
 
 Whether the size is a percentage of the back buffer size (default is true).
 
@@ -456,7 +456,7 @@ Whether the size is a percentage of the back buffer size (default is true).
 
 > **targetTexture**: `number` \| `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L35)
 
 The target texture(s) where the objects will be rendered.
 
@@ -470,7 +470,7 @@ The target texture(s) where the objects will be rendered.
 
 > **textureDescriptions**: [`IFrameGraphGeometryRendererTextureDescription`](../interfaces/IFrameGraphGeometryRendererTextureDescription.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L99)
 
 The list of texture descriptions used by the geometry renderer task.
 
@@ -482,7 +482,7 @@ The list of texture descriptions used by the geometry renderer task.
 
 > **get** **camera**(): [`Camera`](Camera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L52)
 
 Gets or sets the camera used to render the objects.
 
@@ -494,7 +494,7 @@ Gets or sets the camera used to render the objects.
 
 > **set** **camera**(`camera`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L56)
 
 ##### Parameters
 
@@ -518,7 +518,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/o
 
 > **get** **disabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L43)
 
 Whether the task is disabled.
 
@@ -530,7 +530,7 @@ Whether the task is disabled.
 
 > **set** **disabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L47)
 
 ##### Parameters
 
@@ -554,7 +554,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts
 
 > **get** **disableDepthPrePass**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L87)
 
 Indicates whether the depth pre-pass is disabled (default is true).
 Materials that require depth pre-pass (Material.needDepthPrePass == true) don't work with the geometry renderer, that's why this setting is true by default.
@@ -568,7 +568,7 @@ However, if the geometry renderer doesn't generate any geometry textures but onl
 
 > **set** **disableDepthPrePass**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L91)
 
 ##### Parameters
 
@@ -588,7 +588,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/g
 
 > **get** **disableImageProcessing**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L86)
 
 If image processing should be disabled (default is false).
 false means that the default image processing configuration will be applied (the one from the scene)
@@ -601,7 +601,7 @@ false means that the default image processing configuration will be applied (the
 
 > **set** **disableImageProcessing**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L90)
 
 ##### Parameters
 
@@ -625,7 +625,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/o
 
 > **get** **enableBoundingBoxRendering**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:279](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L279)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:279](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L279)
 
 Enables the rendering of bounding boxes for meshes (still subject to Mesh.showBoundingBox or scene.forceShowBoundingBoxes). Default is true.
 
@@ -637,7 +637,7 @@ Enables the rendering of bounding boxes for meshes (still subject to Mesh.showBo
 
 > **set** **enableBoundingBoxRendering**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:283](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L283)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L283)
 
 ##### Parameters
 
@@ -661,7 +661,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/o
 
 > **get** **enableOutlineRendering**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:296](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L296)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:296](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L296)
 
 Enables the rendering of outlines/overlays for meshes (still subject to Mesh.renderOutline/Mesh.renderOverlay). Default is true.
 
@@ -673,7 +673,7 @@ Enables the rendering of outlines/overlays for meshes (still subject to Mesh.ren
 
 > **set** **enableOutlineRendering**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:300](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L300)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:300](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L300)
 
 ##### Parameters
 
@@ -697,7 +697,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/o
 
 > **get** **excludedSkinnedMeshFromVelocityTexture**(): [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:230](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L230)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:230](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L230)
 
 Gets the list of excluded meshes from the velocity texture.
 
@@ -713,7 +713,7 @@ Gets the list of excluded meshes from the velocity texture.
 
 > **get** **forceLayerMaskCheck**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:262](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L262)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:262](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L262)
 
 Forces checking the layerMask property even if a custom list of meshes is provided (ie. if renderList is not undefined). Default is true.
 
@@ -725,7 +725,7 @@ Forces checking the layerMask property even if a custom list of meshes is provid
 
 > **set** **forceLayerMaskCheck**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:266](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L266)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:266](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L266)
 
 ##### Parameters
 
@@ -749,7 +749,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/o
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L165)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L165)
 
 Gets or sets the name of the task.
 
@@ -761,7 +761,7 @@ Gets or sets the name of the task.
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:169](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L169)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L169)
 
 The name of the task.
 
@@ -787,7 +787,7 @@ The name of the task.
 
 > **get** **objectRenderer**(): [`ObjectRenderer`](ObjectRenderer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:336](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L336)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:336](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L336)
 
 The object renderer used to render the objects.
 
@@ -807,7 +807,7 @@ The object renderer used to render the objects.
 
 > **get** **oitPassCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:213](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L213)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:213](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L213)
 
 Defines the number of passes to use for Order Independent Transparency (default is 5).
 
@@ -819,7 +819,7 @@ Defines the number of passes to use for Order Independent Transparency (default 
 
 > **set** **oitPassCount**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:217](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L217)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L217)
 
 ##### Parameters
 
@@ -843,7 +843,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/o
 
 > **get** **passes**(): [`IFrameGraphPass`](../interfaces/IFrameGraphPass.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
 
 Gets the passes of the task.
 
@@ -863,7 +863,7 @@ Gets the passes of the task.
 
 > **get** **passesDisabled**(): [`IFrameGraphPass`](../interfaces/IFrameGraphPass.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
 
 Gets the disabled passes of the task.
 
@@ -883,7 +883,7 @@ Gets the disabled passes of the task.
 
 > **get** **renderAlphaTestMeshes**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L160)
 
 Defines if alpha test meshes should be rendered (default is true). Always subject to the renderMeshes property, though.
 
@@ -895,7 +895,7 @@ Defines if alpha test meshes should be rendered (default is true). Always subjec
 
 > **set** **renderAlphaTestMeshes**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:164](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L164)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:164](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L164)
 
 ##### Parameters
 
@@ -919,7 +919,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/o
 
 > **get** **renderDepthOnlyMeshes**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L128)
 
 Defines if depth only meshes should be rendered (default is true). Always subject to the renderMeshes property, though.
 
@@ -931,7 +931,7 @@ Defines if depth only meshes should be rendered (default is true). Always subjec
 
 > **set** **renderDepthOnlyMeshes**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L132)
 
 ##### Parameters
 
@@ -955,7 +955,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/o
 
 > **get** **renderMeshes**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L111)
 
 Defines if meshes should be rendered (default is true).
 
@@ -967,7 +967,7 @@ Defines if meshes should be rendered (default is true).
 
 > **set** **renderMeshes**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L115)
 
 ##### Parameters
 
@@ -991,7 +991,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/o
 
 > **get** **renderOpaqueMeshes**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L144)
 
 Defines if opaque meshes should be rendered (default is true). Always subject to the renderMeshes property, though.
 
@@ -1003,7 +1003,7 @@ Defines if opaque meshes should be rendered (default is true). Always subject to
 
 > **set** **renderOpaqueMeshes**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L148)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L148)
 
 ##### Parameters
 
@@ -1027,7 +1027,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/o
 
 > **get** **renderParticles**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:228](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L228)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L228)
 
 Defines if particles should be rendered (default is true).
 
@@ -1039,7 +1039,7 @@ Defines if particles should be rendered (default is true).
 
 > **set** **renderParticles**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:232](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L232)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L232)
 
 ##### Parameters
 
@@ -1063,7 +1063,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/o
 
 > **get** **renderSprites**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L245)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L245)
 
 Defines if sprites should be rendered (default is true).
 
@@ -1075,7 +1075,7 @@ Defines if sprites should be rendered (default is true).
 
 > **set** **renderSprites**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:249](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L249)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:249](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L249)
 
 ##### Parameters
 
@@ -1099,7 +1099,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/o
 
 > **get** **renderTransparentMeshes**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L176)
 
 Defines if transparent meshes should be rendered (default is true). Always subject to the renderMeshes property, though.
 
@@ -1111,7 +1111,7 @@ Defines if transparent meshes should be rendered (default is true). Always subje
 
 > **set** **renderTransparentMeshes**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L180)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L180)
 
 ##### Parameters
 
@@ -1135,7 +1135,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/o
 
 > **get** **reverseCulling**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L63)
 
 Whether to reverse culling (default is false).
 
@@ -1147,7 +1147,7 @@ Whether to reverse culling (default is false).
 
 > **set** **reverseCulling**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L67)
 
 ##### Parameters
 
@@ -1167,7 +1167,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/g
 
 > **get** **useOITForTransparentMeshes**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:194](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L194)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L194)
 
 Defines if Order Independent Transparency should be used for transparent meshes (default is false).
 
@@ -1179,7 +1179,7 @@ Defines if Order Independent Transparency should be used for transparent meshes 
 
 > **set** **useOITForTransparentMeshes**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:199](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L199)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:199](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L199)
 
 ##### Parameters
 
@@ -1201,7 +1201,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/o
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:331](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L331)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:337](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L337)
 
 Disposes of the task.
 
@@ -1219,7 +1219,7 @@ Disposes of the task.
 
 > **excludeSkinnedMeshFromVelocityTexture**(`skinnedMesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L239)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L239)
 
 Excludes the given skinned mesh from computing bones velocities.
 Computing bones velocities can have a cost. The cost can be saved by calling this function and by passing the skinned mesh to ignore.
@@ -1242,7 +1242,7 @@ The mesh containing the skeleton to ignore when computing the velocity map.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L261)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L261)
 
 Gets the current class name
 
@@ -1262,7 +1262,7 @@ the class name
 
 > **initAsync**(): `Promise`\<`unknown`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L90)
 
 This function is called once after the task has been added to the frame graph and before the frame graph is built for the first time.
 This allows you to initialize asynchronous resources, which is not possible in the constructor.
@@ -1283,7 +1283,7 @@ A promise that resolves when the initialization is complete.
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:400](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L400)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts:400](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/objectRendererTask.ts#L400)
 
 Checks if the task is ready to be executed.
 
@@ -1303,9 +1303,9 @@ True if the task is ready to be executed, else false.
 
 > **record**(`skipCreationOfDisabledPasses?`, `additionalExecute?`): [`FrameGraphRenderPass`](FrameGraphRenderPass.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:265](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L265)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:271](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L271)
 
-Records the task in the frame graph. Use this function to add content (render passes, ...) to the task.
+Records the geometry renderer task into the frame graph.
 
 #### Parameters
 
@@ -1313,15 +1313,19 @@ Records the task in the frame graph. Use this function to add content (render pa
 
 `boolean` = `false`
 
-If true, the disabled passe(s) won't be created.
+defines whether disabled passes should be skipped
 
 ##### additionalExecute?
 
 (`context`) => `void`
 
+defines an optional callback executed by the pass
+
 #### Returns
 
 [`FrameGraphRenderPass`](FrameGraphRenderPass.md)
+
+the recorded render pass
 
 #### Overrides
 
@@ -1333,7 +1337,7 @@ If true, the disabled passe(s) won't be created.
 
 > **removeExcludedSkinnedMeshFromVelocityTexture**(`skinnedMesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:253](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L253)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts:253](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Rendering/geometryRendererTask.ts#L253)
 
 Removes the given skinned mesh from the excluded meshes to integrate bones velocities while rendering the velocity map.
 
@@ -1359,7 +1363,7 @@ excludeSkinnedMesh to exclude a skinned mesh from bones velocity computation.
 
 > **setOutputLayerAndFaceIndices**(`indices`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTaskMultiRenderTarget.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTaskMultiRenderTarget.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTaskMultiRenderTarget.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTaskMultiRenderTarget.ts#L15)
 
 Sets the output layer and face indices for multi-target rendering.
 

@@ -6,7 +6,7 @@
 
 # Class: HemisphericLight
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/hemisphericLight.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/hemisphericLight.pure.ts#L18)
 
 The HemisphericLight simulates the ambient environment light,
 so the passed direction is the light reflection direction, not the incoming direction.
@@ -21,7 +21,7 @@ so the passed direction is the light reflection direction, not the incoming dire
 
 > **new HemisphericLight**(`name`, `direction`, `scene?`, `dontAddToScene?`): `HemisphericLight`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/hemisphericLight.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/hemisphericLight.pure.ts#L42)
 
 Creates a HemisphericLight object in the scene according to the passed direction (Vector3).
 The HemisphericLight simulates the ambient environment light, so the passed direction is the light reflection direction, not the incoming direction.
@@ -68,7 +68,7 @@ True to not add the light to the scene
 
 > **animations**: [`Animation`](Animation.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:173](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L173)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L173)
 
 Gets a list of Animations associated with the node
 
@@ -82,7 +82,7 @@ Gets a list of Animations associated with the node
 
 > **diffuse**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L116)
 
 Diffuse gives the basic color to an object.
 
@@ -96,7 +96,7 @@ Diffuse gives the basic color to an object.
 
 > **direction**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/hemisphericLight.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/hemisphericLight.pure.ts#L30)
 
 The light reflection direction, not the incoming direction.
 
@@ -106,7 +106,7 @@ The light reflection direction, not the incoming direction.
 
 > **falloffType**: `number` = `Light.FALLOFF_DEFAULT`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L134)
 
 Defines the falloff type for this light. This lets overriding how punctual light are
 falling off base on range or angle.
@@ -125,7 +125,7 @@ other types of materials.
 
 > **groundColor**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/hemisphericLight.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/hemisphericLight.pure.ts#L24)
 
 The groundColor is the light in the opposite direction to the one specified during creation.
 You can think of the diffuse and specular light as coming from the centre of the object in the given direction and the groundColor light in the opposite direction.
@@ -136,7 +136,7 @@ You can think of the diffuse and specular light as coming from the centre of the
 
 > **id**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L95)
 
 Gets or sets the id of the node
 
@@ -150,7 +150,7 @@ Gets or sets the id of the node
 
 > **inspectableCustomProperties**: [`IInspectable`](../interfaces/IInspectable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L127)
 
 List of inspectable custom properties (used by the Inspector)
 
@@ -168,7 +168,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > **intensity**: `number` = `1.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L142)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L142)
 
 Strength of the light.
 Note: By default it is define in the framework own unit.
@@ -184,7 +184,7 @@ Note: In PBR materials the intensityMode can be use to chose what unit the inten
 
 > **metadata**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L113)
 
 Gets or sets an object used to store user defined information for the node
 
@@ -198,7 +198,7 @@ Gets or sets an object used to store user defined information for the node
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L89)
 
 Gets or sets the name of the node
 
@@ -212,7 +212,7 @@ Gets or sets the name of the node
 
 > **onAccessibilityTagChangedObservable**: [`Observable`](Observable.md)\<[`Nullable`](../type-aliases/Nullable.md)\<`IAccessibilityTag`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L146)
 
 Observable fired when an accessibility tag is changed
 
@@ -226,7 +226,7 @@ Observable fired when an accessibility tag is changed
 
 > **onDisposeObservable**: [`Observable`](Observable.md)\<[`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:350](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L350)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L350)
 
 An event triggered when the mesh is disposed
 
@@ -240,7 +240,7 @@ An event triggered when the mesh is disposed
 
 > **onReady**: [`Nullable`](../type-aliases/Nullable.md)\<(`node`) => `void`\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:179](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L179)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L179)
 
 Callback raised when the node is ready to be used
 
@@ -254,7 +254,7 @@ Callback raised when the node is ready to be used
 
 > **renderPriority**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:212](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L212)
 
 Defines the rendering priority of the lights. It can help in case of fallback or number of lights
 exceeding the number allowed of the materials.
@@ -269,7 +269,7 @@ exceeding the number allowed of the materials.
 
 > **reservedDataStore**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L121)
 
 For internal use only. Please do not use.
 
@@ -283,7 +283,7 @@ For internal use only. Please do not use.
 
 > **specular**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L123)
 
 Specular produces a highlight color on an object.
 Note: This is not affecting PBR materials.
@@ -298,7 +298,7 @@ Note: This is not affecting PBR materials.
 
 > **state**: `string` = `""`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L107)
 
 Gets or sets a string used to store user defined state for the node
 
@@ -312,7 +312,7 @@ Gets or sets a string used to store user defined state for the node
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L101)
 
 Gets or sets the unique id of the node
 
@@ -326,7 +326,7 @@ Gets or sets the unique id of the node
 
 > `readonly` `static` **FALLOFF\_DEFAULT**: `0` = `LightConstants.FALLOFF_DEFAULT`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L25)
 
 Falloff Default: light is falling off following the material specification:
 standard material is using standard falloff whereas pbr material can request special falloff per materials.
@@ -341,7 +341,7 @@ standard material is using standard falloff whereas pbr material can request spe
 
 > `readonly` `static` **FALLOFF\_GLTF**: `2` = `LightConstants.FALLOFF_GLTF`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L36)
 
 Falloff gltf: light is falling off as described in the gltf moving to PBR document
 to enhance interoperability with other engines.
@@ -356,7 +356,7 @@ to enhance interoperability with other engines.
 
 > `readonly` `static` **FALLOFF\_PHYSICAL**: `1` = `LightConstants.FALLOFF_PHYSICAL`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L30)
 
 Falloff Physical: light is falling off following the inverse squared distance law.
 
@@ -370,7 +370,7 @@ Falloff Physical: light is falling off following the inverse squared distance la
 
 > `readonly` `static` **FALLOFF\_STANDARD**: `3` = `LightConstants.FALLOFF_STANDARD`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L42)
 
 Falloff Standard: light is falling off like in the standard material
 to enhance interoperability with other materials.
@@ -385,7 +385,7 @@ to enhance interoperability with other materials.
 
 > `readonly` `static` **INTENSITYMODE\_AUTOMATIC**: `0` = `LightConstants.INTENSITYMODE_AUTOMATIC`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L71)
 
 Each light type uses the default quantity according to its type:
      point/spot lights use luminous intensity
@@ -401,7 +401,7 @@ Each light type uses the default quantity according to its type:
 
 > `readonly` `static` **INTENSITYMODE\_ILLUMINANCE**: `3` = `LightConstants.INTENSITYMODE_ILLUMINANCE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L83)
 
 lux (lm/m^2)
 
@@ -415,7 +415,7 @@ lux (lm/m^2)
 
 > `readonly` `static` **INTENSITYMODE\_LUMINANCE**: `4` = `LightConstants.INTENSITYMODE_LUMINANCE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L87)
 
 nit (cd/m^2)
 
@@ -429,7 +429,7 @@ nit (cd/m^2)
 
 > `readonly` `static` **INTENSITYMODE\_LUMINOUSINTENSITY**: `2` = `LightConstants.INTENSITYMODE_LUMINOUSINTENSITY`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L79)
 
 candela (lm/sr)
 
@@ -443,7 +443,7 @@ candela (lm/sr)
 
 > `readonly` `static` **INTENSITYMODE\_LUMINOUSPOWER**: `1` = `LightConstants.INTENSITYMODE_LUMINOUSPOWER`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L75)
 
 lumen (lm)
 
@@ -457,7 +457,7 @@ lumen (lm)
 
 > `readonly` `static` **LIGHTMAP\_DEFAULT**: `0` = `LightConstants.LIGHTMAP_DEFAULT`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L51)
 
 If every light affecting the material is in this lightmapMode,
 material.lightmapTexture adds or multiplies
@@ -474,7 +474,7 @@ after every other light calculations.
 
 > `readonly` `static` **LIGHTMAP\_SHADOWSONLY**: `2` = `LightConstants.LIGHTMAP_SHADOWSONLY`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L63)
 
 material.lightmapTexture as only lighting
 no light calculation from this light
@@ -490,7 +490,7 @@ only adds dynamic shadows from this light
 
 > `readonly` `static` **LIGHTMAP\_SPECULAR**: `1` = `LightConstants.LIGHTMAP_SPECULAR`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L57)
 
 material.lightmapTexture as only diffuse lighting from this light
 adds only specular lighting from this light
@@ -506,7 +506,7 @@ adds dynamic shadows
 
 > `readonly` `static` **LIGHTTYPEID\_DIRECTIONALLIGHT**: `1` = `LightConstants.LIGHTTYPEID_DIRECTIONALLIGHT`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L97)
 
 Light type const id of the directional light.
 
@@ -520,7 +520,7 @@ Light type const id of the directional light.
 
 > `readonly` `static` **LIGHTTYPEID\_HEMISPHERICLIGHT**: `3` = `LightConstants.LIGHTTYPEID_HEMISPHERICLIGHT`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L105)
 
 Light type const id of the hemispheric light.
 
@@ -534,7 +534,7 @@ Light type const id of the hemispheric light.
 
 > `readonly` `static` **LIGHTTYPEID\_POINTLIGHT**: `0` = `LightConstants.LIGHTTYPEID_POINTLIGHT`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L93)
 
 Light type const id of the point light.
 
@@ -548,7 +548,7 @@ Light type const id of the point light.
 
 > `readonly` `static` **LIGHTTYPEID\_RECT\_AREALIGHT**: `4` = `LightConstants.LIGHTTYPEID_RECT_AREALIGHT`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:110](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L110)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L110)
 
 Light type const id of the area light.
 
@@ -562,7 +562,7 @@ Light type const id of the area light.
 
 > `readonly` `static` **LIGHTTYPEID\_SPOTLIGHT**: `2` = `LightConstants.LIGHTTYPEID_SPOTLIGHT`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L101)
 
 Light type const id of the spot light.
 
@@ -578,7 +578,7 @@ Light type const id of the spot light.
 
 > **get** **accessibilityTag**(): [`Nullable`](../type-aliases/Nullable.md)\<`IAccessibilityTag`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L137)
 
 ##### Returns
 
@@ -588,7 +588,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/node.ts:137](https://github.
 
 > **set** **accessibilityTag**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L132)
 
 Gets or sets the accessibility tag to describe the node for accessibility purpose.
 
@@ -614,7 +614,7 @@ Gets or sets the accessibility tag to describe the node for accessibility purpos
 
 > **get** **animationPropertiesOverride**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationPropertiesOverride`](AnimationPropertiesOverride.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:325](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L325)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:325](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L325)
 
 Gets or sets the animation properties override
 
@@ -626,7 +626,7 @@ Gets or sets the animation properties override
 
 > **set** **animationPropertiesOverride**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:332](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L332)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:332](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L332)
 
 ##### Parameters
 
@@ -650,7 +650,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/node.ts:332](https://github.
 
 > **get** **behaviors**(): [`Behavior`](../interfaces/Behavior.md)\<[`Node`](Node.md)\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:468](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L468)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:472](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L472)
 
 Gets the list of attached behaviors
 
@@ -674,7 +674,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **get** **doNotSerialize**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L151)
 
 Gets or sets a boolean used to define if the node must be serialized
 
@@ -686,7 +686,7 @@ Gets or sets a boolean used to define if the node must be serialized
 
 > **set** **doNotSerialize**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L163)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L163)
 
 ##### Parameters
 
@@ -710,7 +710,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/node.ts:163](https://github.
 
 > **get** **excludedMeshes**(): [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L255)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:255](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L255)
 
 Gets the meshes not impacted by this light.
 
@@ -722,7 +722,7 @@ Gets the meshes not impacted by this light.
 
 > **set** **excludedMeshes**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L261)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L261)
 
 Sets the meshes not impacted by this light.
 
@@ -748,7 +748,7 @@ Sets the meshes not impacted by this light.
 
 > **get** **excludeWithLayerMask**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:272](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L272)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:272](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L272)
 
 Gets the layer id use to find what meshes are not impacted by the light.
 Inactive if 0
@@ -761,7 +761,7 @@ Inactive if 0
 
 > **set** **excludeWithLayerMask**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:279](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L279)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:279](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L279)
 
 Sets the layer id use to find what meshes are not impacted by the light.
 Inactive if 0
@@ -788,7 +788,7 @@ Inactive if 0
 
 > **get** **includedOnlyMeshes**(): [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:240](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L240)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:240](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L240)
 
 Gets the only meshes impacted by this light.
 
@@ -800,7 +800,7 @@ Gets the only meshes impacted by this light.
 
 > **set** **includedOnlyMeshes**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:246](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L246)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:246](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L246)
 
 Sets the only meshes impacted by this light.
 
@@ -826,7 +826,7 @@ Sets the only meshes impacted by this light.
 
 > **get** **includeOnlyWithLayerMask**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:290](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L290)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:290](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L290)
 
 Gets the layer id use to find what meshes are impacted by the light.
 Inactive if 0
@@ -839,7 +839,7 @@ Inactive if 0
 
 > **set** **includeOnlyWithLayerMask**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:297](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L297)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:297](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L297)
 
 Sets the layer id use to find what meshes are impacted by the light.
 Inactive if 0
@@ -866,7 +866,7 @@ Inactive if 0
 
 > **get** **inheritVisibility**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:269](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L269)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:269](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L269)
 
 If set to true, this node, when renderable, will only be visible if its parent(s) are also visible.
 
@@ -884,7 +884,7 @@ false
 
 > **set** **inheritVisibility**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:273](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L273)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:273](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L273)
 
 ##### Parameters
 
@@ -908,7 +908,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/node.ts:273](https://github.
 
 > **get** **intensityMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L177)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L177)
 
 Gets the photometric scale used to interpret the intensity.
 This is only relevant with PBR Materials where the light intensity can be defined in a physical way.
@@ -921,7 +921,7 @@ This is only relevant with PBR Materials where the light intensity can be define
 
 > **set** **intensityMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:184](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L184)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:184](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L184)
 
 Sets the photometric scale used to interpret the intensity.
 This is only relevant with PBR Materials where the light intensity can be defined in a physical way.
@@ -948,7 +948,7 @@ This is only relevant with PBR Materials where the light intensity can be define
 
 > **get** **isVisible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:281](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L281)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:281](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L281)
 
 Gets or sets a boolean indicating whether this node is visible, either this node itself when it is renderable or its renderable child nodes when `inheritVisibility` is true.
 
@@ -966,7 +966,7 @@ true
 
 > **set** **isVisible**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:289](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L289)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:289](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L289)
 
 ##### Parameters
 
@@ -990,7 +990,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/node.ts:289](https://github.
 
 > **get** **lightmapMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:307](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L307)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:307](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L307)
 
 Gets the lightmap mode of this light (should be one of the constants defined by Light.LIGHTMAP_x)
 
@@ -1002,7 +1002,7 @@ Gets the lightmap mode of this light (should be one of the constants defined by 
 
 > **set** **lightmapMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:313](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L313)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:313](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L313)
 
 Sets the lightmap mode of this light (should be one of the constants defined by Light.LIGHTMAP_x)
 
@@ -1028,7 +1028,7 @@ Sets the lightmap mode of this light (should be one of the constants defined by 
 
 > **get** **onClonedObservable**(): [`Observable`](Observable.md)\<[`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:373](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L373)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:373](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L373)
 
 An event triggered when the node is cloned
 
@@ -1048,7 +1048,7 @@ An event triggered when the node is cloned
 
 > **set** **onDispose**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:356](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L356)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:356](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L356)
 
 Sets a callback that will be raised when the node will be disposed
 
@@ -1074,7 +1074,7 @@ Sets a callback that will be raised when the node will be disposed
 
 > **get** **onEnabledStateChangedObservable**(): [`Observable`](Observable.md)\<`boolean`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:366](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L366)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:366](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L366)
 
 An event triggered when the enabled state of the node changes
 
@@ -1094,7 +1094,7 @@ An event triggered when the enabled state of the node changes
 
 > **get** **parent**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L261)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L261)
 
 ##### Returns
 
@@ -1104,7 +1104,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/node.ts:261](https://github.
 
 > **set** **parent**(`parent`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L222)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L222)
 
 Gets or sets the parent of the node (without keeping the current position in the scene)
 
@@ -1134,7 +1134,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/transforms/parent_pivot
 
 > **get** **radius**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:194](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L194)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L194)
 
 Gets the light radius used by PBR Materials to simulate soft area lights.
 
@@ -1146,7 +1146,7 @@ Gets the light radius used by PBR Materials to simulate soft area lights.
 
 > **set** **radius**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L200)
 
 sets the light radius used by PBR Materials to simulate soft area lights.
 
@@ -1172,7 +1172,7 @@ sets the light radius used by PBR Materials to simulate soft area lights.
 
 > **get** **range**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L153)
 
 Defines how far from the source the light is impacting in scene units.
 Note: Unused in PBR material as the distance light falloff is defined following the inverse squared falloff.
@@ -1185,7 +1185,7 @@ Note: Unused in PBR material as the distance light falloff is defined following 
 
 > **set** **range**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L160)
 
 Defines how far from the source the light is impacting in scene units.
 Note: Unused in PBR material as the distance light falloff is defined following the inverse squared falloff.
@@ -1212,7 +1212,7 @@ Note: Unused in PBR material as the distance light falloff is defined following 
 
 > **get** **shadowEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:220](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L220)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:220](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L220)
 
 Gets whether or not the shadows are enabled for this light. This can help turning off/on shadow without detaching
 the current shadow generator.
@@ -1225,7 +1225,7 @@ the current shadow generator.
 
 > **set** **shadowEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:227](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L227)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L227)
 
 Sets whether or not the shadows are enabled for this light. This can help turning off/on shadow without detaching
 the current shadow generator.
@@ -1255,7 +1255,7 @@ the current shadow generator.
 
 > **get** **worldMatrixFromCache**(): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:512](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L512)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:516](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L516)
 
 Returns directly the latest state of the mesh World matrix.
 A Matrix is returned.
@@ -1274,7 +1274,7 @@ A Matrix is returned.
 
 > **\_bindLight**(`lightIndex`, `scene`, `effect`, `useSpecular`, `receiveShadows?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:434](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L434)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:434](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L434)
 
 Binds the lights information from the scene to the effect for the given mesh.
 
@@ -1324,7 +1324,7 @@ Defines if the effect (mesh) we bind the light for receives shadows
 
 > **addBehavior**(`behavior`, `attachImmediately?`): [`Node`](Node.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:421](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L421)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:421](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L421)
 
 Attach a behavior to the node
 
@@ -1362,7 +1362,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **areLightTexturesReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:973](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L973)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:973](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L973)
 
 Returns true when all texture resources used by this light are ready (e.g. projection textures).
 Override in subclasses that use texture resources.
@@ -1383,7 +1383,7 @@ true if all light textures are ready
 
 > **beginAnimation**(`name`, `loop?`, `speedRatio?`, `onAnimationEnd?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animatable`](Animatable.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:898](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L898)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:902](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L902)
 
 Will start the animation sequence
 
@@ -1429,7 +1429,7 @@ the object created for this animation. If range does not exist, it will return n
 
 > **canAffectMesh**(`mesh`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:563](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L563)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:563](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L563)
 
 Specifies if the light will affect the passed mesh.
 
@@ -1457,7 +1457,7 @@ true the mesh is affected otherwise, false.
 
 > **clone**(`name`, `newParent?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Light`](Light.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:648](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L648)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:648](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L648)
 
 Returns a new Light object, named "name", from the current one.
 
@@ -1491,7 +1491,7 @@ the new created light
 
 > **computeWorldMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/hemisphericLight.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.pure.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/hemisphericLight.pure.ts#L107)
 
 Computes the world matrix of the node
 
@@ -1511,7 +1511,7 @@ the world matrix
 
 > **createAnimationRange**(`name`, `from`, `to`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:815](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L815)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:819](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L819)
 
 Creates an animation range for this node
 
@@ -1549,7 +1549,7 @@ defines the end key
 
 > **deleteAnimationRange**(`name`, `deleteFrames?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:832](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L832)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:836](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L836)
 
 Delete a specific animation range
 
@@ -1581,7 +1581,7 @@ defines if animation frames from the range must be deleted as well
 
 > **dispose**(`doNotRecurse?`, `disposeMaterialAndTextures?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:592](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L592)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:592](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L592)
 
 Releases resources associated with this node.
 
@@ -1613,7 +1613,7 @@ Set to true to also dispose referenced materials and textures (false by default)
 
 > **getAbsolutePosition**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:554](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L554)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:554](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L554)
 
 Returns a Vector3, the absolute light position in the World.
 
@@ -1633,7 +1633,7 @@ the world space position of the light
 
 > **getAnimationByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animation`](Animation.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:797](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L797)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:801](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L801)
 
 Get an animation by name
 
@@ -1661,7 +1661,7 @@ null if not found else the requested animation
 
 > **getAnimationRange**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationRange`](AnimationRange.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:846](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L846)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:850](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L850)
 
 Get an animation range by name
 
@@ -1689,7 +1689,7 @@ null if not found else the requested animation range
 
 > **getAnimationRanges**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationRange`](AnimationRange.md)\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:881](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L881)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:885](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L885)
 
 Gets the list of all animation ranges defined on this node
 
@@ -1709,7 +1709,7 @@ an array
 
 > **getBehaviorByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Behavior`](../interfaces/Behavior.md)\<[`Node`](Node.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:478](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L478)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:482](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L482)
 
 Gets an attached behavior by name
 
@@ -1743,9 +1743,13 @@ Get all child-meshes of this node
 
 #### Param
 
+**directDescendantsOnly**
+
 defines if true only direct descendants of 'this' will be considered, if false direct and also indirect (children of children, an so on in a recursive manner) descendants of 'this' will be considered (Default: false)
 
 #### Param
+
+**predicate**
 
 defines an optional predicate that will be called on every evaluated child, the predicate must return true for a given child to be part of the result, otherwise it will be ignored
 
@@ -1753,7 +1757,7 @@ defines an optional predicate that will be called on every evaluated child, the 
 
 > **getChildMeshes**\<`T`\>(`directDescendantsOnly?`, `predicate?`): `T`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:723](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L723)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:727](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L727)
 
 Get all child-meshes of this node
 
@@ -1791,7 +1795,7 @@ an array of AbstractMesh
 
 > **getChildMeshes**(`directDescendantsOnly?`, `predicate?`): [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:731](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L731)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:735](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L735)
 
 Get all child-meshes of this node
 
@@ -1827,9 +1831,13 @@ Get all direct children of this node
 
 #### Param
 
+**predicate**
+
 defines an optional predicate that will be called on every evaluated child, the predicate must return true for a given child to be part of the result, otherwise it will be ignored
 
 #### Param
+
+**directDescendantsOnly**
 
 defines if true only direct descendants of 'this' will be considered, if false direct and also indirect (children of children, an so on in a recursive manner) descendants of 'this' will be considered (Default: true)
 
@@ -1837,7 +1845,7 @@ defines if true only direct descendants of 'this' will be considered, if false d
 
 > **getChildren**\<`T`\>(`predicate?`, `directDescendantsOnly?`): `T`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:753](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L753)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:757](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L757)
 
 Get all direct children of this node
 
@@ -1875,7 +1883,7 @@ an array of Node
 
 > **getChildren**(`predicate?`, `directDescendantsOnly?`): [`Node`](Node.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:761](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L761)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:765](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L765)
 
 Get all direct children of this node
 
@@ -1909,7 +1917,7 @@ an array of Node
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/hemisphericLight.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/hemisphericLight.pure.ts#L61)
 
 Returns the string "HemisphericLight".
 
@@ -1931,9 +1939,13 @@ Will return all nodes that have this node as ascendant
 
 #### Param
 
+**directDescendantsOnly**
+
 defines if true only direct descendants of 'this' will be considered, if false direct and also indirect (children of children, an so on in a recursive manner) descendants of 'this' will be considered
 
 #### Param
+
+**predicate**
 
 defines an optional predicate that will be called on every evaluated child, the predicate must return true for a given child to be part of the result, otherwise it will be ignored
 
@@ -1941,7 +1953,7 @@ defines an optional predicate that will be called on every evaluated child, the 
 
 > **getDescendants**\<`T`\>(`directDescendantsOnly?`, `predicate?`): `T`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:693](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L693)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:697](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L697)
 
 Will return all nodes that have this node as ascendant
 
@@ -1979,7 +1991,7 @@ all children nodes of all types
 
 > **getDescendants**(`directDescendantsOnly?`, `predicate?`): [`Node`](Node.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:701](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L701)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:705](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L705)
 
 Will return all nodes that have this node as ascendant
 
@@ -2013,7 +2025,7 @@ all children nodes of all types
 
 > **getEngine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:407](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L407)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:407](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L407)
 
 Gets the engine of the node
 
@@ -2033,7 +2045,7 @@ a Engine
 
 > **getHierarchyBoundingVectors**(`includeDescendants?`, `predicate?`): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:998](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L998)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:1002](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L1002)
 
 Return the minimum and maximum world vectors of the entire hierarchy under current node
 
@@ -2075,7 +2087,7 @@ the new bounding vectors
 
 > **getProjectionMatrix**(`_viewMatrix?`, `_renderList?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Matrix`](Matrix.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:338](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L338)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:338](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L338)
 
 Returns the projection matrix.
 Note that viewMatrix and renderList are optional and are only used by lights that calculate the projection matrix from a list of meshes (e.g. directional lights with automatic extents calculation).
@@ -2110,7 +2122,7 @@ The projection matrix. Can be null, if a projection matrix cannot be defined for
 
 > **getScaledIntensity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:638](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L638)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:638](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L638)
 
 Returns the intensity scaled by the Photometric Scale according to the light type and intensity mode.
 
@@ -2130,7 +2142,7 @@ the scaled intensity in intensity mode unit
 
 > **getScene**(): [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:399](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L399)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:399](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L399)
 
 Gets the scene of the node
 
@@ -2150,7 +2162,7 @@ a scene
 
 > **getShadowGenerator**(): [`Nullable`](../type-aliases/Nullable.md)\<[`IShadowGenerator`](../interfaces/IShadowGenerator.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/hemisphericLight.ts#L82)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.pure.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/hemisphericLight.pure.ts#L80)
 
 Returns the shadow generator associated to the light.
 
@@ -2170,7 +2182,7 @@ Always null for hemispheric lights because it does not support shadows.
 
 > **getShadowGenerators**(): [`Nullable`](../type-aliases/Nullable.md)\<`Map`\<[`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\>, [`IShadowGenerator`](../interfaces/IShadowGenerator.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:546](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L546)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:546](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L546)
 
 Returns all the shadow generators associated to this light
 
@@ -2188,7 +2200,7 @@ Returns all the shadow generators associated to this light
 
 > **getTypeID**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/hemisphericLight.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/hemisphericLight.pure.ts#L119)
 
 Returns the integer 3.
 
@@ -2208,7 +2220,7 @@ The light Type id as a constant defines in Light.LIGHTTYPEID_x
 
 > **getViewMatrix**(`_faceIndex?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Matrix`](Matrix.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:327](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L327)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:327](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L327)
 
 Returns the view matrix.
 
@@ -2236,7 +2248,7 @@ The view matrix. Can be null, if a view matrix cannot be defined for the type of
 
 > **getWorldMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:492](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L492)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:496](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L496)
 
 Returns the latest update of the World matrix
 
@@ -2256,7 +2268,7 @@ a Matrix
 
 > **isDescendantOf**(`ancestor`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:655](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L655)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:659](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L659)
 
 Is this node a descendant of the given node?
 The function will iterate up the hierarchy until the ancestor was found or no more parents defined
@@ -2285,7 +2297,7 @@ a boolean indicating if this node is a descendant of the given node
 
 > **isDisposed**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:214](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L214)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L214)
 
 Gets a boolean indicating if the node has been disposed
 
@@ -2305,7 +2317,7 @@ true if the node was disposed
 
 > **isEnabled**(`checkAncestors?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:613](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L613)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:617](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L617)
 
 Is this node enabled?
 If the node has a parent, all ancestors will be checked and false will be returned if any are false (not enabled), otherwise will return true
@@ -2334,7 +2346,7 @@ whether this node (and its parent) is enabled
 
 > **isReady**(`_completeCheck?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:592](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L592)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:596](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L596)
 
 Is this node ready to be used/rendered
 
@@ -2362,7 +2374,7 @@ true if the node is ready
 
 > **markAsDirty**(`_property?`): [`Node`](Node.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:601](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L601)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:605](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L605)
 
 Flag the  node as dirty (Forcing it to update everything)
 
@@ -2390,7 +2402,7 @@ this node
 
 > **prepareLightSpecificDefines**(`defines`, `lightIndex`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/hemisphericLight.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.pure.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/hemisphericLight.pure.ts#L128)
 
 Prepares the list of defines specific to the light type.
 
@@ -2422,7 +2434,7 @@ defines the index of the light for the effect
 
 > **removeBehavior**(`behavior`): [`Node`](Node.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:451](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L451)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:451](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L451)
 
 Remove an attached behavior
 
@@ -2454,7 +2466,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:672](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L672)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:672](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L672)
 
 Serializes the current light into a Serialization object.
 
@@ -2474,7 +2486,7 @@ the serialized object.
 
 > **serializeAnimationRanges**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:912](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L912)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:916](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L916)
 
 Serialize animation ranges into a JSON compatible object
 
@@ -2494,7 +2506,7 @@ serialization object
 
 > **setDirectionToTarget**(`target`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/hemisphericLight.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.pure.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/hemisphericLight.pure.ts#L71)
 
 Sets the HemisphericLight direction towards the passed target (Vector3).
 Returns the updated direction.
@@ -2519,7 +2531,7 @@ The computed direction
 
 > **setEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:523](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L523)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:523](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L523)
 
 Set the enabled state of this node.
 
@@ -2545,7 +2557,7 @@ the new enabled state
 
 > **toString**(`fullDetails?`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:500](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L500)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:500](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L500)
 
 Converts the light information to a readable string for debug purpose.
 
@@ -2573,7 +2585,7 @@ the human readable light info
 
 > **transferTexturesToEffect**(`effect`, `lightIndex`): [`Light`](Light.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:421](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L421)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:421](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L421)
 
 Sets the passed Effect "effect" with the Light textures.
 
@@ -2607,7 +2619,7 @@ The light
 
 > **transferToEffect**(`_effect`, `lightIndex`): `HemisphericLight`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/hemisphericLight.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/hemisphericLight.pure.ts#L90)
 
 Sets the passed Effect object with the HemisphericLight normalized direction and color and the passed name (string).
 
@@ -2641,7 +2653,7 @@ The hemispheric light
 
 > **transferToNodeMaterialEffect**(`effect`, `lightDataUniformName`): `HemisphericLight`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/hemisphericLight.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/hemisphericLight.pure.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/hemisphericLight.pure.ts#L97)
 
 Sets the passed Effect "effect" with the Light information.
 
@@ -2675,7 +2687,7 @@ The light
 
 > `static` **AddNodeConstructor**(`type`, `constructorFunc`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L61)
 
 Add a new node constructor
 
@@ -2707,7 +2719,7 @@ defines the constructor function
 
 > `static` **Construct**(`type`, `name`, `scene`, `options?`): [`Nullable`](../type-aliases/Nullable.md)\<() => [`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L73)
 
 Returns a node constructor based on type name
 
@@ -2753,7 +2765,7 @@ the new constructor or null
 
 > `static` **GetConstructorFromName**(`type`, `name`, `scene`): [`Nullable`](../type-aliases/Nullable.md)\<() => [`Light`](Light.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:716](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L716)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:716](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L716)
 
 Creates a new typed light from the passed type (integer) : point light = 0, directional light = 1, spot light = 2, hemispheric light = 3.
 This new light is named "name" and added to the passed scene.
@@ -2794,7 +2806,7 @@ the constructor function
 
 > `static` **Parse**(`parsedLight`, `scene`): [`Nullable`](../type-aliases/Nullable.md)\<[`Light`](Light.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:733](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Lights/light.ts#L733)
+Defined in: [babylonjs-source/packages/dev/core/src/Lights/light.ts:733](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/light.ts#L733)
 
 Parses the passed "parsedLight" and returns a new instanced Light from this parsing.
 
@@ -2828,7 +2840,7 @@ the created light after parsing
 
 > `static` **ParseAnimationRanges**(`node`, `parsedNode`, `_scene`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:984](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L984)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:988](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L988)
 
 Parse animation range data from a serialization object and store them into a given node
 

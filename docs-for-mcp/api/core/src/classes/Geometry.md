@@ -6,7 +6,7 @@
 
 # Class: Geometry
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L30)
 
 Class used to store geometry data (vertex buffers + index buffer)
 
@@ -20,7 +20,7 @@ Class used to store geometry data (vertex buffers + index buffer)
 
 > **new Geometry**(`id`, `scene?`, `vertexData?`, `updatable?`, `mesh?`, `totalVertices?`): `Geometry`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L145)
 
 Creates a new geometry
 
@@ -72,7 +72,7 @@ defines the total number of vertices (optional)
 
 > **delayLoadingFile**: [`Nullable`](../type-aliases/Nullable.md)\<`string`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L47)
 
 Gets the file containing the data to load when running in delay load state
 
@@ -82,7 +82,7 @@ Gets the file containing the data to load when running in delay load state
 
 > **delayLoadState**: `number` = `Constants.DELAYLOADSTATE_NONE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L43)
 
 Gets the delay loading state of the geometry (none by default which means not delayed)
 
@@ -92,7 +92,7 @@ Gets the delay loading state of the geometry (none by default which means not de
 
 > **id**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L35)
 
 Gets or sets the ID of the geometry
 
@@ -102,7 +102,7 @@ Gets or sets the ID of the geometry
 
 > **onGeometryUpdated**: (`geometry`, `kind?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L51)
 
 Callback called when the geometry is updated
 
@@ -126,7 +126,7 @@ Callback called when the geometry is updated
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L39)
 
 Gets or sets the unique ID of the geometry
 
@@ -136,7 +136,7 @@ Gets or sets the unique ID of the geometry
 
 > **useBoundingInfoFromGeometry**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L134)
 
 If set to true (false by default), the bounding info applied to the meshes sharing this geometry will be the bounding info defined at the class level
 and won't be computed based on the vertex positions (which is what we get when useBoundingInfoFromGeometry = false)
@@ -149,7 +149,7 @@ and won't be computed based on the vertex positions (which is what we get when u
 
 > **get** **boundingBias**(): [`Vector2`](Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L95)
 
 Gets or sets the Bias Vector to apply on the bounding elements (box/sphere), the max extend is computed as v += v * bias.x + bias.y, the min is computed as v -= v * bias.x + bias.y
 
@@ -161,7 +161,7 @@ Gets or sets the Bias Vector to apply on the bounding elements (box/sphere), the
 
 > **set** **boundingBias**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L102)
 
 Gets or sets the Bias Vector to apply on the bounding elements (box/sphere), the max extend is computed as v += v * bias.x + bias.y, the min is computed as v -= v * bias.x + bias.y
 
@@ -183,7 +183,7 @@ Gets or sets the Bias Vector to apply on the bounding elements (box/sphere), the
 
 > **get** **doNotSerialize**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:214](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L214)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:215](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L215)
 
 Gets a value indicating that the geometry should not be serialized
 
@@ -199,7 +199,7 @@ Gets a value indicating that the geometry should not be serialized
 
 > **get** **extend**(): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L183)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:184](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L184)
 
 Gets the current extend of the geometry
 
@@ -223,7 +223,7 @@ Gets the current extend of the geometry
 
 > **get** **meshes**(): [`Mesh`](Mesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L126)
 
 Get the list of meshes using this geometry
 
@@ -237,7 +237,7 @@ Get the list of meshes using this geometry
 
 > **applyToMesh**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:737](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L737)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:738](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L738)
 
 Apply current geometry to a given mesh
 
@@ -259,7 +259,7 @@ defines the mesh to apply geometry to
 
 > **clearCachedData**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:1131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L1131)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:1141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L1141)
 
 Release any memory retained by the cached data on the Geometry.
 
@@ -276,7 +276,7 @@ Vertex buffers will not store CPU data anymore (this will prevent picking, colli
 
 > **copy**(`id`): `Geometry`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:1033](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L1033)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:1043](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L1043)
 
 Clone the current geometry into a new geometry
 
@@ -300,7 +300,7 @@ a new geometry object
 
 > **copyVerticesData**(`kind`, `vertexData`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:471](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L471)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:472](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L472)
 
 Copies the requested vertex data kind into the given vertex data map. Float data is constructed if the map doesn't have the data.
 
@@ -326,7 +326,7 @@ defines the map that stores the resulting data
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:986](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L986)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:996](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L996)
 
 Free all associated resources
 
@@ -340,7 +340,7 @@ Free all associated resources
 
 > **getEngine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:199](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L199)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L200)
 
 Gets the hosting engine
 
@@ -356,7 +356,7 @@ the hosting Engine
 
 > **getIndexBuffer**(): [`Nullable`](../type-aliases/Nullable.md)\<[`DataBuffer`](DataBuffer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:686](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L686)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:687](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L687)
 
 Gets the index buffer
 
@@ -372,7 +372,7 @@ the index buffer
 
 > **getIndices**(`copyWhenShared?`, `forceCopy?`): [`Nullable`](../type-aliases/Nullable.md)\<[`IndicesArray`](../type-aliases/IndicesArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:670](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L670)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:671](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L671)
 
 Gets the index buffer array
 
@@ -406,7 +406,7 @@ the index buffer array
 
 > **getScene**(): [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L191)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L192)
 
 Gets the hosting scene
 
@@ -422,7 +422,7 @@ the hosting Scene
 
 > **getTotalIndices**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:657](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L657)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:658](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L658)
 
 Return the total number of indices
 
@@ -438,7 +438,7 @@ the total number of indices
 
 > **getTotalVertices**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:442](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L442)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:443](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L443)
 
 Gets total number of vertices
 
@@ -454,7 +454,7 @@ the total number of vertices
 
 > **getVertexBuffer**(`kind`): [`Nullable`](../type-aliases/Nullable.md)\<[`VertexBuffer`](VertexBuffer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:513](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L513)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:514](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L514)
 
 Gets a specific vertex buffer
 
@@ -478,7 +478,7 @@ a VertexBuffer
 
 > **getVertexBuffers**(): [`Nullable`](../type-aliases/Nullable.md)\<\{\[`key`: `string`\]: [`VertexBuffer`](VertexBuffer.md); \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:524](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L524)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:525](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L525)
 
 Returns all vertex buffers
 
@@ -494,7 +494,7 @@ an object holding all vertex buffers indexed by kind
 
 > **getVerticesData**(`kind`, `copyWhenShared?`, `forceCopy?`): [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:457](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L457)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:458](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L458)
 
 Gets a specific vertex data attached to this geometry. Float data is constructed if the vertex buffer data cannot be returned directly.
 
@@ -534,7 +534,7 @@ a float array containing vertex data
 
 > **getVerticesDataKinds**(): `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:550](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L550)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:551](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L551)
 
 Gets a list of all attached data kinds (Position, normal, etc...)
 
@@ -550,7 +550,7 @@ a list of string containing all kinds
 
 > **isDisposed**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:964](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L964)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:974](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L974)
 
 Gets a value indicating if the geometry is disposed
 
@@ -566,7 +566,7 @@ true if the geometry was disposed
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:207](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L207)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L208)
 
 Defines if the geometry is ready to use
 
@@ -582,7 +582,7 @@ true if the geometry is ready to be used
 
 > **isVertexBufferUpdatable**(`kind`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:498](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L498)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:499](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L499)
 
 Returns a boolean defining if the vertex data for the requested `kind` is updatable
 
@@ -606,7 +606,7 @@ true if the vertex buffer with the specified kind is updatable
 
 > **isVerticesDataPresent**(`kind`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:536](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L536)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:537](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L537)
 
 Gets a boolean indicating if specific vertex buffer is present
 
@@ -634,7 +634,7 @@ true if data is present
 
 > **load**(`scene`, `onLoaded?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:840](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L840)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:841](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L841)
 
 Load the geometry if it was flagged as delay loaded
 
@@ -662,7 +662,7 @@ defines a callback called when the geometry is loaded
 
 > **releaseForMesh**(`mesh`, `shouldDispose?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:712](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L712)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:713](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L713)
 
 Release the associated resources for a specific mesh
 
@@ -690,7 +690,7 @@ defines if the geometry must be disposed if there is no more mesh pointing to it
 
 > **removeVerticesData**(`kind`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:281](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L281)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L282)
 
 Removes a specific vertex data
 
@@ -712,7 +712,7 @@ defines the data kind (Position, normal, etc...)
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:1103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L1103)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:1113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L1113)
 
 Serialize the current geometry info (and not the vertices data) into a JSON object
 
@@ -728,7 +728,7 @@ a JSON representation of the current geometry data (without the vertices data)
 
 > **serializeVerticeData**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:1148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L1148)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:1158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L1158)
 
 Serialize all vertices data into a JSON object
 
@@ -744,7 +744,7 @@ a JSON representation of the current geometry data
 
 > **setAllVerticesData**(`vertexData`, `updatable?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:251](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L251)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:252](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L252)
 
 Affects all geometry data in one call
 
@@ -772,7 +772,7 @@ defines if the geometry must be flagged as updatable (false as default)
 
 > **setIndexBuffer**(`indexBuffer`, `totalVertices`, `totalIndices`, `is32Bits?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:601](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L601)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:602](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L602)
 
 Sets the index buffer for this geometry.
 
@@ -812,7 +812,7 @@ Defines if the indices are 32 bits. If null (default), the value is guessed from
 
 > **setIndices**(`indices`, `totalVertices?`, `updatable?`, `dontForceSubMeshRecreation?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:629](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L629)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:630](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L630)
 
 Creates a new index buffer
 
@@ -856,7 +856,7 @@ defines a boolean indicating that we don't want to force the recreation of sub-m
 
 > **setVerticesBuffer**(`buffer`, `totalVertices?`, `disposeExistingBuffer?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:298](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L298)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:299](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L299)
 
 Affect a vertex buffer to the geometry. the vertexBuffer.getKind() function is used to determine where to store the data
 
@@ -890,7 +890,7 @@ disposes the existing buffer, if any (default: true)
 
 > **setVerticesData**(`kind`, `data`, `updatable?`, `stride?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:263](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L263)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:264](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L264)
 
 Set specific vertex data
 
@@ -934,7 +934,7 @@ defines the stride to use (0 by default). This value is deduced from the kind va
 
 > **toLeftHanded**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:895](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L895)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:905](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L905)
 
 Invert the geometry to move from a right handed system to a left handed one.
 
@@ -948,7 +948,7 @@ Invert the geometry to move from a right handed system to a left handed one.
 
 > **updateIndices**(`indices`, `offset?`, `gpuMemoryOnly?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:572](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L572)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:573](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L573)
 
 Update index buffer
 
@@ -982,7 +982,7 @@ defines a boolean indicating that only the GPU memory must be updated leaving th
 
 > **updateVerticesData**(`kind`, `data`, `updateExtends?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:361](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L361)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:362](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L362)
 
 Update a specific vertex buffer
 This function will create a new buffer if the current one is not updatable
@@ -1021,7 +1021,7 @@ defines if the geometry extends must be recomputed (false by default)
 
 > **updateVerticesDataDirectly**(`kind`, `data`, `offset`, `useBytes?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:343](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L343)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:344](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L344)
 
 Update a specific vertex buffer
 This function will directly update the underlying DataBuffer according to the passed numeric array or Float32Array
@@ -1063,7 +1063,7 @@ set to true if the offset is in bytes
 
 > `static` **CreateGeometryForMesh**(`mesh`): `Geometry`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L117)
 
 Static function used to attach a new empty geometry to a mesh
 
@@ -1087,7 +1087,7 @@ the new Geometry
 
 > `static` **ExtractFromMesh**(`mesh`, `id`): [`Nullable`](../type-aliases/Nullable.md)\<`Geometry`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:1249](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L1249)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:1259](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L1259)
 
 Extracts a clone of a mesh geometry
 
@@ -1117,7 +1117,7 @@ the new geometry object
 
 > `static` **Parse**(`parsedVertexData`, `scene`, `rootUrl`): [`Nullable`](../type-aliases/Nullable.md)\<`Geometry`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:1638](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L1638)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:1648](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L1648)
 
 Create a new geometry from persisted data (Using .babylon file format)
 
@@ -1153,7 +1153,7 @@ the new geometry object
 
 > `static` **RandomId**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:1266](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/geometry.ts#L1266)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/geometry.ts:1276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/geometry.ts#L1276)
 
 You should now use Tools.RandomId(), this method is still here for legacy reasons.
 Implementation from http://stackoverflow.com/questions/105034/how-to-create-a-guid-uuid-in-javascript/2117523#answer-2117523

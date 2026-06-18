@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphWaitAllBlockConfiguration
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Execution/ControlFlow/flowGraphWaitAllBlock.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Execution/ControlFlow/flowGraphWaitAllBlock.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Execution/ControlFlow/flowGraphWaitAllBlock.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Execution/ControlFlow/flowGraphWaitAllBlock.pure.ts#L15)
 
 Configuration for the wait all block.
 
@@ -24,7 +24,7 @@ Configuration for the wait all block.
 
 > **inputSignalCount**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Execution/ControlFlow/flowGraphWaitAllBlock.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Execution/ControlFlow/flowGraphWaitAllBlock.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Execution/ControlFlow/flowGraphWaitAllBlock.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Execution/ControlFlow/flowGraphWaitAllBlock.pure.ts#L20)
 
 The number of input signals. There will always be at least one input flow.
 glTF interactivity has a max of 64 input flows.
@@ -35,7 +35,7 @@ glTF interactivity has a max of 64 input flows.
 
 > `optional` **name?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
 
 The name of the block.
 

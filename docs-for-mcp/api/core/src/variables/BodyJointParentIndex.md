@@ -8,7 +8,7 @@
 
 > `const` **BodyJointParentIndex**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.ts:324](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRBodyTracking.ts#L324)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:327](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L327)
 
 Parent index for each joint in BodyJointReferenceArray order.
 -1 means "root" (no parent).  Used to convert world-space XR poses to

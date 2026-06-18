@@ -6,7 +6,7 @@
 
 # Enumeration: SoundState
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/soundState.ts:4](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/AudioV2/soundState.ts#L4)
+Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/soundState.ts:4](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/soundState.ts#L4)
 
 The state of a sound.
 
@@ -16,7 +16,7 @@ The state of a sound.
 
 > **FailedToStart**: `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/soundState.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/AudioV2/soundState.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/soundState.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/soundState.ts#L24)
 
 The sound failed to start, most likely due to the user not interacting with the page, yet.
 
@@ -26,7 +26,7 @@ The sound failed to start, most likely due to the user not interacting with the 
 
 > **Paused**: `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/soundState.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/AudioV2/soundState.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/soundState.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/soundState.ts#L28)
 
 The sound is paused.
 
@@ -36,7 +36,7 @@ The sound is paused.
 
 > **Started**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/soundState.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/AudioV2/soundState.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/soundState.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/soundState.ts#L20)
 
 The sound has started playing.
 
@@ -46,7 +46,7 @@ The sound has started playing.
 
 > **Starting**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/soundState.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/AudioV2/soundState.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/soundState.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/soundState.ts#L16)
 
 The sound is waiting for its instances to start.
 
@@ -56,7 +56,7 @@ The sound is waiting for its instances to start.
 
 > **Stopped**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/soundState.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/AudioV2/soundState.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/soundState.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/soundState.ts#L12)
 
 The sound is stopped.
 
@@ -66,6 +66,6 @@ The sound is stopped.
 
 > **Stopping**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/soundState.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/AudioV2/soundState.ts#L8)
+Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/soundState.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/soundState.ts#L8)
 
 The sound is waiting for its instances to stop.

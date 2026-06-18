@@ -6,7 +6,7 @@
 
 # Class: FlowGraph
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L88)
 
 **`Experimental`**
 
@@ -23,7 +23,7 @@ The graph can then be started, which will init and start all of its event blocks
 
 > **new FlowGraph**(`params`): `FlowGraph`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:181](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L181)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:181](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L181)
 
 **`Experimental`**
 
@@ -47,7 +47,7 @@ construction parameters. currently only the scene
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L92)
 
 **`Experimental`**
 
@@ -59,7 +59,7 @@ A human-readable name for this graph.
 
 > **onStateChangedObservable**: [`Observable`](Observable.md)\<[`FlowGraphState`](../enumerations/FlowGraphState.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L102)
 
 **`Experimental`**
 
@@ -71,7 +71,7 @@ An observable that is triggered when the state of the graph changes.
 
 > **uniqueId**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L97)
 
 **`Experimental`**
 
@@ -85,7 +85,7 @@ A unique identifier for this graph. Auto-generated if not provided.
 
 > **get** **contextCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:289](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L289)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:289](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L289)
 
 **`Experimental`**
 
@@ -103,7 +103,7 @@ Returns the number of execution contexts currently attached to this graph.
 
 > **get** **coordinator**(): [`FlowGraphCoordinator`](FlowGraphCoordinator.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L141)
 
 **`Experimental`**
 
@@ -121,7 +121,7 @@ The coordinator that owns this flow graph.
 
 > **get** **scene**(): [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L133)
 
 **`Experimental`**
 
@@ -139,7 +139,7 @@ The scene associated with this flow graph.
 
 > **get** **sceneEventCoordinator**(): `FlowGraphSceneEventCoordinator`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L151)
 
 **`Experimental`**
 
@@ -158,7 +158,7 @@ Provides access to runtime event state such as currently pressed keys.
 
 > **get** **state**(): [`FlowGraphState`](../enumerations/FlowGraphState.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L165)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L165)
 
 **`Experimental`**
 
@@ -172,7 +172,7 @@ The state of the graph
 
 > **set** **state**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L172)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L172)
 
 **`Experimental`**
 
@@ -194,7 +194,7 @@ The state of the graph
 
 > **addBlock**(`block`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L323)
 
 **`Experimental`**
 
@@ -221,7 +221,7 @@ the block to register
 
 > **addEventBlock**(`block`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:381](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L381)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:381](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L381)
 
 **`Experimental`**
 
@@ -246,7 +246,7 @@ the event block to be added
 
 > **createContext**(): [`FlowGraphContext`](FlowGraphContext.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L271)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:271](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L271)
 
 **`Experimental`**
 
@@ -264,7 +264,7 @@ the context, where you can get and set variables
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:513](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L513)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:513](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L513)
 
 **`Experimental`**
 
@@ -280,7 +280,7 @@ Disposes of the flow graph. Cancels any pending tasks and removes all event list
 
 > **getAllBlocks**(): readonly [`FlowGraphBlock`](FlowGraphBlock.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:312](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L312)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:312](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L312)
 
 **`Experimental`**
 
@@ -298,7 +298,7 @@ a read-only array of all blocks
 
 > **getContext**(`index`): [`FlowGraphContext`](FlowGraphContext.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:282](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L282)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L282)
 
 **`Experimental`**
 
@@ -324,7 +324,7 @@ the execution context at that index
 
 > **pause**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:426](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L426)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:426](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L426)
 
 **`Experimental`**
 
@@ -341,7 +341,7 @@ Call start() to resume.
 
 > **removeBlock**(`block`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:334](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L334)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:334](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L334)
 
 **`Experimental`**
 
@@ -366,7 +366,7 @@ the block to remove
 
 > **removeContext**(`index`): [`FlowGraphContext`](FlowGraphContext.md) \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:299](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L299)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:299](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L299)
 
 **`Experimental`**
 
@@ -393,7 +393,7 @@ the removed context, or undefined if the index was out of range
 
 > **serialize**(`serializationObject?`, `valueSerializeFunction?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:584](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L584)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:584](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L584)
 
 **`Experimental`**
 
@@ -423,7 +423,7 @@ a function to serialize complex values
 
 > **setScene**(`scene`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L239)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L239)
 
 **`Experimental`**
 
@@ -451,7 +451,7 @@ the new scene to attach to
 
 > **start**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:441](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L441)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:441](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L441)
 
 **`Experimental`**
 
@@ -468,7 +468,7 @@ Can also be called to resume from a paused state.
 
 > **stop**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:409](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L409)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:409](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L409)
 
 **`Experimental`**
 
@@ -485,7 +485,7 @@ but keeps event blocks so the graph can be restarted.
 
 > **validate**(): [`IFlowGraphValidationResult`](../interfaces/IFlowGraphValidationResult.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:575](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L575)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:575](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L575)
 
 **`Experimental`**
 
@@ -504,7 +504,7 @@ The validation result containing errors and warnings.
 
 > **visitAllBlocks**(`visitor`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:535](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraph.ts#L535)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:535](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L535)
 
 **`Experimental`**
 

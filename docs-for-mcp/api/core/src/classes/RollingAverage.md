@@ -6,7 +6,7 @@
 
 # Class: RollingAverage
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L125)
 
 RollingAverage
 
@@ -18,7 +18,7 @@ Utility to efficiently compute the rolling average and variance over a sliding w
 
 > **new RollingAverage**(`length`): `RollingAverage`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L144)
 
 constructor
 
@@ -40,7 +40,7 @@ The number of samples required to saturate the sliding window
 
 > **average**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L129)
 
 Current average
 
@@ -50,7 +50,7 @@ Current average
 
 > **variance**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L133)
 
 Current variance
 
@@ -60,7 +60,7 @@ Current variance
 
 > **add**(`v`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L153)
 
 Adds a sample to the sample set
 
@@ -82,7 +82,7 @@ The sample value
 
 > **history**(`i`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:187](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L187)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L187)
 
 Returns previously added values or null if outside of history or outside the sliding window domain
 
@@ -106,7 +106,7 @@ Value previously recorded with add() or null if outside of range
 
 > **isSaturated**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L200)
 
 Returns true if enough samples have been taken to completely fill the sliding window
 
@@ -122,7 +122,7 @@ true if sample-set saturated
 
 > **reset**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:207](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/performanceMonitor.ts#L207)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/performanceMonitor.ts:207](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/performanceMonitor.ts#L207)
 
 Resets the rolling average (equivalent to 0 samples taken so far)
 

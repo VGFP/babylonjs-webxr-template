@@ -6,7 +6,7 @@
 
 # Interface: RotationGizmoOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/rotationGizmo.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/rotationGizmo.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/rotationGizmo.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/rotationGizmo.ts#L67)
 
 Additional options for each rotation gizmo
 
@@ -16,7 +16,7 @@ Additional options for each rotation gizmo
 
 > `optional` **additionalTransformNode?**: [`TransformNode`](../classes/TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/rotationGizmo.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/rotationGizmo.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/rotationGizmo.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/rotationGizmo.ts#L92)
 
 Additional transform applied to the gizmo.
 
@@ -30,7 +30,7 @@ Gizmo.additionalTransformNode for more detail
 
 > `optional` **updateScale?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/rotationGizmo.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/rotationGizmo.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/rotationGizmo.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/rotationGizmo.ts#L71)
 
 When set, the gizmo will always appear the same size no matter where the camera is (default: true)
 
@@ -40,7 +40,7 @@ When set, the gizmo will always appear the same size no matter where the camera 
 
 > `optional` **xOptions?**: [`PlaneRotationGizmoOptions`](PlaneRotationGizmoOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/rotationGizmo.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/rotationGizmo.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/rotationGizmo.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/rotationGizmo.ts#L76)
 
 Specific options for xGizmo
 
@@ -50,7 +50,7 @@ Specific options for xGizmo
 
 > `optional` **yOptions?**: [`PlaneRotationGizmoOptions`](PlaneRotationGizmoOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/rotationGizmo.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/rotationGizmo.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/rotationGizmo.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/rotationGizmo.ts#L81)
 
 Specific options for yGizmo
 
@@ -60,6 +60,6 @@ Specific options for yGizmo
 
 > `optional` **zOptions?**: [`PlaneRotationGizmoOptions`](PlaneRotationGizmoOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/rotationGizmo.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/rotationGizmo.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/rotationGizmo.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/rotationGizmo.ts#L86)
 
 Specific options for zGizmo

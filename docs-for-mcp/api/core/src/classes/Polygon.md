@@ -6,7 +6,7 @@
 
 # Class: Polygon
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/polygonMesh.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/polygonMesh.ts#L81)
 
 Polygon
 
@@ -30,7 +30,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/creation/param#non-regu
 
 > `static` **Circle**(`radius`, `cx?`, `cy?`, `numberOfSides?`): [`Vector2`](Vector2.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/polygonMesh.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/polygonMesh.ts#L102)
 
 Creates a circle
 
@@ -72,7 +72,7 @@ points that make the resulting circle
 
 > `static` **Parse**(`input`): [`Vector2`](Vector2.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/polygonMesh.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/polygonMesh.ts#L121)
 
 Creates a polygon from input string
 
@@ -96,7 +96,7 @@ the parsed points
 
 > `static` **Rectangle**(`xmin`, `ymin`, `xmax`, `ymax`): [`Vector2`](Vector2.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/polygonMesh.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/polygonMesh.ts#L90)
 
 Creates a rectangle
 
@@ -138,7 +138,7 @@ points that make the resulting rectangle
 
 > `static` **StartingAt**(`x`, `y`): [`Path2`](Path2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/polygonMesh.ts#L140)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/polygonMesh.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/polygonMesh.ts#L140)
 
 Starts building a polygon from x and y coordinates
 

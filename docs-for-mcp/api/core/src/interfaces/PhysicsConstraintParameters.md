@@ -6,7 +6,7 @@
 
 # Interface: PhysicsConstraintParameters
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:253](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L253)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:253](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L253)
 
 Parameters used to describe a Constraint
 
@@ -16,7 +16,7 @@ Parameters used to describe a Constraint
 
 > `optional` **axisA?**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:266](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L266)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:266](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L266)
 
 An axis in the space of the first body which determines how
 distances/angles are measured for LINEAR_X/ANGULAR_X limits.
@@ -27,7 +27,7 @@ distances/angles are measured for LINEAR_X/ANGULAR_X limits.
 
 > `optional` **axisB?**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L271)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:271](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L271)
 
 An axis in the space of the second body which determines how
 distances/angles are measured for LINEAR_X/ANGULAR_X limits.
@@ -38,7 +38,7 @@ distances/angles are measured for LINEAR_X/ANGULAR_X limits.
 
 > `optional` **collision?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:297](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L297)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:297](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L297)
 
 Determines if the connected bodies should collide. Generally,
 it is preferable to set this to false, especially if the constraint
@@ -51,7 +51,7 @@ will "fight" the collision detection and may cause jitter.
 
 > `optional` **maxDistance?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:289](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L289)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:289](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L289)
 
 The maximum distance that can separate the two pivots.
 Only used for DISTANCE constraints
@@ -62,7 +62,7 @@ Only used for DISTANCE constraints
 
 > `optional` **perpAxisA?**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:277](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L277)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:277](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L277)
 
 An axis in the space of the first body which determines how
 distances/angles are measured for LINEAR_Y/ANGULAR_Y limits.
@@ -73,7 +73,7 @@ distances/angles are measured for LINEAR_Y/ANGULAR_Y limits.
 
 > `optional` **perpAxisB?**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:283](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L283)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L283)
 
 An axis in the space of the second body which determines how
 distances/angles are measured for LINEAR_Y/ANGULAR_Y limits.
@@ -84,7 +84,7 @@ distances/angles are measured for LINEAR_Y/ANGULAR_Y limits.
 
 > `optional` **pivotA?**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:257](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L257)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:257](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L257)
 
 Location of the constraint pivot in the space of first body
 
@@ -94,6 +94,6 @@ Location of the constraint pivot in the space of first body
 
 > `optional` **pivotB?**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L261)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L261)
 
 Location of the constraint pivot in the space of the second body

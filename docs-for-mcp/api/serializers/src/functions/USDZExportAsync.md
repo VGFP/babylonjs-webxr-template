@@ -8,7 +8,7 @@
 
 > **USDZExportAsync**(`scene`, `options`, `meshPredicate?`): `Promise`\<`Uint8Array`\<`ArrayBufferLike`\>\>
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:718](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/USDZ/usdzExporter.ts#L718)
+Defined in: [babylonjs-source/packages/dev/serializers/src/USDZ/usdzExporter.ts:676](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/USDZ/usdzExporter.ts#L676)
 
 ## Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IKTX2DecoderOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:224](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L224)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:224](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L224)
 
 Options passed to the KTX2 decode function
 
@@ -16,7 +16,7 @@ Options passed to the KTX2 decode function
 
 > `optional` **bypassTranscoders?**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:248](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L248)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:248](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L248)
 
 list of transcoders to bypass when looking for a suitable transcoder. The available transcoders are:
      UniversalTranscoder_UASTC_ASTC
@@ -33,7 +33,7 @@ list of transcoders to bypass when looking for a suitable transcoder. The availa
 
 > `optional` **forceR8?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:232](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L232)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L232)
 
 force to always use (uncompressed) R8 for transcoded format
 
@@ -43,7 +43,7 @@ force to always use (uncompressed) R8 for transcoded format
 
 > `optional` **forceRG8?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:236](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L236)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:236](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L236)
 
 force to always use (uncompressed) RG8 for transcoded format
 
@@ -53,7 +53,7 @@ force to always use (uncompressed) RG8 for transcoded format
 
 > `optional` **forceRGBA?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:229](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L229)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L229)
 
 force to always use (uncompressed) RGBA for transcoded format
 
@@ -63,7 +63,7 @@ force to always use (uncompressed) RGBA for transcoded format
 
 > `optional` **transcodeFormatDecisionTree?**: [`IDecisionTree`](IDecisionTree.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L255)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:255](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L255)
 
 Custom decision tree to apply after the default decision tree has selected a transcoding format.
 Allows the user to override the default decision tree selection.
@@ -75,6 +75,6 @@ The decision tree can use the INode.transcodeFormat property to base its decisio
 
 > `optional` **useRGBAIfASTCBC7NotAvailableWhenUASTC?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:226](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L226)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:226](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L226)
 
 use RGBA format if ASTC and BC7 are not available as transcoded format

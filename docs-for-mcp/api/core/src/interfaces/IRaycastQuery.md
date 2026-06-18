@@ -6,7 +6,7 @@
 
 # Interface: IRaycastQuery
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsRaycastResult.ts#L9)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsRaycastResult.ts#L9)
 
 Interface for query parameters in the raycast function.
 
@@ -20,7 +20,7 @@ the "Collision Filtering" section in https://github.com/eoineoineoin/glTF/tree/M
 
 > `optional` **collideWith?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsRaycastResult.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsRaycastResult.ts#L13)
 
 CollideWith mask
 
@@ -30,7 +30,7 @@ CollideWith mask
 
 > `optional` **ignoreBody?**: [`PhysicsBody`](../classes/PhysicsBody.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsRaycastResult.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsRaycastResult.ts#L17)
 
 Ignores the body passed if it is in the query
 
@@ -40,7 +40,7 @@ Ignores the body passed if it is in the query
 
 > `optional` **membership?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsRaycastResult.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsRaycastResult.ts#L11)
 
 Membership mask
 
@@ -50,6 +50,6 @@ Membership mask
 
 > `optional` **shouldHitTriggers?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsRaycastResult.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsRaycastResult.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsRaycastResult.ts#L15)
 
 Should trigger collisions be considered in the query?

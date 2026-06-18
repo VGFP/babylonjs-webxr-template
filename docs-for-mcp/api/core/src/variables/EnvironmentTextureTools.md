@@ -8,7 +8,7 @@
 
 > `const` **EnvironmentTextureTools**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/environmentTextureTools.ts:1030](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/environmentTextureTools.ts#L1030)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/environmentTextureTools.pure.ts:1031](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/environmentTextureTools.pure.ts#L1031)
 
 Sets of helpers addressing the serialization and deserialization of environment texture
 stored in a BabylonJS env file.
@@ -46,17 +46,25 @@ a promise containing the environment data if successful.
 
 #### Param
 
+**texture**
+
 defines the cube texture to convert in env file
 
 #### Param
+
+**options**
 
 options for the conversion process
 
 #### Param
 
+**options.imageType**
+
 the mime type for the encoded images, with support for "image/png" (default) and "image/webp"
 
 #### Param
+
+**options.imageQuality**
 
 the image quality of encoded WebP images.
 
@@ -94,9 +102,13 @@ the views described by info providing access to the underlying buffer
 
 #### Param
 
+**data**
+
 the image data
 
 #### Param
+
+**info**
 
 parameters that determine what views will be created for accessing the underlying buffer
 
@@ -134,9 +146,13 @@ the views described by info providing access to the underlying buffer
 
 #### Param
 
+**data**
+
 the image data
 
 #### Param
+
+**info**
 
 parameters that determine what views will be created for accessing the underlying buffer
 
@@ -167,6 +183,8 @@ The array buffer containing the .env bytes.
 the environment file info (the json header) if successfully parsed, normalized to the latest supported version.
 
 #### Param
+
+**data**
 
 The array buffer containing the .env bytes.
 
@@ -210,13 +228,19 @@ a promise
 
 #### Param
 
+**texture**
+
 defines the internal texture to upload to
 
 #### Param
 
+**data**
+
 defines the data to load
 
 #### Param
+
+**info**
 
 defines the texture info retrieved through the GetEnvInfo method
 
@@ -252,9 +276,13 @@ defines the environment texture info retrieved through the GetEnvInfo method
 
 #### Param
 
+**texture**
+
 defines the texture we are trying to upload the information to
 
 #### Param
+
+**info**
 
 defines the environment texture info retrieved through the GetEnvInfo method
 
@@ -306,17 +334,25 @@ a promise
 
 #### Param
 
+**texture**
+
 defines the internal texture to upload to
 
 #### Param
+
+**imageData**
 
 defines the array buffer views of image data [mipmap][face]
 
 #### Param
 
+**imageType**
+
 the mime type of the image data
 
 #### Param
+
+**dominantDirection**
 
 the dominant direction of light in the environment texture, if available
 
@@ -360,13 +396,19 @@ a promise
 
 #### Param
 
+**texture**
+
 defines the internal texture to upload to
 
 #### Param
 
+**imageData**
+
 defines the array buffer views of image data [mipmap][face]
 
 #### Param
+
+**imageType**
 
 the mime type of the image data
 

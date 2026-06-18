@@ -6,7 +6,7 @@
 
 # Interface: ICustomShaderNameResolveOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L77)
 
 Options passed when calling customShaderNameResolve
 
@@ -16,6 +16,6 @@ Options passed when calling customShaderNameResolve
 
 > `optional` **processFinalCode?**: [`Nullable`](../type-aliases/Nullable.md)\<`ShaderCustomProcessingFunction`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/material.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L81)
 
 If provided, will be called two times with the vertex and fragment code so that this code can be updated before it is compiled by the GPU

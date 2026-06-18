@@ -6,7 +6,7 @@
 
 # Class: Sound
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L55)
 
 Defines a sound that can be played in the application.
 The sound can either be an ambient track or a simple sound played in reaction to a user action.
@@ -21,7 +21,7 @@ https://doc.babylonjs.com/legacy/audio
 
 > **new Sound**(`name`, `urlOrArrayBuffer`, `scene?`, `readyToPlayCallback?`, `options?`): `Sound`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:242](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L242)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L245)
 
 Create a sound and attach it to a scene
 
@@ -67,7 +67,7 @@ Objects to provide with the current available options: autoplay, loop, volume, s
 
 > **metadata**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:168](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L168)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:171](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L171)
 
 Gets or sets an object used to store user defined information for the sound.
 
@@ -77,7 +77,7 @@ Gets or sets an object used to store user defined information for the sound.
 
 > **onEndedObservable**: [`Observable`](Observable.md)\<`Sound`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:173](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L173)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L176)
 
 Observable event when the current playing sound finishes.
 
@@ -87,7 +87,7 @@ Observable event when the current playing sound finishes.
 
 > **refDistance**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L123)
 
 Define the reference distance the sound should be heard perfectly.
 
@@ -101,7 +101,7 @@ https://doc.babylonjs.com/legacy/audio#creating-a-spatial-3d-sound
 
 > **rolloffFactor**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L128)
 
 Define the roll off factor of spatial sounds.
 
@@ -115,7 +115,7 @@ https://doc.babylonjs.com/legacy/audio#creating-a-spatial-3d-sound
 
 > **soundTrackId**: `number` = `-1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L104)
 
 The sound track id this sound belongs to.
 
@@ -125,7 +125,7 @@ The sound track id this sound belongs to.
 
 > **useCustomAttenuation**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L100)
 
 Does the sound use a custom attenuation curve to simulate the falloff
 happening when the source gets further away from the camera.
@@ -142,7 +142,7 @@ https://doc.babylonjs.com/legacy/audio#creating-your-own-custom-attenuation-func
 
 > **get** **autoplay**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L70)
 
 Does the sound autoplay once loaded.
 
@@ -154,7 +154,7 @@ Does the sound autoplay once loaded.
 
 > **set** **autoplay**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L74)
 
 ##### Parameters
 
@@ -174,7 +174,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:71](https://g
 
 > **get** **currentTime**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L178)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:181](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L181)
 
 Gets the current time for the sound.
 
@@ -190,7 +190,7 @@ Gets the current time for the sound.
 
 > **get** **directionalConeInnerAngle**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:583](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L583)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:587](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L587)
 
 Gets or sets the inner angle for the directional cone.
 
@@ -202,7 +202,7 @@ Gets or sets the inner angle for the directional cone.
 
 > **set** **directionalConeInnerAngle**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:590](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L590)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:594](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L594)
 
 Gets or sets the inner angle for the directional cone.
 
@@ -224,7 +224,7 @@ Gets or sets the inner angle for the directional cone.
 
 > **get** **directionalConeOuterAngle**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:609](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L609)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:613](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L613)
 
 Gets or sets the outer angle for the directional cone.
 
@@ -236,7 +236,7 @@ Gets or sets the outer angle for the directional cone.
 
 > **set** **directionalConeOuterAngle**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:616](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L616)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:620](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L620)
 
 Gets or sets the outer angle for the directional cone.
 
@@ -258,7 +258,7 @@ Gets or sets the outer angle for the directional cone.
 
 > **get** **distanceModel**(): `"linear"` \| `"inverse"` \| `"exponential"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:149](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L149)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L152)
 
 Define the distance attenuation model the sound will follow.
 
@@ -274,7 +274,7 @@ https://doc.babylonjs.com/legacy/audio#creating-a-spatial-3d-sound
 
 > **set** **distanceModel**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L152)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L155)
 
 ##### Parameters
 
@@ -294,7 +294,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:152](https://
 
 > **get** **isPaused**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L115)
 
 Is this sound currently paused.
 
@@ -310,7 +310,7 @@ Is this sound currently paused.
 
 > **get** **isPlaying**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L108)
 
 Is this sound currently played.
 
@@ -326,7 +326,7 @@ Is this sound currently played.
 
 > **get** **loop**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L81)
 
 Does the sound loop after it finishes playing once.
 
@@ -338,7 +338,7 @@ Does the sound loop after it finishes playing once.
 
 > **set** **loop**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L82)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L85)
 
 ##### Parameters
 
@@ -358,7 +358,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:82](https://g
 
 > **get** **maxDistance**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L133)
 
 Define the max distance the sound should be heard (intensity just became 0 at this point).
 
@@ -374,7 +374,7 @@ https://doc.babylonjs.com/legacy/audio#creating-a-spatial-3d-sound
 
 > **set** **maxDistance**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L136)
 
 ##### Parameters
 
@@ -394,7 +394,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:133](https://
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L59)
 
 The name of the sound in the scene.
 
@@ -406,7 +406,7 @@ The name of the sound in the scene.
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L63)
 
 ##### Parameters
 
@@ -426,7 +426,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:60](https://g
 
 > **get** **spatialSound**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:186](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L186)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L189)
 
 Does this sound enables spatial sound.
 
@@ -442,7 +442,7 @@ https://doc.babylonjs.com/legacy/audio#creating-a-spatial-3d-sound
 
 > **set** **spatialSound**(`newValue`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:194](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L194)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L197)
 
 Does this sound enables spatial sound.
 
@@ -466,7 +466,7 @@ https://doc.babylonjs.com/legacy/audio#creating-a-spatial-3d-sound
 
 > **attachToMesh**(`transformNode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:846](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L846)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:850](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L850)
 
 Attach the sound to a dedicated mesh
 
@@ -492,7 +492,7 @@ https://doc.babylonjs.com/legacy/audio#attaching-a-sound-to-a-mesh
 
 > **clone**(): [`Nullable`](../type-aliases/Nullable.md)\<`Sound`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:893](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L893)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:897](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L897)
 
 Clone the current sound in the scene.
 
@@ -508,7 +508,7 @@ the new sound clone
 
 > **connectToSoundTrackAudioNode**(`soundTrackAudioNode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:540](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L540)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:544](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L544)
 
 Connect this sound to a sound track audio node like gain...
 
@@ -530,7 +530,7 @@ the sound track audio node to connect to
 
 > **detachFromMesh**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:868](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L868)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:872](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L872)
 
 Detach the sound from the previously attached mesh
 
@@ -548,7 +548,7 @@ https://doc.babylonjs.com/legacy/audio#attaching-a-sound-to-a-mesh
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:399](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L399)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:403](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L403)
 
 Release the sound and its associated resources
 
@@ -562,7 +562,7 @@ Release the sound and its associated resources
 
 > **getAudioBuffer**(): [`Nullable`](../type-aliases/Nullable.md)\<`AudioBuffer`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:921](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L921)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:925](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L925)
 
 Gets the current underlying audio buffer containing the data
 
@@ -578,7 +578,7 @@ the audio buffer
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:430](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L430)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:434](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L434)
 
 Get the current class name.
 
@@ -594,7 +594,7 @@ current class name
 
 > **getPlaybackRate**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:825](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L825)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:829](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L829)
 
 Gets the sound play back rate.
 
@@ -610,7 +610,7 @@ the  play back rate of the sound
 
 > **getSoundGain**(): [`Nullable`](../type-aliases/Nullable.md)\<`GainNode`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:941](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L941)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:945](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L945)
 
 Gets the WebAudio GainNode, gives you precise control over the gain of instances of this Sound.
 
@@ -626,7 +626,7 @@ the gain node
 
 > **getSoundSource**(): [`Nullable`](../type-aliases/Nullable.md)\<`AudioBufferSourceNode`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:932](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L932)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:936](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L936)
 
 Gets the WebAudio AudioBufferSourceNode, lets you keep track of and stop instances of this Sound.
 
@@ -642,7 +642,7 @@ the source node
 
 > **getVolume**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:837](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L837)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:841](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L841)
 
 Gets the volume of the sound.
 
@@ -658,7 +658,7 @@ the volume of the sound
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:422](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L422)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:426](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L426)
 
 Gets if the sounds is ready to be played or not.
 
@@ -674,7 +674,7 @@ true if ready, otherwise false
 
 > **pause**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:780](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L780)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:784](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L784)
 
 Put the sound in pause
 
@@ -688,7 +688,7 @@ Put the sound in pause
 
 > **play**(`time?`, `offset?`, `length?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:714](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L714)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:718](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L718)
 
 Play the sound
 
@@ -722,7 +722,7 @@ Play the sound
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:949](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L949)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:953](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L953)
 
 Serializes the Sound in a JSON representation
 
@@ -738,7 +738,7 @@ the JSON representation of the sound
 
 > **setAttenuationFunction**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:704](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L704)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:708](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L708)
 
 Sets a new custom attenuation function for the sound.
 
@@ -764,7 +764,7 @@ https://doc.babylonjs.com/legacy/audio#creating-your-own-custom-attenuation-func
 
 > **setAudioBuffer**(`audioBuffer`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:438](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L438)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:442](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L442)
 
 Sets the data of the sound from an audiobuffer
 
@@ -786,7 +786,7 @@ The audioBuffer containing the data
 
 > **setDirectionalCone**(`coneInnerAngle`, `coneOuterAngle`, `coneOuterGain`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:557](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L557)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:561](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L561)
 
 Transform this sound into a directional source
 
@@ -820,7 +820,7 @@ Volume of the sound outside the outer cone (between 0.0 and 1.0)
 
 > **setLocalDirectionToMesh**(`newLocalDirection`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:654](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L654)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:658](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L658)
 
 Sets the local direction of the emitter if spatial sound is enabled
 
@@ -842,7 +842,7 @@ Defines the new local direction
 
 > **setPlaybackRate**(`newPlaybackRate`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:815](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L815)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:819](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L819)
 
 Set the sound play back rate
 
@@ -864,7 +864,7 @@ Define the playback rate the sound should be played at
 
 > **setPosition**(`newPosition`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:636](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L636)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:640](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L640)
 
 Sets the position of the emitter if spatial sound is enabled
 
@@ -886,7 +886,7 @@ Defines the new position
 
 > **setVolume**(`newVolume`, `time?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:798](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L798)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:802](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L802)
 
 Sets a dedicated volume for this sounds
 
@@ -914,7 +914,7 @@ Define time for gradual change to new volume
 
 > **stop**(`time?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:763](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L763)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:767](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L767)
 
 Stop the sound
 
@@ -936,7 +936,7 @@ Stop the sound
 
 > **switchPanningModelToEqualPower**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:529](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L529)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:533](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L533)
 
 Switch the panning model to Equal Power:
 Represents the equal-power panning algorithm, generally regarded as simple and efficient. equalpower is the default value.
@@ -955,7 +955,7 @@ https://doc.babylonjs.com/legacy/audio#creating-a-spatial-3d-sound
 
 > **switchPanningModelToHRTF**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:517](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L517)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:521](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L521)
 
 Switch the panning model to HRTF:
 Renders a stereo output of higher quality than equalpower — it uses a convolution with measured impulse responses from human subjects.
@@ -974,7 +974,7 @@ https://doc.babylonjs.com/legacy/audio#creating-a-spatial-3d-sound
 
 > **updateOptions**(`options`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:453](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L453)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:457](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L457)
 
 Updates the current sounds options such as maxdistance, loop...
 
@@ -996,7 +996,7 @@ A JSON object containing values named as the object properties
 
 > `static` **Parse**(`parsedSound`, `scene`, `rootUrl`, `sourceSound?`): `Sound`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.ts:994](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/sound.ts#L994)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/sound.pure.ts:998](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/sound.pure.ts#L998)
 
 Parse a JSON representation of a sound to instantiate in a given scene
 

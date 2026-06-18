@@ -6,7 +6,7 @@
 
 # Interface: Behavior\<T\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:7](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/behavior.ts#L7)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:7](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/behavior.ts#L7)
 
 Interface used to define a behavior
 
@@ -22,7 +22,7 @@ Interface used to define a behavior
 
 > **attachedNode**: [`Nullable`](../type-aliases/Nullable.md)\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/behavior.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/behavior.ts#L27)
 
 Gets the current attached target
 
@@ -32,7 +32,7 @@ Gets the current attached target
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/behavior.ts#L9)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/behavior.ts#L9)
 
 gets or sets behavior's name
 
@@ -42,7 +42,7 @@ gets or sets behavior's name
 
 > **attach**(`target`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/behavior.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/behavior.ts#L19)
 
 Called when the behavior is attached to a target
 
@@ -64,7 +64,7 @@ defines the target where the behavior is attached to
 
 > **detach**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/behavior.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/behavior.ts#L23)
 
 Called when the behavior is detached from its target
 
@@ -78,7 +78,7 @@ Called when the behavior is detached from its target
 
 > **init**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/behavior.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/behavior.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/behavior.ts#L14)
 
 Function called when the behavior needs to be initialized (before attaching it to a target)
 

@@ -6,7 +6,7 @@
 
 # Class: Frustum
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.frustum.ts#L8)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.frustum.ts#L8)
 
 Represents a camera frustum
 
@@ -26,7 +26,7 @@ Represents a camera frustum
 
 > `static` **GetBottomPlaneToRef**(`transform`, `frustumPlane`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.frustum.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.frustum.ts#L98)
 
 Gets the bottom frustum plane transformed by the transform matrix
 
@@ -54,7 +54,7 @@ the resulting frustum plane
 
 > `static` **GetFarPlaneToRef**(`transform`, `frustumPlane`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.frustum.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.frustum.ts#L42)
 
 Gets the far frustum plane transformed by the transform matrix
 
@@ -82,7 +82,7 @@ the resulting frustum plane
 
 > `static` **GetLeftPlaneToRef**(`transform`, `frustumPlane`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.frustum.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.frustum.ts#L56)
 
 Gets the left frustum plane transformed by the transform matrix
 
@@ -110,7 +110,7 @@ the resulting frustum plane
 
 > `static` **GetNearPlaneToRef**(`transform`, `frustumPlane`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.frustum.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.frustum.ts#L28)
 
 Gets the near frustum plane transformed by the transform matrix
 
@@ -138,7 +138,7 @@ the resulting frustum plane
 
 > `static` **GetPlanes**(`transform`): [`Plane`](Plane.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.frustum.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.frustum.ts#L14)
 
 Gets the planes representing the frustum
 
@@ -162,7 +162,7 @@ a new array of 6 Frustum planes computed by the given transformation matrix.
 
 > `static` **GetPlanesToRef**(`transform`, `frustumPlanes`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.frustum.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.frustum.ts#L112)
 
 Sets the given array "frustumPlanes" with the 6 Frustum planes computed by the given transformation matrix.
 
@@ -190,7 +190,7 @@ the resulting frustum planes
 
 > `static` **GetRightPlaneToRef**(`transform`, `frustumPlane`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.frustum.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.frustum.ts#L70)
 
 Gets the right frustum plane transformed by the transform matrix
 
@@ -218,7 +218,7 @@ the resulting frustum plane
 
 > `static` **GetTopPlaneToRef**(`transform`, `frustumPlane`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.frustum.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.frustum.ts#L84)
 
 Gets the top frustum plane transformed by the transform matrix
 
@@ -246,7 +246,7 @@ the resulting frustum plane
 
 > `static` **IsPointInFrustum**(`point`, `frustumPlanes`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.frustum.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.frustum.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.frustum.ts#L138)
 
 Tests if a point is located between the frustum planes.
 

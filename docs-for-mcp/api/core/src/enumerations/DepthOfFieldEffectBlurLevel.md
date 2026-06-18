@@ -6,7 +6,7 @@
 
 # Enumeration: DepthOfFieldEffectBlurLevel
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L18)
 
 Specifies the level of max blur that should be applied when using the depth of field effect
 
@@ -16,7 +16,7 @@ Specifies the level of max blur that should be applied when using the depth of f
 
 > **High**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L30)
 
 Large blur
 
@@ -26,7 +26,7 @@ Large blur
 
 > **Low**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L22)
 
 Subtle blur
 
@@ -36,6 +36,6 @@ Subtle blur
 
 > **Medium**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L26)
 
 Medium blur

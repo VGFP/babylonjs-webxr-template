@@ -6,7 +6,7 @@
 
 # Class: MultiPointerScaleBehavior
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts#L12)
 
 A behavior that when attached to a mesh will allow the mesh to be scaled
 
@@ -20,7 +20,7 @@ A behavior that when attached to a mesh will allow the mesh to be scaled
 
 > **new MultiPointerScaleBehavior**(): `MultiPointerScaleBehavior`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts#L31)
 
 Instantiate a new behavior that when attached to a mesh will allow the mesh to be scaled
 
@@ -36,7 +36,7 @@ Instantiate a new behavior that when attached to a mesh will allow the mesh to b
 
 > **get** **attachedNode**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Mesh`](Mesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts#L24)
 
 Attached node of this behavior
 
@@ -58,7 +58,7 @@ Gets the current attached target
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts#L42)
 
 The name of the behavior
 
@@ -78,7 +78,7 @@ gets or sets behavior's name
 
 > **attach**(`ownerNode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts#L59)
 
 Attaches the scale behavior the passed in mesh
 
@@ -104,7 +104,7 @@ The mesh that will be scaled around once attached
 
 > **detach**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts#L111)
 
 Detaches the behavior from the mesh
 
@@ -122,7 +122,7 @@ Detaches the behavior from the mesh
 
 > **init**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/multiPointerScaleBehavior.ts#L49)
 
 Initializes the behavior
 

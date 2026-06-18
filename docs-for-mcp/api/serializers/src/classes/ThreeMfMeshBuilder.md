@@ -6,7 +6,7 @@
 
 # Class: ThreeMfMeshBuilder
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L148)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L148)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **new ThreeMfMeshBuilder**(`id`): `ThreeMfMeshBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L162)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L162)
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > `optional` **\_th?**: [`TriangleHandler`](../type-aliases/TriangleHandler.md)
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:156](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L156)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L156)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > `optional` **\_vh?**: [`VertexHandler`](../type-aliases/VertexHandler.md)
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L152)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L152)
 
 ## Methods
 
@@ -56,7 +56,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **build**(): [`I3mfObject`](../interfaces/I3mfObject.md)
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L105)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L105)
 
 #### Returns
 
@@ -72,7 +72,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **reset**(`id`, `type`): `void`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L114)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L114)
 
 #### Parameters
 
@@ -98,7 +98,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **withData**(`data`): `ThreeMfMeshBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L183)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L183)
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **withMaterial**(`id`, `i`): `ThreeMfMeshBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:194](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L194)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L194)
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **withName**(`name`): [`ThreeMfObjectBuilder`](ThreeMfObjectBuilder.md)
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L74)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L74)
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **withPostProcessHandlers**(`vertex`, `triangle?`): `ThreeMfMeshBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L172)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L172)
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **withProperty**(`id`, `index?`): [`ThreeMfObjectBuilder`](ThreeMfObjectBuilder.md)
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L95)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L95)
 
 #### Parameters
 
@@ -208,7 +208,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **withThumbnail**(`thumbnail`): [`ThreeMfObjectBuilder`](ThreeMfObjectBuilder.md)
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L84)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L84)
 
 #### Parameters
 

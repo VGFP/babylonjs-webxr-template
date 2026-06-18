@@ -6,7 +6,7 @@
 
 # Enumeration: TonemappingOperator
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts:6](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts#L6)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts#L6)
 
 Defines operator used for tonemapping
 
@@ -16,7 +16,7 @@ Defines operator used for tonemapping
 
 > **Hable**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts#L8)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts#L8)
 
 Hable
 
@@ -26,7 +26,7 @@ Hable
 
 > **HejiDawson**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts#L12)
 
 HejiDawson
 
@@ -36,7 +36,7 @@ HejiDawson
 
 > **Photographic**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts#L14)
 
 Photographic
 
@@ -46,6 +46,6 @@ Photographic
 
 > **Reinhard**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts:10](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts#L10)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinTonemapPostProcess.ts#L10)
 
 Reinhard

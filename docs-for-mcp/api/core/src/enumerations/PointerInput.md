@@ -6,7 +6,7 @@
 
 # Enumeration: PointerInput
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L28)
 
 Enum for All Pointers (Touch/Mouse)
 
@@ -16,7 +16,7 @@ Enum for All Pointers (Touch/Mouse)
 
 > **BrowserBack**: `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L40)
 
 Browser Back
 
@@ -26,7 +26,7 @@ Browser Back
 
 > **BrowserForward**: `6`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L42)
 
 Browser Forward
 
@@ -36,7 +36,7 @@ Browser Forward
 
 > **Horizontal**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L30)
 
 Horizontal Axis (Not used in events/observables; only in polling)
 
@@ -46,7 +46,7 @@ Horizontal Axis (Not used in events/observables; only in polling)
 
 > **LeftClick**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L34)
 
 Left Click or Touch
 
@@ -56,7 +56,7 @@ Left Click or Touch
 
 > **MiddleClick**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L36)
 
 Middle Click
 
@@ -66,7 +66,7 @@ Middle Click
 
 > **MouseWheelX**: `7`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L44)
 
 Mouse Wheel X
 
@@ -76,7 +76,7 @@ Mouse Wheel X
 
 > **MouseWheelY**: `8`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L46)
 
 Mouse Wheel Y
 
@@ -86,7 +86,7 @@ Mouse Wheel Y
 
 > **MouseWheelZ**: `9`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L48)
 
 Mouse Wheel Z
 
@@ -96,7 +96,7 @@ Mouse Wheel Z
 
 > **Move**: `12`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L50)
 
 Used in events/observables to identify if x/y changes occurred
 
@@ -106,7 +106,7 @@ Used in events/observables to identify if x/y changes occurred
 
 > **RightClick**: `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L38)
 
 Right Click
 
@@ -116,6 +116,6 @@ Right Click
 
 > **Vertical**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L32)
 
 Vertical Axis (Not used in events/observables; only in polling)

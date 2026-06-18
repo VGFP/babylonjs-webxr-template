@@ -6,7 +6,7 @@
 
 # Class: TeleportInBlock
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts#L13)
 
 Defines a block used to teleport a value to an endpoint
 
@@ -20,7 +20,7 @@ Defines a block used to teleport a value to an endpoint
 
 > **new TeleportInBlock**(`name`): `TeleportInBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts#L25)
 
 Create a new TeleportInBlock
 
@@ -46,7 +46,7 @@ defines the block name
 
 > **comments**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L115)
 
 A free comment about the block
 
@@ -60,7 +60,7 @@ A free comment about the block
 
 > **onBuildObservable**: [`Observable`](Observable.md)\<[`NodeGeometryBlock`](NodeGeometryBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L30)
 
 Gets an observable raised when the block is built
 
@@ -74,7 +74,7 @@ Gets an observable raised when the block is built
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L63)
 
 Gets or sets the unique id of the node
 
@@ -88,7 +88,7 @@ Gets or sets the unique id of the node
 
 > **visibleOnFrame**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L118)
 
 Gets or sets a boolean indicating that this input can be edited from a collapsed frame
 
@@ -104,7 +104,7 @@ Gets or sets a boolean indicating that this input can be edited from a collapsed
 
 > **get** **buildExecutionTime**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L44)
 
 Gets the time spent to build this block (in ms)
 
@@ -124,7 +124,7 @@ Gets the time spent to build this block (in ms)
 
 > **get** **endpoints**(): [`TeleportOutBlock`](TeleportOutBlock.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts#L17)
 
 Gets the list of attached endpoints
 
@@ -140,7 +140,7 @@ Gets the list of attached endpoints
 
 > **get** **input**(): [`NodeGeometryConnectionPoint`](NodeGeometryConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts#L43)
 
 Gets the input component
 
@@ -156,7 +156,7 @@ Gets the input component
 
 > **get** **inputs**(): [`NodeGeometryConnectionPoint`](NodeGeometryConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L51)
 
 Gets the list of input points
 
@@ -176,7 +176,7 @@ Gets the list of input points
 
 > **get** **isDebug**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L100)
 
 Gets a boolean indicating if this block is a debug block
 
@@ -196,7 +196,7 @@ Gets a boolean indicating if this block is a debug block
 
 > **get** **isInput**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L79)
 
 Gets a boolean indicating if this block is an input
 
@@ -216,7 +216,7 @@ Gets a boolean indicating if this block is an input
 
 > **get** **isTeleportIn**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L93)
 
 Gets a boolean indicating if this block is a teleport in
 
@@ -236,7 +236,7 @@ Gets a boolean indicating if this block is a teleport in
 
 > **get** **isTeleportOut**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L86)
 
 Gets a boolean indicating if this block is a teleport out
 
@@ -256,7 +256,7 @@ Gets a boolean indicating if this block is a teleport out
 
 > **get** **isUnique**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L107)
 
 Gets a boolean indicating that this block can only be used once per NodeGeometry
 
@@ -276,7 +276,7 @@ Gets a boolean indicating that this block can only be used once per NodeGeometry
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L68)
 
 Gets or set the name of the block
 
@@ -288,7 +288,7 @@ Gets or set the name of the block
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L72)
 
 ##### Parameters
 
@@ -312,7 +312,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBloc
 
 > **get** **outputs**(): [`NodeGeometryConnectionPoint`](NodeGeometryConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L56)
 
 Gets the list of output points
 
@@ -330,7 +330,7 @@ Gets the list of output points
 
 > **attachToEndpoint**(`endpoint`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts#L123)
 
 Add an enpoint to this block
 
@@ -352,7 +352,7 @@ define the endpoint to attach to
 
 > **autoConfigure**(`_nodeGeometry`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:353](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L353)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:353](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L353)
 
 Lets the block try to connect some inputs automatically
 
@@ -378,7 +378,7 @@ defines the node geometry to use for auto connection
 
 > **build**(`state`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:283](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L283)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L283)
 
 Build the current node and generate the vertex data
 
@@ -406,7 +406,7 @@ true if already built
 
 > **clone**(): [`NodeGeometryBlock`](NodeGeometryBlock.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:574](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L574)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:574](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L574)
 
 Clone the current block to a new identical block
 
@@ -426,7 +426,7 @@ a copy of the current block
 
 > **detachFromEndpoint**(`endpoint`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts#L137)
 
 Remove enpoint from this block
 
@@ -448,7 +448,7 @@ define the endpoint to remove
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:591](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L591)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:591](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L591)
 
 Release resources
 
@@ -466,7 +466,7 @@ Release resources
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts#L36)
 
 Gets the current class name
 
@@ -486,7 +486,7 @@ the class name
 
 > **getDescendantOfPredicate**(`predicate`): [`Nullable`](../type-aliases/Nullable.md)\<[`NodeGeometryBlock`](NodeGeometryBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts#L103)
 
 Get the first descendant using a predicate
 
@@ -514,7 +514,7 @@ descendant or null if none found
 
 > **getInputByName**(`name`): [`NodeGeometryConnectionPoint`](NodeGeometryConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:362](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L362)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:362](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L362)
 
 Find an input by its name
 
@@ -542,7 +542,7 @@ the input or null if not found
 
 > **getOutputByName**(`name`): [`NodeGeometryConnectionPoint`](NodeGeometryConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:377](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L377)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:377](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L377)
 
 Find an output by its name
 
@@ -570,7 +570,7 @@ the output or null if not found
 
 > **initialize**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:345](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L345)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L345)
 
 Initialize the block and prepare the context for build
 
@@ -588,7 +588,7 @@ Initialize the block and prepare the context for build
 
 > **isAnAncestorOf**(`block`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts#L82)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts#L84)
 
 Checks if the current block is an ancestor of a given block
 
@@ -616,7 +616,7 @@ true if block is a descendant
 
 > **isAnAncestorOfType**(`type`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Teleport/teleportInBlock.pure.ts#L65)
 
 Checks if the current block is an ancestor of a given type
 
@@ -644,7 +644,7 @@ true if block is a descendant
 
 > **registerInput**(`name`, `type`, `isOptional?`, `value?`, `valueMin?`, `valueMax?`): `TeleportInBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:238](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L238)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L238)
 
 Register a new input. Must be called inside a block constructor
 
@@ -702,7 +702,7 @@ the current block
 
 > **registerOutput**(`name`, `type`, `point?`): `TeleportInBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:259](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L259)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:259](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L259)
 
 Register a new output. Must be called inside a block constructor
 
@@ -742,7 +742,7 @@ the current block
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:391](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L391)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:391](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L391)
 
 Serializes this block in a JSON representation
 

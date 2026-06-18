@@ -6,7 +6,7 @@
 
 # Class: InputBlock
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L62)
 
 Block used to expose an input value
 
@@ -20,7 +20,7 @@ Block used to expose an input value
 
 > **new InputBlock**(`name`, `target?`, `type?`): `InputBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L218)
 
 Creates a new InputBlock
 
@@ -58,7 +58,7 @@ defines the type of the input (can be set to NodeMaterialBlockConnectionPointTyp
 
 > **comments**: `string` = `""`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L104)
 
 Gets or sets the comments associated with this block
 
@@ -72,7 +72,7 @@ Gets or sets the comments associated with this block
 
 > **convertToGammaSpace**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L96)
 
 Gets or sets a boolean indicating if content needs to be converted to gamma space (for color3/4 only)
 
@@ -82,7 +82,7 @@ Gets or sets a boolean indicating if content needs to be converted to gamma spac
 
 > **convertToLinearSpace**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L99)
 
 Gets or sets a boolean indicating if content needs to be converted to linear space (for color3/4 only)
 
@@ -92,7 +92,7 @@ Gets or sets a boolean indicating if content needs to be converted to linear spa
 
 > **groupInInspector**: `string` = `""`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L90)
 
 Gets or sets the group to use to display this block in the Inspector
 
@@ -102,7 +102,7 @@ Gets or sets the group to use to display this block in the Inspector
 
 > **inputsAreExclusive**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L55)
 
 Gets or sets a boolean indicating that only one input can be connected at a time
 
@@ -116,7 +116,7 @@ Gets or sets a boolean indicating that only one input can be connected at a time
 
 > **isBoolean**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L78)
 
 Gets or set a value indicating that this input can only get 0 and 1 values
 
@@ -126,7 +126,7 @@ Gets or set a value indicating that this input can only get 0 and 1 values
 
 > **isConstant**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L87)
 
 Gets or sets a boolean indicating that the value of this input will not change after a build
 
@@ -136,7 +136,7 @@ Gets or sets a boolean indicating that the value of this input will not change a
 
 > **matrixMode**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L81)
 
 Gets or sets a value used by the Node Material editor to determine how to configure the current value if it is a matrix
 
@@ -146,7 +146,7 @@ Gets or sets a value used by the Node Material editor to determine how to config
 
 > **max**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L75)
 
 Gets or set a value used to limit the range of float values
 
@@ -156,7 +156,7 @@ Gets or set a value used to limit the range of float values
 
 > **min**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L72)
 
 Gets or set a value used to limit the range of float values
 
@@ -166,7 +166,7 @@ Gets or set a value used to limit the range of float values
 
 > **onCodeIsReadyObservable**: [`Observable`](Observable.md)\<[`NodeMaterialBlock`](NodeMaterialBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L52)
 
 Observable raised when the block code is ready (if the code loading is async)
 
@@ -180,7 +180,7 @@ Observable raised when the block code is ready (if the code loading is async)
 
 > **onValueChangedObservable**: [`Observable`](Observable.md)\<`InputBlock`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L93)
 
 Gets an observable raised when the value is changed
 
@@ -190,7 +190,7 @@ Gets an observable raised when the value is changed
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L99)
 
 Gets or sets the unique id of the node
 
@@ -204,7 +204,7 @@ Gets or sets the unique id of the node
 
 > **visibleInInspector**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L216)
 
 Gets or sets a boolean indicating that this input can be edited in the Inspector (false by default)
 
@@ -218,7 +218,7 @@ Gets or sets a boolean indicating that this input can be edited in the Inspector
 
 > **visibleOnFrame**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L219)
 
 Gets or sets a boolean indicating that this input can be edited from a collapsed frame
 
@@ -234,7 +234,7 @@ Gets or sets a boolean indicating that this input can be edited from a collapsed
 
 > **get** **animationType**(): [`AnimatedInputBlockTypes`](../enumerations/AnimatedInputBlockTypes.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:324](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L324)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:326](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L326)
 
 Gets or sets the type of animation applied to the input
 
@@ -246,7 +246,7 @@ Gets or sets the type of animation applied to the input
 
 > **set** **animationType**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:328](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L328)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:330](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L330)
 
 ##### Parameters
 
@@ -266,7 +266,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/
 
 > **get** **associatedVariableName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:315](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L315)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:317](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L317)
 
 Gets or sets the associated variable name in the shader
 
@@ -278,7 +278,7 @@ Gets or sets the associated variable name in the shader
 
 > **set** **associatedVariableName**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:319](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L319)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:321](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L321)
 
 ##### Parameters
 
@@ -298,7 +298,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/
 
 > **get** **buildId**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L151)
 
 Gets or sets the build Id
 
@@ -310,7 +310,7 @@ Gets or sets the build Id
 
 > **set** **buildId**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L155)
 
 ##### Parameters
 
@@ -334,7 +334,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialB
 
 > **get** **codeIsReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L81)
 
 Gets a boolean indicating that this block has is code ready to be used
 
@@ -354,7 +354,7 @@ Gets a boolean indicating that this block has is code ready to be used
 
 > **get** **declarationVariableName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:308](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L308)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L310)
 
 Gets the declaration variable name in the shader
 
@@ -370,7 +370,7 @@ Gets the declaration variable name in the shader
 
 > **get** **inputs**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L176)
 
 Gets the list of input points
 
@@ -390,7 +390,7 @@ Gets the list of input points
 
 > **get** **isAttribute**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:358](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L358)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:360](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L360)
 
 Gets or sets a boolean indicating that this connection point is coming from an attribute.
 In this case the connection point name must be the name of the attribute to use
@@ -404,7 +404,7 @@ Can only be set on inputs
 
 > **set** **isAttribute**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:362](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L362)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:364](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L364)
 
 ##### Parameters
 
@@ -424,7 +424,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/
 
 > **get** **isFinalMerger**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L116)
 
 Gets a boolean indicating that this block is an end block (e.g. it is generating a system value)
 
@@ -444,7 +444,7 @@ Gets a boolean indicating that this block is an end block (e.g. it is generating
 
 > **get** **isInput**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L123)
 
 Gets a boolean indicating that this block is an input (e.g. it sends data to the shader)
 
@@ -464,7 +464,7 @@ Gets a boolean indicating that this block is an input (e.g. it sends data to the
 
 > **get** **isLoop**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L144)
 
 Gets a boolean indicating if this block is a loop
 
@@ -484,7 +484,7 @@ Gets a boolean indicating if this block is a loop
 
 > **get** **isSystemValue**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:383](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L383)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:385](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L385)
 
 Gets a boolean indicating that the current connection point is a system value
 
@@ -500,7 +500,7 @@ Gets a boolean indicating that the current connection point is a system value
 
 > **get** **isTeleportIn**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L137)
 
 Gets a boolean indicating if this block is a teleport in
 
@@ -520,7 +520,7 @@ Gets a boolean indicating if this block is a teleport in
 
 > **get** **isTeleportOut**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L130)
 
 Gets a boolean indicating if this block is a teleport out
 
@@ -540,7 +540,7 @@ Gets a boolean indicating if this block is a teleport out
 
 > **get** **isUndefined**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:335](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L335)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:337](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L337)
 
 Gets a boolean indicating that this connection point not defined yet
 
@@ -556,7 +556,7 @@ Gets a boolean indicating that this connection point not defined yet
 
 > **get** **isUniform**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:344](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L344)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:346](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L346)
 
 Gets or sets a boolean indicating that this connection point is coming from an uniform.
 In this case the connection point name must be the name of the uniform to use.
@@ -570,7 +570,7 @@ Can only be set on inputs
 
 > **set** **isUniform**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:348](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L348)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L350)
 
 ##### Parameters
 
@@ -590,7 +590,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/
 
 > **get** **isUnique**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L109)
 
 Gets a boolean indicating that this block can only be used once per NodeMaterial
 
@@ -610,7 +610,7 @@ Gets a boolean indicating that this block can only be used once per NodeMaterial
 
 > **get** **isVarying**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:371](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L371)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:373](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L373)
 
 Gets or sets a boolean indicating that this connection point is generating a varying variable.
 Can only be set on exit points
@@ -623,7 +623,7 @@ Can only be set on exit points
 
 > **set** **isVarying**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:375](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L375)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:377](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L377)
 
 ##### Parameters
 
@@ -643,7 +643,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L74)
 
 Gets the name of the block
 
@@ -655,7 +655,7 @@ Gets the name of the block
 
 > **set** **name**(`newName`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L88)
 
 Sets the name of the block. Will check if the name is valid.
 
@@ -681,7 +681,7 @@ Sets the name of the block. Will check if the name is valid.
 
 > **get** **output**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:241](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L241)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L243)
 
 Gets the output component
 
@@ -697,7 +697,7 @@ Gets the output component
 
 > **get** **outputs**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:181](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L181)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:181](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L181)
 
 Gets the list of output points
 
@@ -717,7 +717,7 @@ Gets the list of output points
 
 > **get** **systemValue**(): [`Nullable`](../type-aliases/Nullable.md)\<[`NodeMaterialSystemValues`](../enumerations/NodeMaterialSystemValues.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:390](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L390)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:392](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L392)
 
 Gets or sets the current well known value or null if not defined as a system value
 
@@ -729,7 +729,7 @@ Gets or sets the current well known value or null if not defined as a system val
 
 > **set** **systemValue**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:394](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L394)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:396](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L396)
 
 ##### Parameters
 
@@ -749,7 +749,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/
 
 > **get** **target**(): [`NodeMaterialBlockTargets`](../enumerations/NodeMaterialBlockTargets.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L162)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L162)
 
 Gets or sets the target of the block
 
@@ -761,7 +761,7 @@ Gets or sets the target of the block
 
 > **set** **target**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L166)
 
 ##### Parameters
 
@@ -785,7 +785,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialB
 
 > **get** **type**(): [`NodeMaterialBlockConnectionPointTypes`](../enumerations/NodeMaterialBlockConnectionPointTypes.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L104)
 
 Gets or sets the connection point type (default is float)
 
@@ -801,7 +801,7 @@ Gets or sets the connection point type (default is float)
 
 > **get** **value**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:272](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L272)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:274](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L274)
 
 Gets or sets the value of that point.
 Please note that this value will be ignored if valueCallback is defined
@@ -814,7 +814,7 @@ Please note that this value will be ignored if valueCallback is defined
 
 > **set** **value**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:276](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L276)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:278](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L278)
 
 ##### Parameters
 
@@ -834,7 +834,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/
 
 > **get** **valueCallback**(): () => `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:296](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L296)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L298)
 
 Gets or sets a callback used to get the value of that point.
 Please note that setting this value will force the connection point to ignore the value property
@@ -847,7 +847,7 @@ Please note that setting this value will force the connection point to ignore th
 
 > **set** **valueCallback**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:300](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L300)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L302)
 
 ##### Parameters
 
@@ -867,7 +867,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/
 
 > **get** **willBeGeneratedIntoVertexShaderFromFragmentShader**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:551](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L551)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:551](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L551)
 
 Gets a boolean indicating that the code of this block will be promoted to vertex shader even if connected to fragment output
 
@@ -885,7 +885,7 @@ Gets a boolean indicating that the code of this block will be promoted to vertex
 
 > **\_deserialize**(`serializationObject`, `scene`, `rootUrl`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:918](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L918)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:920](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L920)
 
 Deserializes the block
 
@@ -923,7 +923,7 @@ defines the root URL
 
 > **animate**(`scene`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:412](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L412)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:414](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L414)
 
 Animate the input if animationType !== None
 
@@ -945,7 +945,7 @@ defines the rendering scene
 
 > **autoConfigure**(`material`, `additionalFilteringInfo?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:535](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L535)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:535](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L535)
 
 Lets the block try to connect some inputs automatically
 
@@ -977,7 +977,7 @@ optional additional filtering condition when looking for compatible blocks
 
 > **bind**(`effect`, `nodeMaterial`, `mesh?`, `subMesh?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:276](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L276)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L276)
 
 Bind data to effect. Will only be called for blocks with isBindable === true
 
@@ -1021,7 +1021,7 @@ defines the submesh that will be rendered
 
 > **build**(`state`, `activeBlocks`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:686](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L686)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:686](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L686)
 
 Compile the current node and generate the shader code
 
@@ -1055,7 +1055,7 @@ true if already built
 
 > **clone**(`scene`, `rootUrl?`): [`NodeMaterialBlock`](NodeMaterialBlock.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:909](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L909)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:909](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L909)
 
 Clone the current block to a new identical block
 
@@ -1089,7 +1089,7 @@ a copy of the current block
 
 > **connectTo**(`other`, `options?`): `InputBlock` \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:444](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L444)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:444](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L444)
 
 Connect current block with another block
 
@@ -1133,7 +1133,7 @@ the current block
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:873](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L873)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:875](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L875)
 
 Releases the resources held by the block
 
@@ -1151,7 +1151,7 @@ Releases the resources held by the block
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:404](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L404)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:406](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L406)
 
 Gets the current class name
 
@@ -1171,7 +1171,7 @@ the class name
 
 > **getFirstAvailableInput**(`forOutput?`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:367](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L367)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:367](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L367)
 
 Will return the first available input e.g. the first one which is not an uniform or an attribute
 
@@ -1199,7 +1199,7 @@ the first available input or null
 
 > **getFirstAvailableOutput**(`forBlock?`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:389](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L389)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:389](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L389)
 
 Will return the first available output e.g. the first one which is not yet connected and not a varying
 
@@ -1227,7 +1227,7 @@ the first available input or null
 
 > **getInputByName**(`name`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L190)
 
 Find an input by its name
 
@@ -1255,7 +1255,7 @@ the input or null if not found
 
 > **getOutputByName**(`name`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L205)
 
 Find an output by its name
 
@@ -1283,7 +1283,7 @@ the output or null if not found
 
 > **getSiblingOutput**(`current`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:404](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L404)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:404](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L404)
 
 Gets the sibling of the given output
 
@@ -1311,7 +1311,7 @@ the next output in the list or null
 
 > **initialize**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:451](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L451)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:453](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L453)
 
 Initialize the block
 
@@ -1329,7 +1329,7 @@ Initialize the block
 
 > **initializeDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:512](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L512)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:512](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L512)
 
 Initialize defines for shader compilation
 
@@ -1355,7 +1355,7 @@ defines the material defines to update
 
 > **isAnAncestorOf**(`block`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:419](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L419)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:419](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L419)
 
 Checks if the current block is an ancestor of a given block
 
@@ -1383,7 +1383,7 @@ true if block is a descendant
 
 > **isConnectedInFragmentShader**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:310](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L310)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L310)
 
 Gets a boolean indicating that this connection will be used in the fragment shader
 
@@ -1403,7 +1403,7 @@ true if connected in fragment shader
 
 > **isReady**(`mesh`, `nodeMaterial`, `defines`, `useInstances?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:582](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L582)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:582](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L582)
 
 Checks if the block is ready
 
@@ -1449,7 +1449,7 @@ true if the block is ready
 
 > **prepareDefines**(`defines`, `nodeMaterial`, `mesh?`, `useInstances?`, `subMesh?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:525](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L525)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:525](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L525)
 
 Update defines for shader compilation
 
@@ -1499,7 +1499,7 @@ defines which submesh to render
 
 > **provideFallbacks**(`fallbacks`, `mesh?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:503](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L503)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:503](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L503)
 
 Add potential fallbacks if shader compilation fails
 
@@ -1531,7 +1531,7 @@ defines the mesh to be rendered
 
 > **registerInput**(`name`, `type`, `isOptional?`, `target?`, `point?`): `InputBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L323)
 
 Register a new input. Must be called inside a block constructor
 
@@ -1583,7 +1583,7 @@ the current block
 
 > **registerOutput**(`name`, `type`, `target?`, `point?`): `InputBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:350](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L350)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L350)
 
 Register a new output. Must be called inside a block constructor
 
@@ -1629,7 +1629,7 @@ the current block
 
 > **replaceRepeatableContent**(`vertexShaderState`, `defines`, `mesh?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:546](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L546)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:546](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L546)
 
 Function called when a block is declared as repeatable content generator
 
@@ -1667,7 +1667,7 @@ defines the mesh to be rendered
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:883](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L883)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:885](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L885)
 
 Serializes the block
 
@@ -1687,7 +1687,7 @@ the serialized object
 
 > **setAsAttribute**(`attributeName?`): `InputBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:250](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L250)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:252](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L252)
 
 Set the source of this connection point to a vertex attribute
 
@@ -1711,7 +1711,7 @@ the current connection point
 
 > **setAsSystemValue**(`value`): `InputBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:263](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L263)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:265](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L265)
 
 Set the source of this connection point to a system value
 
@@ -1735,7 +1735,7 @@ the current connection point
 
 > **setDefaultValue**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:458](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L458)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:460](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L460)
 
 Set the input block to its default value (based on its type)
 
@@ -1749,7 +1749,7 @@ Set the input block to its default value (based on its type)
 
 > **updateUniformsAndSamples**(`state`, `nodeMaterial`, `defines`, `uniformBuffers`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:493](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L493)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:493](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L493)
 
 Add uniforms, samplers and uniform buffers at compilation time
 
@@ -1793,7 +1793,7 @@ defines the list of uniform buffer names
 
 > **validateBlockName**(`newName`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts:231](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.ts#L231)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts:233](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/inputBlock.pure.ts#L233)
 
 Validates if a name is a reserve word.
 

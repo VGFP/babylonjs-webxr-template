@@ -6,7 +6,7 @@
 
 # Interface: IPipelineContext
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L9)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L9)
 
 Class used to store and describe the pipeline context associated with an effect
 
@@ -16,7 +16,7 @@ Class used to store and describe the pipeline context associated with an effect
 
 > `readonly` **isAsync**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L13)
 
 Gets a boolean indicating that this pipeline context is supporting asynchronous creating
 
@@ -26,7 +26,7 @@ Gets a boolean indicating that this pipeline context is supporting asynchronous 
 
 > `readonly` **isReady**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L17)
 
 Gets a boolean indicating that the context is ready to be used (like shaders / pipelines are compiled and ready for instance)
 
@@ -36,7 +36,7 @@ Gets a boolean indicating that the context is ready to be used (like shaders / p
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L50)
 
 Releases the resources associated with the pipeline.
 
@@ -50,7 +50,7 @@ Releases the resources associated with the pipeline.
 
 > **setArray**(`uniformName`, `array`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:184](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L184)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:184](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L184)
 
 Sets an array on a uniform variable.
 
@@ -78,7 +78,7 @@ array to be set.
 
 > **setArray2**(`uniformName`, `array`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L191)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:191](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L191)
 
 Sets an array 2 on a uniform variable. (Array is specified as single array eg. [1,2,3,4] will result in [[1,2],[3,4]] in the shader)
 
@@ -106,7 +106,7 @@ array to be set.
 
 > **setArray3**(`uniformName`, `array`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:198](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L198)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L198)
 
 Sets an array 3 on a uniform variable. (Array is specified as single array eg. [1,2,3,4,5,6] will result in [[1,2,3],[4,5,6]] in the shader)
 
@@ -134,7 +134,7 @@ array to be set.
 
 > **setArray4**(`uniformName`, `array`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L205)
 
 Sets an array 4 on a uniform variable. (Array is specified as single array eg. [1,2,3,4,5,6,7,8] will result in [[1,2,3,4],[5,6,7,8]] in the shader)
 
@@ -162,7 +162,7 @@ array to be set.
 
 > **setColor3**(`uniformName`, `color3`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:302](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L302)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L302)
 
 Sets a Color3 on a uniform variable.
 
@@ -190,7 +190,7 @@ Value to be set.
 
 > **setColor4**(`uniformName`, `color3`, `alpha`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:310](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L310)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L310)
 
 Sets a Color4 on a uniform variable.
 
@@ -224,7 +224,7 @@ Alpha value to be set.
 
 > **setDirectColor4**(`uniformName`, `color4`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:317](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L317)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:317](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L317)
 
 Sets a Color4 on a uniform variable
 
@@ -252,7 +252,7 @@ defines the value to be set
 
 > **setEngine**\<`T`\>(`engine`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L53)
 
 set the engine, in case it is not a part of the constructor
 
@@ -278,7 +278,7 @@ set the engine, in case it is not a part of the constructor
 
 > **setFloat**(`uniformName`, `value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:240](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L240)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:240](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L240)
 
 Sets a float on a uniform variable.
 
@@ -306,7 +306,7 @@ value to be set.
 
 > **setFloat2**(`uniformName`, `x`, `y`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L255)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:255](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L255)
 
 Sets a float2 on a uniform variable.
 
@@ -340,7 +340,7 @@ Second float in float2.
 
 > **setFloat3**(`uniformName`, `x`, `y`, `z`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L271)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:271](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L271)
 
 Sets a float3 on a uniform variable.
 
@@ -380,7 +380,7 @@ Third float in float3.
 
 > **setFloat4**(`uniformName`, `x`, `y`, `z`, `w`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:295](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L295)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:295](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L295)
 
 Sets a float4 on a uniform variable.
 
@@ -426,7 +426,7 @@ Fourth float in float4.
 
 > **setInt**(`uniformName`, `value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L60)
 
 Sets an integer value on a uniform variable.
 
@@ -454,7 +454,7 @@ Value to be set.
 
 > **setInt2**(`uniformName`, `x`, `y`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L68)
 
 Sets an int2 value on a uniform variable.
 
@@ -488,7 +488,7 @@ Second int in int2.
 
 > **setInt3**(`uniformName`, `x`, `y`, `z`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L77)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L77)
 
 Sets an int3 value on a uniform variable.
 
@@ -528,7 +528,7 @@ Third int in int3.
 
 > **setInt4**(`uniformName`, `x`, `y`, `z`, `w`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L87)
 
 Sets an int4 value on a uniform variable.
 
@@ -574,7 +574,7 @@ Fourth int in int4.
 
 > **setIntArray**(`uniformName`, `array`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:94](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L94)
 
 Sets an int array on a uniform variable.
 
@@ -602,7 +602,7 @@ array to be set.
 
 > **setIntArray2**(`uniformName`, `array`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L101)
 
 Sets an int array 2 on a uniform variable. (Array is specified as single array eg. [1,2,3,4] will result in [[1,2],[3,4]] in the shader)
 
@@ -630,7 +630,7 @@ array to be set.
 
 > **setIntArray3**(`uniformName`, `array`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L108)
 
 Sets an int array 3 on a uniform variable. (Array is specified as single array eg. [1,2,3,4,5,6] will result in [[1,2,3],[4,5,6]] in the shader)
 
@@ -658,7 +658,7 @@ array to be set.
 
 > **setIntArray4**(`uniformName`, `array`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L115)
 
 Sets an int array 4 on a uniform variable. (Array is specified as single array eg. [1,2,3,4,5,6,7,8] will result in [[1,2,3,4],[5,6,7,8]] in the shader)
 
@@ -686,7 +686,7 @@ array to be set.
 
 > **setMatrices**(`uniformName`, `matrices`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:212](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L212)
 
 Sets matrices on a uniform variable.
 
@@ -714,7 +714,7 @@ matrices to be set.
 
 > **setMatrix**(`uniformName`, `matrix`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L219)
 
 Sets matrix on a uniform variable.
 
@@ -742,7 +742,7 @@ matrix to be set.
 
 > **setMatrix2x2**(`uniformName`, `matrix`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:233](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L233)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:233](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L233)
 
 Sets a 2x2 matrix on a uniform variable. (Specified as [1,2,3,4] will result in [1,2][3,4] matrix)
 
@@ -770,7 +770,7 @@ matrix to be set.
 
 > **setMatrix3x3**(`uniformName`, `matrix`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:226](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L226)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:226](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L226)
 
 Sets a 3x3 matrix on a uniform variable. (Specified as [1,2,3,4,5,6,7,8,9] will result in [1,2,3][4,5,6][7,8,9] matrix)
 
@@ -798,7 +798,7 @@ matrix to be set.
 
 > **setQuaternion**(`uniformName`, `quaternion`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:285](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L285)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:285](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L285)
 
 Sets a Quaternion on a uniform variable.
 
@@ -826,7 +826,7 @@ Value to be set.
 
 > **setUInt**(`uniformName`, `value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L122)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L122)
 
 Sets an unsigned integer value on a uniform variable.
 
@@ -854,7 +854,7 @@ Value to be set.
 
 > **setUInt2**(`uniformName`, `x`, `y`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L130)
 
 Sets an unsigned int2 value on a uniform variable.
 
@@ -888,7 +888,7 @@ Second unsigned int in uint2.
 
 > **setUInt3**(`uniformName`, `x`, `y`, `z`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L139)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L139)
 
 Sets an unsigned int3 value on a uniform variable.
 
@@ -928,7 +928,7 @@ Third unsigned int in uint3.
 
 > **setUInt4**(`uniformName`, `x`, `y`, `z`, `w`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:149](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L149)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L149)
 
 Sets an unsigned int4 value on a uniform variable.
 
@@ -974,7 +974,7 @@ Fourth unsigned int in uint4.
 
 > **setUIntArray**(`uniformName`, `array`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:156](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L156)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L156)
 
 Sets an unsigned int array on a uniform variable.
 
@@ -1002,7 +1002,7 @@ array to be set.
 
 > **setUIntArray2**(`uniformName`, `array`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L163)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L163)
 
 Sets an unsigned int array 2 on a uniform variable. (Array is specified as single array eg. [1,2,3,4] will result in [[1,2],[3,4]] in the shader)
 
@@ -1030,7 +1030,7 @@ array to be set.
 
 > **setUIntArray3**(`uniformName`, `array`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L170)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L170)
 
 Sets an unsigned int array 3 on a uniform variable. (Array is specified as single array eg. [1,2,3,4,5,6] will result in [[1,2,3],[4,5,6]] in the shader)
 
@@ -1058,7 +1058,7 @@ array to be set.
 
 > **setUIntArray4**(`uniformName`, `array`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L177)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L177)
 
 Sets an unsigned int array 4 on a uniform variable. (Array is specified as single array eg. [1,2,3,4,5,6,7,8] will result in [[1,2,3,4],[5,6,7,8]] in the shader)
 
@@ -1086,7 +1086,7 @@ array to be set.
 
 > **setVector2**(`uniformName`, `vector2`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:247](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L247)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:247](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L247)
 
 Sets a Vector2 on a uniform variable.
 
@@ -1114,7 +1114,7 @@ vector2 to be set.
 
 > **setVector3**(`uniformName`, `vector3`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:262](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L262)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:262](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L262)
 
 Sets a Vector3 on a uniform variable.
 
@@ -1142,7 +1142,7 @@ Value to be set.
 
 > **setVector4**(`uniformName`, `vector4`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:278](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/IPipelineContext.ts#L278)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/IPipelineContext.ts:278](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/IPipelineContext.ts#L278)
 
 Sets a Vector4 on a uniform variable.
 

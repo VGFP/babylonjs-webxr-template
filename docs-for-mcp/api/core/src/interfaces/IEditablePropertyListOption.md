@@ -6,7 +6,7 @@
 
 # Interface: IEditablePropertyListOption
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L41)
 
 Interface that defines an option in a variable of type list
 
@@ -16,7 +16,7 @@ Interface that defines an option in a variable of type list
 
 > **label**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L43)
 
 label of the option
 
@@ -26,6 +26,6 @@ label of the option
 
 > **value**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L45)
 
 value of the option

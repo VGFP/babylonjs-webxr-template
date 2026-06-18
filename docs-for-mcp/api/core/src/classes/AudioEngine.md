@@ -6,7 +6,7 @@
 
 # Class: AudioEngine
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L16)
 
 This represents the default audio engine used in babylon.
 It is responsible to play, synchronize and analyse sounds throughout the  application.
@@ -25,7 +25,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/audio/playingSoundsMusic
 
 > **new AudioEngine**(`hostElement?`, `audioContext?`, `audioDestination?`): `AudioEngine`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L107)
 
 Instantiates a new audio engine.
 
@@ -59,7 +59,7 @@ defines the audio destination node to be used by audio engine
 
 > **canUseWebAudio**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L24)
 
 Gets whether the current host supports Web Audio and thus could create AudioContexts.
 
@@ -73,7 +73,7 @@ Gets whether the current host supports Web Audio and thus could create AudioCont
 
 > **isMP3supported**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L46)
 
 Gets whether or not mp3 are supported by your browser.
 
@@ -87,7 +87,7 @@ Gets whether or not mp3 are supported by your browser.
 
 > **isOGGsupported**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L51)
 
 Gets whether or not ogg are supported by your browser.
 
@@ -101,7 +101,7 @@ Gets whether or not ogg are supported by your browser.
 
 > **onAudioLockedObservable**: [`Observable`](Observable.md)\<[`IAudioEngine`](../interfaces/IAudioEngine.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L81)
 
 Event raised when audio has been locked on the browser.
 
@@ -115,7 +115,7 @@ Event raised when audio has been locked on the browser.
 
 > **onAudioUnlockedObservable**: [`Observable`](Observable.md)\<[`IAudioEngine`](../interfaces/IAudioEngine.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L76)
 
 Event raised when audio has been unlocked on the browser.
 
@@ -129,7 +129,7 @@ Event raised when audio has been unlocked on the browser.
 
 > **unlocked**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L58)
 
 Gets whether audio has been unlocked on the device.
 Some Browsers have strong restrictions about Audio and won't autoplay unless
@@ -145,7 +145,7 @@ a user interaction has happened.
 
 > **WarnedWebAudioUnsupported**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L41)
 
 Defines if Babylon should emit a warning if WebAudio is not supported.
 
@@ -161,7 +161,7 @@ Defines if Babylon should emit a warning if WebAudio is not supported.
 
 > **get** **audioContext**(): [`Nullable`](../type-aliases/Nullable.md)\<`AudioContext`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L89)
 
 Gets the current AudioContext if available.
 
@@ -183,7 +183,7 @@ Gets the current AudioContext if available.
 
 > **get** **masterGain**(): `GainNode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L29)
 
 The master gain node defines the global audio volume of your audio engine.
 
@@ -195,7 +195,7 @@ The master gain node defines the global audio volume of your audio engine.
 
 > **set** **masterGain**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L33)
 
 The master gain node defines the global audio volume of your audio engine.
 
@@ -223,7 +223,7 @@ The master gain node defines the global audio volume of your audio engine.
 
 > **get** **useCustomUnlockedButton**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L64)
 
 Defines if the audio engine relies on a custom unlocked button.
 In this case, the embedded button will not be displayed.
@@ -236,7 +236,7 @@ In this case, the embedded button will not be displayed.
 
 > **set** **useCustomUnlockedButton**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L68)
 
 Defines if the audio engine relies on a custom unlocked button.
 In this case, the embedded button will not be displayed.
@@ -264,7 +264,7 @@ In this case, the embedded button will not be displayed.
 
 > **connectToAnalyser**(`analyser`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:254](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L254)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:247](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L247)
 
 Connect the audio engine to an audio analyser allowing some amazing
 synchronization between the sounds/music and your visualization (VuMeter for instance).
@@ -295,7 +295,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/audio/playingSoundsMusic#usi
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L225)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L218)
 
 Destroy and release the resources associated with the audio context.
 
@@ -313,7 +313,7 @@ Destroy and release the resources associated with the audio context.
 
 > **getGlobalVolume**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:236](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L236)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L229)
 
 Gets the global volume sets on the master gain.
 
@@ -333,7 +333,7 @@ the global volume if set or -1 otherwise
 
 > **lock**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L163)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L156)
 
 Flags the audio engine in Locked state.
 This happens due to new browser policies preventing audio to autoplay.
@@ -352,7 +352,7 @@ This happens due to new browser policies preventing audio to autoplay.
 
 > **setGlobalVolume**(`newVolume`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:244](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L244)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:237](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L237)
 
 Sets the global volume of your experience (sets on the master gain).
 
@@ -378,7 +378,7 @@ Defines the new global volume of the application
 
 > **unlock**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/audioEngine.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/audioEngine.pure.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/audioEngine.pure.ts#L169)
 
 Unlocks the audio engine once a user action has been done on the dom.
 This is helpful to resume play once browser policies have been satisfied.

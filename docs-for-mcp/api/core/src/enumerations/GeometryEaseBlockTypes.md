@@ -6,7 +6,7 @@
 
 # Enumeration: GeometryEaseBlockTypes
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L15)
 
 Types of easing function supported by the Ease block
 
@@ -16,7 +16,7 @@ Types of easing function supported by the Ease block
 
 > **EaseInBack**: `21`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L59)
 
 EaseInBack
 
@@ -26,7 +26,7 @@ EaseInBack
 
 > **EaseInCirc**: `18`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L53)
 
 EaseInCirc
 
@@ -36,7 +36,7 @@ EaseInCirc
 
 > **EaseInCubic**: `6`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L29)
 
 EaseInCubic
 
@@ -46,7 +46,7 @@ EaseInCubic
 
 > **EaseInElastic**: `24`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L65)
 
 EaseInElastic
 
@@ -56,7 +56,7 @@ EaseInElastic
 
 > **EaseInExpo**: `15`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L47)
 
 EaseInExpo
 
@@ -66,7 +66,7 @@ EaseInExpo
 
 > **EaseInOutBack**: `23`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L63)
 
 EaseInOutBack
 
@@ -76,7 +76,7 @@ EaseInOutBack
 
 > **EaseInOutCirc**: `20`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L57)
 
 EaseInOutCirc
 
@@ -86,7 +86,7 @@ EaseInOutCirc
 
 > **EaseInOutCubic**: `8`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L33)
 
 EaseInOutCubic
 
@@ -96,7 +96,7 @@ EaseInOutCubic
 
 > **EaseInOutElastic**: `26`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L69)
 
 EaseInOutElastic
 
@@ -106,7 +106,7 @@ EaseInOutElastic
 
 > **EaseInOutExpo**: `17`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L51)
 
 EaseInOutExpo
 
@@ -116,7 +116,7 @@ EaseInOutExpo
 
 > **EaseInOutQuad**: `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L27)
 
 EaseInOutQuad
 
@@ -126,7 +126,7 @@ EaseInOutQuad
 
 > **EaseInOutQuart**: `11`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L39)
 
 EaseInOutQuart
 
@@ -136,7 +136,7 @@ EaseInOutQuart
 
 > **EaseInOutQuint**: `14`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L45)
 
 EaseInOutQuint
 
@@ -146,7 +146,7 @@ EaseInOutQuint
 
 > **EaseInOutSine**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L21)
 
 EaseInOutSine
 
@@ -156,7 +156,7 @@ EaseInOutSine
 
 > **EaseInQuad**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L23)
 
 EaseInQuad
 
@@ -166,7 +166,7 @@ EaseInQuad
 
 > **EaseInQuart**: `9`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L35)
 
 EaseInQuart
 
@@ -176,7 +176,7 @@ EaseInQuart
 
 > **EaseInQuint**: `12`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L41)
 
 EaseInQuint
 
@@ -186,7 +186,7 @@ EaseInQuint
 
 > **EaseInSine**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L17)
 
 EaseInSine
 
@@ -196,7 +196,7 @@ EaseInSine
 
 > **EaseOutBack**: `22`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L61)
 
 EaseOutBack
 
@@ -206,7 +206,7 @@ EaseOutBack
 
 > **EaseOutCirc**: `19`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L55)
 
 EaseOutCirc
 
@@ -216,7 +216,7 @@ EaseOutCirc
 
 > **EaseOutCubic**: `7`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L31)
 
 EaseOutCubic
 
@@ -226,7 +226,7 @@ EaseOutCubic
 
 > **EaseOutElastic**: `25`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L67)
 
 EaseOutElastic
 
@@ -236,7 +236,7 @@ EaseOutElastic
 
 > **EaseOutExpo**: `16`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L49)
 
 EaseOutExpo
 
@@ -246,7 +246,7 @@ EaseOutExpo
 
 > **EaseOutQuad**: `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L25)
 
 EaseOutQuad
 
@@ -256,7 +256,7 @@ EaseOutQuad
 
 > **EaseOutQuart**: `10`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L37)
 
 EaseOutQuart
 
@@ -266,7 +266,7 @@ EaseOutQuart
 
 > **EaseOutQuint**: `13`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L43)
 
 EaseOutQuint
 
@@ -276,6 +276,6 @@ EaseOutQuint
 
 > **EaseOutSine**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/geometryEaseBlock.pure.ts#L19)
 
 EaseOutSine

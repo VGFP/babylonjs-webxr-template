@@ -6,7 +6,7 @@
 
 # Class: KeyboardEventTypes
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:6](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/keyboardEvents.ts#L6)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/keyboardEvents.ts#L6)
 
 Gather the list of keyboard event types as constants.
 
@@ -26,7 +26,7 @@ Gather the list of keyboard event types as constants.
 
 > `readonly` `static` **KEYDOWN**: `1` = `0x01`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:10](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/keyboardEvents.ts#L10)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/keyboardEvents.ts#L10)
 
 The keydown event is fired when a key becomes active (pressed).
 
@@ -36,6 +36,6 @@ The keydown event is fired when a key becomes active (pressed).
 
 > `readonly` `static` **KEYUP**: `2` = `0x02`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/keyboardEvents.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/keyboardEvents.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/keyboardEvents.ts#L14)
 
 The keyup event is fired when a key has been released.

@@ -6,7 +6,7 @@
 
 # Class: AnisotropyBlock
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts#L19)
 
 Block used to implement the anisotropy module of the PBR material
 
@@ -20,7 +20,7 @@ Block used to implement the anisotropy module of the PBR material
 
 > **new AnisotropyBlock**(`name`): `AnisotropyBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts#L37)
 
 Create a new AnisotropyBlock
 
@@ -46,7 +46,7 @@ defines the block name
 
 > **comments**: `string` = `""`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L104)
 
 Gets or sets the comments associated with this block
 
@@ -60,7 +60,7 @@ Gets or sets the comments associated with this block
 
 > **inputsAreExclusive**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L55)
 
 Gets or sets a boolean indicating that only one input can be connected at a time
 
@@ -74,7 +74,7 @@ Gets or sets a boolean indicating that only one input can be connected at a time
 
 > **onCodeIsReadyObservable**: [`Observable`](Observable.md)\<[`NodeMaterialBlock`](NodeMaterialBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L52)
 
 Observable raised when the block code is ready (if the code loading is async)
 
@@ -88,7 +88,7 @@ Observable raised when the block code is ready (if the code loading is async)
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L99)
 
 Gets or sets the unique id of the node
 
@@ -102,7 +102,7 @@ Gets or sets the unique id of the node
 
 > **visibleInInspector**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L216)
 
 Gets or sets a boolean indicating that this input can be edited in the Inspector (false by default)
 
@@ -116,7 +116,7 @@ Gets or sets a boolean indicating that this input can be edited in the Inspector
 
 > **visibleOnFrame**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L219)
 
 Gets or sets a boolean indicating that this input can be edited from a collapsed frame
 
@@ -132,7 +132,7 @@ Gets or sets a boolean indicating that this input can be edited from a collapsed
 
 > **get** **anisotropy**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts#L140)
 
 Gets the anisotropy object output component
 
@@ -148,7 +148,7 @@ Gets the anisotropy object output component
 
 > **get** **buildId**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L151)
 
 Gets or sets the build Id
 
@@ -160,7 +160,7 @@ Gets or sets the build Id
 
 > **set** **buildId**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L155)
 
 ##### Parameters
 
@@ -184,7 +184,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialB
 
 > **get** **codeIsReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L81)
 
 Gets a boolean indicating that this block has is code ready to be used
 
@@ -204,7 +204,7 @@ Gets a boolean indicating that this block has is code ready to be used
 
 > **get** **direction**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts#L105)
 
 Gets the direction input component
 
@@ -220,7 +220,7 @@ Gets the direction input component
 
 > **get** **inputs**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L176)
 
 Gets the list of input points
 
@@ -240,7 +240,7 @@ Gets the list of input points
 
 > **get** **intensity**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts#L98)
 
 Gets the intensity input component
 
@@ -256,7 +256,7 @@ Gets the intensity input component
 
 > **get** **isFinalMerger**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L116)
 
 Gets a boolean indicating that this block is an end block (e.g. it is generating a system value)
 
@@ -276,7 +276,7 @@ Gets a boolean indicating that this block is an end block (e.g. it is generating
 
 > **get** **isInput**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L123)
 
 Gets a boolean indicating that this block is an input (e.g. it sends data to the shader)
 
@@ -296,7 +296,7 @@ Gets a boolean indicating that this block is an input (e.g. it sends data to the
 
 > **get** **isLoop**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L144)
 
 Gets a boolean indicating if this block is a loop
 
@@ -316,7 +316,7 @@ Gets a boolean indicating if this block is a loop
 
 > **get** **isTeleportIn**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L137)
 
 Gets a boolean indicating if this block is a teleport in
 
@@ -336,7 +336,7 @@ Gets a boolean indicating if this block is a teleport in
 
 > **get** **isTeleportOut**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L130)
 
 Gets a boolean indicating if this block is a teleport out
 
@@ -356,7 +356,7 @@ Gets a boolean indicating if this block is a teleport out
 
 > **get** **isUnique**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L109)
 
 Gets a boolean indicating that this block can only be used once per NodeMaterial
 
@@ -376,7 +376,7 @@ Gets a boolean indicating that this block can only be used once per NodeMaterial
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L74)
 
 Gets the name of the block
 
@@ -388,7 +388,7 @@ Gets the name of the block
 
 > **set** **name**(`newName`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L88)
 
 Sets the name of the block. Will check if the name is valid.
 
@@ -414,7 +414,7 @@ Sets the name of the block. Will check if the name is valid.
 
 > **get** **outputs**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:181](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L181)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:181](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L181)
 
 Gets the list of output points
 
@@ -434,7 +434,7 @@ Gets the list of output points
 
 > **get** **roughness**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts#L133)
 
 Gets the roughness input component
 
@@ -450,7 +450,7 @@ Gets the roughness input component
 
 > **get** **target**(): [`NodeMaterialBlockTargets`](../enumerations/NodeMaterialBlockTargets.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L162)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L162)
 
 Gets or sets the target of the block
 
@@ -462,7 +462,7 @@ Gets or sets the target of the block
 
 > **set** **target**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L166)
 
 ##### Parameters
 
@@ -486,7 +486,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialB
 
 > **get** **TBN**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts#L126)
 
 Gets the TBN input component
 
@@ -502,7 +502,7 @@ Gets the TBN input component
 
 > **get** **uv**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts#L112)
 
 Gets the uv input component
 
@@ -518,7 +518,7 @@ Gets the uv input component
 
 > **get** **willBeGeneratedIntoVertexShaderFromFragmentShader**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:551](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L551)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:551](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L551)
 
 Gets a boolean indicating that the code of this block will be promoted to vertex shader even if connected to fragment output
 
@@ -538,7 +538,7 @@ Gets a boolean indicating that the code of this block will be promoted to vertex
 
 > **get** **worldTangent**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts#L119)
 
 Gets the worldTangent input component
 
@@ -552,7 +552,7 @@ Gets the worldTangent input component
 
 > **autoConfigure**(`material`, `additionalFilteringInfo?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:535](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L535)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:535](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L535)
 
 Lets the block try to connect some inputs automatically
 
@@ -584,7 +584,7 @@ optional additional filtering condition when looking for compatible blocks
 
 > **bind**(`effect`, `nodeMaterial`, `mesh?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts:227](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts#L227)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts:244](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts#L244)
 
 Bind data to effect
 
@@ -622,7 +622,7 @@ the mesh to bind data for
 
 > **build**(`state`, `activeBlocks`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:686](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L686)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:686](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L686)
 
 Compile the current node and generate the shader code
 
@@ -656,7 +656,7 @@ true if already built
 
 > **clone**(`scene`, `rootUrl?`): [`NodeMaterialBlock`](NodeMaterialBlock.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:909](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L909)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:909](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L909)
 
 Clone the current block to a new identical block
 
@@ -690,7 +690,7 @@ a copy of the current block
 
 > **connectTo**(`other`, `options?`): `AnisotropyBlock` \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:444](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L444)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:444](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L444)
 
 Connect current block with another block
 
@@ -734,7 +734,7 @@ the current block
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:997](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L997)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:997](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L997)
 
 Release resources
 
@@ -752,7 +752,7 @@ Release resources
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts#L91)
 
 Gets the current class name
 
@@ -772,7 +772,7 @@ the class name
 
 > **getCode**(`state`, `generateTBNSpace?`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts:184](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts#L184)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts:201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts#L201)
 
 Gets the main code of the block (fragment side)
 
@@ -802,7 +802,7 @@ the shader code
 
 > **getFirstAvailableInput**(`forOutput?`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:367](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L367)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:367](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L367)
 
 Will return the first available input e.g. the first one which is not an uniform or an attribute
 
@@ -830,7 +830,7 @@ the first available input or null
 
 > **getFirstAvailableOutput**(`forBlock?`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:389](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L389)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:389](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L389)
 
 Will return the first available output e.g. the first one which is not yet connected and not a varying
 
@@ -858,7 +858,7 @@ the first available input or null
 
 > **getInputByName**(`name`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L190)
 
 Find an input by its name
 
@@ -886,7 +886,7 @@ the input or null if not found
 
 > **getOutputByName**(`name`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L205)
 
 Find an output by its name
 
@@ -914,7 +914,7 @@ the output or null if not found
 
 > **getSiblingOutput**(`current`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:404](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L404)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:404](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L404)
 
 Gets the sibling of the given output
 
@@ -942,7 +942,7 @@ the next output in the list or null
 
 > **initialize**(`state`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts#L67)
 
 Initialize the block and prepare the context for build
 
@@ -968,7 +968,7 @@ defines the state that will be used for the build
 
 > **initializeDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:512](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L512)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:512](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L512)
 
 Initialize defines for shader compilation
 
@@ -994,7 +994,7 @@ defines the material defines to update
 
 > **isAnAncestorOf**(`block`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:419](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L419)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:419](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L419)
 
 Checks if the current block is an ancestor of a given block
 
@@ -1022,7 +1022,7 @@ true if block is a descendant
 
 > **isConnectedInFragmentShader**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:310](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L310)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L310)
 
 Gets a boolean indicating that this connection will be used in the fragment shader
 
@@ -1042,7 +1042,7 @@ true if connected in fragment shader
 
 > **isReady**(`mesh`, `nodeMaterial`, `defines`, `useInstances?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:582](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L582)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:582](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L582)
 
 Checks if the block is ready
 
@@ -1088,7 +1088,7 @@ true if the block is ready
 
 > **prepareDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts:215](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.ts#L215)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts:232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/anisotropyBlock.pure.ts#L232)
 
 Prepare the list of defines
 
@@ -1114,7 +1114,7 @@ the list of defines to update
 
 > **provideFallbacks**(`fallbacks`, `mesh?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:503](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L503)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:503](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L503)
 
 Add potential fallbacks if shader compilation fails
 
@@ -1146,7 +1146,7 @@ defines the mesh to be rendered
 
 > **registerInput**(`name`, `type`, `isOptional?`, `target?`, `point?`): `AnisotropyBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L323)
 
 Register a new input. Must be called inside a block constructor
 
@@ -1198,7 +1198,7 @@ the current block
 
 > **registerOutput**(`name`, `type`, `target?`, `point?`): `AnisotropyBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:350](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L350)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L350)
 
 Register a new output. Must be called inside a block constructor
 
@@ -1244,7 +1244,7 @@ the current block
 
 > **replaceRepeatableContent**(`vertexShaderState`, `defines`, `mesh?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:546](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L546)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:546](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L546)
 
 Function called when a block is declared as repeatable content generator
 
@@ -1282,7 +1282,7 @@ defines the mesh to be rendered
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:927](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L927)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:927](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L927)
 
 Serializes this block in a JSON representation
 
@@ -1302,7 +1302,7 @@ the serialized block object
 
 > **updateUniformsAndSamples**(`state`, `nodeMaterial`, `defines`, `uniformBuffers`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:493](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L493)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:493](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L493)
 
 Add uniforms, samplers and uniform buffers at compilation time
 
@@ -1346,7 +1346,7 @@ defines the list of uniform buffer names
 
 > **validateBlockName**(`newName`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:643](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L643)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:643](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L643)
 
 Validates the new name for the block node.
 

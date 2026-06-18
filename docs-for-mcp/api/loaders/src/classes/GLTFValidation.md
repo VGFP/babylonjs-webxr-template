@@ -6,7 +6,7 @@
 
 # Class: GLTFValidation
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFValidation.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFValidation.ts#L93)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFValidation.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFValidation.ts#L93)
 
 glTF validation
 
@@ -26,7 +26,7 @@ glTF validation
 
 > `static` **Configuration**: [`IGLTFValidationConfiguration`](../interfaces/IGLTFValidationConfiguration.md)
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFValidation.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFValidation.ts#L97)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFValidation.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFValidation.ts#L97)
 
 The configuration. Defaults to `{ url: "https://cdn.babylonjs.com/gltf_validator.js" }`.
 
@@ -36,7 +36,7 @@ The configuration. Defaults to `{ url: "https://cdn.babylonjs.com/gltf_validator
 
 > `static` **ValidateAsync**(`data`, `rootUrl`, `fileName`, `getExternalResource`): `Promise`\<`IGLTFValidationResults`\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFValidation.ts:117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFValidation.ts#L117)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFValidation.ts:117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFValidation.ts#L117)
 
 Validate a glTF asset using the glTF-Validator.
 

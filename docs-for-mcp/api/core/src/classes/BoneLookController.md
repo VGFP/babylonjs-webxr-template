@@ -6,7 +6,7 @@
 
 # Class: BoneLookController
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L12)
 
 Class used to make a bone look toward a point in space
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/bonesSkeletons#bonelook
 
 > **new BoneLookController**(`mesh`, `bone`, `target`, `options?`): `BoneLookController`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L177)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L177)
 
 Create a BoneLookController
 
@@ -122,7 +122,7 @@ optional settings:
 
 > **adjustPitch**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L51)
 
 Used to make an adjustment to the pitch of the bone
 
@@ -132,7 +132,7 @@ Used to make an adjustment to the pitch of the bone
 
 > **adjustRoll**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L56)
 
 Used to make an adjustment to the roll of the bone
 
@@ -142,7 +142,7 @@ Used to make an adjustment to the roll of the bone
 
 > **adjustYaw**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L46)
 
 Used to make an adjustment to the yaw of the bone
 
@@ -152,7 +152,7 @@ Used to make an adjustment to the yaw of the bone
 
 > **bone**: [`Bone`](Bone.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L31)
 
 The bone that will be looking to the target
 
@@ -162,7 +162,7 @@ The bone that will be looking to the target
 
 > **mesh**: [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L26)
 
 The TransformNode that the bone is attached to
 Name kept as mesh for back compatibility
@@ -173,7 +173,7 @@ Name kept as mesh for back compatibility
 
 > **slerpAmount**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L61)
 
 The amount to slerp (spherical linear interpolation) to the target.  Set this to a value between 0 and 1 (a value of 1 disables slerp)
 
@@ -183,7 +183,7 @@ The amount to slerp (spherical linear interpolation) to the target.  Set this to
 
 > **target**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L20)
 
 The target Vector3 that the bone will look at
 
@@ -193,7 +193,7 @@ The target Vector3 that the bone will look at
 
 > **upAxis**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L36)
 
 The up axis of the coordinate system that is used when the bone is rotated
 
@@ -203,7 +203,7 @@ The up axis of the coordinate system that is used when the bone is rotated
 
 > **upAxisSpace**: [`Space`](../enumerations/Space.md) = `Space.LOCAL`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L41)
 
 The space that the up axis is in - Space.BONE, Space.LOCAL (default), or Space.WORLD
 
@@ -213,7 +213,7 @@ The space that the up axis is in - Space.BONE, Space.LOCAL (default), or Space.W
 
 > **useAbsoluteValueForYaw**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L120)
 
 Use the absolute value for yaw when checking the min/max constraints
 
@@ -225,7 +225,7 @@ Use the absolute value for yaw when checking the min/max constraints
 
 > **get** **maxPitch**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L137)
 
 Gets or sets the maximum pitch angle that the bone can look to
 
@@ -237,7 +237,7 @@ Gets or sets the maximum pitch angle that the bone can look to
 
 > **set** **maxPitch**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L141)
 
 ##### Parameters
 
@@ -257,7 +257,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:
 
 > **get** **maxYaw**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L103)
 
 Gets or sets the maximum yaw angle that the bone can look to
 
@@ -269,7 +269,7 @@ Gets or sets the maximum yaw angle that the bone can look to
 
 > **set** **maxYaw**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L107)
 
 ##### Parameters
 
@@ -289,7 +289,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:
 
 > **get** **minPitch**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L125)
 
 Gets or sets the minimum pitch angle that the bone can look to
 
@@ -301,7 +301,7 @@ Gets or sets the minimum pitch angle that the bone can look to
 
 > **set** **minPitch**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L129)
 
 ##### Parameters
 
@@ -321,7 +321,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:
 
 > **get** **minYaw**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L86)
 
 Gets or sets the minimum yaw angle that the bone can look to
 
@@ -333,7 +333,7 @@ Gets or sets the minimum yaw angle that the bone can look to
 
 > **set** **minYaw**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L90)
 
 ##### Parameters
 
@@ -351,7 +351,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:
 
 > **update**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:286](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneLookController.ts#L286)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneLookController.ts:286](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneLookController.ts#L286)
 
 Update the bone to look at the target.  This should be called before the scene is rendered (use scene.registerBeforeRender())
 

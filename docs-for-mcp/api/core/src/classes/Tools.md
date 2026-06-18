@@ -6,7 +6,7 @@
 
 # Class: Tools
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L46)
 
 Class containing a set of static utilities functions
 
@@ -26,7 +26,7 @@ Class containing a set of static utilities functions
 
 > `readonly` `static` **AllLogLevel**: `7` = `Logger.AllLogLevel`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1293](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1293)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1302)
 
 All logs
 
@@ -36,7 +36,7 @@ All logs
 
 > `static` **AssetBaseUrl**: `string` = `""`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L129)
 
 The base URL to use to load assets. If empty the default base url is used.
 
@@ -46,7 +46,7 @@ The base URL to use to load assets. If empty the default base url is used.
 
 > `static` **CustomRequestHeaders**: `object` = `WebRequest.CustomRequestHeaders`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:161](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L161)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:164](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L164)
 
 Custom HTTP Request Headers to be sent with XMLHttpRequests
 i.e. when loading files, where the server/service expects an Authorization header
@@ -61,7 +61,7 @@ i.e. when loading files, where the server/service expects an Authorization heade
 
 > `static` **EndPerformanceCounter**: (`counterName`, `condition?`) => `void` = `Tools._EndPerformanceCounterDisabled`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1493](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1493)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1502](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1502)
 
 Ends a specific performance counter
 
@@ -85,7 +85,7 @@ Ends a specific performance counter
 
 > `readonly` `static` **ErrorLogLevel**: `4` = `Logger.ErrorLogLevel`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1289](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1289)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1298)
 
 Only error logs
 
@@ -95,7 +95,7 @@ Only error logs
 
 > `static` **GetAbsoluteUrl**: (`url`) => `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1260](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1260)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1269](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1269)
 
 #### Parameters
 
@@ -115,7 +115,7 @@ the absolute URL of a given (relative) url
 
 > `static` **GetDOMTextContent**: (`element`) => `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:328](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L328)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:331](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L331)
 
 Extracts text content from a DOM element hierarchy
 Back Compat only, please use GetDOMTextContent instead.
@@ -142,7 +142,7 @@ a string
 
 > `static` **IsWindowObjectExist**: () => `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1358](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1358)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1367](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1367)
 
 Checks if the window object exists
 Back Compat only, please use IsWindowObjectExist instead.
@@ -161,7 +161,7 @@ true if the window object exists
 
 > `static` **LoadScript**: (`scriptUrl`, `onSuccess?`, `onError?`, `scriptId?`, `useModule?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:668](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L668)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:677](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L677)
 
 This function is used internally by babylon components to load a script (identified by an url). When the url returns, the
 content of this file is added into a new script element, attached to the DOM (body element)
@@ -208,7 +208,7 @@ defines if we should use the module strategy to load the script
 
 > `readonly` `static` **MessageLogLevel**: `1` = `Logger.MessageLogLevel`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1281](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1281)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1290](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1290)
 
 Only message logs
 
@@ -218,7 +218,7 @@ Only message logs
 
 > `readonly` `static` **NoneLogLevel**: `0` = `Logger.NoneLogLevel`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1277](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1277)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1286](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1286)
 
 No log
 
@@ -228,7 +228,7 @@ No log
 
 > `static` **OnNewCacheEntry**: (`entry`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1307](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1307)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1316](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1316)
 
 Callback called when a new log is added
 
@@ -248,7 +248,7 @@ Callback called when a new log is added
 
 > `readonly` `static` **PerformanceConsoleLogLevel**: `2` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1373](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1373)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1382](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1382)
 
 Log performance to the console
 
@@ -258,7 +258,7 @@ Log performance to the console
 
 > `readonly` `static` **PerformanceNoneLogLevel**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1365](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1365)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1374](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1374)
 
 No performance log
 
@@ -268,7 +268,7 @@ No performance log
 
 > `readonly` `static` **PerformanceUserMarkLogLevel**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1369](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1369)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1378](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1378)
 
 Use user marks to log performance
 
@@ -278,7 +278,7 @@ Use user marks to log performance
 
 > `static` **StartPerformanceCounter**: (`counterName`, `condition?`) => `void` = `Tools._StartPerformanceCounterDisabled`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1488](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1488)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1497](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1497)
 
 Starts a performance counter
 
@@ -302,7 +302,7 @@ Starts a performance counter
 
 > `static` **UseCustomRequestHeaders**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L158)
 
 Enable/Disable Custom HTTP Request Headers globally.
 default = false
@@ -317,7 +317,7 @@ CustomRequestHeaders
 
 > `readonly` `static` **WarningLogLevel**: `2` = `Logger.WarningLogLevel`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1285](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1285)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1294](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1294)
 
 Only warning logs
 
@@ -329,7 +329,7 @@ Only warning logs
 
 > **get** `static` **BaseUrl**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L50)
 
 Gets or sets the base URL to use to load assets
 
@@ -341,7 +341,7 @@ Gets or sets the base URL to use to load assets
 
 > **set** `static` **BaseUrl**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L54)
 
 ##### Parameters
 
@@ -361,7 +361,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:51](https://gi
 
 > **set** `static` **CDNBaseUrl**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L136)
 
 Sets both the script base URL and the assets base URL to the same value.
 Setter only!
@@ -384,7 +384,7 @@ Setter only!
 
 > **get** `static` **CleanUrl**(): (`url`) => `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L61)
 
 Gets or sets the clean URL function to use to load assets
 
@@ -396,7 +396,7 @@ Gets or sets the clean URL function to use to load assets
 
 > **set** `static` **CleanUrl**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L65)
 
 ##### Parameters
 
@@ -416,7 +416,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:62](https://gi
 
 > **get** `static` **CorsBehavior**(): `string` \| ((`url`) => `string`)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:179](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L179)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L182)
 
 Default behavior for cors in the application.
 It can be a string if the expected behavior is identical in the entire app.
@@ -430,7 +430,7 @@ Or a callback to be able to set it per url or on a group of them (in case of Vid
 
 > **set** `static` **CorsBehavior**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L183)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:186](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L186)
 
 ##### Parameters
 
@@ -450,7 +450,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:183](https://g
 
 > **get** `static` **DefaultRetryStrategy**(): (`url`, `request`, `retryIndex`) => `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L169)
 
 Gets or sets the retry strategy to apply when an error happens while loading an asset
 
@@ -462,7 +462,7 @@ Gets or sets the retry strategy to apply when an error happens while loading an 
 
 > **set** `static` **DefaultRetryStrategy**(`strategy`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L170)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L173)
 
 ##### Parameters
 
@@ -482,7 +482,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:170](https://g
 
 > **get** `static` **errorsCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1300](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1300)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1309](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1309)
 
 **`Ignorenaming`**
 
@@ -500,7 +500,7 @@ Gets a value indicating the number of loading errors
 
 > **get** `static` **fallbackTexture**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L219)
 
 **`Ignorenaming`**
 
@@ -514,7 +514,7 @@ Texture content used if a texture cannot loaded
 
 > **set** `static` **fallbackTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:221](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L221)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:224](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L224)
 
 ##### Parameters
 
@@ -534,7 +534,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:221](https://g
 
 > **get** `static` **LogCache**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1336](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1336)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1345)
 
 Gets current log cache (list of logs)
 
@@ -550,7 +550,7 @@ Gets current log cache (list of logs)
 
 > **set** `static` **LogLevels**(`level`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1350](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1350)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1359](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1359)
 
 Sets the current log level (MessageLogLevel / WarningLogLevel / ErrorLogLevel)
 
@@ -572,7 +572,7 @@ Sets the current log level (MessageLogLevel / WarningLogLevel / ErrorLogLevel)
 
 > **get** `static` **Now**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1498](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1498)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1507](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1507)
 
 Gets either window.performance.now() if supported or Date.now() else
 
@@ -588,7 +588,7 @@ Gets either window.performance.now() if supported or Date.now() else
 
 > **set** `static` **PerformanceLogLevel**(`level`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1382](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1382)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1391](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1391)
 
 Sets the current performance log level
 
@@ -610,7 +610,7 @@ Sets the current performance log level
 
 > **get** `static` **PreprocessUrl**(): (`url`) => `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:416](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L416)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:419](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L419)
 
 Gets or sets a function used to pre-process url before using them to load assets
 
@@ -622,7 +622,7 @@ Gets or sets a function used to pre-process url before using them to load assets
 
 > **set** `static` **PreprocessUrl**(`processor`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:420](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L420)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:423](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L423)
 
 ##### Parameters
 
@@ -642,7 +642,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:420](https://g
 
 > **get** `static` **RegisteredExternalClasses**(): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:203](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L203)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:206](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L206)
 
 Use this object to register external classes like custom textures or material
 to allow the loaders to instantiate them
@@ -655,7 +655,7 @@ to allow the loaders to instantiate them
 
 > **set** `static` **RegisteredExternalClasses**(`classes`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:207](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L207)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L210)
 
 ##### Parameters
 
@@ -673,7 +673,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:207](https://g
 
 > **get** `static` **ScriptBaseUrl**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L122)
 
 ##### Returns
 
@@ -683,7 +683,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:119](https://g
 
 > **set** `static` **ScriptBaseUrl**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L118)
 
 Sets the base URL to use to load scripts
 
@@ -705,7 +705,7 @@ Sets the base URL to use to load scripts
 
 > **get** `static` **ScriptPreprocessUrl**(): (`source`) => `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L149)
 
 ##### Returns
 
@@ -715,7 +715,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:146](https://g
 
 > **set** `static` **ScriptPreprocessUrl**(`func`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L142)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L145)
 
 Sets a preprocessing function to run on a source URL before importing it
 Note that this function will execute AFTER the base URL is appended to the URL
@@ -738,7 +738,7 @@ Note that this function will execute AFTER the base URL is appended to the URL
 
 > **get** `static` **UseFallbackTexture**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L191)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L194)
 
 **`Ignorenaming`**
 
@@ -752,7 +752,7 @@ Gets or sets a global variable indicating if fallback texture must be used when 
 
 > **set** `static` **UseFallbackTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L195)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L198)
 
 ##### Parameters
 
@@ -770,7 +770,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:195](https://g
 
 > `static` **BackCompatCameraNoPreventDefault**(`args`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1077](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1077)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1086](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1086)
 
 Will return the right value of the noPreventDefault variable
 Needed to keep backwards compatibility to the old API.
@@ -795,7 +795,7 @@ the correct value for noPreventDefault
 
 > `static` **ClearLogCache**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1343](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1343)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1352](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1352)
 
 Clears the log cache
 
@@ -809,7 +809,7 @@ Clears the log cache
 
 > `static` **CreateScreenshot**(`engine`, `camera`, `size`, `successCallback?`, `mimeType?`, `forceDownload?`, `quality?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1107)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1116)
 
 Captures a screenshot of the current rendering
 
@@ -878,7 +878,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/renderToPNG
 
 > `static` **CreateScreenshotAsync**(`engine`, `camera`, `size`, `mimeType?`, `quality?`): `Promise`\<`string`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1137)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1146)
 
 Captures a screenshot of the current rendering
 
@@ -936,7 +936,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/renderToPNG
 
 > `static` **CreateScreenshotUsingRenderTarget**(`engine`, `camera`, `size`, `successCallback?`, `mimeType?`, `samples?`, `antialiasing?`, `fileName?`, `renderSprites?`, `enableStencilBuffer?`, `useLayerMask?`, `quality?`, `customizeTexture?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1166)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1175)
 
 Generates an image screenshot from the specified camera.
 
@@ -1041,7 +1041,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/renderToPNG
 
 > `static` **CreateScreenshotUsingRenderTargetAsync**(`engine`, `camera`, `size`, `mimeType?`, `samples?`, `antialiasing?`, `fileName?`, `renderSprites?`, `enableStencilBuffer?`, `useLayerMask?`, `quality?`, `customizeTexture?`): `Promise`\<`string`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1209](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1209)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1218)
 
 Generates an image screenshot from the specified camera.
 
@@ -1141,7 +1141,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/renderToPNG
 
 > `static` **DecodeBase64**(`uri`): `ArrayBuffer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1252](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1252)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1261)
 
 Decode the given base64 uri.
 
@@ -1169,7 +1169,7 @@ Please use FileTools.DecodeBase64UrlToBinary instead.
 
 > `static` **DeepCopy**(`source`, `destination`, `doNotCopyList?`, `mustCopyList?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:773](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L773)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:782](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L782)
 
 Tries to copy an object by duplicating every property
 
@@ -1209,7 +1209,7 @@ defines a list of properties to copy (even if they start with _)
 
 > `static` **DelayAsync**(`delay`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1580](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1580)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1589](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1589)
 
 Returns a promise that resolves after the given amount of time.
 
@@ -1233,7 +1233,7 @@ Promise that resolves after the given amount of time
 
 > `static` **Download**(`blob`, `fileName`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1050](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1050)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1059](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1059)
 
 Downloads a blob in the browser
 
@@ -1261,7 +1261,7 @@ defines the name of the downloaded file
 
 > `static` **DownloadBlob**(`blob`, `fileName?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:963](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L963)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:972](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L972)
 
 Download a Blob object
 
@@ -1289,7 +1289,7 @@ the file name to download
 
 > `static` **DumpData**(`width`, `height`, `data`, `successCallback?`, `mimeType?`, `fileName?`, `invertY?`, `toArrayBuffer?`, `quality?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:868](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L868)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:877](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L877)
 
 Dumps an array buffer
 
@@ -1359,7 +1359,7 @@ The quality of the image if lossy mimeType is used (e.g. image/jpeg, image/webp)
 
 > `static` **DumpDataAsync**(`width`, `height`, `data`, `mimeType?`, `fileName?`, `invertY?`, `toArrayBuffer?`, `quality?`): `Promise`\<`string` \| `ArrayBuffer`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:896](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L896)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:905](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L905)
 
 Dumps an array buffer
 
@@ -1425,7 +1425,7 @@ a promise that resolve to the final data
 
 > `static` **DumpFramebuffer**(`width`, `height`, `engine`, `successCallback?`, `mimeType?`, `fileName?`, `quality?`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:844](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L844)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:853](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L853)
 
 Dumps the current bound framebuffer
 
@@ -1485,7 +1485,7 @@ a void promise
 
 > `static` **EncodeScreenshotCanvasData**(`canvas`, `successCallback?`, `mimeType?`, `fileName?`, `quality?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1000](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1000)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1009](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1009)
 
 Encodes the canvas data to base 64, or automatically downloads the result if `fileName` is defined.
 
@@ -1531,7 +1531,7 @@ The quality of the image if lossy mimeType is used (e.g. image/jpeg, image/webp)
 
 > `static` **Error**(`message`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1329](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1329)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1338](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1338)
 
 Write an error message to the console
 
@@ -1553,7 +1553,7 @@ defines the message to log
 
 > `static` **FetchToRef**(`u`, `v`, `width`, `height`, `pixels`, `color`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:234](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L234)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:237](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L237)
 
 Read the content of a byte array at a specified coordinates (taking in account wrapping)
 
@@ -1605,7 +1605,7 @@ defines the output color
 
 > `static` **FileAsURL**(`content`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:749](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L749)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:758](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L758)
 
 Creates a data url from a given string content
 
@@ -1629,7 +1629,7 @@ the new data url link
 
 > `static` **First**\<`T`\>(`array`, `predicate`): [`Nullable`](../type-aliases/Nullable.md)\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1532](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1532)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1541](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1541)
 
 Gets the first element of an array satisfying a given predicate
 
@@ -1665,7 +1665,7 @@ null if not found or the element
 
 > `static` **FloatRound**(`value`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:288](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L288)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:291](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L291)
 
 Returns the nearest 32-bit single precision float representation of a Number
 
@@ -1690,7 +1690,7 @@ number
 
 > `static` **Format**(`value`, `decimals?`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:762](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L762)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:771](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L771)
 
 Format the given number to a specific decimal format
 
@@ -1720,7 +1720,7 @@ the formatted string
 
 > `static` **GetAssetUrl**(`url`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:518](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L518)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:521](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L521)
 
 This function will convert asset URLs if the AssetBaseUrl parameter is set.
 Any URL with `assets.babylonjs.com/core` will be replaced with the value of AssetBaseUrl.
@@ -1745,7 +1745,7 @@ a new URL
 
 > `static` **GetBabylonScriptURL**(`scriptUrl`, `forceAbsoluteUrl?`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:538](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L538)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:541](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L541)
 
 Get a script URL including preprocessing
 
@@ -1775,7 +1775,7 @@ a modified URL to use
 
 > `static` **GetClassName**(`object`, `isType?`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1509](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1509)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1518](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1518)
 
 This method will return the name of the class used to create the instance of the given object.
 It will works only on Javascript basic data types (number, string, ...) and instance of class declared with the
@@ -1814,7 +1814,7 @@ decorator
 
 > `static` **GetFilename**(`path`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:297](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L297)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:300](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L300)
 
 Extracts the filename from a path
 
@@ -1838,7 +1838,7 @@ the filename
 
 > `static` **GetFolderPath**(`uri`, `returnUnchangedIfNoSlash?`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:312](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L312)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:315](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L315)
 
 Extracts the "folder" part of a path (everything before the filename).
 
@@ -1868,7 +1868,7 @@ The "folder" part of the path
 
 > `static` **getFullClassName**(`object`, `isType?`): [`Nullable`](../type-aliases/Nullable.md)\<`string`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1551](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1551)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1560](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1560)
 
 **`Ignorenaming`**
 
@@ -1905,7 +1905,7 @@ decorator or implementing a method getClassName():string (in which case the modu
 
 > `static` **GetPointerPrefix**(`engine`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:387](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L387)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:390](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L390)
 
 Gets the pointer prefix to use
 
@@ -1929,7 +1929,7 @@ defines the engine we are finding the prefix for
 
 > `static` **Instantiate**(`className`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L261)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:264](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L264)
 
 Tries to instantiate a new object from a given class name
 
@@ -1953,7 +1953,7 @@ the new object or null if the system was not able to do the instantiation
 
 > `static` **IsAbsoluteUrl**(`url`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L75)
 
 This function checks whether a URL is absolute or not.
 It will also detect data and blob URLs
@@ -1978,7 +1978,7 @@ is the url absolute or relative
 
 > `static` **IsBase64**(`uri`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1242](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1242)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1251)
 
 Test if the given uri is a base64 string
 
@@ -2006,7 +2006,7 @@ Please use FileTools.IsBase64DataUrl instead.
 
 > `static` **IsEmpty**(`obj`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:782](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L782)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:791](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L791)
 
 Gets a boolean indicating if the given object has no own property
 
@@ -2030,7 +2030,7 @@ true if object has no own property
 
 > `static` **IsExponentOfTwo**(`value`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:278](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L278)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:281](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L281)
 
 Function indicating if a number is an exponent of 2
 
@@ -2054,7 +2054,7 @@ true if the value is an exponent of 2
 
 > `static` **IsSafari**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1592](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1592)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1601](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1601)
 
 Utility function to detect if the current user agent is Safari
 
@@ -2070,7 +2070,7 @@ whether or not the current user agent is safari
 
 > `static` **LoadBabylonScript**(`scriptUrl`, `onSuccess`, `onError?`, `scriptId?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:578](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L578)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:581](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L581)
 
 This function is used internally by babylon components to load a script (identified by an url). When the url returns, the
 content of this file is added into a new script element, attached to the DOM (body element)
@@ -2111,7 +2111,7 @@ defines the id of the script element
 
 > `static` **LoadBabylonScriptAsync**(`scriptUrl`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:589](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L589)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:592](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L592)
 
 Load an asynchronous script (identified by an url). When the url returns, the
 content of this file is added into a new script element, attached to the DOM (body element)
@@ -2136,7 +2136,7 @@ a promise request object
 
 > `static` **LoadFile**(`url`, `onSuccess`, `onProgress?`, `offlineProvider?`, `useArrayBuffer?`, `onError?`): [`IFileRequest`](../interfaces/IFileRequest.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:455](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L455)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:458](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L458)
 
 Loads a file from a url
 
@@ -2192,9 +2192,13 @@ Loads a file from a url
 
 #### Param
 
+**url**
+
 the file url to load
 
 #### Param
+
+**useArrayBuffer**
 
 defines a boolean indicating that date must be returned as ArrayBuffer
 
@@ -2202,7 +2206,7 @@ defines a boolean indicating that date must be returned as ArrayBuffer
 
 > `static` **LoadFileAsync**(`url`, `useArrayBuffer?`): `Promise`\<`ArrayBuffer`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:467](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L467)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:470](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L470)
 
 ##### Parameters
 
@@ -2222,7 +2226,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:467](https://g
 
 > `static` **LoadFileAsync**(`url`, `useArrayBuffer?`): `Promise`\<`string`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:468](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L468)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:471](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L471)
 
 ##### Parameters
 
@@ -2244,7 +2248,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:468](https://g
 
 > `static` **LoadImage**(`input`, `onLoad`, `onError`, `offlineProvider`, `mimeType?`, `imageBitmapOptions?`): [`Nullable`](../type-aliases/Nullable.md)\<`HTMLImageElement`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:434](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L434)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:437](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L437)
 
 Loads an image as an HTMLImageElement.
 
@@ -2298,7 +2302,7 @@ the HTMLImageElement of the loaded image
 
 > `static` **LoadScriptAsync**(`scriptUrl`, `scriptId?`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:678](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L678)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:687](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L687)
 
 Load an asynchronous script (identified by an url). When the url returns, the
 content of this file is added into a new script element, attached to the DOM (body element)
@@ -2329,7 +2333,7 @@ a promise request object
 
 > `static` **Log**(`message`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1313](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1313)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1322](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1322)
 
 Log a message to the console
 
@@ -2351,7 +2355,7 @@ defines the message to log
 
 > `static` **MakeArray**(`obj`, `allowsNullUndefined?`): [`Nullable`](../type-aliases/Nullable.md)\<`any`[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:373](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L373)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:376](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L376)
 
 Returns an array if obj is not an array
 
@@ -2381,7 +2385,7 @@ either obj directly if obj is an array or a new array containing obj
 
 > `static` **Mix**(`a`, `b`, `alpha`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:252](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L252)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:255](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L255)
 
 Interpolates between a and b via alpha
 
@@ -2417,7 +2421,7 @@ The mixed value
 
 > `static` **RandomId**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1232](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1232)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1241](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1241)
 
 Implementation from http://stackoverflow.com/questions/105034/how-to-create-a-guid-uuid-in-javascript/2117523#answer-2117523
 Be aware Math.random() could cause collisions, but:
@@ -2435,7 +2439,7 @@ a pseudo random id
 
 > `static` **ReadFile**(`file`, `onSuccess`, `onProgress?`, `useArrayBuffer?`, `onError?`): [`IFileRequest`](../interfaces/IFileRequest.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:734](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L734)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:743](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L743)
 
 Reads a file from a File object
 
@@ -2483,7 +2487,7 @@ a file request object
 
 > `static` **ReadFileAsDataURL**(`fileToLoad`, `callback`, `progressCallback`): [`IFileRequest`](../interfaces/IFileRequest.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:701](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L701)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:710](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L710)
 
 Loads a file from a blob
 
@@ -2519,7 +2523,7 @@ a file request object
 
 > `static` **RegisterTopRootEvents**(`windowElement`, `events`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:796](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L796)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:805](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L805)
 
 Function used to register events at window level
 
@@ -2547,7 +2551,7 @@ defines the events to register
 
 > `static` **SetCorsBehavior**(`url`, `element`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:397](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L397)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:400](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L400)
 
 Sets the cors behavior on a dom element. This will add the required Tools.CorsBehavior to the element.
 
@@ -2577,7 +2581,7 @@ define the dom element where to configure the cors policy
 
 > `static` **SetImmediate**(`action`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:269](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L269)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:272](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L272)
 
 Polyfill for setImmediate
 
@@ -2599,7 +2603,7 @@ defines the action to execute after the current execution block
 
 > `static` **SetReferrerPolicyBehavior**(`referrerPolicy`, `element`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:407](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L407)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:410](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L410)
 
 Sets the referrerPolicy behavior on a dom element.
 
@@ -2629,7 +2633,7 @@ define the dom element where to configure the referrer policy
 
 > `static` **SmoothAngleChange**(`previousAngle`, `newAngle`, `smoothFactor?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:356](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L356)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:359](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L359)
 
 Smooth angle changes (kind of low-pass filter), in particular for device orientation "shaking"
 Use trigonometric functions to avoid discontinuity (0/360, -180/180)
@@ -2666,7 +2670,7 @@ the angle in degrees
 
 > `static` **ToBlob**(`canvas`, `successCallback`, `mimeType?`, `quality?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:921](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L921)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:930](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L930)
 
 Converts the canvas data to blob.
 This acts as a polyfill for browsers not supporting the to blob function.
@@ -2707,7 +2711,7 @@ The quality of the image if lossy mimeType is used (e.g. image/jpeg, image/webp)
 
 > `static` **ToDegrees**(`angle`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:335](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L335)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:338](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L338)
 
 Convert an angle in radians to degrees
 
@@ -2731,7 +2735,7 @@ the angle in degrees
 
 > `static` **ToRadians**(`angle`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:344](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L344)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:347](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L347)
 
 Convert an angle in degrees to radians
 
@@ -2755,7 +2759,7 @@ the angle in radians
 
 > `static` **UnregisterTopRootEvents**(`windowElement`, `events`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:816](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L816)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:825](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L825)
 
 Function used to unregister events from window level
 
@@ -2783,7 +2787,7 @@ defines the events to unregister
 
 > `static` **Warn**(`message`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.ts:1321](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tools.ts#L1321)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1330](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1330)
 
 Write a warning message to the console
 

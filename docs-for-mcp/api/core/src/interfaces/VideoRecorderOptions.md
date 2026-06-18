@@ -6,7 +6,7 @@
 
 # Interface: VideoRecorderOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/videoRecorder.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/videoRecorder.ts#L55)
 
 This represents the different options available for the video capture.
 
@@ -16,7 +16,7 @@ This represents the different options available for the video capture.
 
 > `optional` **audioTracks?**: `MediaStreamTrack`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/videoRecorder.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/videoRecorder.ts#L65)
 
 The audio tracks to attach to the recording.
 
@@ -26,7 +26,7 @@ The audio tracks to attach to the recording.
 
 > `optional` **canvas?**: `HTMLCanvasElement`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/videoRecorder.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/videoRecorder.ts#L57)
 
 The canvas you want to record
 
@@ -36,7 +36,7 @@ The canvas you want to record
 
 > **fps**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/videoRecorder.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/videoRecorder.ts#L61)
 
 Defines the FPS the video should be recorded at.
 
@@ -46,7 +46,7 @@ Defines the FPS the video should be recorded at.
 
 > **mimeType**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/videoRecorder.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/videoRecorder.ts#L59)
 
 Defines the mime type of the video.
 
@@ -56,6 +56,6 @@ Defines the mime type of the video.
 
 > **recordChunckSize**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/videoRecorder.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/videoRecorder.ts#L63)
 
 Defines the chunk size for the recording data.

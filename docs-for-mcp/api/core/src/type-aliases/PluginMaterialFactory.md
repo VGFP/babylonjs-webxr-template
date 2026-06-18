@@ -8,7 +8,7 @@
 
 > **PluginMaterialFactory** = (`material`) => [`Nullable`](Nullable.md)\<[`MaterialPluginBase`](../classes/MaterialPluginBase.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginManager.ts:468](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginManager.ts#L468)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginManager.pure.ts:454](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginManager.pure.ts#L454)
 
 Type for plugin material factories.
 

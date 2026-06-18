@@ -8,7 +8,7 @@
 
 > **CreateLathe**(`name`, `options`, `scene?`): [`Mesh`](../classes/Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/latheBuilder.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/latheBuilder.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/latheBuilder.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/latheBuilder.pure.ts#L30)
 
 Creates lathe mesh.
 The lathe is a shape with a symmetry axis : a 2D model shape is rotated around this axis to design the lathe

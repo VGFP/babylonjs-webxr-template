@@ -6,7 +6,7 @@
 
 # Class: Analyser
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/analyser.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/analyser.ts#L13)
 
 Class used to work with sound analyzer using fast fourier transform (FFT)
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/audio/playingSoundsMusic
 
 > **new Analyser**(`scene?`): `Analyser`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/analyser.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/analyser.ts#L49)
 
 Creates a new analyser
 
@@ -42,7 +42,7 @@ defines hosting scene
 
 > **BARGRAPHAMPLITUDE**: `number` = `256`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/analyser.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/analyser.ts#L25)
 
 Gets or sets the bar graph amplitude
 
@@ -52,7 +52,7 @@ Gets or sets the bar graph amplitude
 
 > **DEBUGCANVASPOS**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/analyser.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/analyser.ts#L29)
 
 Gets or sets the position of the debug canvas
 
@@ -70,7 +70,7 @@ Gets or sets the position of the debug canvas
 
 > **DEBUGCANVASSIZE**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/analyser.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/analyser.ts#L33)
 
 Gets or sets the debug canvas size
 
@@ -88,7 +88,7 @@ Gets or sets the debug canvas size
 
 > **FFT\_SIZE**: `number` = `512`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/analyser.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/analyser.ts#L21)
 
 Gets or sets the FFT table size
 
@@ -98,7 +98,7 @@ Gets or sets the FFT table size
 
 > **SMOOTHING**: `number` = `0.75`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/analyser.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/analyser.ts#L17)
 
 Gets or sets the smoothing
 
@@ -108,7 +108,7 @@ Gets or sets the smoothing
 
 > **connectAudioNodes**(`inputAudioNode`, `outputAudioNode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/analyser.ts#L185)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/analyser.ts#L185)
 
 Connects two audio nodes
 
@@ -136,7 +136,7 @@ defines second node to connect
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/analyser.ts#L195)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/analyser.ts#L195)
 
 Releases all associated resources
 
@@ -150,7 +150,7 @@ Releases all associated resources
 
 > **drawDebugCanvas**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/analyser.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/analyser.ts#L128)
 
 Renders the debug canvas
 
@@ -164,7 +164,7 @@ Renders the debug canvas
 
 > **getByteFrequencyData**(): `Uint8Array`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/analyser.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/analyser.ts#L88)
 
 Gets the current frequency data as a byte array
 
@@ -184,7 +184,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode/getByteFrequencyDa
 
 > **getByteTimeDomainData**(): `Uint8Array`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/analyser.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/analyser.ts#L102)
 
 Gets the current waveform as a byte array
 
@@ -204,7 +204,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode/getByteTimeDomainD
 
 > **getFloatFrequencyData**(): `Float32Array`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/analyser.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/analyser.ts#L116)
 
 Gets the current frequency data as a float array
 
@@ -224,7 +224,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode/getByteFrequencyDa
 
 > **getFrequencyBinCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/analyser.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/analyser.ts#L75)
 
 Get the number of data values you will have to play with for the visualization
 
@@ -244,7 +244,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode/frequencyBinCount
 
 > **stopDebugCanvas**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:168](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/analyser.ts#L168)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/analyser.ts:168](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/analyser.ts#L168)
 
 Stops rendering the debug canvas and removes it
 

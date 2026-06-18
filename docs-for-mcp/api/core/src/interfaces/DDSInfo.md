@@ -6,7 +6,7 @@
 
 # Interface: DDSInfo
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dds.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.pure.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dds.pure.ts#L96)
 
 Direct draw surface info
 
@@ -20,7 +20,7 @@ https://docs.microsoft.com/en-us/windows/desktop/direct3ddds/dx-graphics-dds-pgu
 
 > **dxgiFormat**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.ts:136](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dds.ts#L136)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.pure.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dds.pure.ts#L136)
 
 The dxgiFormat of the texture
 
@@ -34,7 +34,7 @@ https://docs.microsoft.com/en-us/windows/desktop/api/dxgiformat/ne-dxgiformat-dx
 
 > **height**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dds.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.pure.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dds.pure.ts#L104)
 
 Width of the texture
 
@@ -44,7 +44,7 @@ Width of the texture
 
 > **isCompressed**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dds.ts#L131)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dds.pure.ts#L131)
 
 If the texture is a compressed format eg. FOURCC_DXT1
 
@@ -54,7 +54,7 @@ If the texture is a compressed format eg. FOURCC_DXT1
 
 > **isCube**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dds.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dds.pure.ts#L127)
 
 If this is a cube texture
 
@@ -68,7 +68,7 @@ https://docs.microsoft.com/en-us/windows/desktop/direct3ddds/dds-file-layout-for
 
 > **isFourCC**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dds.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.pure.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dds.pure.ts#L114)
 
 If the textures format is a known fourCC format
 
@@ -82,7 +82,7 @@ https://www.fourcc.org/
 
 > **isLuminance**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.ts:122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dds.ts#L122)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dds.pure.ts#L122)
 
 If the texture is a lumincance format
 
@@ -92,7 +92,7 @@ If the texture is a lumincance format
 
 > **isRGB**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dds.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dds.pure.ts#L118)
 
 If the texture is an RGB format eg. DXGI_FORMAT_B8G8R8X8_UNORM format
 
@@ -102,7 +102,7 @@ If the texture is an RGB format eg. DXGI_FORMAT_B8G8R8X8_UNORM format
 
 > **mipmapCount**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dds.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dds.pure.ts#L109)
 
 Number of Mipmaps for the texture
 
@@ -116,7 +116,7 @@ https://en.wikipedia.org/wiki/Mipmap
 
 > `optional` **sphericalPolynomial?**: [`SphericalPolynomial`](../classes/SphericalPolynomial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dds.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.pure.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dds.pure.ts#L144)
 
 Sphericle polynomial created for the dds texture
 
@@ -126,7 +126,7 @@ Sphericle polynomial created for the dds texture
 
 > **textureType**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.ts:140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dds.ts#L140)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dds.pure.ts#L140)
 
 Texture type eg. Engine.TEXTURETYPE_UNSIGNED_BYTE, Engine.TEXTURETYPE_FLOAT
 
@@ -136,6 +136,6 @@ Texture type eg. Engine.TEXTURETYPE_UNSIGNED_BYTE, Engine.TEXTURETYPE_FLOAT
 
 > **width**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dds.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dds.pure.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dds.pure.ts#L100)
 
 Width of the texture

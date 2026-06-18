@@ -6,7 +6,7 @@
 
 # Class: PerfCollectionStrategy
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L35)
 
 Defines the predefined strategies used in the performance viewer.
 
@@ -26,7 +26,7 @@ Defines the predefined strategies used in the performance viewer.
 
 > `static` **AbsoluteFpsStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:284](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L284)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:284](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L284)
 
 Gets the initializer for the strategy used for collection of absolute fps metrics.
 
@@ -42,7 +42,7 @@ the initializer for the absolute fps strategy
 
 > `static` **ActiveBonesStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:174](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L174)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L174)
 
 Gets the initializer for the strategy used for collection of active bones metrics.
 
@@ -58,7 +58,7 @@ the initializer for the active bones strategy
 
 > `static` **ActiveFacesStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L160)
 
 Gets the initializer for the strategy used for collection of active faces metrics.
 
@@ -74,7 +74,7 @@ the initializer for the active faces strategy
 
 > `static` **ActiveIndicesStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L146)
 
 Gets the initializer for the strategy used for collection of active indices metrics.
 
@@ -90,7 +90,7 @@ the initializer for the active indices strategy
 
 > `static` **ActiveMeshesStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L132)
 
 Gets the initializer for the strategy used for collection of active meshes metrics.
 
@@ -106,7 +106,7 @@ the initializer for the active meshes strategy
 
 > `static` **ActiveParticlesStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:188](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L188)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:188](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L188)
 
 Gets the initializer for the strategy used for collection of active particles metrics.
 
@@ -122,7 +122,7 @@ the initializer for the active particles strategy
 
 > `static` **AnimationsStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:411](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L411)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:411](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L411)
 
 Gets the initializer for the strategy used for collection of animations time metrics.
 
@@ -138,7 +138,7 @@ the initializer for the animations time strategy
 
 > `static` **DrawCallsStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:202](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L202)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:202](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L202)
 
 Gets the initializer for the strategy used for collection of draw calls metrics.
 
@@ -154,7 +154,7 @@ the initializer for the draw calls strategy
 
 > `static` **FpsStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L40)
 
 Gets the initializer for the strategy used for collection of fps metrics
 
@@ -170,7 +170,7 @@ the initializer for the fps strategy
 
 > `static` **FrameTotalStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:492](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L492)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:492](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L492)
 
 Gets the initializer for the strategy used for collection of total frame time metrics.
 
@@ -186,7 +186,7 @@ the initializer for the total frame time strategy
 
 > `static` **GpuFrameTimeStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:547](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L547)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:547](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L547)
 
 Gets the initializer for the strategy used for collection of gpu frame time metrics.
 
@@ -202,7 +202,7 @@ the initializer for the gpu frame time strategy
 
 > `static` **InterFrameStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:519](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L519)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:519](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L519)
 
 Gets the initializer for the strategy used for collection of inter-frame time metrics.
 
@@ -218,7 +218,7 @@ the initializer for the inter-frame time strategy
 
 > `static` **MeshesSelectionStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:303](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L303)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:303](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L303)
 
 Gets the initializer for the strategy used for collection of meshes selection time metrics.
 
@@ -234,7 +234,7 @@ the initializer for the meshes selection time strategy
 
 > `static` **ParticlesStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:357](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L357)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:357](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L357)
 
 Gets the initializer for the strategy used for collection of particles time metrics.
 
@@ -250,7 +250,7 @@ the initializer for the particles time strategy
 
 > `static` **PhysicsStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:438](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L438)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:438](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L438)
 
 Gets the initializer for the strategy used for collection of physics time metrics.
 
@@ -266,7 +266,7 @@ the initializer for the physics time strategy
 
 > `static` **PowerSupplyStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L65)
 
 Gets the initializer for the strategy used for collection of power supply utilization metrics.
 Needs the experimental pressure API.
@@ -283,7 +283,7 @@ the initializer for the power supply utilization strategy
 
 > `static` **PressureStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L74)
 
 Gets the initializer for the strategy used for collection of pressure metrics.
 Needs the experimental pressure API.
@@ -300,7 +300,7 @@ the initializer for the pressure strategy
 
 > `static` **RenderStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:465](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L465)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:465](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L465)
 
 Gets the initializer for the strategy used for collection of render time metrics.
 
@@ -316,7 +316,7 @@ the initializer for the render time strategy
 
 > `static` **RenderTargetsStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:330](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L330)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:330](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L330)
 
 Gets the initializer for the strategy used for collection of render targets time metrics.
 
@@ -332,7 +332,7 @@ the initializer for the render targets time strategy
 
 > `static` **SpritesStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:384](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L384)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:384](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L384)
 
 Gets the initializer for the strategy used for collection of sprites time metrics.
 
@@ -348,7 +348,7 @@ the initializer for the sprites time strategy
 
 > `static` **ThermalStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L56)
 
 Gets the initializer for the strategy used for collection of thermal utilization metrics.
 Needs the experimental pressure API.
@@ -365,7 +365,7 @@ the initializer for the thermal utilization strategy
 
 > `static` **TotalLightsStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:228](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L228)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L228)
 
 Gets the initializer for the strategy used for collection of total lights metrics.
 
@@ -381,7 +381,7 @@ the initializer for the total lights strategy
 
 > `static` **TotalMaterialsStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:256](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L256)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:256](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L256)
 
 Gets the initializer for the strategy used for collection of total materials metrics.
 
@@ -397,7 +397,7 @@ the initializer for the total materials strategy
 
 > `static` **TotalMeshesStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L118)
 
 Gets the initializer for the strategy used for collection of total meshes metrics.
 
@@ -413,7 +413,7 @@ the initializer for the total meshes strategy
 
 > `static` **TotalTexturesStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:270](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L270)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:270](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L270)
 
 Gets the initializer for the strategy used for collection of total textures metrics.
 
@@ -429,7 +429,7 @@ the initializer for the total textures strategy
 
 > `static` **TotalVerticesStrategy**(): [`PerfStrategyInitialization`](../type-aliases/PerfStrategyInitialization.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:242](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L242)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:242](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L242)
 
 Gets the initializer for the strategy used for collection of total vertices metrics.
 

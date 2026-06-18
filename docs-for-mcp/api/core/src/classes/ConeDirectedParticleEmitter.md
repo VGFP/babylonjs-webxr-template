@@ -6,7 +6,7 @@
 
 # Class: ConeDirectedParticleEmitter
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:231](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L231)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L231)
 
 Particle emitter emitting particles from the inside of a cone.
 It emits the particles alongside the cone volume from the base to the particle.
@@ -22,7 +22,7 @@ The emission direction might be randomized.
 
 > **new ConeDirectedParticleEmitter**(`radius?`, `angle?`, `direction1?`, `direction2?`): `ConeDirectedParticleEmitter`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:232](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L232)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L232)
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneP
 
 > **direction1**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:238](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L238)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L238)
 
 [Up vector] The min limit of the emission direction.
 
@@ -70,7 +70,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneP
 
 > **direction2**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:242](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L242)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:242](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L242)
 
 [Up vector] The max limit of the emission direction.
 
@@ -80,7 +80,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneP
 
 > **directionRandomizer**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L77)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L77)
 
 [0] defines how much to randomize the particle direction [0-1] (default is 0)
 
@@ -94,7 +94,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneP
 
 > **emitFromSpawnPointOnly**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L33)
 
 Gets or sets a value indicating if all the particles should be emitted from the spawn point only (the base of the cone)
 
@@ -108,7 +108,7 @@ Gets or sets a value indicating if all the particles should be emitted from the 
 
 > **heightRange**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L28)
 
 Gets or sets a value indicating where on the height the start position should be picked (1 = everywhere, 0 = only surface)
 
@@ -122,7 +122,7 @@ Gets or sets a value indicating where on the height the start position should be
 
 > **radiusRange**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L23)
 
 Gets or sets a value indicating where on the radius the start position should be picked (1 = everywhere, 0 = only surface)
 
@@ -138,7 +138,7 @@ Gets or sets a value indicating where on the radius the start position should be
 
 > **get** **angle**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L50)
 
 Gets or sets the angle of the emission cone
 
@@ -150,7 +150,7 @@ Gets or sets the angle of the emission cone
 
 > **set** **angle**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L54)
 
 ##### Parameters
 
@@ -174,7 +174,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneP
 
 > **get** **radius**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L38)
 
 Gets or sets the radius of the emission cone
 
@@ -186,7 +186,7 @@ Gets or sets the radius of the emission cone
 
 > **set** **radius**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L42)
 
 ##### Parameters
 
@@ -208,7 +208,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneP
 
 > **applyToShader**(`uboOrEffect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:283](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L283)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L283)
 
 Called by the GPUParticleSystem to setup the update shader
 
@@ -234,7 +234,7 @@ defines the update shader
 
 > **buildUniformLayout**(`ubo`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:293](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L293)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:293](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L293)
 
 Creates the structure of the ubo for this particle emitter
 
@@ -260,7 +260,7 @@ ubo to create the structure for
 
 > **clone**(): `ConeDirectedParticleEmitter`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L271)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:271](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L271)
 
 Clones the current emitter and returns a copy of it
 
@@ -280,7 +280,7 @@ the new emitter
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:311](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L311)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:311](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L311)
 
 Returns the string "ConeDirectedParticleEmitter"
 
@@ -300,7 +300,7 @@ a string containing the class name
 
 > **getEffectDefines**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:303](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L303)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:303](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L303)
 
 Returns a string to use to update the GPU particles update shader
 
@@ -320,7 +320,7 @@ a string containing the defines string
 
 > **parse**(`serializationObject`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:332](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L332)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:332](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L332)
 
 Parse properties from a JSON object
 
@@ -346,7 +346,7 @@ defines the JSON object
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:319](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L319)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:319](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L319)
 
 Serializes the particle system to a JSON object.
 
@@ -366,7 +366,7 @@ the JSON object
 
 > **startDirectionFunction**(`worldMatrix`, `directionToUpdate`, `particle`, `isLocal`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:254](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L254)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L254)
 
 Called by the particle System when the direction is computed for the created particle.
 
@@ -410,7 +410,7 @@ defines if the direction should be set in local space
 
 > **startPositionFunction**(`worldMatrix`, `positionToUpdate`, `particle`, `isLocal`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/coneParticleEmitter.ts#L115)
 
 Called by the particle System when the position is computed for the created particle.
 

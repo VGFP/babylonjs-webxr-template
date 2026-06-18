@@ -6,7 +6,7 @@
 
 # Class: DualShockPad
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L45)
 
 Defines a DualShock gamepad
 
@@ -20,7 +20,7 @@ Defines a DualShock gamepad
 
 > **new DualShockPad**(`id`, `index`, `gamepad`): `DualShockPad`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L88)
 
 Creates a new DualShock gamepad object
 
@@ -58,7 +58,7 @@ defines the internal HTML gamepad object
 
 > **browserGamepad**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L132)
 
 The browser gamepad
 
@@ -72,7 +72,7 @@ The browser gamepad
 
 > **id**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L124)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L124)
 
 The id of the gamepad
 
@@ -86,7 +86,7 @@ The id of the gamepad
 
 > **index**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L128)
 
 The index of the gamepad
 
@@ -100,7 +100,7 @@ The index of the gamepad
 
 > **onButtonDownObservable**: [`Observable`](Observable.md)\<[`DualShockButton`](../enumerations/DualShockButton.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L58)
 
 Observable raised when a button is pressed
 
@@ -110,7 +110,7 @@ Observable raised when a button is pressed
 
 > **onButtonUpObservable**: [`Observable`](Observable.md)\<[`DualShockButton`](../enumerations/DualShockButton.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L60)
 
 Observable raised when a button is released
 
@@ -120,7 +120,7 @@ Observable raised when a button is released
 
 > **onPadDownObservable**: [`Observable`](Observable.md)\<[`DualShockDpad`](../enumerations/DualShockDpad.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L62)
 
 Observable raised when a pad is pressed
 
@@ -130,7 +130,7 @@ Observable raised when a pad is pressed
 
 > **onPadUpObservable**: [`Observable`](Observable.md)\<[`DualShockDpad`](../enumerations/DualShockDpad.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L64)
 
 Observable raised when a pad is released
 
@@ -140,7 +140,7 @@ Observable raised when a pad is released
 
 > **type**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L54)
 
 Specifies what type of gamepad this represents
 
@@ -154,7 +154,7 @@ Specifies what type of gamepad this represents
 
 > `static` **DUALSHOCK**: `number` = `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L96)
 
 Represents an Dual Shock controller
 
@@ -168,7 +168,7 @@ Represents an Dual Shock controller
 
 > `static` **GAMEPAD**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L80)
 
 Represents a gamepad controller
 
@@ -182,7 +182,7 @@ Represents a gamepad controller
 
 > `static` **GENERIC**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L84)
 
 Represents a generic controller
 
@@ -196,7 +196,7 @@ Represents a generic controller
 
 > `static` **POSE\_ENABLED**: `number` = `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L92)
 
 Represents a pose-enabled controller
 
@@ -210,7 +210,7 @@ Represents a pose-enabled controller
 
 > `static` **XBOX**: `number` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L88)
 
 Represents an XBox controller
 
@@ -226,7 +226,7 @@ Represents an XBox controller
 
 > **get** **buttonCircle**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:229](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L229)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L229)
 
 Gets the value of the `Circle` button
 
@@ -238,7 +238,7 @@ Gets the value of the `Circle` button
 
 > **set** **buttonCircle**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:235](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L235)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:235](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L235)
 
 Sets the value of the `Circle` button
 
@@ -260,7 +260,7 @@ Sets the value of the `Circle` button
 
 > **get** **buttonCross**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L216)
 
 Gets the value of the `Cross` button
 
@@ -272,7 +272,7 @@ Gets the value of the `Cross` button
 
 > **set** **buttonCross**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L222)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L222)
 
 Sets the value of the `Cross` button
 
@@ -294,7 +294,7 @@ Sets the value of the `Cross` button
 
 > **get** **buttonL1**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:294](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L294)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:294](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L294)
 
 Gets the value of the `L1` button
 
@@ -306,7 +306,7 @@ Gets the value of the `L1` button
 
 > **set** **buttonL1**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:300](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L300)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:300](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L300)
 
 Sets the value of the `L1` button
 
@@ -328,7 +328,7 @@ Sets the value of the `L1` button
 
 > **get** **buttonLeftStick**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:320](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L320)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:320](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L320)
 
 Gets the value of the Left joystick
 
@@ -340,7 +340,7 @@ Gets the value of the Left joystick
 
 > **set** **buttonLeftStick**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:326](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L326)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:326](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L326)
 
 Sets the value of the Left joystick
 
@@ -362,7 +362,7 @@ Sets the value of the Left joystick
 
 > **get** **buttonOptions**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:268](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L268)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:268](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L268)
 
 Gets the value of the `Options` button
 
@@ -374,7 +374,7 @@ Gets the value of the `Options` button
 
 > **set** **buttonOptions**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:274](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L274)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:274](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L274)
 
 Sets the value of the `Options` button
 
@@ -396,7 +396,7 @@ Sets the value of the `Options` button
 
 > **get** **buttonR1**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:307](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L307)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:307](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L307)
 
 Gets the value of the `R1` button
 
@@ -408,7 +408,7 @@ Gets the value of the `R1` button
 
 > **set** **buttonR1**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:313](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L313)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:313](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L313)
 
 Sets the value of the `R1` button
 
@@ -430,7 +430,7 @@ Sets the value of the `R1` button
 
 > **get** **buttonRightStick**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:333](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L333)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:333](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L333)
 
 Gets the value of the Right joystick
 
@@ -442,7 +442,7 @@ Gets the value of the Right joystick
 
 > **set** **buttonRightStick**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:339](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L339)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:339](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L339)
 
 Sets the value of the Right joystick
 
@@ -464,7 +464,7 @@ Sets the value of the Right joystick
 
 > **get** **buttonShare**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:281](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L281)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:281](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L281)
 
 Gets the value of the `Share` button
 
@@ -476,7 +476,7 @@ Gets the value of the `Share` button
 
 > **set** **buttonShare**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:287](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L287)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:287](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L287)
 
 Sets the value of the `Share` button
 
@@ -498,7 +498,7 @@ Sets the value of the `Share` button
 
 > **get** **buttonSquare**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:242](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L242)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:242](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L242)
 
 Gets the value of the `Square` button
 
@@ -510,7 +510,7 @@ Gets the value of the `Square` button
 
 > **set** **buttonSquare**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:248](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L248)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:248](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L248)
 
 Sets the value of the `Square` button
 
@@ -532,7 +532,7 @@ Sets the value of the `Square` button
 
 > **get** **buttonTriangle**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L255)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:255](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L255)
 
 Gets the value of the `Triangle` button
 
@@ -544,7 +544,7 @@ Gets the value of the `Triangle` button
 
 > **set** **buttonTriangle**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L261)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L261)
 
 Sets the value of the `Triangle` button
 
@@ -566,7 +566,7 @@ Sets the value of the `Triangle` button
 
 > **get** **dPadDown**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:359](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L359)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:359](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L359)
 
 Gets the value of D-pad down
 
@@ -578,7 +578,7 @@ Gets the value of D-pad down
 
 > **set** **dPadDown**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:365](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L365)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:365](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L365)
 
 Sets the value of D-pad down
 
@@ -600,7 +600,7 @@ Sets the value of D-pad down
 
 > **get** **dPadLeft**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:372](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L372)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:372](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L372)
 
 Gets the value of D-pad left
 
@@ -612,7 +612,7 @@ Gets the value of D-pad left
 
 > **set** **dPadLeft**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:378](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L378)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:378](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L378)
 
 Sets the value of D-pad left
 
@@ -634,7 +634,7 @@ Sets the value of D-pad left
 
 > **get** **dPadRight**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:385](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L385)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:385](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L385)
 
 Gets the value of D-pad right
 
@@ -646,7 +646,7 @@ Gets the value of D-pad right
 
 > **set** **dPadRight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:391](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L391)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:391](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L391)
 
 Sets the value of D-pad right
 
@@ -668,7 +668,7 @@ Sets the value of D-pad right
 
 > **get** **dPadUp**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:346](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L346)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:346](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L346)
 
 Gets the value of D-pad up
 
@@ -680,7 +680,7 @@ Gets the value of D-pad up
 
 > **set** **dPadUp**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:352](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L352)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:352](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L352)
 
 Sets the value of D-pad up
 
@@ -702,7 +702,7 @@ Sets the value of D-pad up
 
 > **get** **isConnected**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L106)
 
 Specifies if the gamepad has been connected
 
@@ -722,7 +722,7 @@ Specifies if the gamepad has been connected
 
 > **get** **leftStick**(): [`StickValues`](StickValues.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L170)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L170)
 
 Gets the left joystick
 
@@ -734,7 +734,7 @@ Gets the left joystick
 
 > **set** **leftStick**(`newValues`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L176)
 
 Sets the left joystick values
 
@@ -760,7 +760,7 @@ Sets the left joystick values
 
 > **get** **leftTrigger**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L112)
 
 Gets the left trigger value
 
@@ -772,7 +772,7 @@ Gets the left trigger value
 
 > **set** **leftTrigger**(`newValue`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L118)
 
 Sets the left trigger value
 
@@ -794,7 +794,7 @@ Sets the left trigger value
 
 > **get** **rightStick**(): [`StickValues`](StickValues.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L185)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L185)
 
 Gets the right joystick
 
@@ -806,7 +806,7 @@ Gets the right joystick
 
 > **set** **rightStick**(`newValues`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L191)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:191](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L191)
 
 Sets the right joystick value
 
@@ -832,7 +832,7 @@ Sets the right joystick value
 
 > **get** **rightTrigger**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L128)
 
 Gets the right trigger value
 
@@ -844,7 +844,7 @@ Gets the right trigger value
 
 > **set** **rightTrigger**(`newValue`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L134)
 
 Sets the right trigger value
 
@@ -864,7 +864,7 @@ Sets the right trigger value
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:421](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L421)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:421](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L421)
 
 Disposes the gamepad
 
@@ -882,7 +882,7 @@ Disposes the gamepad
 
 > **onbuttondown**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:145](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L145)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L145)
 
 Defines the callback to call when a button is pressed
 
@@ -904,7 +904,7 @@ defines the callback to use
 
 > **onbuttonup**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L153)
 
 Defines the callback to call when a button is released
 
@@ -926,7 +926,7 @@ defines the callback to use
 
 > **ondpaddown**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:161](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L161)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:161](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L161)
 
 Defines the callback to call when a pad is pressed
 
@@ -948,7 +948,7 @@ defines the callback to use
 
 > **ondpadup**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:169](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L169)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L169)
 
 Defines the callback to call when a pad is released
 
@@ -970,7 +970,7 @@ defines the callback to use
 
 > **onleftstickchanged**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L155)
 
 Callback triggered when the left joystick has changed
 
@@ -996,7 +996,7 @@ callback to trigger
 
 > **onlefttriggerchanged**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L97)
 
 Defines the callback to call when left trigger is pressed
 
@@ -1018,7 +1018,7 @@ defines the callback to use
 
 > **onrightstickchanged**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L163)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L163)
 
 Callback triggered when the right joystick has changed
 
@@ -1044,7 +1044,7 @@ callback to trigger
 
 > **onrighttriggerchanged**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L105)
 
 Defines the callback to call when right trigger is pressed
 
@@ -1066,7 +1066,7 @@ defines the callback to use
 
 > **update**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:398](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L398)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:398](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L398)
 
 Force the gamepad to synchronize with device values
 

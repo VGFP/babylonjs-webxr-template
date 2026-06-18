@@ -6,7 +6,7 @@
 
 # Class: DepthPeelingSceneComponent
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthPeelingSceneComponent.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthPeelingSceneComponent.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthPeelingSceneComponent.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthPeelingSceneComponent.pure.ts#L15)
 
 Scene component to render order independent transparency with depth peeling
 
@@ -20,7 +20,7 @@ Scene component to render order independent transparency with depth peeling
 
 > **new DepthPeelingSceneComponent**(`scene`): `DepthPeelingSceneComponent`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthPeelingSceneComponent.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthPeelingSceneComponent.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthPeelingSceneComponent.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthPeelingSceneComponent.pure.ts#L30)
 
 Creates a new instance of the component for the given scene
 
@@ -42,7 +42,7 @@ Defines the scene to register the component in
 
 > `readonly` **name**: `"DepthPeelingRenderer"` = `SceneComponentConstants.NAME_DEPTHPEELINGRENDERER`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthPeelingSceneComponent.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthPeelingSceneComponent.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthPeelingSceneComponent.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthPeelingSceneComponent.pure.ts#L19)
 
 The component name helpful to identify the component in the list of scene components.
 
@@ -56,7 +56,7 @@ The component name helpful to identify the component in the list of scene compon
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthPeelingSceneComponent.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthPeelingSceneComponent.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthPeelingSceneComponent.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthPeelingSceneComponent.pure.ts#L24)
 
 The scene the component belongs to.
 
@@ -70,7 +70,7 @@ The scene the component belongs to.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthPeelingSceneComponent.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthPeelingSceneComponent.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthPeelingSceneComponent.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthPeelingSceneComponent.pure.ts#L50)
 
 Disposes the component and the associated resources.
 
@@ -88,7 +88,7 @@ Disposes the component and the associated resources.
 
 > **rebuild**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthPeelingSceneComponent.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthPeelingSceneComponent.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthPeelingSceneComponent.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthPeelingSceneComponent.pure.ts#L45)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -107,7 +107,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthPeelingSceneComponent.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthPeelingSceneComponent.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthPeelingSceneComponent.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthPeelingSceneComponent.pure.ts#L39)
 
 Registers the component in a given scene
 

@@ -6,7 +6,7 @@
 
 # Class: FollowCameraKeyboardMoveInput
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L15)
 
 Manage the keyboard inputs to control the movement of a follow camera.
 
@@ -34,7 +34,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **camera**: [`FollowCamera`](FollowCamera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L19)
 
 Defines the camera the input is attached to.
 
@@ -48,7 +48,7 @@ Defines the camera the input is attached to.
 
 > **heightSensibility**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L115)
 
 Defines the rate of change of heightOffset.
 
@@ -58,7 +58,7 @@ Defines the rate of change of heightOffset.
 
 > **keysHeightOffsetDecr**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L31)
 
 Defines the list of key codes associated with the down action (decrease heightOffset)
 
@@ -68,7 +68,7 @@ Defines the list of key codes associated with the down action (decrease heightOf
 
 > **keysHeightOffsetIncr**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L25)
 
 Defines the list of key codes associated with the up action (increase heightOffset)
 
@@ -78,7 +78,7 @@ Defines the list of key codes associated with the up action (increase heightOffs
 
 > **keysHeightOffsetModifierAlt**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L37)
 
 Defines whether the Alt modifier key is required to move up/down (alter heightOffset)
 
@@ -88,7 +88,7 @@ Defines whether the Alt modifier key is required to move up/down (alter heightOf
 
 > **keysHeightOffsetModifierCtrl**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L43)
 
 Defines whether the Ctrl modifier key is required to move up/down (alter heightOffset)
 
@@ -98,7 +98,7 @@ Defines whether the Ctrl modifier key is required to move up/down (alter heightO
 
 > **keysHeightOffsetModifierShift**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L49)
 
 Defines whether the Shift modifier key is required to move up/down (alter heightOffset)
 
@@ -108,7 +108,7 @@ Defines whether the Shift modifier key is required to move up/down (alter height
 
 > **keysRadiusDecr**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L91)
 
 Defines the list of key codes associated with the zoom-out action (increase radius)
 
@@ -118,7 +118,7 @@ Defines the list of key codes associated with the zoom-out action (increase radi
 
 > **keysRadiusIncr**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L85)
 
 Defines the list of key codes associated with the zoom-in action (decrease radius)
 
@@ -128,7 +128,7 @@ Defines the list of key codes associated with the zoom-in action (decrease radiu
 
 > **keysRadiusModifierAlt**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L97)
 
 Defines whether the Alt modifier key is required to zoom in/out (alter radius value)
 
@@ -138,7 +138,7 @@ Defines whether the Alt modifier key is required to zoom in/out (alter radius va
 
 > **keysRadiusModifierCtrl**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L103)
 
 Defines whether the Ctrl modifier key is required to zoom in/out (alter radius value)
 
@@ -148,7 +148,7 @@ Defines whether the Ctrl modifier key is required to zoom in/out (alter radius v
 
 > **keysRadiusModifierShift**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L109)
 
 Defines whether the Shift modifier key is required to zoom in/out (alter radius value)
 
@@ -158,7 +158,7 @@ Defines whether the Shift modifier key is required to zoom in/out (alter radius 
 
 > **keysRotationOffsetDecr**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L61)
 
 Defines the list of key codes associated with the right action (decrease rotationOffset)
 
@@ -168,7 +168,7 @@ Defines the list of key codes associated with the right action (decrease rotatio
 
 > **keysRotationOffsetIncr**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L55)
 
 Defines the list of key codes associated with the left action (increase rotationOffset)
 
@@ -178,7 +178,7 @@ Defines the list of key codes associated with the left action (increase rotation
 
 > **keysRotationOffsetModifierAlt**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L67)
 
 Defines whether the Alt modifier key is required to move left/right (alter rotationOffset)
 
@@ -188,7 +188,7 @@ Defines whether the Alt modifier key is required to move left/right (alter rotat
 
 > **keysRotationOffsetModifierCtrl**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L73)
 
 Defines whether the Ctrl modifier key is required to move left/right (alter rotationOffset)
 
@@ -198,7 +198,7 @@ Defines whether the Ctrl modifier key is required to move left/right (alter rota
 
 > **keysRotationOffsetModifierShift**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L79)
 
 Defines whether the Shift modifier key is required to move left/right (alter rotationOffset)
 
@@ -208,7 +208,7 @@ Defines whether the Shift modifier key is required to move left/right (alter rot
 
 > **radiusSensibility**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L127)
 
 Defines the rate of change of radius.
 
@@ -218,7 +218,7 @@ Defines the rate of change of radius.
 
 > **rotationSensibility**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L121)
 
 Defines the rate of change of rotationOffset.
 
@@ -228,7 +228,7 @@ Defines the rate of change of rotationOffset.
 
 > **attachControl**(`noPreventDefault?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L142)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L142)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -254,7 +254,7 @@ Defines whether event caught by the controls should call preventdefault() (https
 
 > **checkInputs**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:231](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L231)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L231)
 
 Update the current camera state depending on the inputs that have been used this frame.
 This is a dynamically created lambda to avoid the performance penalty of looping for inputs in the render loop.
@@ -273,7 +273,7 @@ This is a dynamically created lambda to avoid the performance penalty of looping
 
 > **detachControl**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:212](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L212)
 
 Detach the current controls from the specified dom element.
 
@@ -291,7 +291,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:257](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L257)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:257](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L257)
 
 Gets the class name of the current input.
 
@@ -311,7 +311,7 @@ the class name
 
 > **getSimpleName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:265](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L265)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts:265](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/followCameraKeyboardMoveInput.ts#L265)
 
 Get the friendly name associated with the input class.
 

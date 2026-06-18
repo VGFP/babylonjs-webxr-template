@@ -6,7 +6,7 @@
 
 # Class: WeightedSound
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:7](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/weightedsound.ts#L7)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:7](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/weightedsound.ts#L7)
 
 Wraps one or more Sound objects and selects one with random weight for playback.
 
@@ -16,7 +16,7 @@ Wraps one or more Sound objects and selects one with random weight for playback.
 
 > **new WeightedSound**(`loop`, `sounds`, `weights`): `WeightedSound`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/weightedsound.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/weightedsound.ts#L28)
 
 Creates a new WeightedSound from the list of sounds given.
 
@@ -50,7 +50,7 @@ Array of number values for selection weights; length must equal sounds, values w
 
 > **isPaused**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/weightedsound.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/weightedsound.ts#L16)
 
 A Sound is currently paused.
 
@@ -60,7 +60,7 @@ A Sound is currently paused.
 
 > **isPlaying**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/weightedsound.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/weightedsound.ts#L14)
 
 A Sound is currently playing.
 
@@ -70,7 +70,7 @@ A Sound is currently playing.
 
 > **loop**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/weightedsound.ts#L9)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/weightedsound.ts#L9)
 
 When true a Sound will be selected and played when the current playing Sound completes.
 
@@ -82,7 +82,7 @@ When true a Sound will be selected and played when the current playing Sound com
 
 > **get** **directionalConeInnerAngle**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/weightedsound.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/weightedsound.ts#L55)
 
 The size of cone in degrees for a directional sound in which there will be no attenuation.
 
@@ -94,7 +94,7 @@ The size of cone in degrees for a directional sound in which there will be no at
 
 > **set** **directionalConeInnerAngle**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/weightedsound.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/weightedsound.ts#L62)
 
 The size of cone in degrees for a directional sound in which there will be no attenuation.
 
@@ -116,7 +116,7 @@ The size of cone in degrees for a directional sound in which there will be no at
 
 > **get** **directionalConeOuterAngle**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/weightedsound.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/weightedsound.ts#L80)
 
 Size of cone in degrees for a directional sound outside of which there will be no sound.
 Listener angles between innerAngle and outerAngle will falloff linearly.
@@ -129,7 +129,7 @@ Listener angles between innerAngle and outerAngle will falloff linearly.
 
 > **set** **directionalConeOuterAngle**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/weightedsound.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/weightedsound.ts#L88)
 
 Size of cone in degrees for a directional sound outside of which there will be no sound.
 Listener angles between innerAngle and outerAngle will falloff linearly.
@@ -152,7 +152,7 @@ Listener angles between innerAngle and outerAngle will falloff linearly.
 
 > **get** **volume**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/weightedsound.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/weightedsound.ts#L105)
 
 Playback volume.
 
@@ -164,7 +164,7 @@ Playback volume.
 
 > **set** **volume**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/weightedsound.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/weightedsound.ts#L112)
 
 Playback volume.
 
@@ -184,7 +184,7 @@ Playback volume.
 
 > **pause**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/weightedsound.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/weightedsound.ts#L134)
 
 Suspend playback
 
@@ -198,7 +198,7 @@ Suspend playback
 
 > **play**(`startOffset?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:157](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/weightedsound.ts#L157)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:157](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/weightedsound.ts#L157)
 
 Start playback.
 
@@ -220,7 +220,7 @@ Position the clip head at a specific time in seconds.
 
 > **stop**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Audio/weightedsound.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/Audio/weightedsound.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/weightedsound.ts#L146)
 
 Stop playback
 

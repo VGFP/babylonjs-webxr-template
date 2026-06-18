@@ -6,7 +6,7 @@
 
 # Enumeration: WebXRHandJoint
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:169](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L169)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L170)
 
 Joints of the hand as defined by the WebXR specification.
 https://immersive-web.github.io/webxr-hand-input/#skeleton-joints-section
@@ -17,7 +17,7 @@ https://immersive-web.github.io/webxr-hand-input/#skeleton-joints-section
 
 > **INDEX\_FINGER\_METACARPAL**: `"index-finger-metacarpal"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L183)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:184](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L184)
 
 Index finger near wrist
 
@@ -27,7 +27,7 @@ Index finger near wrist
 
 > **INDEX\_FINGER\_PHALANX\_DISTAL**: `"index-finger-phalanx-distal"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:189](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L189)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L190)
 
 Index finger third knuckle
 
@@ -37,7 +37,7 @@ Index finger third knuckle
 
 > **INDEX\_FINGER\_PHALANX\_INTERMEDIATE**: `"index-finger-phalanx-intermediate"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:187](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L187)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:188](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L188)
 
 Index finger second knuckle
 
@@ -47,7 +47,7 @@ Index finger second knuckle
 
 > **INDEX\_FINGER\_PHALANX\_PROXIMAL**: `"index-finger-phalanx-proximal"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L185)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:186](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L186)
 
 Index finger first knuckle
 
@@ -57,7 +57,7 @@ Index finger first knuckle
 
 > **INDEX\_FINGER\_TIP**: `"index-finger-tip"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L191)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L192)
 
 Index finger tip
 
@@ -67,7 +67,7 @@ Index finger tip
 
 > **MIDDLE\_FINGER\_METACARPAL**: `"middle-finger-metacarpal"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:194](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L194)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L195)
 
 Middle finger near wrist
 
@@ -77,7 +77,7 @@ Middle finger near wrist
 
 > **MIDDLE\_FINGER\_PHALANX\_DISTAL**: `"middle-finger-phalanx-distal"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L201)
 
 Middle finger third knuckle
 
@@ -87,7 +87,7 @@ Middle finger third knuckle
 
 > **MIDDLE\_FINGER\_PHALANX\_INTERMEDIATE**: `"middle-finger-phalanx-intermediate"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:198](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L198)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:199](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L199)
 
 Middle finger second knuckle
 
@@ -97,7 +97,7 @@ Middle finger second knuckle
 
 > **MIDDLE\_FINGER\_PHALANX\_PROXIMAL**: `"middle-finger-phalanx-proximal"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:196](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L196)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L197)
 
 Middle finger first knuckle
 
@@ -107,7 +107,7 @@ Middle finger first knuckle
 
 > **MIDDLE\_FINGER\_TIP**: `"middle-finger-tip"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:202](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L202)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:203](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L203)
 
 Middle finger tip
 
@@ -117,7 +117,7 @@ Middle finger tip
 
 > **PINKY\_FINGER\_METACARPAL**: `"pinky-finger-metacarpal"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L217)
 
 Pinky finger near wrist
 
@@ -127,7 +127,7 @@ Pinky finger near wrist
 
 > **PINKY\_FINGER\_PHALANX\_DISTAL**: `"pinky-finger-phalanx-distal"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L222)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L223)
 
 Pinky finger third knuckle
 
@@ -137,7 +137,7 @@ Pinky finger third knuckle
 
 > **PINKY\_FINGER\_PHALANX\_INTERMEDIATE**: `"pinky-finger-phalanx-intermediate"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:220](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L220)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L221)
 
 Pinky finger second knuckle
 
@@ -147,7 +147,7 @@ Pinky finger second knuckle
 
 > **PINKY\_FINGER\_PHALANX\_PROXIMAL**: `"pinky-finger-phalanx-proximal"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:218](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L218)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L219)
 
 Pinky finger first knuckle
 
@@ -157,7 +157,7 @@ Pinky finger first knuckle
 
 > **PINKY\_FINGER\_TIP**: `"pinky-finger-tip"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:224](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L224)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L225)
 
 Pinky finger tip
 
@@ -167,7 +167,7 @@ Pinky finger tip
 
 > **RING\_FINGER\_METACARPAL**: `"ring-finger-metacarpal"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:206](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L206)
 
 Ring finger near wrist
 
@@ -177,7 +177,7 @@ Ring finger near wrist
 
 > **RING\_FINGER\_PHALANX\_DISTAL**: `"ring-finger-phalanx-distal"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:211](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L211)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:212](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L212)
 
 Ring finger third knuckle
 
@@ -187,7 +187,7 @@ Ring finger third knuckle
 
 > **RING\_FINGER\_PHALANX\_INTERMEDIATE**: `"ring-finger-phalanx-intermediate"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:209](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L209)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L210)
 
 Ring finger second knuckle
 
@@ -197,7 +197,7 @@ Ring finger second knuckle
 
 > **RING\_FINGER\_PHALANX\_PROXIMAL**: `"ring-finger-phalanx-proximal"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:207](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L207)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L208)
 
 Ring finger first knuckle
 
@@ -207,7 +207,7 @@ Ring finger first knuckle
 
 > **RING\_FINGER\_TIP**: `"ring-finger-tip"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:213](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L213)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L214)
 
 Ring finger tip
 
@@ -217,7 +217,7 @@ Ring finger tip
 
 > **THUMB\_METACARPAL**: `"thumb-metacarpal"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:174](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L174)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L175)
 
 Thumb near wrist
 
@@ -227,7 +227,7 @@ Thumb near wrist
 
 > **THUMB\_PHALANX\_DISTAL**: `"thumb-phalanx-distal"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L178)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L179)
 
 Thumb second knuckle
 
@@ -237,7 +237,7 @@ Thumb second knuckle
 
 > **THUMB\_PHALANX\_PROXIMAL**: `"thumb-phalanx-proximal"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L177)
 
 Thumb first knuckle
 
@@ -247,7 +247,7 @@ Thumb first knuckle
 
 > **THUMB\_TIP**: `"thumb-tip"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L180)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:181](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L181)
 
 Thumb tip
 
@@ -257,6 +257,6 @@ Thumb tip
 
 > **WRIST**: `"wrist"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.ts:171](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHandTracking.ts#L171)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L172)
 
 Wrist

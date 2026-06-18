@@ -6,7 +6,7 @@
 
 # Class: PhotoDome
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/photoDome.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/photoDome.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/photoDome.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/photoDome.ts#L11)
 
 Display a 360 degree photo on an approximately spherical surface, useful for VR applications or skyboxes.
 As a subclass of TransformNode, this allow parenting to the camera with different locations in the scene.
@@ -23,7 +23,7 @@ Potential additions to this helper include zoom and and non-infinite distance re
 
 > **new PhotoDome**(`name`, `textureUrlOrElement`, `options`, `scene`, `onError?`): `PhotoDome`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:198](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/textureDome.ts#L198)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/textureDome.ts#L198)
 
 Create an instance of this class and pass through the parameters to the relevant classes- Texture, StandardMaterial, and Mesh.
 
@@ -115,7 +115,7 @@ An object containing optional or exposed sub element properties
 
 > **animations**: [`Animation`](Animation.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:173](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L173)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L173)
 
 Gets a list of Animations associated with the node
 
@@ -129,7 +129,7 @@ Gets a list of Animations associated with the node
 
 > **customMarkAsDirty**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:262](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L262)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:264](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L264)
 
 Allow user to specify custom mechanism for mark as dirty
 
@@ -147,7 +147,7 @@ Allow user to specify custom mechanism for mark as dirty
 
 > **id**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L95)
 
 Gets or sets the id of the node
 
@@ -161,7 +161,7 @@ Gets or sets the id of the node
 
 > **ignoreNonUniformScaling**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L134)
 
 Gets or sets a boolean indicating that non uniform scaling (when at least one component is different from others) should be ignored.
 By default the system will update normals to compensate
@@ -176,7 +176,7 @@ By default the system will update normals to compensate
 
 > **inspectableCustomProperties**: [`IInspectable`](../interfaces/IInspectable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L127)
 
 List of inspectable custom properties (used by the Inspector)
 
@@ -194,7 +194,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > **metadata**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L113)
 
 Gets or sets an object used to store user defined information for the node
 
@@ -208,7 +208,7 @@ Gets or sets an object used to store user defined information for the node
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L89)
 
 Gets or sets the name of the node
 
@@ -222,7 +222,7 @@ Gets or sets the name of the node
 
 > **onAccessibilityTagChangedObservable**: [`Observable`](Observable.md)\<[`Nullable`](../type-aliases/Nullable.md)\<`IAccessibilityTag`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L146)
 
 Observable fired when an accessibility tag is changed
 
@@ -236,7 +236,7 @@ Observable fired when an accessibility tag is changed
 
 > **onAfterWorldMatrixUpdateObservable**: [`Observable`](Observable.md)\<[`TransformNode`](TransformNode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L170)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L172)
 
 An event triggered after the world matrix is updated
 
@@ -250,7 +250,7 @@ An event triggered after the world matrix is updated
 
 > **onDisposeObservable**: [`Observable`](Observable.md)\<[`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:350](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L350)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L350)
 
 An event triggered when the mesh is disposed
 
@@ -264,7 +264,7 @@ An event triggered when the mesh is disposed
 
 > **onLoadErrorObservable**: [`Observable`](Observable.md)\<`string`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/textureDome.ts#L172)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/textureDome.ts#L172)
 
 Observable raised when an error occurred while loading the texture
 
@@ -278,7 +278,7 @@ Observable raised when an error occurred while loading the texture
 
 > **onLoadObservable**: [`Observable`](Observable.md)\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/textureDome.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/textureDome.ts#L176)
 
 Observable raised when the texture finished loading
 
@@ -292,7 +292,7 @@ Observable raised when the texture finished loading
 
 > **onReady**: [`Nullable`](../type-aliases/Nullable.md)\<(`node`) => `void`\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:179](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L179)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L179)
 
 Callback raised when the node is ready to be used
 
@@ -306,7 +306,7 @@ Callback raised when the node is ready to be used
 
 > **physicsBody**: [`Nullable`](../type-aliases/Nullable.md)\<[`PhysicsBody`](PhysicsBody.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsEngineComponent.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsEngineComponent.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts#L15)
 
 Gets or sets the physics body associated with this node.
 
@@ -320,7 +320,7 @@ Gets or sets the physics body associated with this node.
 
 > **reIntegrateRotationIntoRotationQuaternion**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L140)
 
 Gets or sets a boolean indicating that even if rotationQuaternion is defined, you can keep updating rotation property and Babylon.js will just mix both
 
@@ -334,7 +334,7 @@ Gets or sets a boolean indicating that even if rotationQuaternion is defined, yo
 
 > **reservedDataStore**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L121)
 
 For internal use only. Please do not use.
 
@@ -348,7 +348,7 @@ For internal use only. Please do not use.
 
 > **scalingDeterminant**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L109)
 
 Multiplication factor on scale x/y/z when computing the world matrix. Eg. for a 1x1x1 cube setting this to 2 will make it a 2x2x2 cube
 
@@ -362,7 +362,7 @@ Multiplication factor on scale x/y/z when computing the world matrix. Eg. for a 
 
 > **state**: `string` = `""`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L107)
 
 Gets or sets a string used to store user defined state for the node
 
@@ -376,7 +376,7 @@ Gets or sets a string used to store user defined state for the node
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L101)
 
 Gets or sets the unique id of the node
 
@@ -390,7 +390,7 @@ Gets or sets the unique id of the node
 
 > `static` **BILLBOARDMODE\_ALL**: `number` = `7`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L42)
 
 Object will rotate to face the camera
 
@@ -404,7 +404,7 @@ Object will rotate to face the camera
 
 > `static` **BILLBOARDMODE\_NONE**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L26)
 
 Object will not rotate to face the camera
 
@@ -418,7 +418,7 @@ Object will not rotate to face the camera
 
 > `static` **BILLBOARDMODE\_USE\_POSITION**: `number` = `128`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L46)
 
 Object will rotate to face the camera's position instead of orientation
 
@@ -432,7 +432,7 @@ Object will rotate to face the camera's position instead of orientation
 
 > `static` **BILLBOARDMODE\_X**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L30)
 
 Object will rotate to face the camera but only on the x axis
 
@@ -446,7 +446,7 @@ Object will rotate to face the camera but only on the x axis
 
 > `static` **BILLBOARDMODE\_Y**: `number` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L34)
 
 Object will rotate to face the camera but only on the y axis
 
@@ -460,7 +460,7 @@ Object will rotate to face the camera but only on the y axis
 
 > `static` **BILLBOARDMODE\_Z**: `number` = `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L38)
 
 Object will rotate to face the camera but only on the z axis
 
@@ -474,7 +474,7 @@ Object will rotate to face the camera but only on the z axis
 
 > `static` **BillboardUseParentOrientation**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L50)
 
 Child transform with Billboard flags should or should not apply parent rotation (default if off)
 
@@ -488,7 +488,7 @@ Child transform with Billboard flags should or should not apply parent rotation 
 
 > `readonly` `static` **MODE\_MONOSCOPIC**: `0` = `TextureDome.MODE_MONOSCOPIC`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/photoDome.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/photoDome.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/photoDome.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/photoDome.ts#L15)
 
 Define the image as a Monoscopic panoramic 360 image.
 
@@ -502,7 +502,7 @@ Define the image as a Monoscopic panoramic 360 image.
 
 > `readonly` `static` **MODE\_SIDEBYSIDE**: `2` = `TextureDome.MODE_SIDEBYSIDE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/photoDome.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/photoDome.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/photoDome.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/photoDome.ts#L23)
 
 Define the image as a Stereoscopic Side by Side panoramic 360 image.
 
@@ -516,7 +516,7 @@ Define the image as a Stereoscopic Side by Side panoramic 360 image.
 
 > `readonly` `static` **MODE\_TOPBOTTOM**: `1` = `TextureDome.MODE_TOPBOTTOM`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/photoDome.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/photoDome.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/photoDome.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/photoDome.ts#L19)
 
 Define the image as a Stereoscopic TopBottom/OverUnder panoramic 360 image.
 
@@ -532,7 +532,7 @@ Define the image as a Stereoscopic TopBottom/OverUnder panoramic 360 image.
 
 > **get** **absolutePosition**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:370](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L370)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:372](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L372)
 
 Returns the current mesh absolute position.
 Returns a Vector3.
@@ -553,7 +553,7 @@ Returns a Vector3.
 
 > **get** **absoluteRotationQuaternion**(): [`Quaternion`](Quaternion.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:387](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L387)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:389](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L389)
 
 Returns the current mesh absolute rotation.
 Returns a Quaternion.
@@ -574,7 +574,7 @@ Returns a Quaternion.
 
 > **get** **absoluteScaling**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:378](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L378)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:380](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L380)
 
 Returns the current mesh absolute scaling.
 Returns a Vector3.
@@ -595,7 +595,7 @@ Returns a Vector3.
 
 > **get** **accessibilityTag**(): [`Nullable`](../type-aliases/Nullable.md)\<`IAccessibilityTag`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L137)
 
 ##### Returns
 
@@ -605,7 +605,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/node.ts:137](https://github.
 
 > **set** **accessibilityTag**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L132)
 
 Gets or sets the accessibility tag to describe the node for accessibility purpose.
 
@@ -631,7 +631,7 @@ Gets or sets the accessibility tag to describe the node for accessibility purpos
 
 > **get** **animationPropertiesOverride**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationPropertiesOverride`](AnimationPropertiesOverride.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:325](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L325)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:325](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L325)
 
 Gets or sets the animation properties override
 
@@ -643,7 +643,7 @@ Gets or sets the animation properties override
 
 > **set** **animationPropertiesOverride**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:332](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L332)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:332](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L332)
 
 ##### Parameters
 
@@ -667,7 +667,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/node.ts:332](https://github.
 
 > **get** **behaviors**(): [`Behavior`](../interfaces/Behavior.md)\<[`Node`](Node.md)\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:468](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L468)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:472](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L472)
 
 Gets the list of attached behaviors
 
@@ -691,7 +691,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **get** **billboardMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L93)
 
 Gets or sets the billboard mode. Default is 0.
 
@@ -711,7 +711,7 @@ Gets or sets the billboard mode. Default is 0.
 
 > **set** **billboardMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L97)
 
 ##### Parameters
 
@@ -735,7 +735,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:95](
 
 > **get** **crossEye**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:154](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/textureDome.ts#L154)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:154](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/textureDome.ts#L154)
 
 Is it a cross-eye texture?
 
@@ -747,7 +747,7 @@ Is it a cross-eye texture?
 
 > **set** **crossEye**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/textureDome.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/textureDome.ts#L146)
 
 Set the cross-eye mode. If set, images that can be seen when crossing eyes will render correctly
 
@@ -773,7 +773,7 @@ Set the cross-eye mode. If set, images that can be seen when crossing eyes will 
 
 > **get** **doNotSerialize**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L151)
 
 Gets or sets a boolean used to define if the node must be serialized
 
@@ -785,7 +785,7 @@ Gets or sets a boolean used to define if the node must be serialized
 
 > **set** **doNotSerialize**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L163)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L163)
 
 ##### Parameters
 
@@ -809,7 +809,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/node.ts:163](https://github.
 
 > **get** **forward**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:278](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L278)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:280](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L280)
 
 The forward direction of that transform in world space.
 
@@ -829,7 +829,7 @@ The forward direction of that transform in world space.
 
 > **get** **fovMultiplier**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/textureDome.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/textureDome.ts#L96)
 
 The current fov(field of view) multiplier, 0.0 - 2.0. Defaults to 1.0. Lower values "zoom in" and higher values "zoom out".
 Also see the options.resolution property.
@@ -842,7 +842,7 @@ Also see the options.resolution property.
 
 > **set** **fovMultiplier**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/textureDome.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/textureDome.ts#L99)
 
 ##### Parameters
 
@@ -866,7 +866,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:99](h
 
 > **get** **halfDome**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/textureDome.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/textureDome.ts#L130)
 
 Is it a 180 degrees dome (half dome) or 360 texture (full dome)
 
@@ -878,7 +878,7 @@ Is it a 180 degrees dome (half dome) or 360 texture (full dome)
 
 > **set** **halfDome**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/textureDome.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/textureDome.ts#L137)
 
 Set the halfDome mode. If set, only the front (180 degrees) will be displayed and the back will be blacked out.
 
@@ -904,7 +904,7 @@ Set the halfDome mode. If set, only the front (180 degrees) will be displayed an
 
 > **get** **imageMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/photoDome.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/photoDome.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/photoDome.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/photoDome.ts#L44)
 
 Gets the current video mode for the video. It can be:
 * TextureDome.MODE_MONOSCOPIC : Define the texture source as a Monoscopic panoramic 360.
@@ -919,7 +919,7 @@ Gets the current video mode for the video. It can be:
 
 > **set** **imageMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/photoDome.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/photoDome.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/photoDome.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/photoDome.ts#L53)
 
 Sets the current video mode for the video. It can be:
 * TextureDome.MODE_MONOSCOPIC : Define the texture source as a Monoscopic panoramic 360.
@@ -944,7 +944,7 @@ Sets the current video mode for the video. It can be:
 
 > **get** **infiniteDistance**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L117)
 
 Gets or sets the distance of the object to max, often used by skybox
 
@@ -956,7 +956,7 @@ Gets or sets the distance of the object to max, often used by skybox
 
 > **set** **infiniteDistance**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L121)
 
 ##### Parameters
 
@@ -980,7 +980,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:119]
 
 > **get** **inheritVisibility**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:269](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L269)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:269](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L269)
 
 If set to true, this node, when renderable, will only be visible if its parent(s) are also visible.
 
@@ -998,7 +998,7 @@ false
 
 > **set** **inheritVisibility**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:273](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L273)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:273](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L273)
 
 ##### Parameters
 
@@ -1022,7 +1022,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/node.ts:273](https://github.
 
 > **get** **isVisible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:281](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L281)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:281](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L281)
 
 Gets or sets a boolean indicating whether this node is visible, either this node itself when it is renderable or its renderable child nodes when `inheritVisibility` is true.
 
@@ -1040,7 +1040,7 @@ true
 
 > **set** **isVisible**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:289](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L289)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:289](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L289)
 
 ##### Parameters
 
@@ -1064,7 +1064,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/node.ts:289](https://github.
 
 > **get** **isWorldMatrixFrozen**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:503](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L503)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:507](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L507)
 
 True if the World matrix has been frozen.
 
@@ -1084,7 +1084,7 @@ True if the World matrix has been frozen.
 
 > **get** **material**(): [`BackgroundMaterial`](BackgroundMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:161](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/textureDome.ts#L161)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:161](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/textureDome.ts#L161)
 
 The background material of this dome.
 
@@ -1104,7 +1104,7 @@ The background material of this dome.
 
 > **get** **mesh**(): [`Mesh`](Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/textureDome.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/textureDome.ts#L83)
 
 Gets the mesh used for the dome.
 
@@ -1124,7 +1124,7 @@ Gets the mesh used for the dome.
 
 > **get** **nonUniformScaling**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:865](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L865)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:869](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L869)
 
 True if the scaling property of this object is non uniform eg. (1,2,1)
 
@@ -1144,7 +1144,7 @@ True if the scaling property of this object is non uniform eg. (1,2,1)
 
 > **get** **onClonedObservable**(): [`Observable`](Observable.md)\<[`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:373](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L373)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:373](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L373)
 
 An event triggered when the node is cloned
 
@@ -1164,7 +1164,7 @@ An event triggered when the node is cloned
 
 > **set** **onDispose**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:356](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L356)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:356](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L356)
 
 Sets a callback that will be raised when the node will be disposed
 
@@ -1190,7 +1190,7 @@ Sets a callback that will be raised when the node will be disposed
 
 > **get** **onEnabledStateChangedObservable**(): [`Observable`](Observable.md)\<`boolean`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:366](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L366)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:366](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L366)
 
 An event triggered when the enabled state of the node changes
 
@@ -1210,7 +1210,7 @@ An event triggered when the enabled state of the node changes
 
 > **get** **parent**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L261)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L261)
 
 ##### Returns
 
@@ -1220,7 +1220,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/node.ts:261](https://github.
 
 > **set** **parent**(`parent`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L222)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L222)
 
 Gets or sets the parent of the node (without keeping the current position in the scene)
 
@@ -1250,7 +1250,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/transforms/parent_pivot
 
 > **get** **photoTexture**(): [`Texture`](Texture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/photoDome.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/photoDome.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/photoDome.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/photoDome.ts#L27)
 
 Gets or sets the texture being displayed on the sphere
 
@@ -1262,7 +1262,7 @@ Gets or sets the texture being displayed on the sphere
 
 > **set** **photoTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/photoDome.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/photoDome.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/photoDome.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/photoDome.ts#L34)
 
 sets the texture being displayed on the sphere
 
@@ -1284,7 +1284,7 @@ sets the texture being displayed on the sphere
 
 > **get** **position**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:192](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L192)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L194)
 
 Gets or set the node position (default is (0.0, 0.0, 0.0))
 
@@ -1296,7 +1296,7 @@ Gets or set the node position (default is (0.0, 0.0, 0.0))
 
 > **set** **position**(`newPosition`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:196](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L196)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L198)
 
 ##### Parameters
 
@@ -1320,7 +1320,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:196]
 
 > **get** **right**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:294](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L294)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L296)
 
 The right direction of that transform in world space.
 
@@ -1340,7 +1340,7 @@ The right direction of that transform in world space.
 
 > **get** **rotation**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:220](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L220)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L222)
 
 Gets or sets the rotation property : a Vector3 defining the rotation value in radians around each local axis X, Y, Z  (default is (0.0, 0.0, 0.0)).
 If rotation quaternion is set, this Vector3 will be ignored and copy from the quaternion
@@ -1353,7 +1353,7 @@ If rotation quaternion is set, this Vector3 will be ignored and copy from the qu
 
 > **set** **rotation**(`newRotation`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:224](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L224)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:226](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L226)
 
 ##### Parameters
 
@@ -1377,7 +1377,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:224]
 
 > **get** **rotationQuaternion**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Quaternion`](Quaternion.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:246](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L246)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:248](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L248)
 
 Gets or sets the rotation Quaternion property : this a Quaternion object defining the node rotation by using a unit quaternion (undefined by default, but can be null).
 If set, only the rotationQuaternion is then used to compute the node rotation (ie. node.rotation will be ignored)
@@ -1390,7 +1390,7 @@ If set, only the rotationQuaternion is then used to compute the node rotation (i
 
 > **set** **rotationQuaternion**(`quaternion`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:250](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L250)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:252](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L252)
 
 ##### Parameters
 
@@ -1414,7 +1414,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:250]
 
 > **get** **scaling**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:233](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L233)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:235](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L235)
 
 Gets or sets the scaling property : a Vector3 defining the node scaling along each local axis X, Y, Z (default is (1.0, 1.0, 1.0)).
 
@@ -1426,7 +1426,7 @@ Gets or sets the scaling property : a Vector3 defining the node scaling along ea
 
 > **set** **scaling**(`newScaling`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:237](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L237)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L239)
 
 ##### Parameters
 
@@ -1450,7 +1450,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:237]
 
 > **get** **texture**(): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/textureDome.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/textureDome.ts#L47)
 
 Gets the texture being displayed on the sphere
 
@@ -1462,7 +1462,7 @@ Gets the texture being displayed on the sphere
 
 > **set** **texture**(`newTexture`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/textureDome.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/textureDome.ts#L54)
 
 Sets the texture being displayed on the sphere
 
@@ -1488,7 +1488,7 @@ Sets the texture being displayed on the sphere
 
 > **get** **textureMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:110](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/textureDome.ts#L110)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/textureDome.ts#L110)
 
 Gets or set the current texture mode for the texture. It can be:
 * TextureDome.MODE_MONOSCOPIC : Define the texture source as a Monoscopic panoramic 360.
@@ -1503,7 +1503,7 @@ Gets or set the current texture mode for the texture. It can be:
 
 > **set** **textureMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/textureDome.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/textureDome.ts#L119)
 
 Sets the current texture mode for the texture. It can be:
 * TextureDome.MODE_MONOSCOPIC : Define the texture source as a Monoscopic panoramic 360.
@@ -1532,7 +1532,7 @@ Sets the current texture mode for the texture. It can be:
 
 > **get** **up**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:286](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L286)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:288](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L288)
 
 The up direction of that transform in world space.
 
@@ -1552,7 +1552,7 @@ The up direction of that transform in world space.
 
 > **get** **worldMatrixFromCache**(): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:512](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L512)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:516](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L516)
 
 Returns directly the latest state of the mesh World matrix.
 A Matrix is returned.
@@ -1571,7 +1571,7 @@ A Matrix is returned.
 
 > **addBehavior**(`behavior`, `attachImmediately?`): [`Node`](Node.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:421](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L421)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:421](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L421)
 
 Attach a behavior to the node
 
@@ -1609,7 +1609,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **addChild**(`mesh`, `preserveScalingSign?`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:842](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L842)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:846](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L846)
 
 Adds the passed mesh as a child to the current mesh.
 The node will remain exactly where it is and its position / rotation will be updated accordingly.
@@ -1645,7 +1645,7 @@ the current mesh
 
 > **addRotation**(`x`, `y`, `z`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:1043](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L1043)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:1047](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L1047)
 
 Adds a rotation step to the mesh current rotation.
 x, y, z are Euler angles expressed in radians.
@@ -1695,7 +1695,7 @@ the TransformNode.
 
 > **applyAngularImpulse**(`angularImpulse`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsEngineComponent.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsEngineComponent.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts#L33)
 
 Apply a physic angular impulse to the mesh
 
@@ -1723,7 +1723,7 @@ the current mesh
 
 > **applyImpulse**(`force`, `contactPoint`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsEngineComponent.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsEngineComponent.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts#L27)
 
 Apply a physic impulse to the mesh
 
@@ -1757,7 +1757,7 @@ the current mesh
 
 > **applyTorque**(`torque`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsEngineComponent.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsEngineComponent.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts#L39)
 
 Apply a physic torque to the mesh
 
@@ -1785,7 +1785,7 @@ the current mesh
 
 > **attachToBone**(`bone`, `affectedTransformNode`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:887](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L887)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:891](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L891)
 
 Attach the current TransformNode to another TransformNode associated with a bone
 
@@ -1819,7 +1819,7 @@ this object
 
 > **beginAnimation**(`name`, `loop?`, `speedRatio?`, `onAnimationEnd?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animatable`](Animatable.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:898](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L898)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:902](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L902)
 
 Will start the animation sequence
 
@@ -1865,7 +1865,7 @@ the object created for this animation. If range does not exist, it will return n
 
 > **clone**(`name`, `newParent`, `doNotCloneChildren?`): [`Nullable`](../type-aliases/Nullable.md)\<[`TransformNode`](TransformNode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:1435](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L1435)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:1439](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L1439)
 
 Clone the current transform node
 
@@ -1905,7 +1905,7 @@ the new transform node
 
 > **computeWorldMatrix**(`force?`, `camera?`): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:1082](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L1082)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:1086](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L1086)
 
 Computes the world matrix of the node
 
@@ -1939,7 +1939,7 @@ the world matrix
 
 > **createAnimationRange**(`name`, `from`, `to`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:815](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L815)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:819](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L819)
 
 Creates an animation range for this node
 
@@ -1977,7 +1977,7 @@ defines the end key
 
 > **deleteAnimationRange**(`name`, `deleteFrames?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:832](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L832)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:836](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L836)
 
 Delete a specific animation range
 
@@ -2009,7 +2009,7 @@ defines if animation frames from the range must be deleted as well
 
 > **detachFromBone**(`resetToPreviousParent?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:905](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L905)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:909](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L909)
 
 Detach the transform node if its associated with a bone
 
@@ -2037,7 +2037,7 @@ this object
 
 > **dispose**(`doNotRecurse?`, `disposeMaterialAndTextures?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:350](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Helpers/textureDome.ts#L350)
+Defined in: [babylonjs-source/packages/dev/core/src/Helpers/textureDome.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Helpers/textureDome.ts#L350)
 
 Releases resources associated with this node.
 
@@ -2069,7 +2069,7 @@ Set to true to also dispose referenced materials and textures (false by default)
 
 > **freezeWorldMatrix**(`newWorldMatrix?`, `decompose?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:469](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L469)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:473](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L473)
 
 Prevents the World matrix to be computed any longer.
 Please note that the "moral" contract is that the world matrix is not going to be updated anymore. It is up to the developer to force updates.
@@ -2105,7 +2105,7 @@ the TransformNode.
 
 > **getAbsolutePivotPoint**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:734](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L734)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:738](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L738)
 
 Returns a new Vector3 set with the mesh pivot point World coordinates.
 
@@ -2125,7 +2125,7 @@ a new Vector3 set with the mesh pivot point World coordinates.
 
 > **getAbsolutePivotPointToRef**(`result`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:745](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L745)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:749](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L749)
 
 Sets the Vector3 "result" coordinates with the mesh pivot point World coordinates.
 
@@ -2153,7 +2153,7 @@ this TransformNode.
 
 > **getAbsolutePosition**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:511](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L511)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:515](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L515)
 
 Returns the mesh absolute position in the World.
 
@@ -2173,7 +2173,7 @@ a Vector3.
 
 > **getAnimationByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animation`](Animation.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:797](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L797)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:801](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L801)
 
 Get an animation by name
 
@@ -2201,7 +2201,7 @@ null if not found else the requested animation
 
 > **getAnimationRange**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationRange`](AnimationRange.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:846](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L846)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:850](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L850)
 
 Get an animation range by name
 
@@ -2229,7 +2229,7 @@ null if not found else the requested animation range
 
 > **getAnimationRanges**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationRange`](AnimationRange.md)\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:881](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L881)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:885](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L885)
 
 Gets the list of all animation ranges defined on this node
 
@@ -2249,7 +2249,7 @@ an array
 
 > **getBehaviorByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Behavior`](../interfaces/Behavior.md)\<[`Node`](Node.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:478](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L478)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:482](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L482)
 
 Gets an attached behavior by name
 
@@ -2283,9 +2283,13 @@ Get all child-meshes of this node
 
 #### Param
 
+**directDescendantsOnly**
+
 defines if true only direct descendants of 'this' will be considered, if false direct and also indirect (children of children, an so on in a recursive manner) descendants of 'this' will be considered (Default: false)
 
 #### Param
+
+**predicate**
 
 defines an optional predicate that will be called on every evaluated child, the predicate must return true for a given child to be part of the result, otherwise it will be ignored
 
@@ -2293,7 +2297,7 @@ defines an optional predicate that will be called on every evaluated child, the 
 
 > **getChildMeshes**\<`T`\>(`directDescendantsOnly?`, `predicate?`): `T`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:723](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L723)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:727](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L727)
 
 Get all child-meshes of this node
 
@@ -2331,7 +2335,7 @@ an array of AbstractMesh
 
 > **getChildMeshes**(`directDescendantsOnly?`, `predicate?`): [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:731](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L731)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:735](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L735)
 
 Get all child-meshes of this node
 
@@ -2367,9 +2371,13 @@ Get all direct children of this node
 
 #### Param
 
+**predicate**
+
 defines an optional predicate that will be called on every evaluated child, the predicate must return true for a given child to be part of the result, otherwise it will be ignored
 
 #### Param
+
+**directDescendantsOnly**
 
 defines if true only direct descendants of 'this' will be considered, if false direct and also indirect (children of children, an so on in a recursive manner) descendants of 'this' will be considered (Default: true)
 
@@ -2377,7 +2385,7 @@ defines if true only direct descendants of 'this' will be considered, if false d
 
 > **getChildren**\<`T`\>(`predicate?`, `directDescendantsOnly?`): `T`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:753](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L753)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:757](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L757)
 
 Get all direct children of this node
 
@@ -2415,7 +2423,7 @@ an array of Node
 
 > **getChildren**(`predicate?`, `directDescendantsOnly?`): [`Node`](Node.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:761](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L761)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:765](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L765)
 
 Get all direct children of this node
 
@@ -2449,7 +2457,7 @@ an array of Node
 
 > **getChildTransformNodes**(`directDescendantsOnly?`, `predicate?`): [`TransformNode`](TransformNode.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:1555](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L1555)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:1500](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L1500)
 
 Get all child-transformNodes of this node
 
@@ -2483,7 +2491,7 @@ an array of TransformNode
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L185)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L187)
 
 Gets a string identifying the name of the class
 
@@ -2505,9 +2513,13 @@ Will return all nodes that have this node as ascendant
 
 #### Param
 
+**directDescendantsOnly**
+
 defines if true only direct descendants of 'this' will be considered, if false direct and also indirect (children of children, an so on in a recursive manner) descendants of 'this' will be considered
 
 #### Param
+
+**predicate**
 
 defines an optional predicate that will be called on every evaluated child, the predicate must return true for a given child to be part of the result, otherwise it will be ignored
 
@@ -2515,7 +2527,7 @@ defines an optional predicate that will be called on every evaluated child, the 
 
 > **getDescendants**\<`T`\>(`directDescendantsOnly?`, `predicate?`): `T`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:693](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L693)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:697](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L697)
 
 Will return all nodes that have this node as ascendant
 
@@ -2553,7 +2565,7 @@ all children nodes of all types
 
 > **getDescendants**(`directDescendantsOnly?`, `predicate?`): [`Node`](Node.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:701](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L701)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:705](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L705)
 
 Will return all nodes that have this node as ascendant
 
@@ -2587,7 +2599,7 @@ all children nodes of all types
 
 > **getDirection**(`localAxis`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:643](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L643)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:647](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L647)
 
 Returns a new Vector3 that is the localAxis, expressed in the mesh local space, rotated like the mesh.
 This Vector3 is expressed in the World space.
@@ -2616,7 +2628,7 @@ a new Vector3 that is the localAxis, expressed in the mesh local space, rotated 
 
 > **getDirectionToRef**(`localAxis`, `result`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:659](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L659)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:663](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L663)
 
 Sets the Vector3 "result" as the rotated Vector3 "localAxis" in the same rotation than the mesh.
 localAxis is expressed in the mesh local space.
@@ -2652,7 +2664,7 @@ this TransformNode.
 
 > **getDistanceToCamera**(`camera?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:1421](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L1421)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:1425](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L1425)
 
 Returns the distance from the mesh to the active camera
 
@@ -2680,7 +2692,7 @@ the distance
 
 > **getEngine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:407](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L407)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:407](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L407)
 
 Gets the engine of the node
 
@@ -2700,7 +2712,7 @@ a Engine
 
 > **getHierarchyBoundingVectors**(`includeDescendants?`, `predicate?`): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:998](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L998)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:1002](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L1002)
 
 Return the minimum and maximum world vectors of the entire hierarchy under current node
 
@@ -2742,7 +2754,7 @@ the new bounding vectors
 
 > **getPhysicsBody**(): [`Nullable`](../type-aliases/Nullable.md)\<[`PhysicsBody`](PhysicsBody.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsEngineComponent.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsEngineComponent.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts#L20)
 
 #### Returns
 
@@ -2758,7 +2770,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsEngineComp
 
 > **getPivotMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:430](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L430)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:432](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L432)
 
 Returns the mesh pivot matrix.
 Default : Identity.
@@ -2779,7 +2791,7 @@ the matrix
 
 > **getPivotPoint**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:712](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L712)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:716](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L716)
 
 Returns a new Vector3 set with the mesh pivot point coordinates in the local space.
 
@@ -2799,7 +2811,7 @@ the pivot point
 
 > **getPivotPointToRef**(`result`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:723](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L723)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:727](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L727)
 
 Sets the passed Vector3 "result" with the coordinates of the mesh pivot point in the local space.
 
@@ -2827,7 +2839,7 @@ this TransformNode.
 
 > **getPoseMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:317](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L317)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:319](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L319)
 
 Returns the mesh Pose matrix.
 
@@ -2847,7 +2859,7 @@ the pose matrix
 
 > **getPositionExpressedInLocalSpace**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:569](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L569)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:573](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L573)
 
 Returns the mesh position in the local space from the current World matrix values.
 
@@ -2867,7 +2879,7 @@ a new Vector3.
 
 > **getPositionInCameraSpace**(`camera?`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:1408](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L1408)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:1412](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L1412)
 
 Gets the position of the current mesh in camera space
 
@@ -2895,7 +2907,7 @@ a position
 
 > **getScene**(): [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:399](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L399)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:399](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L399)
 
 Gets the scene of the node
 
@@ -2915,7 +2927,7 @@ a scene
 
 > **getWorldMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:492](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L492)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:496](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L496)
 
 Returns the latest update of the World matrix
 
@@ -2935,7 +2947,7 @@ a Matrix
 
 > **instantiateHierarchy**(`newParent?`, `options?`, `onNewNodeCreated?`): [`Nullable`](../type-aliases/Nullable.md)\<[`TransformNode`](TransformNode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:441](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L441)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:443](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L443)
 
 Instantiate (when possible) or clone that node with its hierarchy
 
@@ -2977,7 +2989,7 @@ an instance (or a clone) of the current node with its hierarchy
 
 > **isDescendantOf**(`ancestor`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:655](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L655)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:659](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L659)
 
 Is this node a descendant of the given node?
 The function will iterate up the hierarchy until the ancestor was found or no more parents defined
@@ -3006,7 +3018,7 @@ a boolean indicating if this node is a descendant of the given node
 
 > **isDisposed**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:214](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L214)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L214)
 
 Gets a boolean indicating if the node has been disposed
 
@@ -3026,7 +3038,7 @@ true if the node was disposed
 
 > **isEnabled**(`checkAncestors?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:613](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L613)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:617](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L617)
 
 Is this node enabled?
 If the node has a parent, all ancestors will be checked and false will be returned if any are false (not enabled), otherwise will return true
@@ -3055,7 +3067,7 @@ whether this node (and its parent) is enabled
 
 > **isReady**(`_completeCheck?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:592](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L592)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:596](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L596)
 
 Is this node ready to be used/rendered
 
@@ -3083,7 +3095,7 @@ true if the node is ready
 
 > **isUsingPivotMatrix**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:207](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L207)
 
 return true if a pivot has been set
 
@@ -3103,7 +3115,7 @@ true if a pivot matrix is used
 
 > **isUsingPostMultiplyPivotMatrix**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L214)
 
 #### Returns
 
@@ -3121,7 +3133,7 @@ true if pivot matrix must be cancelled in the world matrix. When this parameter 
 
 > **isWorldMatrixCameraDependent**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:1072](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L1072)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:1076](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L1076)
 
 Returns whether the transform node world matrix computation needs the camera information to be computed.
 This is the case when the node is a billboard or has an infinite distance for instance.
@@ -3142,7 +3154,7 @@ true if the world matrix computation needs the camera information to be computed
 
 > **locallyTranslate**(`vector3`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:581](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L581)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:585](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L585)
 
 Translates the mesh along the passed Vector3 in its local space.
 
@@ -3170,7 +3182,7 @@ the TransformNode.
 
 > **lookAt**(`targetPoint`, `yawCor?`, `pitchCor?`, `rollCor?`, `space?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:598](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L598)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:602](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L602)
 
 Orients a mesh towards a target point. Mesh must be drawn facing user.
 
@@ -3222,7 +3234,7 @@ the TransformNode.
 
 > **markAsDirty**(`property?`): [`Node`](Node.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:756](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L756)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:760](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L760)
 
 Flag the transform node as dirty (Forcing it to update everything)
 
@@ -3250,7 +3262,7 @@ this  node
 
 > **normalizeToUnitCube**(`includeDescendants?`, `ignoreRotation?`, `predicate?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:1603](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L1603)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:1548](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L1548)
 
 Uniformly scales the mesh to fit inside of a unit cube (1 X 1 X 1 units)
 
@@ -3290,7 +3302,7 @@ the current mesh
 
 > **registerAfterWorldMatrixUpdate**(`func`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:1388](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L1388)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:1392](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L1392)
 
 If you'd like to be called back after the mesh position, rotation or scaling has been updated.
 
@@ -3318,7 +3330,7 @@ the TransformNode.
 
 > **removeBehavior**(`behavior`): [`Node`](Node.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:451](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L451)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:451](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L451)
 
 Remove an attached behavior
 
@@ -3350,7 +3362,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **removeChild**(`mesh`, `preserveScalingSign?`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:853](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L853)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:857](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L857)
 
 Removes the passed mesh from the current mesh children list
 
@@ -3384,7 +3396,7 @@ the current mesh
 
 > **resetLocalMatrix**(`independentOfChildren?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:1349](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L1349)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:1353](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L1353)
 
 Resets this nodeTransform's local matrix to Matrix.Identity().
 
@@ -3410,7 +3422,7 @@ indicates if all child nodeTransform's world-space transform should be preserved
 
 > **rotate**(`axis`, `amount`, `space?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:936](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L936)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:940](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L940)
 
 Rotates the mesh around the axis vector for the passed angle (amount) expressed in radians, in the given space.
 space (default LOCAL) can be either Space.LOCAL, either Space.WORLD.
@@ -3453,7 +3465,7 @@ the TransformNode.
 
 > **rotateAround**(`point`, `axis`, `amount`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:973](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L973)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:977](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L977)
 
 Rotates the mesh around the axis vector for the passed angle (amount) expressed in radians, in world space.
 Note that the property `rotationQuaternion` is then automatically updated and the property `rotation` is set to (0,0,0) and no longer used.
@@ -3496,7 +3508,7 @@ the TransformNode
 
 > **serialize**(`currentSerializationObject?`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:1465](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L1465)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:1469](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L1469)
 
 Serializes the objects information.
 
@@ -3524,7 +3536,7 @@ the serialized object
 
 > **serializeAnimationRanges**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:912](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L912)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:916](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L916)
 
 Serialize animation ranges into a JSON compatible object
 
@@ -3544,7 +3556,7 @@ serialization object
 
 > **setAbsolutePosition**(`absolutePosition`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:521](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L521)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:525](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L525)
 
 Sets the mesh absolute position in the World from a Vector3 or an Array(3).
 
@@ -3572,7 +3584,7 @@ the TransformNode.
 
 > **setDirection**(`localAxis`, `yawCor?`, `pitchCor?`, `rollCor?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:672](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L672)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:676](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L676)
 
 Sets this transform node rotation to the given local axis.
 
@@ -3618,7 +3630,7 @@ this TransformNode
 
 > **setEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:640](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L640)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:644](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L644)
 
 Set the enabled state of this node
 
@@ -3644,7 +3656,7 @@ defines the new enabled state
 
 > **setParent**(`node`, `preserveScalingSign?`, `updatePivot?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:784](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L784)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:788](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L788)
 
 Defines the passed node as the parent of the current node.
 The node will remain exactly where it is and its position / rotation will be updated accordingly.
@@ -3693,7 +3705,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/transforms/parent_pivot
 
 > **setPivotMatrix**(`matrix`, `postMultiplyPivotMatrix?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:407](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L407)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:409](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L409)
 
 Sets a new pivot matrix to the current node
 
@@ -3727,7 +3739,7 @@ the current TransformNode
 
 > **setPivotPoint**(`point`, `space?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:692](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L692)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:696](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L696)
 
 Sets a new pivot point to the current node
 
@@ -3761,7 +3773,7 @@ the current TransformNode
 
 > **setPositionWithLocalVector**(`vector3`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:559](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L559)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:563](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L563)
 
 Sets the mesh position in its local space.
 
@@ -3789,7 +3801,7 @@ the TransformNode.
 
 > **setPreTransformMatrix**(`matrix`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:397](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L397)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:399](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L399)
 
 Sets a new matrix to apply before all other transformation
 
@@ -3817,7 +3829,7 @@ the current TransformNode
 
 > **translate**(`axis`, `distance`, `space?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:1015](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L1015)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:1019](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L1019)
 
 Translates the mesh along the axis vector for the passed distance in the given space.
 space (default LOCAL) can be either Space.LOCAL, either Space.WORLD.
@@ -3858,7 +3870,7 @@ the TransformNode.
 
 > **unfreezeWorldMatrix**(): `PhotoDome`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:494](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L494)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:498](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L498)
 
 Allows back the World matrix computation.
 
@@ -3878,7 +3890,7 @@ the TransformNode.
 
 > **unregisterAfterWorldMatrixUpdate**(`func`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:1398](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L1398)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:1402](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L1402)
 
 Removes a registered callback function.
 
@@ -3906,7 +3918,7 @@ the TransformNode.
 
 > **updatePoseMatrix**(`matrix`): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:304](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L304)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.pure.ts:306](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/transformNode.pure.ts#L306)
 
 Copies the parameter passed Matrix into the mesh Pose matrix.
 
@@ -3934,7 +3946,7 @@ this TransformNode.
 
 > `static` **AddNodeConstructor**(`type`, `constructorFunc`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L61)
 
 Add a new node constructor
 
@@ -3966,7 +3978,7 @@ defines the constructor function
 
 > `static` **Construct**(`type`, `name`, `scene`, `options?`): [`Nullable`](../type-aliases/Nullable.md)\<() => [`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L73)
 
 Returns a node constructor based on type name
 
@@ -4008,51 +4020,11 @@ the new constructor or null
 
 ***
 
-### Parse()
-
-> `static` **Parse**(`parsedTransformNode`, `scene`, `rootUrl`): [`TransformNode`](TransformNode.md)
-
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/transformNode.ts:1498](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/transformNode.ts#L1498)
-
-Returns a new TransformNode object parsed from the source provided.
-
-#### Parameters
-
-##### parsedTransformNode
-
-`any`
-
-is the source.
-
-##### scene
-
-[`Scene`](Scene.md)
-
-the scene the object belongs to
-
-##### rootUrl
-
-`string`
-
-is a string, it's the root URL to prefix the `delayLoadingFile` property with
-
-#### Returns
-
-[`TransformNode`](TransformNode.md)
-
-a new TransformNode object parsed from the source provided.
-
-#### Inherited from
-
-`TextureDome.Parse`
-
-***
-
 ### ParseAnimationRanges()
 
 > `static` **ParseAnimationRanges**(`node`, `parsedNode`, `_scene`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:984](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/node.ts#L984)
+Defined in: [babylonjs-source/packages/dev/core/src/node.ts:988](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L988)
 
 Parse animation range data from a serialization object and store them into a given node
 

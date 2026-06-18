@@ -6,7 +6,7 @@
 
 # Class: FrameGraphContext
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:6](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L6)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L6)
 
 Base class for frame graph context.
 
@@ -20,7 +20,7 @@ Base class for frame graph context.
 
 > **enableDebugMarkers**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L13)
 
 If true, debug markers will be enabled in the context.
 
@@ -30,7 +30,7 @@ If true, debug markers will be enabled in the context.
 
 > **getTextureFromHandle**(`handle`): [`Nullable`](../type-aliases/Nullable.md)\<[`InternalTexture`](InternalTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L55)
 
 Gets a texture from a handle.
 Note that if the texture is a history texture, the read texture for the current frame will be returned.
@@ -55,7 +55,7 @@ The texture or null if not found
 
 > **insertDebugMarker**(`text`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L78)
 
 Inserts a debug marker in the engine's debug stack.
 
@@ -77,7 +77,7 @@ The text of the debug marker
 
 > **popDebugGroup**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L70)
 
 Pops a debug group from the engine's debug stack.
 
@@ -91,7 +91,7 @@ Pops a debug group from the engine's debug stack.
 
 > **pushDebugGroup**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L63)
 
 Pushes a debug group to the engine's debug stack.
 
@@ -113,7 +113,7 @@ The name of the debug group
 
 > **renderUnmanaged**(`component`, `intermediateRendering?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L28)
 
 Renders a component without managing the render target.
 Use this method when you have a component that handles its own rendering logic which is not fully integrated into the frame graph system.
@@ -144,7 +144,7 @@ If true, the scene's intermediate rendering flag will be set to true during the 
 
 > **restoreDepthStates**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L93)
 
 Restores the depth states saved by saveDepthStates
 
@@ -158,7 +158,7 @@ Restores the depth states saved by saveDepthStates
 
 > **saveDepthStates**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L85)
 
 Saves the current depth states (depth testing and depth writing)
 
@@ -172,7 +172,7 @@ Saves the current depth states (depth testing and depth writing)
 
 > **setDepthStates**(`depthTest`, `depthWrite`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L103)
 
 Sets the depth states for the current render target
 
@@ -200,7 +200,7 @@ If true, depth writing is enabled
 
 > **setViewport**(`viewport`, `requiredWidth?`, `requiredHeight?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphContext.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphContext.ts#L114)
 
 Sets the current viewport
 

@@ -6,7 +6,7 @@
 
 # Class: Animation
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L100)
 
 Class used to store any kind of animation
 
@@ -16,7 +16,7 @@ Class used to store any kind of animation
 
 > **new Animation**(`name`, `targetProperty`, `framePerSecond`, `dataType`, `loopMode?`, `enableBlending?`): `Animation`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:636](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L636)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L251)
 
 Initializes the animation
 
@@ -68,7 +68,7 @@ Specifies if blending should be enabled
 
 > **blendingSpeed**: `number` = `0.01`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L162)
 
 Stores the blending speed of the animation
 
@@ -78,7 +78,7 @@ Stores the blending speed of the animation
 
 > **dataType**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:644](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L644)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:259](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L259)
 
 The data type of the animation
 
@@ -88,7 +88,7 @@ The data type of the animation
 
 > `optional` **enableBlending?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:648](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L648)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:263](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L263)
 
 Specifies if blending should be enabled
 
@@ -98,7 +98,7 @@ Specifies if blending should be enabled
 
 > **framePerSecond**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:642](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L642)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:257](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L257)
 
 The frames per second of the animation
 
@@ -108,7 +108,7 @@ The frames per second of the animation
 
 > `optional` **loopMode?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:646](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L646)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L261)
 
 The loop mode of the animation
 
@@ -118,7 +118,7 @@ The loop mode of the animation
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:638](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L638)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:253](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L253)
 
 Name of the animation
 
@@ -128,7 +128,7 @@ Name of the animation
 
 > **snippetId**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L132)
 
 Snippet ID if the animation was created from the snippet server
 
@@ -138,7 +138,7 @@ Snippet ID if the animation was created from the snippet server
 
 > **targetProperty**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:640](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L640)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:255](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L255)
 
 Property to animate
 
@@ -148,7 +148,7 @@ Property to animate
 
 > **targetPropertyPath**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:157](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L157)
 
 Stores an array of target property paths
 
@@ -158,7 +158,7 @@ Stores an array of target property paths
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L124)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L126)
 
 Gets or sets the unique id of the animation (the uniqueness is solely among other animations)
 
@@ -168,7 +168,7 @@ Gets or sets the unique id of the animation (the uniqueness is solely among othe
 
 > `static` **AllowMatricesInterpolation**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L106)
 
 Use matrix interpolation instead of using direct key value when animating matrices
 
@@ -178,7 +178,7 @@ Use matrix interpolation instead of using direct key value when animating matric
 
 > `static` **AllowMatrixDecomposeForInterpolation**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L111)
 
 When matrix interpolation is enabled, this boolean forces the system to use Matrix.DecomposeLerp instead of Matrix.Lerp. Interpolation is more precise but slower
 
@@ -188,7 +188,7 @@ When matrix interpolation is enabled, this boolean forces the system to use Matr
 
 > `readonly` `static` **ANIMATIONLOOPMODE\_CONSTANT**: `2` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1422](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1422)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:1037](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L1037)
 
 Constant Loop Mode
 
@@ -198,7 +198,7 @@ Constant Loop Mode
 
 > `readonly` `static` **ANIMATIONLOOPMODE\_CYCLE**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1418](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1418)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:1033](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L1033)
 
 Cycle Loop Mode
 
@@ -208,7 +208,7 @@ Cycle Loop Mode
 
 > `readonly` `static` **ANIMATIONLOOPMODE\_RELATIVE**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1414](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1414)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:1029](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L1029)
 
 Relative Loop Mode
 
@@ -218,7 +218,7 @@ Relative Loop Mode
 
 > `readonly` `static` **ANIMATIONLOOPMODE\_RELATIVE\_FROM\_CURRENT**: `5` = `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1430](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1430)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:1045](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L1045)
 
 Relative Loop Mode (add to current value of animated object, unlike ANIMATIONLOOPMODE_RELATIVE)
 
@@ -228,7 +228,7 @@ Relative Loop Mode (add to current value of animated object, unlike ANIMATIONLOO
 
 > `readonly` `static` **ANIMATIONLOOPMODE\_YOYO**: `4` = `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1426](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1426)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:1041](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L1041)
 
 Yoyo Loop Mode
 
@@ -238,7 +238,7 @@ Yoyo Loop Mode
 
 > `readonly` `static` **ANIMATIONTYPE\_COLOR3**: `4` = `Constants.ANIMATIONTYPE_COLOR3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1398](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1398)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:1013](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L1013)
 
 Color3 animation type
 
@@ -248,7 +248,7 @@ Color3 animation type
 
 > `readonly` `static` **ANIMATIONTYPE\_COLOR4**: `7` = `Constants.ANIMATIONTYPE_COLOR4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1402](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1402)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:1017](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L1017)
 
 Color3 animation type
 
@@ -258,7 +258,7 @@ Color3 animation type
 
 > `readonly` `static` **ANIMATIONTYPE\_FLOAT**: `0` = `Constants.ANIMATIONTYPE_FLOAT`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1382](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1382)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:997](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L997)
 
 Float animation type
 
@@ -268,7 +268,7 @@ Float animation type
 
 > `readonly` `static` **ANIMATIONTYPE\_MATRIX**: `3` = `Constants.ANIMATIONTYPE_MATRIX`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1394](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1394)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:1009](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L1009)
 
 Matrix animation type
 
@@ -278,7 +278,7 @@ Matrix animation type
 
 > `readonly` `static` **ANIMATIONTYPE\_QUATERNION**: `2` = `Constants.ANIMATIONTYPE_QUATERNION`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1390](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1390)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:1005](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L1005)
 
 Quaternion animation type
 
@@ -288,7 +288,7 @@ Quaternion animation type
 
 > `readonly` `static` **ANIMATIONTYPE\_SIZE**: `6` = `Constants.ANIMATIONTYPE_SIZE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1410](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1410)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:1025](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L1025)
 
 Size animation type
 
@@ -298,7 +298,7 @@ Size animation type
 
 > `readonly` `static` **ANIMATIONTYPE\_VECTOR2**: `5` = `Constants.ANIMATIONTYPE_VECTOR2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1406](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1406)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:1021](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L1021)
 
 Vector2 animation type
 
@@ -308,47 +308,9 @@ Vector2 animation type
 
 > `readonly` `static` **ANIMATIONTYPE\_VECTOR3**: `1` = `Constants.ANIMATIONTYPE_VECTOR3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1386](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1386)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:1001](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L1001)
 
 Vector3 animation type
-
-***
-
-### ~~CreateFromSnippetAsync~~
-
-> `static` **CreateFromSnippetAsync**: (`snippetId`) => `Promise`\<`Animation` \| `Animation`[]\> = `Animation.ParseFromSnippetAsync`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1686](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1686)
-
-Creates an animation or an array of animations from a snippet saved by the Inspector
-
-Creates an animation or an array of animations from a snippet saved by the Inspector
-
-#### Parameters
-
-##### snippetId
-
-`string`
-
-defines the snippet to load
-
-#### Returns
-
-`Promise`\<`Animation` \| `Animation`[]\>
-
-a promise that will resolve to the new animation or a new array of animations
-
-#### Deprecated
-
-Please use ParseFromSnippetAsync instead
-
-#### Param
-
-defines the snippet to load
-
-#### Returns
-
-a promise that will resolve to the new animation or a new array of animations
 
 ***
 
@@ -356,7 +318,7 @@ a promise that will resolve to the new animation or a new array of animations
 
 > `static` **InheritOriginalValueFromActiveAnimations**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L121)
 
 When true, starting a new animation on a property that is already being animated
 will inherit the original value from the active animation instead of snapshotting
@@ -374,7 +336,7 @@ https://playground.babylonjs.com/#6A16YD#0
 
 > `static` **SnippetUrl**: `string` = `Constants.SnippetUrl`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L129)
 
 Define the Url to load snippets
 
@@ -386,7 +348,7 @@ Define the Url to load snippets
 
 > **get** **hasRunningRuntimeAnimations**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:617](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L617)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L232)
 
 Specifies if any of the runtime animations are currently running
 
@@ -402,7 +364,7 @@ Specifies if any of the runtime animations are currently running
 
 > **get** **runtimeAnimations**(): [`RuntimeAnimation`](RuntimeAnimation.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:610](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L610)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L225)
 
 Return the array of runtime animations currently using this animation
 
@@ -416,7 +378,7 @@ Return the array of runtime animations currently using this animation
 
 > **addEvent**(`event`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:686](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L686)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:301](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L301)
 
 Add an event to this animation
 
@@ -438,7 +400,7 @@ Event to add
 
 > **clone**(`cloneKeys?`): `Animation`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1206](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1206)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:821](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L821)
 
 Makes a copy of the animation
 
@@ -463,7 +425,7 @@ Cloned animation
 
 > **color3InterpolateFunction**(`startValue`, `endValue`, `gradient`): [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:911](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L911)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:526](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L526)
 
 Interpolates a Color3 linearly
 
@@ -499,7 +461,7 @@ Interpolated Color3 value
 
 > **color3InterpolateFunctionWithTangents**(`startValue`, `outTangent`, `endValue`, `inTangent`, `gradient`): [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:924](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L924)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:539](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L539)
 
 Interpolates a Color3 cubically
 
@@ -547,7 +509,7 @@ interpolated value
 
 > **color4InterpolateFunction**(`startValue`, `endValue`, `gradient`): [`Color4`](Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:935](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L935)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:550](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L550)
 
 Interpolates a Color4 linearly
 
@@ -583,7 +545,7 @@ Interpolated Color3 value
 
 > **color4InterpolateFunctionWithTangents**(`startValue`, `outTangent`, `endValue`, `inTangent`, `gradient`): [`Color4`](Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:948](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L948)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:563](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L563)
 
 Interpolates a Color4 cubically
 
@@ -631,7 +593,7 @@ interpolated value
 
 > **createKeyForFrame**(`frame`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1264](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1264)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:879](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L879)
 
 Creates a key for the frame passed as a parameter and adds it to the animation IF a key doesn't already exist for that frame
 
@@ -655,7 +617,7 @@ The key index if the key was added or the index of the pre existing key if the f
 
 > **createRange**(`name`, `from`, `to`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:718](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L718)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:333](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L333)
 
 Creates an animation range
 
@@ -689,7 +651,7 @@ Ending frame of the animation
 
 > **deleteRange**(`name`, `deleteFrames?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:730](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L730)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L345)
 
 Deletes an animation range by name
 
@@ -717,7 +679,7 @@ Specifies if the key frames for the range should also be deleted (true) or not (
 
 > **evaluate**(`currentFrame`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:968](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L968)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:583](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L583)
 
 Evaluate the animation value at a given frame
 
@@ -741,7 +703,7 @@ the animation value
 
 > **floatInterpolateFunction**(`startValue`, `endValue`, `gradient`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:804](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L804)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:419](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L419)
 
 Interpolates a scalar linearly
 
@@ -777,7 +739,7 @@ Interpolated scalar value
 
 > **floatInterpolateFunctionWithTangents**(`startValue`, `outTangent`, `endValue`, `inTangent`, `gradient`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:817](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L817)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:432](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L432)
 
 Interpolates a scalar cubically
 
@@ -825,7 +787,7 @@ Interpolated scalar value
 
 > **getEasingFunction**(): [`Nullable`](../type-aliases/Nullable.md)\<[`IEasingFunction`](../interfaces/IEasingFunction.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:785](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L785)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:400](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L400)
 
 Gets the easing function of the animation
 
@@ -841,7 +803,7 @@ Easing function of the animation
 
 > **getEvents**(): [`AnimationEvent`](AnimationEvent.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:708](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L708)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L323)
 
 Retrieves all the events from the animation
 
@@ -857,7 +819,7 @@ Events from the animation
 
 > **getHighestFrame**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:770](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L770)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:385](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L385)
 
 Gets the highest frame of the animation
 
@@ -873,7 +835,7 @@ Highest frame of the animation
 
 > **getKeys**(): [`IAnimationKey`](../interfaces/IAnimationKey.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:762](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L762)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:377](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L377)
 
 Gets the key frames from the animation
 
@@ -889,7 +851,7 @@ The key frames of the animation
 
 > **getRange**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationRange`](AnimationRange.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:754](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L754)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:369](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L369)
 
 Gets the animation range by name, or null if not defined
 
@@ -913,7 +875,7 @@ Nullable animation range
 
 > **matrixInterpolateFunction**(`startValue`, `endValue`, `gradient`, `result?`): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1184](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1184)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:799](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L799)
 
 Defines the function to use to interpolate matrices
 
@@ -955,7 +917,7 @@ the interpolated matrix
 
 > **quaternionInterpolateFunction**(`startValue`, `endValue`, `gradient`): [`Quaternion`](Quaternion.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:828](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L828)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:443](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L443)
 
 Interpolates a quaternion using a spherical linear interpolation
 
@@ -991,7 +953,7 @@ Interpolated quaternion value
 
 > **quaternionInterpolateFunctionWithTangents**(`startValue`, `outTangent`, `endValue`, `inTangent`, `gradient`): [`Quaternion`](Quaternion.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:841](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L841)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:456](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L456)
 
 Interpolates a quaternion cubically
 
@@ -1039,7 +1001,7 @@ Interpolated quaternion value
 
 > **removeEvents**(`frame`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:695](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L695)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L310)
 
 Remove all events found at the given frame
 
@@ -1061,7 +1023,7 @@ The frame to remove events from
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1289](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1289)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:904](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L904)
 
 Serializes the animation to an object
 
@@ -1077,7 +1039,7 @@ Serialized object
 
 > **setEasingFunction**(`easingFunction`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:793](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L793)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:408](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L408)
 
 Sets the easing function of the animation
 
@@ -1099,7 +1061,7 @@ A custom mathematical formula for animation
 
 > **setKeys**(`values`, `dontClone?`, `cloneKeys?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1237](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1237)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:852](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L852)
 
 Sets the key frames of the animation
 
@@ -1134,7 +1096,7 @@ Whether to clone the individual keys inside the array or not (default is false).
 
 > **sizeInterpolateFunction**(`startValue`, `endValue`, `gradient`): [`Size`](Size.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:900](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L900)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:515](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L515)
 
 Interpolates a size linearly
 
@@ -1170,7 +1132,7 @@ Interpolated Size value
 
 > **toString**(`fullDetails?`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:662](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L662)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:277](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L277)
 
 Converts the animation to a string
 
@@ -1194,7 +1156,7 @@ String form of the animation
 
 > **vector2InterpolateFunction**(`startValue`, `endValue`, `gradient`): [`Vector2`](Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:876](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L876)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:491](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L491)
 
 Interpolates a Vector2 linearly
 
@@ -1230,7 +1192,7 @@ Interpolated Vector2 value
 
 > **vector2InterpolateFunctionWithTangents**(`startValue`, `outTangent`, `endValue`, `inTangent`, `gradient`): [`Vector2`](Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:889](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L889)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:504](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L504)
 
 Interpolates a Vector2 cubically
 
@@ -1278,7 +1240,7 @@ Interpolated Vector2 value
 
 > **vector3InterpolateFunction**(`startValue`, `endValue`, `gradient`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:852](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L852)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:467](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L467)
 
 Interpolates a Vector3 linearly
 
@@ -1314,7 +1276,7 @@ Interpolated scalar value
 
 > **vector3InterpolateFunctionWithTangents**(`startValue`, `outTangent`, `endValue`, `inTangent`, `gradient`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:865](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L865)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.pure.ts:480](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animation.pure.ts#L480)
 
 Interpolates a Vector3 cubically
 
@@ -1355,481 +1317,3 @@ Scalar amount to interpolate (value between 0 and 1)
 [`Vector3`](Vector3.md)
 
 InterpolatedVector3 value
-
-***
-
-### AppendSerializedAnimations()
-
-> `static` **AppendSerializedAnimations**(`source`, `destination`): `void`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1588](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1588)
-
-Appends the serialized animations from the source animations
-
-#### Parameters
-
-##### source
-
-[`IAnimatable`](../interfaces/IAnimatable.md)
-
-Source containing the animations
-
-##### destination
-
-`any`
-
-Target to store the animations
-
-#### Returns
-
-`void`
-
-***
-
-### CreateAndStartAnimation()
-
-> `static` **CreateAndStartAnimation**(`name`, `target`, `targetProperty`, `framePerSecond`, `totalFrame`, `from`, `to`, `loopMode?`, `easingFunction?`, `onAnimationEnd?`, `scene?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animatable`](Animatable.md)\>
-
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:251](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L251)
-
-Create and start an animation on a node
-
-#### Parameters
-
-##### name
-
-`string`
-
-defines the name of the global animation that will be run on all nodes
-
-##### target
-
-`any`
-
-defines the target where the animation will take place
-
-##### targetProperty
-
-`string`
-
-defines property to animate
-
-##### framePerSecond
-
-`number`
-
-defines the number of frame per second yo use
-
-##### totalFrame
-
-`number`
-
-defines the number of frames in total
-
-##### from
-
-`any`
-
-defines the initial value
-
-##### to
-
-`any`
-
-defines the final value
-
-##### loopMode?
-
-`number`
-
-defines which loop mode you want to use (off by default)
-
-##### easingFunction?
-
-[`EasingFunction`](EasingFunction.md)
-
-defines the easing function to use (linear by default)
-
-##### onAnimationEnd?
-
-() => `void`
-
-defines the callback to call when animation end
-
-##### scene?
-
-[`Scene`](Scene.md)
-
-defines the hosting scene
-
-#### Returns
-
-[`Nullable`](../type-aliases/Nullable.md)\<[`Animatable`](Animatable.md)\>
-
-the animatable created for this animation
-
-***
-
-### CreateAndStartHierarchyAnimation()
-
-> `static` **CreateAndStartHierarchyAnimation**(`name`, `node`, `directDescendantsOnly`, `targetProperty`, `framePerSecond`, `totalFrame`, `from`, `to`, `loopMode?`, `easingFunction?`, `onAnimationEnd?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animatable`](Animatable.md)[]\>
-
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:297](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L297)
-
-Create and start an animation on a node and its descendants
-
-#### Parameters
-
-##### name
-
-`string`
-
-defines the name of the global animation that will be run on all nodes
-
-##### node
-
-[`Node`](Node.md)
-
-defines the root node where the animation will take place
-
-##### directDescendantsOnly
-
-`boolean`
-
-if true only direct descendants will be used, if false direct and also indirect (children of children, an so on in a recursive manner) descendants will be used
-
-##### targetProperty
-
-`string`
-
-defines property to animate
-
-##### framePerSecond
-
-`number`
-
-defines the number of frame per second to use
-
-##### totalFrame
-
-`number`
-
-defines the number of frames in total
-
-##### from
-
-`any`
-
-defines the initial value
-
-##### to
-
-`any`
-
-defines the final value
-
-##### loopMode?
-
-`number`
-
-defines which loop mode you want to use (off by default)
-
-##### easingFunction?
-
-[`EasingFunction`](EasingFunction.md)
-
-defines the easing function to use (linear by default)
-
-##### onAnimationEnd?
-
-() => `void`
-
-defines the callback to call when an animation ends (will be called once per node)
-
-#### Returns
-
-[`Nullable`](../type-aliases/Nullable.md)\<[`Animatable`](Animatable.md)[]\>
-
-the list of animatables created for all nodes
-
-#### Example
-
-```ts
-https://www.babylonjs-playground.com/#MH0VLI
-```
-
-***
-
-### CreateAnimation()
-
-> `static` **CreateAnimation**(`property`, `animationType`, `framePerSecond`, `easingFunction`): `Animation`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:228](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L228)
-
-Sets up an animation
-
-#### Parameters
-
-##### property
-
-`string`
-
-The property to animate
-
-##### animationType
-
-`number`
-
-The animation type to apply
-
-##### framePerSecond
-
-`number`
-
-The frames per second of the animation
-
-##### easingFunction
-
-[`EasingFunction`](EasingFunction.md)
-
-The easing function used in the animation
-
-#### Returns
-
-`Animation`
-
-The created animation
-
-***
-
-### CreateMergeAndStartAnimation()
-
-> `static` **CreateMergeAndStartAnimation**(`name`, `node`, `targetProperty`, `framePerSecond`, `totalFrame`, `from`, `to`, `loopMode?`, `easingFunction?`, `onAnimationEnd?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animatable`](Animatable.md)\>
-
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:334](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L334)
-
-Creates a new animation, merges it with the existing animations and starts it
-
-#### Parameters
-
-##### name
-
-`string`
-
-Name of the animation
-
-##### node
-
-[`Node`](Node.md)
-
-Node which contains the scene that begins the animations
-
-##### targetProperty
-
-`string`
-
-Specifies which property to animate
-
-##### framePerSecond
-
-`number`
-
-The frames per second of the animation
-
-##### totalFrame
-
-`number`
-
-The total number of frames
-
-##### from
-
-`any`
-
-The frame at the beginning of the animation
-
-##### to
-
-`any`
-
-The frame at the end of the animation
-
-##### loopMode?
-
-`number`
-
-Specifies the loop mode of the animation
-
-##### easingFunction?
-
-[`EasingFunction`](EasingFunction.md)
-
-(Optional) The easing function of the animation, which allow custom mathematical formulas for animations
-
-##### onAnimationEnd?
-
-() => `void`
-
-Callback to run once the animation is complete
-
-#### Returns
-
-[`Nullable`](../type-aliases/Nullable.md)\<[`Animatable`](Animatable.md)\>
-
-Nullable animation
-
-***
-
-### Parse()
-
-> `static` **Parse**(`parsedAnimation`): `Animation`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1457](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1457)
-
-Parses an animation object and creates an animation
-
-#### Parameters
-
-##### parsedAnimation
-
-`any`
-
-Parsed animation object
-
-#### Returns
-
-`Animation`
-
-Animation object
-
-***
-
-### ParseFromFileAsync()
-
-> `static` **ParseFromFileAsync**(`name`, `url`): `Promise`\<`Animation` \| `Animation`[]\>
-
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1598](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1598)
-
-Creates a new animation or an array of animations from a snippet saved in a remote file
-
-#### Parameters
-
-##### name
-
-[`Nullable`](../type-aliases/Nullable.md)\<`string`\>
-
-defines the name of the animation to create (can be null or empty to use the one from the json data)
-
-##### url
-
-`string`
-
-defines the url to load from
-
-#### Returns
-
-`Promise`\<`Animation` \| `Animation`[]\>
-
-a promise that will resolve to the new animation or an array of animations
-
-***
-
-### ParseFromSnippetAsync()
-
-> `static` **ParseFromSnippetAsync**(`snippetId`): `Promise`\<`Animation` \| `Animation`[]\>
-
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:1642](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L1642)
-
-Creates an animation or an array of animations from a snippet saved by the Inspector
-
-#### Parameters
-
-##### snippetId
-
-`string`
-
-defines the snippet to load
-
-#### Returns
-
-`Promise`\<`Animation` \| `Animation`[]\>
-
-a promise that will resolve to the new animation or a new array of animations
-
-***
-
-### TransitionTo()
-
-> `static` **TransitionTo**(`property`, `targetValue`, `host`, `scene`, `frameRate`, `transition`, `duration`, `onAnimationEnd?`, `stopCurrent?`, `customKeys?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animatable`](Animatable.md)\>
-
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animation.ts:562](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/animation.ts#L562)
-
-Transition property of an host to the target Value
-
-#### Parameters
-
-##### property
-
-`string`
-
-The property to transition
-
-##### targetValue
-
-`any`
-
-The target Value of the property
-
-##### host
-
-`any`
-
-The object where the property to animate belongs
-
-##### scene
-
-[`Scene`](Scene.md)
-
-Scene used to run the animation
-
-##### frameRate
-
-`number`
-
-Framerate (in frame/s) to use
-
-##### transition
-
-`Animation`
-
-The transition type we want to use
-
-##### duration
-
-`number`
-
-The duration of the animation, in milliseconds
-
-##### onAnimationEnd?
-
-[`Nullable`](../type-aliases/Nullable.md)\<() => `void`\> = `null`
-
-Callback trigger at the end of the animation
-
-##### stopCurrent?
-
-`boolean` = `true`
-
-If true, will stop the current animation on the property
-
-##### customKeys?
-
-[`IAnimationKey`](../interfaces/IAnimationKey.md)[]
-
-defines custom keys to use for the animation instead of the from-to keys
-
-#### Returns
-
-[`Nullable`](../type-aliases/Nullable.md)\<[`Animatable`](Animatable.md)\>
-
-Nullable animation

@@ -6,7 +6,7 @@
 
 # Class: DepthOfFieldEffect
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L36)
 
 The depth of field effect applies a blur to objects that are closer or further from where the camera is focusing.
 
@@ -20,7 +20,7 @@ The depth of field effect applies a blur to objects that are closer or further f
 
 > **new DepthOfFieldEffect**(`sceneOrEngine`, `depthTexture`, `blurLevel?`, `pipelineTextureType?`, `blockCompilation?`, `depthNotNormalized?`): `DepthOfFieldEffect`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L98)
 
 Creates a new instance DepthOfFieldEffect
 
@@ -76,7 +76,7 @@ If the depth from the depth texture is already normalized or if the normalizatio
 
 > **set** **depthTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:229](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L229)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L229)
 
 Depth texture to be used to compute the circle of confusion. This must be set here or in the constructor in order for the post process to function.
 
@@ -98,7 +98,7 @@ Depth texture to be used to compute the circle of confusion. This must be set he
 
 > **get** **focalLength**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L56)
 
 ##### Returns
 
@@ -108,7 +108,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEf
 
 > **set** **focalLength**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L53)
 
 The focal the length of the camera used in the effect in scene units/1000 (eg. millimeter)
 
@@ -130,7 +130,7 @@ The focal the length of the camera used in the effect in scene units/1000 (eg. m
 
 > **get** **focusDistance**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L74)
 
 ##### Returns
 
@@ -140,7 +140,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEf
 
 > **set** **focusDistance**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L71)
 
 Distance away from the camera to focus on in scene units/1000 (eg. millimeter). (default: 2000)
 
@@ -162,7 +162,7 @@ Distance away from the camera to focus on in scene units/1000 (eg. millimeter). 
 
 > **get** **fStop**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L65)
 
 ##### Returns
 
@@ -172,7 +172,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEf
 
 > **set** **fStop**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L62)
 
 F-Stop of the effect's camera. The diameter of the resulting aperture can be computed by lensSize/fStop. (default: 1.4)
 
@@ -194,7 +194,7 @@ F-Stop of the effect's camera. The diameter of the resulting aperture can be com
 
 > **get** **isSupported**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts#L49)
 
 Checks if all the post processes in the effect are supported.
 
@@ -214,7 +214,7 @@ Checks if all the post processes in the effect are supported.
 
 > **get** **lensSize**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L83)
 
 ##### Returns
 
@@ -224,7 +224,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEf
 
 > **set** **lensSize**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L80)
 
 Max lens size in scene units/1000 (eg. millimeter). Standard cameras are 50mm. (default: 50) The diameter of the resulting aperture can be computed by lensSize/fStop.
 
@@ -244,7 +244,7 @@ Max lens size in scene units/1000 (eg. millimeter). Standard cameras are 50mm. (
 
 > **disposeEffects**(`camera`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:237](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L237)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:237](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L237)
 
 Disposes each of the internal effects for a given camera.
 
@@ -266,7 +266,7 @@ The camera to dispose the effect on.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L222)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/depthOfFieldEffect.ts#L222)
 
 Get the current class name of the current effect
 
@@ -282,7 +282,7 @@ Get the current class name of the current effect
 
 > **getPostProcesses**(`camera?`): [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts:254](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts#L254)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts#L254)
 
 Gets a list of the post processes contained in the effect.
 

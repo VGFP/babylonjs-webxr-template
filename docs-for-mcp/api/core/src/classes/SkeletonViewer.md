@@ -6,7 +6,7 @@
 
 # Class: SkeletonViewer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L36)
 
 Class used to render a debug view of a given skeleton
 
@@ -20,7 +20,7 @@ http://www.babylonjs-playground.com/#1BZJVJ#8
 
 > **new SkeletonViewer**(`skeleton`, `mesh`, `scene`, `autoUpdateBonesMatrices?`, `renderingGroupId?`, `options?`): `SkeletonViewer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:399](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L399)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:399](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L399)
 
 Creates a new SkeletonViewer
 
@@ -72,7 +72,7 @@ All of the extra constructor options for the SkeletonViewer
 
 > **autoUpdateBonesMatrices**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:407](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L407)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:407](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L407)
 
 [true] defines a boolean indicating if bones matrices must be forced to update before rendering (true by default)
 
@@ -82,7 +82,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:407]
 
 > **color**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:326](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L326)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:326](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L326)
 
 Gets or sets the color used to render the skeleton
 
@@ -92,7 +92,7 @@ Gets or sets the color used to render the skeleton
 
 > **mesh**: [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:403](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L403)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:403](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L403)
 
 defines the mesh attached to the skeleton
 
@@ -102,7 +102,7 @@ defines the mesh attached to the skeleton
 
 > **options**: `Partial`\<[`ISkeletonViewerOptions`](../interfaces/ISkeletonViewerOptions.md)\> = `{}`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:411](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L411)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:411](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L411)
 
 [Object] is the options for the viewer
 
@@ -112,7 +112,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:411]
 
 > **renderingGroupId**: `number` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:409](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L409)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:409](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L409)
 
 [2] defines the rendering group id to use with the viewer
 
@@ -122,7 +122,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:409]
 
 > **skeleton**: [`Skeleton`](Skeleton.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:401](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L401)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:401](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L401)
 
 defines the skeleton to render
 
@@ -132,7 +132,7 @@ defines the skeleton to render
 
 > `readonly` `static` **DISPLAY\_LINES**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L38)
 
 public Display constants BABYLON.SkeletonViewer.DISPLAY_LINES
 
@@ -142,7 +142,7 @@ public Display constants BABYLON.SkeletonViewer.DISPLAY_LINES
 
 > `readonly` `static` **DISPLAY\_SPHERE\_AND\_SPURS**: `2` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L42)
 
 public Display constants BABYLON.SkeletonViewer.DISPLAY_SPHERE_AND_SPURS
 
@@ -152,7 +152,7 @@ public Display constants BABYLON.SkeletonViewer.DISPLAY_SPHERE_AND_SPURS
 
 > `readonly` `static` **DISPLAY\_SPHERES**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L40)
 
 public Display constants BABYLON.SkeletonViewer.DISPLAY_SPHERES
 
@@ -164,7 +164,7 @@ public Display constants BABYLON.SkeletonViewer.DISPLAY_SPHERES
 
 > **get** **debugLocalAxesMesh**(): [`Nullable`](../type-aliases/Nullable.md)\<[`LinesMesh`](LinesMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:376](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L376)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:376](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L376)
 
 Gets the local axes mesh
 
@@ -180,7 +180,7 @@ Gets the local axes mesh
 
 > **get** **debugMesh**(): [`AbstractMesh`](AbstractMesh.md) \| [`LinesMesh`](LinesMesh.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:368](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L368)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:368](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L368)
 
 Gets the debugMesh
 
@@ -192,7 +192,7 @@ Gets the debugMesh
 
 > **set** **debugMesh**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:372](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L372)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:372](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L372)
 
 Sets the debugMesh
 
@@ -214,7 +214,7 @@ Sets the debugMesh
 
 > **get** **displayMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:380](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L380)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:380](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L380)
 
 Gets the displayMode
 
@@ -226,7 +226,7 @@ Gets the displayMode
 
 > **set** **displayMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:384](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L384)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:384](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L384)
 
 Sets the displayMode
 
@@ -248,7 +248,7 @@ Sets the displayMode
 
 > **get** **isEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:518](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L518)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:518](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L518)
 
 ##### Returns
 
@@ -258,7 +258,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:518]
 
 > **set** **isEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:497](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L497)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:497](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L497)
 
 Gets or sets a boolean indicating if the viewer is enabled
 
@@ -280,7 +280,7 @@ Gets or sets a boolean indicating if the viewer is enabled
 
 > **get** **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:360](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L360)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:360](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L360)
 
 Checks Ready Status.
 
@@ -296,7 +296,7 @@ Checks Ready Status.
 
 > **set** **ready**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:364](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L364)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:364](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L364)
 
 Sets Ready Status.
 
@@ -318,7 +318,7 @@ Sets Ready Status.
 
 > **get** **scene**(): [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:352](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L352)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:352](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L352)
 
 Gets the Scene.
 
@@ -334,7 +334,7 @@ Gets the Scene.
 
 > **get** **utilityLayer**(): [`Nullable`](../type-aliases/Nullable.md)\<[`UtilityLayerRenderer`](UtilityLayerRenderer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:356](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L356)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:356](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L356)
 
 Gets the utilityLayer.
 
@@ -348,7 +348,7 @@ Gets the utilityLayer.
 
 > **changeDisplayMode**(`mode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:986](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L986)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:986](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L986)
 
 Changes the displayMode of the skeleton viewer
 
@@ -370,7 +370,7 @@ The displayMode numerical value
 
 > **changeDisplayOptions**(`option`, `value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:1018](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L1018)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:1018](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L1018)
 
 Sets a display option of the skeleton viewer
 
@@ -408,7 +408,7 @@ The numerical option value
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:1034](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L1034)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:1034](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L1034)
 
 Release associated resources
 
@@ -422,7 +422,7 @@ Release associated resources
 
 > **update**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:477](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L477)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:477](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L477)
 
 Update the viewer to sync with current skeleton state, only used to manually update.
 
@@ -436,7 +436,7 @@ Update the viewer to sync with current skeleton state, only used to manually upd
 
 > `static` **CreateBoneWeightShader**(`options`, `scene`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L50)
 
 public static method to create a BoneWeight Shader
 
@@ -470,7 +470,7 @@ http://www.babylonjs-playground.com/#1BZJVJ#395
 
 > `static` **CreateSkeletonMapShader**(`options`, `scene`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/skeletonViewer.ts#L177)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/skeletonViewer.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/skeletonViewer.ts#L177)
 
 public static method to create a BoneWeight Shader
 

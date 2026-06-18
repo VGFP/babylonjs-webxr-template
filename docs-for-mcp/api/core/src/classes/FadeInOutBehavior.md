@@ -6,7 +6,7 @@
 
 # Class: FadeInOutBehavior
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L11)
 
 A behavior that when attached to a mesh will allow the mesh to fade in and out
 
@@ -20,7 +20,7 @@ A behavior that when attached to a mesh will allow the mesh to fade in and out
 
 > **new FadeInOutBehavior**(): `FadeInOutBehavior`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L63)
 
 Instantiates the FadeInOutBehavior
 
@@ -34,7 +34,7 @@ Instantiates the FadeInOutBehavior
 
 > **fadeInDelay**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L15)
 
 Time in milliseconds to delay before fading in (Default: 0)
 
@@ -44,7 +44,7 @@ Time in milliseconds to delay before fading in (Default: 0)
 
 > **fadeInTime**: `number` = `300`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L25)
 
 Time in milliseconds for the mesh to fade in (Default: 300)
 
@@ -54,7 +54,7 @@ Time in milliseconds for the mesh to fade in (Default: 300)
 
 > **fadeOutDelay**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L20)
 
 Time in milliseconds to delay before fading out (Default: 0)
 
@@ -64,7 +64,7 @@ Time in milliseconds to delay before fading out (Default: 0)
 
 > **fadeOutTime**: `number` = `300`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L30)
 
 Time in milliseconds for the mesh to fade out (Default: 300)
 
@@ -76,7 +76,7 @@ Time in milliseconds for the mesh to fade out (Default: 300)
 
 > **get** **attachedNode**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Mesh`](Mesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L56)
 
 Attached node of this behavior
 
@@ -98,7 +98,7 @@ Gets the current attached target
 
 > **get** **delay**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L36)
 
 Time in milliseconds to delay before fading in (Default: 0)
 Will set both fade in and out delay to the same value
@@ -111,7 +111,7 @@ Will set both fade in and out delay to the same value
 
 > **set** **delay**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L40)
 
 ##### Parameters
 
@@ -131,7 +131,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBe
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L68)
 
 The name of the behavior
 
@@ -151,7 +151,7 @@ gets or sets behavior's name
 
 > **attach**(`ownerNode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L81)
 
 Attaches the fade behavior on the passed in mesh
 
@@ -177,7 +177,7 @@ The mesh that will be faded in/out once attached
 
 > **detach**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L88)
 
 Detaches the behavior from the mesh
 
@@ -195,7 +195,7 @@ Detaches the behavior from the mesh
 
 > **fadeIn**(`fadeIn?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L96)
 
 Triggers the mesh to begin fading in (or out)
 
@@ -217,7 +217,7 @@ if the object should fade in or out (true to fade in)
 
 > **fadeOut**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L128)
 
 Triggers the mesh to begin fading out
 
@@ -231,7 +231,7 @@ Triggers the mesh to begin fading out
 
 > **init**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/fadeInOutBehavior.ts#L75)
 
 Initializes the behavior
 

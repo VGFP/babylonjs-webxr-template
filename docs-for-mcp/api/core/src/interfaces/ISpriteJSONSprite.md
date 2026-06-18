@@ -6,7 +6,7 @@
 
 # Interface: ISpriteJSONSprite
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/ISprites.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/ISprites.ts#L44)
 
 Defines the basic options interface of a JSON Sprite.
 
@@ -16,7 +16,7 @@ Defines the basic options interface of a JSON Sprite.
 
 > **filename**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/ISprites.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/ISprites.ts#L48)
 
 string name of the Frame
 
@@ -26,7 +26,7 @@ string name of the Frame
 
 > **frame**: [`ISpriteJSONSpriteFrameData`](ISpriteJSONSpriteFrameData.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/ISprites.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/ISprites.ts#L53)
 
 ISpriteJSONSpriteFrame basic object of the frame data
 
@@ -36,7 +36,7 @@ ISpriteJSONSpriteFrame basic object of the frame data
 
 > **rotated**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/ISprites.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/ISprites.ts#L58)
 
 boolean to flag is the frame was rotated.
 
@@ -46,7 +46,7 @@ boolean to flag is the frame was rotated.
 
 > **sourceSize**: [`ISpriteJSONSpriteSourceSize`](ISpriteJSONSpriteSourceSize.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/ISprites.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/ISprites.ts#L73)
 
 ISpriteJSONSpriteFrame basic object of the source data
 
@@ -56,7 +56,7 @@ ISpriteJSONSpriteFrame basic object of the source data
 
 > **spriteSourceSize**: [`ISpriteJSONSpriteFrameData`](ISpriteJSONSpriteFrameData.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/ISprites.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/ISprites.ts#L68)
 
 ISpriteJSONSpriteFrame basic object of the source data
 
@@ -66,6 +66,6 @@ ISpriteJSONSpriteFrame basic object of the source data
 
 > **trimmed**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/ISprites.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/ISprites.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/ISprites.ts#L63)
 
 boolean to flag is the frame was trimmed.

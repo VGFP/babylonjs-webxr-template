@@ -8,9 +8,9 @@
 
 > **FromHalfFloat**(`value`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/textureTools.ts:230](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/textureTools.ts#L230)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/halfFloat.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/halfFloat.ts#L162)
 
-Converts a half float to a number
+Converts a 16-bit half-float bit pattern back to a 32-bit float.
 
 ## Parameters
 
@@ -18,10 +18,10 @@ Converts a half float to a number
 
 `number`
 
-half float to convert
+the half-float bit pattern, in the range 0..65535
 
 ## Returns
 
 `number`
 
-converted half float
+the decoded float

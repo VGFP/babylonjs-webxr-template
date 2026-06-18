@@ -6,7 +6,7 @@
 
 # Class: FlyCameraMouseInput
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L17)
 
 Listen to mouse events to control the camera.
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **new FlyCameraMouseInput**(): `FlyCameraMouseInput`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L77)
 
 Listen to mouse events to control the camera.
 
@@ -42,7 +42,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **activeButton**: `number` = `-1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L56)
 
 Detect if any button is being pressed while mouse is moved.
 -1 = Mouse locked.
@@ -56,7 +56,7 @@ Detect if any button is being pressed while mouse is moved.
 
 > **angularSensibility**: `number` = `1000.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L63)
 
 Defines the pointer's angular sensibility, to control the camera rotation speed.
 Higher values reduce its sensitivity.
@@ -67,7 +67,7 @@ Higher values reduce its sensitivity.
 
 > **buttons**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L32)
 
 Defines the buttons associated with the input to handle camera rotation.
 
@@ -77,7 +77,7 @@ Defines the buttons associated with the input to handle camera rotation.
 
 > **buttonsPitch**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L42)
 
 Assign buttons for Pitch control.
 
@@ -87,7 +87,7 @@ Assign buttons for Pitch control.
 
 > **buttonsRoll**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L47)
 
 Assign buttons for Roll control.
 
@@ -97,7 +97,7 @@ Assign buttons for Roll control.
 
 > **buttonsYaw**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L37)
 
 Assign buttons for Yaw control.
 
@@ -107,7 +107,7 @@ Assign buttons for Yaw control.
 
 > **camera**: [`FlyCamera`](FlyCamera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L21)
 
 Defines the camera the input is attached to.
 
@@ -121,7 +121,7 @@ Defines the camera the input is attached to.
 
 > **touchEnabled**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L26)
 
 Defines if touch is enabled. (Default is true.)
 
@@ -131,7 +131,7 @@ Defines if touch is enabled. (Default is true.)
 
 > **attachControl**(`noPreventDefault?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L83)
 
 Attach the mouse control to the HTML DOM element.
 
@@ -157,7 +157,7 @@ Defines whether events caught by the controls should call preventdefault().
 
 > **detachControl**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L105)
 
 Detach the current controls from the specified dom element.
 
@@ -175,7 +175,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L122)
 
 Gets the class name of the current input.
 
@@ -195,7 +195,7 @@ the class name.
 
 > **getSimpleName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/flyCameraMouseInput.ts#L130)
 
 Get the friendly name associated with the input class.
 

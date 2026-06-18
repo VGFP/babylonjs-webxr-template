@@ -6,7 +6,7 @@
 
 # Interface: IWebXRAnchor
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L35)
 
 A babylon container for an XR Anchor
 
@@ -16,7 +16,7 @@ A babylon container for an XR Anchor
 
 > `optional` **attachedNode?**: [`TransformNode`](../classes/TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L52)
 
 if defined, this object will be constantly updated by the anchor's position and rotation
 
@@ -26,7 +26,7 @@ if defined, this object will be constantly updated by the anchor's position and 
 
 > **id**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L39)
 
 A babylon-assigned ID for this anchor
 
@@ -36,7 +36,7 @@ A babylon-assigned ID for this anchor
 
 > **transformationMatrix**: [`Matrix`](../classes/Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L43)
 
 Transformation matrix to apply to an object attached to this anchor
 
@@ -46,7 +46,7 @@ Transformation matrix to apply to an object attached to this anchor
 
 > **xrAnchor**: `XRAnchor`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L47)
 
 The native anchor object
 
@@ -56,7 +56,7 @@ The native anchor object
 
 > **remove**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L57)
 
 Remove this anchor from the scene
 

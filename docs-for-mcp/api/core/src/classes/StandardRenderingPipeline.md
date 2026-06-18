@@ -6,7 +6,7 @@
 
 # Class: StandardRenderingPipeline
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L37)
 
 Standard rendering pipeline
 Default pipeline should be used going forward but the standard pipeline will be kept for backwards compatibility.
@@ -30,7 +30,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/postProcesses/standardRender
 
 > **new StandardRenderingPipeline**(`name`, `scene`, `ratio`, `originalPostProcess?`, `cameras?`): `StandardRenderingPipeline`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:588](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L588)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:583](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L583)
 
 Default pipeline should be used going forward but the standard pipeline will be kept for backwards compatibility.
 
@@ -80,7 +80,7 @@ The array of cameras that the rendering pipeline will be attached to
 
 > **animations**: [`Animation`](Animation.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:335](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L335)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:332](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L332)
 
 List of animations for the pipeline (IAnimatable implementation)
 
@@ -94,7 +94,7 @@ List of animations for the pipeline (IAnimatable implementation)
 
 > **blurHPostProcesses**: [`PostProcess`](PostProcess.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L57)
 
 Post-process array storing all the horizontal blur post-processes used by the pipeline
 
@@ -104,7 +104,7 @@ Post-process array storing all the horizontal blur post-processes used by the pi
 
 > **blurVPostProcesses**: [`PostProcess`](PostProcess.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L61)
 
 Post-process array storing all the vertical blur post-processes used by the pipeline
 
@@ -114,7 +114,7 @@ Post-process array storing all the vertical blur post-processes used by the pipe
 
 > **blurWidth**: `number` = `512.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:154](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L154)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L151)
 
 Configures the blur intensity used for surexposed surfaces are highlighted surfaces (light halo)
 
@@ -124,7 +124,7 @@ Configures the blur intensity used for surexposed surfaces are highlighted surfa
 
 > **brightPassPostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L53)
 
 Post-process used to calculate the illuminated surfaces controlled by a threshold
 
@@ -134,7 +134,7 @@ Post-process used to calculate the illuminated surfaces controlled by a threshol
 
 > **brightThreshold**: `number` = `1.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L148)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L145)
 
 Represents the brightness threshold in order to configure the illuminated surfaces
 
@@ -144,7 +144,7 @@ Represents the brightness threshold in order to configure the illuminated surfac
 
 > **depthOfFieldBlurWidth**: `number` = `64.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:293](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L293)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:290](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L290)
 
 Represents the blur intensity for the blurred part of the depth of field effect
 
@@ -154,7 +154,7 @@ Represents the blur intensity for the blurred part of the depth of field effect
 
 > **depthOfFieldDistance**: `number` = `10.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:288](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L288)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:285](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L285)
 
 Represents the focal length for the depth of field effect
 
@@ -164,7 +164,7 @@ Represents the focal length for the depth of field effect
 
 > **depthOfFieldPostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L129)
 
 Post-process used to create a depth of field effect
 
@@ -174,7 +174,7 @@ Post-process used to create a depth of field effect
 
 > **downSampleX4PostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L49)
 
 Post-process used to down scale an image x4
 
@@ -184,7 +184,7 @@ Post-process used to down scale an image x4
 
 > **fxaaPostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`FxaaPostProcess`](FxaaPostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:136](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L136)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L133)
 
 The Fast Approximate Anti-Aliasing post process which attempts to remove aliasing from an image.
 
@@ -194,7 +194,7 @@ The Fast Approximate Anti-Aliasing post process which attempts to remove aliasin
 
 > **hdrDecreaseRate**: `number` = `0.5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:213](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L213)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L210)
 
 For eye adaptation, represents the decrease luminance speed
 
@@ -204,7 +204,7 @@ For eye adaptation, represents the decrease luminance speed
 
 > **hdrFinalPostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L113)
 
 Post-process used to merge the final HDR post-process and the real scene color
 
@@ -214,7 +214,7 @@ Post-process used to merge the final HDR post-process and the real scene color
 
 > **hdrIncreaseRate**: `number` = `0.5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:218](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L218)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:215](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L215)
 
 For eye adaptation, represents the increase luminance speed
 
@@ -224,7 +224,7 @@ For eye adaptation, represents the increase luminance speed
 
 > **hdrMinimumLuminance**: `number` = `1.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:208](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L208)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L205)
 
 For eye adaptation, represents the minimum luminance the eye can see
 
@@ -234,7 +234,7 @@ For eye adaptation, represents the minimum luminance the eye can see
 
 > **hdrPostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L101)
 
 Post-process used to create a HDR effect (light adaptation)
 
@@ -244,7 +244,7 @@ Post-process used to create a HDR effect (light adaptation)
 
 > **horizontalBlur**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L159)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L156)
 
 Sets if the blur for highlighted surfaces must be only horizontal
 
@@ -254,7 +254,7 @@ Sets if the blur for highlighted surfaces must be only horizontal
 
 > **inspectableCustomProperties**: [`IInspectable`](../interfaces/IInspectable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L26)
 
 List of inspectable custom properties (used by the Inspector)
 
@@ -272,7 +272,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > **lensColorTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`Texture`](Texture.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:244](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L244)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:241](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L241)
 
 Lens color texture used by the lens flare effect. Mandatory if lens flare effect enabled
 
@@ -282,7 +282,7 @@ Lens color texture used by the lens flare effect. Mandatory if lens flare effect
 
 > **lensFlareBlurWidth**: `number` = `512.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:270](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L270)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:267](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L267)
 
 Configures the blur intensity used for for lens flare (halo)
 
@@ -292,7 +292,7 @@ Configures the blur intensity used for for lens flare (halo)
 
 > **lensFlareComposePostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L124)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L121)
 
 Post-process that merges the result of the lens flare post-process and the real scene color
 
@@ -302,7 +302,7 @@ Post-process that merges the result of the lens flare post-process and the real 
 
 > **lensFlareDirtTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`Texture`](Texture.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:282](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L282)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:279](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L279)
 
 As the "lensTexture" (can be the same texture or different), it is used to apply the lens
 flare effect by taking account of the dirt texture
@@ -313,7 +313,7 @@ flare effect by taking account of the dirt texture
 
 > **lensFlareDistortionStrength**: `number` = `16.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:265](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L265)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:262](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L262)
 
 Based on the lens distortion effect, defines how much the lens flare result
 is distorted
@@ -324,7 +324,7 @@ is distorted
 
 > **lensFlareFinalPostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L109)
 
 Post-process used to store the final lens flare post-process (attach/detach for debug purpose)
 
@@ -334,7 +334,7 @@ Post-process used to store the final lens flare post-process (attach/detach for 
 
 > **lensFlareGhostDispersal**: `number` = `1.4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:254](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L254)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L251)
 
 Dispersion coefficient for lens flare ghosts
 
@@ -344,7 +344,7 @@ Dispersion coefficient for lens flare ghosts
 
 > **lensFlareHaloWidth**: `number` = `0.7`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:259](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L259)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:256](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L256)
 
 Main lens flare halo width
 
@@ -354,7 +354,7 @@ Main lens flare halo width
 
 > **lensFlarePostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L117)
 
 Post-process used to create a lens flare effect
 
@@ -364,7 +364,7 @@ Post-process used to create a lens flare effect
 
 > **lensFlareStrength**: `number` = `20.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:249](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L249)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:246](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L246)
 
 The overall strength for the lens flare effect
 
@@ -374,7 +374,7 @@ The overall strength for the lens flare effect
 
 > **lensStarTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`Texture`](Texture.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:276](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L276)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:273](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L273)
 
 Lens star texture must be used to simulate rays on the flares and is available
 in the documentation
@@ -385,7 +385,7 @@ in the documentation
 
 > **lensTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`Texture`](Texture.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L180)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L177)
 
 Texture used typically to simulate "dirty" on camera lens
 
@@ -395,7 +395,7 @@ Texture used typically to simulate "dirty" on camera lens
 
 > **luminanceDownSamplePostProcesses**: [`PostProcess`](PostProcess.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L97)
 
 Post-processes used to create down sample post-processes in order to get
 the average luminance of the final image for HDR
@@ -407,7 +407,7 @@ Array of length "StandardRenderingPipeline.LuminanceSteps"
 
 > **luminancePostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L91)
 
 Base post-process used to calculate the average luminance of the final image for HDR
 
@@ -417,7 +417,7 @@ Base post-process used to calculate the average luminance of the final image for
 
 > **motionBlurPostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L125)
 
 Post-process used to create a motion blur effect
 
@@ -427,7 +427,7 @@ Post-process used to create a motion blur effect
 
 > **originalPostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L45)
 
 Post-process which contains the original scene color before the pipeline applies all the effects
 
@@ -437,7 +437,7 @@ Post-process which contains the original scene color before the pipeline applies
 
 > **screenSpaceReflectionPostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`ScreenSpaceReflectionPostProcess`](ScreenSpaceReflectionPostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L140)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L137)
 
 Post-process used to simulate realtime reflections using the screen space and geometry renderer.
 
@@ -447,7 +447,7 @@ Post-process used to simulate realtime reflections using the screen space and ge
 
 > **sourceLight**: [`Nullable`](../type-aliases/Nullable.md)\<[`DirectionalLight`](DirectionalLight.md) \| [`SpotLight`](SpotLight.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:202](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L202)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:199](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L199)
 
 Light (spot or directional) used to generate the volumetric lights rays
 The source light must have a shadow generate so the pipeline can get its
@@ -459,7 +459,7 @@ depth map
 
 > **textureAdderFinalPostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L105)
 
 Post-process used to store the final texture adder post-process (attach/detach for debug purpose)
 
@@ -469,7 +469,7 @@ Post-process used to store the final texture adder post-process (attach/detach f
 
 > **textureAdderPostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L65)
 
 Post-process used to add colors of 2 textures (typically brightness + real scene color)
 
@@ -479,7 +479,7 @@ Post-process used to add colors of 2 textures (typically brightness + real scene
 
 > `readonly` **uniqueId**: `number` = `UniqueIdGenerator.UniqueId`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L47)
 
 Gets the unique id of the post process rendering pipeline
 
@@ -493,7 +493,7 @@ Gets the unique id of the post process rendering pipeline
 
 > **volumetricLightBlurScale**: `number` = `64.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:196](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L196)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L193)
 
 Used the set the blur intensity to smooth the volumetric lights
 
@@ -503,7 +503,7 @@ Used the set the blur intensity to smooth the volumetric lights
 
 > **volumetricLightCoefficient**: `number` = `0.2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:186](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L186)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L183)
 
 Represents the offset coefficient based on Rayleigh principle. Typically in interval [-0.2, 0.2]
 
@@ -513,7 +513,7 @@ Represents the offset coefficient based on Rayleigh principle. Typically in inte
 
 > **volumetricLightFinalPostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L86)
 
 Post-process used to store the final volumetric light post-process (attach/detach for debug purpose)
 
@@ -523,7 +523,7 @@ Post-process used to store the final volumetric light post-process (attach/detac
 
 > **volumetricLightMergePostProces**: [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L82)
 
 Post-process used to merge the volumetric light effect and the real scene color
 
@@ -533,7 +533,7 @@ Post-process used to merge the volumetric light effect and the real scene color
 
 > **volumetricLightPostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L70)
 
 Post-process used to create volumetric lighting effect
 
@@ -543,7 +543,7 @@ Post-process used to create volumetric lighting effect
 
 > **volumetricLightPower**: `number` = `4.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L191)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:188](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L188)
 
 The overall power of volumetric lights, typically in interval [0, 10] maximum
 
@@ -553,7 +553,7 @@ The overall power of volumetric lights, typically in interval [0, 10] maximum
 
 > **volumetricLightSmoothXPostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`BlurPostProcess`](BlurPostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L77)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L74)
 
 Post-process used to smooth the previous volumetric light post-process on the X axis
 
@@ -563,7 +563,7 @@ Post-process used to smooth the previous volumetric light post-process on the X 
 
 > **volumetricLightSmoothYPostProcess**: [`Nullable`](../type-aliases/Nullable.md)\<[`BlurPostProcess`](BlurPostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L78)
 
 Post-process used to smooth the previous volumetric light post-process on the Y axis
 
@@ -573,7 +573,7 @@ Post-process used to smooth the previous volumetric light post-process on the Y 
 
 > `static` **LuminanceSteps**: `number` = `6`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:1692](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L1692)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:1667](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L1667)
 
 Luminance steps
 
@@ -585,7 +585,7 @@ Luminance steps
 
 > **get** **BloomEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:377](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L377)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:374](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L374)
 
 ##### Ignore
 
@@ -599,7 +599,7 @@ Specifies if the bloom pipeline is enabled
 
 > **set** **BloomEnabled**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:381](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L381)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:378](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L378)
 
 ##### Parameters
 
@@ -619,7 +619,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **cameras**(): [`Camera`](Camera.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L50)
 
 Gets the list of attached cameras
 
@@ -639,7 +639,7 @@ Gets the list of attached cameras
 
 > **get** **DepthOfFieldEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:395](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L395)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:392](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L392)
 
 ##### Ignore
 
@@ -653,7 +653,7 @@ Specifies if the depth of field pipeline is enabled
 
 > **set** **DepthOfFieldEnabled**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:399](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L399)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:396](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L396)
 
 ##### Parameters
 
@@ -673,7 +673,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **engine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L57)
 
 Gets the active engine
 
@@ -693,7 +693,7 @@ Gets the active engine
 
 > **get** **exposure**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L165)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L162)
 
 Gets the overall exposure used by the pipeline
 
@@ -705,7 +705,7 @@ Gets the overall exposure used by the pipeline
 
 > **set** **exposure**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:171](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L171)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:168](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L168)
 
 Sets the overall exposure used by the pipeline
 
@@ -727,7 +727,7 @@ Sets the overall exposure used by the pipeline
 
 > **get** **fxaaEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:494](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L494)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:489](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L489)
 
 Specifies if anti-aliasing is enabled
 
@@ -739,7 +739,7 @@ Specifies if anti-aliasing is enabled
 
 > **set** **fxaaEnabled**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:498](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L498)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:493](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L493)
 
 ##### Parameters
 
@@ -759,7 +759,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **hdrAutoExposure**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:223](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L223)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:220](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L220)
 
 Gets whether or not the exposure of the overall pipeline should be automatically adjusted by the HDR post-process
 
@@ -771,7 +771,7 @@ Gets whether or not the exposure of the overall pipeline should be automatically
 
 > **set** **hdrAutoExposure**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:229](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L229)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:226](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L226)
 
 Sets whether or not the exposure of the overall pipeline should be automatically adjusted by the HDR post-process
 
@@ -793,7 +793,7 @@ Sets whether or not the exposure of the overall pipeline should be automatically
 
 > **get** **HDREnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:431](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L431)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:428](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L428)
 
 ##### Ignore
 
@@ -807,7 +807,7 @@ Specifies if the HDR pipeline is enabled
 
 > **set** **HDREnabled**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:435](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L435)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:432](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L432)
 
 ##### Parameters
 
@@ -827,7 +827,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **isSupported**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L90)
 
 If all the render effects in the pipeline are supported
 
@@ -847,7 +847,7 @@ If all the render effects in the pipeline are supported
 
 > **get** **LensFlareEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:413](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L413)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:410](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L410)
 
 ##### Ignore
 
@@ -861,7 +861,7 @@ Specifies if the lens flare pipeline is enabled
 
 > **set** **LensFlareEnabled**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:417](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L417)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:414](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L414)
 
 ##### Parameters
 
@@ -881,7 +881,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **MotionBlurEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:477](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L477)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:472](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L472)
 
 ##### Ignore
 
@@ -895,7 +895,7 @@ Specifies if the motion blur effect is enabled
 
 > **set** **MotionBlurEnabled**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:481](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L481)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:476](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L476)
 
 ##### Parameters
 
@@ -915,7 +915,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **motionBlurSamples**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:546](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L546)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:541](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L541)
 
 Specifies the number of samples used for the motion blur effect
 Typically in interval [16, 64]
@@ -928,7 +928,7 @@ Typically in interval [16, 64]
 
 > **set** **motionBlurSamples**(`samples`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:550](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L550)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:545](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L545)
 
 ##### Parameters
 
@@ -948,7 +948,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **motionStrength**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:299](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L299)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L296)
 
 Gets how much the image is blurred by the movement while using the motion blur post-process
 
@@ -960,7 +960,7 @@ Gets how much the image is blurred by the movement while using the motion blur p
 
 > **set** **motionStrength**(`strength`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:305](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L305)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L302)
 
 Sets how much the image is blurred by the movement while using the motion blur post-process
 
@@ -982,7 +982,7 @@ Sets how much the image is blurred by the movement while using the motion blur p
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L40)
 
 Gets pipeline name
 
@@ -1002,7 +1002,7 @@ Gets pipeline name
 
 > **get** **objectBasedMotionBlur**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:317](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L317)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:314](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L314)
 
 Gets whether or not the motion blur post-process is object based or screen based.
 
@@ -1014,7 +1014,7 @@ Gets whether or not the motion blur post-process is object based or screen based
 
 > **set** **objectBasedMotionBlur**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L320)
 
 Sets whether or not the motion blur post-process should be object based or screen based
 
@@ -1036,7 +1036,7 @@ Sets whether or not the motion blur post-process should be object based or scree
 
 > **get** **samples**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:566](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L566)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:561](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L561)
 
 Specifies MSAA sample count, setting this to 4 will provide 4x anti aliasing. (default: 1)
 
@@ -1048,7 +1048,7 @@ Specifies MSAA sample count, setting this to 4 will provide 4x anti aliasing. (d
 
 > **set** **samples**(`sampleCount`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:570](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L570)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:565](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L565)
 
 ##### Parameters
 
@@ -1068,7 +1068,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **screenSpaceReflectionsEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:511](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L511)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:506](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L506)
 
 Specifies if screen space reflections are enabled.
 
@@ -1080,7 +1080,7 @@ Specifies if screen space reflections are enabled.
 
 > **set** **screenSpaceReflectionsEnabled**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:515](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L515)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:510](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L510)
 
 ##### Parameters
 
@@ -1100,7 +1100,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **VLSEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:450](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L450)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:446](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L446)
 
 ##### Ignore
 
@@ -1114,7 +1114,7 @@ Specifies if the volumetric lights scattering effect is enabled
 
 > **set** **VLSEnabled**(`enabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:455](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L455)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:450](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L450)
 
 ##### Parameters
 
@@ -1134,7 +1134,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **volumetricLightStepsCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:529](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L529)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:524](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L524)
 
 Specifies the number of steps used to calculate the volumetric lights
 Typically in interval [50, 200]
@@ -1147,7 +1147,7 @@ Typically in interval [50, 200]
 
 > **set** **volumetricLightStepsCount**(`count`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:533](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L533)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:528](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L528)
 
 ##### Parameters
 
@@ -1165,7 +1165,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **addEffect**(`renderEffect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L106)
 
 Adds an effect to the pipeline
 
@@ -1191,7 +1191,7 @@ the effect to add
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:1638](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L1638)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:1634](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L1634)
 
 Dispose of the pipeline and stop all post processes
 
@@ -1213,7 +1213,7 @@ Dispose of the pipeline and stop all post processes
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L83)
 
 Gets the class name
 
@@ -1233,7 +1233,7 @@ Gets the class name
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:1652](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L1652)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:1648](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L1648)
 
 Serialize the rendering pipeline (Used when exporting)
 
@@ -1249,7 +1249,7 @@ the serialized object
 
 > **setPrePassRenderer**(`prePassRenderer`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:274](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L274)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:277](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L277)
 
 Sets the required values to the prepass renderer.
 
@@ -1270,39 +1270,3 @@ true if the pre pass is needed.
 #### Inherited from
 
 [`PostProcessRenderPipeline`](PostProcessRenderPipeline.md).[`setPrePassRenderer`](PostProcessRenderPipeline.md#setprepassrenderer)
-
-***
-
-### Parse()
-
-> `static` **Parse**(`source`, `scene`, `rootUrl`): `StandardRenderingPipeline`
-
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts:1675](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.ts#L1675)
-
-Parse the serialized pipeline
-
-#### Parameters
-
-##### source
-
-`any`
-
-Source pipeline.
-
-##### scene
-
-[`Scene`](Scene.md)
-
-The scene to load the pipeline to.
-
-##### rootUrl
-
-`string`
-
-The URL of the serialized pipeline.
-
-#### Returns
-
-`StandardRenderingPipeline`
-
-An instantiated pipeline from the serialized object.

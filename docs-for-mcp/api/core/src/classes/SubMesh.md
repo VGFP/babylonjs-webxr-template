@@ -6,7 +6,7 @@
 
 # Class: SubMesh
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L28)
 
 Defines a subdivision inside a mesh
 
@@ -20,7 +20,7 @@ Defines a subdivision inside a mesh
 
 > **new SubMesh**(`materialIndex`, `verticesStart`, `verticesCount`, `indexStart`, `indexCount`, `mesh`, `renderingMesh?`, `createBoundingBox?`, `addToMesh?`): `SubMesh`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L195)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L197)
 
 Creates a new submesh
 
@@ -90,7 +90,7 @@ defines a boolean indicating that the submesh must be added to the mesh.subMeshe
 
 > **indexCount**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:207](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L207)
 
 indices count
 
@@ -100,7 +100,7 @@ indices count
 
 > **indexStart**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:203](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L203)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L205)
 
 index start
 
@@ -110,7 +110,7 @@ index start
 
 > **materialIndex**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:197](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L197)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:199](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L199)
 
 the material index to use
 
@@ -120,7 +120,7 @@ the material index to use
 
 > **verticesCount**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:201](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L201)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:203](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L203)
 
 vertices count
 
@@ -130,7 +130,7 @@ vertices count
 
 > **verticesStart**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:199](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L199)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L201)
 
 vertex index start
 
@@ -142,7 +142,7 @@ vertex index start
 
 > **get** **effect**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Effect`](Effect.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L75)
 
 Gets associated (main) effect (possibly the effect override if defined)
 
@@ -158,7 +158,7 @@ Gets associated (main) effect (possibly the effect override if defined)
 
 > **get** **IsGlobal**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:234](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L234)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:236](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L236)
 
 **`Ignorenaming`**
 
@@ -176,7 +176,7 @@ Returns true if this submesh covers the entire parent mesh
 
 > **get** **materialDefines**(): [`Nullable`](../type-aliases/Nullable.md)\<[`MaterialDefines`](MaterialDefines.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L37)
 
 Gets material defines used by the effect associated to the sub mesh
 
@@ -188,7 +188,7 @@ Gets material defines used by the effect associated to the sub mesh
 
 > **set** **materialDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L45)
 
 Sets material defines used by the effect associated to the sub mesh
 
@@ -208,7 +208,7 @@ Sets material defines used by the effect associated to the sub mesh
 
 > **canIntersects**(`ray`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:473](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L473)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:475](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L475)
 
 Checks if the submesh intersects with a ray
 
@@ -232,7 +232,7 @@ true is the passed ray intersects the submesh bounding box
 
 > **clone**(`newMesh`, `newRenderingMesh?`): `SubMesh`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:700](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L700)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:702](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L702)
 
 Creates a new submesh from the passed mesh
 
@@ -262,7 +262,7 @@ the new submesh
 
 > **dispose**(`immediate?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:722](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L722)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:724](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L724)
 
 Release associated resources
 
@@ -284,7 +284,7 @@ If true, the effect will be disposed immediately (false by default)
 
 > **getBoundingInfo**(): [`BoundingInfo`](BoundingInfo.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:242](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L242)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:244](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L244)
 
 Returns the submesh BoundingInfo object
 
@@ -300,7 +300,7 @@ current bounding info (or mesh's one if the submesh is global)
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:739](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L739)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:741](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L741)
 
 Gets the class name
 
@@ -316,7 +316,7 @@ the string "SubMesh".
 
 > **getEffectiveMesh**(): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:288](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L288)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:290](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L290)
 
 Returns the effective mesh of the submesh
 
@@ -332,7 +332,7 @@ the effective mesh (could be different from parent mesh)
 
 > **getMaterial**(`getDefaultMaterial?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Material`](Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:299](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L299)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:301](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L301)
 
 Returns the submesh material
 
@@ -356,7 +356,7 @@ null or the current material
 
 > **getMesh**(): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:264](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L264)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:266](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L266)
 
 Returns the mesh of the current submesh
 
@@ -372,7 +372,7 @@ the parent mesh
 
 > **getRenderingMesh**(): [`Mesh`](Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:272](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L272)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:274](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L274)
 
 Returns the rendering mesh of the submesh
 
@@ -388,7 +388,7 @@ the rendering mesh (could be different from parent mesh)
 
 > **getReplacementMesh**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:280](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L280)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L282)
 
 Returns the replacement mesh of the submesh
 
@@ -404,7 +404,7 @@ the replacement mesh (could be different from parent mesh)
 
 > **intersects**(`ray`, `positions`, `indices`, `fastCheck?`, `trianglePredicate?`): [`Nullable`](../type-aliases/Nullable.md)\<`IntersectionInfo`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:491](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L491)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:493](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L493)
 
 Intersects current submesh with a ray
 
@@ -452,7 +452,7 @@ intersection info or null if no intersection
 
 > **isCompletelyInFrustum**(`frustumPlanes`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:412](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L412)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:414](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L414)
 
 True is the submesh bounding box is completely inside the frustum defined by the passed array of planes
 
@@ -480,7 +480,7 @@ true if the submesh is inside the frustum
 
 > **isInFrustum**(`frustumPlanes`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:398](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L398)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:400](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L400)
 
 True is the submesh bounding box intersects the frustum defined by the passed array of planes.
 
@@ -508,7 +508,7 @@ true if the submesh is intersecting with the frustum
 
 > **projectToRef**(`vector`, `positions`, `indices`, `ref`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.project.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.project.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.project.types.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.project.types.ts#L20)
 
 Projects a point on this submesh and stores the result in "ref"
 
@@ -550,7 +550,7 @@ distance from the point and the submesh, or -1 if the mesh rendering mode doesn'
 
 > **refreshBoundingInfo**(`data?`): `SubMesh`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:329](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L329)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:331](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L331)
 
 Sets a new updated BoundingInfo object to the submesh
 
@@ -574,7 +574,7 @@ the SubMesh
 
 > **render**(`enableAlphaMode`): `SubMesh`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:426](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L426)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:428](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L428)
 
 Renders the submesh
 
@@ -598,7 +598,7 @@ the submesh
 
 > **resetDrawCache**(`passId?`, `immediate?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L120)
 
 Resets the draw wrappers cache
 
@@ -626,7 +626,7 @@ If true, the draw wrapper will dispose the effect immediately (false by default)
 
 > **setBoundingInfo**(`boundingInfo`): `SubMesh`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L255)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:257](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L257)
 
 Sets the submesh BoundingInfo
 
@@ -650,7 +650,7 @@ the SubMesh
 
 > **setEffect**(`effect`, `defines?`, `materialContext?`, `resetContext?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L103)
 
 Sets associated effect (effect used to render this submesh)
 
@@ -690,7 +690,7 @@ true to reset the draw context
 
 > **updateBoundingInfo**(`world`): `SubMesh`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:380](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L380)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:382](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L382)
 
 Updates the submesh BoundingInfo
 
@@ -714,7 +714,7 @@ the submesh
 
 > `static` **AddToMesh**(`materialIndex`, `verticesStart`, `verticesCount`, `indexStart`, `indexCount`, `mesh`, `renderingMesh?`, `createBoundingBox?`): `SubMesh`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L170)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L172)
 
 Add a new submesh to a mesh
 
@@ -780,7 +780,7 @@ the new submesh
 
 > `static` **CreateFromIndices**(`materialIndex`, `startIndex`, `indexCount`, `mesh`, `renderingMesh?`, `createBoundingBox?`): `SubMesh`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.ts:754](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/subMesh.ts#L754)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/subMesh.pure.ts:756](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/subMesh.pure.ts#L756)
 
 Creates a new submesh from indices data
 

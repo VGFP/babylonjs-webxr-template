@@ -6,7 +6,7 @@
 
 # Enumeration: PropertyTypeForEdition
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:7](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L7)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:7](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L7)
 
 Enum defining the type of properties that can be edited in the property pages in the node editor
 
@@ -16,7 +16,7 @@ Enum defining the type of properties that can be edited in the property pages in
 
 > **Boolean**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L9)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L9)
 
 property is a boolean
 
@@ -26,7 +26,7 @@ property is a boolean
 
 > **Color3**: `6`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L21)
 
 property is a Color3
 
@@ -36,7 +36,7 @@ property is a Color3
 
 > **Color4**: `7`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L23)
 
 property is a Color4
 
@@ -46,7 +46,7 @@ property is a Color4
 
 > **Float**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L11)
 
 property is a float
 
@@ -56,7 +56,7 @@ property is a float
 
 > **Int**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L13)
 
 property is a int
 
@@ -66,7 +66,7 @@ property is a int
 
 > **List**: `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L19)
 
 property is a list of values
 
@@ -76,7 +76,7 @@ property is a list of values
 
 > **Matrix**: `12`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L33)
 
 property is a matrix
 
@@ -86,7 +86,7 @@ property is a matrix
 
 > **SamplingMode**: `8`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L25)
 
 property (int) should be edited as a combo box with a list of sampling modes
 
@@ -96,7 +96,7 @@ property (int) should be edited as a combo box with a list of sampling modes
 
 > **String**: `11`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L31)
 
 property is a string
 
@@ -106,7 +106,7 @@ property is a string
 
 > **TextureFormat**: `9`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L27)
 
 property (int) should be edited as a combo box with a list of texture formats
 
@@ -116,7 +116,7 @@ property (int) should be edited as a combo box with a list of texture formats
 
 > **TextureType**: `10`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L29)
 
 property (int) should be edited as a combo box with a list of texture types
 
@@ -126,7 +126,7 @@ property (int) should be edited as a combo box with a list of texture types
 
 > **Vector2**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L15)
 
 property is a Vector2
 
@@ -136,7 +136,7 @@ property is a Vector2
 
 > **Vector3**: `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L17)
 
 property is a Vector3
 
@@ -146,6 +146,6 @@ property is a Vector3
 
 > **Viewport**: `13`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L35)
 
 property is a viewport

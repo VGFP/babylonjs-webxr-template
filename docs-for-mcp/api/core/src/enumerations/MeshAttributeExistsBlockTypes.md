@@ -6,7 +6,7 @@
 
 # Enumeration: MeshAttributeExistsBlockTypes
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts#L14)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAt
 
 > **None**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts#L15)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAt
 
 > **Normal**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts#L16)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAt
 
 > **Tangent**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts#L17)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAt
 
 > **UV1**: `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts#L19)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAt
 
 > **UV2**: `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts#L20)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAt
 
 > **UV3**: `6`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts#L21)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAt
 
 > **UV4**: `7`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts#L22)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAt
 
 > **UV5**: `8`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts#L23)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAt
 
 > **UV6**: `9`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts#L24)
 
 ***
 
@@ -86,4 +86,4 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAt
 
 > **VertexColor**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/meshAttributeExistsBlock.pure.ts#L18)

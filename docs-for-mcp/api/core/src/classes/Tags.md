@@ -6,7 +6,7 @@
 
 # Class: Tags
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tags.ts:6](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tags.ts#L6)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tags.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tags.ts#L6)
 
 Class used to store custom tags
 
@@ -26,7 +26,7 @@ Class used to store custom tags
 
 > `static` **AddTagsTo**(`obj`, `tagsString`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tags.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tags.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tags.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tags.ts#L91)
 
 Adds tags to an object
 
@@ -55,7 +55,7 @@ A tag cannot start with '||', '&&', and '!'. It cannot contain whitespaces
 
 > `static` **DisableFor**(`obj`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tags.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tags.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tags.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tags.ts#L35)
 
 Removes tags support
 
@@ -77,7 +77,7 @@ defines the object to use
 
 > `static` **EnableFor**(`obj`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tags.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tags.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tags.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tags.ts#L11)
 
 Adds support for tags on the given object
 
@@ -99,7 +99,7 @@ defines the object to use
 
 > `static` **GetTags**(`obj`, `asString?`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tags.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tags.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tags.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tags.ts#L68)
 
 Gets the tags available on a given object
 
@@ -129,7 +129,7 @@ the tags
 
 > `static` **HasTags**(`obj`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tags.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tags.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tags.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tags.ts#L48)
 
 Gets a boolean indicating if the given object has tags
 
@@ -153,7 +153,7 @@ a boolean
 
 > `static` **MatchesQuery**(`obj`, `tagsQuery`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tags.ts:152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tags.ts#L152)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tags.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tags.ts#L152)
 
 Defines if tags hosted on an object match a given query
 
@@ -183,7 +183,7 @@ a boolean
 
 > `static` **RemoveTagsFrom**(`obj`, `tagsString`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tags.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/tags.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/tags.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tags.ts#L129)
 
 Removes specific tags from a specific object
 

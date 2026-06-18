@@ -6,7 +6,7 @@
 
 # Class: Ragdoll
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/ragdoll.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/ragdoll.ts#L66)
 
 **`Experimental`**
 
@@ -18,7 +18,7 @@ Ragdoll for Physics V2
 
 > **new Ragdoll**(`skeleton`, `rootTransformNode`, `config`): `Ragdoll`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/ragdoll.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/ragdoll.ts#L103)
 
 **`Experimental`**
 
@@ -54,7 +54,7 @@ an array of `RagdollBoneProperties` corresponding to bones and their properties 
 
 > **pauseSync**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/ragdoll.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/ragdoll.ts#L90)
 
 **`Experimental`**
 
@@ -66,7 +66,7 @@ Pause synchronization between physics and bone position/orientation
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:390](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/ragdoll.ts#L390)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:390](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/ragdoll.ts#L390)
 
 **`Experimental`**
 
@@ -82,7 +82,7 @@ Dispose resources and remove physics objects
 
 > **getAggregate**(`index`): [`PhysicsAggregate`](PhysicsAggregate.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/ragdoll.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/ragdoll.ts#L128)
 
 **`Experimental`**
 
@@ -108,7 +108,7 @@ the aggregate for the bone index for the root aggregate if index is invalid
 
 > **getConstraints**(): [`PhysicsConstraint`](PhysicsConstraint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/ragdoll.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/ragdoll.ts#L119)
 
 **`Experimental`**
 
@@ -126,7 +126,7 @@ array of created constraints
 
 > **ragdoll**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:373](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/ragdoll.ts#L373)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:373](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/ragdoll.ts#L373)
 
 **`Experimental`**
 

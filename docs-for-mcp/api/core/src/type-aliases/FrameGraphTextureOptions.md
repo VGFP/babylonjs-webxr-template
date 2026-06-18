@@ -8,7 +8,7 @@
 
 > **FrameGraphTextureOptions** = `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L23)
 
 Options used to describe a texture to be created in the frame graph.
 
@@ -18,7 +18,7 @@ Options used to describe a texture to be created in the frame graph.
 
 > `optional` **createMipMaps?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L25)
 
 Specifies if mipmaps must be created for the textures (default: false)
 
@@ -28,7 +28,7 @@ Specifies if mipmaps must be created for the textures (default: false)
 
 > `optional` **creationFlags?**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L50)
 
 Defines the creation flags of the textures (Constants.TEXTURE_CREATIONFLAG_STORAGE for storage textures, for eg)
 
@@ -38,7 +38,7 @@ Defines the creation flags of the textures (Constants.TEXTURE_CREATIONFLAG_STORA
 
 > `optional` **formats?**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L44)
 
 Defines the format of the textures (RED, RG, RGB, RGBA, ALPHA...)
 
@@ -48,7 +48,7 @@ Defines the format of the textures (RED, RG, RGB, RGBA, ALPHA...)
 
 > `optional` **labels?**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L53)
 
 Defines the names of the textures (used for debugging purpose)
 
@@ -58,7 +58,7 @@ Defines the names of the textures (used for debugging purpose)
 
 > `optional` **layerCounts?**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L38)
 
 Define the number of layers of the textures (if applicable, given the corresponding targetType) (for Constants.TEXTURE_3D, .TEXTURE_2D_ARRAY, and .TEXTURE_CUBE_MAP_ARRAY)
 
@@ -68,7 +68,7 @@ Define the number of layers of the textures (if applicable, given the correspond
 
 > `optional` **samples?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L28)
 
 Defines sample count (default: 1)
 
@@ -78,7 +78,7 @@ Defines sample count (default: 1)
 
 > `optional` **targetTypes?**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L33)
 
 Define the type of the textures (of Constants.TEXTURE_2D, .TEXTURE_2D_ARRAY, .TEXTURE_CUBE_MAP, .TEXTURE_CUBE_MAP_ARRAY, .TEXTURE_3D).
 
@@ -88,7 +88,7 @@ Define the type of the textures (of Constants.TEXTURE_2D, .TEXTURE_2D_ARRAY, .TE
 
 > `optional` **types?**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L41)
 
 Defines the type of the texture channels (UNSIGNED_BYTE, FLOAT, etc.)
 
@@ -98,6 +98,6 @@ Defines the type of the texture channels (UNSIGNED_BYTE, FLOAT, etc.)
 
 > `optional` **useSRGBBuffers?**: `boolean`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTypes.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L47)
 
 Defines if sRGB format should be used for each of texture

@@ -6,7 +6,7 @@
 
 # Interface: INodeGeometryExecutionContext
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts:4](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts#L4)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts:4](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts#L4)
 
 Interface used to convey context through execution nodes
 
@@ -16,7 +16,7 @@ Interface used to convey context through execution nodes
 
 > **getExecutionFaceIndex**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts#L14)
 
 Gets the current face index in the current flow
 
@@ -32,7 +32,7 @@ the current face index
 
 > **getExecutionIndex**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts#L9)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts#L9)
 
 Gets the current vertex index in the current flow
 
@@ -48,7 +48,7 @@ the current index
 
 > **getExecutionLoopIndex**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts#L19)
 
 Gets the current loop index in the current flow
 
@@ -64,7 +64,7 @@ the current loop index
 
 > `optional` **getOverrideNormalsContextualValue**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts#L31)
 
 Gets the value associated with a contextual normals
 
@@ -80,7 +80,7 @@ the value associated with the source
 
 > `optional` **getOverridePositionsContextualValue**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts#L25)
 
 Gets the value associated with a contextual positions
 
@@ -96,7 +96,7 @@ the value associated with the source
 
 > `optional` **getOverrideUVs1ContextualValue**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Interfaces/nodeGeometryExecutionContext.ts#L37)
 
 Gets the value associated with a contextual UV1 set
 

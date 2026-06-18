@@ -6,7 +6,7 @@
 
 # Enumeration: Coordinate
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.axis.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.axis.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.axis.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.axis.ts#L26)
 
 Defines cartesian components.
 
@@ -16,7 +16,7 @@ Defines cartesian components.
 
 > **X**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.axis.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.axis.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.axis.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.axis.ts#L28)
 
 X axis
 
@@ -26,7 +26,7 @@ X axis
 
 > **Y**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.axis.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.axis.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.axis.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.axis.ts#L30)
 
 Y axis
 
@@ -36,6 +36,6 @@ Y axis
 
 > **Z**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.axis.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.axis.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.axis.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.axis.ts#L32)
 
 Z axis

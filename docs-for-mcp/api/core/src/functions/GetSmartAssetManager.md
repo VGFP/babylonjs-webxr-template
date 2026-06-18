@@ -8,7 +8,7 @@
 
 > **GetSmartAssetManager**(`scene`): [`SmartAssetManager`](../type-aliases/SmartAssetManager.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetManager.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/SmartAssets/smartAssetManager.ts#L131)
+Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetManager.pure.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/SmartAssets/smartAssetManager.pure.ts#L145)
 
 Returns the SmartAssetManager attached to the given scene, creating and
 attaching one if none exists.

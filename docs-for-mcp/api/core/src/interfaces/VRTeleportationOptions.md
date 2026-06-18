@@ -6,7 +6,7 @@
 
 # Interface: VRTeleportationOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/VR/vrExperienceHelper.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/VR/vrExperienceHelper.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L41)
 
 Options to modify the vr teleportation behavior.
 
@@ -16,7 +16,7 @@ Options to modify the vr teleportation behavior.
 
 > `optional` **easingFunction?**: [`EasingFunction`](../classes/EasingFunction.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/VR/vrExperienceHelper.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/VR/vrExperienceHelper.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L65)
 
 The easing function used in the animation or null for Linear. (default CircleEase)
 
@@ -26,7 +26,7 @@ The easing function used in the animation or null for Linear. (default CircleEas
 
 > `optional` **floorMeshes?**: [`Mesh`](../classes/Mesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/VR/vrExperienceHelper.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/VR/vrExperienceHelper.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L49)
 
 A list of meshes to be used as the teleportation floor. (default: empty)
 
@@ -36,7 +36,7 @@ A list of meshes to be used as the teleportation floor. (default: empty)
 
 > `optional` **floorMeshName?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/VR/vrExperienceHelper.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/VR/vrExperienceHelper.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L45)
 
 The name of the mesh which should be used as the teleportation floor. (default: null)
 
@@ -46,7 +46,7 @@ The name of the mesh which should be used as the teleportation floor. (default: 
 
 > `optional` **teleportationMode?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/VR/vrExperienceHelper.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/VR/vrExperienceHelper.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L53)
 
 The teleportation mode. (default: TELEPORTATIONMODE_CONSTANTTIME)
 
@@ -56,7 +56,7 @@ The teleportation mode. (default: TELEPORTATIONMODE_CONSTANTTIME)
 
 > `optional` **teleportationSpeed?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/VR/vrExperienceHelper.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/VR/vrExperienceHelper.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L61)
 
 The speed of the animation in distance/sec, apply when animationMode is TELEPORTATIONMODE_CONSTANTSPEED. (default 20 units / sec)
 
@@ -66,6 +66,6 @@ The speed of the animation in distance/sec, apply when animationMode is TELEPORT
 
 > `optional` **teleportationTime?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/VR/vrExperienceHelper.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/VR/vrExperienceHelper.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L57)
 
 The duration of the animation in ms, apply when animationMode is TELEPORTATIONMODE_CONSTANTTIME. (default 122ms)

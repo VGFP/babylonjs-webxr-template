@@ -6,7 +6,7 @@
 
 # Class: Vector2
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L110)
 
 Class representing a vector containing 2 coordinates
 Example Playground - Overview -  https://playground.babylonjs.com/#QYBWV4#9
@@ -25,7 +25,7 @@ Example Playground - Overview -  https://playground.babylonjs.com/#QYBWV4#9
 
 > **new Vector2**(`x?`, `y?`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L136)
 
 Creates a new Vector2 from the given x and y coordinates
 
@@ -53,7 +53,7 @@ defines the second coordinate
 
 > `readonly` **dimension**: readonly \[`2`\]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L124)
 
 #### See
 
@@ -69,7 +69,7 @@ Tensor.dimension
 
 > `readonly` **rank**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L129)
 
 #### See
 
@@ -85,7 +85,7 @@ Tensor.rank
 
 > **x**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L138)
 
 [0] defines the first coordinate
 
@@ -99,7 +99,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:135](ht
 
 > **y**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L140)
 
 [0] defines the second coordinate
 
@@ -113,7 +113,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:137](ht
 
 > `static` **\_V8PerformanceHack**: [`DeepImmutableObject`](../type-aliases/DeepImmutableObject.md)\<`Vector2`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L118)
 
 If the first vector is flagged with integers (as everything is 0,0), V8 stores all of the properties as integers internally because it doesn't know any better yet.
 If subsequent vectors are created with non-integer values, V8 determines that it would be best to represent these properties as doubles instead of integers,
@@ -129,7 +129,7 @@ If we keep using the Vector2 instances from step 1, it will now be a poison pill
 
 > **get** `static` **ZeroReadOnly**(): [`DeepImmutable`](../type-aliases/DeepImmutable.md)\<`Vector2`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:789](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L789)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:792](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L792)
 
 Gets a zero Vector2 that must not be updated
 
@@ -143,7 +143,7 @@ Gets a zero Vector2 that must not be updated
 
 > **add**(`otherVector`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L255)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:258](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L258)
 
 Add another vector with the current one
 Example Playground https://playground.babylonjs.com/#QYBWV4#11
@@ -172,7 +172,7 @@ a new Vector2 set with the addition of the current Vector2 and the given one coo
 
 > **addInPlace**(`otherVector`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:278](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L278)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:281](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L281)
 
 Set the Vector2 coordinates by adding the given Vector2 coordinates
 Example Playground https://playground.babylonjs.com/#QYBWV4#13
@@ -201,7 +201,7 @@ the current updated Vector2
 
 > **addInPlaceFromFloats**(`x`, `y`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:290](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L290)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:293](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L293)
 
 Adds the given coordinates to the current Vector2
 
@@ -235,7 +235,7 @@ the current updated Vector2
 
 > **addToRef**\<`T`\>(`otherVector`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:266](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L266)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:269](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L269)
 
 Sets the "result" coordinates with the addition of the current Vector2 and the given one coordinates
 Example Playground https://playground.babylonjs.com/#QYBWV4#12
@@ -276,7 +276,7 @@ result input
 
 > **addVector3**(`otherVector`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:302](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L302)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:305](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L305)
 
 Gets a new Vector2 by adding the current Vector2 coordinates to the given Vector3 x, y coordinates
 Example Playground https://playground.babylonjs.com/#QYBWV4#14
@@ -301,7 +301,7 @@ a new Vector2
 
 > **asArray**(): \[`number`, `number`\]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:203](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L203)
 
 Copy the current vector to an array
 Example Playground https://playground.babylonjs.com/#QYBWV4#40
@@ -322,7 +322,7 @@ a new array with 2 elements: the Vector2 coordinates.
 
 > **clone**(): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:734](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L734)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:737](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L737)
 
 Gets a new Vector2 copied from the Vector2
 Example Playground https://playground.babylonjs.com/#QYBWV4#20
@@ -343,7 +343,7 @@ a new Vector2
 
 > **copyFrom**(`source`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:210](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L210)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:213](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L213)
 
 Sets the Vector2 coordinates with the given Vector2 coordinates
 Example Playground https://playground.babylonjs.com/#QYBWV4#24
@@ -372,7 +372,7 @@ the current updated Vector2
 
 > **copyFromFloats**(`x`, `y`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:223](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L223)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:226](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L226)
 
 Sets the Vector2 coordinates with the given floats
 Example Playground https://playground.babylonjs.com/#QYBWV4#25
@@ -407,7 +407,7 @@ the current updated Vector2
 
 > **divide**(`otherVector`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:392](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L392)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:395](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L395)
 
 Returns a new Vector2 set with the Vector2 coordinates divided by the given one coordinates
 Example Playground https://playground.babylonjs.com/#QYBWV4#27
@@ -436,7 +436,7 @@ a new Vector2
 
 > **divideInPlace**(`otherVector`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:415](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L415)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:418](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L418)
 
 Divides the current Vector2 coordinates by the given ones
 Example Playground https://playground.babylonjs.com/#QYBWV4#28
@@ -465,7 +465,7 @@ the current updated Vector2
 
 > **divideToRef**\<`T`\>(`otherVector`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:403](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L403)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:406](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L406)
 
 Sets the "result" coordinates with the Vector2 divided by the given one coordinates
 Example Playground https://playground.babylonjs.com/#QYBWV4#30
@@ -506,7 +506,7 @@ result input
 
 > **dot**(`otherVector`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:743](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L743)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:746](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L746)
 
 Gets the dot product of the current vector and the vector "otherVector"
 
@@ -530,7 +530,7 @@ the dot product (float)
 
 > **equals**(`otherVector`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:571](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L571)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:574](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L574)
 
 Gets a boolean if two vectors are equals
 Example Playground https://playground.babylonjs.com/#QYBWV4#31
@@ -559,7 +559,7 @@ true if the given vector coordinates strictly equal the current Vector2 ones
 
 > **equalsToFloats**(`x`, `y`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:592](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L592)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:595](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L595)
 
 Returns true if the current Vector2 coordinates equals the given floats
 
@@ -593,7 +593,7 @@ true if both vectors are equal
 
 > **equalsWithEpsilon**(`otherVector`, `epsilon?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:582](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L582)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:585](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L585)
 
 Gets a boolean if two vectors are equals (using an epsilon value)
 Example Playground https://playground.babylonjs.com/#QYBWV4#32
@@ -628,7 +628,7 @@ true if the given vector coordinates are close to the current ones by a distance
 
 > **floor**(): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:602](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L602)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:605](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L605)
 
 Gets a new Vector2 from current Vector2 floored values
 Example Playground https://playground.babylonjs.com/#QYBWV4#35
@@ -650,7 +650,7 @@ a new Vector2
 
 > **floorToRef**\<`T`\>(`result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:611](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L611)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:614](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L614)
 
 Gets the current Vector2's floored values and stores them in result
 
@@ -684,7 +684,7 @@ the result Vector2
 
 > **fract**(): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:623](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L623)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:626](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L626)
 
 Gets a new Vector2 from current Vector2 fractional values
 Example Playground https://playground.babylonjs.com/#QYBWV4#34
@@ -706,7 +706,7 @@ a new Vector2
 
 > **fractToRef**\<`T`\>(`result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:632](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L632)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:635](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L635)
 
 Gets the current Vector2's fractional values and stores them in result
 
@@ -740,7 +740,7 @@ the result Vector2
 
 > **fromArray**(`array`, `offset?`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L193)
 
 Update the current vector from an array
 Example Playground https://playground.babylonjs.com/#QYBWV4#39
@@ -775,7 +775,7 @@ the current Vector2
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L152)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L155)
 
 Gets class name
 
@@ -795,7 +795,7 @@ the string "Vector2"
 
 > **getHashCode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L163)
 
 Gets current vector hash code
 
@@ -815,7 +815,7 @@ the Vector2 hash code as a number
 
 > **length**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:668](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L668)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:671](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L671)
 
 Gets the length of the vector
 
@@ -835,7 +835,7 @@ the vector length (float)
 
 > **lengthSquared**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:676](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L676)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:679](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L679)
 
 Gets the vector squared length
 
@@ -855,7 +855,7 @@ the vector squared length (float)
 
 > **maximizeInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:435](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L435)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:438](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L438)
 
 Updates the current Vector2 with the maximal coordinate values between its and the given vector ones.
 
@@ -883,7 +883,7 @@ the current updated Vector2
 
 > **maximizeInPlaceFromFloats**(`x`, `y`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:457](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L457)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:460](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L460)
 
 Updates the current Vector2 with the maximal coordinate values between its and the given coordinates.
 
@@ -917,7 +917,7 @@ the current updated Vector2
 
 > **minimizeInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:426](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L426)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:429](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L429)
 
 Updates the current Vector2 with the minimal coordinate values between its and the given vector ones
 
@@ -945,7 +945,7 @@ the current updated Vector2
 
 > **minimizeInPlaceFromFloats**(`x`, `y`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:445](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L445)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:448](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L448)
 
 Updates the current Vector2 with the minimal coordinate values between its and the given coordinates
 
@@ -979,7 +979,7 @@ the current updated Vector2
 
 > **multiply**(`otherVector`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:358](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L358)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:361](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L361)
 
 Returns a new Vector2 set with the multiplication of the current Vector2 and the given one coordinates
 Example Playground https://playground.babylonjs.com/#QYBWV4#42
@@ -1008,7 +1008,7 @@ a new Vector2
 
 > **multiplyByFloats**(`x`, `y`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:382](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L382)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:385](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L385)
 
 Gets a new Vector2 set with the Vector2 coordinates multiplied by the given floats
 Example Playground https://playground.babylonjs.com/#QYBWV4#89
@@ -1043,7 +1043,7 @@ a new Vector2
 
 > **multiplyInPlace**(`otherVector`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:346](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L346)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:349](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L349)
 
 Multiplies in place the current Vector2 coordinates by the given ones
 Example Playground https://playground.babylonjs.com/#QYBWV4#43
@@ -1072,7 +1072,7 @@ the current updated Vector2
 
 > **multiplyToRef**\<`T`\>(`otherVector`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:369](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L369)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:372](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L372)
 
 Sets "result" coordinates with the multiplication of the current Vector2 and the given one coordinates
 Example Playground https://playground.babylonjs.com/#QYBWV4#44
@@ -1113,7 +1113,7 @@ result input
 
 > **negate**(): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:490](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L490)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:493](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L493)
 
 Gets a new Vector2 with current Vector2 negated coordinates
 
@@ -1133,7 +1133,7 @@ a new Vector2
 
 > **negateInPlace**(): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:499](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L499)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:502](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L502)
 
 Negate this vector in place
 Example Playground https://playground.babylonjs.com/#QYBWV4#23
@@ -1154,7 +1154,7 @@ this
 
 > **negateToRef**\<`T`\>(`result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:511](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L511)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:514](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L514)
 
 Negate the current Vector2 and stores the result in the given vector "result" coordinates
 Example Playground https://playground.babylonjs.com/#QYBWV4#41
@@ -1189,7 +1189,7 @@ the result
 
 > **normalize**(): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:687](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L687)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:690](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L690)
 
 Normalize the vector
 Example Playground https://playground.babylonjs.com/#QYBWV4#48
@@ -1210,7 +1210,7 @@ the current updated Vector2
 
 > **normalizeFromLength**(`len`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:697](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L697)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:700](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L700)
 
 Normalize the current Vector2 with the given input length.
 Please note that this is an in place operation.
@@ -1239,7 +1239,7 @@ the current updated Vector2
 
 > **normalizeToNew**(): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:709](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L709)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:712](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L712)
 
 Normalize the current Vector2 to a new vector
 
@@ -1259,7 +1259,7 @@ the new Vector2
 
 > **normalizeToRef**\<`T`\>(`result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:720](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L720)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:723](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L723)
 
 Normalize the current Vector2 to the reference
 
@@ -1293,7 +1293,7 @@ the updated Vector2
 
 > **rotate**(`angle`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:643](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L643)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:646](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L646)
 
 Gets a new Vector2 rotated by the given angle
 
@@ -1317,7 +1317,7 @@ a new Vector2
 
 > **rotateToRef**\<`T`\>(`angle`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:654](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L654)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:657](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L657)
 
 Rotate the current vector into a given result vector
 Example Playground https://playground.babylonjs.com/#QYBWV4#49
@@ -1354,7 +1354,7 @@ result input
 
 > **scale**(`scale`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:535](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L535)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:538](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L538)
 
 Returns a new Vector2 scaled by "scale" from the current Vector2
 Example Playground https://playground.babylonjs.com/#QYBWV4#52
@@ -1383,7 +1383,7 @@ a new Vector2
 
 > **scaleAndAddToRef**\<`T`\>(`scale`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:559](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L559)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:562](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L562)
 
 Scale the current Vector2 values by a factor and add the result to a given Vector2
 Example Playground https://playground.babylonjs.com/#QYBWV4#58
@@ -1424,7 +1424,7 @@ result input
 
 > **scaleInPlace**(`scale`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:523](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L523)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:526](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L526)
 
 Multiply the Vector2 coordinates by
 Example Playground https://playground.babylonjs.com/#QYBWV4#59
@@ -1453,7 +1453,7 @@ the current updated Vector2
 
 > **scaleToRef**\<`T`\>(`scale`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:546](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L546)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:549](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L549)
 
 Scale the current Vector2 values by a factor to a given Vector2
 Example Playground https://playground.babylonjs.com/#QYBWV4#57
@@ -1494,7 +1494,7 @@ result input
 
 > **set**(`x`, `y`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:236](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L236)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L239)
 
 Sets the Vector2 coordinates with the given floats
 Example Playground https://playground.babylonjs.com/#QYBWV4#62
@@ -1529,7 +1529,7 @@ the current updated Vector2
 
 > **setAll**(`v`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L245)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:248](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L248)
 
 Copies the given float to the current Vector2 coordinates
 
@@ -1557,7 +1557,7 @@ the current updated Vector2
 
 > **subtract**(`otherVector`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:312](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L312)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:315](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L315)
 
 Gets a new Vector2 set with the subtracted coordinates of the given one from the current Vector2
 Example Playground https://playground.babylonjs.com/#QYBWV4#61
@@ -1586,7 +1586,7 @@ a new Vector2
 
 > **subtractFromFloats**(`x`, `y`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:469](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L469)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:472](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L472)
 
 Returns a new Vector2 set with the subtraction of the given floats from the current Vector2 coordinates
 
@@ -1620,7 +1620,7 @@ the resulting Vector2
 
 > **subtractFromFloatsToRef**\<`T`\>(`x`, `y`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:480](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L480)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:483](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L483)
 
 Subtracts the given floats from the current Vector2 coordinates and set the given vector "result" with this result
 
@@ -1666,7 +1666,7 @@ the result
 
 > **subtractInPlace**(`otherVector`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:334](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L334)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:337](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L337)
 
 Sets the current Vector2 coordinates by subtracting from it the given one coordinates
 Example Playground https://playground.babylonjs.com/#QYBWV4#88
@@ -1695,7 +1695,7 @@ the current updated Vector2
 
 > **subtractToRef**\<`T`\>(`otherVector`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:326](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L326)
 
 Sets the "result" coordinates with the subtraction of the given one from the current Vector2 coordinates.
 Example Playground https://playground.babylonjs.com/#QYBWV4#63
@@ -1736,7 +1736,7 @@ result input
 
 > **toArray**(`array`, `index?`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L177)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L180)
 
 Sets the Vector2 coordinates in the given array or Float32Array from the given index.
 Example Playground https://playground.babylonjs.com/#QYBWV4#15
@@ -1771,7 +1771,7 @@ the current Vector2
 
 > **toString**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:147](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L147)
 
 Gets a string with the Vector2 coordinates
 
@@ -1787,7 +1787,7 @@ a string with the Vector2 coordinates
 
 > `static` **CatmullRom**(`value1`, `value2`, `value3`, `value4`, `amount`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:840](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L840)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:843](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L843)
 
 Gets a new Vector2 located for "amount" (float) on the CatmullRom spline defined by the given four Vector2
 Example Playground https://playground.babylonjs.com/#QYBWV4#65
@@ -1836,7 +1836,7 @@ a new Vector2
 
 > `static` **Center**(`value1`, `value2`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:1139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L1139)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:1142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L1142)
 
 Gets a new Vector2 located at the center of the vectors "value1" and "value2"
 Example Playground https://playground.babylonjs.com/#QYBWV4#86
@@ -1868,7 +1868,7 @@ a new Vector2
 
 > `static` **CenterToRef**\<`T`\>(`value1`, `value2`, `ref`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:1151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L1151)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:1154](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L1154)
 
 Gets the center of the vectors "value1" and "value2" and stores the result in the vector "ref"
 Example Playground https://playground.babylonjs.com/#QYBWV4#66
@@ -1911,7 +1911,7 @@ ref
 
 > `static` **Clamp**(`value`, `min`, `max`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:893](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L893)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:896](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L896)
 
 Returns a new Vector2 set with same the coordinates than "value" ones if the vector "value" is in the square defined by "min" and "max".
 If a coordinate of "value" is lower than "min" coordinates, the returned Vector2 is given this "min" coordinate.
@@ -1950,7 +1950,7 @@ a new Vector2
 
 > `static` **ClampToRef**\<`T`\>(`value`, `min`, `max`, `ref`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:877](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L877)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:880](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L880)
 
 Sets reference with same the coordinates than "value" ones if the vector "value" is in the square defined by "min" and "max".
 If a coordinate of "value" is lower than "min" coordinates, the returned Vector2 is given this "min" coordinate.
@@ -2000,7 +2000,7 @@ the reference
 
 > `static` **Distance**(`value1`, `value2`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:1114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L1114)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:1117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L1117)
 
 Gets the distance between the vectors "value1" and "value2"
 Example Playground https://playground.babylonjs.com/#QYBWV4#71
@@ -2031,7 +2031,7 @@ the distance between vectors
 
 > `static` **DistanceOfPointFromSegment**(`p`, `segA`, `segB`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:1163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L1163)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:1166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L1166)
 
 Gets the shortest distance (float) between the point "p" and the segment defined by the two points "segA" and "segB".
 Example Playground https://playground.babylonjs.com/#QYBWV4#77
@@ -2068,7 +2068,7 @@ the shortest distance
 
 > `static` **DistanceSquared**(`value1`, `value2`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:1125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L1125)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:1128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L1128)
 
 Returns the squared distance between the vectors "value1" and "value2"
 Example Playground https://playground.babylonjs.com/#QYBWV4#72
@@ -2099,7 +2099,7 @@ the squared distance between vectors
 
 > `static` **Dot**(`left`, `right`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:1009](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L1009)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:1012](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L1012)
 
 Gets the dot product of the vector "left" and the vector "right"
 Example Playground https://playground.babylonjs.com/#QYBWV4#90
@@ -2130,7 +2130,7 @@ the dot product (float)
 
 > `static` **FromArray**(`array`, `offset?`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:800](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L800)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:803](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L803)
 
 Gets a new Vector2 set from the given index element of the given array
 Example Playground https://playground.babylonjs.com/#QYBWV4#79
@@ -2161,7 +2161,7 @@ a new Vector2
 
 > `static` **FromArrayToRef**\<`T`\>(`array`, `offset`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:812](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L812)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:815](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L815)
 
 Sets "result" from the given index element of the given array
 Example Playground https://playground.babylonjs.com/#QYBWV4#80
@@ -2204,7 +2204,7 @@ result input
 
 > `static` **FromFloatsToRef**\<`T`\>(`x`, `y`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:825](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L825)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:828](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L828)
 
 Sets the given vector "result" with the given floats.
 
@@ -2246,7 +2246,7 @@ the result vector
 
 > `static` **Hermite**(`value1`, `tangent1`, `value2`, `tangent2`, `amount`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:909](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L909)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:912](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L912)
 
 Returns a new Vector2 located for "amount" (float) on the Hermite spline defined by the vectors "value1", "value2", "tangent1", "tangent2"
 Example Playground https://playground.babylonjs.com/#QYBWV4#81
@@ -2295,7 +2295,7 @@ a new Vector2
 
 > `static` **Hermite1stDerivative**(`value1`, `tangent1`, `value2`, `tangent2`, `time`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:939](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L939)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:942](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L942)
 
 Returns a new Vector2 which is the 1st derivative of the Hermite spline defined by the vectors "value1", "value2", "tangent1", "tangent2".
 Example Playground https://playground.babylonjs.com/#QYBWV4#82
@@ -2344,7 +2344,7 @@ define where the derivative must be done
 
 > `static` **Hermite1stDerivativeToRef**\<`T`\>(`value1`, `tangent1`, `value2`, `tangent2`, `time`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:960](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L960)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:963](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L963)
 
 Returns a new Vector2 which is the 1st derivative of the Hermite spline defined by the vectors "value1", "value2", "tangent1", "tangent2".
 Example Playground https://playground.babylonjs.com/#QYBWV4#83
@@ -2405,7 +2405,7 @@ result input
 
 > `static` **Lerp**(`start`, `end`, `amount`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:984](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L984)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:987](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L987)
 
 Returns a new Vector2 located for "amount" (float) on the linear interpolation between the vector "start" adn the vector "end".
 Example Playground https://playground.babylonjs.com/#QYBWV4#84
@@ -2442,7 +2442,7 @@ a new Vector2
 
 > `static` **LerpToRef**(`start`, `end`, `amount`, `result`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:996](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L996)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:999](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L999)
 
 Sets the given vector "result" with the result of the linear interpolation from the vector "start" for "amount" to the vector "end"
 
@@ -2484,7 +2484,7 @@ result input
 
 > `static` **Maximize**(`left`, `right`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:1055](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L1055)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:1058](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L1058)
 
 Gets a new Vector2 set with the maximal coordinate values from the "left" and "right" vectors
 Example Playground https://playground.babylonjs.com/#QYBWV4#86
@@ -2515,7 +2515,7 @@ a new Vector2
 
 > `static` **Minimize**(`left`, `right`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:1042](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L1042)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:1045](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L1045)
 
 Gets a new Vector2 set with the minimal coordinate values from the "left" and "right" vectors
 Example Playground https://playground.babylonjs.com/#QYBWV4#86
@@ -2546,7 +2546,7 @@ a new Vector2
 
 > `static` **Normalize**(`vector`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:1019](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L1019)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:1022](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L1022)
 
 Returns a new Vector2 equal to the normalized given vector
 Example Playground https://playground.babylonjs.com/#QYBWV4#46
@@ -2571,7 +2571,7 @@ a new Vector2
 
 > `static` **NormalizeToRef**\<`T`\>(`vector`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:1030](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L1030)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:1033](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L1033)
 
 Normalize a given vector into a second one
 Example Playground https://playground.babylonjs.com/#QYBWV4#50
@@ -2608,7 +2608,7 @@ result input
 
 > `static` **One**(): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:761](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L761)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:764](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L764)
 
 Gets a new Vector2(1, 1)
 
@@ -2624,7 +2624,7 @@ a new Vector2
 
 > `static` **PointInTriangle**(`p`, `p0`, `p1`, `p2`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:1098](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L1098)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:1101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L1101)
 
 Determines if a given vector is included in a triangle
 Example Playground https://playground.babylonjs.com/#QYBWV4#87
@@ -2667,7 +2667,7 @@ true if the point "p" is in the triangle defined by the vectors "p0", "p1", "p2"
 
 > `static` **Random**(`min?`, `max?`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:771](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L771)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:774](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L774)
 
 Returns a new Vector2 with random values between min and max
 
@@ -2697,7 +2697,7 @@ a Vector2 with random values between min and max
 
 > `static` **RandomToRef**\<`T`\>(`min?`, `max?`, `ref`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:782](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L782)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:785](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L785)
 
 Sets a Vector2 with random values between min and max
 
@@ -2739,7 +2739,7 @@ the ref with random values between min and max
 
 > `static` **Transform**(`vector`, `transformation`): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:1068](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L1068)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:1071](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L1071)
 
 Gets a new Vector2 set with the transformed coordinates of the given vector by the given transformation matrix
 Example Playground https://playground.babylonjs.com/#QYBWV4#17
@@ -2770,7 +2770,7 @@ a new Vector2
 
 > `static` **TransformToRef**\<`T`\>(`vector`, `transformation`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:1080](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L1080)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:1083](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L1083)
 
 Transforms the given vector coordinates by the given transformation matrix and stores the result in the vector "result" coordinates
 Example Playground https://playground.babylonjs.com/#QYBWV4#19
@@ -2813,7 +2813,7 @@ result input
 
 > `static` **Zero**(): `Vector2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:753](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L753)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:756](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L756)
 
 Gets a new Vector2(0, 0)
 

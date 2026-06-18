@@ -6,7 +6,7 @@
 
 # Interface: IEffectLayerOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L33)
 
 Effect layer options. This helps customizing the behaviour
 of the effect layer.
@@ -17,7 +17,7 @@ of the effect layer.
 
 > **alphaBlendingMode**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L48)
 
 Alpha blending mode used to apply the blur. Default depends of the implementation. Default: ALPHA_COMBINE
 
@@ -27,7 +27,7 @@ Alpha blending mode used to apply the blur. Default depends of the implementatio
 
 > **camera**: [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](../classes/Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L53)
 
 The camera attached to the layer. Default: null
 
@@ -37,7 +37,7 @@ The camera attached to the layer. Default: null
 
 > **generateStencilBuffer**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L73)
 
 Whether or not to generate a stencil buffer. Default: false
 
@@ -47,7 +47,7 @@ Whether or not to generate a stencil buffer. Default: false
 
 > `optional` **mainTextureFixedSize?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L43)
 
 Enforces a fixed size texture to ensure effect stability across devices. Default: undefined
 
@@ -57,7 +57,7 @@ Enforces a fixed size texture to ensure effect stability across devices. Default
 
 > **mainTextureFormat**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L68)
 
 The format of the main texture. Default: TEXTUREFORMAT_RGBA
 
@@ -67,7 +67,7 @@ The format of the main texture. Default: TEXTUREFORMAT_RGBA
 
 > **mainTextureRatio**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L38)
 
 Multiplication factor apply to the canvas size to compute the render target size
 used to generated the objects (the smaller the faster). Default: 0.5
@@ -78,7 +78,7 @@ used to generated the objects (the smaller the faster). Default: 0.5
 
 > **mainTextureType**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L63)
 
 The type of the main texture. Default: TEXTURETYPE_UNSIGNED_BYTE
 
@@ -88,6 +88,6 @@ The type of the main texture. Default: TEXTURETYPE_UNSIGNED_BYTE
 
 > **renderingGroupId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Layers/effectLayer.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L58)
 
 The rendering group to draw the layer in. Default: -1

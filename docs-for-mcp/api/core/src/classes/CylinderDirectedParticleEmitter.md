@@ -6,7 +6,7 @@
 
 # Class: CylinderDirectedParticleEmitter
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L180)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L180)
 
 Particle emitter emitting particles from the inside of a cylinder.
 It emits the particles randomly between two vectors.
@@ -21,7 +21,7 @@ It emits the particles randomly between two vectors.
 
 > **new CylinderDirectedParticleEmitter**(`radius?`, `height?`, `radiusRange?`, `direction1?`, `direction2?`): `CylinderDirectedParticleEmitter`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:189](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L189)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L189)
 
 Creates a new instance CylinderDirectedParticleEmitter
 
@@ -71,7 +71,7 @@ the max limit of the emission direction (up vector by default)
 
 > **direction1**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:196](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L196)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L196)
 
 [Up vector] The min limit of the emission direction.
 
@@ -81,7 +81,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylin
 
 > **direction2**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L200)
 
 [Up vector] The max limit of the emission direction.
 
@@ -91,7 +91,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylin
 
 > **directionRandomizer**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L38)
 
 [0] How much to randomize the particle direction [0-1].
 
@@ -105,7 +105,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylin
 
 > **height**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L30)
 
 [1] The height of the emission cylinder.
 
@@ -119,7 +119,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylin
 
 > **radius**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L26)
 
 [1] The radius of the emission cylinder.
 
@@ -133,7 +133,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylin
 
 > **radiusRange**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L34)
 
 [1] The range of emission [0-1] 0 Surface only, 1 Entire Radius.
 
@@ -147,7 +147,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylin
 
 > **applyToShader**(`uboOrEffect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L239)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L239)
 
 Called by the GPUParticleSystem to setup the update shader
 
@@ -173,7 +173,7 @@ defines the update shader
 
 > **buildUniformLayout**(`ubo`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:251](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L251)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L251)
 
 Creates the structure of the ubo for this particle emitter
 
@@ -199,7 +199,7 @@ ubo to create the structure for
 
 > **clone**(): `CylinderDirectedParticleEmitter`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:227](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L227)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L227)
 
 Clones the current emitter and returns a copy of it
 
@@ -219,7 +219,7 @@ the new emitter
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L271)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:271](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L271)
 
 Returns the string "CylinderDirectedParticleEmitter"
 
@@ -239,7 +239,7 @@ a string containing the class name
 
 > **getEffectDefines**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:263](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L263)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:263](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L263)
 
 Returns a string to use to update the GPU particles update shader
 
@@ -259,7 +259,7 @@ a string containing the defines string
 
 > **parse**(`serializationObject`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:292](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L292)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:292](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L292)
 
 Parse properties from a JSON object
 
@@ -285,7 +285,7 @@ defines the JSON object
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:279](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L279)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:279](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L279)
 
 Serializes the particle system to a JSON object.
 
@@ -305,7 +305,7 @@ the JSON object
 
 > **startDirectionFunction**(`worldMatrix`, `directionToUpdate`, `_particle`, `isLocal`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:212](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L212)
 
 Called by the particle System when the direction is computed for the created particle.
 
@@ -349,7 +349,7 @@ defines if the direction should be set in local space
 
 > **startPositionFunction**(`worldMatrix`, `positionToUpdate`, `particle`, `isLocal`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/cylinderParticleEmitter.ts#L81)
 
 Called by the particle System when the position is computed for the created particle.
 

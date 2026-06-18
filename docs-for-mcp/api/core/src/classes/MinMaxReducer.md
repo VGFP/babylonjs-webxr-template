@@ -6,7 +6,7 @@
 
 # Class: MinMaxReducer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/minMaxReducer.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/minMaxReducer.pure.ts#L21)
 
 This class computes a min/max reduction from a texture: it means it computes the minimum
 and maximum values from all values of the texture.
@@ -23,7 +23,7 @@ The source values are read from the red channel of the texture.
 
 > **new MinMaxReducer**(`camera`): `MinMaxReducer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/minMaxReducer.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/minMaxReducer.pure.ts#L42)
 
 Creates a min/max reducer
 
@@ -47,7 +47,7 @@ The camera to use for the post processes
 
 > **get** **activated**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/minMaxReducer.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/minMaxReducer.pure.ts#L140)
 
 Gets the activation status of the reducer
 
@@ -63,7 +63,7 @@ Gets the activation status of the reducer
 
 > **get** **onAfterReductionPerformed**(): [`Observable`](Observable.md)\<\{ `max`: `number`; `min`: `number`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/minMaxReducer.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/minMaxReducer.pure.ts#L25)
 
 Observable triggered when the computation has been performed
 
@@ -79,7 +79,7 @@ Observable triggered when the computation has been performed
 
 > **get** **refreshRate**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/minMaxReducer.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.pure.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/minMaxReducer.pure.ts#L125)
 
 Defines the refresh rate of the computation.
 Use 0 to compute just once, 1 to compute on every frame, 2 to compute every two frames and so on...
@@ -92,7 +92,7 @@ Use 0 to compute just once, 1 to compute on every frame, 2 to compute every two 
 
 > **set** **refreshRate**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/minMaxReducer.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.pure.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/minMaxReducer.pure.ts#L129)
 
 ##### Parameters
 
@@ -112,7 +112,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.ts:130](h
 
 > **get** **sourceTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`RenderTargetTexture`](RenderTargetTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/minMaxReducer.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/minMaxReducer.pure.ts#L56)
 
 Gets the texture used to read the values from.
 
@@ -126,7 +126,7 @@ Gets the texture used to read the values from.
 
 > **activate**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/minMaxReducer.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.pure.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/minMaxReducer.pure.ts#L149)
 
 Activates the reduction computation.
 When activated, the observers registered in onAfterReductionPerformed are
@@ -142,7 +142,7 @@ called after the computation is performed
 
 > **deactivate**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.ts:178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/minMaxReducer.ts#L178)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/minMaxReducer.pure.ts#L177)
 
 Deactivates the reduction computation.
 
@@ -156,7 +156,7 @@ Deactivates the reduction computation.
 
 > **dispose**(`disposeAll?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.ts:192](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/minMaxReducer.ts#L192)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.pure.ts:191](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/minMaxReducer.pure.ts#L191)
 
 Disposes the min/max reducer
 
@@ -178,7 +178,7 @@ true to dispose all the resources. You should always call this function with tru
 
 > **setSourceTexture**(`sourceTexture`, `depthRedux`, `type?`, `forceFullscreenViewport?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/minMaxReducer.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.pure.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/minMaxReducer.pure.ts#L71)
 
 Sets the source texture to read the values from.
 One must indicate if the texture is a depth texture or not through the depthRedux parameter

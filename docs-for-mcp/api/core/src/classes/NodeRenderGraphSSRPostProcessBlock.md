@@ -6,7 +6,7 @@
 
 # Class: NodeRenderGraphSSRPostProcessBlock
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L22)
 
 Block that implements the SSR post process
 
@@ -20,7 +20,7 @@ Block that implements the SSR post process
 
 > **new NodeRenderGraphSSRPostProcessBlock**(`name`, `frameGraph`, `scene`, `textureType?`): `NodeRenderGraphSSRPostProcessBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L41)
 
 Create a new NodeRenderGraphSSRPostProcessBlock
 
@@ -64,7 +64,7 @@ The texture type used by the different post processes created by SSR (default: C
 
 > **comments**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L140)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L140)
 
 A free comment about the block
 
@@ -78,7 +78,7 @@ A free comment about the block
 
 > **onBuildObservable**: [`Observable`](Observable.md)\<[`NodeRenderGraphBlock`](NodeRenderGraphBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L59)
 
 Gets an observable raised when the block is built
 
@@ -92,7 +92,7 @@ Gets an observable raised when the block is built
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L88)
 
 Gets or sets the unique id of the node
 
@@ -106,7 +106,7 @@ Gets or sets the unique id of the node
 
 > **visibleOnFrame**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:143](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L143)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L143)
 
 Gets or sets a boolean indicating that this input can be edited from a collapsed frame
 
@@ -122,7 +122,7 @@ Gets or sets a boolean indicating that this input can be edited from a collapsed
 
 > **get** **alphaMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts#L79)
 
 The alpha mode to use when applying the post process.
 
@@ -134,7 +134,7 @@ The alpha mode to use when applying the post process.
 
 > **set** **alphaMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts#L83)
 
 ##### Parameters
 
@@ -158,7 +158,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **attenuateBackfaceReflection**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:346](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L346)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:348](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L348)
 
 Gets or sets a boolean indicating if the backface reflections should be attenuated
 
@@ -170,7 +170,7 @@ Gets or sets a boolean indicating if the backface reflections should be attenuat
 
 > **set** **attenuateBackfaceReflection**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:350](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L350)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:352](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L352)
 
 ##### Parameters
 
@@ -190,7 +190,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **attenuateFacingCamera**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:336](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L336)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:338](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L338)
 
 Gets or sets a boolean indicating if the reflections should be attenuated when the reflection ray is facing the camera (the view direction)
 
@@ -202,7 +202,7 @@ Gets or sets a boolean indicating if the reflections should be attenuated when t
 
 > **set** **attenuateFacingCamera**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:340](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L340)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:342](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L342)
 
 ##### Parameters
 
@@ -222,7 +222,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **attenuateIntersectionDistance**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:316](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L316)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:318](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L318)
 
 Gets or sets a boolean indicating if the reflections should be attenuated according to the distance of the intersection
 
@@ -234,7 +234,7 @@ Gets or sets a boolean indicating if the reflections should be attenuated accord
 
 > **set** **attenuateIntersectionDistance**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:320](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L320)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:322](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L322)
 
 ##### Parameters
 
@@ -254,7 +254,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **attenuateIntersectionIterations**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:326](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L326)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:328](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L328)
 
 Gets or sets a boolean indicating if the reflections should be attenuated according to the number of iterations performed to find the intersection
 
@@ -266,7 +266,7 @@ Gets or sets a boolean indicating if the reflections should be attenuated accord
 
 > **set** **attenuateIntersectionIterations**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:330](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L330)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:332](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L332)
 
 ##### Parameters
 
@@ -286,7 +286,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **attenuateScreenBorders**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:306](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L306)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:308](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L308)
 
 Gets or sets a boolean indicating if the reflections should be attenuated at the screen borders
 
@@ -298,7 +298,7 @@ Gets or sets a boolean indicating if the reflections should be attenuated at the
 
 > **set** **attenuateScreenBorders**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:310](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L310)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:312](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L312)
 
 ##### Parameters
 
@@ -318,7 +318,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **blurDispersionStrength**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:286](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L286)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:288](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L288)
 
 Gets or sets the blur dispersion strength. Set this value to 0 to disable blurring
 
@@ -330,7 +330,7 @@ Gets or sets the blur dispersion strength. Set this value to 0 to disable blurri
 
 > **set** **blurDispersionStrength**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:290](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L290)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:292](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L292)
 
 ##### Parameters
 
@@ -350,7 +350,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **blurDownsample**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:296](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L296)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L298)
 
 Gets or sets the downsample factor used to reduce the size of the textures used to blur the reflection effect
 
@@ -362,7 +362,7 @@ Gets or sets the downsample factor used to reduce the size of the textures used 
 
 > **set** **blurDownsample**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:300](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L300)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L302)
 
 ##### Parameters
 
@@ -382,7 +382,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **camera**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:385](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L385)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:387](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L387)
 
 Gets the camera input component
 
@@ -398,7 +398,7 @@ Gets the camera input component
 
 > **get** **clipToFrustum**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:256](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L256)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:258](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L258)
 
 Gets or sets a boolean indicating if the ray should be clipped to the frustum
 
@@ -410,7 +410,7 @@ Gets or sets a boolean indicating if the ray should be clipped to the frustum
 
 > **set** **clipToFrustum**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:260](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L260)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:262](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L262)
 
 ##### Parameters
 
@@ -430,7 +430,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **debug**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:136](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L136)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L138)
 
 Gets or sets a boolean indicating if the effect should be rendered in debug mode
 
@@ -442,7 +442,7 @@ Gets or sets a boolean indicating if the effect should be rendered in debug mode
 
 > **set** **debug**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L140)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L142)
 
 ##### Parameters
 
@@ -462,7 +462,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **disabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L39)
 
 Gets or sets the disable flag of the task associated with this block
 
@@ -474,7 +474,7 @@ Gets or sets the disable flag of the task associated with this block
 
 > **set** **disabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L43)
 
 ##### Parameters
 
@@ -498,7 +498,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGr
 
 > **get** **enableAutomaticThicknessComputation**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:266](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L266)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:268](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L268)
 
 Gets or sets a boolean defining if geometry thickness should be computed automatically
 
@@ -510,7 +510,7 @@ Gets or sets a boolean defining if geometry thickness should be computed automat
 
 > **set** **enableAutomaticThicknessComputation**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:270](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L270)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:272](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L272)
 
 ##### Parameters
 
@@ -530,7 +530,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **enableSmoothReflections**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:196](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L196)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L198)
 
 Gets or sets whether or not smoothing reflections is enabled
 
@@ -542,7 +542,7 @@ Gets or sets whether or not smoothing reflections is enabled
 
 > **set** **enableSmoothReflections**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:202](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L202)
 
 ##### Parameters
 
@@ -562,7 +562,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **generateOutputInGammaSpace**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:366](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L366)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:368](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L368)
 
 Gets or sets a boolean defining if the output color texture generated by the SSR pipeline should be in gamma space
 
@@ -574,7 +574,7 @@ Gets or sets a boolean defining if the output color texture generated by the SSR
 
 > **set** **generateOutputInGammaSpace**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:370](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L370)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:372](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L372)
 
 ##### Parameters
 
@@ -594,7 +594,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **geomBackDepth**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:413](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L413)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:415](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L415)
 
 Gets the geometry back depth input component
 
@@ -610,7 +610,7 @@ Gets the geometry back depth input component
 
 > **get** **geomDepth**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:392](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L392)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:394](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L394)
 
 Gets the geometry depth input component
 
@@ -626,7 +626,7 @@ Gets the geometry depth input component
 
 > **get** **geomNormal**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:399](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L399)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:401](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L401)
 
 Gets the geometry normal input component
 
@@ -642,7 +642,7 @@ Gets the geometry normal input component
 
 > **get** **geomReflectivity**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:406](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L406)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:408](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L408)
 
 Gets the geometry reflectivity input component
 
@@ -658,7 +658,7 @@ Gets the geometry reflectivity input component
 
 > **get** **inputs**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L76)
 
 Gets the list of input points
 
@@ -678,7 +678,7 @@ Gets the list of input points
 
 > **get** **inputTextureColorIsInGammaSpace**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:356](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L356)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:358](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L358)
 
 Gets or sets a boolean defining if the input color texture is in gamma space
 
@@ -690,7 +690,7 @@ Gets or sets a boolean defining if the input color texture is in gamma space
 
 > **set** **inputTextureColorIsInGammaSpace**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:360](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L360)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:362](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L362)
 
 ##### Parameters
 
@@ -710,7 +710,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **isDebug**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L125)
 
 Gets a boolean indicating if this block is a debug block
 
@@ -730,7 +730,7 @@ Gets a boolean indicating if this block is a debug block
 
 > **get** **isInput**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L104)
 
 Gets a boolean indicating if this block is an input
 
@@ -750,7 +750,7 @@ Gets a boolean indicating if this block is an input
 
 > **get** **isTeleportIn**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L118)
 
 Gets a boolean indicating if this block is a teleport in
 
@@ -770,7 +770,7 @@ Gets a boolean indicating if this block is a teleport in
 
 > **get** **isTeleportOut**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L111)
 
 Gets a boolean indicating if this block is a teleport out
 
@@ -790,7 +790,7 @@ Gets a boolean indicating if this block is a teleport out
 
 > **get** **isUnique**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L132)
 
 Gets a boolean indicating that this block can only be used once per node render graph
 
@@ -810,7 +810,7 @@ Gets a boolean indicating that this block can only be used once per node render 
 
 > **get** **maxDistance**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L218)
 
 Gets or sets the max distance used to define how far we look for reflection during the ray-marching on the reflected ray
 
@@ -822,7 +822,7 @@ Gets or sets the max distance used to define how far we look for reflection duri
 
 > **set** **maxDistance**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:220](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L220)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L222)
 
 ##### Parameters
 
@@ -842,7 +842,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **maxSteps**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:206](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L206)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L208)
 
 Maximum number of steps during the ray marching process after which we consider an intersection could not be found
 
@@ -854,7 +854,7 @@ Maximum number of steps during the ray marching process after which we consider 
 
 > **set** **maxSteps**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:210](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L210)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:212](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L212)
 
 ##### Parameters
 
@@ -874,7 +874,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L93)
 
 Gets or set the name of the block
 
@@ -886,7 +886,7 @@ Gets or set the name of the block
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L97)
 
 ##### Parameters
 
@@ -910,7 +910,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGr
 
 > **get** **output**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts#L112)
 
 Gets the output component
 
@@ -930,7 +930,7 @@ Gets the output component
 
 > **get** **outputs**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L81)
 
 Gets the list of output points
 
@@ -950,7 +950,7 @@ Gets the list of output points
 
 > **get** **reflectionSpecularFalloffExponent**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:156](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L156)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L158)
 
 Gets or sets the falloff exponent used to compute the reflection strength. Higher values lead to fainter reflections
 
@@ -962,7 +962,7 @@ Gets or sets the falloff exponent used to compute the reflection strength. Highe
 
 > **set** **reflectionSpecularFalloffExponent**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L162)
 
 ##### Parameters
 
@@ -982,7 +982,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **reflectivityThreshold**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:168](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L168)
 
 Gets or sets the minimum value for one of the reflectivity component of the material to consider it for SSR
 
@@ -994,7 +994,7 @@ Gets or sets the minimum value for one of the reflectivity component of the mate
 
 > **set** **reflectivityThreshold**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L170)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L172)
 
 ##### Parameters
 
@@ -1014,7 +1014,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **roughnessFactor**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:226](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L226)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L228)
 
 Gets or sets the factor applied when computing roughness
 
@@ -1026,7 +1026,7 @@ Gets or sets the factor applied when computing roughness
 
 > **set** **roughnessFactor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:230](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L230)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L232)
 
 ##### Parameters
 
@@ -1046,7 +1046,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **selfCollisionNumSkip**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:236](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L236)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L238)
 
 Number of steps to skip at start when marching the ray to avoid self collisions
 
@@ -1058,7 +1058,7 @@ Number of steps to skip at start when marching the ray to avoid self collisions
 
 > **set** **selfCollisionNumSkip**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:240](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L240)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:242](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L242)
 
 ##### Parameters
 
@@ -1078,7 +1078,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **source**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts#L98)
 
 Gets the source input component
 
@@ -1098,7 +1098,7 @@ Gets the source input component
 
 > **get** **sourceSamplingMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts#L49)
 
 Sampling mode used to sample from the source texture
 
@@ -1110,7 +1110,7 @@ Sampling mode used to sample from the source texture
 
 > **set** **sourceSamplingMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts#L53)
 
 ##### Parameters
 
@@ -1134,7 +1134,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **ssrDownsample**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:246](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L246)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:248](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L248)
 
 Gets or sets the downsample factor used to reduce the size of the texture used to compute the SSR contribution
 
@@ -1146,7 +1146,7 @@ Gets or sets the downsample factor used to reduce the size of the texture used t
 
 > **set** **ssrDownsample**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:250](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L250)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:252](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L252)
 
 ##### Parameters
 
@@ -1166,7 +1166,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **step**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:186](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L186)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:188](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L188)
 
 Gets or sets the step size used to iterate until the effect finds the color of the reflection's pixel
 
@@ -1178,7 +1178,7 @@ Gets or sets the step size used to iterate until the effect finds the color of t
 
 > **set** **step**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L192)
 
 ##### Parameters
 
@@ -1198,7 +1198,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **strength**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L148)
 
 Gets or sets the current reflection strength. 1.0 is an ideal value but can be increased/decreased for particular results
 
@@ -1210,7 +1210,7 @@ Gets or sets the current reflection strength. 1.0 is an ideal value but can be i
 
 > **set** **strength**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L152)
 
 ##### Parameters
 
@@ -1230,7 +1230,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **target**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/basePostProcessBlock.ts#L105)
 
 Gets the target input component
 
@@ -1250,7 +1250,7 @@ Gets the target input component
 
 > **get** **task**(): [`FrameGraphSSRRenderingPipelineTask`](FrameGraphSSRRenderingPipelineTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L30)
 
 Gets the frame graph task associated with this block
 
@@ -1270,7 +1270,7 @@ Gets the frame graph task associated with this block
 
 > **get** **textureType**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L128)
 
 The texture type used by the different post processes created by SSR
 
@@ -1282,7 +1282,7 @@ The texture type used by the different post processes created by SSR
 
 > **set** **textureType**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L132)
 
 ##### Parameters
 
@@ -1302,7 +1302,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **thickness**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L178)
 
 Gets or sets the thickness value used as tolerance when computing the intersection between the reflected ray and the scene
 
@@ -1314,7 +1314,7 @@ Gets or sets the thickness value used as tolerance when computing the intersecti
 
 > **set** **thickness**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L180)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L182)
 
 ##### Parameters
 
@@ -1334,7 +1334,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **get** **useFresnel**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:276](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L276)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:278](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L278)
 
 Gets or sets a boolean indicating whether the blending between the current color pixel and the reflection color should be done with a Fresnel coefficient
 
@@ -1346,7 +1346,7 @@ Gets or sets a boolean indicating whether the blending between the current color
 
 > **set** **useFresnel**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:280](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L280)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L282)
 
 ##### Parameters
 
@@ -1364,7 +1364,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **\_deserialize**(`serializationObject`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:527](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L527)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:529](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L529)
 
 #### Parameters
 
@@ -1386,7 +1386,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostP
 
 > **autoConfigure**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:435](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L435)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:435](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L435)
 
 Lets the block try to connect some inputs automatically
 
@@ -1404,7 +1404,7 @@ Lets the block try to connect some inputs automatically
 
 > **build**(`state`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:331](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L331)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:331](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L331)
 
 Build the current node and generate the vertex data
 
@@ -1432,7 +1432,7 @@ true if already built
 
 > **clone**(): [`NodeRenderGraphBlock`](NodeRenderGraphBlock.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:656](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L656)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:656](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L656)
 
 Clone the current block to a new identical block
 
@@ -1452,7 +1452,7 @@ a copy of the current block
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:675](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L675)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:675](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L675)
 
 Release resources
 
@@ -1470,7 +1470,7 @@ Release resources
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:378](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L378)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:380](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L380)
 
 Gets the current class name
 
@@ -1490,7 +1490,7 @@ the class name
 
 > **getDescendantOfPredicate**(`predicate`): [`Nullable`](../type-aliases/Nullable.md)\<[`NodeRenderGraphBlock`](NodeRenderGraphBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:215](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L215)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:215](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L215)
 
 Get the first descendant using a predicate
 
@@ -1518,7 +1518,7 @@ descendant or null if none found
 
 > **getInputByName**(`name`): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:444](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L444)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:444](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L444)
 
 Find an input by its name
 
@@ -1546,7 +1546,7 @@ the input or null if not found
 
 > **getOutputByName**(`name`): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:459](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L459)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:459](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L459)
 
 Find an output by its name
 
@@ -1574,7 +1574,7 @@ the output or null if not found
 
 > **initialize**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:428](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L428)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:428](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L428)
 
 Initialize the block and prepare the context for build
 
@@ -1592,7 +1592,7 @@ Initialize the block and prepare the context for build
 
 > **isAnAncestorOf**(`block`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L166)
 
 Checks if the current block is an ancestor of a given block
 
@@ -1620,7 +1620,7 @@ true if block is a descendant
 
 > **isAnAncestorOfType**(`type`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L190)
 
 Checks if the current block is an ancestor of a given type
 
@@ -1648,7 +1648,7 @@ true if block is a descendant
 
 > **registerInput**(`name`, `type`, `isOptional?`, `point?`): `NodeRenderGraphSSRPostProcessBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:259](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L259)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:259](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L259)
 
 Register a new input. Must be called inside a block constructor
 
@@ -1694,7 +1694,7 @@ the current block
 
 > **registerOutput**(`name`, `type`, `point?`): `NodeRenderGraphSSRPostProcessBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:276](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L276)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L276)
 
 Register a new output. Must be called inside a block constructor
 
@@ -1734,7 +1734,7 @@ the current block
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts:498](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.ts#L498)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts:500](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/PostProcesses/ssrPostProcessBlock.pure.ts#L500)
 
 Serializes this block in a JSON representation
 

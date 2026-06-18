@@ -6,7 +6,7 @@
 
 # Class: TAARenderingPipeline
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L35)
 
 Simple implementation of Temporal Anti-Aliasing (TAA).
 This can be used to improve image quality for still pictures (screenshots for e.g.).
@@ -22,7 +22,7 @@ Note that TAA post-process must be the first in the camera, so TAARenderingPipel
 
 > **new TAARenderingPipeline**(`name`, `scene`, `cameras?`, `textureType?`): `TAARenderingPipeline`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:196](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L196)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:199](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L199)
 
 Constructor of the TAA rendering pipeline
 
@@ -66,7 +66,7 @@ The type of texture where the scene will be rendered (default: Constants.TEXTURE
 
 > **inspectableCustomProperties**: [`IInspectable`](../interfaces/IInspectable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L26)
 
 List of inspectable custom properties (used by the Inspector)
 
@@ -84,7 +84,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > **TAAPassEffect**: `string` = `"TAAPassEffect"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L43)
 
 The pass PostProcess effect id in the pipeline
 
@@ -94,7 +94,7 @@ The pass PostProcess effect id in the pipeline
 
 > **TAARenderEffect**: `string` = `"TAARenderEffect"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L39)
 
 The TAA PostProcess effect id in the pipeline
 
@@ -104,7 +104,7 @@ The TAA PostProcess effect id in the pipeline
 
 > `readonly` **uniqueId**: `number` = `UniqueIdGenerator.UniqueId`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L47)
 
 Gets the unique id of the post process rendering pipeline
 
@@ -120,7 +120,7 @@ Gets the unique id of the post process rendering pipeline
 
 > **get** **cameras**(): [`Camera`](Camera.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L50)
 
 Gets the list of attached cameras
 
@@ -140,7 +140,7 @@ Gets the list of attached cameras
 
 > **get** **clampHistory**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L122)
 
 Clamps the history pixel to the min and max of the 3x3 pixels surrounding the target pixel.
 This can help further reduce ghosting and artifacts.
@@ -153,7 +153,7 @@ This can help further reduce ghosting and artifacts.
 
 > **set** **clampHistory**(`history`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L126)
 
 ##### Parameters
 
@@ -173,7 +173,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **disableOnCameraMove**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:94](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L94)
 
 Disable TAA on camera move (default: true).
 You generally want to keep this enabled, otherwise you will get a ghost effect when the camera moves (but if it's what you want, go for it!)
@@ -186,7 +186,7 @@ You generally want to keep this enabled, otherwise you will get a ghost effect w
 
 > **set** **disableOnCameraMove**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L98)
 
 ##### Parameters
 
@@ -206,7 +206,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **engine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L57)
 
 Gets the active engine
 
@@ -226,7 +226,7 @@ Gets the active engine
 
 > **get** **factor**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L81)
 
 The factor used to blend the history frame with current frame (default: 0.05)
 
@@ -238,7 +238,7 @@ The factor used to blend the history frame with current frame (default: 0.05)
 
 > **set** **factor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L82)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L85)
 
 ##### Parameters
 
@@ -258,7 +258,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **isEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L135)
 
 Gets or sets a boolean indicating if the render pipeline is enabled (default: true).
 
@@ -270,7 +270,7 @@ Gets or sets a boolean indicating if the render pipeline is enabled (default: tr
 
 > **set** **isEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:136](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L136)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L139)
 
 ##### Parameters
 
@@ -290,7 +290,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **isSupported**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L183)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:186](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L186)
 
 Returns true if TAA is supported by the running hardware
 
@@ -310,7 +310,7 @@ Returns true if TAA is supported by the running hardware
 
 > **get** **msaaSamples**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L73)
 
 ##### Returns
 
@@ -320,7 +320,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **set** **msaaSamples**(`samples`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L62)
 
 MSAA samples (default: 1)
 
@@ -342,7 +342,7 @@ MSAA samples (default: 1)
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L40)
 
 Gets pipeline name
 
@@ -362,7 +362,7 @@ Gets pipeline name
 
 > **get** **reprojectHistory**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L106)
 
 Enables reprojecting the history texture with a per-pixel velocity.
 
@@ -374,7 +374,7 @@ Enables reprojecting the history texture with a per-pixel velocity.
 
 > **set** **reprojectHistory**(`reproject`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L110)
 
 ##### Parameters
 
@@ -394,7 +394,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **samples**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L53)
 
 ##### Returns
 
@@ -404,7 +404,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **set** **samples**(`samples`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L49)
 
 Number of accumulated samples (default: 16)
 
@@ -426,7 +426,7 @@ Number of accumulated samples (default: 16)
 
 > **get** **scene**(): [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L165)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:168](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L168)
 
 Gets active scene
 
@@ -440,7 +440,7 @@ Gets active scene
 
 > **addCamera**(`camera`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:230](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L230)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:234](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L234)
 
 Adds a camera to the pipeline
 
@@ -462,7 +462,7 @@ the camera to be added
 
 > **addEffect**(`renderEffect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L106)
 
 Adds an effect to the pipeline
 
@@ -488,7 +488,7 @@ the effect to add
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:248](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L248)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:252](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L252)
 
 Removes the internal pipeline assets and detaches the pipeline from the scene cameras
 
@@ -506,7 +506,7 @@ Removes the internal pipeline assets and detaches the pipeline from the scene ca
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L222)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:226](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L226)
 
 Get the class name
 
@@ -526,7 +526,7 @@ Get the class name
 
 > **removeCamera**(`camera`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L239)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L243)
 
 Removes a camera from the pipeline
 
@@ -548,7 +548,7 @@ the camera to remove
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:419](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L419)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts:423](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.pure.ts#L423)
 
 Serializes the rendering pipeline (Used when exporting)
 
@@ -564,7 +564,7 @@ the serialized object
 
 > **setPrePassRenderer**(`prePassRenderer`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:274](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L274)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:277](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L277)
 
 Sets the required values to the prepass renderer.
 
@@ -585,39 +585,3 @@ true if the pre pass is needed.
 #### Inherited from
 
 [`PostProcessRenderPipeline`](PostProcessRenderPipeline.md).[`setPrePassRenderer`](PostProcessRenderPipeline.md#setprepassrenderer)
-
-***
-
-### Parse()
-
-> `static` **Parse**(`source`, `scene`, `rootUrl`): `TAARenderingPipeline`
-
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts:433](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/taaRenderingPipeline.ts#L433)
-
-Parse the serialized pipeline
-
-#### Parameters
-
-##### source
-
-`any`
-
-Source pipeline.
-
-##### scene
-
-[`Scene`](Scene.md)
-
-The scene to load the pipeline to.
-
-##### rootUrl
-
-`string`
-
-The URL of the serialized pipeline.
-
-#### Returns
-
-`TAARenderingPipeline`
-
-An instantiated pipeline from the serialized object.

@@ -6,7 +6,7 @@
 
 # ~~Class: CSG~~
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:433](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L433)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:433](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L433)
 
 Class for building Constructive Solid Geometry
 
@@ -30,7 +30,7 @@ Please use CSG2 instead
 
 > **matrix**: [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:438](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L438)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:438](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L438)
 
 The world matrix
 
@@ -40,7 +40,7 @@ The world matrix
 
 > **position**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:442](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L442)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:442](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L442)
 
 Stores the position
 
@@ -50,7 +50,7 @@ Stores the position
 
 > **rotation**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:446](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L446)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:446](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L446)
 
 Stores the rotation
 
@@ -60,7 +60,7 @@ Stores the rotation
 
 > **rotationQuaternion**: [`Nullable`](../type-aliases/Nullable.md)\<[`Quaternion`](Quaternion.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:450](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L450)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:450](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L450)
 
 Stores the rotation quaternion
 
@@ -70,7 +70,7 @@ Stores the rotation quaternion
 
 > **scaling**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:454](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L454)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:454](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L454)
 
 Stores the scaling vector
 
@@ -80,7 +80,7 @@ Stores the scaling vector
 
 > **buildMeshGeometry**(`name`, `scene?`, `keepSubMeshes?`): [`Mesh`](Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:917](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L917)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:917](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L917)
 
 Build Raw mesh from CSG
 Coordinates here are in world space
@@ -117,7 +117,7 @@ A new Mesh
 
 > **clone**(): `CSG`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:631](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L631)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:631](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L631)
 
 Clones, or makes a deep copy, of the CSG
 
@@ -133,7 +133,7 @@ A new CSG
 
 > **copyTransformAttributes**(`csg`): `CSG`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:776](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L776)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:776](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L776)
 
 This is used to keep meshes transformations so they can be restored
 when we build back a Babylon Mesh
@@ -159,7 +159,7 @@ This CSG
 
 > **intersect**(`csg`): `CSG`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:717](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L717)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:717](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L717)
 
 Intersect this CSG with another CSG
 
@@ -183,7 +183,7 @@ A new CSG
 
 > **intersectInPlace**(`csg`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:734](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L734)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:734](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L734)
 
 Intersects this CSG with another CSG in place
 
@@ -205,7 +205,7 @@ The CSG to intersect against this CSG
 
 > **inverse**(): `CSG`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:754](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L754)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:754](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L754)
 
 Return a new CSG solid with solid and empty space switched. This solid is
 not modified.
@@ -222,7 +222,7 @@ A new CSG solid with solid and empty space switched
 
 > **inverseInPlace**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:763](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L763)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:763](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L763)
 
 Inverses the CSG in place
 
@@ -236,7 +236,7 @@ Inverses the CSG in place
 
 > **subtract**(`csg`): `CSG`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:678](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L678)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:678](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L678)
 
 Subtracts this CSG with another CSG
 
@@ -260,7 +260,7 @@ A new CSG
 
 > **subtractInPlace**(`csg`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:696](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L696)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:696](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L696)
 
 Subtracts this CSG with another CSG in place
 
@@ -282,7 +282,7 @@ The CSG to subtract against this CSG
 
 > **toMesh**(`name`, `material?`, `scene?`, `keepSubMeshes?`): [`Mesh`](Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:997](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L997)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:997](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L997)
 
 Build Mesh from CSG taking material and transforms into account
 
@@ -324,7 +324,7 @@ The new Mesh
 
 > **toVertexData**(`onBeforePolygonProcessing?`, `onAfterPolygonProcessing?`): [`VertexData`](VertexData.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:793](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L793)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:793](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L793)
 
 Build vertex data from CSG
 Coordinates here are in world space
@@ -355,7 +355,7 @@ the final vertex data
 
 > **union**(`csg`): `CSG`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:643](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L643)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:643](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L643)
 
 Unions this CSG with another CSG
 
@@ -379,7 +379,7 @@ The unioned CSG
 
 > **unionInPlace**(`csg`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:659](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L659)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:659](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L659)
 
 Unions this CSG with another CSG in place
 
@@ -401,7 +401,7 @@ The CSG to union against this CSG
 
 > `static` **FromMesh**(`mesh`, `absolute?`): `CSG`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:517](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L517)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:517](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L517)
 
 Convert the Mesh to CSG
 
@@ -431,7 +431,7 @@ A new CSG from the Mesh
 
 > `static` **FromVertexData**(`data`): `CSG`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:461](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg.ts#L461)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg.ts:461](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg.ts#L461)
 
 Convert a VertexData to CSG
 

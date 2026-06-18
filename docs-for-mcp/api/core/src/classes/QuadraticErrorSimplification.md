@@ -6,7 +6,7 @@
 
 # Class: QuadraticErrorSimplification
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:336](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplification.ts#L336)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:292](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplification.ts#L292)
 
 An implementation of the Quadratic Error simplification algorithm.
 Original paper : http://www1.cs.columbia.edu/~cs4162/html05s/garland97.pdf
@@ -26,7 +26,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/simplifyingMeshes
 
 > **new QuadraticErrorSimplification**(`_mesh`): `QuadraticErrorSimplification`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:359](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplification.ts#L359)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:315](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplification.ts#L315)
 
 Creates a new QuadraticErrorSimplification
 
@@ -48,7 +48,7 @@ defines the target mesh
 
 > **aggressiveness**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:347](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplification.ts#L347)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:303](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplification.ts#L303)
 
 Gets or sets the aggressiveness of the simplifier
 
@@ -58,7 +58,7 @@ Gets or sets the aggressiveness of the simplifier
 
 > **boundingBoxEpsilon**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:353](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplification.ts#L353)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:309](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplification.ts#L309)
 
 Gets or sets the espilon to use for bounding box computation
 
@@ -68,7 +68,7 @@ Gets or sets the espilon to use for bounding box computation
 
 > **decimationIterations**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:350](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplification.ts#L350)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:306](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplification.ts#L306)
 
 Gets or sets the number of allowed iterations for decimation
 
@@ -78,7 +78,7 @@ Gets or sets the number of allowed iterations for decimation
 
 > **syncIterations**: `number` = `5000`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:344](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplification.ts#L344)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:300](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplification.ts#L300)
 
 Gets or sets the number pf sync iterations
 
@@ -88,7 +88,7 @@ Gets or sets the number pf sync iterations
 
 > **simplify**(`settings`, `successCallback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:371](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/meshSimplification.ts#L371)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/meshSimplification.ts:327](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/meshSimplification.ts#L327)
 
 Simplification of a given mesh according to the given settings.
 Since this requires computation, it is assumed that the function runs async.

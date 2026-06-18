@@ -6,7 +6,7 @@
 
 # Interface: ITexturePackerOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L18)
 
 Defines the basic options interface of a TexturePacker
 
@@ -16,7 +16,7 @@ Defines the basic options interface of a TexturePacker
 
 > `optional` **colnum?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L42)
 
 number of columns if using custom column count layout(2).  This defaults to 4.
 
@@ -26,7 +26,7 @@ number of columns if using custom column count layout(2).  This defaults to 4.
 
 > `optional` **customFillColor?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L62)
 
 string value representing the context fill style color.  Defaults to 'black'.
 
@@ -36,7 +36,7 @@ string value representing the context fill style color.  Defaults to 'black'.
 
 > `optional` **disposeSources?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L52)
 
 boolean flag to dispose all the source textures.  Defaults to true.
 
@@ -46,7 +46,7 @@ boolean flag to dispose all the source textures.  Defaults to true.
 
 > `optional` **fillBlanks?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L57)
 
 Fills the blank cells in a set to the customFillColor.  Defaults to true.
 
@@ -56,7 +56,7 @@ Fills the blank cells in a set to the customFillColor.  Defaults to true.
 
 > `optional` **frameSize?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L67)
 
 Width and Height Value of each Frame in the TexturePacker Sets
 
@@ -66,7 +66,7 @@ Width and Height Value of each Frame in the TexturePacker Sets
 
 > `optional` **layout?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L37)
 
 number representing the layout style. Defaults to LAYOUT_STRIP
 
@@ -76,7 +76,7 @@ number representing the layout style. Defaults to LAYOUT_STRIP
 
 > `optional` **map?**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L22)
 
 Custom targets for the channels of a texture packer.  Default is all the channels of the Standard Material
 
@@ -86,7 +86,7 @@ Custom targets for the channels of a texture packer.  Default is all the channel
 
 > `optional` **paddingColor?**: [`Color3`](../classes/Color3.md) \| [`Color4`](../classes/Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L82)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L82)
 
 If in SUBUV_COLOR padding mode what color to use.
 
@@ -96,7 +96,7 @@ If in SUBUV_COLOR padding mode what color to use.
 
 > `optional` **paddingMode?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L77)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L77)
 
 Number that declares the fill method for the padding gutter.
 
@@ -106,7 +106,7 @@ Number that declares the fill method for the padding gutter.
 
 > `optional` **paddingRatio?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L72)
 
 Ratio of the value to add padding wise to each cell.  Defaults to 0.0115
 
@@ -116,7 +116,7 @@ Ratio of the value to add padding wise to each cell.  Defaults to 0.0115
 
 > `optional` **updateInputMeshes?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L47)
 
 flag to update the input meshes to the new packed texture after compilation. Defaults to true.
 
@@ -126,7 +126,7 @@ flag to update the input meshes to the new packed texture after compilation. Def
 
 > `optional` **uvsIn?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L27)
 
 the UV input targets, as a single value for all meshes. Defaults to VertexBuffer.UVKind
 
@@ -136,6 +136,6 @@ the UV input targets, as a single value for all meshes. Defaults to VertexBuffer
 
 > `optional` **uvsOut?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L32)
 
 the UV output targets, as a single value for all meshes.  Defaults to VertexBuffer.UVKind

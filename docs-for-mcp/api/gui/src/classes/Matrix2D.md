@@ -6,7 +6,7 @@
 
 # Class: Matrix2D
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/math2D.ts#L24)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/math2D.ts#L24)
 
 Class used to provide 2D matrix features
 
@@ -16,7 +16,7 @@ Class used to provide 2D matrix features
 
 > **new Matrix2D**(`m00`, `m01`, `m10`, `m11`, `m20`, `m21`): `Matrix2D`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/math2D.ts#L37)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/math2D.ts#L37)
 
 Creates a new matrix
 
@@ -68,7 +68,7 @@ defines value for (2, 1)
 
 > **m**: `Float32Array`\<`ArrayBuffer`\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/math2D.ts#L26)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/math2D.ts#L26)
 
 Gets the internal array of 6 floats used to store matrix data
 
@@ -78,7 +78,7 @@ Gets the internal array of 6 floats used to store matrix data
 
 > **determinant**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/math2D.ts#L65)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/math2D.ts#L65)
 
 Gets matrix determinant
 
@@ -94,7 +94,7 @@ the determinant
 
 > **fromValues**(`m00`, `m01`, `m10`, `m11`, `m20`, `m21`): `Matrix2D`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/math2D.ts#L51)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/math2D.ts#L51)
 
 Fills the matrix from direct values
 
@@ -148,7 +148,7 @@ the current modified matrix
 
 > **invertToRef**(`result`): `Matrix2D`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/math2D.ts#L74)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/math2D.ts#L74)
 
 Inverses the matrix and stores it in a target matrix
 
@@ -172,7 +172,7 @@ the current matrix
 
 > **multiplyToRef**(`other`, `result`): `Matrix2D`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/math2D.ts#L114)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/math2D.ts#L114)
 
 Multiplies the current matrix with another one
 
@@ -202,7 +202,7 @@ the current matrix
 
 > **transformCoordinates**(`x`, `y`, `result`): `Matrix2D`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/math2D.ts#L146)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/math2D.ts#L146)
 
 Applies the current matrix to a set of 2 floats and stores the result in a vector2
 
@@ -238,7 +238,7 @@ the current matrix
 
 > `static` **ComposeToRef**(`tx`, `ty`, `angle`, `scaleX`, `scaleY`, `parentMatrix`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/math2D.ts#L225)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/math2D.ts#L225)
 
 Composes a matrix from translation, rotation, scaling and parent matrix and stores it in a target matrix
 
@@ -296,7 +296,7 @@ defines the target matrix
 
 > `static` **Identity**(): `Matrix2D`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:158](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/math2D.ts#L158)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/math2D.ts#L158)
 
 Creates an identity matrix
 
@@ -312,7 +312,7 @@ a new matrix
 
 > `static` **IdentityToRef**(`result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/math2D.ts#L166)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/math2D.ts#L166)
 
 Creates an identity matrix and stores it in a target matrix
 
@@ -334,7 +334,7 @@ defines the target matrix
 
 > `static` **RotationToRef**(`angle`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/math2D.ts#L200)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/math2D.ts#L200)
 
 Creates a rotation matrix and stores it in a target matrix
 
@@ -362,7 +362,7 @@ defines the target matrix
 
 > `static` **ScalingToRef**(`x`, `y`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/math2D.ts#L191)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:191](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/math2D.ts#L191)
 
 Creates a scaling matrix and stores it in a target matrix
 
@@ -396,7 +396,7 @@ defines the target matrix
 
 > `static` **TranslationToRef**(`x`, `y`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:181](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/math2D.ts#L181)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/math2D.ts:181](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/math2D.ts#L181)
 
 Creates a translation matrix and stores it in a target matrix
 

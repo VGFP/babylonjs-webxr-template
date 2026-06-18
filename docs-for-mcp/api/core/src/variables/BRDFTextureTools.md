@@ -8,7 +8,7 @@
 
 > `const` **BRDFTextureTools**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/brdfTextureTools.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/brdfTextureTools.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/brdfTextureTools.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/brdfTextureTools.ts#L115)
 
 Class used to host texture specific utilities
 
@@ -37,6 +37,8 @@ defines the hosting scene
 the environment BRDF texture
 
 #### Param
+
+**scene**
 
 defines the hosting scene
 
@@ -68,6 +70,8 @@ the environment fuzz BRDF texture
 
 #### Param
 
+**scene**
+
 defines the hosting scene
 
 #### Returns
@@ -97,6 +101,8 @@ defines the hosting scene
 the OpenPBR environment BRDF texture
 
 #### Param
+
+**scene**
 
 defines the hosting scene
 

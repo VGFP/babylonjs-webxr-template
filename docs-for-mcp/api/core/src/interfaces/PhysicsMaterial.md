@@ -6,7 +6,7 @@
 
 # Interface: PhysicsMaterial
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L39)
 
 Physics material class
 Helps setting friction and restitution that are used to compute responding forces in collision response
@@ -17,7 +17,7 @@ Helps setting friction and restitution that are used to compute responding force
 
 > `optional` **friction?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L48)
 
 Sets the friction used by this material
 
@@ -32,7 +32,7 @@ If not provided, a default value of 0.5 will be used.
 
 > `optional` **frictionCombine?**: [`PhysicsMaterialCombineMode`](../enumerations/PhysicsMaterialCombineMode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L81)
 
 Describes how two different friction values should be combined. See PhysicsMaterialCombineMode for
 more details.
@@ -45,7 +45,7 @@ If not provided, will use PhysicsMaterialCombineMode.MINIMUM
 
 > `optional` **restitution?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L73)
 
 Sets the restitution of the physics material.
 
@@ -66,7 +66,7 @@ If not provided, a default value of 0 will be used.
 
 > `optional` **restitutionCombine?**: [`PhysicsMaterialCombineMode`](../enumerations/PhysicsMaterialCombineMode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L89)
 
 Describes how two different restitution values should be combined. See PhysicsMaterialCombineMode for
 more details.
@@ -79,7 +79,7 @@ If not provided, will use PhysicsMaterialCombineMode.MAXIMUM
 
 > `optional` **staticFriction?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsMaterial.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsMaterial.ts#L57)
 
 Sets the static friction used by this material.
 

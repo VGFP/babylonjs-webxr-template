@@ -8,7 +8,7 @@
 
 > **ByteSink** = `object`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:4](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts#L4)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:4](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts#L4)
 
 ## Methods
 
@@ -16,7 +16,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.buil
 
 > **push**(`chunk`, `final?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:5](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts#L5)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:5](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts#L5)
 
 #### Parameters
 

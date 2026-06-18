@@ -6,7 +6,7 @@
 
 # Class: InterpolatingBehavior\<C\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L15)
 
 Animate camera property changes with an interpolation effect
 
@@ -30,7 +30,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors/cameraBehaviors
 
 > **new InterpolatingBehavior**\<`C`\>(): `InterpolatingBehavior`\<`C`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L56)
 
 Initializes the behavior
 
@@ -44,7 +44,7 @@ Initializes the behavior
 
 > **easingFunction**: [`EasingFunction`](EasingFunction.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L26)
 
 The easing function to use for interpolation
 
@@ -54,7 +54,7 @@ The easing function to use for interpolation
 
 > **easingMode**: `number` = `EasingFunction.EASINGMODE_EASEINOUT`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L31)
 
 The easing mode (default is EASINGMODE_EASEINOUT)
 
@@ -64,7 +64,7 @@ The easing mode (default is EASINGMODE_EASEINOUT)
 
 > **transitionDuration**: `number` = `450`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L36)
 
 Duration of the animation in milliseconds
 
@@ -76,7 +76,7 @@ Duration of the animation in milliseconds
 
 > **get** **attachedNode**(): [`Nullable`](../type-aliases/Nullable.md)\<`C`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L41)
 
 Attached node of this behavior
 
@@ -98,7 +98,7 @@ Gets the current attached target
 
 > **get** **isInterpolating**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L87)
 
 ##### Returns
 
@@ -112,7 +112,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolat
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L19)
 
 Gets the name of the behavior.
 
@@ -126,13 +126,32 @@ gets or sets behavior's name
 
 [`Behavior`](../interfaces/Behavior.md).[`name`](../interfaces/Behavior.md#name)
 
+***
+
+### remainingDurationMs
+
+#### Get Signature
+
+> **get** **remainingDurationMs**(): `number`
+
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L95)
+
+Gets the longest remaining duration (in milliseconds) across all in-flight property animations.
+Returns 0 when nothing is currently animating.
+
+##### Returns
+
+`number`
+
 ## Methods
 
 ### animatePropertiesAsync()
 
 > **animatePropertiesAsync**\<`K`\>(`properties`, `transitionDuration?`, `easingFn?`, `updateAnimation?`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L162)
+
+Animates camera properties to new values.
 
 #### Type Parameters
 
@@ -146,21 +165,31 @@ Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolat
 
 `Map`\<`K`, [`AllowedAnimValue`](../type-aliases/AllowedAnimValue.md)\>
 
+defines the property values to animate to
+
 ##### transitionDuration?
 
 `number` = `...`
+
+defines the transition duration in milliseconds
 
 ##### easingFn?
 
 [`EasingFunction`](EasingFunction.md) = `...`
 
+defines the easing function to use
+
 ##### updateAnimation?
 
 (`key`, `animation`) => `void`
 
+defines an optional callback used to update each generated animation
+
 #### Returns
 
 `Promise`\<`void`\>
+
+a promise that resolves when the animation completes
 
 ***
 
@@ -168,7 +197,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolat
 
 > **attach**(`camera`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L71)
 
 Attaches the behavior to a camera
 
@@ -194,7 +223,7 @@ The camera to attach to
 
 > **detach**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L78)
 
 Detaches the behavior from the camera
 
@@ -212,7 +241,7 @@ Detaches the behavior from the camera
 
 > **init**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L63)
 
 Initializes the behavior
 
@@ -230,7 +259,7 @@ Initializes the behavior
 
 > **stopAllAnimations**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L107)
 
 Stops and removes all animations
 
@@ -240,11 +269,14 @@ Stops and removes all animations
 
 ***
 
-### updateProperties()
+### ~~updateProperties()~~
 
 > **updateProperties**\<`K`\>(`properties`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts:147](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/interpolatingBehavior.ts#L147)
+
+Redirects any in-flight transition toward the given property values, reusing the time remaining in the
+current transition. No-op when nothing is currently animating.
 
 #### Type Parameters
 
@@ -258,6 +290,13 @@ Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/interpolat
 
 `Map`\<`K`, [`AllowedAnimValue`](../type-aliases/AllowedAnimValue.md)\>
 
+defines the property values to redirect toward
+
 #### Returns
 
 `void`
+
+#### Deprecated
+
+Prefer `animatePropertiesAsync(properties, remainingDurationMs)`, which makes the duration
+explicit. This method is retained for backward compatibility.

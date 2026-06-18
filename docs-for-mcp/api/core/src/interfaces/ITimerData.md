@@ -6,7 +6,7 @@
 
 # Interface: ITimerData\<T\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/timer.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/timer.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/timer.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/timer.ts#L48)
 
 An interface defining the data sent by the timer
 
@@ -22,7 +22,7 @@ An interface defining the data sent by the timer
 
 > **completeRate**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/timer.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/timer.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/timer.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/timer.ts#L65)
 
 How much is completed, in [0.0...1.0].
 Note that this CAN be higher than 1 due to the fact that we don't actually measure time but delta between observable calls
@@ -33,7 +33,7 @@ Note that this CAN be higher than 1 due to the fact that we don't actually measu
 
 > **currentTime**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/timer.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/timer.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/timer.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/timer.ts#L56)
 
 Time now
 
@@ -43,7 +43,7 @@ Time now
 
 > **deltaTime**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/timer.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/timer.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/timer.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/timer.ts#L60)
 
 Time passed since started
 
@@ -53,7 +53,7 @@ Time passed since started
 
 > **payload**: `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/timer.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/timer.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/timer.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/timer.ts#L69)
 
 What the registered observable sent in the last count
 
@@ -63,6 +63,6 @@ What the registered observable sent in the last count
 
 > **startTime**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/timer.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/timer.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/timer.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/timer.ts#L52)
 
 When did it start

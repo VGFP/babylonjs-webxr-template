@@ -6,7 +6,7 @@
 
 # Interface: IGLTFLoaderExtension
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L34)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L34)
 
 Interface for a glTF loader extension.
 
@@ -20,7 +20,7 @@ Interface for a glTF loader extension.
 
 > **enabled**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L144)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L144)
 
 Defines whether this extension is enabled.
 
@@ -34,7 +34,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L139)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L139)
 
 The name of this extension.
 
@@ -48,7 +48,7 @@ The name of this extension.
 
 > `optional` **order?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L150)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L150)
 
 Defines the order of this extension.
 The loader sorts the extensions using these values when loading.
@@ -63,7 +63,7 @@ The loader sorts the extensions using these values when loading.
 
 > `optional` **createMaterial**(`context`, `material`, `babylonDrawMode`): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`Material`](../../../../../core/src/classes/Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L123)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L123)
 
 Define this method to modify the default behavior when creating materials.
 
@@ -99,7 +99,7 @@ The Babylon material or null if not handled
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L122)
 
 Releases all held resources
 
@@ -117,7 +117,7 @@ Releases all held resources
 
 > `optional` **loadAnimationAsync**(`context`, `animation`): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<`Promise`\<[`AnimationGroup`](../../../../../core/src/classes/AnimationGroup.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L159)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L159)
 
 Define this method to modify the default behavior when loading animations.
 
@@ -147,7 +147,7 @@ A promise that resolves with the loaded Babylon animation group when the load is
 
 > `optional` **loadBufferAsync**(`context`, `buffer`, `byteOffset`, `byteLength`): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<`Promise`\<`ArrayBufferView`\<`ArrayBufferLike`\>\>\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:215](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L215)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:215](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L215)
 
 Define this method to modify the default behavior when loading buffers.
 
@@ -189,7 +189,7 @@ A promise that resolves with the loaded data when the load is complete or null i
 
 > `optional` **loadBufferViewAsync**(`context`, `bufferView`): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<`Promise`\<`ArrayBufferView`\<`ArrayBufferLike`\>\>\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L205)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L205)
 
 Define this method to modify the default behavior when loading buffer views.
 
@@ -219,7 +219,7 @@ A promise that resolves with the loaded data when the load is complete or null i
 
 > `optional` **loadCameraAsync**(`context`, `camera`, `assign`): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<`Promise`\<[`Camera`](../../../../../core/src/classes/Camera.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L69)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L69)
 
 Define this method to modify the default behavior when loading cameras.
 
@@ -255,7 +255,7 @@ A promise that resolves with the loaded Babylon camera when the load is complete
 
 > `optional` **loadMaterialPropertiesAsync**(`context`, `material`, `babylonMaterial`): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<`Promise`\<`void`\>\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L132)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L132)
 
 Define this method to modify the default behavior when loading material properties.
 
@@ -291,7 +291,7 @@ A promise that resolves when the load is complete or null if not handled
 
 > `optional` **loadNodeAsync**(`context`, `node`, `assign`): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<`Promise`\<[`TransformNode`](../../../../../core/src/classes/TransformNode.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L60)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L60)
 
 Define this method to modify the default behavior when loading nodes.
 
@@ -327,7 +327,7 @@ A promise that resolves with the loaded Babylon transform node when the load is 
 
 > `optional` **loadSceneAsync**(`context`, `scene`): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<`Promise`\<`void`\>\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L51)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L51)
 
 Define this method to modify the default behavior when loading scenes.
 
@@ -357,7 +357,7 @@ A promise that resolves when the load is complete or null if not handled
 
 > `optional` **loadTextureInfoAsync**(`context`, `textureInfo`, `assign`): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<`Promise`\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L141)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L141)
 
 Define this method to modify the default behavior when loading texture infos.
 
@@ -393,7 +393,7 @@ A promise that resolves with the loaded Babylon texture when the load is complet
 
 > `optional` **onLoading**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L38)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L38)
 
 Called after the loader state changes to LOADING.
 
@@ -407,7 +407,7 @@ Called after the loader state changes to LOADING.
 
 > `optional` **onReady**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L43)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtension.ts#L43)
 
 Called after the loader state changes to READY.
 

@@ -6,7 +6,7 @@
 
 # Class: WebXRSpaceWarp
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts:260](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts#L260)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:265](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L265)
 
 the WebXR Space Warp feature.
 
@@ -20,7 +20,7 @@ the WebXR Space Warp feature.
 
 > **new WebXRSpaceWarp**(`_xrSessionManager`): `WebXRSpaceWarp`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts:285](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts#L285)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:290](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L290)
 
 constructor for the space warp feature
 
@@ -46,7 +46,7 @@ the xr session manager for this feature
 
 > **dependsOn**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts:324](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts#L324)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:329](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L329)
 
 The dependencies of this feature, if any
 
@@ -60,7 +60,7 @@ The dependencies of this feature, if any
 
 > **disableAutoAttach**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L27)
 
 Should auto-attach be disabled?
 
@@ -74,7 +74,7 @@ Should auto-attach be disabled?
 
 > **isDisposed**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L22)
 
 Is this feature disposed?
 
@@ -88,7 +88,7 @@ Is this feature disposed?
 
 > **onFeatureAttachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L49)
 
 Observers registered here will be executed when the feature is attached
 
@@ -102,7 +102,7 @@ Observers registered here will be executed when the feature is attached
 
 > **onFeatureDetachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L53)
 
 Observers registered here will be executed when the feature is detached
 
@@ -116,7 +116,7 @@ Observers registered here will be executed when the feature is detached
 
 > **spaceWarpRTTProvider**: [`Nullable`](../type-aliases/Nullable.md)\<[`WebXRSpaceWarpRenderTargetTextureProvider`](WebXRSpaceWarpRenderTargetTextureProvider.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts:275](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts#L275)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:280](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L280)
 
 The space warp provider
 
@@ -126,7 +126,7 @@ The space warp provider
 
 > `readonly` `static` **Name**: `"xr-space-warp"` = `WebXRFeatureName.SPACE_WARP`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts:264](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts#L264)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:269](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L269)
 
 The module's name
 
@@ -136,7 +136,7 @@ The module's name
 
 > `readonly` `static` **Version**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts:270](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts#L270)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:275](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L275)
 
 The (Babylon) version of this module.
 This is an integer representing the implementation version.
@@ -150,7 +150,7 @@ This number does not correspond to the WebXR specs version
 
 > **get** **attached**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L69)
 
 Is this feature attached
 
@@ -172,7 +172,7 @@ Is this feature attached
 
 > **get** **xrNativeFeatureName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L34)
 
 The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
@@ -184,7 +184,7 @@ The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
 > **set** **xrNativeFeatureName**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L38)
 
 The name of the native xr feature name, if applicable (like anchor, hit-test, or hand-tracking)
 
@@ -210,7 +210,7 @@ The name of the native xr feature name, if applicable (like anchor, hit-test, or
 
 > **attach**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts:297](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts#L297)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L302)
 
 Attach this feature.
 Will usually be called by the features manager.
@@ -231,7 +231,7 @@ true if successful.
 
 > **detach**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts:313](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts#L313)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:318](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L318)
 
 detach this feature.
 
@@ -251,7 +251,7 @@ true if successful, false if failed or already detached
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts:330](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts#L330)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:335](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L335)
 
 Dispose this feature and all of the resources attached
 
@@ -269,7 +269,7 @@ Dispose this feature and all of the resources attached
 
 > **isCompatible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts:326](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRSpaceWarp.ts#L326)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:331](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L331)
 
 This function will be executed during before enabling the feature and can be used to not-allow enabling it.
 Note that at this point the session has NOT started, so this is purely checking if the browser supports it

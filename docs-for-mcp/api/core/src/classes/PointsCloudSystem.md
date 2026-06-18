@@ -6,7 +6,7 @@
 
 # Class: PointsCloudSystem
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L39)
 
 The PointCloudSystem (PCS) is a single updatable mesh. The points corresponding to the vertices of this big mesh.
 As it is just a mesh, the PointCloudSystem has all the same properties as any other BJS mesh : not more, not less. It can be scaled, rotated, translated, enlighted, textured, moved, etc.
@@ -26,7 +26,7 @@ Full documentation here : TO BE ENTERED
 
 > **new PointsCloudSystem**(`name`, `pointSize`, `scene`, `options?`): `PointsCloudSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L122)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L122)
 
 Creates a PCS (Points Cloud System) object
 
@@ -69,7 +69,7 @@ defines the options of the PCS e.g.
 
 > **counter**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L52)
 
 This a counter for your own usage. It's not set by any SPS functions.
 
@@ -79,7 +79,7 @@ This a counter for your own usage. It's not set by any SPS functions.
 
 > `optional` **mesh?**: [`Mesh`](Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L60)
 
 The PCS mesh. It's a standard BJS Mesh, so all the methods from the Mesh class are available.
 
@@ -89,7 +89,7 @@ The PCS mesh. It's a standard BJS Mesh, so all the methods from the Mesh class a
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L56)
 
 The PCS name. This name is also given to the underlying mesh.
 
@@ -99,7 +99,7 @@ The PCS name. This name is also given to the underlying mesh.
 
 > **nbParticles**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L48)
 
 The PCS total number of particles. Read only. Use PCS.counter instead if you need to set your own value.
 
@@ -109,7 +109,7 @@ The PCS total number of particles. Read only. Use PCS.counter instead if you nee
 
 > **particles**: [`CloudPoint`](CloudPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L44)
 
 The PCS array of cloud point objects. Just access each particle as with any classic array.
  Example : var p = SPS.particles[i];
@@ -120,7 +120,7 @@ The PCS array of cloud point objects. Just access each particle as with any clas
 
 > **vars**: `any` = `{}`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L65)
 
 This empty object is intended to store some PCS specific or temporary values in order to lower the Garbage Collector activity.
 Please read :
@@ -133,7 +133,7 @@ Please read :
 
 > **get** **colors**(): `Float32Array`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L103)
 
 Gets the particle colors computed by the Point Cloud System
 
@@ -149,7 +149,7 @@ Gets the particle colors computed by the Point Cloud System
 
 > **get** **computeBoundingBox**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1045](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1045)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1045](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1045)
 
 Gets if `setParticles()` computes or not the mesh bounding box when computing the particle positions.
 
@@ -161,7 +161,7 @@ Gets if `setParticles()` computes or not the mesh bounding box when computing th
 
 > **set** **computeBoundingBox**(`val`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1039](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1039)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1039](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1039)
 
 Tells to `setParticles()` to compute or not the mesh bounding box when computing the particle positions.
 
@@ -183,7 +183,7 @@ Tells to `setParticles()` to compute or not the mesh bounding box when computing
 
 > **get** **computeParticleColor**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1025](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1025)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1025](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1025)
 
 Gets if `setParticles()` computes the particle colors or not.
 Default value : false. The PCS is faster when it's set to false.
@@ -197,7 +197,7 @@ Note : the particle colors are stored values, so setting `computeParticleColor` 
 
 > **set** **computeParticleColor**(`val`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1013](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1013)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1013](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1013)
 
 Tells to `setParticles()` to compute the particle colors or not.
 Default value : true. The PCS is faster when it's set to false.
@@ -221,7 +221,7 @@ Note : the particle colors are stored values, so setting `computeParticleColor` 
 
 > **set** **computeParticleRotation**(`val`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1004](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1004)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1004](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1004)
 
 Tells to `setParticles()` to compute the particle rotations or not
 Default value : false. The PCS is faster when it's set to false
@@ -246,7 +246,7 @@ Note : the particle rotations aren't stored values, so setting `computeParticleR
 
 > **get** **computeParticleTexture**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1033](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1033)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1033](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1033)
 
 Gets if `setParticles()` computes the particle textures or not.
 Default value : false. The PCS is faster when it's set to false.
@@ -260,7 +260,7 @@ Note : the particle textures are stored values, so setting `computeParticleTextu
 
 > **set** **computeParticleTexture**(`val`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1017](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1017)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1017](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1017)
 
 ##### Parameters
 
@@ -280,7 +280,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.
 
 > **get** **isAlwaysVisible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:981](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L981)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:981](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L981)
 
 Gets whether the PCS is always visible or not
 doc :
@@ -293,7 +293,7 @@ doc :
 
 > **set** **isAlwaysVisible**(`val`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:989](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L989)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:989](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L989)
 
 Sets the PCS as always visible or not
 doc :
@@ -316,7 +316,7 @@ doc :
 
 > **get** **positions**(): `Float32Array`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L96)
 
 Gets the particle positions computed by the Point Cloud System
 
@@ -332,7 +332,7 @@ Gets the particle positions computed by the Point Cloud System
 
 > **get** **uvs**(): `Float32Array`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:110](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L110)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L110)
 
 Gets the particle uvs computed by the Point Cloud System
 
@@ -346,7 +346,7 @@ Gets the particle uvs computed by the Point Cloud System
 
 > **addPoints**(`nb`, `pointFunction?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:618](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L618)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:618](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L618)
 
 Adds points to the PCS in random positions within a unit sphere
 
@@ -376,7 +376,7 @@ the number of groups in the system
 
 > **addSurfacePoints**(`mesh`, `nb`, `colorWith?`, `color?`, `range?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:652](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L652)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:652](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L652)
 
 Adds points to the PCS from the surface of the model shape
 
@@ -424,7 +424,7 @@ the number of groups in the system
 
 > **addVolumePoints**(`mesh`, `nb`, `colorWith?`, `color?`, `range?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:698](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L698)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:698](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L698)
 
 Adds points to the PCS inside the model shape
 
@@ -472,7 +472,7 @@ the number of groups in the system
 
 > **afterUpdateParticles**(`start?`, `stop?`, `update?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1101)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1101)
 
 This will be called  by `setParticles()` after all the other treatments and just before the actual mesh update.
 This will be passed three parameters.
@@ -508,7 +508,7 @@ the boolean update value actually passed to setParticles()
 
 > **beforeUpdateParticles**(`start?`, `stop?`, `update?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1091](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1091)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1091](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1091)
 
 This will be called before any other treatment by `setParticles()` and will be passed three parameters.
 This does nothing and may be overwritten by the user.
@@ -543,7 +543,7 @@ the boolean update value actually passed to setParticles()
 
 > **buildMeshAsync**(`material?`): `Promise`\<[`Mesh`](Mesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L139)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L139)
 
 Builds the PCS underlying mesh. Returns a standard Mesh.
 If no points were added to the PCS, the returned mesh is just a single point.
@@ -568,7 +568,7 @@ a promise for the created mesh
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:935](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L935)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:935](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L935)
 
 Disposes the PCS.
 
@@ -586,7 +586,7 @@ Disposes the PCS.
 
 > **initParticles**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1058](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1058)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1058](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1058)
 
 This function does nothing. It may be overwritten to set all the particle first values.
 The PCS doesn't call this function, you may have to call it by your own.
@@ -602,7 +602,7 @@ doc :
 
 > **recycleParticle**(`particle`): [`CloudPoint`](CloudPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1067](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1067)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1067](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1067)
 
 This function does nothing. It may be overwritten to recycle a particle
 The PCS doesn't call this function, you can to call it
@@ -628,7 +628,7 @@ the recycled particle
 
 > **refreshVisibleSize**(): `PointsCloudSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:955](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L955)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:955](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L955)
 
 Visibility helper : Recomputes the visible size according to the mesh bounding box
 doc :
@@ -645,7 +645,7 @@ the PCS.
 
 > **setParticles**(`start?`, `end?`, `update?`): `PointsCloudSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:744](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L744)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:744](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L744)
 
 Sets all the particles : this method actually really updates the mesh according to the particle positions, rotations, colors, textures, etc.
  This method calls `updateParticle()` for each particle of the SPS.
@@ -683,7 +683,7 @@ the PCS.
 
 > **setVisibilityBox**(`size`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:968](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L968)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:968](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L968)
 
 Visibility helper : Sets the size of a visibility box, this sets the underlying mesh bounding box.
 
@@ -707,7 +707,7 @@ doc :
 
 > **updateParticle**(`particle`): [`CloudPoint`](CloudPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1079](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1079)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/pointsCloudSystem.ts:1079](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/pointsCloudSystem.ts#L1079)
 
 Updates a particle : this function should  be overwritten by the user.
 It is called on each particle by `setParticles()`. This is the place to code each particle behavior.

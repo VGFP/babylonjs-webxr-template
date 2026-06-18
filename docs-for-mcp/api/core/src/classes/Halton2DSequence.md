@@ -6,7 +6,7 @@
 
 # Class: Halton2DSequence
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/halton2DSequence.ts:5](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/halton2DSequence.ts#L5)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/halton2DSequence.ts:5](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/halton2DSequence.ts#L5)
 
 Class for generating 2D Halton sequences.
 From https://observablehq.com/@jrus/halton
@@ -17,7 +17,7 @@ From https://observablehq.com/@jrus/halton
 
 > **new Halton2DSequence**(`numSamples`, `baseX?`, `baseY?`, `width?`, `height?`): `Halton2DSequence`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/halton2DSequence.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/halton2DSequence.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/halton2DSequence.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/halton2DSequence.ts#L32)
 
 Creates a new Halton2DSequence.
 
@@ -63,7 +63,7 @@ Factor to scale the y coordinate by (default: 1). The scaling factor is 1/height
 
 > `readonly` **x**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/halton2DSequence.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/halton2DSequence.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/halton2DSequence.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/halton2DSequence.ts#L17)
 
 The x coordinate of the current sample.
 
@@ -73,7 +73,7 @@ The x coordinate of the current sample.
 
 > `readonly` **y**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/halton2DSequence.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/halton2DSequence.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/halton2DSequence.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/halton2DSequence.ts#L22)
 
 The y coordinate of the current sample.
 
@@ -83,7 +83,7 @@ The y coordinate of the current sample.
 
 > **next**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/halton2DSequence.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/halton2DSequence.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/halton2DSequence.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/halton2DSequence.ts#L64)
 
 Advances to the next sample in the sequence.
 
@@ -97,7 +97,7 @@ Advances to the next sample in the sequence.
 
 > **regenerate**(`numSamples`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/halton2DSequence.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/halton2DSequence.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/halton2DSequence.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/halton2DSequence.ts#L46)
 
 Regenerates the sequence with a new number of samples.
 
@@ -119,7 +119,7 @@ Number of samples in the sequence.
 
 > **setDimensions**(`width`, `height`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/halton2DSequence.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/halton2DSequence.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/halton2DSequence.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/halton2DSequence.ts#L56)
 
 Sets the dimensions of the sequence.
 

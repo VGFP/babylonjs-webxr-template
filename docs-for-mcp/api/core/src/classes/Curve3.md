@@ -6,7 +6,7 @@
 
 # Class: Curve3
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:979](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L979)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:979](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L979)
 
 A Curve3 object is a logical object, so not a mesh, to handle curves in the 3D geometric space.
 A Curve3 is designed from a series of successive Vector3.
@@ -21,7 +21,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/drawCurves
 
 > **new Curve3**(`points`): `Curve3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:1154](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L1154)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:1154](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L1154)
 
 A Curve3 object is a logical object, so not a mesh, to handle curves in the 3D geometric space.
 A Curve3 is designed from a series of successive Vector3.
@@ -45,7 +45,7 @@ points which make up the curve
 
 > **continue**(`curve`): `Curve3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:1180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L1180)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:1180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L1180)
 
 Returns a new instance of Curve3 object : var curve = curveA.continue(curveB);
 This new Curve3 is built by translating and sticking the curveB at the end of the curveA.
@@ -71,7 +71,7 @@ the newly constructed curve
 
 > **getPoints**(): [`Vector3`](Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:1162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L1162)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:1162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L1162)
 
 #### Returns
 
@@ -85,7 +85,7 @@ the Curve3 stored array of successive Vector3
 
 > **length**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:1169](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L1169)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:1169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L1169)
 
 #### Returns
 
@@ -99,7 +99,7 @@ the computed length (float) of the curve.
 
 > `static` **ArcThru3Points**(`first`, `second`, `third`, `steps?`, `closed?`, `fullCircle?`): `Curve3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:1097](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L1097)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:1097](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L1097)
 
 Returns a Curve3 object along an arc through three vector3 points:
 The three points should not be colinear. When they are the Curve3 is empty.
@@ -154,7 +154,7 @@ the created Curve3
 
 > `static` **CreateCatmullRomSpline**(`points`, `nbPoints`, `closed?`): `Curve3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:1051](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L1051)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:1051](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L1051)
 
 Returns a Curve3 object along a CatmullRom Spline curve :
 
@@ -190,7 +190,7 @@ the created Curve3
 
 > `static` **CreateCubicBezier**(`v0`, `v1`, `v2`, `v3`, `nbPoints`): `Curve3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:1013](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L1013)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:1013](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L1013)
 
 Returns a Curve3 object along a Cubic Bezier curve : https://doc.babylonjs.com/features/featuresDeepDive/mesh/drawCurves#cubic-bezier-curve
 
@@ -238,7 +238,7 @@ the created Curve3
 
 > `static` **CreateHermiteSpline**(`p1`, `t1`, `p2`, `t2`, `nSeg`): `Curve3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:1035](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L1035)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:1035](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L1035)
 
 Returns a Curve3 object along a Hermite Spline curve : https://doc.babylonjs.com/features/featuresDeepDive/mesh/drawCurves#hermite-spline
 
@@ -286,7 +286,7 @@ the created Curve3
 
 > `static` **CreateQuadraticBezier**(`v0`, `v1`, `v2`, `nbPoints`): `Curve3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:991](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L991)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:991](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L991)
 
 Returns a Curve3 object along a Quadratic Bezier curve : https://doc.babylonjs.com/features/featuresDeepDive/mesh/drawCurves#quadratic-bezier-curve
 

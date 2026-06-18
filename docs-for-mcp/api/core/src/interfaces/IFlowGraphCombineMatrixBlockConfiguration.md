@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphCombineMatrixBlockConfiguration
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphMathCombineExtractBlocks.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphMathCombineExtractBlocks.ts#L139)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphMathCombineExtractBlocks.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphMathCombineExtractBlocks.pure.ts#L135)
 
 Configuration for the matrix combine blocks.
 
@@ -24,7 +24,7 @@ Configuration for the matrix combine blocks.
 
 > `optional` **inputIsColumnMajor?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphMathCombineExtractBlocks.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphMathCombineExtractBlocks.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphMathCombineExtractBlocks.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphMathCombineExtractBlocks.pure.ts#L140)
 
 Whether the input is in column-major order. Default is false.
 Note - Babylon's matrix is the same as WebGL's. So unless your matrix requires transformation, you should leave this as false.
@@ -35,7 +35,7 @@ Note - Babylon's matrix is the same as WebGL's. So unless your matrix requires t
 
 > `optional` **name?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
 
 The name of the block.
 

@@ -8,7 +8,7 @@
 
 > `const` **TextureTools**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/textureTools.ts:540](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/textureTools.ts#L540)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/textureTools.ts:474](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/textureTools.ts#L474)
 
 Class used to host texture specific utilities
 
@@ -80,25 +80,37 @@ a promise with the internalTexture having its texture replaced by the result of 
 
 #### Param
 
+**postProcessName**
+
 name of the fragment post process
 
 #### Param
+
+**internalTexture**
 
 the texture to encode
 
 #### Param
 
+**scene**
+
 the scene hosting the texture
 
 #### Param
+
+**type**
 
 type of the output texture. If not provided, use the one from internalTexture
 
 #### Param
 
+**samplingMode**
+
 sampling mode to use to sample the source texture. If not provided, use the one from internalTexture
 
 #### Param
+
+**format**
 
 format of the output texture. If not provided, use the one from internalTexture
 
@@ -148,17 +160,25 @@ the generated texture
 
 #### Param
 
+**texture**
+
 Texture to copy from
 
 #### Param
+
+**width**
 
 defines the desired width
 
 #### Param
 
+**height**
+
 defines the desired height
 
 #### Param
+
+**useBilinearMode**
 
 defines if bilinear mode has to be used
 
@@ -172,7 +192,7 @@ the generated texture
 
 Converts a half float to a number
 
-Converts a half float to a number
+Converts a 16-bit half-float bit pattern back to a 32-bit float.
 
 #### Parameters
 
@@ -180,15 +200,17 @@ Converts a half float to a number
 
 `number`
 
-half float to convert
+the half-float bit pattern, in the range 0..65535
 
 #### Returns
 
 `number`
 
-converted half float
+the decoded float
 
 #### Param
+
+**value**
 
 half float to convert
 
@@ -260,21 +282,31 @@ the 8-bit texture data
 
 #### Param
 
+**texture**
+
 the source texture
 
 #### Param
+
+**width**
 
 the width of the result, which does not have to match the source texture width
 
 #### Param
 
+**height**
+
 the height of the result, which does not have to match the source texture height
 
 #### Param
 
+**face**
+
 if the texture has multiple faces, the face index to use for the source
 
 #### Param
+
+**lod**
 
 if the texture has multiple LODs, the lod index to use for the source
 
@@ -288,7 +320,7 @@ the 8-bit texture data
 
 Converts a number to half float
 
-Converts a number to half float
+Converts a 32-bit float to its 16-bit half-float bit pattern.
 
 #### Parameters
 
@@ -296,15 +328,17 @@ Converts a number to half float
 
 `number`
 
-number to convert
+the float to convert
 
 #### Returns
 
 `number`
 
-converted number
+the half-float bit pattern, in the range 0..65535
 
 #### Param
+
+**value**
 
 number to convert
 

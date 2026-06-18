@@ -6,7 +6,7 @@
 
 # Class: EffectFallbacks
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectFallbacks.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectFallbacks.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectFallbacks.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectFallbacks.ts#L11)
 
 EffectFallbacks can be used to add fallbacks (properties to disable) to certain properties when desired to improve performance.
 (Eg. Start at high quality with reflection and fog, if fps is low, remove reflection, if still low remove fog)
@@ -33,7 +33,7 @@ EffectFallbacks can be used to add fallbacks (properties to disable) to certain 
 
 > **get** **hasMoreFallbacks**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectFallbacks.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectFallbacks.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectFallbacks.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectFallbacks.ts#L66)
 
 Checks to see if more fallbacks are still available.
 
@@ -53,7 +53,7 @@ Checks to see if more fallbacks are still available.
 
 > **addCPUSkinningFallback**(`rank`, `mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectFallbacks.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectFallbacks.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectFallbacks.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectFallbacks.ts#L52)
 
 Sets the mesh to use CPU skinning when needing to fallback.
 
@@ -81,7 +81,7 @@ The mesh to use the fallbacks.
 
 > **addFallback**(`rank`, `define`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectFallbacks.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectFallbacks.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectFallbacks.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectFallbacks.ts#L31)
 
 Adds a fallback on the specified property.
 
@@ -109,7 +109,7 @@ The name of the define in the shader
 
 > **reduce**(`currentDefines`, `effect`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectFallbacks.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectFallbacks.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectFallbacks.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectFallbacks.ts#L76)
 
 Removes the defines that should be removed when falling back.
 
@@ -143,7 +143,7 @@ The resulting defines with defines of the current rank removed.
 
 > **unBindMesh**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectFallbacks.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/effectFallbacks.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/effectFallbacks.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effectFallbacks.ts#L22)
 
 Removes the fallback from the bound mesh.
 

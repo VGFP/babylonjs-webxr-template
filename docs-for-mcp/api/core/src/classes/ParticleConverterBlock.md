@@ -6,7 +6,7 @@
 
 # Class: ParticleConverterBlock
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L14)
 
 Block used to create a Vector2/3 and Color4 out of individual or partial inputs
 
@@ -20,7 +20,7 @@ Block used to create a Vector2/3 and Color4 out of individual or partial inputs
 
 > **new ParticleConverterBlock**(`name`): `ParticleConverterBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L19)
 
 Create a new ParticleConverterBlock
 
@@ -46,7 +46,7 @@ defines the block name
 
 > **comments**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L86)
 
 A free comment about the block
 
@@ -60,7 +60,7 @@ A free comment about the block
 
 > **onBuildObservable**: [`Observable`](Observable.md)\<[`NodeParticleBlock`](NodeParticleBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L35)
 
 Gets an observable raised when the block is built
 
@@ -74,7 +74,7 @@ Gets an observable raised when the block is built
 
 > **onDisposeObservable**: [`Observable`](Observable.md)\<[`NodeParticleBlock`](NodeParticleBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L40)
 
 Gets an observable raised when the block is disposed
 
@@ -88,7 +88,7 @@ Gets an observable raised when the block is disposed
 
 > **onInputChangedObservable**: [`Observable`](Observable.md)\<[`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L45)
 
 Gets an observable raised when the inputs of the block change
 
@@ -102,7 +102,7 @@ Gets an observable raised when the inputs of the block change
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L25)
 
 Gets or sets the unique id of the node
 
@@ -116,7 +116,7 @@ Gets or sets the unique id of the node
 
 > **visibleOnFrame**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L89)
 
 Gets or sets a boolean indicating that this input can be edited from a collapsed frame
 
@@ -132,7 +132,7 @@ Gets or sets a boolean indicating that this input can be edited from a collapsed
 
 > **get** **colorIn**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L52)
 
 Gets the color component (input)
 
@@ -148,7 +148,7 @@ Gets the color component (input)
 
 > **get** **colorOut**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L108)
 
 Gets the xyzw component (output)
 
@@ -164,7 +164,7 @@ Gets the xyzw component (output)
 
 > **get** **inputs**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L113)
 
 Gets the list of input points
 
@@ -184,7 +184,7 @@ Gets the list of input points
 
 > **get** **isDebug**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L78)
 
 Gets a boolean indicating if this block is a debug block
 
@@ -204,7 +204,7 @@ Gets a boolean indicating if this block is a debug block
 
 > **get** **isInput**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L71)
 
 Gets a boolean indicating that this block is an input block
 
@@ -224,7 +224,7 @@ Gets a boolean indicating that this block is an input block
 
 > **get** **isSystem**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L64)
 
 Gets a boolean indicating that this block is a system block
 
@@ -244,7 +244,7 @@ Gets a boolean indicating that this block is a system block
 
 > **get** **isTeleportIn**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L57)
 
 Gets a boolean indicating if this block is a teleport in
 
@@ -264,7 +264,7 @@ Gets a boolean indicating if this block is a teleport in
 
 > **get** **isTeleportOut**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L50)
 
 Gets a boolean indicating if this block is a teleport out
 
@@ -284,7 +284,7 @@ Gets a boolean indicating if this block is a teleport out
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:94](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L94)
 
 Gets or set the name of the block
 
@@ -296,7 +296,7 @@ Gets or set the name of the block
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L98)
 
 ##### Parameters
 
@@ -320,7 +320,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleB
 
 > **get** **outputs**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L118)
 
 Gets the list of output points
 
@@ -340,7 +340,7 @@ Gets the list of output points
 
 > **get** **wIn**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L101)
 
 Gets the w component (input)
 
@@ -356,7 +356,7 @@ Gets the w component (input)
 
 > **get** **wOut**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:157](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L157)
 
 Gets the w component (output)
 
@@ -372,7 +372,7 @@ Gets the w component (output)
 
 > **get** **xIn**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L80)
 
 Gets the x component (input)
 
@@ -388,7 +388,7 @@ Gets the x component (input)
 
 > **get** **xOut**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L136)
 
 Gets the x component (output)
 
@@ -404,7 +404,7 @@ Gets the x component (output)
 
 > **get** **xyIn**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L66)
 
 Gets the xy component (input)
 
@@ -420,7 +420,7 @@ Gets the xy component (input)
 
 > **get** **xyOut**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L122)
 
 Gets the xy component (output)
 
@@ -436,7 +436,7 @@ Gets the xy component (output)
 
 > **get** **xyzIn**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L59)
 
 Gets the xyz component (input)
 
@@ -452,7 +452,7 @@ Gets the xyz component (input)
 
 > **get** **xyzOut**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L115)
 
 Gets the xyz component (output)
 
@@ -468,7 +468,7 @@ Gets the xyz component (output)
 
 > **get** **yIn**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L87)
 
 Gets the y component (input)
 
@@ -484,7 +484,7 @@ Gets the y component (input)
 
 > **get** **yOut**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L143)
 
 Gets the y component (output)
 
@@ -500,7 +500,7 @@ Gets the y component (output)
 
 > **get** **zIn**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:94](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L94)
 
 Gets the z component (input)
 
@@ -516,7 +516,7 @@ Gets the z component (input)
 
 > **get** **zOut**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L148)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L150)
 
 Gets the z component (output)
 
@@ -532,7 +532,7 @@ Gets the z component (output)
 
 > **get** **zwIn**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L73)
 
 Gets the zw component (input)
 
@@ -548,7 +548,7 @@ Gets the zw component (input)
 
 > **get** **zwOut**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L129)
 
 Gets the zw component (output)
 
@@ -562,7 +562,7 @@ Gets the zw component (output)
 
 > **\_build**(`state`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:210](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L210)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:212](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L212)
 
 Builds the block. Must be implemented by derived classes.
 
@@ -586,7 +586,7 @@ Builds the block. Must be implemented by derived classes.
 
 > **build**(`state`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:270](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L270)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:270](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L270)
 
 Builds the block
 
@@ -614,7 +614,7 @@ the built block
 
 > **clone**(): [`NodeParticleBlock`](NodeParticleBlock.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:398](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L398)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:398](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L398)
 
 Clone the current block to a new identical block
 
@@ -634,7 +634,7 @@ a copy of the current block
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:415](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L415)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:415](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L415)
 
 Release resources
 
@@ -652,7 +652,7 @@ Release resources
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleConverterBlock.pure.ts#L45)
 
 Gets the current class name
 
@@ -672,7 +672,7 @@ the class name
 
 > **getInputByName**(`name`): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:193](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L193)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L193)
 
 Find an input by its name
 
@@ -700,7 +700,7 @@ the input or null if not found
 
 > **isAnAncestorOf**(`block`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L144)
 
 Checks if the current block is an ancestor of a given block
 
@@ -728,7 +728,7 @@ true if block is a descendant
 
 > **isAnAncestorOfType**(`type`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:168](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L168)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:168](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L168)
 
 Checks if the current block is an ancestor of a given type
 
@@ -756,7 +756,7 @@ true if block is a descendant
 
 > **registerInput**(`name`, `type`, `isOptional?`, `value?`, `valueMin?`, `valueMax?`): `ParticleConverterBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:223](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L223)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L223)
 
 Register a new input. Must be called inside a block constructor
 
@@ -814,7 +814,7 @@ the current block
 
 > **registerOutput**(`name`, `type`, `point?`): `ParticleConverterBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:246](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L246)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:246](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L246)
 
 Register a new output. Must be called inside a block constructor
 
@@ -854,7 +854,7 @@ the current block
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:317](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L317)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:317](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L317)
 
 Serializes this block in a JSON representation
 

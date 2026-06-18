@@ -6,7 +6,7 @@
 
 # Class: WebXRMotionControllerManager
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts#L35)
 
 Motion controller manager is managing the different webxr profiles and makes sure the right
 controller is being loaded.
@@ -27,7 +27,7 @@ controller is being loaded.
 
 > `static` **BaseRepositoryUrl**: `string` = `"https://immersive-web.github.io/webxr-input-profiles/packages/viewer/dist"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts#L45)
 
 The base URL of the online controller repository. Can be changed at any time.
 
@@ -37,7 +37,7 @@ The base URL of the online controller repository. Can be changed at any time.
 
 > `static` **DisableControllerCache**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts#L59)
 
 Disable the controller cache and load the models each time a new WebXRProfileMotionController is loaded.
 Defaults to true.
@@ -48,7 +48,7 @@ Defaults to true.
 
 > `static` **PrioritizeOnlineRepository**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts#L49)
 
 Which repository gets priority - local or online
 
@@ -58,7 +58,7 @@ Which repository gets priority - local or online
 
 > `static` **UseOnlineRepository**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts#L53)
 
 Use the online repository, or use only locally-defined controllers
 
@@ -68,7 +68,7 @@ Use the online repository, or use only locally-defined controllers
 
 > `static` **ClearControllerCache**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts:202](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts#L202)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts:204](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts#L204)
 
 Clear the controller's cache (usually happens at the end of a session)
 
@@ -82,7 +82,7 @@ Clear the controller's cache (usually happens at the end of a session)
 
 > `static` **ClearProfilesCache**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts#L64)
 
 Clear the cache used for profile loading and reload when requested again
 
@@ -96,7 +96,7 @@ Clear the cache used for profile loading and reload when requested again
 
 > `static` **DefaultFallbacks**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts#L73)
 
 Register the default fallbacks.
 This function is called automatically when this file is imported.
@@ -111,7 +111,7 @@ This function is called automatically when this file is imported.
 
 > `static` **FindFallbackWithProfileId**(`profileId`): `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts#L95)
 
 Find a fallback profile if the profile was not found. There are a few predefined generic profiles.
 
@@ -135,7 +135,7 @@ an array with corresponding fallback profiles
 
 > `static` **GetMotionControllerWithXRInput**(`xrInput`, `scene`, `forceProfile?`): `Promise`\<[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts#L116)
 
 When acquiring a new xrInput object (usually by the WebXRInput class), match it with the correct profile.
 The order of search:
@@ -177,7 +177,7 @@ A promise that fulfils with the motion controller class for this profile id or t
 
 > `static` **RegisterController**(`type`, `constructFunction`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts:169](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts#L169)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts:171](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts#L171)
 
 Register a new controller based on its profile. This function will be called by the controller classes themselves.
 
@@ -207,7 +207,7 @@ the function to be called when loading this profile
 
 > `static` **RegisterFallbacksForProfileId**(`profileId`, `fallbacks`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts:178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts#L178)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts:180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts#L180)
 
 Register a fallback to a specific profile.
 
@@ -235,7 +235,7 @@ A list of fallback profiles
 
 > `static` **UpdateProfilesList**(): `Promise`\<\{\[`profile`: `string`\]: `string`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts:191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.ts#L191)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts#L193)
 
 Will update the list of profiles available in the repository
 

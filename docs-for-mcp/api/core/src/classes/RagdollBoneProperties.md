@@ -6,7 +6,7 @@
 
 # Class: RagdollBoneProperties
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/ragdoll.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/ragdoll.ts#L19)
 
 **`Experimental`**
 
@@ -30,7 +30,7 @@ Ragdoll bone properties
 
 > `optional` **boneOffsetAxis?**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/ragdoll.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/ragdoll.ts#L59)
 
 **`Experimental`**
 
@@ -42,7 +42,7 @@ Axis that need an offset
 
 > `optional` **boxOffset?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/ragdoll.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/ragdoll.ts#L55)
 
 **`Experimental`**
 
@@ -54,7 +54,7 @@ Offset along local axis
 
 > `optional` **depth?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/ragdoll.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/ragdoll.ts#L27)
 
 **`Experimental`**
 
@@ -66,7 +66,7 @@ depth of the box shape
 
 > `optional` **height?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/ragdoll.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/ragdoll.ts#L31)
 
 **`Experimental`**
 
@@ -78,7 +78,7 @@ height of the box shape
 
 > `optional` **joint?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/ragdoll.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/ragdoll.ts#L39)
 
 **`Experimental`**
 
@@ -90,7 +90,7 @@ Type of Physics Constraint used between bones
 
 > `optional` **max?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/ragdoll.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/ragdoll.ts#L51)
 
 **`Experimental`**
 
@@ -102,7 +102,7 @@ Maximum rotation angle value
 
 > `optional` **min?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/ragdoll.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/ragdoll.ts#L47)
 
 **`Experimental`**
 
@@ -114,7 +114,7 @@ Minimum rotation angle value
 
 > `optional` **rotationAxis?**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/ragdoll.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/ragdoll.ts#L43)
 
 **`Experimental`**
 
@@ -126,7 +126,7 @@ Main rotation axis used by the constraint, in local space
 
 > `optional` **size?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/ragdoll.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/ragdoll.ts#L35)
 
 **`Experimental`**
 
@@ -138,7 +138,7 @@ size that will be used of width, depth and height of the shape box
 
 > `optional` **width?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/ragdoll.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/ragdoll.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/ragdoll.ts#L23)
 
 **`Experimental`**
 

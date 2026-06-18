@@ -6,7 +6,7 @@
 
 # Class: GreasedLineTools
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L17)
 
 Tool functions for GreasedLine
 
@@ -26,7 +26,7 @@ Tool functions for GreasedLine
 
 > `static` **BooleanToNumber**(`bool?`): `0` \| `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:589](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L589)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:589](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L589)
 
 Converts boolean to number.
 
@@ -50,7 +50,7 @@ the bool value
 
 > `static` **Color3toRGBAUint8**(`colors`): `Uint8Array`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:522](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L522)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:522](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L522)
 
 Converts an array of Color3 to Uint8Array
 
@@ -74,7 +74,7 @@ Uin8Array of colors [r, g, b, a, r, g, b, a, ...]
 
 > `static` **ConvertPoints**(`points`, `options?`): `number`[][]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L24)
 
 Converts GreasedLinePoints to number[][]
 
@@ -104,7 +104,7 @@ number[][] with x, y, z coordinates of the points, like [[x, y, z, x, y, z, ...]
 
 > `static` **CreateColorsTexture**(`name`, `colors`, `colorsSampling`, `scene`): [`RawTexture`](RawTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:542](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L542)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:542](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L542)
 
 Creates a RawTexture from an RGBA color array and sets it on the plugin material instance.
 
@@ -146,7 +146,7 @@ the colors texture
 
 > `static` **DisposeEmptyColorsTexture**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:579](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L579)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:579](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L579)
 
 Diposes the shared empty colors texture
 
@@ -160,7 +160,7 @@ Diposes the shared empty colors texture
 
 > `static` **GetArrowCap**(`position`, `direction`, `length`, `widthUp`, `widthDown`, `widthStartUp?`, `widthStartDown?`): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:468](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L468)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:468](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L468)
 
 #### Parameters
 
@@ -224,7 +224,7 @@ the arrow width at the start of the arrow below the line. In most scenarios this
 
 > `static` **GetBezierLinePoints**(`p0`, `p1`, `p2`, `segments`): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:451](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L451)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:451](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L451)
 
 Gets line points in a shape of a bezier curve
 
@@ -264,7 +264,7 @@ number of segments in the curve
 
 > `static` **GetCircleLinePoints**(`radiusX`, `segments`, `z?`, `radiusY?`, `segmentAngle?`): [`Vector3`](Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:435](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L435)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:435](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L435)
 
 Creates lines in a shape of circle/arc.
 A segment is a part of the line between it's two points.
@@ -313,7 +313,7 @@ line points
 
 > `static` **GetLineLength**(`data`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:247](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L247)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:247](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L247)
 
 Gets the length of the line counting all it's segments length
 
@@ -337,7 +337,7 @@ length of the line
 
 > `static` **GetLineLengthArray**(`data`, `buf?`): `Float32Array`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:275](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L275)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:275](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L275)
 
 Gets the length from the beginning to each point of the line as array.
 
@@ -367,7 +367,7 @@ length array of the line
 
 > `static` **GetLineSegments**(`points`): `object`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:365](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L365)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:365](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L365)
 
 Gets line segments.
 A segment is a part of the line between it's two points.
@@ -392,7 +392,7 @@ segments information of the line segment including starting point, ending point 
 
 > `static` **GetMinMaxSegmentLength**(`points`): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:383](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L383)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:383](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L383)
 
 Gets the minimum and the maximum length of a line segment in the line.
 A segment is a part of the line between it's two points.
@@ -423,7 +423,7 @@ line points
 
 > `static` **GetPointsCountInfo**(`points`): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:232](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L232)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L232)
 
 Calculates the sum of points of every line and the number of points in each line.
 This function is useful when you are drawing multiple lines in one mesh and you want
@@ -457,7 +457,7 @@ points count info
 
 > `static` **GetPointsFromText**(`text`, `size`, `resolution`, `fontData`, `z?`, `includeInner?`): `number`[][]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:488](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L488)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:488](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L488)
 
 Gets 3D positions of points from a text and font
 
@@ -511,7 +511,7 @@ number[][] of 3D positions
 
 > `static` **GetPositionOnLineByVisibility**(`lineSegments`, `lineLength`, `visbility`, `localSpace?`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:400](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L400)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:400](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L400)
 
 Finds the last visible position in world space of the line according to the visibility parameter
 
@@ -553,7 +553,7 @@ world space coordinate of the last visible piece of the line
 
 > `static` **MeshesToLines**(`meshes`, `predicate?`): [`Vector3`](Vector3.md)[][]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L140)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L140)
 
 Gets mesh triangles as line positions
 
@@ -583,7 +583,7 @@ array of arrays of points
 
 > `static` **OmitDuplicatesPredicate**(`p1`, `p2`, `p3`, `points`): [`Vector3`](Vector3.md)[][] \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L102)
 
 Omit duplicate lines predicate for the MeshesToLines function
 
@@ -625,7 +625,7 @@ original points or null if any edge length is zero
 
 > `static` **OmitZeroLengthPredicate**(`p1`, `p2`, `p3`): [`Vector3`](Vector3.md)[][] \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L77)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L77)
 
 Omit zero length lines predicate for the MeshesToLines function
 
@@ -661,7 +661,7 @@ original points or null if any edge length is zero
 
 > `static` **PrepareEmptyColorsTexture**(`scene`): [`RawTexture`](RawTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:561](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L561)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:561](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L561)
 
 A minimum size texture for the colors sampler2D when there is no colors texture defined yet.
 For fast switching using the useColors property without the need to use defines.
@@ -686,7 +686,7 @@ empty colors texture
 
 > `static` **SegmentizeLineBySegmentCount**(`what`, `segmentCount`): [`Vector3`](Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:354](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L354)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:354](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L354)
 
 Divides a line into segments.
 A segment is a part of the line between it's two points.
@@ -717,7 +717,7 @@ line point
 
 > `static` **SegmentizeLineBySegmentLength**(`what`, `segmentLength`): [`Vector3`](Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:325](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L325)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:325](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L325)
 
 Divides a line into segments.
 A segment is a part of the line between it's two points.
@@ -748,7 +748,7 @@ line point
 
 > `static` **SegmentizeSegmentByCount**(`point1`, `point2`, `segmentCount`): [`Vector3`](Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:300](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L300)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:300](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L300)
 
 Divides a segment into smaller segments.
 A segment is a part of the line between it's two points.
@@ -783,7 +783,7 @@ number of segments we want to have in the divided line
 
 > `static` **ToNumberArray**(`points`): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:221](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L221)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L221)
 
 Gets a number array from a Vector3 array.
 You can you for example to convert your Vector3[] offsets to the required number[] for the offsets option.
@@ -808,7 +808,7 @@ an array of x, y, z coordinates as numbers [x, y, z, x, y, z, x, y, z, ....]
 
 > `static` **ToVector3Array**(`points`): [`Vector3`](Vector3.md)[] \| [`Vector3`](Vector3.md)[][]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:193](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/greasedLineTools.ts#L193)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/greasedLineTools.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/greasedLineTools.ts#L193)
 
 Converts number coordinates to Vector3s
 

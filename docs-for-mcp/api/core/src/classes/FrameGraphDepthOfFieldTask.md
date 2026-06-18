@@ -6,7 +6,7 @@
 
 # Class: FrameGraphDepthOfFieldTask
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L12)
 
 Task which applies a depth of field effect.
 
@@ -20,7 +20,7 @@ Task which applies a depth of field effect.
 
 > **new FrameGraphDepthOfFieldTask**(`name`, `frameGraph`, `blurLevel?`, `hdr?`): `FrameGraphDepthOfFieldTask`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:110](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L110)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L110)
 
 Constructs a depth of field task.
 
@@ -64,7 +64,7 @@ Whether the depth of field effect is HDR.
 
 > **camera**: [`Camera`](Camera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L48)
 
 The camera used to render the scene.
 
@@ -74,7 +74,7 @@ The camera used to render the scene.
 
 > `optional` **dependencies?**: `Set`\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
 
 The (texture) dependencies of the task (optional).
 
@@ -88,7 +88,7 @@ The (texture) dependencies of the task (optional).
 
 > `readonly` **depthOfField**: [`ThinDepthOfFieldEffect`](ThinDepthOfFieldEffect.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L63)
 
 The depth of field effect.
 
@@ -98,7 +98,7 @@ The depth of field effect.
 
 > **depthSamplingMode**: `number` = `Constants.TEXTURE_BILINEAR_SAMPLINGMODE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L43)
 
 The sampling mode to use for the depth texture.
 
@@ -108,7 +108,7 @@ The sampling mode to use for the depth texture.
 
 > **depthTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L38)
 
 The depth texture to use for the depth of field effect.
 Should store camera space depth (Z coordinate).
@@ -119,7 +119,7 @@ Should store camera space depth (Z coordinate).
 
 > `readonly` **hdr**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L69)
 
 Whether the depth of field effect is applied on HDR textures.
 When true, the depth of field effect will use a higher precision texture format (half float or float). Else, it will use unsigned byte.
@@ -130,7 +130,7 @@ When true, the depth of field effect will use a higher precision texture format 
 
 > **onAfterTaskExecute**: [`Observable`](Observable.md)\<[`FrameGraphTask`](FrameGraphTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
 
 An observable that is triggered after the task is executed.
 
@@ -144,7 +144,7 @@ An observable that is triggered after the task is executed.
 
 > **onBeforeTaskExecute**: [`Observable`](Observable.md)\<[`FrameGraphTask`](FrameGraphTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
 
 An observable that is triggered before the task is executed.
 
@@ -158,7 +158,7 @@ An observable that is triggered before the task is executed.
 
 > **onTexturesAllocatedObservable**: [`Observable`](Observable.md)\<[`FrameGraphRenderContext`](FrameGraphRenderContext.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
 
 An observable that is triggered after the textures have been allocated.
 
@@ -172,7 +172,7 @@ An observable that is triggered after the textures have been allocated.
 
 > `readonly` **outputTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L58)
 
 The output texture of the depth of field effect.
 
@@ -182,7 +182,7 @@ The output texture of the depth of field effect.
 
 > **sourceSamplingMode**: `number` = `Constants.TEXTURE_BILINEAR_SAMPLINGMODE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L21)
 
 The sampling mode to use for the source texture.
 
@@ -192,7 +192,7 @@ The sampling mode to use for the source texture.
 
 > **sourceTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L16)
 
 The source texture to apply the depth of field effect on.
 
@@ -202,7 +202,7 @@ The source texture to apply the depth of field effect on.
 
 > `optional` **targetTexture?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L53)
 
 The target texture to render the depth of field effect to.
 
@@ -214,7 +214,7 @@ The target texture to render the depth of field effect to.
 
 > **get** **alphaMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L26)
 
 The alpha mode to use when applying the depth of field effect.
 
@@ -226,7 +226,7 @@ The alpha mode to use when applying the depth of field effect.
 
 > **set** **alphaMode**(`mode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L30)
 
 ##### Parameters
 
@@ -246,7 +246,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcess
 
 > **get** **disabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L43)
 
 Whether the task is disabled.
 
@@ -258,7 +258,7 @@ Whether the task is disabled.
 
 > **set** **disabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L47)
 
 ##### Parameters
 
@@ -282,7 +282,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L74)
 
 The name of the task.
 
@@ -294,7 +294,7 @@ The name of the task.
 
 > **set** **name**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L78)
 
 The name of the task.
 
@@ -320,7 +320,7 @@ The name of the task.
 
 > **get** **passes**(): [`IFrameGraphPass`](../interfaces/IFrameGraphPass.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
 
 Gets the passes of the task.
 
@@ -340,7 +340,7 @@ Gets the passes of the task.
 
 > **get** **passesDisabled**(): [`IFrameGraphPass`](../interfaces/IFrameGraphPass.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
 
 Gets the disabled passes of the task.
 
@@ -358,7 +358,7 @@ Gets the disabled passes of the task.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:238](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L238)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L238)
 
 Disposes of the task.
 
@@ -376,7 +376,7 @@ Disposes of the task.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L146)
 
 Gets the current class name
 
@@ -396,7 +396,7 @@ the class name
 
 > **initAsync**(): `Promise`\<`unknown`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L90)
 
 This function is called once after the task has been added to the frame graph and before the frame graph is built for the first time.
 This allows you to initialize asynchronous resources, which is not possible in the constructor.
@@ -417,7 +417,7 @@ A promise that resolves when the initialization is complete.
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L142)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L142)
 
 Checks if the task is ready to be executed.
 
@@ -437,7 +437,7 @@ True if the task is ready to be executed, else false.
 
 > **record**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/depthOfFieldTask.ts#L150)
 
 Records the task in the frame graph. Use this function to add content (render passes, ...) to the task.
 

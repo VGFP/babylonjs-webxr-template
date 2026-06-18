@@ -8,6 +8,6 @@
 
 > **DragStartEndEvent** = `Pick`\<[`DragEvent`](DragEvent.md), `"dragPlanePoint"` \| `"pointerId"` \| `"pointerInfo"`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Meshes/pointerDragEvents.ts#L40)
 
 Event type for drag start and end events

@@ -6,7 +6,7 @@
 
 # Class: DracoEncoder
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts:136](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts#L136)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts#L136)
 
 **`Experimental`**
 
@@ -62,7 +62,7 @@ By default, DracoEncoder will encode all available attributes of the mesh. To ex
 
 > **new DracoEncoder**(`configuration?`): `DracoEncoder`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts:198](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts#L198)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts:198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts#L198)
 
 **`Experimental`**
 
@@ -90,7 +90,7 @@ Optional override of the configuration for the DracoEncoder. If not provided, de
 
 > `static` **DefaultConfiguration**: `IDracoCodecConfiguration`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts#L144)
 
 **`Experimental`**
 
@@ -108,7 +108,7 @@ Default configuration for the DracoEncoder. Defaults to the following:
 
 > **get** `static` **Default**(): `DracoEncoder`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts:161](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts#L161)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts:161](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts#L161)
 
 **`Experimental`**
 
@@ -126,7 +126,7 @@ Default instance for the DracoEncoder.
 
 > **get** `static` **DefaultAvailable**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts#L153)
 
 **`Experimental`**
 
@@ -142,7 +142,7 @@ Returns true if the encoder's `DefaultConfiguration` is available.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCodec.ts:174](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoCodec.ts#L174)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCodec.ts:174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCodec.ts#L174)
 
 **`Experimental`**
 
@@ -162,7 +162,7 @@ Stop all async operations and release resources.
 
 > **encodeMeshAsync**(`input`, `options?`): `Promise`\<`IDracoEncodedMeshData`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts:269](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts#L269)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts:269](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts#L269)
 
 **`Experimental`**
 
@@ -194,7 +194,7 @@ a promise that resolves to the newly-encoded data
 
 > **whenReadyAsync**(): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCodec.ts:159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoCodec.ts#L159)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCodec.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCodec.ts#L159)
 
 **`Experimental`**
 
@@ -216,7 +216,7 @@ a promise that resolves when ready
 
 > `static` **ResetDefault**(`skipDispose?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts#L172)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoEncoder.ts#L172)
 
 **`Experimental`**
 

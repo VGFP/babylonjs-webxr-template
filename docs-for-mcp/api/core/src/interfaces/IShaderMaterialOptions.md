@@ -6,7 +6,7 @@
 
 # Interface: IShaderMaterialOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shaderMaterial.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L51)
 
 Defines the options associated with the creation of a shader material.
 
@@ -16,7 +16,7 @@ Defines the options associated with the creation of a shader material.
 
 > **attributes**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shaderMaterial.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L65)
 
 The list of attribute names used in the shader
 
@@ -26,7 +26,7 @@ The list of attribute names used in the shader
 
 > **defines**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shaderMaterial.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L100)
 
 The list of defines used in the shader
 
@@ -36,7 +36,7 @@ The list of defines used in the shader
 
 > **externalTextures**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shaderMaterial.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L85)
 
 The list of external texture names used in the shader
 
@@ -46,7 +46,7 @@ The list of external texture names used in the shader
 
 > `optional` **extraInitializationsAsync?**: () => `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shaderMaterial.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L115)
 
 Defines additional code to call to prepare the shader code
 
@@ -60,7 +60,7 @@ Defines additional code to call to prepare the shader code
 
 > **needAlphaBlending**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shaderMaterial.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L55)
 
 Does the material work in alpha blend mode
 
@@ -70,7 +70,7 @@ Does the material work in alpha blend mode
 
 > **needAlphaTesting**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shaderMaterial.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L60)
 
 Does the material work in alpha test mode
 
@@ -80,7 +80,7 @@ Does the material work in alpha test mode
 
 > **samplerObjects**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shaderMaterial.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L90)
 
 The list of sampler object names used in the shader
 
@@ -90,7 +90,7 @@ The list of sampler object names used in the shader
 
 > **samplers**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shaderMaterial.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L80)
 
 The list of sampler (texture) names used in the shader
 
@@ -100,7 +100,7 @@ The list of sampler (texture) names used in the shader
 
 > `optional` **shaderLanguage?**: [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shaderMaterial.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L110)
 
 The language the shader is written in (default: GLSL)
 
@@ -110,7 +110,7 @@ The language the shader is written in (default: GLSL)
 
 > **storageBuffers**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shaderMaterial.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L95)
 
 The list of storage buffer names used in the shader
 
@@ -120,7 +120,7 @@ The list of storage buffer names used in the shader
 
 > **uniformBuffers**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shaderMaterial.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L75)
 
 The list of UBO names used in the shader
 
@@ -130,7 +130,7 @@ The list of UBO names used in the shader
 
 > **uniforms**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shaderMaterial.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L70)
 
 The list of uniform names used in the shader
 
@@ -140,6 +140,6 @@ The list of uniform names used in the shader
 
 > **useClipPlane**: [`Nullable`](../type-aliases/Nullable.md)\<`boolean`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shaderMaterial.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L105)
 
 Defines if clip planes have to be turned on: true to turn them on, false to turn them off and null to turn them on/off depending on the scene configuration (scene.clipPlaneX)

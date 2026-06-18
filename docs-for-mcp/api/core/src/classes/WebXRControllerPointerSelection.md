@@ -6,7 +6,7 @@
 
 # Class: WebXRControllerPointerSelection
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L139)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L141)
 
 A module that will enable pointer selection for motion controllers of XR Input Sources
 
@@ -20,7 +20,7 @@ A module that will enable pointer selection for motion controllers of XR Input S
 
 > **new WebXRControllerPointerSelection**(`_xrSessionManager`, `_options`): `WebXRControllerPointerSelection`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:268](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L268)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:270](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L270)
 
 constructs a new background remover module
 
@@ -52,7 +52,7 @@ read-only options to be used in this module
 
 > `optional` **dependsOn?**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
 
 The dependencies of this feature, if any
 
@@ -66,7 +66,7 @@ The dependencies of this feature, if any
 
 > **disableAutoAttach**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L27)
 
 Should auto-attach be disabled?
 
@@ -80,7 +80,7 @@ Should auto-attach be disabled?
 
 > **disablePointerLighting**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:227](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L227)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L229)
 
 Disable lighting on the laser pointer (so it will always be visible)
 
@@ -90,7 +90,7 @@ Disable lighting on the laser pointer (so it will always be visible)
 
 > **disableSelectionMeshLighting**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:231](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L231)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:233](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L233)
 
 Disable lighting on the selection mesh (so it will always be visible)
 
@@ -100,7 +100,7 @@ Disable lighting on the selection mesh (so it will always be visible)
 
 > **displayLaserPointer**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:235](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L235)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:237](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L237)
 
 Should the laser pointer be displayed
 
@@ -110,7 +110,7 @@ Should the laser pointer be displayed
 
 > **displaySelectionMesh**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L239)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:241](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L241)
 
 Should the selection mesh be displayed (The ring at the end of the laser pointer)
 
@@ -120,7 +120,7 @@ Should the selection mesh be displayed (The ring at the end of the laser pointer
 
 > **isDisposed**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L22)
 
 Is this feature disposed?
 
@@ -134,7 +134,7 @@ Is this feature disposed?
 
 > **laserPointerDefaultColor**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:247](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L247)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:249](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L249)
 
 Default color of the laser pointer
 
@@ -144,7 +144,7 @@ Default color of the laser pointer
 
 > **laserPointerPickedColor**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:243](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L243)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L245)
 
 This color will be set to the laser pointer when selection is triggered
 
@@ -154,7 +154,7 @@ This color will be set to the laser pointer when selection is triggered
 
 > **onFeatureAttachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L49)
 
 Observers registered here will be executed when the feature is attached
 
@@ -168,7 +168,7 @@ Observers registered here will be executed when the feature is attached
 
 > **onFeatureDetachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L53)
 
 Observers registered here will be executed when the feature is detached
 
@@ -182,7 +182,7 @@ Observers registered here will be executed when the feature is detached
 
 > **raySelectionPredicate**: (`mesh`) => `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L261)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:263](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L263)
 
 Optional filter to be used for ray selection.  This predicate shares behavior with
 scene.pointerMovePredicate which takes priority if it is also assigned.
@@ -203,7 +203,7 @@ scene.pointerMovePredicate which takes priority if it is also assigned.
 
 > **selectionMeshDefaultColor**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:251](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L251)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:253](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L253)
 
 default color of the selection ring
 
@@ -213,7 +213,7 @@ default color of the selection ring
 
 > **selectionMeshPickedColor**: [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L255)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:257](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L257)
 
 This color will be applied to the selection ring when selection is triggered
 
@@ -223,7 +223,7 @@ This color will be applied to the selection ring when selection is triggered
 
 > `readonly` `static` **Name**: `"xr-controller-pointer-selection"` = `WebXRFeatureName.POINTER_SELECTION`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L218)
 
 The module's name
 
@@ -233,7 +233,7 @@ The module's name
 
 > `readonly` `static` **Version**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L222)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:224](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L224)
 
 The (Babylon) version of this module.
 This is an integer representing the implementation version.
@@ -247,7 +247,7 @@ This number does not correspond to the WebXR specs version
 
 > **get** **attached**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L69)
 
 Is this feature attached
 
@@ -269,7 +269,7 @@ Is this feature attached
 
 > **get** **attachedControllerId**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:373](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L373)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:375](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L375)
 
 Get the unique id of the currently attached (active) controller for pointer selection.
 When `enablePointerSelectionOnAllControllers` is true, this value is not meaningful
@@ -289,7 +289,7 @@ the unique id of the attached controller, or an empty string if none is attached
 
 > **get** **xrNativeFeatureName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L34)
 
 The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
@@ -301,7 +301,7 @@ The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
 > **set** **xrNativeFeatureName**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L38)
 
 The name of the native xr feature name, if applicable (like anchor, hit-test, or hand-tracking)
 
@@ -327,7 +327,7 @@ The name of the native xr feature name, if applicable (like anchor, hit-test, or
 
 > **attach**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:294](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L294)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L296)
 
 attach this feature
 Will usually be called by the features manager
@@ -348,7 +348,7 @@ true if successful.
 
 > **detach**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:341](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L341)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:343](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L343)
 
 detach this feature.
 Will usually be called by the features manager
@@ -369,7 +369,7 @@ true if successful.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L131)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L131)
 
 Dispose this feature and all of the resources attached
 
@@ -387,7 +387,7 @@ Dispose this feature and all of the resources attached
 
 > **getMeshUnderPointer**(`controllerId`): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:359](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L359)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:361](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L361)
 
 Will get the mesh under a specific pointer.
 `scene.meshUnderPointer` will only return one mesh - either left or right.
@@ -412,7 +412,7 @@ The mesh under pointer or null if no mesh is under the pointer
 
 > **getXRControllerByPointerId**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`WebXRInputSource`](WebXRInputSource.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:455](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L455)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:457](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L457)
 
 Get the xr controller that correlates to the pointer id in the pointer event
 
@@ -436,7 +436,7 @@ the controller that correlates to this id or null if not found
 
 > **isCompatible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L144)
 
 This function will be executed during before enabling the feature and can be used to not-allow enabling it.
 Note that at this point the session has NOT started, so this is purely checking if the browser supports it
@@ -457,7 +457,7 @@ whether or not the feature is compatible in this environment
 
 > **setAttachedController**(`controllerId`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts:394](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.ts#L394)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts:396](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPointerSelection.pure.ts#L396)
 
 Set the active controller for pointer selection during an XR session.
 Accepts either an `XRHandedness` value (`"left"`, `"right"`, `"none"`) to select

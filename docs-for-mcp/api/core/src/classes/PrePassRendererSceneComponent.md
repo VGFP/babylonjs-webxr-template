@@ -6,7 +6,7 @@
 
 # Class: PrePassRendererSceneComponent
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRendererSceneComponent.pure.ts#L20)
 
 Defines the Geometry Buffer scene component responsible to manage a G-Buffer useful
 in several rendering techniques.
@@ -21,7 +21,7 @@ in several rendering techniques.
 
 > **new PrePassRendererSceneComponent**(`scene`): `PrePassRendererSceneComponent`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRendererSceneComponent.pure.ts#L35)
 
 Creates a new instance of the component for the given scene
 
@@ -43,7 +43,7 @@ Defines the scene to register the component in
 
 > `readonly` **name**: `"PrePassRenderer"` = `SceneComponentConstants.NAME_PREPASSRENDERER`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRendererSceneComponent.pure.ts#L24)
 
 The component name helpful to identify the component in the list of scene components.
 
@@ -57,7 +57,7 @@ The component name helpful to identify the component in the list of scene compon
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRendererSceneComponent.pure.ts#L29)
 
 The scene the component belongs to.
 
@@ -71,7 +71,7 @@ The scene the component belongs to.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.pure.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRendererSceneComponent.pure.ts#L129)
 
 Disposes the component and the associated resources
 
@@ -89,7 +89,7 @@ Disposes the component and the associated resources
 
 > **rebuild**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts:193](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts#L193)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRendererSceneComponent.pure.ts#L122)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -108,7 +108,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRendererSceneComponent.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRendererSceneComponent.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRendererSceneComponent.pure.ts#L42)
 
 Registers the component in a given scene
 

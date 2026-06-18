@@ -6,7 +6,7 @@
 
 # Class: InputPassword
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputPassword.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputPassword.ts#L8)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputPassword.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputPassword.ts#L8)
 
 Class used to create a password control
 
@@ -20,7 +20,7 @@ Class used to create a password control
 
 > **new InputPassword**(`name?`, `text?`): `InputPassword`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:402](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L402)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:402](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L402)
 
 Creates a new InputText
 
@@ -52,7 +52,7 @@ defines the text of the control
 
 > **animations**: [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`Animation`](../../../core/src/classes/Animation.md)[]\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1311](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1311)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1311](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1311)
 
 Array of animations
 
@@ -66,7 +66,7 @@ Array of animations
 
 > **disableMobilePrompt**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L62)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L62)
 
 Force disable prompt on mobile device
 
@@ -80,7 +80,7 @@ Force disable prompt on mobile device
 
 > **hoverCursor**: `string` = `""`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:296](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L296)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:296](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L296)
 
 Gets or sets the cursor to use when the control is hovered
 
@@ -94,7 +94,7 @@ Gets or sets the cursor to use when the control is hovered
 
 > **isFocusInvisible**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:189](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L189)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L189)
 
 Gets or sets a boolean indicating if the control can be focusable
 
@@ -108,7 +108,7 @@ Gets or sets a boolean indicating if the control can be focusable
 
 > **isHitTestVisible**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L177)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L177)
 
 Gets or sets a boolean indicating if the control can be hit with pointer events
 
@@ -122,7 +122,7 @@ Gets or sets a boolean indicating if the control can be hit with pointer events
 
 > **isPointerBlocker**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:186](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L186)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:186](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L186)
 
 Gets or sets a boolean indicating if the control can block pointer events. False by default except on the following controls:
 * Button controls (Button, RadioButton, ToggleButton)
@@ -141,7 +141,7 @@ Gets or sets a boolean indicating if the control can block pointer events. False
 
 > **isSerializable**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:470](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L470)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:470](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L470)
 
 Indicates if the control should be serialized. Defaults to true.
 
@@ -155,7 +155,7 @@ Indicates if the control should be serialized. Defaults to true.
 
 > **metadata**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:173](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L173)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L173)
 
 Gets or sets an object used to store user defined information for the node
 
@@ -169,7 +169,7 @@ Gets or sets an object used to store user defined information for the node
 
 > `optional` **name?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:403](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L403)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:403](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L403)
 
 defines the control name
 
@@ -183,7 +183,7 @@ defines the control name
 
 > **onAccessibilityTagChangedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Nullable`](../../../core/src/type-aliases/Nullable.md)\<`IAccessibilityTag`\>\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:336](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L336)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:336](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L336)
 
 Observable that fires whenever the accessibility event of the control has changed
 
@@ -197,7 +197,7 @@ Observable that fires whenever the accessibility event of the control has change
 
 > **onAfterDrawObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Control`](Control.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:390](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L390)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:390](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L390)
 
 An event triggered after the control was drawn
 
@@ -211,7 +211,7 @@ An event triggered after the control was drawn
 
 > **onBeforeDrawObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Control`](Control.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:385](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L385)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:385](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L385)
 
 An event triggered before drawing the control
 
@@ -225,7 +225,7 @@ An event triggered before drawing the control
 
 > **onBeforeKeyAddObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`InputText`](InputText.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L97)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L97)
 
 Observable raised just before an entered character is to be added
 
@@ -239,7 +239,7 @@ Observable raised just before an entered character is to be added
 
 > **onBlurObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Control`](Control.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1341](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1341)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1341](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1341)
 
 Observable raised when the control loses the focus
 
@@ -253,7 +253,7 @@ Observable raised when the control loses the focus
 
 > **onDirtyObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Control`](Control.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:380](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L380)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:380](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L380)
 
 An event triggered when the control is marked as dirty
 
@@ -267,7 +267,7 @@ An event triggered when the control is marked as dirty
 
 > **onDisposeObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Control`](Control.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:395](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L395)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:395](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L395)
 
 An event triggered when the control has been disposed
 
@@ -281,7 +281,7 @@ An event triggered when the control has been disposed
 
 > **onEnabledStateChangedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<`boolean`\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L131)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L131)
 
 Observable that fires when the control's enabled state changes
 
@@ -295,7 +295,7 @@ Observable that fires when the control's enabled state changes
 
 > **onEnterPressedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Control`](Control.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:370](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L370)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:370](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L370)
 
 An event triggered when a control receives an ENTER key down event
 
@@ -309,7 +309,7 @@ An event triggered when a control receives an ENTER key down event
 
 > **onFocusObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Control`](Control.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1339](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1339)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1339](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1339)
 
 Observable raised when the control gets the focus
 
@@ -323,7 +323,7 @@ Observable raised when the control gets the focus
 
 > **onIsVisibleChangedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<`boolean`\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:400](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L400)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:400](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L400)
 
 An event triggered when the control isVisible is changed
 
@@ -337,7 +337,7 @@ An event triggered when the control isVisible is changed
 
 > **onKeyboardEventProcessedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`IKeyboardEvent`](../../../core/src/interfaces/IKeyboardEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1343](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1343)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1343](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1343)
 
 Observable raised when a key event was processed
 
@@ -351,7 +351,7 @@ Observable raised when a key event was processed
 
 > **onPointerClickObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Vector2WithInfo`](Vector2WithInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:365](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L365)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:365](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L365)
 
 An event triggered when a control is clicked on
 
@@ -365,7 +365,7 @@ An event triggered when a control is clicked on
 
 > **onPointerDownObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Vector2WithInfo`](Vector2WithInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:355](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L355)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:355](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L355)
 
 An event triggered when the pointer taps the control
 
@@ -379,7 +379,7 @@ An event triggered when the pointer taps the control
 
 > **onPointerEnterObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Control`](Control.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:375](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L375)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:375](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L375)
 
 An event triggered when pointer enters the control
 
@@ -393,7 +393,7 @@ An event triggered when pointer enters the control
 
 > **onPointerMoveObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Vector2`](../../../core/src/classes/Vector2.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:345](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L345)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L345)
 
 An event triggered when the pointer moves over the control.
 
@@ -407,7 +407,7 @@ An event triggered when the pointer moves over the control.
 
 > **onPointerOutObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Control`](Control.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:350](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L350)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L350)
 
 An event triggered when the pointer moves out of the control.
 
@@ -421,7 +421,7 @@ An event triggered when the pointer moves out of the control.
 
 > **onPointerUpObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Vector2WithInfo`](Vector2WithInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:360](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L360)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:360](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L360)
 
 An event triggered when pointer up
 
@@ -435,7 +435,7 @@ An event triggered when pointer up
 
 > **onTextChangedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`InputText`](InputText.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L95)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L95)
 
 Observable raised when the text changes
 
@@ -449,7 +449,7 @@ Observable raised when the text changes
 
 > **onTextCopyObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`InputText`](InputText.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L101)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L101)
 
 Observable raised when copy event is triggered
 
@@ -463,7 +463,7 @@ Observable raised when copy event is triggered
 
 > **onTextCutObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`InputText`](InputText.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L103)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L103)
 
 Observable raised when cut event is triggered
 
@@ -477,7 +477,7 @@ Observable raised when cut event is triggered
 
 > **onTextHighlightObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`InputText`](InputText.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L99)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L99)
 
 Observable raised when the text is highlighted
 
@@ -491,7 +491,7 @@ Observable raised when the text is highlighted
 
 > **onTextPasteObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`InputText`](InputText.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L105)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L105)
 
 Observable raised when paste event is triggered
 
@@ -505,7 +505,7 @@ Observable raised when paste event is triggered
 
 > **onWheelObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Vector2`](../../../core/src/classes/Vector2.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:341](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L341)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:341](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L341)
 
 An event triggered when pointer wheel is scrolled
 
@@ -519,7 +519,7 @@ An event triggered when pointer wheel is scrolled
 
 > `optional` **overlapDeltaMultiplier?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1306](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1306)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1306](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1306)
 
 Gets/sets the deoverlap movement multiplier
 
@@ -533,7 +533,7 @@ Gets/sets the deoverlap movement multiplier
 
 > `optional` **overlapGroup?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1301](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1301)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1301](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1301)
 
 Gets/sets the overlap group of the control.
 Controls with overlapGroup set to a number can be deoverlapped.
@@ -553,7 +553,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#deoverlapping
 
 > **parent**: [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`Container`](Container.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L47)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L47)
 
 Gets or sets the control parent
 
@@ -567,7 +567,7 @@ Gets or sets the control parent
 
 > **promptMessage**: `string` = `"Please enter text:"`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L59)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L59)
 
 Gets or sets a string representing the message displayed on mobile when the control gets the focus
 
@@ -581,7 +581,7 @@ Gets or sets a string representing the message displayed on mobile when the cont
 
 > **tabIndex**: `number` = `-1`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1334](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1334)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1334](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1334)
 
 The tab index of this control. -1 indicates this control is not part of the tab navigation.
 A positive value indicates the order of the control in the tab navigation.
@@ -603,7 +603,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L148)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L148)
 
 Gets or sets the unique id of the node. Please note that this number will be updated when the control is added to a container
 
@@ -617,7 +617,7 @@ Gets or sets the unique id of the node. Please note that this number will be upd
 
 > **useBitmapCache**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:223](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L223)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L223)
 
 Gets or sets a boolean indicating that the current control should cache its rendering (useful when the control does not change often)
 
@@ -631,7 +631,7 @@ Gets or sets a boolean indicating that the current control should cache its rend
 
 > `static` **AddHeader**: (`control`, `text`, `size`, `options`) => `any`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2865](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L2865)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2865](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L2865)
 
 #### Parameters
 
@@ -671,7 +671,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2865](
 
 > `static` **AllowAlphaInheritance**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L39)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L39)
 
 Gets or sets a boolean indicating if alpha must be an inherited value (false by default)
 
@@ -687,7 +687,7 @@ Gets or sets a boolean indicating if alpha must be an inherited value (false by 
 
 > **get** **accessibilityTag**(): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<`IAccessibilityTag`\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:327](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L327)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:327](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L327)
 
 ##### Returns
 
@@ -697,7 +697,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:327](h
 
 > **set** **accessibilityTag**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:322](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L322)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:322](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L322)
 
 Gets or sets the accessibility tag to describe the control for accessibility purpose.
 By default, GUI controls already indicate accessibility info, but one can override the info using this tag.
@@ -724,7 +724,7 @@ By default, GUI controls already indicate accessibility info, but one can overri
 
 > **get** **addKey**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:329](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L329)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:329](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L329)
 
 Gets or sets if the current key should be added
 
@@ -736,7 +736,7 @@ Gets or sets if the current key should be added
 
 > **set** **addKey**(`flag`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:333](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L333)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:333](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L333)
 
 ##### Parameters
 
@@ -760,7 +760,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:333]
 
 > **get** **alpha**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:421](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L421)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:421](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L421)
 
 Gets or sets alpha value for the control (1 means opaque and 0 means entirely transparent)
 
@@ -772,7 +772,7 @@ Gets or sets alpha value for the control (1 means opaque and 0 means entirely tr
 
 > **set** **alpha**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:425](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L425)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:425](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L425)
 
 ##### Parameters
 
@@ -796,7 +796,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:425](h
 
 > **get** **autoStretchWidth**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:209](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L209)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L209)
 
 Gets or sets a boolean indicating if the control can auto stretch its width to adapt to the text
 
@@ -808,7 +808,7 @@ Gets or sets a boolean indicating if the control can auto stretch its width to a
 
 > **set** **autoStretchWidth**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:213](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L213)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:213](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L213)
 
 ##### Parameters
 
@@ -832,7 +832,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:213]
 
 > **get** **background**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:264](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L264)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:264](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L264)
 
 Gets or sets the background color
 
@@ -844,7 +844,7 @@ Gets or sets the background color
 
 > **set** **background**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:268](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L268)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:268](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L268)
 
 ##### Parameters
 
@@ -868,7 +868,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:268]
 
 > **get** **centerX**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1223](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1223)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1223)
 
 Gets the center coordinate on X axis
 
@@ -888,7 +888,7 @@ Gets the center coordinate on X axis
 
 > **get** **centerY**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1228](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1228)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1228)
 
 Gets the center coordinate on Y axis
 
@@ -908,7 +908,7 @@ Gets the center coordinate on Y axis
 
 > **get** **clipChildren**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:201](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L201)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L201)
 
 ##### Returns
 
@@ -918,7 +918,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:201](h
 
 > **set** **clipChildren**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:196](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L196)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L196)
 
 Sets/Gets a boolean indicating if the children are clipped to the current control bounds.
 Please note that not clipping children may generate issues with adt.useInvalidateRectOptimization so it is recommended to turn this optimization off if you want to use unclipped children
@@ -945,7 +945,7 @@ Please note that not clipping children may generate issues with adt.useInvalidat
 
 > **get** **clipContent**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:215](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L215)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:215](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L215)
 
 ##### Returns
 
@@ -955,7 +955,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:215](h
 
 > **set** **clipContent**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:210](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L210)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L210)
 
 Sets/Gets a boolean indicating that control content must be clipped
 Please note that not clipping content may generate issues with adt.useInvalidateRectOptimization so it is recommended to turn this optimization off if you want to use unclipped children
@@ -982,7 +982,7 @@ Please note that not clipping content may generate issues with adt.useInvalidate
 
 > **get** **color**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:838](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L838)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:838](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L838)
 
 Gets or sets foreground color
 
@@ -994,7 +994,7 @@ Gets or sets foreground color
 
 > **set** **color**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:842](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L842)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:842](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L842)
 
 ##### Parameters
 
@@ -1018,7 +1018,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:842](h
 
 > **get** **currentKey**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:338](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L338)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:338](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L338)
 
 Gets or sets the value of the current key being entered
 
@@ -1030,7 +1030,7 @@ Gets or sets the value of the current key being entered
 
 > **set** **currentKey**(`key`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:342](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L342)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:342](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L342)
 
 ##### Parameters
 
@@ -1054,7 +1054,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:342]
 
 > **get** **deadKey**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:308](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L308)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:308](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L308)
 
 Gets or sets the dead key. 0 to disable.
 
@@ -1066,7 +1066,7 @@ Gets or sets the dead key. 0 to disable.
 
 > **set** **deadKey**(`flag`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:312](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L312)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:312](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L312)
 
 ##### Parameters
 
@@ -1090,7 +1090,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:312]
 
 > **get** **descendantsOnlyPadding**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:933](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L933)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:933](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L933)
 
 Gets or sets a value indicating the padding should work like in CSS.
 Basically, it will add the padding amount on each side of the parent control for its children.
@@ -1103,7 +1103,7 @@ Basically, it will add the padding amount on each side of the parent control for
 
 > **set** **descendantsOnlyPadding**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:937](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L937)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:937](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L937)
 
 ##### Parameters
 
@@ -1127,7 +1127,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:937](h
 
 > **get** **disabledColor**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1267](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1267)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1267](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1267)
 
 Gets or sets background color of control if it's disabled. Only applies to Button class.
 
@@ -1139,7 +1139,7 @@ Gets or sets background color of control if it's disabled. Only applies to Butto
 
 > **set** **disabledColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1271)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1271](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1271)
 
 ##### Parameters
 
@@ -1163,7 +1163,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1271](
 
 > **get** **disabledColorItem**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1281](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1281)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1281](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1281)
 
 Gets or sets front color of control if it's disabled. Only applies to Checkbox class.
 
@@ -1175,7 +1175,7 @@ Gets or sets front color of control if it's disabled. Only applies to Checkbox c
 
 > **set** **disabledColorItem**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1285](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1285)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1285](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1285)
 
 ##### Parameters
 
@@ -1199,7 +1199,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1285](
 
 > **get** **fixedRatio**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:631](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L631)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:631](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L631)
 
 Gets or sets a fixed ratio for this control.
 When different from 0, the ratio is used to compute the "second" dimension.
@@ -1214,7 +1214,7 @@ second dimension is computed as first dimension * fixedRatio
 
 > **set** **fixedRatio**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:615](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L615)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:615](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L615)
 
 ##### Parameters
 
@@ -1238,7 +1238,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:615](h
 
 > **get** **fixedRatioMasterIsWidth**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:649](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L649)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:649](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L649)
 
 Gets or sets a boolean indicating that the fixed ratio is set on the width instead of the height. True by default.
 When the height of a control is set, this property is changed to false.
@@ -1251,7 +1251,7 @@ When the height of a control is set, this property is changed to false.
 
 > **set** **fixedRatioMasterIsWidth**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:636](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L636)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:636](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L636)
 
 ##### Parameters
 
@@ -1275,7 +1275,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:636](h
 
 > **get** **focusedBackground**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L239)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L239)
 
 Gets or sets the background color when focused
 
@@ -1287,7 +1287,7 @@ Gets or sets the background color when focused
 
 > **set** **focusedBackground**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:243](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L243)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L243)
 
 ##### Parameters
 
@@ -1311,7 +1311,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:243]
 
 > **set** **focusedColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:253](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L253)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:253](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L253)
 
 Gets or sets the background color when focused
 
@@ -1337,7 +1337,7 @@ Gets or sets the background color when focused
 
 > **get** **fontFamily**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:728](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L728)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:728](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L728)
 
 Gets or set font family
 
@@ -1349,7 +1349,7 @@ Gets or set font family
 
 > **set** **fontFamily**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:732](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L732)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:732](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L732)
 
 ##### Parameters
 
@@ -1373,7 +1373,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:732](h
 
 > **get** **fontOffset**(): `object`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:411](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L411)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:411](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L411)
 
 Gets or set information about font offsets (used to render and align text)
 
@@ -1397,7 +1397,7 @@ Gets or set information about font offsets (used to render and align text)
 
 > **set** **fontOffset**(`offset`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:415](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L415)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:415](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L415)
 
 ##### Parameters
 
@@ -1431,7 +1431,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:415](h
 
 > **get** **fontSize**(): `string` \| `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:821](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L821)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:821](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L821)
 
 Gets or sets font size
 
@@ -1443,7 +1443,7 @@ Gets or sets font size
 
 > **set** **fontSize**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:825](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L825)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:825](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L825)
 
 ##### Parameters
 
@@ -1467,7 +1467,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:825](h
 
 > **get** **fontSizeInPixels**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:803](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L803)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:803](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L803)
 
 Gets or sets font size in pixels
 
@@ -1479,7 +1479,7 @@ Gets or sets font size in pixels
 
 > **set** **fontSizeInPixels**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:813](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L813)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:813](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L813)
 
 ##### Parameters
 
@@ -1503,7 +1503,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:813](h
 
 > **get** **fontStyle**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:742](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L742)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:742](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L742)
 
 Gets or sets font style
 
@@ -1515,7 +1515,7 @@ Gets or sets font style
 
 > **set** **fontStyle**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:746](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L746)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:746](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L746)
 
 ##### Parameters
 
@@ -1539,7 +1539,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:746](h
 
 > **get** **fontWeight**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:756](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L756)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:756](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L756)
 
 Gets or sets font weight
 
@@ -1551,7 +1551,7 @@ Gets or sets font weight
 
 > **set** **fontWeight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:760](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L760)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:760](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L760)
 
 ##### Parameters
 
@@ -1575,7 +1575,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:760](h
 
 > **get** **gradient**(): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`BaseGradient`](BaseGradient.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:853](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L853)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:853](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L853)
 
 Gets or sets gradient. Setting a gradient will override the color
 
@@ -1587,7 +1587,7 @@ Gets or sets gradient. Setting a gradient will override the color
 
 > **set** **gradient**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:857](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L857)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:857](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L857)
 
 ##### Parameters
 
@@ -1611,7 +1611,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:857](h
 
 > **get** **height**(): `string` \| `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:695](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L695)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:695](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L695)
 
 Gets or sets control height
 
@@ -1627,7 +1627,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#position-and-size
 
 > **set** **height**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:699](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L699)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:699](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L699)
 
 ##### Parameters
 
@@ -1651,7 +1651,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:699](h
 
 > **get** **heightInPixels**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:715](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L715)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:715](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L715)
 
 Gets or sets control height in pixel
 
@@ -1667,7 +1667,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#position-and-size
 
 > **set** **heightInPixels**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:719](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L719)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:719](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L719)
 
 ##### Parameters
 
@@ -1691,7 +1691,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:719](h
 
 > **get** **highligherOpacity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L133)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L133)
 
 Gets or sets the text highlighter transparency; default: 0.4
 
@@ -1707,7 +1707,7 @@ Please use highlighterOpacity instead
 
 > **set** **highligherOpacity**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L137)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L137)
 
 ##### Parameters
 
@@ -1731,7 +1731,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:137]
 
 > **get** **highlightColor**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:475](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L475)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:475](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L475)
 
 Gets or sets a string defining the color to use for highlighting this control
 
@@ -1743,7 +1743,7 @@ Gets or sets a string defining the color to use for highlighting this control
 
 > **set** **highlightColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:479](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L479)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:479](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L479)
 
 ##### Parameters
 
@@ -1767,7 +1767,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:479](h
 
 > **get** **highlightedText**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:317](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L317)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:317](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L317)
 
 Gets or sets the highlight text
 
@@ -1779,7 +1779,7 @@ Gets or sets the highlight text
 
 > **set** **highlightedText**(`text`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:320](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L320)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:320](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L320)
 
 ##### Parameters
 
@@ -1803,7 +1803,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:320]
 
 > **get** **highlighterOpacity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:145](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L145)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L145)
 
 Gets or sets the text highlighter transparency; default: 0.4
 
@@ -1815,7 +1815,7 @@ Gets or sets the text highlighter transparency; default: 0.4
 
 > **set** **highlighterOpacity**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:149](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L149)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L149)
 
 ##### Parameters
 
@@ -1839,7 +1839,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:149]
 
 > **get** **highlightLineWidth**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:437](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L437)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:437](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L437)
 
 Gets or sets a number indicating size of stroke we want to highlight the control with (mostly for debugging purpose)
 
@@ -1851,7 +1851,7 @@ Gets or sets a number indicating size of stroke we want to highlight the control
 
 > **set** **highlightLineWidth**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:441](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L441)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:441](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L441)
 
 ##### Parameters
 
@@ -1875,7 +1875,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:441](h
 
 > **get** **horizontalAlignment**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:583](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L583)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:583](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L583)
 
 Gets or sets the horizontal alignment
 
@@ -1891,7 +1891,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#alignments
 
 > **set** **horizontalAlignment**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:587](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L587)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:587](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L587)
 
 ##### Parameters
 
@@ -1915,7 +1915,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:587](h
 
 > **get** **host**(): [`AdvancedDynamicTexture`](AdvancedDynamicTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:405](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L405)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:405](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L405)
 
 Get the hosting AdvancedDynamicTexture
 
@@ -1935,7 +1935,7 @@ Get the hosting AdvancedDynamicTexture
 
 > **get** **isDirty**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:917](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L917)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:917](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L917)
 
 Gets a boolean indicating that the control needs to update its rendering
 
@@ -1955,7 +1955,7 @@ Gets a boolean indicating that the control needs to update its rendering
 
 > **get** **isEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1234](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1234)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1234](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1234)
 
 Gets or sets if control is Enabled
 
@@ -1967,7 +1967,7 @@ Gets or sets if control is Enabled
 
 > **set** **isEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1238](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1238)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1238)
 
 ##### Parameters
 
@@ -1991,7 +1991,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1238](
 
 > **get** **isHighlighted**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:453](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L453)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:453](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L453)
 
 Gets or sets a boolean indicating that we want to highlight the control (mostly for debugging purpose)
 
@@ -2003,7 +2003,7 @@ Gets or sets a boolean indicating that we want to highlight the control (mostly 
 
 > **set** **isHighlighted**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:457](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L457)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:457](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L457)
 
 ##### Parameters
 
@@ -2027,7 +2027,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:457](h
 
 > **get** **isReadOnly**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:154](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L154)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:154](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L154)
 
 Gets or sets a boolean indicating if the control is readonly (default: false).
 A readonly control will still raise pointer events but will not react to them
@@ -2040,7 +2040,7 @@ A readonly control will still raise pointer events but will not react to them
 
 > **set** **isReadOnly**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:158](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L158)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L158)
 
 ##### Parameters
 
@@ -2064,7 +2064,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:158](h
 
 > **get** **isVisible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:901](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L901)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:901](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L901)
 
 Gets or sets a boolean indicating if the control is visible
 
@@ -2076,7 +2076,7 @@ Gets or sets a boolean indicating if the control is visible
 
 > **set** **isVisible**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:905](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L905)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:905](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L905)
 
 ##### Parameters
 
@@ -2100,7 +2100,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:905](h
 
 > **get** **left**(): `string` \| `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1107)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1107)
 
 Gets or sets a value indicating the left coordinate of the control
 
@@ -2116,7 +2116,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#position-and-size
 
 > **set** **left**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1111)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1111)
 
 ##### Parameters
 
@@ -2140,7 +2140,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1111](
 
 > **get** **leftInPixels**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1121)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1121)
 
 Gets or sets a value indicating the left coordinate in pixels of the control
 
@@ -2156,7 +2156,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#position-and-size
 
 > **set** **leftInPixels**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1125)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1125)
 
 ##### Parameters
 
@@ -2180,7 +2180,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1125](
 
 > **get** **linkedMesh**(): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`TransformNode`](../../../core/src/classes/TransformNode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:924](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L924)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:924](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L924)
 
 Gets the current linked mesh (or null if none)
 
@@ -2200,7 +2200,7 @@ Gets the current linked mesh (or null if none)
 
 > **get** **linkOffsetX**(): `string` \| `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1167](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1167)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1167)
 
 Gets or sets a value indicating the offset on X axis to the linked mesh
 
@@ -2216,7 +2216,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#tracking-positions
 
 > **set** **linkOffsetX**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1171](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1171)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1171](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1171)
 
 ##### Parameters
 
@@ -2240,7 +2240,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1171](
 
 > **get** **linkOffsetXInPixels**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1181](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1181)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1181](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1181)
 
 Gets or sets a value indicating the offset in pixels on X axis to the linked mesh
 
@@ -2256,7 +2256,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#tracking-positions
 
 > **set** **linkOffsetXInPixels**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1185)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1185)
 
 ##### Parameters
 
@@ -2280,7 +2280,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1185](
 
 > **get** **linkOffsetY**(): `string` \| `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1197](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1197)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1197)
 
 Gets or sets a value indicating the offset on Y axis to the linked mesh
 
@@ -2296,7 +2296,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#tracking-positions
 
 > **set** **linkOffsetY**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1201](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1201)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1201)
 
 ##### Parameters
 
@@ -2320,7 +2320,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1201](
 
 > **get** **linkOffsetYInPixels**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1211](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1211)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1211](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1211)
 
 Gets or sets a value indicating the offset in pixels on Y axis to the linked mesh
 
@@ -2336,7 +2336,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#tracking-positions
 
 > **set** **linkOffsetYInPixels**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1215](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1215)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1215](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1215)
 
 ##### Parameters
 
@@ -2360,7 +2360,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1215](
 
 > **get** **margin**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:188](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L188)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:188](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L188)
 
 Gets or sets control margin
 
@@ -2372,7 +2372,7 @@ Gets or sets control margin
 
 > **set** **margin**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:197](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L197)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L197)
 
 ##### Parameters
 
@@ -2396,7 +2396,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:197]
 
 > **get** **marginInPixels**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:193](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L193)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L193)
 
 Gets control margin in pixels
 
@@ -2416,7 +2416,7 @@ Gets control margin in pixels
 
 > **get** **maxWidth**(): `string` \| `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L109)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L109)
 
 Gets or sets the maximum width allowed by the control
 
@@ -2428,7 +2428,7 @@ Gets or sets the maximum width allowed by the control
 
 > **set** **maxWidth**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L118)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L118)
 
 ##### Parameters
 
@@ -2452,7 +2452,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:118]
 
 > **get** **maxWidthInPixels**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L114)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L114)
 
 Gets the maximum width allowed by the control in pixels
 
@@ -2472,7 +2472,7 @@ Gets the maximum width allowed by the control in pixels
 
 > **get** **notRenderable**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:886](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L886)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:886](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L886)
 
 Gets or sets a boolean indicating if the control can be rendered
 
@@ -2484,7 +2484,7 @@ Gets or sets a boolean indicating if the control can be rendered
 
 > **set** **notRenderable**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:890](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L890)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:890](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L890)
 
 ##### Parameters
 
@@ -2508,7 +2508,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:890](h
 
 > **get** **onFocusSelectAll**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L159)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L159)
 
 Gets or sets a boolean indicating whether to select complete text by default on input focus
 
@@ -2520,7 +2520,7 @@ Gets or sets a boolean indicating whether to select complete text by default on 
 
 > **set** **onFocusSelectAll**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L163)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L163)
 
 ##### Parameters
 
@@ -2544,7 +2544,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:163]
 
 > **get** **outlineColor**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L82)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L82)
 
 Gets or sets outlineColor of the text to display
 
@@ -2556,7 +2556,7 @@ Gets or sets outlineColor of the text to display
 
 > **set** **outlineColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L86)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L86)
 
 ##### Parameters
 
@@ -2580,7 +2580,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:86](
 
 > **get** **outlineWidth**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L67)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L67)
 
 Gets or sets outlineWidth of the text to display
 
@@ -2592,7 +2592,7 @@ Gets or sets outlineWidth of the text to display
 
 > **set** **outlineWidth**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L71)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L71)
 
 ##### Parameters
 
@@ -2616,7 +2616,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:71](
 
 > **get** **paddingBottom**(): `string` \| `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1068](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1068)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1068](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1068)
 
 Gets or sets a value indicating the padding to use on the bottom of the control
 
@@ -2632,7 +2632,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#position-and-size
 
 > **set** **paddingBottom**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1072](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1072)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1072](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1072)
 
 ##### Parameters
 
@@ -2656,7 +2656,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1072](
 
 > **get** **paddingBottomInPixels**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1082](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1082)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1082](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1082)
 
 Gets or sets a value indicating the padding in pixels to use on the bottom of the control
 
@@ -2672,7 +2672,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#position-and-size
 
 > **set** **paddingBottomInPixels**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1086](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1086)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1086](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1086)
 
 ##### Parameters
 
@@ -2696,7 +2696,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1086](
 
 > **get** **paddingLeft**(): `string` \| `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:951](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L951)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:951](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L951)
 
 Gets or sets a value indicating the padding to use on the left of the control
 
@@ -2712,7 +2712,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#position-and-size
 
 > **set** **paddingLeft**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:955](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L955)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:955](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L955)
 
 ##### Parameters
 
@@ -2736,7 +2736,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:955](h
 
 > **get** **paddingLeftInPixels**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:965](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L965)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:965](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L965)
 
 Gets or sets a value indicating the padding in pixels to use on the left of the control
 
@@ -2752,7 +2752,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#position-and-size
 
 > **set** **paddingLeftInPixels**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:969](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L969)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:969](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L969)
 
 ##### Parameters
 
@@ -2776,7 +2776,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:969](h
 
 > **get** **paddingRight**(): `string` \| `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:990](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L990)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:990](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L990)
 
 Gets or sets a value indicating the padding to use on the right of the control
 
@@ -2792,7 +2792,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#position-and-size
 
 > **set** **paddingRight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:994](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L994)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:994](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L994)
 
 ##### Parameters
 
@@ -2816,7 +2816,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:994](h
 
 > **get** **paddingRightInPixels**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1004](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1004)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1004](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1004)
 
 Gets or sets a value indicating the padding in pixels to use on the right of the control
 
@@ -2832,7 +2832,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#position-and-size
 
 > **set** **paddingRightInPixels**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1008](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1008)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1008](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1008)
 
 ##### Parameters
 
@@ -2856,7 +2856,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1008](
 
 > **get** **paddingTop**(): `string` \| `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1029](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1029)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1029](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1029)
 
 Gets or sets a value indicating the padding to use on the top of the control
 
@@ -2872,7 +2872,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#position-and-size
 
 > **set** **paddingTop**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1033](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1033)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1033](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1033)
 
 ##### Parameters
 
@@ -2896,7 +2896,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1033](
 
 > **get** **paddingTopInPixels**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1043](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1043)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1043](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1043)
 
 Gets or sets a value indicating the padding in pixels to use on the top of the control
 
@@ -2912,7 +2912,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#position-and-size
 
 > **set** **paddingTopInPixels**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1047](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1047)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1047](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1047)
 
 ##### Parameters
 
@@ -2936,7 +2936,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1047](
 
 > **get** **placeholderColor**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:279](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L279)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:279](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L279)
 
 Gets or sets the placeholder color
 
@@ -2948,7 +2948,7 @@ Gets or sets the placeholder color
 
 > **set** **placeholderColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:283](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L283)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L283)
 
 ##### Parameters
 
@@ -2972,7 +2972,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:283]
 
 > **get** **placeholderText**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:294](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L294)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:294](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L294)
 
 Gets or sets the text displayed when the control is empty
 
@@ -2984,7 +2984,7 @@ Gets or sets the text displayed when the control is empty
 
 > **set** **placeholderText**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:298](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L298)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L298)
 
 ##### Parameters
 
@@ -3008,7 +3008,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:298]
 
 > **get** **rotation**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:528](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L528)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:528](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L528)
 
 Gets or sets the rotation angle (0 by default)
 
@@ -3024,7 +3024,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#rotation-and-scaling
 
 > **set** **rotation**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:532](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L532)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:532](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L532)
 
 ##### Parameters
 
@@ -3048,7 +3048,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:532](h
 
 > **get** **scaleX**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:492](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L492)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:492](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L492)
 
 Gets or sets a value indicating the scale factor on X axis (1 by default)
 
@@ -3064,7 +3064,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#rotation-and-scaling
 
 > **set** **scaleX**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:496](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L496)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:496](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L496)
 
 ##### Parameters
 
@@ -3088,7 +3088,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:496](h
 
 > **get** **scaleY**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:510](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L510)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:510](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L510)
 
 Gets or sets a value indicating the scale factor on Y axis (1 by default)
 
@@ -3104,7 +3104,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#rotation-and-scaling
 
 > **set** **scaleY**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:514](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L514)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:514](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L514)
 
 ##### Parameters
 
@@ -3128,7 +3128,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:514](h
 
 > **get** **shadowBlur**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:263](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L263)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:263](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L263)
 
 Gets or sets a value indicating the amount of blur to use to render the shadow
 
@@ -3140,7 +3140,7 @@ Gets or sets a value indicating the amount of blur to use to render the shadow
 
 > **set** **shadowBlur**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:267](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L267)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:267](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L267)
 
 ##### Parameters
 
@@ -3164,7 +3164,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:267](h
 
 > **get** **shadowColor**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:281](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L281)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:281](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L281)
 
 Gets or sets a value indicating the color of the shadow (black by default ie. "#000")
 
@@ -3176,7 +3176,7 @@ Gets or sets a value indicating the color of the shadow (black by default ie. "#
 
 > **set** **shadowColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:285](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L285)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:285](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L285)
 
 ##### Parameters
 
@@ -3200,7 +3200,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:285](h
 
 > **get** **shadowOffsetX**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:230](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L230)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:230](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L230)
 
 Gets or sets a value indicating the offset in pixels to apply on X axis to render the shadow
 
@@ -3212,7 +3212,7 @@ Gets or sets a value indicating the offset in pixels to apply on X axis to rende
 
 > **set** **shadowOffsetX**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:234](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L234)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:234](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L234)
 
 ##### Parameters
 
@@ -3236,7 +3236,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:234](h
 
 > **get** **shadowOffsetY**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:246](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L246)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:246](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L246)
 
 Gets or sets a value indicating the offset in pixels to apply on Y axis to render the shadow
 
@@ -3248,7 +3248,7 @@ Gets or sets a value indicating the offset in pixels to apply on Y axis to rende
 
 > **set** **shadowOffsetY**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:250](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L250)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:250](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L250)
 
 ##### Parameters
 
@@ -3272,7 +3272,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:250](h
 
 > **get** **style**(): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`Style`](Style.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:774](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L774)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:774](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L774)
 
 Gets or sets style
 
@@ -3288,7 +3288,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#styles
 
 > **set** **style**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:778](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L778)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:778](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L778)
 
 ##### Parameters
 
@@ -3312,7 +3312,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:778](h
 
 > **get** **text**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:348](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L348)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:348](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L348)
 
 Gets or sets the text displayed in the control
 
@@ -3324,7 +3324,7 @@ Gets or sets the text displayed in the control
 
 > **set** **text**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:352](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L352)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:352](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L352)
 
 ##### Parameters
 
@@ -3348,7 +3348,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:352]
 
 > **get** **textHighlightColor**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:174](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L174)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L174)
 
 Gets or sets the text hightlight color
 
@@ -3360,7 +3360,7 @@ Gets or sets the text hightlight color
 
 > **set** **textHighlightColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L178)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L178)
 
 ##### Parameters
 
@@ -3384,7 +3384,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:178]
 
 > **get** **thickness**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:224](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L224)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:224](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L224)
 
 Gets or sets border thickness
 
@@ -3396,7 +3396,7 @@ Gets or sets border thickness
 
 > **set** **thickness**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:228](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L228)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L228)
 
 ##### Parameters
 
@@ -3420,7 +3420,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:228]
 
 > **get** **top**(): `string` \| `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1137)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1137)
 
 Gets or sets a value indicating the top coordinate of the control
 
@@ -3436,7 +3436,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#position-and-size
 
 > **set** **top**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1141)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1141)
 
 ##### Parameters
 
@@ -3460,7 +3460,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1141](
 
 > **get** **topInPixels**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1151)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1151)
 
 Gets or sets a value indicating the top coordinate in pixels of the control
 
@@ -3476,7 +3476,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#position-and-size
 
 > **set** **topInPixels**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1155)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1155)
 
 ##### Parameters
 
@@ -3500,7 +3500,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1155](
 
 > **get** **transformCenterX**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:564](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L564)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:564](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L564)
 
 Gets or sets the transformation center on X axis (0 by default)
 
@@ -3516,7 +3516,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#rotation-and-scaling
 
 > **set** **transformCenterX**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:568](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L568)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:568](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L568)
 
 ##### Parameters
 
@@ -3540,7 +3540,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:568](h
 
 > **get** **transformCenterY**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:546](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L546)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:546](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L546)
 
 Gets or sets the transformation center on Y axis (0 by default)
 
@@ -3556,7 +3556,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#rotation-and-scaling
 
 > **set** **transformCenterY**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:550](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L550)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:550](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L550)
 
 ##### Parameters
 
@@ -3580,7 +3580,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:550](h
 
 > **get** **transformedMeasure**(): [`Measure`](Measure.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L165)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L165)
 
 Gets the transformed measure, that is the bounding box of the control after applying all transformations
 
@@ -3600,7 +3600,7 @@ Gets the transformed measure, that is the bounding box of the control after appl
 
 > **get** **typeName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:306](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L306)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:306](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L306)
 
 Gets the control type name
 
@@ -3620,7 +3620,7 @@ Gets the control type name
 
 > **get** **verticalAlignment**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:601](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L601)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:601](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L601)
 
 Gets or sets the vertical alignment
 
@@ -3636,7 +3636,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#alignments
 
 > **set** **verticalAlignment**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:605](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L605)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:605](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L605)
 
 ##### Parameters
 
@@ -3660,7 +3660,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:605](h
 
 > **get** **width**(): `string` \| `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:381](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L381)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:381](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L381)
 
 Gets or sets control width
 
@@ -3672,7 +3672,7 @@ Gets or sets control width
 
 > **set** **width**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:385](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L385)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:385](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L385)
 
 Gets or sets control width
 
@@ -3702,7 +3702,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#position-and-size
 
 > **get** **widthInPixels**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:678](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L678)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:678](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L678)
 
 Gets or sets the control width in pixel
 
@@ -3718,7 +3718,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#position-and-size
 
 > **set** **widthInPixels**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:682](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L682)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:682](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L682)
 
 ##### Parameters
 
@@ -3742,7 +3742,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:682](h
 
 > **get** **zIndex**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:868](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L868)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:868](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L868)
 
 Gets or sets z index which is used to reorder controls on the z axis
 
@@ -3754,7 +3754,7 @@ Gets or sets z index which is used to reorder controls on the z axis
 
 > **set** **zIndex**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:872](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L872)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:872](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L872)
 
 ##### Parameters
 
@@ -3778,7 +3778,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:872](h
 
 > **get** `static` **HORIZONTAL\_ALIGNMENT\_CENTER**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2799](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L2799)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2799](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L2799)
 
 HORIZONTAL_ALIGNMENT_CENTER
 
@@ -3798,7 +3798,7 @@ HORIZONTAL_ALIGNMENT_CENTER
 
 > **get** `static` **HORIZONTAL\_ALIGNMENT\_LEFT**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2789](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L2789)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2789](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L2789)
 
 HORIZONTAL_ALIGNMENT_LEFT
 
@@ -3818,7 +3818,7 @@ HORIZONTAL_ALIGNMENT_LEFT
 
 > **get** `static` **HORIZONTAL\_ALIGNMENT\_RIGHT**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2794](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L2794)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2794](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L2794)
 
 HORIZONTAL_ALIGNMENT_RIGHT
 
@@ -3838,7 +3838,7 @@ HORIZONTAL_ALIGNMENT_RIGHT
 
 > **get** `static` **VERTICAL\_ALIGNMENT\_BOTTOM**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2809](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L2809)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2809](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L2809)
 
 VERTICAL_ALIGNMENT_BOTTOM
 
@@ -3858,7 +3858,7 @@ VERTICAL_ALIGNMENT_BOTTOM
 
 > **get** `static` **VERTICAL\_ALIGNMENT\_CENTER**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2814](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L2814)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2814](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L2814)
 
 VERTICAL_ALIGNMENT_CENTER
 
@@ -3878,7 +3878,7 @@ VERTICAL_ALIGNMENT_CENTER
 
 > **get** `static` **VERTICAL\_ALIGNMENT\_TOP**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2804](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L2804)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2804](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L2804)
 
 VERTICAL_ALIGNMENT_TOP
 
@@ -3896,7 +3896,7 @@ VERTICAL_ALIGNMENT_TOP
 
 > **\_onPointerPick**(`target`, `coordinates`, `pointerId`, `buttonIndex`, `notifyClick`, `pi`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2429](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L2429)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2429](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L2429)
 
 #### Parameters
 
@@ -3938,7 +3938,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2429](
 
 > **blur**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1387](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1387)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1387](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1387)
 
 Function to unfocus a button programmatically
 
@@ -3956,7 +3956,7 @@ Function to unfocus a button programmatically
 
 > **clone**(`host?`): [`Control`](Control.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2602](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L2602)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2602](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L2602)
 
 Clones a control and its descendants
 
@@ -3984,7 +3984,7 @@ the cloned control
 
 > **contains**(`x`, `y`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2257](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L2257)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2257](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L2257)
 
 Tests if a given coordinates belong to the current control
 
@@ -4018,7 +4018,7 @@ true if the coordinates are inside the control
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:1140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L1140)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:1140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L1140)
 
 Releases associated resources
 
@@ -4036,7 +4036,7 @@ Releases associated resources
 
 > **focus**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1380](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1380)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1380](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1380)
 
 Function to focus a button programmatically
 
@@ -4054,7 +4054,7 @@ Function to focus a button programmatically
 
 > **getAscendantOfClass**(`className`): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`Control`](Control.md)\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1424](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1424)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1424](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1424)
 
 Gets the first ascendant in the hierarchy of the given type
 
@@ -4082,7 +4082,7 @@ the ascendant or null if not found
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:314](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L314)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:314](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L314)
 
 Get the current class name of the control.
 
@@ -4102,7 +4102,7 @@ current class name
 
 > **getDescendants**(`directDescendantsOnly?`, `predicate?`): [`Control`](Control.md)[]
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1555](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1555)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1555](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1555)
 
 Will return all controls that have this control as ascendant
 
@@ -4136,7 +4136,7 @@ all child controls
 
 > **getDescendantsToRef**(`results`, `directDescendantsOnly?`, `predicate?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1545](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1545)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1545](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1545)
 
 Will store all controls that have this control as ascendant in a given array
 
@@ -4174,7 +4174,7 @@ defines an optional predicate that will be called on every evaluated child, the 
 
 > **getDimension**(`dim`): [`ValueAndUnit`](ValueAndUnit.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2589](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L2589)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2589](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L2589)
 
 Gets the dimension of the control along a specified axis
 
@@ -4202,7 +4202,7 @@ the dimension value along the specified axis
 
 > **getLocalCoordinates**(`globalCoordinates`): [`Vector2`](../../../core/src/classes/Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1479](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1479)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1479](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1479)
 
 Gets coordinates in local control space
 
@@ -4230,7 +4230,7 @@ the new coordinates in local space
 
 > **getLocalCoordinatesToRef**(`globalCoordinates`, `result`): [`Control`](Control.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1493](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1493)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1493](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1493)
 
 Gets coordinates in local control space
 
@@ -4264,7 +4264,7 @@ the current control
 
 > **getParentLocalCoordinates**(`globalCoordinates`): [`Vector2`](../../../core/src/classes/Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1504](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1504)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1504](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1504)
 
 Gets coordinates in parent local control space
 
@@ -4292,7 +4292,7 @@ the new coordinates in parent local space
 
 > **isAscendant**(`container`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1462](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1462)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1462](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1462)
 
 Determines if a container is an ascendant of the current control
 
@@ -4320,7 +4320,7 @@ true if the container is one of the ascendant of the control
 
 > **isDimensionFullyDefined**(`dim`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2580](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L2580)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2580](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L2580)
 
 A control has a dimension fully defined if that dimension doesn't depend on the parent's dimension.
 As an example, a control that has dimensions in pixels is fully defined, while in percentage is not fully defined.
@@ -4349,7 +4349,7 @@ if the dimension is fully defined
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2889](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L2889)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2889](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L2889)
 
 Returns true if the control is ready to be used
 
@@ -4367,7 +4367,7 @@ Returns true if the control is ready to be used
 
 > **keepsFocusWith**(): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`Control`](Control.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:504](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L504)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:504](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L504)
 
 Function called to get the list of controls that should not steal the focus from this control
 
@@ -4387,7 +4387,7 @@ an array of controls
 
 > **linkWithMesh**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1568](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1568)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1568](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1568)
 
 Link current control with a target mesh
 
@@ -4417,7 +4417,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#tracking-positions
 
 > **markAllAsDirty**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1447](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1447)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1447](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1447)
 
 Mark the element and its children as dirty
 
@@ -4435,7 +4435,7 @@ Mark the element and its children as dirty
 
 > **markAsDirty**(`force?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1440](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1440)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1440](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1440)
 
 Mark control element as dirty
 
@@ -4461,7 +4461,7 @@ force non visible elements to be marked too
 
 > **moveToVector3**(`position`, `scene`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1518](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1518)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1518](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1518)
 
 Move the current control to a vector3 position projected onto the screen.
 
@@ -4493,7 +4493,7 @@ defines the hosting scene
 
 > **parse**(`serializedObject`, `host?`, `urlRewriter?`): [`Control`](Control.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2619](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L2619)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2619](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L2619)
 
 Parses a serialized object into this control
 
@@ -4533,7 +4533,7 @@ this control
 
 > **processKeyboard**(`evt`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:838](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L838)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:838](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L838)
 
 Handles the keyboard event
 
@@ -4559,7 +4559,7 @@ Defines the KeyboardEvent
 
 > **selectAllText**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:823](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/inputText.ts#L823)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/inputText.ts:823](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/inputText.ts#L823)
 
 Allow the user to select all text
 
@@ -4577,7 +4577,7 @@ Allow the user to select all text
 
 > **serialize**(`serializationObject`, `force?`, `allowCanvas?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2636](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L2636)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2636](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L2636)
 
 Serializes the current control
 
@@ -4615,7 +4615,7 @@ defines if the control is allowed to use a Canvas2D object to serialize (true by
 
 > **setPadding**(`paddingTop`, `paddingRight?`, `paddingBottom?`, `paddingLeft?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1601](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1601)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1601](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1601)
 
 Shorthand function to set the top, right, bottom, and left padding values on the control.
 
@@ -4663,7 +4663,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#position-and-size
 
 > **setPaddingInPixels**(`paddingTop`, `paddingRight?`, `paddingBottom?`, `paddingLeft?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1621](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L1621)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:1621](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L1621)
 
 Shorthand funtion to set the top, right, bottom, and left padding values in pixels on the control.
 
@@ -4711,7 +4711,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#position-and-size
 
 > `static` **Parse**(`serializedObject`, `host`, `urlRewriter?`): [`Control`](Control.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2846](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/control.ts#L2846)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/control.ts:2846](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/control.ts#L2846)
 
 Creates a Control from parsed data
 

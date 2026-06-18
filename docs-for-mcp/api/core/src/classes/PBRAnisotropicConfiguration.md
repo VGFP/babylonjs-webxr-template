@@ -6,7 +6,7 @@
 
 # Class: PBRAnisotropicConfiguration
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L34)
 
 Plugin that implements the anisotropic component of the PBR material
 
@@ -20,7 +20,7 @@ Plugin that implements the anisotropic component of the PBR material
 
 > **new PBRAnisotropicConfiguration**(`material`, `addToPluginList?`): `PBRAnisotropicConfiguration`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L116)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropic
 
 > **direction**: [`Vector2`](Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L54)
 
 Defines if the effect is along the tangents, bitangents or in between.
 By default, the effect is "stretching" the highlights along the tangents.
@@ -57,7 +57,7 @@ By default, the effect is "stretching" the highlights along the tangents.
 
 > **doNotSerialize**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L56)
 
 Specifies if the material plugin should be serialized, `true` to skip serialization
 
@@ -71,7 +71,7 @@ Specifies if the material plugin should be serialized, `true` to skip serializat
 
 > **intensity**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L47)
 
 Defines the anisotropy strength (between 0 and 1) it defaults to 1.
 
@@ -81,7 +81,7 @@ Defines the anisotropy strength (between 0 and 1) it defaults to 1.
 
 > **isEnabled**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L41)
 
 Defines if the anisotropy is enabled in the material.
 
@@ -91,7 +91,7 @@ Defines if the anisotropy is enabled in the material.
 
 > **legacy**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L88)
 
 Defines if the anisotropy is in legacy mode for backwards compatibility before 6.4.0.
 
@@ -101,7 +101,7 @@ Defines if the anisotropy is in legacy mode for backwards compatibility before 6
 
 > `readonly` **markAllDefinesAsDirty**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L85)
 
 Helper function to mark defines as being dirty.
 
@@ -119,7 +119,7 @@ Helper function to mark defines as being dirty.
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L33)
 
 Defines the name of the plugin
 
@@ -133,7 +133,7 @@ Defines the name of the plugin
 
 > **priority**: `number` = `500`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L39)
 
 Defines the priority of the plugin. Lower numbers run first.
 
@@ -147,7 +147,7 @@ Defines the priority of the plugin. Lower numbers run first.
 
 > **registerForExtraEvents**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L51)
 
 Indicates that this plugin should be notified for the extra events (HasRenderTargetTextures / FillRenderTargetTextures / HardBindForSubMesh)
 
@@ -161,7 +161,7 @@ Indicates that this plugin should be notified for the extra events (HasRenderTar
 
 > **resolveIncludes**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L45)
 
 Indicates that any #include directive in the plugin code must be replaced by the corresponding code.
 
@@ -175,7 +175,7 @@ Indicates that any #include directive in the plugin code must be replaced by the
 
 > **texture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L80)
 
 Stores the anisotropy values in a texture.
 rg is direction (like normal from -1 to 1)
@@ -189,7 +189,7 @@ b is a intensity
 
 > **get** **angle**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L68)
 
 Gets the anisotropy angle value in radians.
 
@@ -203,7 +203,7 @@ the anisotropy angle value in radians.
 
 > **set** **angle**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L59)
 
 Sets the anisotropy direction as an angle.
 
@@ -223,7 +223,7 @@ Sets the anisotropy direction as an angle.
 
 > **addFallbacks**(`defines`, `fallbacks`, `currentRank`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:227](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L227)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L261)
 
 Add fallbacks to the effect fallbacks list.
 
@@ -263,9 +263,9 @@ the new fallback rank.
 
 > **bindForSubMesh**(`uniformBuffer`, `scene`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L170)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L187)
 
-Binds the material data.
+Binds anisotropy data for a sub mesh.
 
 #### Parameters
 
@@ -273,9 +273,13 @@ Binds the material data.
 
 [`UniformBuffer`](UniformBuffer.md)
 
+defines the uniform buffer to update
+
 ##### scene
 
 [`Scene`](Scene.md)
+
+defines the scene to use for texture binding
 
 #### Returns
 
@@ -291,7 +295,7 @@ Binds the material data.
 
 > **collectDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L183)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L185)
 
 Collects all defines.
 
@@ -315,7 +319,7 @@ The object to append to.
 
 > **copyTo**(`plugin`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:300](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L300)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L302)
 
 Makes a duplicate of the current configuration into another one.
 
@@ -341,15 +345,17 @@ define the config where to copy the info
 
 > **dispose**(`forceDisposeTextures?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:215](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L215)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:249](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L249)
 
-Disposes the resources of the material.
+Disposes the anisotropy textures.
 
 #### Parameters
 
 ##### forceDisposeTextures?
 
 `boolean`
+
+defines whether to dispose the textures
 
 #### Returns
 
@@ -365,7 +371,7 @@ Disposes the resources of the material.
 
 > **fillRenderTargetTextures**(`_renderTargets`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:237](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L237)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L239)
 
 Fills the list of render target textures.
 
@@ -391,15 +397,17 @@ the list of render targets to update
 
 > **getActiveTextures**(`activeTextures`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:203](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L203)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L229)
 
-Returns an array of the actively used textures.
+Adds the active anisotropy textures.
 
 #### Parameters
 
 ##### activeTextures
 
 [`BaseTexture`](BaseTexture.md)[]
+
+defines the list of active textures to update
 
 #### Returns
 
@@ -415,15 +423,17 @@ Returns an array of the actively used textures.
 
 > **getAnimatables**(`animatables`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:209](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L209)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L239)
 
-Returns the animatable textures.
+Adds the animatable anisotropy textures.
 
 #### Parameters
 
 ##### animatables
 
 [`IAnimatable`](../interfaces/IAnimatable.md)[]
+
+defines the list of animatables to update
 
 #### Returns
 
@@ -439,7 +449,7 @@ Returns the animatable textures.
 
 > **getAttributes**(`_attributes`, `_scene`, `_mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:274](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L274)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L276)
 
 Gets the attributes used by the plugin.
 
@@ -477,7 +487,7 @@ the mesh being rendered.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:223](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L223)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:257](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L257)
 
 Gets the current class name useful for serialization or dynamic coding.
 
@@ -497,7 +507,7 @@ The class name.
 
 > **getCustomCode**(`_shaderType`, `_shaderLanguage?`): [`Nullable`](../type-aliases/Nullable.md)\<\{\[`pointName`: `string`\]: `string`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:175](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L175)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L177)
 
 Returns a list of custom shader code fragments to customize the shader.
 
@@ -534,15 +544,17 @@ replaced by the code provided.
 
 > **getSamplers**(`samplers`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:234](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L234)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:272](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L272)
 
-Gets the samplers used by the plugin.
+Adds the anisotropy sampler names.
 
 #### Parameters
 
 ##### samplers
 
 `string`[]
+
+defines the list of sampler names to update
 
 #### Returns
 
@@ -558,7 +570,7 @@ Gets the samplers used by the plugin.
 
 > **getUniformBuffersNames**(`_ubos`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:280](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L280)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L282)
 
 Gets the uniform buffers names added by the plugin.
 
@@ -584,7 +596,7 @@ list that the ubo names should be added to.
 
 > **getUniforms**(): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:238](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L238)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L276)
 
 Gets the description of the uniforms to add to the ubo (if engine supports ubos) or to inject directly in the vertex/fragment shaders (if engine does not support ubos)
 
@@ -616,7 +628,7 @@ the description of the uniforms
 
 > **hardBindForSubMesh**(`_uniformBuffer`, `_scene`, `_engine`, `_subMesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:149](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L149)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L151)
 
 Binds the material data (this function is called even if mustRebind() returns false)
 
@@ -660,7 +672,7 @@ the submesh to bind data for
 
 > **hasRenderTargetTextures**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:229](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L229)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L231)
 
 Gets a boolean indicating that current material needs to register RTT
 
@@ -680,9 +692,9 @@ true if this uses a render target otherwise false.
 
 > **hasTexture**(`texture`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L195)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L217)
 
-Checks to see if a texture is used in the material.
+Checks whether anisotropy uses a texture.
 
 #### Parameters
 
@@ -690,11 +702,13 @@ Checks to see if a texture is used in the material.
 
 [`BaseTexture`](BaseTexture.md)
 
+defines the texture to check
+
 #### Returns
 
 `boolean`
 
-- Boolean specifying if a texture is used in the material.
+true if the texture is used by anisotropy
 
 #### Overrides
 
@@ -706,7 +720,7 @@ Checks to see if a texture is used in the material.
 
 > **isCompatible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L112)
 
 Gets a boolean indicating that the plugin is compatible with a given shader language.
 
@@ -726,9 +740,9 @@ true if the plugin is compatible with the shader language
 
 > **isReadyForSubMesh**(`defines`, `scene`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L129)
 
-Specifies that the submesh is ready to be used.
+Checks whether the anisotropy textures are ready for the sub mesh.
 
 #### Parameters
 
@@ -736,15 +750,19 @@ Specifies that the submesh is ready to be used.
 
 `MaterialAnisotropicDefines`
 
+defines the material defines to inspect
+
 ##### scene
 
 [`Scene`](Scene.md)
+
+defines the scene to use for readiness checks
 
 #### Returns
 
 `boolean`
 
-- boolean indicating that the submesh is ready or not.
+true if anisotropy is ready
 
 #### Overrides
 
@@ -756,7 +774,7 @@ Specifies that the submesh is ready to be used.
 
 > **parse**(`source`, `scene`, `rootUrl`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:254](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L254)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:292](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L292)
 
 Parses a anisotropy Configuration from a serialized object.
 
@@ -794,7 +812,7 @@ Defines the rootUrl to load from
 
 > **prepareDefines**(`_defines`, `_scene`, `_mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:214](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L214)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L216)
 
 Sets the defines for the next rendering
 
@@ -832,9 +850,9 @@ the mesh being rendered
 
 > **prepareDefinesBeforeAttributes**(`defines`, `scene`, `mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrAnisotropicConfiguration.ts#L153)
 
-Sets the defines for the next rendering. Called before PrepareDefinesForAttributes is called.
+Updates shader defines for anisotropy before attributes are processed.
 
 #### Parameters
 
@@ -842,13 +860,19 @@ Sets the defines for the next rendering. Called before PrepareDefinesForAttribut
 
 `MaterialAnisotropicDefines`
 
+defines the material defines to update
+
 ##### scene
 
 [`Scene`](Scene.md)
 
+defines the scene to use for texture checks
+
 ##### mesh
 
 [`AbstractMesh`](AbstractMesh.md)
+
+defines the mesh to inspect for tangent data
 
 #### Returns
 
@@ -864,7 +888,7 @@ Sets the defines for the next rendering. Called before PrepareDefinesForAttribut
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.ts:308](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialPluginBase.ts#L308)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L310)
 
 Serializes this plugin configuration.
 

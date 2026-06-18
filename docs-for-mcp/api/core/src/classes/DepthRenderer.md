@@ -6,7 +6,7 @@
 
 # Class: DepthRenderer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRenderer.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRenderer.pure.ts#L32)
 
 This represents a depth renderer in Babylon.
 A depth renderer will render to it's depth map every frame which can be displayed or used in post processing
@@ -17,7 +17,7 @@ A depth renderer will render to it's depth map every frame which can be displaye
 
 > **new DepthRenderer**(`scene`, `type?`, `camera?`, `storeNonLinearDepth?`, `samplingMode?`, `storeCameraSpaceZ?`, `name?`, `existingRenderTargetTexture?`): `DepthRenderer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRenderer.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.pure.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRenderer.pure.ts#L152)
 
 Instantiates a depth renderer
 
@@ -81,7 +81,7 @@ An existing render target texture to use (default: undefined). If not provided, 
 
 > **clearColor**: [`Color4`](Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRenderer.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRenderer.pure.ts#L55)
 
 Color used to clear the depth texture. Default: (1,0,0,1)
 
@@ -91,7 +91,7 @@ Color used to clear the depth texture. Default: (1,0,0,1)
 
 > **enabled**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRenderer.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRenderer.pure.ts#L63)
 
 Enable or disable the depth renderer. When disabled, the depth texture is not updated
 
@@ -101,7 +101,7 @@ Enable or disable the depth renderer. When disabled, the depth texture is not up
 
 > **forceDepthWriteTransparentMeshes**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRenderer.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.pure.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRenderer.pure.ts#L66)
 
 Force writing the transparent objects into the depth map
 
@@ -111,7 +111,7 @@ Force writing the transparent objects into the depth map
 
 > `readonly` **isPacked**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRenderer.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.pure.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRenderer.pure.ts#L58)
 
 Get if the depth renderer is using packed depth or not
 
@@ -121,7 +121,7 @@ Get if the depth renderer is using packed depth or not
 
 > **reverseCulling**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRenderer.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.pure.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRenderer.pure.ts#L98)
 
 If true, reverse the culling of materials before writing to the depth texture.
 So, basically, when "true", back facing instead of front facing faces are rasterized into the texture
@@ -132,7 +132,7 @@ So, basically, when "true", back facing instead of front facing faces are raster
 
 > **useOnlyInActiveCamera**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRenderer.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.pure.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRenderer.pure.ts#L93)
 
 Specifies that the depth renderer will only be used within
 the camera it is created for.
@@ -144,7 +144,7 @@ This can help forcing its rendering during the camera processing.
 
 > `static` **ForceGLSL**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRenderer.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRenderer.pure.ts#L52)
 
 Force all the depth renderer to compile to glsl even on WebGPU engines.
 False by default. This is mostly meant for backward compatibility.
@@ -157,7 +157,7 @@ False by default. This is mostly meant for backward compatibility.
 
 > **get** **alphaBlendedDepth**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRenderer.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRenderer.pure.ts#L76)
 
 Enable or disable the alpha blending for depth rendering. When enabled,
 the depth renderer will blend the depth values with the alpha values of
@@ -171,7 +171,7 @@ the transparent objects.
 
 > **set** **alphaBlendedDepth**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRenderer.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.pure.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRenderer.pure.ts#L79)
 
 ##### Parameters
 
@@ -191,7 +191,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.ts:7
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRenderer.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.pure.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRenderer.pure.ts#L44)
 
 Gets the shader language used in this material.
 
@@ -205,7 +205,7 @@ Gets the shader language used in this material.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.ts:676](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRenderer.ts#L676)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.pure.ts:678](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRenderer.pure.ts#L678)
 
 Disposes of the depth renderer.
 
@@ -219,7 +219,7 @@ Disposes of the depth renderer.
 
 > **getDepthMap**(): [`RenderTargetTexture`](RenderTargetTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.ts:669](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRenderer.ts#L669)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.pure.ts:671](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRenderer.pure.ts#L671)
 
 Gets the texture which the depth map will be written to.
 
@@ -235,7 +235,7 @@ The depth map texture
 
 > **isReady**(`subMesh`, `useInstances`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.ts:467](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRenderer.ts#L467)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.pure.ts:469](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRenderer.pure.ts#L469)
 
 Creates the depth rendering effect and checks if the effect is ready.
 
@@ -265,7 +265,7 @@ if the depth renderer is ready to render the depth map
 
 > **setMaterialForRendering**(`mesh`, `material?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/depthRenderer.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRenderer.pure.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRenderer.pure.ts#L112)
 
 Sets a specific material to be used to render a mesh/a list of meshes by the depth renderer
 

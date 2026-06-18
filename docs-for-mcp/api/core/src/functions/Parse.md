@@ -8,7 +8,7 @@
 
 > **Parse**(`jsonData`, `scene`, `container`, `rootUrl`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/Plugins/babylonFileParser.function.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/Plugins/babylonFileParser.function.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/Plugins/babylonFileParser.function.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/Plugins/babylonFileParser.function.ts#L78)
 
 Parser json data and populate both a scene and its associated container object
 

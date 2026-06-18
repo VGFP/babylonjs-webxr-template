@@ -6,7 +6,7 @@
 
 # Class: AdvancedDynamicTextureInstrumentation
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/adtInstrumentation.ts#L11)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/adtInstrumentation.ts#L11)
 
 This class can be used to get instrumentation data from a AdvancedDynamicTexture object
 
@@ -20,7 +20,7 @@ This class can be used to get instrumentation data from a AdvancedDynamicTexture
 
 > **new AdvancedDynamicTextureInstrumentation**(`texture`): `AdvancedDynamicTextureInstrumentation`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/adtInstrumentation.ts#L104)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/adtInstrumentation.ts#L104)
 
 Instantiates a new advanced dynamic texture instrumentation.
 This class can be used to get instrumentation data from an AdvancedDynamicTexture object
@@ -43,7 +43,7 @@ Defines the AdvancedDynamicTexture to instrument
 
 > **texture**: [`AdvancedDynamicTexture`](AdvancedDynamicTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/adtInstrumentation.ts#L108)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/adtInstrumentation.ts#L108)
 
 Define the instrumented AdvancedDynamicTexture.
 
@@ -55,7 +55,7 @@ Define the instrumented AdvancedDynamicTexture.
 
 > **get** **captureLayoutTime**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/adtInstrumentation.ts#L73)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/adtInstrumentation.ts#L73)
 
 Enable or disable the layout time capture
 
@@ -67,7 +67,7 @@ Enable or disable the layout time capture
 
 > **set** **captureLayoutTime**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/adtInstrumentation.ts#L77)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/adtInstrumentation.ts#L77)
 
 ##### Parameters
 
@@ -87,7 +87,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:77](
 
 > **get** **captureRenderTime**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/adtInstrumentation.ts#L43)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/adtInstrumentation.ts#L43)
 
 Enable or disable the render time capture
 
@@ -99,7 +99,7 @@ Enable or disable the render time capture
 
 > **set** **captureRenderTime**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/adtInstrumentation.ts#L47)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/adtInstrumentation.ts#L47)
 
 ##### Parameters
 
@@ -119,7 +119,7 @@ Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:47](
 
 > **get** **layoutTimeCounter**(): [`PerfCounter`](../../../core/src/classes/PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/adtInstrumentation.ts#L36)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/adtInstrumentation.ts#L36)
 
 Gets the perf counter used to capture layout time
 
@@ -135,7 +135,7 @@ Gets the perf counter used to capture layout time
 
 > **get** **renderTimeCounter**(): [`PerfCounter`](../../../core/src/classes/PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/adtInstrumentation.ts#L29)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/adtInstrumentation.ts#L29)
 
 Gets the perf counter used to capture render time
 
@@ -149,7 +149,7 @@ Gets the perf counter used to capture render time
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/adtInstrumentation.ts#L114)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/adtInstrumentation.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/adtInstrumentation.ts#L114)
 
 Dispose and release associated resources.
 

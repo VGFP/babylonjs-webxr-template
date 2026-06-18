@@ -6,7 +6,7 @@
 
 # Class: WebXRInput
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRInput.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRInput.ts#L50)
 
 XR input used to track XR inputs such as controllers/rays
 
@@ -20,7 +20,7 @@ XR input used to track XR inputs such as controllers/rays
 
 > **new WebXRInput**(`xrSessionManager`, `xrCamera`, `_options?`): `WebXRInput`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRInput.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRInput.ts#L74)
 
 Initializes the WebXRInput
 
@@ -54,7 +54,7 @@ the WebXR camera for this session. Mainly used for teleportation
 
 > **controllers**: [`WebXRInputSource`](WebXRInputSource.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRInput.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRInput.ts#L54)
 
 XR controllers being tracked
 
@@ -64,7 +64,7 @@ XR controllers being tracked
 
 > **onControllerAddedObservable**: [`Observable`](Observable.md)\<[`WebXRInputSource`](WebXRInputSource.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRInput.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRInput.ts#L62)
 
 Event when a controller has been connected/added
 
@@ -74,7 +74,7 @@ Event when a controller has been connected/added
 
 > **onControllerRemovedObservable**: [`Observable`](Observable.md)\<[`WebXRInputSource`](WebXRInputSource.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRInput.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRInput.ts#L66)
 
 Event when a controller has been removed/disconnected
 
@@ -84,7 +84,7 @@ Event when a controller has been removed/disconnected
 
 > **xrCamera**: [`WebXRCamera`](WebXRCamera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRInput.ts#L82)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRInput.ts#L82)
 
 the WebXR camera for this session. Mainly used for teleportation
 
@@ -94,7 +94,7 @@ the WebXR camera for this session. Mainly used for teleportation
 
 > **xrSessionManager**: [`WebXRSessionManager`](WebXRSessionManager.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRInput.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRInput.ts#L78)
 
 the xr session manager for this session
 
@@ -104,7 +104,7 @@ the xr session manager for this session
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:169](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRInput.ts#L169)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRInput.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRInput.ts#L169)
 
 Disposes of the object
 

@@ -6,7 +6,7 @@
 
 # Interface: IGLTFObjectModelTree
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L29)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L29)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 > **animations**: `object`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L34)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L34)
 
 #### \_\_array\_\_
 
@@ -30,7 +30,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 > **cameras**: [`IGLTFObjectModelTreeCamerasObject`](IGLTFObjectModelTreeCamerasObject.md)
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L30)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L30)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 > **extensions**: [`IGLTFObjectModelTreeExtensionsObject`](IGLTFObjectModelTreeExtensionsObject.md)
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L33)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L33)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 > **materials**: [`IGLTFObjectModelTreeMaterialsObject`](IGLTFObjectModelTreeMaterialsObject.md)
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L32)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L32)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 > **meshes**: `object`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L38)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L38)
 
 #### \_\_array\_\_
 
@@ -70,4 +70,4 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 > **nodes**: [`IGLTFObjectModelTreeNodesObject`](IGLTFObjectModelTreeNodesObject.md)
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L31)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L31)

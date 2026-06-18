@@ -8,7 +8,7 @@
 
 > **CreateTorusKnot**(`name`, `options?`, `scene?`): [`Mesh`](../classes/Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/torusKnotBuilder.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/torusKnotBuilder.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/torusKnotBuilder.pure.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/torusKnotBuilder.pure.ts#L144)
 
 Creates a torus knot mesh
 * The parameter `radius` sets the global radius size (float) of the torus knot (default 2)

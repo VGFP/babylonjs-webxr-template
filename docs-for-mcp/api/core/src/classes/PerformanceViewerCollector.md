@@ -6,7 +6,7 @@
 
 # Class: PerformanceViewerCollector
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L52)
 
 The collector class handles the collection and storage of data into the appropriate array.
 The collector also handles notifying any observers of any updates.
@@ -17,7 +17,7 @@ The collector also handles notifying any observers of any updates.
 
 > **new PerformanceViewerCollector**(`_scene`, `_enabledStrategyCallbacks?`): `PerformanceViewerCollector`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:94](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L94)
 
 Handles the creation of a performance viewer collector.
 
@@ -45,7 +45,7 @@ the list of data to collect with callbacks for initialization purposes.
 
 > `readonly` **datasetObservable**: [`Observable`](Observable.md)\<`number`[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L69)
 
 An observable you can attach to get deltas in the dataset. Subscribing to this will increase memory consumption slightly, and may hurt performance due to increased garbage collection needed.
 Updates of slices will be of the form [timestamp, numberOfPoints, value1, value2...].
@@ -56,7 +56,7 @@ Updates of slices will be of the form [timestamp, numberOfPoints, value1, value2
 
 > `readonly` **datasets**: [`IPerfDatasets`](../interfaces/IPerfDatasets.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L64)
 
 Datastructure containing the collected datasets. Warning: you should not modify the values in here, data will be of the form [timestamp, numberOfPoints, value1, value2..., timestamp, etc...]
 
@@ -66,7 +66,7 @@ Datastructure containing the collected datasets. Warning: you should not modify 
 
 > `readonly` **metadataObservable**: [`Observable`](Observable.md)\<`Map`\<`string`, [`IPerfMetadata`](../interfaces/IPerfMetadata.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L73)
 
 An observable you can attach to get the most updated map of metadatas.
 
@@ -78,7 +78,7 @@ An observable you can attach to get the most updated map of metadatas.
 
 > **get** **hasLoadedData**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:362](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L362)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:362](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L362)
 
 Accessor which lets the caller know if the performance collector has data loaded from a file or not!
 Call clear() to reset this value.
@@ -97,7 +97,7 @@ true if the data is loaded from a file, false otherwise.
 
 > **get** **isStarted**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:529](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L529)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:529](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L529)
 
 Returns if the perf collector has been started or not.
 
@@ -113,7 +113,7 @@ Returns if the perf collector has been started or not.
 
 > **get** `static` **NumberOfPointsOffset**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L85)
 
 The offset for the value of the number of points inside a slice.
 
@@ -129,7 +129,7 @@ The offset for the value of the number of points inside a slice.
 
 > **get** `static` **SliceDataOffset**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L78)
 
 The offset for when actual data values start appearing inside a slice.
 
@@ -143,7 +143,7 @@ The offset for when actual data values start appearing inside a slice.
 
 > **addCollectionStrategies**(...`strategyCallbacks`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:196](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L196)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L196)
 
 This method adds additional collection strategies for data collection purposes.
 
@@ -165,7 +165,7 @@ the list of data to collect with callbacks.
 
 > **clear**(`preserveStringEventsRestore?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:343](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L343)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:343](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L343)
 
 Completely clear, data, ids, and strategies saved to this performance collector.
 
@@ -187,7 +187,7 @@ if it should preserve the string events, by default will clear string events reg
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:536](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L536)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:536](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L536)
 
 Disposes of the object
 
@@ -201,7 +201,7 @@ Disposes of the object
 
 > **exportDataToCsv**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:464](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L464)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:464](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L464)
 
 Exports the datasets inside of the collector to a csv.
 
@@ -215,7 +215,7 @@ Exports the datasets inside of the collector to a csv.
 
 > **getCurrentSlice**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:298](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L298)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L298)
 
 Collects and then sends the latest slice to any observers by using the appropriate strategy when the user wants.
 The slice will be of the form [timestamp, numberOfPoints, value1, value2...]
@@ -231,7 +231,7 @@ This method does not add onto the collected data accessible via the datasets var
 
 > **loadFromFileData**(`data`, `keepDatasetMeta?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:373](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L373)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:373](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L373)
 
 Given a string containing file data, this function parses the file data into the datasets object.
 It returns a boolean to indicate if this object was successfully loaded with the data.
@@ -262,7 +262,7 @@ true if the data was successfully loaded, false otherwise.
 
 > **registerEvent**(`name`, `forceUpdate?`, `category?`): [`IPerfCustomEvent`](../interfaces/IPerfCustomEvent.md) \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L123)
 
 Registers a custom string event which will be callable via sendEvent. This method returns an event object which will contain the id of the event.
 The user can set a value optionally, which will be used in the sendEvent method. If the value is set, we will record this value at the end of each frame,
@@ -300,7 +300,7 @@ The event registered, used in sendEvent
 
 > **sendEvent**(`event`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L177)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L177)
 
 Lets the perf collector handle an event, occurences or event value depending on if the event.value params is set.
 
@@ -322,7 +322,7 @@ the event to handle an occurence for
 
 > **start**(`shouldPreserve?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:505](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L505)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:505](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L505)
 
 Starts the realtime collection of data.
 
@@ -344,7 +344,7 @@ optional boolean param, if set will preserve the dataset between calls of start.
 
 > **stop**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:521](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L521)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:521](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L521)
 
 Stops the collection of data.
 
@@ -358,7 +358,7 @@ Stops the collection of data.
 
 > **updateMetadata**\<`T`\>(`id`, `prop`, `value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:327](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L327)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts:327](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollector.ts#L327)
 
 Updates a property for a dataset's metadata with the value provided.
 

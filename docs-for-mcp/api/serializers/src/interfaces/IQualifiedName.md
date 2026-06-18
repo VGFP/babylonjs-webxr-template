@@ -6,7 +6,7 @@
 
 # Interface: IQualifiedName
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:4](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L4)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:4](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L4)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L8)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L8)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 > `optional` **ns?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:6](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L6)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L6)

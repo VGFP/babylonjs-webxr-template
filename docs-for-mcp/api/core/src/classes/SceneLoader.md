@@ -6,7 +6,7 @@
 
 # ~~Class: SceneLoader~~
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1588](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1588)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1312](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1312)
 
 Class used to load scene from various file formats using registered plugins
 
@@ -35,7 +35,7 @@ The module level functions are more efficient for bundler tree shaking and allow
 
 > `readonly` `static` **DETAILED\_LOGGING**: `3` = `Constants.SCENELOADER_DETAILED_LOGGING`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1607](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1607)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1331](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1331)
 
 Detailed logging while loading
 
@@ -45,7 +45,7 @@ Detailed logging while loading
 
 > `readonly` `static` **MINIMAL\_LOGGING**: `1` = `Constants.SCENELOADER_MINIMAL_LOGGING`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1597](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1597)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1321](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1321)
 
 Minimal logging while loading
 
@@ -55,7 +55,7 @@ Minimal logging while loading
 
 > `readonly` `static` **NO\_LOGGING**: `0` = `Constants.SCENELOADER_NO_LOGGING`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1592](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1592)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1316](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1316)
 
 No logging while loading
 
@@ -65,7 +65,7 @@ No logging while loading
 
 > `readonly` `static` **OnPluginActivatedObservable**: [`Observable`](Observable.md)\<[`ISceneLoaderPlugin`](../interfaces/ISceneLoaderPlugin.md) \| [`ISceneLoaderPluginAsync`](../interfaces/ISceneLoaderPluginAsync.md)\> = `onPluginActivatedObservable`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1661](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1661)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1385](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1385)
 
 Event raised when a plugin is used to load a scene
 
@@ -75,7 +75,7 @@ Event raised when a plugin is used to load a scene
 
 > `readonly` `static` **SUMMARY\_LOGGING**: `2` = `Constants.SCENELOADER_SUMMARY_LOGGING`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1602](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1602)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1326](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1326)
 
 Summary logging while loading
 
@@ -87,7 +87,7 @@ Summary logging while loading
 
 > **get** `static` **CleanBoneMatrixWeights**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1648](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1648)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1372](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1372)
 
 Gets or set a boolean indicating if matrix weights must be cleaned upon loading
 
@@ -99,7 +99,7 @@ Gets or set a boolean indicating if matrix weights must be cleaned upon loading
 
 > **set** `static` **CleanBoneMatrixWeights**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1652](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1652)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1376](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1376)
 
 ##### Parameters
 
@@ -119,7 +119,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1652]
 
 > **get** `static` **ForceFullSceneLoadingForIncremental**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1612](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1612)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1336](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1336)
 
 Gets or sets a boolean indicating if entire scene must be loaded even if scene contains incremental data
 
@@ -131,7 +131,7 @@ Gets or sets a boolean indicating if entire scene must be loaded even if scene c
 
 > **set** `static` **ForceFullSceneLoadingForIncremental**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1616](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1616)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1340](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1340)
 
 ##### Parameters
 
@@ -151,7 +151,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1616]
 
 > **get** `static` **loggingLevel**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1636](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1636)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1360](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1360)
 
 **`Ignorenaming`**
 
@@ -165,7 +165,7 @@ Defines the current logging level (while loading the scene)
 
 > **set** `static` **loggingLevel**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1641](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1641)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1365](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1365)
 
 ##### Parameters
 
@@ -185,7 +185,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1641]
 
 > **get** `static` **ShowLoadingScreen**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1623](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1623)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1347](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1347)
 
 Gets or sets a boolean indicating if loading screen must be displayed while loading a scene
 
@@ -197,7 +197,7 @@ Gets or sets a boolean indicating if loading screen must be displayed while load
 
 > **set** `static` **ShowLoadingScreen**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1627](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1627)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1351](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1351)
 
 ##### Parameters
 
@@ -215,7 +215,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1627]
 
 > `static` **Append**(`rootUrl`, `sceneFilename?`, `scene?`, `onSuccess?`, `onProgress?`, `onError?`, `pluginExtension?`, `name?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1817](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1817)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1559](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1559)
 
 Append a scene
 
@@ -283,7 +283,7 @@ Please use the module level [AppendSceneAsync](../functions/AppendSceneAsync-1.m
 
 > `static` **AppendAsync**(`rootUrl`, `sceneFilename?`, `scene?`, `onProgress?`, `pluginExtension?`, `name?`): `Promise`\<[`Scene`](Scene.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1844](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1844)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1591](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1591)
 
 Append a scene
 
@@ -341,7 +341,7 @@ Please use the module level [AppendSceneAsync](../functions/AppendSceneAsync-1.m
 
 > `static` **GetDefaultPlugin**(): `IRegisteredPlugin` \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1667](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1667)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1391](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1391)
 
 Gets the default plugin (used to load Babylon files)
 
@@ -357,7 +357,7 @@ the .babylon plugin
 
 > `static` **GetPluginForExtension**(`extension`): [`ISceneLoaderPlugin`](../interfaces/ISceneLoaderPlugin.md) \| [`ISceneLoaderPluginAsync`](../interfaces/ISceneLoaderPluginAsync.md) \| [`ISceneLoaderPluginFactory`](../interfaces/ISceneLoaderPluginFactory.md) \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1678](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1678)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1402](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1402)
 
 Gets a plugin that can load the given extension
 
@@ -381,7 +381,7 @@ a plugin or null if none works
 
 > `static` **ImportAnimations**(`rootUrl`, `sceneFilename?`, `scene?`, `overwriteAnimations?`, `animationGroupLoadingMode?`, `targetConverter?`, `onSuccess?`, `onProgress?`, `onError?`, `pluginExtension?`, `name?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1920](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1920)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1672](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1672)
 
 Import animations from a file into a scene
 
@@ -467,7 +467,7 @@ Please use the module level [ImportAnimationsAsync](../functions/ImportAnimation
 
 > `static` **ImportAnimationsAsync**(`rootUrl`, `sceneFilename?`, `scene?`, `overwriteAnimations?`, `animationGroupLoadingMode?`, `targetConverter?`, `onSuccess?`, `onProgress?`, `onError?`, `pluginExtension?`, `name?`): `Promise`\<[`Scene`](Scene.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1965](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1965)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1712](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1712)
 
 Import animations from a file into a scene
 
@@ -555,7 +555,7 @@ Please use the module level [ImportAnimationsAsync](../functions/ImportAnimation
 
 > `static` **ImportMesh**(`meshNames`, `rootUrl`, `sceneFilename?`, `scene?`, `onSuccess?`, `onProgress?`, `onError?`, `pluginExtension?`, `name?`, `pluginOptions?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1713](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1713)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1437](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1437)
 
 Import meshes into a scene
 
@@ -636,6 +636,26 @@ Defines if the plugin is enabled
 `number`
 
 Defines the loop mode of the animation to load.
+
+###### fbx?
+
+\{ `enabled?`: `boolean`; `normalMapCoordinateSystem?`: [`FBXNormalMapCoordinateSystem`](../../../loaders/src/type-aliases/FBXNormalMapCoordinateSystem.md); \}
+
+Defines options for the FBX loader.
+
+###### fbx.enabled?
+
+`boolean`
+
+Defines if the plugin is enabled
+
+###### fbx.normalMapCoordinateSystem?
+
+[`FBXNormalMapCoordinateSystem`](../../../loaders/src/type-aliases/FBXNormalMapCoordinateSystem.md)
+
+Source convention for tangent-space normal maps connected through FBX normal-map slots.
+FBX does not standardize this convention, so the loader defaults to the glTF/USD-style Y-up convention.
+Set to "y-down" for assets authored with inverted green/Y normal maps.
 
 ###### gltf?
 
@@ -1451,7 +1471,7 @@ Defines custom scaling of UV coordinates of loaded meshes.
 
 ###### splat?
 
-\{ `deflateURL?`: `string`; `disableAutoCameraLimits?`: `boolean`; `enabled?`: `boolean`; `fflate?`: `unknown`; `flipY?`: `boolean`; `gaussianSplattingMesh?`: [`GaussianSplattingMesh`](GaussianSplattingMesh.md); `keepInRam?`: `boolean`; `needsRotationScaleTextures?`: `boolean`; `spzLibraryUrl?`: `string`; \}
+\{ `deflateURL?`: `string`; `disableAutoCameraLimits?`: `boolean`; `enabled?`: `boolean`; `fflate?`: `unknown`; `flipY?`: `boolean`; `gaussianSplattingMesh?`: [`GaussianSplattingMesh`](GaussianSplattingMesh.md); `keepInRam?`: `boolean`; `needsRotationScaleTextures?`: `boolean`; `spzLibraryUrl?`: `string`; `useSogTextures?`: `boolean`; \}
 
 Defines options for the splat loader.
 
@@ -1530,6 +1550,14 @@ Setting the URL directly on the loader options
 spzLibraryUrl: "https://unpkg.com/@adobe/spz@0.2.0/dist/spz.js"
 ```
 
+###### splat.useSogTextures?
+
+`boolean`
+
+Load SOG files as raw GPU textures and dequantize in the shader.
+Skips the CPU decode pass and yields much faster load times.
+Requires WebGL2 / WebGPU. Defaults to false (CPU decode).
+
 ###### stl?
 
 \{ `enabled?`: `boolean`; \}
@@ -1556,7 +1584,7 @@ Please use the module level [ImportMeshAsync](../functions/ImportMeshAsync.md) i
 
 > `static` **ImportMeshAsync**(`meshNames`, `rootUrl`, `sceneFilename?`, `scene?`, `onProgress?`, `pluginExtension?`, `name?`): `Promise`\<[`ISceneLoaderAsyncResult`](../interfaces/ISceneLoaderAsyncResult.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1743](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1743)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1481](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1481)
 
 Import meshes into a scene
 
@@ -1620,7 +1648,7 @@ Please use the module level [ImportMeshAsync](../functions/ImportMeshAsync.md) i
 
 > `static` **IsPluginForExtensionAvailable**(`extension`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1687](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1687)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1411](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1411)
 
 Gets a boolean indicating that the given extension can be loaded
 
@@ -1644,7 +1672,7 @@ true if the extension is supported
 
 > `static` **Load**(`rootUrl`, `sceneFilename?`, `engine?`, `onSuccess?`, `onProgress?`, `onError?`, `pluginExtension?`, `name?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1767](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1767)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1505](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1505)
 
 Load a scene
 
@@ -1712,7 +1740,7 @@ Please use the module level [LoadSceneAsync](../functions/LoadSceneAsync-1.md) i
 
 > `static` **LoadAssetContainer**(`rootUrl`, `sceneFilename?`, `scene?`, `onSuccess?`, `onProgress?`, `onError?`, `pluginExtension?`, `name?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1867](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1867)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1614](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1614)
 
 Load a scene into an asset container
 
@@ -1780,7 +1808,7 @@ Please use the module level [LoadAssetContainerAsync](../functions/LoadAssetCont
 
 > `static` **LoadAssetContainerAsync**(`rootUrl`, `sceneFilename?`, `scene?`, `onProgress?`, `pluginExtension?`, `name?`): `Promise`\<[`AssetContainer`](AssetContainer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1894](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1894)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1646](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1646)
 
 Load a scene into an asset container
 
@@ -1838,7 +1866,7 @@ Please use the module level [LoadAssetContainerAsync](../functions/LoadAssetCont
 
 > `static` **LoadAsync**(`rootUrl`, `sceneFilename?`, `engine?`, `onProgress?`, `pluginExtension?`, `name?`): `Promise`\<[`Scene`](Scene.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1794](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1794)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1536](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1536)
 
 Load a scene
 
@@ -1896,7 +1924,7 @@ Please use the module level [LoadSceneAsync](../functions/LoadSceneAsync-1.md) i
 
 > `static` **RegisterPlugin**(`plugin`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1695](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L1695)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:1419](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L1419)
 
 Adds a new plugin to the list of registered plugins
 

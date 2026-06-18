@@ -6,7 +6,7 @@
 
 # Class: WebXRAnchorSystem
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L101)
 
 An implementation of the anchor system for WebXR.
 For further information see https://github.com/immersive-web/anchors/
@@ -21,7 +21,7 @@ For further information see https://github.com/immersive-web/anchors/
 
 > **new WebXRAnchorSystem**(`_xrSessionManager`, `_options?`): `WebXRAnchorSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L148)
 
 constructs a new anchor system
 
@@ -53,7 +53,7 @@ configuration object for this feature
 
 > `optional` **dependsOn?**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
 
 The dependencies of this feature, if any
 
@@ -67,7 +67,7 @@ The dependencies of this feature, if any
 
 > **disableAutoAttach**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L27)
 
 Should auto-attach be disabled?
 
@@ -81,7 +81,7 @@ Should auto-attach be disabled?
 
 > **isDisposed**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L22)
 
 Is this feature disposed?
 
@@ -95,7 +95,7 @@ Is this feature disposed?
 
 > **onAnchorAddedObservable**: [`Observable`](Observable.md)\<[`IWebXRAnchor`](../interfaces/IWebXRAnchor.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L122)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L124)
 
 Observers registered here will be executed when a new anchor was added to the session
 
@@ -105,7 +105,7 @@ Observers registered here will be executed when a new anchor was added to the se
 
 > **onAnchorRemovedObservable**: [`Observable`](Observable.md)\<[`IWebXRAnchor`](../interfaces/IWebXRAnchor.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L128)
 
 Observers registered here will be executed when an anchor was removed from the session
 
@@ -115,7 +115,7 @@ Observers registered here will be executed when an anchor was removed from the s
 
 > **onAnchorUpdatedObservable**: [`Observable`](Observable.md)\<[`IWebXRAnchor`](../interfaces/IWebXRAnchor.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L131)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L133)
 
 Observers registered here will be executed when an existing anchor updates
 This can execute N times every frame
@@ -126,7 +126,7 @@ This can execute N times every frame
 
 > **onFeatureAttachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L49)
 
 Observers registered here will be executed when the feature is attached
 
@@ -140,7 +140,7 @@ Observers registered here will be executed when the feature is attached
 
 > **onFeatureDetachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L53)
 
 Observers registered here will be executed when the feature is detached
 
@@ -154,7 +154,7 @@ Observers registered here will be executed when the feature is detached
 
 > `readonly` `static` **Name**: `"xr-anchor-system"` = `WebXRFeatureName.ANCHOR_SYSTEM`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L113)
 
 The module's name
 
@@ -164,7 +164,7 @@ The module's name
 
 > `readonly` `static` **Version**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L117)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L119)
 
 The (Babylon) version of this module.
 This is an integer representing the implementation version.
@@ -178,7 +178,7 @@ This number does not correspond to the WebXR specs version
 
 > **get** **anchors**(): [`IWebXRAnchor`](../interfaces/IWebXRAnchor.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:267](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L267)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:269](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L269)
 
 Get the list of anchors currently being tracked by the system
 
@@ -194,7 +194,7 @@ Get the list of anchors currently being tracked by the system
 
 > **get** **attached**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L69)
 
 Is this feature attached
 
@@ -216,7 +216,7 @@ Is this feature attached
 
 > **set** **referenceSpaceForFrameAnchors**(`referenceSpace`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L139)
 
 Set the reference space to use for anchor creation, when not using a hit test.
 Will default to the session's reference space if not defined
@@ -239,7 +239,7 @@ Will default to the session's reference space if not defined
 
 > **get** **xrNativeFeatureName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L34)
 
 The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
@@ -251,7 +251,7 @@ The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
 > **set** **xrNativeFeatureName**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L38)
 
 The name of the native xr feature name, if applicable (like anchor, hit-test, or hand-tracking)
 
@@ -277,7 +277,7 @@ The name of the native xr feature name, if applicable (like anchor, hit-test, or
 
 > **addAnchorAtPositionAndRotationAsync**(`position`, `rotationQuaternion?`, `forceCreateInCurrentFrame?`): `Promise`\<[`IWebXRAnchor`](../interfaces/IWebXRAnchor.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:235](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L235)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:237](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L237)
 
 Add a new anchor at a specific position and rotation
 This function will add a new anchor per default in the next available frame. Unless forced, the createAnchor function
@@ -317,7 +317,7 @@ A promise that fulfills when babylon has created the corresponding WebXRAnchor o
 
 > **addAnchorPointUsingHitTestResultAsync**(`hitTestResult`, `position?`, `rotationQuaternion?`): `Promise`\<[`IWebXRAnchor`](../interfaces/IWebXRAnchor.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:189](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L189)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:191](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L191)
 
 Create a new anchor point using a hit test result at a specific point in the scene
 An anchor is tracked only after it is added to the trackerAnchors in xrFrame. The promise returned here does not yet guaranty that.
@@ -355,7 +355,7 @@ A promise that fulfills when babylon has created the corresponding WebXRAnchor o
 
 > **attach**(`force?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L79)
 
 attach this feature
 
@@ -383,7 +383,7 @@ true if successful, false is failed or already attached
 
 > **detach**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:277](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L277)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:279](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L279)
 
 detach this feature.
 Will usually be called by the features manager
@@ -404,7 +404,7 @@ true if successful.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:300](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L300)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L302)
 
 Dispose this feature and all of the resources attached
 
@@ -422,7 +422,7 @@ Dispose this feature and all of the resources attached
 
 > **isCompatible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L144)
 
 This function will be executed during before enabling the feature and can be used to not-allow enabling it.
 Note that at this point the session has NOT started, so this is purely checking if the browser supports it

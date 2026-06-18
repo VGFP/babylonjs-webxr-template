@@ -6,7 +6,7 @@
 
 # Interface: ISerializedSmartAssetMap
 
-Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetSerializer.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/SmartAssets/smartAssetSerializer.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetSerializer.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/SmartAssets/smartAssetSerializer.ts#L27)
 
 A versioned JSON document describing a smart asset map.
 This is the on-disk format for persisting the asset table.
@@ -20,7 +20,7 @@ each loaded `AssetContainer` after load. Persisting it would risk staleness.
 
 > `readonly` **assets**: `Record`\<`string`, `ISerializedSmartAssetEntry`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetSerializer.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/SmartAssets/smartAssetSerializer.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetSerializer.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/SmartAssets/smartAssetSerializer.ts#L32)
 
 Map of asset keys to their serialized entries.
 
@@ -30,6 +30,6 @@ Map of asset keys to their serialized entries.
 
 > `readonly` **version**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetSerializer.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/SmartAssets/smartAssetSerializer.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetSerializer.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/SmartAssets/smartAssetSerializer.ts#L29)
 
 Schema version. Must be 1 for the current version.

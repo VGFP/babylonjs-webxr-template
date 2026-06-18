@@ -6,7 +6,7 @@
 
 # Class: AmmoJSPlugin
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L26)
 
 AmmoJS Physics plugin
 
@@ -21,7 +21,7 @@ AmmoJS Physics plugin
 
 > **new AmmoJSPlugin**(`_useDeltaForWorldStep?`, `ammoInjection?`, `overlappingPairCache?`): `AmmoJSPlugin`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L78)
 
 Initializes the ammoJS plugin
 
@@ -55,7 +55,7 @@ can be used to specify your own overlapping pair cache
 
 > **bjsAMMO**: `any` = `{}`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L31)
 
 Reference to the Ammo library
 
@@ -65,7 +65,7 @@ Reference to the Ammo library
 
 > **name**: `string` = `"AmmoJSPlugin"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L39)
 
 Name of the plugin
 
@@ -79,7 +79,7 @@ Name of the plugin
 
 > **onCreateCustomConvexHullImpostor**: (`impostor`) => `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:194](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L194)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L194)
 
 The create custom convex hull impostor handler function to support building custom convex hull impostor vertex data
 
@@ -99,7 +99,7 @@ The create custom convex hull impostor handler function to support building cust
 
 > **onCreateCustomMeshImpostor**: (`impostor`) => `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:189](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L189)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L189)
 
 The create custom mesh impostor handler function to support building custom mesh impostor vertex data
 
@@ -119,7 +119,7 @@ The create custom mesh impostor handler function to support building custom mesh
 
 > **onCreateCustomShape**: (`impostor`) => `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:184](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L184)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:184](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L184)
 
 The create custom shape handler function to be called when using BABYLON.PhysicsImposter.CustomImpostor
 
@@ -139,7 +139,7 @@ The create custom shape handler function to be called when using BABYLON.Physics
 
 > **world**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L35)
 
 Created ammoJS world which physics bodies are added to
 
@@ -153,7 +153,7 @@ Created ammoJS world which physics bodies are added to
 
 > **appendAnchor**(`impostor`, `otherImpostor`, `width`, `height`, `influence?`, `noCollisionBetweenLinkedBodies?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1485](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1485)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1485](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1485)
 
 Append an anchor to a cloth object
 
@@ -209,7 +209,7 @@ when true collisions between soft impostor and anchor are ignored; default false
 
 > **appendHook**(`impostor`, `otherImpostor`, `length`, `influence?`, `noCollisionBetweenLinkedBodies?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1509](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1509)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1509](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1509)
 
 Append an hook to a rope object
 
@@ -259,7 +259,7 @@ when true collisions between soft impostor and anchor are ignored; default false
 
 > **applyForce**(`impostor`, `force`, `contactPoint`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:416](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L416)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:416](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L416)
 
 Applies a force on the imposter
 
@@ -297,7 +297,7 @@ the location to apply the force on the imposter
 
 > **applyImpulse**(`impostor`, `force`, `contactPoint`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:390](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L390)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:390](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L390)
 
 Applies an impulse on the imposter
 
@@ -335,7 +335,7 @@ the location to apply the impulse on the imposter
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1601](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1601)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1601](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1601)
 
 Disposes of the impostor
 
@@ -353,7 +353,7 @@ Disposes of the impostor
 
 > **executeStep**(`delta`, `impostors`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:241](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L241)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:241](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L241)
 
 Moves the physics simulation forward delta seconds and updates the given physics imposters
 Prior to the step the imposters physics location is set to the position of the babylon meshes
@@ -387,7 +387,7 @@ array of imposters to update before/after the step
 
 > **generateJoint**(`impostorJoint`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:558](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L558)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:558](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L558)
 
 Generates a joint
 
@@ -413,7 +413,7 @@ the imposter joint to create the joint with
 
 > **generatePhysicsBody**(`impostor`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:442](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L442)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:442](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L442)
 
 Creates a physics body using the plugin
 
@@ -439,7 +439,7 @@ the imposter to create the physics body on
 
 > **getAngularVelocity**(`impostor`): [`Nullable`](../type-aliases/Nullable.md)\<[`Vector3`](Vector3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1278](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1278)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1278](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1278)
 
 gets the angular velocity
 
@@ -467,7 +467,7 @@ angular velocity
 
 > **getBodyFriction**(`impostor`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1321](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1321)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1321](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1321)
 
 Gets friction of the impostor
 
@@ -495,7 +495,7 @@ friction value
 
 > **getBodyMass**(`impostor`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1312](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1312)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1312](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1312)
 
 Gets the mass of the physics body
 
@@ -523,7 +523,7 @@ mass
 
 > **getBodyPositionIterations**(`impostor`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1453](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1453)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1453](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1453)
 
 Gets positionIterations of the impostor
 
@@ -551,7 +551,7 @@ positionIterations value
 
 > **getBodyPressure**(`impostor`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1363](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1363)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1363](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1363)
 
 Gets pressure inside the impostor
 
@@ -579,7 +579,7 @@ pressure value
 
 > **getBodyRestitution**(`impostor`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1344](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1344)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1344](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1344)
 
 Gets restitution of the impostor
 
@@ -607,7 +607,7 @@ restitution value
 
 > **getBodyStiffness**(`impostor`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1396](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1396)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1396](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1396)
 
 Gets stiffness of the impostor
 
@@ -635,7 +635,7 @@ pressure value
 
 > **getBodyVelocityIterations**(`impostor`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1425](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1425)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1425](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1425)
 
 Gets velocityIterations of the impostor
 
@@ -663,7 +663,7 @@ velocityIterations value
 
 > **getBoxSizeToRef**(`impostor`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1591](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1591)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1591](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1591)
 
 Gets the box size of the impostor
 
@@ -695,7 +695,7 @@ the resulting box size
 
 > **getLinearVelocity**(`impostor`): [`Nullable`](../type-aliases/Nullable.md)\<[`Vector3`](Vector3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1258](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1258)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1258](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1258)
 
 gets the linear velocity
 
@@ -723,7 +723,7 @@ linear velocity
 
 > **getPluginVersion**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L135)
 
 #### Returns
 
@@ -741,7 +741,7 @@ plugin version
 
 > **getRadius**(`impostor`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1581](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1581)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1581](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1581)
 
 Gets the radius of the impostor
 
@@ -769,7 +769,7 @@ the radius
 
 > **getTimeStep**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L177)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L177)
 
 Gets the current timestep (only used if useDeltaForWorldStep is false in the constructor)
 
@@ -789,7 +789,7 @@ the current timestep in seconds
 
 > **isSupported**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1221](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1221)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1221)
 
 If this plugin is supported
 
@@ -809,7 +809,7 @@ true if its supported
 
 > **raycast**(`from`, `to`): [`PhysicsRaycastResult`](PhysicsRaycastResult.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1628](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1628)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1628](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1628)
 
 Does a raycast in the physics world
 
@@ -843,7 +843,7 @@ PhysicsRaycastResult
 
 > **raycastToRef**(`from`, `to`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1638](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1638)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1638](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1638)
 
 Does a raycast in the physics world
 
@@ -881,7 +881,7 @@ resulting PhysicsRaycastResult
 
 > **removeJoint**(`impostorJoint`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:650](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L650)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:650](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L650)
 
 Removes a joint
 
@@ -907,7 +907,7 @@ the imposter joint to remove the joint from
 
 > **removePhysicsBody**(`impostor`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:537](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L537)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:537](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L537)
 
 Removes the physics body from the imposter and disposes of the body's memory
 
@@ -933,7 +933,7 @@ imposter to remove the physics body from
 
 > **setAngularVelocity**(`impostor`, `velocity`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1244](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1244)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1244](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1244)
 
 Sets the angular velocity of the physics body
 
@@ -965,7 +965,7 @@ velocity to set
 
 > **setBodyFriction**(`impostor`, `friction`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1330](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1330)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1330](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1330)
 
 Sets friction of the impostor
 
@@ -997,7 +997,7 @@ friction value
 
 > **setBodyMass**(`impostor`, `mass`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1298](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1298)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1298)
 
 Sets the mass of physics body
 
@@ -1029,7 +1029,7 @@ mass to set
 
 > **setBodyPositionIterations**(`impostor`, `positionIterations`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1466](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1466)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1466](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1466)
 
 Sets positionIterations of the impostor
 
@@ -1061,7 +1061,7 @@ positionIterations value
 
 > **setBodyPressure**(`impostor`, `pressure`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1377](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1377)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1377](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1377)
 
 Sets pressure inside a soft body impostor
 Cloth and rope must remain 0 pressure
@@ -1094,7 +1094,7 @@ pressure value
 
 > **setBodyRestitution**(`impostor`, `restitution`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1353](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1353)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1353](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1353)
 
 Sets restitution of the impostor
 
@@ -1126,7 +1126,7 @@ resitution value
 
 > **setBodyStiffness**(`impostor`, `stiffness`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1409](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1409)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1409](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1409)
 
 Sets stiffness of the impostor
 
@@ -1158,7 +1158,7 @@ stiffness value from 0 to 1
 
 > **setBodyVelocityIterations**(`impostor`, `velocityIterations`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1438](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1438)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1438](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1438)
 
 Sets velocityIterations of the impostor
 
@@ -1190,7 +1190,7 @@ velocityIterations value
 
 > **setFixedTimeStep**(`fixedTimeStep`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:161](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L161)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:161](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L161)
 
 Increment to step forward in the physics engine (If timeStep is set to 1/60 and fixedTimeStep is set to 1/120 the physics engine should run 2 steps per frame) (Default: 1/60)
 
@@ -1212,7 +1212,7 @@ fixedTimeStep to use in seconds
 
 > **setGravity**(`gravity`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:143](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L143)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L143)
 
 Sets the gravity of the physics world (m/(s^2))
 
@@ -1238,7 +1238,7 @@ Gravity to set
 
 > **setLimit**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1550](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1550)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1550](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1550)
 
 Sets the motors limit
 
@@ -1256,7 +1256,7 @@ Sets the motors limit
 
 > **setLinearVelocity**(`impostor`, `velocity`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1230](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1230)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1230](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1230)
 
 Sets the linear velocity of the physics body
 
@@ -1288,7 +1288,7 @@ velocity to set
 
 > **setMaxSteps**(`maxSteps`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:169](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L169)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L169)
 
 Sets the maximum number of steps by the physics engine per frame (Default: 5)
 
@@ -1310,7 +1310,7 @@ the maximum number of steps by the physics engine per frame
 
 > **setMotor**(`joint`, `speed?`, `maxForce?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1543](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1543)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1543](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1543)
 
 Sets a motor on the joint
 
@@ -1348,7 +1348,7 @@ maximum force of the motor
 
 > **setPhysicsBodyTransformation**(`impostor`, `newPosition`, `newRotation`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1185)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1185)
 
 Sets the babylon object's position/rotation from the physics body's position/rotation
 
@@ -1386,7 +1386,7 @@ new rotation
 
 > **setTimeStep**(`timeStep`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L153)
 
 Amount of time to step forward on each frame (only used if useDeltaForWorldStep is false in the constructor)
 
@@ -1412,7 +1412,7 @@ timestep to use in seconds
 
 > **setTransformationFromPhysicsBody**(`impostor`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1155)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1155)
 
 Sets the mesh body position/rotation from the babylon impostor
 
@@ -1438,7 +1438,7 @@ imposter containing the physics body and babylon object
 
 > **sleepBody**(`impostor`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1518](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1518)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1518](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1518)
 
 Sleeps the physics body and stops it from being active
 
@@ -1464,7 +1464,7 @@ impostor to sleep
 
 > **syncMeshWithImpostor**(`mesh`, `impostor`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1559](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1559)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1559](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1559)
 
 Syncs the position and rotation of a mesh with the impostor
 
@@ -1496,7 +1496,7 @@ impostor to update the mesh with
 
 > **updateDistanceJoint**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1533](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1533)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1533](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1533)
 
 Updates the distance parameters of the joint
 
@@ -1514,7 +1514,7 @@ Updates the distance parameters of the joint
 
 > **wakeUpBody**(`impostor`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1526](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1526)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts:1526](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/Plugins/ammoJSPlugin.ts#L1526)
 
 Activates the physics body
 

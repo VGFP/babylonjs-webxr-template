@@ -6,7 +6,7 @@
 
 # Interface: ITextureChannelInput
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureMerger.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureMerger.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureMerger.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureMerger.ts#L13)
 
 Configuration for a texture input source
 
@@ -16,7 +16,7 @@ Configuration for a texture input source
 
 > **sourceChannel**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureMerger.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureMerger.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureMerger.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureMerger.ts#L17)
 
 Source channel to read from (0=R, 1=G, 2=B, 3=A)
 
@@ -26,6 +26,6 @@ Source channel to read from (0=R, 1=G, 2=B, 3=A)
 
 > **texture**: [`BaseTexture`](../classes/BaseTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureMerger.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureMerger.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureMerger.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureMerger.ts#L15)
 
 The texture to use as input

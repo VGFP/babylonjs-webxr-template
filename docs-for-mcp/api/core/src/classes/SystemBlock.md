@@ -6,7 +6,7 @@
 
 # Class: SystemBlock
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L28)
 
 Block used to get a system of particles
 
@@ -20,7 +20,7 @@ Block used to get a system of particles
 
 > **new SystemBlock**(`name`): `SystemBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:143](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L143)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L146)
 
 Create a new SystemBlock
 
@@ -46,7 +46,7 @@ defines the block name
 
 > **billBoardMode**: `number` = `Constants.PARTICLES_BILLBOARDMODE_ALL`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L102)
 
 Gets or sets the billboard mode for the particle system
 
@@ -56,7 +56,7 @@ Gets or sets the billboard mode for the particle system
 
 > **blendMode**: `number` = `BaseParticleSystem.BLENDMODE_ONEONE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L45)
 
 Gets or sets the blend mode for the particle system
 
@@ -66,7 +66,7 @@ Gets or sets the blend mode for the particle system
 
 > **capacity**: `number` = `1000`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L51)
 
 Gets or sets the epsilon value used for comparison
 
@@ -76,7 +76,7 @@ Gets or sets the epsilon value used for comparison
 
 > **comments**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L86)
 
 A free comment about the block
 
@@ -90,7 +90,7 @@ A free comment about the block
 
 > **customShader**: [`Nullable`](../type-aliases/Nullable.md)\<`CustomShader`\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L135)
 
 Gets or sets the custom shader configuration used to render the particles.
 This can be used to set your own shader to render the particle system.
@@ -101,7 +101,7 @@ This can be used to set your own shader to render the particle system.
 
 > **disposeOnStop**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L114)
 
 Gets or sets a boolean indicating if the system should be disposed when stopped
 
@@ -111,7 +111,7 @@ Gets or sets a boolean indicating if the system should be disposed when stopped
 
 > **doNoStart**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L117)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L120)
 
 Gets or sets a boolean indicating if the system should not start automatically
 
@@ -121,7 +121,7 @@ Gets or sets a boolean indicating if the system should not start automatically
 
 > **emitter**: [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md) \| [`Vector3`](Vector3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L140)
 
 Gets or sets the emitter for the particle system.
 
@@ -131,7 +131,7 @@ Gets or sets the emitter for the particle system.
 
 > **isBillboardBased**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L87)
 
 Gets or sets a boolean indicating if the system is billboard based
 
@@ -141,7 +141,7 @@ Gets or sets a boolean indicating if the system is billboard based
 
 > **isLocal**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L108)
 
 Gets or sets a boolean indicating if the system coordinate space is local or global
 
@@ -151,7 +151,7 @@ Gets or sets a boolean indicating if the system coordinate space is local or glo
 
 > **manualEmitCount**: `number` = `-1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L57)
 
 Gets or sets the manual emit count
 
@@ -161,7 +161,7 @@ Gets or sets the manual emit count
 
 > **onBuildObservable**: [`Observable`](Observable.md)\<[`NodeParticleBlock`](NodeParticleBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L35)
 
 Gets an observable raised when the block is built
 
@@ -175,7 +175,7 @@ Gets an observable raised when the block is built
 
 > **onDisposeObservable**: [`Observable`](Observable.md)\<[`NodeParticleBlock`](NodeParticleBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L40)
 
 Gets an observable raised when the block is disposed
 
@@ -189,7 +189,7 @@ Gets an observable raised when the block is disposed
 
 > **onInputChangedObservable**: [`Observable`](Observable.md)\<[`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L45)
 
 Gets an observable raised when the inputs of the block change
 
@@ -203,7 +203,7 @@ Gets an observable raised when the inputs of the block change
 
 > **preWarmCycles**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L75)
 
 Gets or sets the number of pre-warm cycles before rendering the particle system
 
@@ -213,7 +213,7 @@ Gets or sets the number of pre-warm cycles before rendering the particle system
 
 > **preWarmStepOffset**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L81)
 
 Gets or sets the time step multiplier used for pre-warm
 
@@ -223,7 +223,7 @@ Gets or sets the time step multiplier used for pre-warm
 
 > **renderingGroupId**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L126)
 
 Gets or sets the rendering group id for the particle system (0 by default)
 
@@ -233,7 +233,7 @@ Gets or sets the rendering group id for the particle system (0 by default)
 
 > **startDelay**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L63)
 
 Gets or sets the target stop duration for the particle system
 
@@ -243,7 +243,7 @@ Gets or sets the target stop duration for the particle system
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L25)
 
 Gets or sets the unique id of the node
 
@@ -257,7 +257,7 @@ Gets or sets the unique id of the node
 
 > **updateSpeed**: `number` = `0.0167`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L69)
 
 Gets or sets the target stop duration for the particle system
 
@@ -267,7 +267,7 @@ Gets or sets the target stop duration for the particle system
 
 > **visibleOnFrame**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L89)
 
 Gets or sets a boolean indicating that this input can be edited from a collapsed frame
 
@@ -283,7 +283,7 @@ Gets or sets a boolean indicating that this input can be edited from a collapsed
 
 > **get** **emitRate**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L177)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L180)
 
 Gets the emitRate input component
 
@@ -299,7 +299,7 @@ Gets the emitRate input component
 
 > **get** **inputs**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L113)
 
 Gets the list of input points
 
@@ -319,7 +319,7 @@ Gets the list of input points
 
 > **get** **isDebug**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L78)
 
 Gets a boolean indicating if this block is a debug block
 
@@ -339,7 +339,7 @@ Gets a boolean indicating if this block is a debug block
 
 > **get** **isInput**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L71)
 
 Gets a boolean indicating that this block is an input block
 
@@ -359,7 +359,7 @@ Gets a boolean indicating that this block is an input block
 
 > **get** **isSystem**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L64)
 
 Gets a boolean indicating that this block is a system block
 
@@ -379,7 +379,7 @@ Gets a boolean indicating that this block is a system block
 
 > **get** **isTeleportIn**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L57)
 
 Gets a boolean indicating if this block is a teleport in
 
@@ -399,7 +399,7 @@ Gets a boolean indicating if this block is a teleport in
 
 > **get** **isTeleportOut**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L50)
 
 Gets a boolean indicating if this block is a teleport out
 
@@ -419,7 +419,7 @@ Gets a boolean indicating if this block is a teleport out
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:94](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L94)
 
 Gets or set the name of the block
 
@@ -431,7 +431,7 @@ Gets or set the name of the block
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L98)
 
 ##### Parameters
 
@@ -455,7 +455,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleB
 
 > **get** **onEnd**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L222)
 
 Gets the onEnd input component
 
@@ -471,7 +471,7 @@ Gets the onEnd input component
 
 > **get** **onStart**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:215](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L215)
 
 Gets the onStart input component
 
@@ -487,7 +487,7 @@ Gets the onStart input component
 
 > **get** **outputs**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L118)
 
 Gets the list of output points
 
@@ -507,7 +507,7 @@ Gets the list of output points
 
 > **get** **particle**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L170)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L173)
 
 Gets the particle input component
 
@@ -523,7 +523,7 @@ Gets the particle input component
 
 > **get** **system**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:226](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L226)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L229)
 
 Gets the system output component
 
@@ -539,7 +539,7 @@ Gets the system output component
 
 > **get** **targetStopDuration**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L208)
 
 Gets the targetStopDuration input component
 
@@ -555,7 +555,7 @@ Gets the targetStopDuration input component
 
 > **get** **texture**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:184](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L184)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L187)
 
 Gets the texture input component
 
@@ -571,7 +571,7 @@ Gets the texture input component
 
 > **get** **textureMask**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:198](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L198)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L201)
 
 Gets the textureMask input component
 
@@ -587,7 +587,7 @@ Gets the textureMask input component
 
 > **get** **translationPivot**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L191)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L194)
 
 Gets the translationPivot input component
 
@@ -601,7 +601,7 @@ Gets the translationPivot input component
 
 > **\_build**(`_state`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:259](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L259)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:259](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L259)
 
 Builds the block. Must be implemented by derived classes.
 
@@ -627,7 +627,7 @@ defines the current build state
 
 > **\_deserialize**(`serializationObject`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:357](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L357)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:360](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L360)
 
 Deserializes the system block
 
@@ -653,7 +653,7 @@ The serialized system
 
 > **build**(`state`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:270](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L270)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:270](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L270)
 
 Builds the block
 
@@ -681,7 +681,7 @@ the built block
 
 > **clone**(): [`NodeParticleBlock`](NodeParticleBlock.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:398](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L398)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:398](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L398)
 
 Clone the current block to a new identical block
 
@@ -701,7 +701,7 @@ a copy of the current block
 
 > **createSystem**(`state`): [`ParticleSystem`](ParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:235](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L235)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L238)
 
 Builds the block and return a functional particle system
 
@@ -725,7 +725,7 @@ the built particle system
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:415](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L415)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:415](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L415)
 
 Release resources
 
@@ -743,7 +743,7 @@ Release resources
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L163)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L166)
 
 Gets the current class name
 
@@ -763,7 +763,7 @@ the class name
 
 > **getInputByName**(`name`): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:193](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L193)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L193)
 
 Find an input by its name
 
@@ -791,7 +791,7 @@ the input or null if not found
 
 > **isAnAncestorOf**(`block`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L144)
 
 Checks if the current block is an ancestor of a given block
 
@@ -819,7 +819,7 @@ true if block is a descendant
 
 > **isAnAncestorOfType**(`type`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:168](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L168)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:168](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L168)
 
 Checks if the current block is an ancestor of a given type
 
@@ -847,7 +847,7 @@ true if block is a descendant
 
 > **registerInput**(`name`, `type`, `isOptional?`, `value?`, `valueMin?`, `valueMax?`): `SystemBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:223](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L223)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L223)
 
 Register a new input. Must be called inside a block constructor
 
@@ -905,7 +905,7 @@ the current block
 
 > **registerOutput**(`name`, `type`, `point?`): `SystemBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:246](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L246)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:246](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L246)
 
 Register a new output. Must be called inside a block constructor
 
@@ -945,7 +945,7 @@ the current block
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts:332](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/systemBlock.ts#L332)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts:335](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/systemBlock.pure.ts#L335)
 
 Serializes the system block
 

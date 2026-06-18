@@ -8,7 +8,7 @@
 
 > **SmartAssetManager** = `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetManager.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/SmartAssets/smartAssetManager.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetManager.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/SmartAssets/smartAssetManager.pure.ts#L37)
 
 Stateful handle for a scene's smart asset registry.
 
@@ -21,7 +21,7 @@ class methods so callers can import only the operations they need.
 
 > **onAssetNotFound**: ((`key`, `expectedUrl`) => `Promise`\<`string` \| `File` \| `null`\>) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetManager.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/SmartAssets/smartAssetManager.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetManager.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/SmartAssets/smartAssetManager.pure.ts#L52)
 
 Optional callback invoked when an asset cannot be found at its registered URL.
 Return a new URL or File to retry loading, or null to skip the asset.
@@ -32,7 +32,7 @@ Return a new URL or File to retry loading, or null to skip the asset.
 
 > `readonly` **onChangedObservable**: [`Observable`](../classes/Observable.md)\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetManager.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/SmartAssets/smartAssetManager.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetManager.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/SmartAssets/smartAssetManager.pure.ts#L46)
 
 Fires when the smart asset registry or loaded asset state changes.
 
@@ -42,6 +42,6 @@ Fires when the smart asset registry or loaded asset state changes.
 
 > `readonly` **scene**: [`Scene`](../classes/Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetManager.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/SmartAssets/smartAssetManager.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetManager.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/SmartAssets/smartAssetManager.pure.ts#L41)
 
 The scene this manager is attached to.

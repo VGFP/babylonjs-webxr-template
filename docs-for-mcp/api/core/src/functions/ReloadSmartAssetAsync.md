@@ -8,7 +8,7 @@
 
 > **ReloadSmartAssetAsync**(`scene`, `key`): `Promise`\<[`BaseTexture`](../classes/BaseTexture.md) \| [`AssetContainer`](../classes/AssetContainer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetManager.ts:389](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/SmartAssets/smartAssetManager.ts#L389)
+Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetManager.pure.ts:414](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/SmartAssets/smartAssetManager.pure.ts#L414)
 
 Unloads and re-loads an asset.
 

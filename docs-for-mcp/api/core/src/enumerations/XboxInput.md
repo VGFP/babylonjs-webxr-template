@@ -6,7 +6,7 @@
 
 # Enumeration: XboxInput
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:184](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L184)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:184](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L184)
 
 Enum for Xbox Gamepad
 
@@ -16,7 +16,7 @@ Enum for Xbox Gamepad
 
 > **A**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:186](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L186)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:186](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L186)
 
 A
 
@@ -26,7 +26,7 @@ A
 
 > **B**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:188](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L188)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:188](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L188)
 
 B
 
@@ -36,7 +36,7 @@ B
 
 > **Back**: `8`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:202](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L202)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:202](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L202)
 
 Back
 
@@ -46,7 +46,7 @@ Back
 
 > **DPadDown**: `13`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:212](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L212)
 
 DPadDown
 
@@ -56,7 +56,7 @@ DPadDown
 
 > **DPadLeft**: `14`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:214](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L214)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L214)
 
 DPadLeft
 
@@ -66,7 +66,7 @@ DPadLeft
 
 > **DPadRight**: `15`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L216)
 
 DRight
 
@@ -76,7 +76,7 @@ DRight
 
 > **DPadUp**: `12`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:210](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L210)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L210)
 
 DPadUp
 
@@ -86,7 +86,7 @@ DPadUp
 
 > **Home**: `16`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:218](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L218)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L218)
 
 Home
 
@@ -96,7 +96,7 @@ Home
 
 > **LB**: `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:194](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L194)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L194)
 
 LB
 
@@ -106,7 +106,7 @@ LB
 
 > **LS**: `10`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:206](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L206)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:206](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L206)
 
 LS
 
@@ -116,7 +116,7 @@ LS
 
 > **LStickXAxis**: `17`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:220](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L220)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:220](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L220)
 
 LStickXAxis
 
@@ -126,7 +126,7 @@ LStickXAxis
 
 > **LStickYAxis**: `18`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L222)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L222)
 
 LStickYAxis
 
@@ -136,7 +136,7 @@ LStickYAxis
 
 > **LT**: `6`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:198](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L198)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L198)
 
 LT
 
@@ -146,7 +146,7 @@ LT
 
 > **RB**: `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:196](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L196)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L196)
 
 RB
 
@@ -156,7 +156,7 @@ RB
 
 > **RS**: `11`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:208](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L208)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L208)
 
 RS
 
@@ -166,7 +166,7 @@ RS
 
 > **RStickXAxis**: `19`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:224](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L224)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:224](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L224)
 
 RStickXAxis
 
@@ -176,7 +176,7 @@ RStickXAxis
 
 > **RStickYAxis**: `20`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:226](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L226)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:226](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L226)
 
 RStickYAxis
 
@@ -186,7 +186,7 @@ RStickYAxis
 
 > **RT**: `7`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L200)
 
 RT
 
@@ -196,7 +196,7 @@ RT
 
 > **Start**: `9`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:204](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L204)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:204](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L204)
 
 Start
 
@@ -206,7 +206,7 @@ Start
 
 > **X**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L190)
 
 X
 
@@ -216,6 +216,6 @@ X
 
 > **Y**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:192](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L192)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L192)
 
 Y

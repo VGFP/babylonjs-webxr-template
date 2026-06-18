@@ -6,7 +6,7 @@
 
 # Class: ParticleSystemSet
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystemSet.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystemSet.ts#L23)
 
 Represents a set of particle systems working together to create a specific effect
 
@@ -30,7 +30,7 @@ Represents a set of particle systems working together to create a specific effec
 
 > **systems**: [`IParticleSystem`](../interfaces/IParticleSystem.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystemSet.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystemSet.ts#L37)
 
 Gets the particle system list
 
@@ -40,7 +40,7 @@ Gets the particle system list
 
 > `static` **BaseAssetsUrl**: `string` = `"https://assets.babylonjs.com/particles"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystemSet.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystemSet.ts#L28)
 
 Gets or sets base Assets URL
 Only used when parsing particle systems from JSON, not part of the core assets
@@ -53,7 +53,7 @@ Only used when parsing particle systems from JSON, not part of the core assets
 
 > **get** **emitterNode**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md) \| [`Vector3`](Vector3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystemSet.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystemSet.ts#L42)
 
 Gets or sets the emitter node used with this set
 
@@ -65,7 +65,7 @@ Gets or sets the emitter node used with this set
 
 > **set** **emitterNode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystemSet.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystemSet.ts#L46)
 
 ##### Parameters
 
@@ -83,7 +83,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystemSet.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystemSet.ts#L115)
 
 Release all associated resources
 
@@ -101,7 +101,7 @@ Release all associated resources
 
 > **serialize**(`serializeTexture?`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystemSet.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystemSet.ts#L135)
 
 Serialize the set into a JSON compatible object
 
@@ -125,7 +125,7 @@ a JSON compatible representation of the set
 
 > **setEmitterAsSphere**(`options`, `renderingGroupId`, `scene`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystemSet.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystemSet.ts#L70)
 
 Creates a new emitter mesh as a sphere
 
@@ -169,7 +169,7 @@ defines the hosting scene
 
 > **start**(`emitter?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystemSet.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystemSet.ts#L103)
 
 Starts all particle systems of the set
 
@@ -191,7 +191,7 @@ defines an optional mesh to use as emitter for the particle systems
 
 > `static` **Parse**(`data`, `scene`, `gpu?`, `capacity?`): `ParticleSystemSet`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystemSet.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemSet.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystemSet.ts#L160)
 
 Parse a new ParticleSystemSet from a serialized source
 

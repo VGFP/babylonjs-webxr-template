@@ -6,7 +6,7 @@
 
 # Class: ParticleSystem
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L40)
 
 This represents a particle system in Babylon.
 Particles are often small sprites used to simulate hard-to-reproduce phenomena like fire, smoke, water, or abstract visual effects like magic glitter and faery dust.
@@ -28,7 +28,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/particles/particle_system/pa
 
 > **new ParticleSystem**(`name`, `capacity`, `sceneOrEngine`, `customEffect?`, `isAnimationSheetEnabled?`, `epsilon?`, `noUpdateQueue?`): `ParticleSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:545](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L545)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:547](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L547)
 
 Instantiates a particle system.
 Particles are often small sprites used to simulate hard-to-reproduce phenomena like fire, smoke, water, or abstract visual effects like magic glitter and faery dust.
@@ -91,7 +91,7 @@ If true, the particle system will start with an empty update queue
 
 > **activeSubSystems**: `ParticleSystem`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L77)
 
 The current active Sub-systems, this property is used by the root particle system only.
 
@@ -101,7 +101,7 @@ The current active Sub-systems, this property is used by the root particle syste
 
 > **animations**: [`Animation`](Animation.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L79)
 
 List of animations used by the particle system.
 
@@ -115,7 +115,7 @@ List of animations used by the particle system.
 
 > **applyFog**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:235](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L235)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:236](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L236)
 
 Gets or sets a boolean indicating that this particle system will allow fog to be rendered on it (false by default)
 
@@ -129,7 +129,7 @@ Gets or sets a boolean indicating that this particle system will allow fog to be
 
 > **beginAnimationFrom**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:379](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L379)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:380](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L380)
 
 Gets or sets the frame to start the animation from when beginAnimationOnStart is true
 
@@ -143,7 +143,7 @@ Gets or sets the frame to start the animation from when beginAnimationOnStart is
 
 > **beginAnimationLoop**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:389](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L389)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:390](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L390)
 
 Gets or sets a boolean indicating if animations must loop when beginAnimationOnStart is true
 
@@ -157,7 +157,7 @@ Gets or sets a boolean indicating if animations must loop when beginAnimationOnS
 
 > **beginAnimationOnStart**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:374](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L374)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:375](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L375)
 
 Gets or sets a boolean indicating that hosted animations (in the system.animations array) must be started when system.start() is called
 
@@ -171,7 +171,7 @@ Gets or sets a boolean indicating that hosted animations (in the system.animatio
 
 > **beginAnimationTo**: `number` = `60`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:384](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L384)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:385](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L385)
 
 Gets or sets the frame to end the animation on when beginAnimationOnStart is true
 
@@ -185,7 +185,7 @@ Gets or sets the frame to end the animation on when beginAnimationOnStart is tru
 
 > **blendMode**: `number` = `BaseParticleSystem.BLENDMODE_ONEONE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:309](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L309)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L310)
 
 Blend mode use to render the particle
 For original blend modes which are exposed from ParticleSystem (OneOne, Standard, Add, Multiply, MultiplyAdd, and Subtract), use ParticleSystem.BLENDMODE_FOO
@@ -201,7 +201,7 @@ For all other blend modes, use Engine Constants.ALPHA_FOO blend modes
 
 > **clipPlane**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:399](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L399)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:400](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L400)
 
 Gets or sets the active clipplane 1
 
@@ -215,7 +215,7 @@ Gets or sets the active clipplane 1
 
 > **clipPlane2**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:404](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L404)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:405](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L405)
 
 Gets or sets the active clipplane 2
 
@@ -229,7 +229,7 @@ Gets or sets the active clipplane 2
 
 > **clipPlane3**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:409](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L409)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:410](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L410)
 
 Gets or sets the active clipplane 3
 
@@ -243,7 +243,7 @@ Gets or sets the active clipplane 3
 
 > **clipPlane4**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:414](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L414)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:415](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L415)
 
 Gets or sets the active clipplane 4
 
@@ -257,7 +257,7 @@ Gets or sets the active clipplane 4
 
 > **clipPlane5**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:419](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L419)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:420](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L420)
 
 Gets or sets the active clipplane 5
 
@@ -271,7 +271,7 @@ Gets or sets the active clipplane 5
 
 > **clipPlane6**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:424](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L424)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:425](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L425)
 
 Gets or sets the active clipplane 6
 
@@ -285,7 +285,7 @@ Gets or sets the active clipplane 6
 
 > **color1**: [`Color4`](Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:736](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L736)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:737](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L737)
 
 Random color of each particle after it has been emitted, between color1 and color2 vectors
 
@@ -299,7 +299,7 @@ Random color of each particle after it has been emitted, between color1 and colo
 
 > **color2**: [`Color4`](Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:740](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L740)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:741](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L741)
 
 Random color of each particle after it has been emitted, between color1 and color2 vectors
 
@@ -313,7 +313,7 @@ Random color of each particle after it has been emitted, between color1 and colo
 
 > **colorDead**: [`Color4`](Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:744](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L744)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:745](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L745)
 
 Color the particle will have at the end of its lifetime
 
@@ -327,7 +327,7 @@ Color the particle will have at the end of its lifetime
 
 > **customShader**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:224](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L224)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L225)
 
 This can help using your own shader to render the particle system.
 The according effect will be created
@@ -342,7 +342,7 @@ The according effect will be created
 
 > **defaultProjectionMatrix**: [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:293](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L293)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:295](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L295)
 
 Gets or sets a matrix to use to compute projection
 
@@ -356,7 +356,7 @@ Gets or sets a matrix to use to compute projection
 
 > **defaultViewMatrix**: [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:296](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L296)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L298)
 
 Gets or sets a matrix to use to compute view
 
@@ -370,7 +370,7 @@ Gets or sets a matrix to use to compute view
 
 > **disposeOnStop**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:145](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L145)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L146)
 
 Specifies whether the particle system will be disposed once it reaches the end of the animation.
 
@@ -384,7 +384,7 @@ Specifies whether the particle system will be disposed once it reaches the end o
 
 > **doNotSerialize**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L82)
 
 Specifies if the particle system should be serialized
 
@@ -394,7 +394,7 @@ Specifies if the particle system should be serialized
 
 > **emitRate**: `number` = `10`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L114)
 
 The maximum number of particles to emit per frame
 
@@ -408,7 +408,7 @@ The maximum number of particles to emit per frame
 
 > **emitter**: [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md) \| [`Vector3`](Vector3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L109)
 
 The emitter represents the Mesh or position we are attaching the particle system to.
 
@@ -422,7 +422,7 @@ The emitter represents the Mesh or position we are attaching the particle system
 
 > **endSpriteCellID**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:336](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L336)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:337](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L337)
 
 If using a spritesheet (isAnimationSheetEnabled) defines the last sprite cell to display
 
@@ -436,7 +436,7 @@ If using a spritesheet (isAnimationSheetEnabled) defines the last sprite cell to
 
 > **flowMapStrength**: `number` = `1.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L118)
 
 The strength of the flow map
 
@@ -446,7 +446,7 @@ The strength of the flow map
 
 > **forceDepthWrite**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:315](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L315)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:316](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L316)
 
 Forces the particle to write their depth information to the depth buffer. This can help preventing other draw calls
 to override the particles.
@@ -461,7 +461,7 @@ to override the particles.
 
 > **gravity**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:467](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L467)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:468](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L468)
 
 You can use gravity if you want to give an orientation to your particles.
 
@@ -475,7 +475,7 @@ You can use gravity if you want to give an orientation to your particles.
 
 > **id**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L89)
 
 The id of the Particle system.
 
@@ -489,7 +489,7 @@ The id of the Particle system.
 
 > `readonly` **isGPU**: `false` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:368](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L368)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:370](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L370)
 
 Indicates that the particle system is CPU based
 
@@ -503,7 +503,7 @@ Indicates that the particle system is CPU based
 
 > **layerMask**: `number` = `0x0fffffff`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:218](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L218)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L219)
 
 The layer mask we are rendering the particles through.
 
@@ -517,7 +517,7 @@ The layer mask we are rendering the particles through.
 
 > **limitVelocityDamping**: `number` = `0.4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:543](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L543)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:544](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L544)
 
 Gets or sets a value indicating the damping to apply if the limit velocity factor is reached
 
@@ -531,7 +531,7 @@ Gets or sets a value indicating the damping to apply if the limit velocity facto
 
 > **manualEmitCount**: `number` = `-1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L119)
 
 If you want to launch only a few particles at once, that can be done, as well.
 
@@ -545,7 +545,7 @@ If you want to launch only a few particles at once, that can be done, as well.
 
 > **maxAngularSpeed**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:208](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L208)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L209)
 
 Maximum angular speed of emitting particles (Z-axis rotation for each particle).
 
@@ -559,7 +559,7 @@ Maximum angular speed of emitting particles (Z-axis rotation for each particle).
 
 > **maxEmitPower**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:154](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L154)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L155)
 
 Maximum power of emitting particles.
 
@@ -573,7 +573,7 @@ Maximum power of emitting particles.
 
 > **maxInitialRotation**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:199](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L199)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L200)
 
 Gets or sets the maximal initial rotation in radians.
 
@@ -587,7 +587,7 @@ Gets or sets the maximal initial rotation in radians.
 
 > **maxLifeTime**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L163)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:164](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L164)
 
 Maximum life time of emitting particles.
 
@@ -601,7 +601,7 @@ Maximum life time of emitting particles.
 
 > **maxScaleX**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:181](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L181)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L182)
 
 Maximum scale of emitting particles on X axis.
 
@@ -615,7 +615,7 @@ Maximum scale of emitting particles on X axis.
 
 > **maxScaleY**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:191](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L191)
 
 Maximum scale of emitting particles on Y axis.
 
@@ -629,7 +629,7 @@ Maximum scale of emitting particles on Y axis.
 
 > **maxSize**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L172)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L173)
 
 Maximum Size of emitting particles.
 
@@ -643,7 +643,7 @@ Maximum Size of emitting particles.
 
 > **metadata**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L155)
 
 Gets or sets an object used to store user defined information for the particle system
 
@@ -653,7 +653,7 @@ Gets or sets an object used to store user defined information for the particle s
 
 > **minAngularSpeed**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:204](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L204)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L205)
 
 Minimum angular speed of emitting particles (Z-axis rotation for each particle).
 
@@ -667,7 +667,7 @@ Minimum angular speed of emitting particles (Z-axis rotation for each particle).
 
 > **minEmitPower**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L151)
 
 Minimum power of emitting particles.
 
@@ -681,7 +681,7 @@ Minimum power of emitting particles.
 
 > **minInitialRotation**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:195](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L195)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L196)
 
 Gets or sets the minimal initial rotation in radians.
 
@@ -695,7 +695,7 @@ Gets or sets the minimal initial rotation in radians.
 
 > **minLifeTime**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L159)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L160)
 
 Minimum life time of emitting particles.
 
@@ -709,7 +709,7 @@ Minimum life time of emitting particles.
 
 > **minScaleX**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L177)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L178)
 
 Minimum scale of emitting particles on X axis.
 
@@ -723,7 +723,7 @@ Minimum scale of emitting particles on X axis.
 
 > **minScaleY**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:186](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L186)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L187)
 
 Minimum scale of emitting particles on Y axis.
 
@@ -737,7 +737,7 @@ Minimum scale of emitting particles on Y axis.
 
 > **minSize**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:168](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L168)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L169)
 
 Minimum Size of emitting particles.
 
@@ -751,7 +751,7 @@ Minimum Size of emitting particles.
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:94](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L94)
 
 The friendly name of the Particle system.
 
@@ -765,7 +765,7 @@ The friendly name of the Particle system.
 
 > **noiseStrength**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:267](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L267)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:268](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L268)
 
 Gets or sets the strength to apply to the noise value (default is (10, 10, 10))
 
@@ -779,7 +779,7 @@ Gets or sets the strength to apply to the noise value (default is (10, 10, 10))
 
 > **onAnimationEnd**: [`Nullable`](../type-aliases/Nullable.md)\<() => `void`\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:302](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L302)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:303](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L303)
 
 Callback triggered when the particle animation is ending.
 
@@ -793,7 +793,7 @@ Callback triggered when the particle animation is ending.
 
 > **onDisposeObservable**: [`Observable`](Observable.md)\<[`IParticleSystem`](../interfaces/IParticleSystem.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L155)
 
 An event triggered when the system is disposed
 
@@ -807,7 +807,7 @@ An event triggered when the system is disposed
 
 > **onStartedObservable**: [`Observable`](Observable.md)\<[`IParticleSystem`](../interfaces/IParticleSystem.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:161](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L161)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L163)
 
 An event triggered when the system is started
 
@@ -821,7 +821,7 @@ An event triggered when the system is started
 
 > **onStoppedObservable**: [`Observable`](Observable.md)\<[`IParticleSystem`](../interfaces/IParticleSystem.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:157](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L157)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L159)
 
 An event triggered when the system is stopped
 
@@ -835,7 +835,7 @@ An event triggered when the system is stopped
 
 > **particleEmitterType**: [`IParticleEmitterType`](../interfaces/IParticleEmitterType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:755](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L755)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:756](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L756)
 
 The particle emitter type defines the emitter used by the particle system.
 It can be for example box, sphere, or cone...
@@ -850,7 +850,7 @@ It can be for example box, sphere, or cone...
 
 > **particleTexture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:213](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L213)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L214)
 
 The texture used to render each particle. (this can be a spritesheet)
 
@@ -864,7 +864,7 @@ The texture used to render each particle. (this can be a spritesheet)
 
 > **paused**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1985](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1985)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1988](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1988)
 
 Gets or sets a boolean indicating that the particle system is paused (no animation will be done).
 
@@ -878,7 +878,7 @@ Gets or sets a boolean indicating that the particle system is paused (no animati
 
 > **preventAutoStart**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:230](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L230)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L231)
 
 By default particle system starts as soon as they are created. This prevents the
 automatic start to happen and let you decide when to start emitting particles.
@@ -893,7 +893,7 @@ automatic start to happen and let you decide when to start emitting particles.
 
 > **preWarmCycles**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:318](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L318)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:319](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L319)
 
 Gets or sets a value indicating how many cycles (or frames) must be executed before first rendering (this value has to be set before starting the system). Default is 0
 
@@ -907,7 +907,7 @@ Gets or sets a value indicating how many cycles (or frames) must be executed bef
 
 > **preWarmStepOffset**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:321](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L321)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:322](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L322)
 
 Gets or sets a value indicating the time step multiplier to use in pre-warm mode (default is 1)
 
@@ -921,7 +921,7 @@ Gets or sets a value indicating the time step multiplier to use in pre-warm mode
 
 > **recycleParticle**: (`particle`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1725](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1725)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1728](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1728)
 
 "Recycles" one of the particle by copying it back to the "stock" of particles and removing it from the active list.
 Its lifetime will start back at 0.
@@ -946,7 +946,7 @@ Its lifetime will start back at 0.
 
 > **renderingGroupId**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L104)
 
 The rendering group used by the Particle system to chose when to render.
 
@@ -960,7 +960,7 @@ The rendering group used by the Particle system to chose when to render.
 
 > **snippetId**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L99)
 
 Snippet ID if the particle system was created from the snippet server
 
@@ -974,7 +974,7 @@ Snippet ID if the particle system was created from the snippet server
 
 > **spriteCellChangeSpeed**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:326](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L326)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:327](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L327)
 
 If using a spritesheet (isAnimationSheetEnabled) defines the speed of the sprite loop (default is 1 meaning the animation will play once during the entire particle lifetime)
 
@@ -988,7 +988,7 @@ If using a spritesheet (isAnimationSheetEnabled) defines the speed of the sprite
 
 > **spriteCellHeight**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:344](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L344)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L345)
 
 If using a spritesheet (isAnimationSheetEnabled), defines the sprite cell height to use
 
@@ -1002,7 +1002,7 @@ If using a spritesheet (isAnimationSheetEnabled), defines the sprite cell height
 
 > **spriteCellLoop**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:348](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L348)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:349](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L349)
 
 If using a spritesheet (isAnimationSheetEnabled), defines wether the sprite animation is looping
 
@@ -1016,7 +1016,7 @@ If using a spritesheet (isAnimationSheetEnabled), defines wether the sprite anim
 
 > **spriteCellWidth**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:340](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L340)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:341](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L341)
 
 If using a spritesheet (isAnimationSheetEnabled), defines the sprite cell width to use
 
@@ -1030,7 +1030,7 @@ If using a spritesheet (isAnimationSheetEnabled), defines the sprite cell width 
 
 > **spriteRandomStartCell**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:352](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L352)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:353](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L353)
 
 This allows the system to random pick the start cell ID between startSpriteCellID and endSpriteCellID
 
@@ -1044,7 +1044,7 @@ This allows the system to random pick the start cell ID between startSpriteCellI
 
 > **startDelay**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:531](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L531)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:532](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L532)
 
 Defines the delay in milliseconds before starting the system (0 by default)
 
@@ -1058,7 +1058,7 @@ Defines the delay in milliseconds before starting the system (0 by default)
 
 > **startSpriteCellID**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:331](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L331)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:332](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L332)
 
 If using a spritesheet (isAnimationSheetEnabled) defines the first sprite cell to display
 
@@ -1072,7 +1072,7 @@ If using a spritesheet (isAnimationSheetEnabled) defines the first sprite cell t
 
 > **subEmitters**: (`ParticleSystem` \| [`SubEmitter`](SubEmitter.md) \| [`SubEmitter`](SubEmitter.md)[])[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L65)
 
 The Sub-emitters templates that will be used to generate the sub particle system to be associated with the system, this property is used by the root particle system only.
 When a particle is spawned, an array will be chosen at random and all the emitters in that array will be attached to the particle.  (Default: [])
@@ -1083,7 +1083,7 @@ When a particle is spawned, an array will be chosen at random and all the emitte
 
 > **textureMask**: [`Color4`](Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:749](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L749)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:750](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L750)
 
 An optional mask to filter some colors out of the texture, or filter a part of the alpha channel
 
@@ -1097,7 +1097,7 @@ An optional mask to filter some colors out of the texture, or filter a part of t
 
 > **translationPivot**: [`Vector2`](Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:355](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L355)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:356](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L356)
 
 Gets or sets a Vector2 used to move the pivot (by default (0,0))
 
@@ -1111,7 +1111,7 @@ Gets or sets a Vector2 used to move the pivot (by default (0,0))
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L84)
 
 Gets or sets the unique id of the particle system
 
@@ -1125,7 +1125,7 @@ Gets or sets the unique id of the particle system
 
 > **updateFunction**: (`particles`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L95)
 
 This function can be defined to provide custom update for active particles.
 This function will be called instead of regular update (age, position, color, etc.).
@@ -1151,7 +1151,7 @@ Do not forget that this function will be called on every frame so try to keep it
 
 > `readonly` **updateInAnimate**: `true` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L239)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:241](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L241)
 
 Indicates that the update of particles is done in the animate function
 
@@ -1165,7 +1165,7 @@ Indicates that the update of particles is done in the animate function
 
 > **updateSpeed**: `number` = `0.01`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L124)
 
 The overall motion speed (0.01 is default update speed, faster updates = faster animation)
 
@@ -1179,7 +1179,7 @@ The overall motion speed (0.01 is default update speed, faster updates = faster 
 
 > **worldOffset**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:394](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L394)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:395](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L395)
 
 Gets or sets a world offset applied to all particles
 
@@ -1193,7 +1193,7 @@ Gets or sets a world offset applied to all particles
 
 > `readonly` `static` **BILLBOARDMODE\_ALL**: `7` = `Constants.PARTICLES_BILLBOARDMODE_ALL`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L48)
 
 Billboard mode will apply to all axes
 
@@ -1203,7 +1203,7 @@ Billboard mode will apply to all axes
 
 > `readonly` `static` **BILLBOARDMODE\_STRETCHED**: `8` = `Constants.PARTICLES_BILLBOARDMODE_STRETCHED`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L52)
 
 Special billboard mode where the particle will be biilboard to the camera but rotated to align with direction
 
@@ -1213,7 +1213,7 @@ Special billboard mode where the particle will be biilboard to the camera but ro
 
 > `readonly` `static` **BILLBOARDMODE\_STRETCHED\_LOCAL**: `9` = `Constants.PARTICLES_BILLBOARDMODE_STRETCHED_LOCAL`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L56)
 
 Special billboard mode where the particle will be billboard to the camera but only around the axis of the direction of particle emission
 
@@ -1223,7 +1223,7 @@ Special billboard mode where the particle will be billboard to the camera but on
 
 > `readonly` `static` **BILLBOARDMODE\_Y**: `2` = `Constants.PARTICLES_BILLBOARDMODE_Y`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L44)
 
 Billboard mode will only apply to Y axis
 
@@ -1233,7 +1233,7 @@ Billboard mode will only apply to Y axis
 
 > `static` **BLENDMODE\_ADD**: `number` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L61)
 
 Add current color and particle color multiplied by particle’s alpha
 
@@ -1247,7 +1247,7 @@ Add current color and particle color multiplied by particle’s alpha
 
 > `static` **BLENDMODE\_MULTIPLY**: `number` = `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L65)
 
 Multiply current color with particle color
 
@@ -1261,7 +1261,7 @@ Multiply current color with particle color
 
 > `static` **BLENDMODE\_MULTIPLYADD**: `number` = `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L69)
 
 Multiply current color with particle color then add current color and particle color multiplied by particle’s alpha
 
@@ -1275,7 +1275,7 @@ Multiply current color with particle color then add current color and particle c
 
 > `static` **BLENDMODE\_ONEONE**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L53)
 
 Source color is added to the destination color without alpha affecting the result. Great for additive glow effects (fire, magic, lasers)
 
@@ -1289,7 +1289,7 @@ Source color is added to the destination color without alpha affecting the resul
 
 > `static` **BLENDMODE\_STANDARD**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L57)
 
 Blend current color and particle color using particle’s alpha. Same as Constants.ALPHA_COMBINE, the go-to for transparency. 100% alpha means source, 0% alpha means background. Glass, UI fade, smoke
 
@@ -1303,7 +1303,7 @@ Blend current color and particle color using particle’s alpha. Same as Constan
 
 > `static` **BLENDMODE\_SUBTRACT**: `number` = `-1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L74)
 
 Subtracts source (particle) from destination (current color), leading to darker results
 - NOTE: Init as -1 so we can properly map all modes to Engine Const's (otherwise ALPHA_SUBTRACT will conflict with BLENDMODE_MULTIPLY since both use 3)
@@ -1318,7 +1318,7 @@ Subtracts source (particle) from destination (current color), leading to darker 
 
 > `static` **ForceGLSL**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L88)
 
 Force all the particle systems to compile to glsl even on WebGPU engines.
 False by default. This is mostly meant for backward compatibility.
@@ -1335,7 +1335,7 @@ False by default. This is mostly meant for backward compatibility.
 
 > **get** **attractors**(): [`Attractor`](Attractor.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:276](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L276)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:277](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L277)
 
 The list of attractors used to change the direction of the particles in the system.
 Please note that this is a copy of the internal array. If you want to modify it, please use the addAttractor and removeAttractor methods.
@@ -1356,7 +1356,7 @@ Please note that this is a copy of the internal array. If you want to modify it,
 
 > **get** **billboardMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:766](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L766)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:767](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L767)
 
 Gets or sets the billboard mode to use when isBillboardBased = true.
 Value can be: ParticleSystem.BILLBOARDMODE_ALL, ParticleSystem.BILLBOARDMODE_Y, ParticleSystem.BILLBOARDMODE_STRETCHED, ParticleSystem.PARTICLES_BILLBOARDMODE_STRETCHED_LOCAL
@@ -1369,7 +1369,7 @@ Value can be: ParticleSystem.BILLBOARDMODE_ALL, ParticleSystem.BILLBOARDMODE_Y, 
 
 > **set** **billboardMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:770](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L770)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:771](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L771)
 
 ##### Parameters
 
@@ -1393,7 +1393,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem
 
 > **get** **direction1**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:665](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L665)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:666](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L666)
 
 Random direction of each particle after it has been emitted, between direction1 and direction2 vectors.
 This only works when particleEmitterTyps is a BoxParticleEmitter
@@ -1406,7 +1406,7 @@ This only works when particleEmitterTyps is a BoxParticleEmitter
 
 > **set** **direction1**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:673](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L673)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:674](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L674)
 
 ##### Parameters
 
@@ -1430,7 +1430,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem
 
 > **get** **direction2**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:683](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L683)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:684](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L684)
 
 Random direction of each particle after it has been emitted, between direction1 and direction2 vectors.
 This only works when particleEmitterTyps is a BoxParticleEmitter
@@ -1443,7 +1443,7 @@ This only works when particleEmitterTyps is a BoxParticleEmitter
 
 > **set** **direction2**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:691](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L691)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:692](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L692)
 
 ##### Parameters
 
@@ -1467,7 +1467,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem
 
 > **get** **flowMap**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FlowMap`](FlowMap.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L117)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L121)
 
 Gets or sets the current flow map
 
@@ -1479,7 +1479,7 @@ Gets or sets the current flow map
 
 > **set** **flowMap**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L125)
 
 ##### Parameters
 
@@ -1499,7 +1499,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:
 
 > **get** **imageProcessingConfiguration**(): [`Nullable`](../type-aliases/Nullable.md)\<[`ImageProcessingConfiguration`](ImageProcessingConfiguration.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:820](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L820)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:821](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L821)
 
 Gets the image processing configuration used either in this material.
 
@@ -1511,7 +1511,7 @@ Gets the image processing configuration used either in this material.
 
 > **set** **imageProcessingConfiguration**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:829](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L829)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:830](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L830)
 
 Sets the Default image processing configuration used either in the this material.
 
@@ -1539,7 +1539,7 @@ If sets to null, the scene one is in use.
 
 > **get** **indexBuffer**(): [`Nullable`](../type-aliases/Nullable.md)\<[`DataBuffer`](DataBuffer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:495](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L495)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:497](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L497)
 
 Gets the index buffer used by the particle system (or null if no index buffer is used (if _useInstancing=true))
 
@@ -1559,7 +1559,7 @@ Gets the index buffer used by the particle system (or null if no index buffer is
 
 > **get** **isAnimationSheetEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:429](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L429)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:430](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L430)
 
 Gets or sets whether an animation sprite sheet is enabled or not on the particle system
 
@@ -1571,7 +1571,7 @@ Gets or sets whether an animation sprite sheet is enabled or not on the particle
 
 > **set** **isAnimationSheetEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:433](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L433)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:434](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L434)
 
 ##### Parameters
 
@@ -1595,7 +1595,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem
 
 > **get** **isBillboardBased**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:784](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L784)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:785](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L785)
 
 Gets or sets a boolean indicating if the particles must be rendered as billboard or aligned with the direction
 
@@ -1607,7 +1607,7 @@ Gets or sets a boolean indicating if the particles must be rendered as billboard
 
 > **set** **isBillboardBased**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:788](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L788)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:789](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L789)
 
 ##### Parameters
 
@@ -1631,7 +1631,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem
 
 > **get** **isDisposed**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L214)
 
 Gets a boolean indicating that the particle system was disposed
 
@@ -1651,7 +1651,7 @@ Gets a boolean indicating that the particle system was disposed
 
 > **get** **isLocal**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:343](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L343)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L345)
 
 Specifies if the particles are updated in emitter local space or world space
 
@@ -1663,7 +1663,7 @@ Specifies if the particles are updated in emitter local space or world space
 
 > **set** **isLocal**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:347](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L347)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:349](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L349)
 
 Specifies if the particles are updated in emitter local space or world space
 
@@ -1689,7 +1689,7 @@ Specifies if the particles are updated in emitter local space or world space
 
 > **get** **isNodeGenerated**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L112)
 
 Returns true if the particle system was generated by a node particle system set
 
@@ -1709,7 +1709,7 @@ Returns true if the particle system was generated by a node particle system set
 
 > **get** **maxEmitBox**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:719](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L719)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:720](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L720)
 
 Maximum box point around our emitter. Our emitter is the center of particles source, but if you want your particles to emit from more than one point, then you can tell it to do so.
 This only works when particleEmitterTyps is a BoxParticleEmitter
@@ -1722,7 +1722,7 @@ This only works when particleEmitterTyps is a BoxParticleEmitter
 
 > **set** **maxEmitBox**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:727](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L727)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:728](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L728)
 
 ##### Parameters
 
@@ -1746,7 +1746,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem
 
 > **get** **minEmitBox**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:701](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L701)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:702](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L702)
 
 Minimum box point around our emitter. Our emitter is the center of particles source, but if you want your particles to emit from more than one point, then you can tell it to do so.
 This only works when particleEmitterTyps is a BoxParticleEmitter
@@ -1759,7 +1759,7 @@ This only works when particleEmitterTyps is a BoxParticleEmitter
 
 > **set** **minEmitBox**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:709](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L709)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:710](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L710)
 
 ##### Parameters
 
@@ -1783,7 +1783,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem
 
 > **get** **noiseTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`ProceduralTexture`](ProceduralTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:502](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L502)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:504](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L504)
 
 Gets or sets a texture used to add random noise to particle positions
 
@@ -1795,7 +1795,7 @@ Gets or sets a texture used to add random noise to particle positions
 
 > **set** **noiseTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:506](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L506)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:508](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L508)
 
 Gets or sets a texture used to add random noise to particle positions
 
@@ -1821,7 +1821,7 @@ Gets or sets a texture used to add random noise to particle positions
 
 > **get** **onBeforeDrawParticlesObservable**(): [`Observable`](Observable.md)\<[`Nullable`](../type-aliases/Nullable.md)\<[`Effect`](Effect.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:470](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L470)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:472](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L472)
 
 Observable that will be called just before the particles are drawn
 
@@ -1841,7 +1841,7 @@ Observable that will be called just before the particles are drawn
 
 > **set** **onDispose**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:167](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L167)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L169)
 
 Sets a callback that will be triggered when the system is disposed
 
@@ -1867,7 +1867,7 @@ Sets a callback that will be triggered when the system is disposed
 
 > **get** **particles**(): [`Particle`](Particle.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:373](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L373)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:375](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L375)
 
 Gets the current list of active particles
 
@@ -1887,7 +1887,7 @@ Gets the current list of active particles
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:383](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L383)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:385](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L385)
 
 Gets the shader language used in this material.
 
@@ -1907,7 +1907,7 @@ Gets the shader language used in this material.
 
 > **get** **source**(): [`Nullable`](../type-aliases/Nullable.md)\<[`NodeParticleSystemSet`](NodeParticleSystemSet.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L105)
 
 Gets the NodeParticleSystemSet that this particle system belongs to.
 
@@ -1923,7 +1923,7 @@ Gets the NodeParticleSystemSet that this particle system belongs to.
 
 > **get** **startDirectionFunction**(): [`Nullable`](../type-aliases/Nullable.md)\<(`worldMatrix`, `directionToUpdate`, `particle`, `isLocal`) => `void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L108)
 
 This function can be defined to specify initial direction for every new particle.
 It by default use the emitterType defined function
@@ -1936,7 +1936,7 @@ It by default use the emitterType defined function
 
 > **set** **startDirectionFunction**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:110](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L110)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L112)
 
 ##### Parameters
 
@@ -1960,7 +1960,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem
 
 > **get** **startPositionFunction**(): [`Nullable`](../type-aliases/Nullable.md)\<(`worldMatrix`, `positionToUpdate`, `particle`, `isLocal`) => `void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L131)
 
 This function can be defined to specify initial position for every new particle.
 It by default use the emitterType defined function
@@ -1973,7 +1973,7 @@ It by default use the emitterType defined function
 
 > **set** **startPositionFunction**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L135)
 
 ##### Parameters
 
@@ -1997,7 +1997,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem
 
 > **get** **targetStopDuration**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:816](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L816)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:819](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L819)
 
 The amount of time the particle system is running (depends of the overall update speed).
 
@@ -2009,7 +2009,7 @@ The amount of time the particle system is running (depends of the overall update
 
 > **set** **targetStopDuration**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:820](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L820)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:823](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L823)
 
 The amount of time the particle system is running (depends of the overall update speed).
 
@@ -2035,7 +2035,7 @@ The amount of time the particle system is running (depends of the overall update
 
 > **get** **useLogarithmicDepth**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:448](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L448)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:449](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L449)
 
 Gets or sets a boolean enabling the use of logarithmic depth buffers, which is good for wide depth buffers.
 
@@ -2047,7 +2047,7 @@ Gets or sets a boolean enabling the use of logarithmic depth buffers, which is g
 
 > **set** **useLogarithmicDepth**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:452](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L452)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:453](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L453)
 
 ##### Parameters
 
@@ -2071,7 +2071,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem
 
 > **get** **useRampGradients**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:301](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L301)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:303](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L303)
 
 Gets or sets a boolean indicating that ramp gradients must be used
 
@@ -2087,7 +2087,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/particles/particle_system/pa
 
 > **set** **useRampGradients**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:305](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L305)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:307](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L307)
 
 Gets or sets a boolean indicating that ramp gradients must be used
 
@@ -2117,7 +2117,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/particles/particle_system/ra
 
 > **get** **vertexBuffers**(): [`Immutable`](../type-aliases/Immutable.md)\<\{\[`key`: `string`\]: [`VertexBuffer`](VertexBuffer.md); \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:488](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L488)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:490](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L490)
 
 Gets the vertex buffers used by the particle system
 
@@ -2137,7 +2137,7 @@ Gets the vertex buffers used by the particle system
 
 > **get** **vertexShaderName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:481](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L481)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:483](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L483)
 
 Gets the name of the particle vertex shader
 
@@ -2155,7 +2155,7 @@ Gets the name of the particle vertex shader
 
 > **addAlphaRemapGradient**(`gradient`, `min`, `max`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:942](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L942)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:945](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L945)
 
 Adds a new alpha remap gradient
 
@@ -2195,7 +2195,7 @@ the current particle system
 
 > **addAngularSpeedGradient**(`gradient`, `factor`, `factor2?`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:970](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L970)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:973](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L973)
 
 Adds a new angular speed gradient
 
@@ -2235,7 +2235,7 @@ the current particle system
 
 > **addAttractor**(`attractor`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:157](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L157)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:161](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L161)
 
 Add an attractor to the particle system. Attractors are used to change the direction of the particles in the system.
 
@@ -2261,7 +2261,7 @@ The attractor to add to the particle system
 
 > **addColorGradient**(`gradient`, `color1`, `color2?`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1289](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1289)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1292](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1292)
 
 Adds a new color gradient
 
@@ -2301,7 +2301,7 @@ this particle system
 
 > **addColorRemapGradient**(`gradient`, `min`, `max`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:914](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L914)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:917](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L917)
 
 Adds a new color remap gradient
 
@@ -2341,7 +2341,7 @@ the current particle system
 
 > **addDragGradient**(`gradient`, `factor`, `factor2?`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1113)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1116)
 
 Adds a new drag gradient
 
@@ -2381,7 +2381,7 @@ the current particle system
 
 > **addEmitRateGradient**(`gradient`, `factor`, `factor2?`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:642](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L642)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:643](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L643)
 
 Adds a new emit rate gradient (please note that this will only work if you set the targetStopDuration property)
 
@@ -2421,7 +2421,7 @@ the current particle system
 
 > **addLifeTimeGradient**(`gradient`, `factor`, `factor2?`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:838](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L838)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:841](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L841)
 
 Adds a new life time gradient
 
@@ -2461,7 +2461,7 @@ the current particle system
 
 > **addLimitVelocityGradient**(`gradient`, `factor`, `factor2?`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1064](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1064)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1067](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1067)
 
 Adds a new limit velocity gradient
 
@@ -2501,7 +2501,7 @@ the current particle system
 
 > **addRampGradient**(`gradient`, `color`): `ThinParticleSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1253](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1253)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1256](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1256)
 
 Adds a new ramp gradient used to remap particle colors
 
@@ -2535,7 +2535,7 @@ the current particle system
 
 > **addSizeGradient**(`gradient`, `factor`, `factor2?`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:870](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L870)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:873](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L873)
 
 Adds a new size gradient
 
@@ -2575,7 +2575,7 @@ the current particle system
 
 > **addStartSizeGradient**(`gradient`, `factor`, `factor2?`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1162)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1165)
 
 Adds a new start size gradient (please note that this will only work if you set the targetStopDuration property)
 
@@ -2615,7 +2615,7 @@ the current particle system
 
 > **addVelocityGradient**(`gradient`, `factor`, `factor2?`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1015](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1015)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1018](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1018)
 
 Adds a new velocity gradient
 
@@ -2655,7 +2655,7 @@ the current particle system
 
 > **animate**(`preWarmOnly?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1991](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1991)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1994](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1994)
 
 Animates the particle system for the current frame by emitting new particles and or animating the living ones.
 
@@ -2681,7 +2681,7 @@ will prevent the system from updating the vertex buffer (default is false)
 
 > **canStart**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L88)
 
 Gets or sets a function indicating if the particle system can start.
 
@@ -2697,7 +2697,7 @@ true if the particle system can start, false otherwise.
 
 > **clone**(`name`, `newEmitter`, `cloneTexture?`): `ParticleSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:1088](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L1088)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:1092](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L1092)
 
 Clones the particle system.
 
@@ -2737,7 +2737,7 @@ the cloned particle system
 
 > **createBoxEmitter**(`direction1`, `direction2`, `minEmitBox`, `maxEmitBox`): [`BoxParticleEmitter`](BoxParticleEmitter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:1047](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L1047)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:1048](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L1048)
 
 Creates a Box Emitter for the particle system. (emits between direction1 and direction2 from within the box defined by minEmitBox and maxEmitBox)
 
@@ -2783,7 +2783,7 @@ the emitter
 
 > **createConeEmitter**(`radius?`, `angle?`): [`ConeParticleEmitter`](ConeParticleEmitter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:1019](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L1019)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:1020](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L1020)
 
 Creates a Cone Emitter for the particle system (emits from the cone to the particle position)
 
@@ -2817,7 +2817,7 @@ the emitter
 
 > **createCylinderEmitter**(`radius?`, `height?`, `radiusRange?`, `directionRandomizer?`): [`CylinderParticleEmitter`](CylinderParticleEmitter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:986](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L986)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:987](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L987)
 
 Creates a Cylinder Emitter for the particle system (emits from the cylinder to the particle position)
 
@@ -2863,7 +2863,7 @@ the emitter
 
 > **createDirectedConeEmitter**(`radius?`, `angle?`, `direction1?`, `direction2?`): [`ConeDirectedParticleEmitter`](ConeDirectedParticleEmitter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:1033](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L1033)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:1034](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L1034)
 
 Creates a Directed Cone Emitter for the particle system (emits between direction1 and direction2)
 
@@ -2909,7 +2909,7 @@ the emitter
 
 > **createDirectedCylinderEmitter**(`radius?`, `height?`, `radiusRange?`, `direction1?`, `direction2?`): [`CylinderDirectedParticleEmitter`](CylinderDirectedParticleEmitter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:1001](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L1001)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:1002](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L1002)
 
 Creates a Directed Cylinder Emitter for the particle system (emits between direction1 and direction2)
 
@@ -2961,7 +2961,7 @@ the emitter
 
 > **createDirectedSphereEmitter**(`radius?`, `direction1?`, `direction2?`): [`SphereDirectedParticleEmitter`](SphereDirectedParticleEmitter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:972](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L972)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:973](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L973)
 
 Creates a Directed Sphere Emitter for the particle system (emits between direction1 and direction2)
 
@@ -3001,7 +3001,7 @@ the emitter
 
 > **createHemisphericEmitter**(`radius?`, `radiusRange?`): [`HemisphericParticleEmitter`](HemisphericParticleEmitter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:947](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L947)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:948](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L948)
 
 Creates a Hemisphere Emitter for the particle system (emits along the hemisphere radius)
 
@@ -3035,7 +3035,7 @@ the emitter
 
 > **createMeshEmitter**(`mesh?`): [`MeshParticleEmitter`](MeshParticleEmitter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:1062](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L1062)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:1063](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L1063)
 
 Creates a Mesh Emitter for the particle system (emits from the surface of a mesh)
 
@@ -3063,7 +3063,7 @@ the emitter
 
 > **createPointEmitter**(`direction1`, `direction2`): [`PointParticleEmitter`](PointParticleEmitter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:935](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L935)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:936](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L936)
 
 Creates a Point Emitter for the particle system (emits directly from the emitter position)
 
@@ -3097,7 +3097,7 @@ the emitter
 
 > **createSphereEmitter**(`radius?`, `radiusRange?`): [`SphereParticleEmitter`](SphereParticleEmitter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:959](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L959)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:960](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L960)
 
 Creates a Sphere Emitter for the particle system (emits along the sphere radius)
 
@@ -3131,7 +3131,7 @@ the emitter
 
 > **dispose**(`disposeTexture?`, `disposeAttachedSubEmitters?`, `disposeEndSubEmitters?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:2351](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L2351)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:2354](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L2354)
 
 Disposes the particle system and free the associated resources
 
@@ -3169,7 +3169,7 @@ defines if the end type sub-emitters must be disposed as well (false by default)
 
 > **fillDefines**(`defines`, `blendMode`, `fillImageProcessing?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1846](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1846)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1849](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1849)
 
 Fill the defines array according to the current settings of the particle system
 
@@ -3207,7 +3207,7 @@ fills the image processing defines
 
 > **fillUniformsAttributesAndSamplerNames**(`uniforms`, `attributes`, `samplers`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1904](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1904)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1907](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1907)
 
 Fill the uniforms, attributes and samplers arrays according to the current settings of the particle system
 
@@ -3245,7 +3245,7 @@ Samplers array to fill
 
 > **forceRefreshGradients**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1220](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1220)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1223)
 
 Force the system to rebuild all gradients that need to be resync
 
@@ -3263,7 +3263,7 @@ Force the system to rebuild all gradients that need to be resync
 
 > **getActiveCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:418](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L418)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:420](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L420)
 
 Gets the number of particles active at the same time.
 
@@ -3283,7 +3283,7 @@ The number of active particles.
 
 > **getAlphaRemapGradients**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FactorGradient`](FactorGradient.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:586](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L586)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:587](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L587)
 
 Gets the current list of alpha remap gradients.
 You must use addAlphaRemapGradient and removeAlphaRemapGradient to update this list
@@ -3304,7 +3304,7 @@ the list of alpha remap gradients
 
 > **getAngularSpeedGradients**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FactorGradient`](FactorGradient.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:604](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L604)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:605](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L605)
 
 Gets the current list of angular speed gradients.
 You must use addAngularSpeedGradient and removeAngularSpeedGradient to update this list
@@ -3325,7 +3325,7 @@ the list of angular speed gradients
 
 > **getCapacity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1497](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1497)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1500](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1500)
 
 Gets the maximum number of particles active at the same time.
 
@@ -3345,7 +3345,7 @@ The max number of active particles.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:426](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L426)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:428](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L428)
 
 Returns the string "ParticleSystem"
 
@@ -3365,7 +3365,7 @@ a string containing the class name
 
 > **getColorGradients**(): [`Nullable`](../type-aliases/Nullable.md)\<[`ColorGradient`](ColorGradient.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:559](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L559)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:560](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L560)
 
 Gets the current list of color gradients.
 You must use addColorGradient and removeColorGradient to update this list
@@ -3386,7 +3386,7 @@ the list of color gradients
 
 > **getColorRemapGradients**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FactorGradient`](FactorGradient.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:577](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L577)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:578](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L578)
 
 Gets the current list of color remap gradients.
 You must use addColorRemapGradient and removeColorRemapGradient to update this list
@@ -3407,7 +3407,7 @@ the list of color remap gradients
 
 > **getCustomEffect**(`blendMode?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Effect`](Effect.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:443](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L443)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:445](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L445)
 
 Gets the custom effect used to render the particles
 
@@ -3435,7 +3435,7 @@ The effect
 
 > **getDragGradients**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FactorGradient`](FactorGradient.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:538](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L538)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:539](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L539)
 
 Gets the current list of drag gradients.
 You must use addDragGradient and removeDragGradient to update this list
@@ -3456,7 +3456,7 @@ the list of drag gradients
 
 > **getEmitRateGradients**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FactorGradient`](FactorGradient.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:631](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L631)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:632](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L632)
 
 Gets the current list of emit rate gradients.
 You must use addEmitRateGradient and removeEmitRateGradient to update this list
@@ -3477,7 +3477,7 @@ the list of emit rate gradients
 
 > **getLifeTimeGradients**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FactorGradient`](FactorGradient.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:595](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L595)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:596](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L596)
 
 Gets the current list of life time gradients.
 You must use addLifeTimeGradient and removeLifeTimeGradient to update this list
@@ -3498,7 +3498,7 @@ the list of life time gradients
 
 > **getLimitVelocityGradients**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FactorGradient`](FactorGradient.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:550](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L550)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:551](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L551)
 
 Gets the current list of limit velocity gradients.
 You must use addLimitVelocityGradient and removeLimitVelocityGradient to update this list
@@ -3519,7 +3519,7 @@ the list of limit velocity gradients
 
 > **getRampGradients**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Color3Gradient`](Color3Gradient.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1215](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1215)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1218)
 
 Gets the current list of ramp gradients.
 You must use addRampGradient and removeRampGradient to update this list
@@ -3540,7 +3540,7 @@ the list of ramp gradients
 
 > **getScene**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Scene`](Scene.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:460](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L460)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:461](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L461)
 
 Get hosting scene
 
@@ -3560,7 +3560,7 @@ the scene
 
 > **getSizeGradients**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FactorGradient`](FactorGradient.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:568](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L568)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:569](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L569)
 
 Gets the current list of size gradients.
 You must use addSizeGradient and removeSizeGradient to update this list
@@ -3581,7 +3581,7 @@ the list of size gradients
 
 > **getStartSizeGradients**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FactorGradient`](FactorGradient.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:622](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L622)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:623](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L623)
 
 Gets the current list of start size gradients.
 You must use addStartSizeGradient and removeStartSizeGradient to update this list
@@ -3602,7 +3602,7 @@ the list of start size gradients
 
 > **getVelocityGradients**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FactorGradient`](FactorGradient.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:613](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L613)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:614](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L614)
 
 Gets the current list of velocity gradients.
 You must use addVelocityGradient and removeVelocityGradient to update this list
@@ -3623,7 +3623,7 @@ the list of velocity gradients
 
 > **isAlive**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1505](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1505)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1508](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1508)
 
 Gets whether there are still active particles in the system.
 
@@ -3643,7 +3643,7 @@ True if it is alive, otherwise false.
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:2180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L2180)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:2183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L2183)
 
 Is this system ready to be used/rendered
 
@@ -3663,7 +3663,7 @@ true if the system is ready
 
 > **isStarted**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1513](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1513)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1516](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1516)
 
 Gets if the system has been started. (Note: this will still be true after stop is called)
 
@@ -3683,7 +3683,7 @@ True if it has been started, otherwise false.
 
 > **isStopping**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:434](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L434)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:436](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L436)
 
 Gets a boolean indicating that the system is stopping
 
@@ -3703,7 +3703,7 @@ true if the system is currently stopping
 
 > **rebuild**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:2147](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L2147)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:2150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L2150)
 
 Rebuilds the particle system.
 
@@ -3721,7 +3721,7 @@ Rebuilds the particle system.
 
 > **removeAlphaRemapGradient**(`gradient`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:957](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L957)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:960](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L960)
 
 Remove a specific alpha remap gradient
 
@@ -3749,7 +3749,7 @@ the current particle system
 
 > **removeAngularSpeedGradient**(`gradient`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:997](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L997)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1000](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1000)
 
 Remove a specific angular speed gradient
 
@@ -3777,7 +3777,7 @@ the current particle system
 
 > **removeAttractor**(`attractor`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L178)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L182)
 
 Removes an attractor from the particle system. Attractors are used to change the direction of the particles in the system.
 
@@ -3803,7 +3803,7 @@ The attractor to remove from the particle system
 
 > **removeColorGradient**(`gradient`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1320](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1320)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1323)
 
 Remove a specific color gradient
 
@@ -3831,7 +3831,7 @@ this particle system
 
 > **removeColorRemapGradient**(`gradient`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:929](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L929)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:932](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L932)
 
 Remove a specific color remap gradient
 
@@ -3859,7 +3859,7 @@ the current particle system
 
 > **removeDragGradient**(`gradient`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1144)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1147](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1147)
 
 Remove a specific drag gradient
 
@@ -3887,7 +3887,7 @@ the current particle system
 
 > **removeEmitRateGradient**(`gradient`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.ts:656](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/baseParticleSystem.ts#L656)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/baseParticleSystem.pure.ts:657](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/baseParticleSystem.pure.ts#L657)
 
 Remove a specific emit rate gradient
 
@@ -3915,7 +3915,7 @@ the current particle system
 
 > **removeLifeTimeGradient**(`gradient`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:855](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L855)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:858](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L858)
 
 Remove a specific life time gradient
 
@@ -3943,7 +3943,7 @@ the current particle system
 
 > **removeLimitVelocityGradient**(`gradient`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1095](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1095)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1098](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1098)
 
 Remove a specific limit velocity gradient
 
@@ -3971,7 +3971,7 @@ the current particle system
 
 > **removeRampGradient**(`gradient`): `ThinParticleSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1271)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1274](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1274)
 
 Remove a specific ramp gradient
 
@@ -3999,7 +3999,7 @@ the current particle system
 
 > **removeSizeGradient**(`gradient`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:896](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L896)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:899](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L899)
 
 Remove a specific size gradient
 
@@ -4027,7 +4027,7 @@ the current particle system
 
 > **removeStartSizeGradient**(`gradient`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1179](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1179)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1182)
 
 Remove a specific start size gradient
 
@@ -4055,7 +4055,7 @@ the current particle system
 
 > **removeVelocityGradient**(`gradient`): [`IParticleSystem`](../interfaces/IParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1046](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1046)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1049](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1049)
 
 Remove a specific velocity gradient
 
@@ -4083,7 +4083,7 @@ the current particle system
 
 > **render**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:2311](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L2311)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:2314](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L2314)
 
 Renders the particle system in its current state.
 
@@ -4103,7 +4103,7 @@ the current number of particles
 
 > **reset**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1629](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1629)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1632](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1632)
 
 Remove all active particles
 
@@ -4121,7 +4121,7 @@ Remove all active particles
 
 > **resetDrawCache**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1345](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1345)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1348](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1348)
 
 Resets the draw wrappers cache
 
@@ -4139,7 +4139,7 @@ Resets the draw wrappers cache
 
 > **serialize**(`serializeTexture?`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:721](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L721)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:725](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L725)
 
 Serializes the particle system to a JSON object
 
@@ -4167,7 +4167,7 @@ the JSON object
 
 > **setCustomEffect**(`effect`, `blendMode?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:456](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L456)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:458](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L458)
 
 Sets the custom effect used to render the particles
 
@@ -4199,7 +4199,7 @@ Blend mode for which the effect should be set
 
 > **start**(`delay?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L194)
 
 Starts the particle system and begins to emit
 
@@ -4225,7 +4225,7 @@ defines the delay in milliseconds before starting the system (this.startDelay by
 
 > **stop**(`stopSubEmitters?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.ts:1607](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/thinParticleSystem.ts#L1607)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/thinParticleSystem.pure.ts:1610](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/thinParticleSystem.pure.ts#L1610)
 
 Stops the particle system.
 
@@ -4251,7 +4251,7 @@ if true it will stop the current system and all created sub-Systems if false it 
 
 > `static` **Parse**(`parsedParticleSystem`, `sceneOrEngine`, `rootUrl`, `doNotStart?`, `capacity?`): `ParticleSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.ts:640](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particleSystem.ts#L640)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystem.pure.ts:644](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystem.pure.ts#L644)
 
 Parses a JSON object to create a particle system.
 

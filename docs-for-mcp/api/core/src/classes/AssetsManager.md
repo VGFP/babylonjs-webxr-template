@@ -6,7 +6,7 @@
 
 # Class: AssetsManager
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1050](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1050)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1050](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1050)
 
 This class can be used to easily import assets into a scene
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/importers/assetManager
 
 > **new AssetsManager**(`scene?`): `AssetsManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1115)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1115)
 
 Creates a new AssetsManager
 
@@ -42,7 +42,7 @@ defines the scene to work on
 
 > **autoHideLoadingUI**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1109)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1109)
 
 Gets or sets a boolean defining if the AssetsManager should automatically hide the loading screen
 when all assets have been downloaded.
@@ -54,7 +54,7 @@ If set to false, you need to manually call in hideLoadingUI() once your scene is
 
 > **onFinish**: (`tasks`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1061](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1061)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1061](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1061)
 
 Callback called when all tasks are processed
 
@@ -74,7 +74,7 @@ Callback called when all tasks are processed
 
 > **onProgress**: (`remainingCount`, `totalCount`, `task`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1076](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1076)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1076](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1076)
 
 Callback called when a task is done (whatever the result is)
 
@@ -102,7 +102,7 @@ Callback called when a task is done (whatever the result is)
 
 > **onProgressObservable**: [`Observable`](Observable.md)\<[`IAssetsProgressEvent`](../interfaces/IAssetsProgressEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1096](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1096)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1096](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1096)
 
 Observable called when a task is done (whatever the result is)
 
@@ -112,7 +112,7 @@ Observable called when a task is done (whatever the result is)
 
 > **onTaskError**: (`task`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1071](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1071)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1071](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1071)
 
 Callback called when a task had an error
 
@@ -132,7 +132,7 @@ Callback called when a task had an error
 
 > **onTaskErrorObservable**: [`Observable`](Observable.md)\<[`AbstractAssetTask`](AbstractAssetTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1086](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1086)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1086](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1086)
 
 Observable called when a task had an error
 
@@ -142,7 +142,7 @@ Observable called when a task had an error
 
 > **onTasksDoneObservable**: [`Observable`](Observable.md)\<[`AbstractAssetTask`](AbstractAssetTask.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1091](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1091)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1091](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1091)
 
 Observable called when all tasks were executed
 
@@ -152,7 +152,7 @@ Observable called when all tasks were executed
 
 > **onTaskSuccess**: (`task`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1066](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1066)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1066](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1066)
 
 Callback called when a task is successful
 
@@ -172,7 +172,7 @@ Callback called when a task is successful
 
 > **onTaskSuccessObservable**: [`Observable`](Observable.md)\<[`AbstractAssetTask`](AbstractAssetTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1081](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1081)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1081](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1081)
 
 Observable called when all tasks are processed
 
@@ -182,7 +182,7 @@ Observable called when all tasks are processed
 
 > **useDefaultLoadingScreen**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1102)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1102)
 
 Gets or sets a boolean defining if the AssetsManager should use the default loading screen
 
@@ -196,7 +196,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/customLoadingScreen
 
 > **addBinaryFileTask**(`taskName`, `url`): [`BinaryFileAssetTask`](BinaryFileAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1180)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1180)
 
 Add a BinaryFileAssetTask to the list of active tasks
 
@@ -226,7 +226,7 @@ a new BinaryFileAssetTask object
 
 > **addContainerTask**(`taskName`, `meshesNames`, `rootUrl`, `sceneFilename`, `extension?`): [`ContainerAssetTask`](ContainerAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1128)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1128)
 
 Add a ContainerAssetTask to the list of active tasks
 
@@ -274,7 +274,7 @@ a new ContainerAssetTask object
 
 > **addCubeTextureTask**(`taskName`, `url`, `extensionsOrOptions?`, `noMipmap?`, `files?`, `prefiltered?`): [`CubeTextureAssetTask`](CubeTextureAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1232](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1232)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1232)
 
 Add a CubeTextureAssetTask to the list of active tasks
 
@@ -328,7 +328,7 @@ a new CubeTextureAssetTask object
 
 > **addEquiRectangularCubeTextureAssetTask**(`taskName`, `url`, `size`, `noMipmap?`, `gammaSpace?`, `superSample?`): [`EquiRectangularCubeTextureAssetTask`](EquiRectangularCubeTextureAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1302](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1302)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1302)
 
 Add a EquiRectangularCubeTextureAssetTask to the list of active tasks
 
@@ -383,7 +383,7 @@ a new EquiRectangularCubeTextureAssetTask object
 
 > **addHDRCubeTextureTask**(`taskName`, `url`, `size`, `noMipmap?`, `generateHarmonics?`, `gammaSpace?`, `prefilterOnLoad?`, `supersample?`, `prefilterIrradianceOnLoad?`, `prefilterUsingCdf?`): [`HDRCubeTextureAssetTask`](HDRCubeTextureAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1261)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1261)
 
 Add a HDRCubeTextureAssetTask to the list of active tasks
 
@@ -461,7 +461,7 @@ a new HDRCubeTextureAssetTask object
 
 > **addImageTask**(`taskName`, `url`): [`ImageAssetTask`](ImageAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1193](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1193)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1193)
 
 Add a ImageAssetTask to the list of active tasks
 
@@ -491,7 +491,7 @@ a new ImageAssetTask object
 
 > **addMeshTask**(`taskName`, `meshesNames`, `rootUrl`, `sceneFilename`, `extension?`, `filename?`, `pluginOptions?`): [`MeshAssetTask`](MeshAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1146)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1146)
 
 Add a MeshAssetTask to the list of active tasks
 
@@ -554,6 +554,26 @@ Defines if the plugin is enabled
 `number`
 
 Defines the loop mode of the animation to load.
+
+###### fbx?
+
+\{ `enabled?`: `boolean`; `normalMapCoordinateSystem?`: [`FBXNormalMapCoordinateSystem`](../../../loaders/src/type-aliases/FBXNormalMapCoordinateSystem.md); \}
+
+Defines options for the FBX loader.
+
+###### fbx.enabled?
+
+`boolean`
+
+Defines if the plugin is enabled
+
+###### fbx.normalMapCoordinateSystem?
+
+[`FBXNormalMapCoordinateSystem`](../../../loaders/src/type-aliases/FBXNormalMapCoordinateSystem.md)
+
+Source convention for tangent-space normal maps connected through FBX normal-map slots.
+FBX does not standardize this convention, so the loader defaults to the glTF/USD-style Y-up convention.
+Set to "y-down" for assets authored with inverted green/Y normal maps.
 
 ###### gltf?
 
@@ -1369,7 +1389,7 @@ Defines custom scaling of UV coordinates of loaded meshes.
 
 ###### splat?
 
-\{ `deflateURL?`: `string`; `disableAutoCameraLimits?`: `boolean`; `enabled?`: `boolean`; `fflate?`: `unknown`; `flipY?`: `boolean`; `gaussianSplattingMesh?`: [`GaussianSplattingMesh`](GaussianSplattingMesh.md); `keepInRam?`: `boolean`; `needsRotationScaleTextures?`: `boolean`; `spzLibraryUrl?`: `string`; \}
+\{ `deflateURL?`: `string`; `disableAutoCameraLimits?`: `boolean`; `enabled?`: `boolean`; `fflate?`: `unknown`; `flipY?`: `boolean`; `gaussianSplattingMesh?`: [`GaussianSplattingMesh`](GaussianSplattingMesh.md); `keepInRam?`: `boolean`; `needsRotationScaleTextures?`: `boolean`; `spzLibraryUrl?`: `string`; `useSogTextures?`: `boolean`; \}
 
 Defines options for the splat loader.
 
@@ -1448,6 +1468,14 @@ Setting the URL directly on the loader options
 spzLibraryUrl: "https://unpkg.com/@adobe/spz@0.2.0/dist/spz.js"
 ```
 
+###### splat.useSogTextures?
+
+`boolean`
+
+Load SOG files as raw GPU textures and dequantize in the shader.
+Skips the CPU decode pass and yields much faster load times.
+Requires WebGL2 / WebGPU. Defaults to false (CPU decode).
+
 ###### stl?
 
 \{ `enabled?`: `boolean`; \}
@@ -1472,7 +1500,7 @@ a new MeshAssetTask object
 
 > **addTextFileTask**(`taskName`, `url`): [`TextFileAssetTask`](TextFileAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1167](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1167)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1167)
 
 Add a TextFileAssetTask to the list of active tasks
 
@@ -1502,7 +1530,7 @@ a new TextFileAssetTask object
 
 > **addTextureTask**(`taskName`, `url`, `noMipmapOrOptions?`, `invertY?`, `samplingMode?`): [`TextureAssetTask`](TextureAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1209](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1209)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1209)
 
 Add a TextureAssetTask to the list of active tasks
 
@@ -1550,7 +1578,7 @@ a new TextureAssetTask object
 
 > **load**(): `AssetsManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1429](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1429)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1429](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1429)
 
 Start the loading process
 
@@ -1566,7 +1594,7 @@ the current instance of the AssetsManager
 
 > **loadAsync**(): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1464](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1464)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1464](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1464)
 
 Start the loading process as an async operation
 
@@ -1582,7 +1610,7 @@ a promise returning the list of failed tasks
 
 > **removeTask**(`task`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1320](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1320)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1320](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1320)
 
 Remove a task from the assets manager.
 
@@ -1604,7 +1632,7 @@ the task to remove
 
 > **reset**(): `AssetsManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1419](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1419)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1419](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1419)
 
 Reset the AssetsManager and remove all tasks
 

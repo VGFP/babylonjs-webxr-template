@@ -6,7 +6,7 @@
 
 # Class: NodeRenderGraphIblShadowsRendererBlock
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L21)
 
 Block that implements IBL (image-based lighting) shadows using voxel tracing.
 
@@ -20,7 +20,7 @@ Block that implements IBL (image-based lighting) shadows using voxel tracing.
 
 > **new NodeRenderGraphIblShadowsRendererBlock**(`name`, `frameGraph`, `scene`): `NodeRenderGraphIblShadowsRendererBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L37)
 
 Create a new NodeRenderGraphIblShadowsRendererBlock
 
@@ -58,7 +58,7 @@ defines the hosting scene
 
 > **comments**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L140)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L140)
 
 A free comment about the block
 
@@ -72,7 +72,7 @@ A free comment about the block
 
 > **onBuildObservable**: [`Observable`](Observable.md)\<[`NodeRenderGraphBlock`](NodeRenderGraphBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L59)
 
 Gets an observable raised when the block is built
 
@@ -86,7 +86,7 @@ Gets an observable raised when the block is built
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L88)
 
 Gets or sets the unique id of the node
 
@@ -100,7 +100,7 @@ Gets or sets the unique id of the node
 
 > **visibleOnFrame**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:143](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L143)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L143)
 
 Gets or sets a boolean indicating that this input can be edited from a collapsed frame
 
@@ -116,7 +116,7 @@ Gets or sets a boolean indicating that this input can be edited from a collapsed
 
 > **get** **camera**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:257](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L257)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:259](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L259)
 
 Gets the camera input component
 
@@ -132,7 +132,7 @@ Gets the camera input component
 
 > **get** **coloredShadows**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L68)
 
 Whether traced shadows preserve environment color
 
@@ -144,7 +144,7 @@ Whether traced shadows preserve environment color
 
 > **set** **coloredShadows**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L72)
 
 ##### Parameters
 
@@ -164,7 +164,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rende
 
 > **get** **depth**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:229](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L229)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L231)
 
 Gets the depth texture input component
 
@@ -180,7 +180,7 @@ Gets the depth texture input component
 
 > **get** **disabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L39)
 
 Gets or sets the disable flag of the task associated with this block
 
@@ -192,7 +192,7 @@ Gets or sets the disable flag of the task associated with this block
 
 > **set** **disabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L43)
 
 ##### Parameters
 
@@ -216,7 +216,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGr
 
 > **get** **envRotation**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:156](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L156)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L158)
 
 Environment rotation in radians
 
@@ -228,7 +228,7 @@ Environment rotation in radians
 
 > **set** **envRotation**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L162)
 
 ##### Parameters
 
@@ -248,7 +248,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rende
 
 > **get** **inputs**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L76)
 
 Gets the list of input points
 
@@ -268,7 +268,7 @@ Gets the list of input points
 
 > **get** **isDebug**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L125)
 
 Gets a boolean indicating if this block is a debug block
 
@@ -288,7 +288,7 @@ Gets a boolean indicating if this block is a debug block
 
 > **get** **isInput**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L104)
 
 Gets a boolean indicating if this block is an input
 
@@ -308,7 +308,7 @@ Gets a boolean indicating if this block is an input
 
 > **get** **isTeleportIn**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L118)
 
 Gets a boolean indicating if this block is a teleport in
 
@@ -328,7 +328,7 @@ Gets a boolean indicating if this block is a teleport in
 
 > **get** **isTeleportOut**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L111)
 
 Gets a boolean indicating if this block is a teleport out
 
@@ -348,7 +348,7 @@ Gets a boolean indicating if this block is a teleport out
 
 > **get** **isUnique**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L132)
 
 Gets a boolean indicating that this block can only be used once per node render graph
 
@@ -368,7 +368,7 @@ Gets a boolean indicating that this block can only be used once per node render 
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L93)
 
 Gets or set the name of the block
 
@@ -380,7 +380,7 @@ Gets or set the name of the block
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L97)
 
 ##### Parameters
 
@@ -404,7 +404,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGr
 
 > **get** **normal**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:236](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L236)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L238)
 
 Gets the normal texture input component
 
@@ -420,7 +420,7 @@ Gets the normal texture input component
 
 > **get** **objects**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:264](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L264)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:266](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L266)
 
 Gets the objects input component
 
@@ -436,7 +436,7 @@ Gets the objects input component
 
 > **get** **output**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L271)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:273](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L273)
 
 Gets the output component
 
@@ -452,7 +452,7 @@ Gets the output component
 
 > **get** **outputs**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L81)
 
 Gets the list of output points
 
@@ -472,7 +472,7 @@ Gets the list of output points
 
 > **get** **position**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:243](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L243)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L245)
 
 Gets the position texture input component
 
@@ -488,7 +488,7 @@ Gets the position texture input component
 
 > **get** **refreshRate**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:202](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L202)
 
 Voxelization refresh rate (-1: manual, 0: every frame, N: skip N frames)
 
@@ -500,7 +500,7 @@ Voxelization refresh rate (-1: manual, 0: every frame, N: skip N frames)
 
 > **set** **refreshRate**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:204](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L204)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:206](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L206)
 
 ##### Parameters
 
@@ -520,7 +520,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rende
 
 > **get** **resolutionExp**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L192)
 
 Voxelization resolution exponent (actual resolution is 2^value)
 
@@ -532,7 +532,7 @@ Voxelization resolution exponent (actual resolution is 2^value)
 
 > **set** **resolutionExp**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:194](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L194)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L196)
 
 ##### Parameters
 
@@ -552,7 +552,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rende
 
 > **get** **sampleDirections**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L58)
 
 Number of tracing sample directions
 
@@ -564,7 +564,7 @@ Number of tracing sample directions
 
 > **set** **sampleDirections**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L62)
 
 ##### Parameters
 
@@ -584,7 +584,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rende
 
 > **get** **shadowOpacity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L178)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L180)
 
 Final material shadow opacity
 
@@ -596,7 +596,7 @@ Final material shadow opacity
 
 > **set** **shadowOpacity**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:182](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L182)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:184](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L184)
 
 ##### Parameters
 
@@ -616,7 +616,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rende
 
 > **get** **shadowRemanence**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:168](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L168)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L170)
 
 Temporal shadow remanence while moving
 
@@ -628,7 +628,7 @@ Temporal shadow remanence while moving
 
 > **set** **shadowRemanence**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L172)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L174)
 
 ##### Parameters
 
@@ -648,7 +648,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rende
 
 > **get** **ssShadowDistanceScale**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L118)
 
 Distance scale used by screen-space shadow tracing
 
@@ -660,7 +660,7 @@ Distance scale used by screen-space shadow tracing
 
 > **set** **ssShadowDistanceScale**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L122)
 
 ##### Parameters
 
@@ -680,7 +680,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rende
 
 > **get** **ssShadowOpacity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L88)
 
 Opacity of screen-space shadows
 
@@ -692,7 +692,7 @@ Opacity of screen-space shadows
 
 > **set** **ssShadowOpacity**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L92)
 
 ##### Parameters
 
@@ -712,7 +712,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rende
 
 > **get** **ssShadowSampleCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L98)
 
 Number of screen-space shadow samples
 
@@ -724,7 +724,7 @@ Number of screen-space shadow samples
 
 > **set** **ssShadowSampleCount**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L102)
 
 ##### Parameters
 
@@ -744,7 +744,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rende
 
 > **get** **ssShadowStride**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L108)
 
 Stride used by screen-space shadow sampling
 
@@ -756,7 +756,7 @@ Stride used by screen-space shadow sampling
 
 > **set** **ssShadowStride**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:110](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L110)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L112)
 
 ##### Parameters
 
@@ -776,7 +776,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rende
 
 > **get** **ssShadowThicknessScale**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L128)
 
 Thickness scale used by screen-space shadow tracing
 
@@ -788,7 +788,7 @@ Thickness scale used by screen-space shadow tracing
 
 > **set** **ssShadowThicknessScale**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L132)
 
 ##### Parameters
 
@@ -808,7 +808,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rende
 
 > **get** **task**(): [`FrameGraphIblShadowsRendererTask`](FrameGraphIblShadowsRendererTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L27)
 
 Gets the frame graph task associated with this block
 
@@ -828,7 +828,7 @@ Gets the frame graph task associated with this block
 
 > **get** **triPlanarVoxelization**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:210](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L210)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:212](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L212)
 
 Whether tri-planar voxelization is used
 
@@ -840,7 +840,7 @@ Whether tri-planar voxelization is used
 
 > **set** **triPlanarVoxelization**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:214](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L214)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L216)
 
 ##### Parameters
 
@@ -860,7 +860,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rende
 
 > **get** **velocity**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:250](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L250)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:252](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L252)
 
 Gets the velocity texture input component
 
@@ -876,7 +876,7 @@ Gets the velocity texture input component
 
 > **get** **voxelDirectionBias**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L148)
 
 Voxel tracing direction bias
 
@@ -888,7 +888,7 @@ Voxel tracing direction bias
 
 > **set** **voxelDirectionBias**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L152)
 
 ##### Parameters
 
@@ -908,7 +908,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rende
 
 > **get** **voxelNormalBias**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:136](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L136)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L138)
 
 Voxel tracing normal bias
 
@@ -920,7 +920,7 @@ Voxel tracing normal bias
 
 > **set** **voxelNormalBias**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L140)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L142)
 
 ##### Parameters
 
@@ -940,7 +940,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rende
 
 > **get** **voxelShadowOpacity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L78)
 
 Opacity of voxel-traced shadows
 
@@ -952,7 +952,7 @@ Opacity of voxel-traced shadows
 
 > **set** **voxelShadowOpacity**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L82)
 
 ##### Parameters
 
@@ -970,7 +970,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rende
 
 > **autoConfigure**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:435](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L435)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:435](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L435)
 
 Lets the block try to connect some inputs automatically
 
@@ -988,7 +988,7 @@ Lets the block try to connect some inputs automatically
 
 > **build**(`state`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:331](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L331)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:331](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L331)
 
 Build the current node and generate the vertex data
 
@@ -1016,7 +1016,7 @@ true if already built
 
 > **clone**(): [`NodeRenderGraphBlock`](NodeRenderGraphBlock.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:656](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L656)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:656](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L656)
 
 Clone the current block to a new identical block
 
@@ -1036,7 +1036,7 @@ a copy of the current block
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:675](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L675)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:675](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L675)
 
 Release resources
 
@@ -1054,7 +1054,7 @@ Release resources
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L222)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:224](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L224)
 
 Gets the current class name
 
@@ -1074,7 +1074,7 @@ the class name
 
 > **getDescendantOfPredicate**(`predicate`): [`Nullable`](../type-aliases/Nullable.md)\<[`NodeRenderGraphBlock`](NodeRenderGraphBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:215](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L215)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:215](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L215)
 
 Get the first descendant using a predicate
 
@@ -1102,7 +1102,7 @@ descendant or null if none found
 
 > **getInputByName**(`name`): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:444](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L444)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:444](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L444)
 
 Find an input by its name
 
@@ -1130,7 +1130,7 @@ the input or null if not found
 
 > **getOutputByName**(`name`): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:459](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L459)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:459](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L459)
 
 Find an output by its name
 
@@ -1158,7 +1158,7 @@ the output or null if not found
 
 > **initialize**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:428](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L428)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:428](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L428)
 
 Initialize the block and prepare the context for build
 
@@ -1176,7 +1176,7 @@ Initialize the block and prepare the context for build
 
 > **isAnAncestorOf**(`block`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L166)
 
 Checks if the current block is an ancestor of a given block
 
@@ -1204,7 +1204,7 @@ true if block is a descendant
 
 > **isAnAncestorOfType**(`type`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L190)
 
 Checks if the current block is an ancestor of a given type
 
@@ -1232,7 +1232,7 @@ true if block is a descendant
 
 > **registerInput**(`name`, `type`, `isOptional?`, `point?`): `NodeRenderGraphIblShadowsRendererBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:259](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L259)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:259](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L259)
 
 Register a new input. Must be called inside a block constructor
 
@@ -1278,7 +1278,7 @@ the current block
 
 > **registerOutput**(`name`, `type`, `point?`): `NodeRenderGraphIblShadowsRendererBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:276](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L276)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L276)
 
 Register a new output. Must be called inside a block constructor
 
@@ -1318,7 +1318,7 @@ the current block
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts:309](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.ts#L309)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts:311](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/iblShadowsRendererBlock.pure.ts#L311)
 
 Serializes this block in a JSON representation
 

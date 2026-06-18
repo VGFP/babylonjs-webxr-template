@@ -6,7 +6,7 @@
 
 # Interface: SnapshotRenderingHelpersOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/snapshotRenderingHelper.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/snapshotRenderingHelper.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L33)
 
 Options for the snapshot rendering helper
 
@@ -16,7 +16,7 @@ Options for the snapshot rendering helper
 
 > `optional` **morphTargetsNumMaxInfluences?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/snapshotRenderingHelper.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/snapshotRenderingHelper.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L41)
 
 Maximum number of influences for morph target managers
 In FAST snapshot mode, the number of influences must be fixed and cannot change from one frame to the next.

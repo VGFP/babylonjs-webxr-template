@@ -6,7 +6,7 @@
 
 # Class: MaterialStencilState
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L12)
 
 Class that holds the different stencil states of a material
 Usage example: https://playground.babylonjs.com/#CW5PRI#10
@@ -21,7 +21,7 @@ Usage example: https://playground.babylonjs.com/#CW5PRI#10
 
 > **new MaterialStencilState**(): `MaterialStencilState`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L16)
 
 Creates a material stencil state instance
 
@@ -37,7 +37,7 @@ Creates a material stencil state instance
 
 > **get** **backFunc**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L59)
 
 Gets or sets the stencil back function
 
@@ -49,7 +49,7 @@ Gets or sets the stencil back function
 
 > **set** **backFunc**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L63)
 
 The stencil comparison function to use for back faces.
 
@@ -77,7 +77,7 @@ The stencil comparison function to use for back faces.
 
 > **get** **backOpDepthFail**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L150)
 
 Gets or sets the operation when the back depth test fails
 
@@ -89,7 +89,7 @@ Gets or sets the operation when the back depth test fails
 
 > **set** **backOpDepthFail**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:154](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L154)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:154](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L154)
 
 The operation to perform when the stencil test passes but the depth test fails for back faces.
 
@@ -117,7 +117,7 @@ The operation to perform when the stencil test passes but the depth test fails f
 
 > **get** **backOpStencilDepthPass**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L163)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L163)
 
 Gets or sets the operation when the back stencil+depth test succeeds
 
@@ -129,7 +129,7 @@ Gets or sets the operation when the back stencil+depth test succeeds
 
 > **set** **backOpStencilDepthPass**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:167](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L167)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L167)
 
 The operation to perform when both the stencil and depth tests pass for back faces.
 
@@ -157,7 +157,7 @@ The operation to perform when both the stencil and depth tests pass for back fac
 
 > **get** **backOpStencilFail**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L137)
 
 Gets or sets the operation when the back stencil test fails
 
@@ -169,7 +169,7 @@ Gets or sets the operation when the back stencil test fails
 
 > **set** **backOpStencilFail**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L141)
 
 The operation to perform when the stencil test fails for back faces.
 
@@ -197,7 +197,7 @@ The operation to perform when the stencil test fails for back faces.
 
 > **get** **enabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:189](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L189)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L189)
 
 Enables or disables the stencil test
 
@@ -209,7 +209,7 @@ Enables or disables the stencil test
 
 > **set** **enabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:193](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L193)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L193)
 
 Whether the stencil test is enabled or not.
 
@@ -237,7 +237,7 @@ Whether the stencil test is enabled or not.
 
 > **get** **func**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L46)
 
 Gets or sets the stencil function
 
@@ -249,7 +249,7 @@ Gets or sets the stencil function
 
 > **set** **func**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L50)
 
 The stencil comparison function to use for front faces.
 
@@ -277,7 +277,7 @@ The stencil comparison function to use for front faces.
 
 > **get** **funcMask**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L85)
 
 Gets or sets the stencil function mask
 
@@ -289,7 +289,7 @@ Gets or sets the stencil function mask
 
 > **set** **funcMask**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L89)
 
 The stencil mask to use for reading.
 
@@ -317,7 +317,7 @@ The stencil mask to use for reading.
 
 > **get** **funcRef**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L72)
 
 Gets or sets the stencil function reference
 
@@ -329,7 +329,7 @@ Gets or sets the stencil function reference
 
 > **set** **funcRef**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L76)
 
 The reference value to use for the stencil test.
 
@@ -357,7 +357,7 @@ The reference value to use for the stencil test.
 
 > **get** **mask**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L176)
 
 Gets or sets the stencil mask
 
@@ -369,7 +369,7 @@ Gets or sets the stencil mask
 
 > **set** **mask**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L180)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L180)
 
 The stencil mask to use for writing.
 
@@ -397,7 +397,7 @@ The stencil mask to use for writing.
 
 > **get** **opDepthFail**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L111)
 
 Gets or sets the operation when the depth test fails
 
@@ -409,7 +409,7 @@ Gets or sets the operation when the depth test fails
 
 > **set** **opDepthFail**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L115)
 
 The operation to perform when the stencil test passes but the depth test fails for front faces.
 
@@ -437,7 +437,7 @@ The operation to perform when the stencil test passes but the depth test fails f
 
 > **get** **opStencilDepthPass**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L124)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L124)
 
 Gets or sets the operation when the stencil+depth test succeeds
 
@@ -449,7 +449,7 @@ Gets or sets the operation when the stencil+depth test succeeds
 
 > **set** **opStencilDepthPass**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L128)
 
 The operation to perform when both the stencil and depth tests pass for front faces.
 
@@ -477,7 +477,7 @@ The operation to perform when both the stencil and depth tests pass for front fa
 
 > **get** **opStencilFail**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L98)
 
 Gets or sets the operation when the stencil test fails
 
@@ -489,7 +489,7 @@ Gets or sets the operation when the stencil test fails
 
 > **set** **opStencilFail**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L102)
 
 The operation to perform when the stencil test fails for front faces.
 
@@ -515,7 +515,7 @@ The operation to perform when the stencil test fails for front faces.
 
 > **copyTo**(`stencilState`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:209](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L209)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L209)
 
 Makes a duplicate of the current configuration into another one.
 
@@ -537,7 +537,7 @@ defines stencil state where to copy the info
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:201](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L201)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L201)
 
 Get the current class name, useful for serialization or dynamic coding.
 
@@ -553,7 +553,7 @@ Get the current class name, useful for serialization or dynamic coding.
 
 > **parse**(`source`, `scene`, `rootUrl`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:227](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L227)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L227)
 
 Parses a stencil state configuration from a serialized object.
 
@@ -587,7 +587,7 @@ Defines the rootUrl to load from
 
 > **reset**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L23)
 
 Resets all the stencil states to default values
 
@@ -605,7 +605,7 @@ Resets all the stencil states to default values
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:217](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/materialStencilState.ts#L217)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialStencilState.ts:217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialStencilState.ts#L217)
 
 Serializes this stencil configuration.
 

@@ -6,7 +6,7 @@
 
 # Class: WebXRGenericTriggerMotionController
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRGenericMotionController.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRGenericMotionController.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRGenericMotionController.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRGenericMotionController.ts#L15)
 
 A generic trigger-only motion controller for WebXR
 
@@ -20,7 +20,7 @@ A generic trigger-only motion controller for WebXR
 
 > **new WebXRGenericTriggerMotionController**(`scene`, `gamepadObject`, `handedness`): `WebXRGenericTriggerMotionController`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRGenericMotionController.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRGenericMotionController.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRGenericMotionController.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRGenericMotionController.ts#L23)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRGen
 
 > `readonly` **components**: `object` = `{}`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:254](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L254)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L254)
 
 A map of components (WebXRControllerComponent) in this motion controller
 Components have a ComponentType and can also have both button and axis definitions
@@ -69,7 +69,7 @@ Components have a ComponentType and can also have both button and axis definitio
 
 > **disableAnimation**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L261)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L261)
 
 Disable the model's animation. Can be set at any time.
 
@@ -83,7 +83,7 @@ Disable the model's animation. Can be set at any time.
 
 > **gamepadObject**: [`IMinimalMotionControllerObject`](../interfaces/IMinimalMotionControllerObject.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:292](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L292)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:292](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L292)
 
 The gamepad object correlating to this controller
 
@@ -97,7 +97,7 @@ The gamepad object correlating to this controller
 
 > **handedness**: [`MotionControllerHandedness`](../type-aliases/MotionControllerHandedness.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:296](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L296)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:296](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L296)
 
 handedness (left/right/none) of this controller
 
@@ -111,7 +111,7 @@ handedness (left/right/none) of this controller
 
 > **onModelLoadedObservable**: [`Observable`](Observable.md)\<[`WebXRAbstractMotionController`](WebXRAbstractMotionController.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:265](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L265)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:265](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L265)
 
 Observers registered here will be triggered when the model of this controller is done loading
 
@@ -125,7 +125,7 @@ Observers registered here will be triggered when the model of this controller is
 
 > **profileId**: `string` = `WebXRGenericTriggerMotionController.ProfileId`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRGenericMotionController.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRGenericMotionController.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRGenericMotionController.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRGenericMotionController.ts#L21)
 
 The profile id of this motion controller
 
@@ -139,7 +139,7 @@ The profile id of this motion controller
 
 > **rootMesh**: [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:273](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L273)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:273](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L273)
 
 The root mesh of the model. It is null if the model was not yet initialized
 
@@ -153,7 +153,7 @@ The root mesh of the model. It is null if the model was not yet initialized
 
 > `static` **ProfileId**: `string` = `"generic-trigger"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRGenericMotionController.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRGenericMotionController.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRGenericMotionController.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRGenericMotionController.ts#L19)
 
 Static version of the profile id of this controller
 
@@ -165,7 +165,7 @@ Static version of the profile id of this controller
 
 > **get** **handness**(): [`MotionControllerHandedness`](../type-aliases/MotionControllerHandedness.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:461](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L461)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:461](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L461)
 
 Backwards compatibility due to a deeply-integrated typo
 
@@ -183,7 +183,7 @@ Backwards compatibility due to a deeply-integrated typo
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:321](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L321)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:321](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L321)
 
 Dispose this controller, the model mesh and all its components
 
@@ -201,7 +201,7 @@ Dispose this controller, the model mesh and all its components
 
 > **getAllComponentsOfType**(`type`): [`WebXRControllerComponent`](WebXRControllerComponent.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:341](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L341)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:341](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L341)
 
 Returns all components of specific type
 
@@ -229,7 +229,7 @@ an array of components with this type
 
 > **getComponent**(`id`): [`WebXRControllerComponent`](WebXRControllerComponent.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:352](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L352)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:352](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L352)
 
 get a component based an its component id as defined in layout.components
 
@@ -257,7 +257,7 @@ the component correlates to the id or undefined if not found
 
 > **getComponentIds**(): `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:360](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L360)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:360](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L360)
 
 Get the list of components available in this motion controller
 
@@ -277,7 +277,7 @@ an array of strings correlating to available components
 
 > **getComponentOfType**(`type`): [`Nullable`](../type-aliases/Nullable.md)\<[`WebXRControllerComponent`](WebXRControllerComponent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:369](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L369)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:369](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L369)
 
 Get the first component of specific type
 
@@ -305,7 +305,7 @@ a controller component or null if not found
 
 > **getMainComponent**(): [`WebXRControllerComponent`](WebXRControllerComponent.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:377](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L377)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:377](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L377)
 
 Get the main (Select) component of this controller as defined in the layout
 
@@ -325,7 +325,7 @@ the main component of this controller
 
 > **loadModel**(): `Promise`\<`boolean`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:387](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L387)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:387](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L387)
 
 Loads the model correlating to this controller
 When the mesh is loaded, the onModelLoadedObservable will be triggered
@@ -346,7 +346,7 @@ A promise fulfilled with the result of the model loading
 
 > **pulse**(`value`, `duration`, `hapticActuatorIndex?`): `Promise`\<`boolean`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:476](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L476)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:476](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L476)
 
 Pulse (vibrate) this controller
 If the controller does not support pulses, this function will fail silently and return Promise<false> directly after called
@@ -388,7 +388,7 @@ a promise that will send true when the pulse has ended and false if the device d
 
 > **updateFromXRFrame**(`xrFrame`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:451](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L451)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:451](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L451)
 
 Update this model using the current XRFrame
 

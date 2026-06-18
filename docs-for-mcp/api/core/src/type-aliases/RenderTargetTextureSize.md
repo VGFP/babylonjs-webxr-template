@@ -8,7 +8,7 @@
 
 > **RenderTargetTextureSize** = [`TextureSize`](TextureSize.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.renderTarget.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Extensions/engine.renderTarget.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.renderTarget.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.renderTarget.pure.ts#L18)
 
 Type used to define a texture size (either with a number or with a rect width and height)
 

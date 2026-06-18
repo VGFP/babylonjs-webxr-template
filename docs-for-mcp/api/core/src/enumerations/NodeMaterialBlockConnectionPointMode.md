@@ -6,7 +6,7 @@
 
 # Enumeration: NodeMaterialBlockConnectionPointMode
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts:4](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts#L4)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts:4](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts#L4)
 
 Enum defining the mode of a NodeMaterialBlockConnectionPoint
 
@@ -16,7 +16,7 @@ Enum defining the mode of a NodeMaterialBlockConnectionPoint
 
 > **Attribute**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts:8](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts#L8)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts#L8)
 
 Value is a mesh attribute
 
@@ -26,7 +26,7 @@ Value is a mesh attribute
 
 > **Undefined**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts#L12)
 
 Mode is undefined
 
@@ -36,7 +36,7 @@ Mode is undefined
 
 > **Uniform**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts:6](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts#L6)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts#L6)
 
 Value is an uniform
 
@@ -46,6 +46,6 @@ Value is an uniform
 
 > **Varying**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts:10](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts#L10)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Enums/nodeMaterialBlockConnectionPointMode.ts#L10)
 
 Value is a varying between vertex and fragment shaders

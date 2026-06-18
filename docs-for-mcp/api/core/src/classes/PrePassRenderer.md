@@ -6,7 +6,7 @@
 
 # Class: PrePassRenderer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L27)
 
 Renders a pre pass of the scene
 This means every mesh in the scene will be rendered to a render target texture
@@ -19,7 +19,7 @@ It is necessary for effects like subsurface scattering or deferred shading
 
 > **new PrePassRenderer**(`scene`): `PrePassRenderer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:312](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L312)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:312](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L312)
 
 Instantiates a prepass renderer
 
@@ -41,7 +41,7 @@ The scene
 
 > **defaultRT**: `PrePassRenderTarget`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:211](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L211)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:211](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L211)
 
 The render target where the scene is directly rendered
 
@@ -51,7 +51,7 @@ The render target where the scene is directly rendered
 
 > **disableGammaTransform**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:306](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L306)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:306](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L306)
 
 Set to true to disable gamma transform in PrePass.
 Can be useful in case you already proceed to gamma transform on a material level
@@ -63,7 +63,7 @@ and your post processes don't need to be in linear color space.
 
 > **doNotUseGeometryRendererFallback**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:254](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L254)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L254)
 
 Prevents the PrePassRenderer from using the GeometryBufferRenderer as a fallback
 
@@ -73,7 +73,7 @@ Prevents the PrePassRenderer from using the GeometryBufferRenderer as a fallback
 
 > **excludedMaterials**: [`Material`](Material.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L45)
 
 Force material to be excluded from the prepass
 Can be useful when `useGeometryBufferFallback` is set to `true`
@@ -85,7 +85,7 @@ and you don't want a material to show in the effect.
 
 > **excludedSkinnedMesh**: [`AbstractMesh`](AbstractMesh.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L38)
 
 To save performance, we can excluded skinned meshes from the prepass
 
@@ -95,7 +95,7 @@ To save performance, we can excluded skinned meshes from the prepass
 
 > **mrtCount**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L53)
 
 Number of textures in the multi render target texture where the scene is directly rendered
 
@@ -105,7 +105,7 @@ Number of textures in the multi render target texture where the scene is directl
 
 > **renderTargets**: `PrePassRenderTarget`[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:281](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L281)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:281](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L281)
 
 All the render targets generated by prepass
 
@@ -115,7 +115,7 @@ All the render targets generated by prepass
 
 > `static` **TextureFormats**: `object`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L125)
 
 Describes the types and formats of the textures used by the pre-pass renderer
 
@@ -143,7 +143,7 @@ Describes the types and formats of the textures used by the pre-pass renderer
 
 > **get** **currentRTisSceneRT**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L245)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L245)
 
 Returns true if the currently rendered prePassRenderTarget is the one
 associated with the scene.
@@ -160,7 +160,7 @@ associated with the scene.
 
 > **get** **enabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:297](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L297)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:297](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L297)
 
 Indicates if the prepass is enabled
 
@@ -176,7 +176,7 @@ Indicates if the prepass is enabled
 
 > **get** **generateNormalsInWorldSpace**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L70)
 
 Indicates if the prepass renderer is generating normals in world space or camera space (default: camera space)
 
@@ -188,7 +188,7 @@ Indicates if the prepass renderer is generating normals in world space or camera
 
 > **set** **generateNormalsInWorldSpace**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L74)
 
 ##### Parameters
 
@@ -208,7 +208,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts
 
 > **get** **isSupported**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:373](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L373)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:374](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L374)
 
 Indicates if rendering a prepass is supported
 
@@ -224,7 +224,7 @@ Indicates if rendering a prepass is supported
 
 > **get** **samples**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L95)
 
 How many samples are used for MSAA of the scene render target
 
@@ -236,7 +236,7 @@ How many samples are used for MSAA of the scene render target
 
 > **set** **samples**(`n`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L99)
 
 ##### Parameters
 
@@ -256,7 +256,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts
 
 > **get** **useSpecificClearForDepthTexture**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L109)
 
 If set to true (default: false), the depth texture will be cleared with the depth value corresponding to the far plane (1 in normal mode, 0 in reverse depth buffer mode)
 If set to false, the depth texture is always cleared with 0.
@@ -269,7 +269,7 @@ If set to false, the depth texture is always cleared with 0.
 
 > **set** **useSpecificClearForDepthTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L113)
 
 ##### Parameters
 
@@ -287,7 +287,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts
 
 > **addEffectConfiguration**(`cfg`): `PrePassEffectConfiguration`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:646](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L646)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:647](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L647)
 
 Adds an effect configuration to the prepass render target.
 If an effect has already been added, it won't add it twice and will return the configuration
@@ -313,7 +313,7 @@ the effect configuration now used by the prepass
 
 > **bindAttachmentsForEffect**(`effect`, `subMesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:382](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L382)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:383](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L383)
 
 Sets the proper output textures to draw in the engine.
 
@@ -341,7 +341,7 @@ Submesh on which the effect is applied
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:980](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L980)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:981](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L981)
 
 Disposes the prepass renderer.
 
@@ -355,7 +355,7 @@ Disposes the prepass renderer.
 
 > **getEffectConfiguration**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<`PrePassEffectConfiguration`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:666](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L666)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:667](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L667)
 
 Retrieves an effect configuration by name
 
@@ -379,7 +379,7 @@ the effect configuration, or null if not present
 
 > **getIndex**(`type`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L88)
 
 Returns the index of a texture in the multi render target texture array.
 
@@ -403,7 +403,7 @@ The index
 
 > **getRenderTarget**(): `PrePassRenderTarget`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:223](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L223)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L223)
 
 #### Returns
 
@@ -419,7 +419,7 @@ associated with that render target. Otherwise, it returns the scene default PreP
 
 > **markAsDirty**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:856](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L856)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:857](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L857)
 
 Marks the prepass renderer as dirty, triggering a check if the prepass is necessary for the next rendering.
 
@@ -433,7 +433,7 @@ Marks the prepass renderer as dirty, triggering a check if the prepass is necess
 
 > **restoreAttachments**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:497](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L497)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:498](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L498)
 
 Restores attachments for single texture draw.
 
@@ -447,7 +447,7 @@ Restores attachments for single texture draw.
 
 > **setCustomOutput**(`rt`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:549](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L549)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:550](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L550)
 
 Sets an intermediary texture between prepass and postprocesses. This texture
 will be used as input for post processes
@@ -473,7 +473,7 @@ false if there is no postprocesses - and the function has no effect
 
 > **update**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.ts:890](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/prePassRenderer.ts#L890)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/prePassRenderer.pure.ts:891](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/prePassRenderer.pure.ts#L891)
 
 Makes sure that the prepass renderer is up to date if it has been dirtified.
 

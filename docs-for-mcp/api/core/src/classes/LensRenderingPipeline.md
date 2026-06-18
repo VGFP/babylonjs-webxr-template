@@ -6,7 +6,7 @@
 
 # Class: LensRenderingPipeline
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L25)
 
 BABYLON.JS Chromatic Aberration GLSL Shader
 Author: Olivier Guyot
@@ -23,7 +23,7 @@ Inspired by Francois Tarlier & Martins Upitis
 
 > **new LensRenderingPipeline**(`name`, `parameters`, `scene`, `ratio?`, `cameras?`): `LensRenderingPipeline`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L100)
 
 #### Parameters
 
@@ -71,7 +71,7 @@ The array of cameras that the rendering pipeline will be attached to
 
 > **HighlightsEnhancingEffect**: `string` = `"HighlightsEnhancingEffect"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L47)
 
 #### Ignore
 
@@ -83,7 +83,7 @@ The highlights enhancing PostProcess id in the pipeline
 
 > **inspectableCustomProperties**: [`IInspectable`](../interfaces/IInspectable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L26)
 
 List of inspectable custom properties (used by the Inspector)
 
@@ -101,7 +101,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > **LensChromaticAberrationEffect**: `string` = `"LensChromaticAberrationEffect"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L42)
 
 #### Ignore
 
@@ -113,7 +113,7 @@ The chromatic aberration PostProcess id in the pipeline
 
 > **LensDepthOfFieldEffect**: `string` = `"LensDepthOfFieldEffect"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L52)
 
 #### Ignore
 
@@ -125,7 +125,7 @@ The depth-of-field PostProcess id in the pipeline
 
 > `readonly` **uniqueId**: `number` = `UniqueIdGenerator.UniqueId`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L47)
 
 Gets the unique id of the post process rendering pipeline
 
@@ -141,7 +141,7 @@ Gets the unique id of the post process rendering pipeline
 
 > **get** **blurNoise**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:273](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L273)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:272](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L272)
 
 Gets or sets a boolean indicating if blur noise is enabled
 
@@ -153,7 +153,7 @@ Gets or sets a boolean indicating if blur noise is enabled
 
 > **set** **blurNoise**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:277](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L277)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L276)
 
 ##### Parameters
 
@@ -173,7 +173,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **cameras**(): [`Camera`](Camera.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L50)
 
 Gets the list of attached cameras
 
@@ -193,7 +193,7 @@ Gets the list of attached cameras
 
 > **get** **chromaticAberration**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:218](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L218)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L217)
 
 Gets or sets the chromatic aberration amount
 
@@ -205,7 +205,7 @@ Gets or sets the chromatic aberration amount
 
 > **set** **chromaticAberration**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L222)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L221)
 
 ##### Parameters
 
@@ -225,7 +225,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **darkenOutOfFocus**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:262](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L262)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L261)
 
 Gets or sets the darken out of focus amount
 
@@ -237,7 +237,7 @@ Gets or sets the darken out of focus amount
 
 > **set** **darkenOutOfFocus**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:266](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L266)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:265](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L265)
 
 ##### Parameters
 
@@ -257,7 +257,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **dofAperture**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:229](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L229)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L228)
 
 Gets or sets the depth of field aperture
 
@@ -269,7 +269,7 @@ Gets or sets the depth of field aperture
 
 > **set** **dofAperture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:233](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L233)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L232)
 
 ##### Parameters
 
@@ -289,7 +289,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **dofDistortion**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:251](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L251)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:250](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L250)
 
 Gets or sets the depth of field distortion
 
@@ -301,7 +301,7 @@ Gets or sets the depth of field distortion
 
 > **set** **dofDistortion**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:255](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L255)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L254)
 
 ##### Parameters
 
@@ -321,7 +321,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **edgeBlur**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:196](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L196)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L195)
 
 Gets or sets the edge blur
 
@@ -333,7 +333,7 @@ Gets or sets the edge blur
 
 > **set** **edgeBlur**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:200](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L200)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:199](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L199)
 
 ##### Parameters
 
@@ -353,7 +353,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **edgeDistortion**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:240](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L240)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L239)
 
 Gets or sets the edge distortion
 
@@ -365,7 +365,7 @@ Gets or sets the edge distortion
 
 > **set** **edgeDistortion**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:244](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L244)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L243)
 
 ##### Parameters
 
@@ -385,7 +385,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **engine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L57)
 
 Gets the active engine
 
@@ -405,7 +405,7 @@ Gets the active engine
 
 > **get** **grainAmount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:207](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L207)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:206](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L206)
 
 Gets or sets the grain amount
 
@@ -417,7 +417,7 @@ Gets or sets the grain amount
 
 > **set** **grainAmount**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:211](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L211)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L210)
 
 ##### Parameters
 
@@ -437,7 +437,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **highlightsGain**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:299](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L299)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L298)
 
 Gets or sets the highlight grain amount
 
@@ -449,7 +449,7 @@ Gets or sets the highlight grain amount
 
 > **set** **highlightsGain**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:303](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L303)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L302)
 
 ##### Parameters
 
@@ -469,7 +469,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **highlightsThreshold**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:310](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L310)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:309](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L309)
 
 Gets or sets the highlight threshold
 
@@ -481,7 +481,7 @@ Gets or sets the highlight threshold
 
 > **set** **highlightsThreshold**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:314](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L314)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:313](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L313)
 
 ##### Parameters
 
@@ -501,7 +501,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **isSupported**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L90)
 
 If all the render effects in the pipeline are supported
 
@@ -521,7 +521,7 @@ If all the render effects in the pipeline are supported
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L40)
 
 Gets pipeline name
 
@@ -541,7 +541,7 @@ Gets pipeline name
 
 > **get** **pentagonBokeh**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:284](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L284)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L283)
 
 Gets or sets a boolean indicating if pentagon bokeh is enabled
 
@@ -553,7 +553,7 @@ Gets or sets a boolean indicating if pentagon bokeh is enabled
 
 > **set** **pentagonBokeh**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:288](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L288)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:287](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L287)
 
 ##### Parameters
 
@@ -573,7 +573,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline
 
 > **get** **scene**(): [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:189](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L189)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:188](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L188)
 
 Gets associated scene
 
@@ -587,7 +587,7 @@ Gets associated scene
 
 > **addEffect**(`renderEffect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L106)
 
 Adds an effect to the pipeline
 
@@ -613,7 +613,7 @@ the effect to add
 
 > **disableChromaticAberration**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:355](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L355)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:354](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L354)
 
 Sets chromatic aberration amount to 0
 
@@ -627,7 +627,7 @@ Sets chromatic aberration amount to 0
 
 > **disableDepthOfField**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:381](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L381)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:380](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L380)
 
 Disables depth of field
 
@@ -641,7 +641,7 @@ Disables depth of field
 
 > **disableEdgeBlur**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:329](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L329)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:328](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L328)
 
 Sets edge blur to 0
 
@@ -655,7 +655,7 @@ Sets edge blur to 0
 
 > **disableEdgeDistortion**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:368](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L368)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:367](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L367)
 
 Sets edge distortion to 0
 
@@ -669,7 +669,7 @@ Sets edge distortion to 0
 
 > **disableGrain**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:342](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L342)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:341](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L341)
 
 Set grain amount to 0
 
@@ -683,7 +683,7 @@ Set grain amount to 0
 
 > **disableHighlights**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:446](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L446)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:445](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L445)
 
 Disables highlights
 
@@ -697,7 +697,7 @@ Disables highlights
 
 > **disableNoiseBlur**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:423](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L423)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:422](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L422)
 
 Disables noise blur
 
@@ -711,7 +711,7 @@ Disables noise blur
 
 > **disablePentagonBokeh**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:410](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L410)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:409](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L409)
 
 Disables the pentagon bokeh effect
 
@@ -725,7 +725,7 @@ Disables the pentagon bokeh effect
 
 > **dispose**(`disableDepthRender?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:454](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L454)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:453](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L453)
 
 Removes the internal pipeline assets and detaches the pipeline from the scene cameras
 
@@ -751,7 +751,7 @@ If the scene's depth rendering should be disabled (default: false)
 
 > **enableNoiseBlur**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:417](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L417)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:416](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L416)
 
 Enables noise blur
 
@@ -765,7 +765,7 @@ Enables noise blur
 
 > **enablePentagonBokeh**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:403](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L403)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:402](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L402)
 
 Creates a pentagon bokeh effect
 
@@ -779,7 +779,7 @@ Creates a pentagon bokeh effect
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L180)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L179)
 
 Get the class name
 
@@ -799,7 +799,7 @@ Get the class name
 
 > **setAperture**(`amount`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:388](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L388)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:387](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L387)
 
 Sets the Aperture amount
 
@@ -821,7 +821,7 @@ amount of Aperture
 
 > **setChromaticAberration**(`amount`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:349](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L349)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:348](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L348)
 
 Sets the chromatic aberration amount
 
@@ -843,7 +843,7 @@ amount of chromatic aberration
 
 > **setDarkenOutOfFocus**(`amount`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:395](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L395)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:394](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L394)
 
 Sets the DarkenOutOfFocus amount
 
@@ -865,7 +865,7 @@ amount of DarkenOutOfFocus
 
 > **setEdgeBlur**(`amount`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:322](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L322)
 
 Sets the amount of blur at the edges
 
@@ -887,7 +887,7 @@ blur amount
 
 > **setEdgeDistortion**(`amount`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:362](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L362)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:361](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L361)
 
 Sets the EdgeDistortion amount
 
@@ -909,7 +909,7 @@ amount of EdgeDistortion
 
 > **setFocusDistance**(`amount`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:375](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L375)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:374](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L374)
 
 Sets the FocusDistance amount
 
@@ -931,7 +931,7 @@ amount of FocusDistance
 
 > **setGrainAmount**(`amount`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:336](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L336)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:335](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L335)
 
 Sets the amount of grain
 
@@ -953,7 +953,7 @@ Amount of grain
 
 > **setHighlightsGain**(`amount`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:430](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L430)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:429](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L429)
 
 Sets the HighlightsGain amount
 
@@ -975,7 +975,7 @@ amount of HighlightsGain
 
 > **setHighlightsThreshold**(`amount`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts:437](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.ts#L437)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts:436](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/lensRenderingPipeline.pure.ts#L436)
 
 Sets the HighlightsThreshold amount
 
@@ -997,7 +997,7 @@ amount of HighlightsThreshold
 
 > **setPrePassRenderer**(`prePassRenderer`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:274](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L274)
+Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:277](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L277)
 
 Sets the required values to the prepass renderer.
 

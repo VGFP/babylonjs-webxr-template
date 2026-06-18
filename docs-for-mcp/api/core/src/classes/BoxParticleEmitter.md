@@ -6,7 +6,7 @@
 
 # Class: BoxParticleEmitter
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L12)
 
 Particle emitter emitting particles from the inside of a box.
 It emits the particles randomly between 2 given directions.
@@ -21,7 +21,7 @@ It emits the particles randomly between 2 given directions.
 
 > **new BoxParticleEmitter**(): `BoxParticleEmitter`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L34)
 
 Creates a new instance BoxParticleEmitter
 
@@ -35,7 +35,7 @@ Creates a new instance BoxParticleEmitter
 
 > **direction1**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L16)
 
 Random direction of each particle after it has been emitted, between direction1 and direction2 vectors.
 
@@ -45,7 +45,7 @@ Random direction of each particle after it has been emitted, between direction1 
 
 > **direction2**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L20)
 
 Random direction of each particle after it has been emitted, between direction1 and direction2 vectors.
 
@@ -55,7 +55,7 @@ Random direction of each particle after it has been emitted, between direction1 
 
 > **maxEmitBox**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L29)
 
 Maximum box point around our emitter. Our emitter is the center of particles source, but if you want your particles to emit from more than one point, then you can tell it to do so.
 
@@ -65,7 +65,7 @@ Maximum box point around our emitter. Our emitter is the center of particles sou
 
 > **minEmitBox**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L25)
 
 Minimum box point around our emitter. Our emitter is the center of particles source, but if you want your particles to emit from more than one point, then you can tell it to do so.
 
@@ -75,7 +75,7 @@ Minimum box point around our emitter. Our emitter is the center of particles sou
 
 > **applyToShader**(`uboOrEffect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L96)
 
 Called by the GPUParticleSystem to setup the update shader
 
@@ -101,7 +101,7 @@ defines the update shader
 
 > **buildUniformLayout**(`ubo`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L107)
 
 Creates the structure of the ubo for this particle emitter
 
@@ -127,7 +127,7 @@ ubo to create the structure for
 
 > **clone**(): `BoxParticleEmitter`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L84)
 
 Clones the current emitter and returns a copy of it
 
@@ -147,7 +147,7 @@ the new emitter
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L126)
 
 Returns the string "BoxParticleEmitter"
 
@@ -167,7 +167,7 @@ a string containing the class name
 
 > **getEffectDefines**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L118)
 
 Returns a string to use to update the GPU particles update shader
 
@@ -187,7 +187,7 @@ a string containing the defines string
 
 > **parse**(`serializationObject`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L150)
 
 Parse properties from a JSON object
 
@@ -213,7 +213,7 @@ defines the JSON object
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L134)
 
 Serializes the particle system to a JSON object.
 
@@ -233,7 +233,7 @@ the JSON object
 
 > **startDirectionFunction**(`worldMatrix`, `directionToUpdate`, `particle`, `isLocal`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L43)
 
 Called by the particle System when the direction is computed for the created particle.
 
@@ -277,7 +277,7 @@ defines if the direction should be set in local space
 
 > **startPositionFunction**(`worldMatrix`, `positionToUpdate`, `particle`, `isLocal`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/boxParticleEmitter.ts#L65)
 
 Called by the particle System when the position is computed for the created particle.
 

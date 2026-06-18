@@ -6,7 +6,7 @@
 
 # Interface: ISceneLoaderPluginFactory
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L144)
 
 Interface used by SceneLoader plugin factory
 
@@ -20,7 +20,7 @@ Interface used by SceneLoader plugin factory
 
 > `readonly` **extensions**: `string` \| [`ISceneLoaderPluginExtensions`](ISceneLoaderPluginExtensions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L131)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L131)
 
 The file extensions supported by the plugin.
 
@@ -34,7 +34,7 @@ The file extensions supported by the plugin.
 
 > `readonly` **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L126)
 
 The friendly name of the plugin.
 
@@ -48,7 +48,7 @@ The friendly name of the plugin.
 
 > `optional` **canDirectLoad**(`data`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L138)
 
 The callback that returns true if the data can be directly loaded.
 
@@ -76,7 +76,7 @@ if the data can be loaded directly
 
 > **createPlugin**(`options`): [`ISceneLoaderPlugin`](ISceneLoaderPlugin.md) \| [`ISceneLoaderPluginAsync`](ISceneLoaderPluginAsync.md) \| `Promise`\<[`ISceneLoaderPlugin`](ISceneLoaderPlugin.md) \| [`ISceneLoaderPluginAsync`](ISceneLoaderPluginAsync.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Loading/sceneLoader.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L150)
 
 Function called to create a new plugin
 

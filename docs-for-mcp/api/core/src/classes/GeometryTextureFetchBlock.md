@@ -6,7 +6,7 @@
 
 # Class: GeometryTextureFetchBlock
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts#L15)
 
 Block used to fetch a color from texture data
 
@@ -20,7 +20,7 @@ Block used to fetch a color from texture data
 
 > **new GeometryTextureFetchBlock**(`name`): `GeometryTextureFetchBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts#L32)
 
 Creates a new GeometryTextureFetchBlock
 
@@ -46,7 +46,7 @@ defines the block name
 
 > **clampCoordinates**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts#L20)
 
 Gets or sets a boolean indicating if coordinates should be clamped between 0 and 1
 
@@ -56,7 +56,7 @@ Gets or sets a boolean indicating if coordinates should be clamped between 0 and
 
 > **comments**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L115)
 
 A free comment about the block
 
@@ -70,7 +70,7 @@ A free comment about the block
 
 > **interpolation**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts#L26)
 
 Gets or sets a boolean indicating if coordinates should be clamped between 0 and 1
 
@@ -80,7 +80,7 @@ Gets or sets a boolean indicating if coordinates should be clamped between 0 and
 
 > **onBuildObservable**: [`Observable`](Observable.md)\<[`NodeGeometryBlock`](NodeGeometryBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L30)
 
 Gets an observable raised when the block is built
 
@@ -94,7 +94,7 @@ Gets an observable raised when the block is built
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L63)
 
 Gets or sets the unique id of the node
 
@@ -108,7 +108,7 @@ Gets or sets the unique id of the node
 
 > **visibleOnFrame**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L118)
 
 Gets or sets a boolean indicating that this input can be edited from a collapsed frame
 
@@ -124,7 +124,7 @@ Gets or sets a boolean indicating that this input can be edited from a collapsed
 
 > **get** **a**(): [`NodeGeometryConnectionPoint`](NodeGeometryConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts#L105)
 
 Gets the a component
 
@@ -140,7 +140,7 @@ Gets the a component
 
 > **get** **b**(): [`NodeGeometryConnectionPoint`](NodeGeometryConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts#L98)
 
 Gets the b component
 
@@ -156,7 +156,7 @@ Gets the b component
 
 > **get** **buildExecutionTime**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L44)
 
 Gets the time spent to build this block (in ms)
 
@@ -176,7 +176,7 @@ Gets the time spent to build this block (in ms)
 
 > **get** **coordinates**(): [`NodeGeometryConnectionPoint`](NodeGeometryConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts#L63)
 
 Gets the coordinates component
 
@@ -192,7 +192,7 @@ Gets the coordinates component
 
 > **get** **g**(): [`NodeGeometryConnectionPoint`](NodeGeometryConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts#L91)
 
 Gets the g component
 
@@ -208,7 +208,7 @@ Gets the g component
 
 > **get** **inputs**(): [`NodeGeometryConnectionPoint`](NodeGeometryConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L51)
 
 Gets the list of input points
 
@@ -228,7 +228,7 @@ Gets the list of input points
 
 > **get** **isDebug**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L100)
 
 Gets a boolean indicating if this block is a debug block
 
@@ -248,7 +248,7 @@ Gets a boolean indicating if this block is a debug block
 
 > **get** **isInput**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L79)
 
 Gets a boolean indicating if this block is an input
 
@@ -268,7 +268,7 @@ Gets a boolean indicating if this block is an input
 
 > **get** **isTeleportIn**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L93)
 
 Gets a boolean indicating if this block is a teleport in
 
@@ -288,7 +288,7 @@ Gets a boolean indicating if this block is a teleport in
 
 > **get** **isTeleportOut**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L86)
 
 Gets a boolean indicating if this block is a teleport out
 
@@ -308,7 +308,7 @@ Gets a boolean indicating if this block is a teleport out
 
 > **get** **isUnique**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L107)
 
 Gets a boolean indicating that this block can only be used once per NodeGeometry
 
@@ -328,7 +328,7 @@ Gets a boolean indicating that this block can only be used once per NodeGeometry
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L68)
 
 Gets or set the name of the block
 
@@ -340,7 +340,7 @@ Gets or set the name of the block
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L72)
 
 ##### Parameters
 
@@ -364,7 +364,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBloc
 
 > **get** **outputs**(): [`NodeGeometryConnectionPoint`](NodeGeometryConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L56)
 
 Gets the list of output points
 
@@ -384,7 +384,7 @@ Gets the list of output points
 
 > **get** **r**(): [`NodeGeometryConnectionPoint`](NodeGeometryConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts#L82)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts#L84)
 
 Gets the r component
 
@@ -400,7 +400,7 @@ Gets the r component
 
 > **get** **rgb**(): [`NodeGeometryConnectionPoint`](NodeGeometryConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts#L77)
 
 Gets the rgb component
 
@@ -416,7 +416,7 @@ Gets the rgb component
 
 > **get** **rgba**(): [`NodeGeometryConnectionPoint`](NodeGeometryConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts#L70)
 
 Gets the rgba component
 
@@ -432,7 +432,7 @@ Gets the rgba component
 
 > **get** **texture**(): [`NodeGeometryConnectionPoint`](NodeGeometryConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts#L56)
 
 Gets the texture component
 
@@ -446,7 +446,7 @@ Gets the texture component
 
 > **autoConfigure**(`_nodeGeometry`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:353](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L353)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:353](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L353)
 
 Lets the block try to connect some inputs automatically
 
@@ -472,7 +472,7 @@ defines the node geometry to use for auto connection
 
 > **build**(`state`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:283](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L283)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L283)
 
 Build the current node and generate the vertex data
 
@@ -500,7 +500,7 @@ true if already built
 
 > **clone**(): [`NodeGeometryBlock`](NodeGeometryBlock.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:574](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L574)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:574](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L574)
 
 Clone the current block to a new identical block
 
@@ -520,7 +520,7 @@ a copy of the current block
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:591](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L591)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:591](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L591)
 
 Release resources
 
@@ -538,7 +538,7 @@ Release resources
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts#L49)
 
 Gets the current class name
 
@@ -558,7 +558,7 @@ the class name
 
 > **getDescendantOfPredicate**(`predicate`): [`Nullable`](../type-aliases/Nullable.md)\<[`NodeGeometryBlock`](NodeGeometryBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L190)
 
 Get the first descendant using a predicate
 
@@ -586,7 +586,7 @@ descendant or null if none found
 
 > **getInputByName**(`name`): [`NodeGeometryConnectionPoint`](NodeGeometryConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:362](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L362)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:362](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L362)
 
 Find an input by its name
 
@@ -614,7 +614,7 @@ the input or null if not found
 
 > **getOutputByName**(`name`): [`NodeGeometryConnectionPoint`](NodeGeometryConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:377](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L377)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:377](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L377)
 
 Find an output by its name
 
@@ -642,7 +642,7 @@ the output or null if not found
 
 > **initialize**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:345](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L345)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L345)
 
 Initialize the block and prepare the context for build
 
@@ -660,7 +660,7 @@ Initialize the block and prepare the context for build
 
 > **isAnAncestorOf**(`block`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L141)
 
 Checks if the current block is an ancestor of a given block
 
@@ -688,7 +688,7 @@ true if block is a descendant
 
 > **isAnAncestorOfType**(`type`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L165)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L165)
 
 Checks if the current block is an ancestor of a given type
 
@@ -716,7 +716,7 @@ true if block is a descendant
 
 > **registerInput**(`name`, `type`, `isOptional?`, `value?`, `valueMin?`, `valueMax?`): `GeometryTextureFetchBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:238](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L238)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L238)
 
 Register a new input. Must be called inside a block constructor
 
@@ -774,7 +774,7 @@ the current block
 
 > **registerOutput**(`name`, `type`, `point?`): `GeometryTextureFetchBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:259](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L259)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts:259](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlock.ts#L259)
 
 Register a new output. Must be called inside a block constructor
 
@@ -814,7 +814,7 @@ the current block
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts:211](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.ts#L211)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts:213](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/Textures/geometryTextureFetchBlock.pure.ts#L213)
 
 Serializes this block in a JSON representation
 

@@ -6,7 +6,7 @@
 
 # Class: RayHelper
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/rayHelper.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/rayHelper.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/rayHelper.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/rayHelper.ts#L17)
 
 As raycast might be hard to debug, the RayHelper can help rendering the different rays
 in order to better appreciate the issue one might have.
@@ -21,7 +21,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/interactions/picking_co
 
 > **new RayHelper**(`ray`): `RayHelper`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/rayHelper.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/rayHelper.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/rayHelper.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/rayHelper.ts#L56)
 
 Instantiate a new ray helper.
 As raycast might be hard to debug, the RayHelper can help rendering the different rays
@@ -49,7 +49,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/interactions/picking_co
 
 > **ray**: [`Nullable`](../type-aliases/Nullable.md)\<[`Ray`](Ray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/rayHelper.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/rayHelper.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/rayHelper.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/rayHelper.ts#L21)
 
 Defines the ray we are currently trying to visualize.
 
@@ -59,7 +59,7 @@ Defines the ray we are currently trying to visualize.
 
 > **attachToMesh**(`mesh`, `meshSpaceDirection?`, `meshSpaceOrigin?`, `length?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/rayHelper.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/rayHelper.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/rayHelper.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/rayHelper.ts#L130)
 
 Attach a ray helper to a mesh so that we can easily see its orientation for instance or information like its normals.
 
@@ -99,7 +99,7 @@ Defines the length of the ray
 
 > **detachFromMesh**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/rayHelper.ts:186](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/rayHelper.ts#L186)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/rayHelper.ts:186](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/rayHelper.ts#L186)
 
 Detach the ray helper from the mesh it has previously been attached to.
 
@@ -113,7 +113,7 @@ Detach the ray helper from the mesh it has previously been attached to.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/rayHelper.ts:218](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/rayHelper.ts#L218)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/rayHelper.ts:218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/rayHelper.ts#L218)
 
 Dispose the helper and release its associated resources.
 
@@ -127,7 +127,7 @@ Dispose the helper and release its associated resources.
 
 > **hide**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/rayHelper.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/rayHelper.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/rayHelper.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/rayHelper.ts#L88)
 
 Hides the ray we are debugging.
 
@@ -141,7 +141,7 @@ Hides the ray we are debugging.
 
 > **show**(`scene`, `color?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/rayHelper.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/rayHelper.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/rayHelper.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/rayHelper.ts#L65)
 
 Shows the ray we are willing to debug.
 
@@ -169,7 +169,7 @@ Defines the color the ray needs to be rendered in
 
 > `static` **CreateAndShow**(`ray`, `scene`, `color`): `RayHelper`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/rayHelper.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/rayHelper.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/rayHelper.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/rayHelper.ts#L41)
 
 Helper function to create a colored helper in a scene in one line.
 

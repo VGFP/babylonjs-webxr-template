@@ -6,7 +6,7 @@
 
 # Class: OctreeBlock\<T\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L21)
 
 Class used to store a cell in an octree
 
@@ -26,7 +26,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/optimizeOctrees
 
 > **new OctreeBlock**\<`T`\>(`minPoint`, `maxPoint`, `capacity`, `depth`, `maxDepth`, `creationFunc`): `OctreeBlock`\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L49)
 
 Creates a new block
 
@@ -78,7 +78,7 @@ defines a callback to call when an element is added to the block
 
 > **blocks**: `OctreeBlock`\<`T`\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L30)
 
 Gets the list of block children
 
@@ -88,7 +88,7 @@ Gets the list of block children
 
 > **entries**: `T`[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L25)
 
 Gets the content of the current block
 
@@ -100,7 +100,7 @@ Gets the content of the current block
 
 > **get** **capacity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L85)
 
 Gets the maximum capacity of this block (if capacity is reached the block will be split into sub blocks)
 
@@ -116,7 +116,7 @@ Gets the maximum capacity of this block (if capacity is reached the block will b
 
 > **get** **maxPoint**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L99)
 
 Gets the maximum vector (in world space) of the block's bounding box
 
@@ -132,7 +132,7 @@ Gets the maximum vector (in world space) of the block's bounding box
 
 > **get** **minPoint**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L92)
 
 Gets the minimum vector (in world space) of the block's bounding box
 
@@ -146,7 +146,7 @@ Gets the minimum vector (in world space) of the block's bounding box
 
 > **addEntries**(`entries`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:149](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L149)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L149)
 
 Add an array of elements to this block
 
@@ -168,7 +168,7 @@ defines the array of elements to add
 
 > **addEntry**(`entry`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L109)
 
 Add a new element to this block
 
@@ -190,7 +190,7 @@ defines the element to add
 
 > **createInnerBlocks**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:226](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L226)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:226](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L226)
 
 Subdivide the content into child blocks (this block will then be empty)
 
@@ -204,7 +204,7 @@ Subdivide the content into child blocks (this block will then be empty)
 
 > **intersects**(`sphereCenter`, `sphereRadius`, `selection`, `allowDuplicate?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:187](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L187)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L187)
 
 Test if the current block intersect with the given bounding sphere and if yes, then add its content to the selection array
 
@@ -244,7 +244,7 @@ defines if the selection array can contains duplicated entries
 
 > **intersectsRay**(`ray`, `selection`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:210](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L210)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L210)
 
 Test if the current block intersect with the given ray and if yes, then add its content to the selection array
 
@@ -272,7 +272,7 @@ defines the array to store current content if selection is positive
 
 > **removeEntry**(`entry`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L129)
 
 Remove an element from this block
 
@@ -294,7 +294,7 @@ defines the element to remove
 
 > **select**(`frustumPlanes`, `selection`, `allowDuplicate?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L162)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L162)
 
 Test if the current block intersects the frustum planes and if yes, then add its content to the selection array
 

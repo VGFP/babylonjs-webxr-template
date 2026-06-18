@@ -6,7 +6,7 @@
 
 # Class: Quaternion
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4492](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4492)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4483](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4483)
 
 Class used to store quaternion data
 Example Playground - Overview - https://playground.babylonjs.com/#L49EJ7#100
@@ -26,7 +26,7 @@ Example Playground - Overview - https://playground.babylonjs.com/#L49EJ7#100
 
 > **new Quaternion**(`x?`, `y?`, `z?`, `w?`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4573](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4573)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4564](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4564)
 
 Creates a new Quaternion from the given floats
 
@@ -66,7 +66,7 @@ defines the fourth component (1.0 by default)
 
 > `readonly` **dimension**: readonly \[`4`\]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4559](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4559)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4550](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4550)
 
 #### See
 
@@ -82,7 +82,7 @@ Tensor.dimension
 
 > `readonly` **rank**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4564](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4564)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4555](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4555)
 
 #### See
 
@@ -98,7 +98,7 @@ Tensor.rank
 
 > `static` **\_V8PerformanceHack**: [`DeepImmutableObject`](../type-aliases/DeepImmutableObject.md)\<`Quaternion`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4500](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4500)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4491](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4491)
 
 If the first quaternion is flagged with integers (as everything is 0,0,0,0), V8 stores all of the properties as integers internally because it doesn't know any better yet.
 If subsequent quaternion are created with non-integer values, V8 determines that it would be best to represent these properties as doubles instead of integers,
@@ -114,7 +114,7 @@ If we keep using the quaternion instances from step 1, it will now be a poison p
 
 > **get** **w**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4547](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4547)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4538](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4538)
 
 Gets or sets the w coordinate
 
@@ -126,7 +126,7 @@ Gets or sets the w coordinate
 
 > **set** **w**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4551](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4551)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4542](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4542)
 
 ##### Parameters
 
@@ -150,7 +150,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4551](h
 
 > **get** **x**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4517](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4517)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4508](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4508)
 
 Gets or sets the x coordinate
 
@@ -162,7 +162,7 @@ Gets or sets the x coordinate
 
 > **set** **x**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4521](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4521)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4512](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4512)
 
 ##### Parameters
 
@@ -186,7 +186,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4521](h
 
 > **get** **y**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4527](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4527)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4518](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4518)
 
 Gets or sets the y coordinate
 
@@ -198,7 +198,7 @@ Gets or sets the y coordinate
 
 > **set** **y**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4531](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4531)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4522](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4522)
 
 ##### Parameters
 
@@ -222,7 +222,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4531](h
 
 > **get** **z**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4537](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4537)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4528](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4528)
 
 Gets or sets the z coordinate
 
@@ -234,7 +234,7 @@ Gets or sets the z coordinate
 
 > **set** **z**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4541](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4541)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4532](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4532)
 
 ##### Parameters
 
@@ -256,7 +256,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4541](h
 
 > **add**(`other`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4753](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4753)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4749](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4749)
 
 Adds two quaternions
 Example Playground https://playground.babylonjs.com/#L49EJ7#10
@@ -285,7 +285,7 @@ a new quaternion as the addition result of the given one and the current quatern
 
 > **addInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4763](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4763)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4759](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4759)
 
 Add a quaternion to the current one
 Example Playground https://playground.babylonjs.com/#L49EJ7#11
@@ -314,9 +314,9 @@ the current quaternion
 
 > **addInPlaceFromFloats**(`x`, `y`, `z`, `w`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4781](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4781)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4785](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4785)
 
-Adds the given coordinates to the current instance
+Adds in place the given floats to the current quaternion
 
 #### Parameters
 
@@ -324,23 +324,31 @@ Adds the given coordinates to the current instance
 
 `number`
 
+defines the x coordinate
+
 ##### y
 
 `number`
+
+defines the y coordinate
 
 ##### z
 
 `number`
 
+defines the z coordinate
+
 ##### w
 
 `number`
+
+defines the w coordinate
 
 #### Returns
 
 `this`
 
-the current updated instance
+the current updated quaternion
 
 #### Implementation of
 
@@ -352,7 +360,7 @@ the current updated instance
 
 > **addToRef**\<`T`\>(`other`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4772](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4772)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4768](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4768)
 
 Sets the "result" coordinates with the addition of the current instance and the given one coordinates
 
@@ -392,7 +400,7 @@ result input
 
 > **asArray**(): \[`number`, `number`, `number`, `number`\]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4618](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4618)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4609](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4609)
 
 Copy the quaternion to an array
 Example Playground https://playground.babylonjs.com/#L49EJ7#13
@@ -413,7 +421,7 @@ a new array populated with 4 elements from the quaternion coordinates
 
 > **clone**(): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4693](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4693)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4684](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4684)
 
 Clone the current quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#12
@@ -434,7 +442,7 @@ a new quaternion copied from the current one
 
 > **conjugate**(): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5085](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5085)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5122)
 
 Conjugates (1-q) the current quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#83
@@ -451,7 +459,7 @@ a new quaternion
 
 > **conjugateInPlace**(): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5072](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5072)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5109)
 
 Conjugates in place the current quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#82
@@ -468,7 +476,7 @@ the current updated quaternion
 
 > **conjugateToRef**\<`T`\>(`ref`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5062](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5062)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5099](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5099)
 
 Conjugates the current quaternion and stores the result in the given quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#81
@@ -499,7 +507,7 @@ result input
 
 > **copyFrom**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4703](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4703)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4694](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4694)
 
 Copy a quaternion to the current one
 Example Playground https://playground.babylonjs.com/#L49EJ7#86
@@ -528,7 +536,7 @@ the updated current quaternion
 
 > **copyFromFloats**(`x`, `y`, `z`, `w`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4721](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4721)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4712](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4712)
 
 Updates the current quaternion with the given float coordinates
 Example Playground https://playground.babylonjs.com/#L49EJ7#87
@@ -575,7 +583,7 @@ the updated current quaternion
 
 > **dot**(`other`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5297](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5297)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5334](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5334)
 
 Returns the dot product (float) between the current quaternions and "other"
 
@@ -599,7 +607,7 @@ the dot product
 
 > **equals**(`otherQuaternion`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4647](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4647)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4638](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4638)
 
 Check if two quaternions are equals
 Example Playground https://playground.babylonjs.com/#L49EJ7#38
@@ -628,9 +636,9 @@ true if the current quaternion and the given one coordinates are strictly equals
 
 > **equalsToFloats**(`x`, `y`, `z`, `w`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5020](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5020)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5057](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5057)
 
-Returns true if the current Vectoe coordinates equals the given floats
+Determines if the current quaternion equals the given floats
 
 #### Parameters
 
@@ -638,23 +646,31 @@ Returns true if the current Vectoe coordinates equals the given floats
 
 `number`
 
+defines the x coordinate
+
 ##### y
 
 `number`
+
+defines the y coordinate
 
 ##### z
 
 `number`
 
+defines the z coordinate
+
 ##### w
 
 `number`
+
+defines the w coordinate
 
 #### Returns
 
 `boolean`
 
-true if both instances are equal
+true if the quaternion coordinates match the given floats
 
 #### Implementation of
 
@@ -666,7 +682,7 @@ true if both instances are equal
 
 > **equalsWithEpsilon**(`otherQuaternion`, `epsilon?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4658](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4658)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4649](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4649)
 
 Gets a boolean if two quaternions are equals (using an epsilon value)
 Example Playground https://playground.babylonjs.com/#L49EJ7#37
@@ -701,7 +717,7 @@ true if the given quaternion coordinates are close to the current ones by a dist
 
 > **fromArray**(`array`, `index?`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4637](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4637)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4628](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4628)
 
 Update the current instance from an array
 
@@ -735,7 +751,7 @@ the current instance
 
 > **fromRotationMatrix**(`matrix`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5287](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5287)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5324](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5324)
 
 Updates the current quaternion from the given rotation matrix values
 Example Playground https://playground.babylonjs.com/#L49EJ7#41
@@ -760,7 +776,7 @@ the current updated quaternion
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4592](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4592)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4583](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4583)
 
 Gets the class name of the quaternion
 
@@ -780,7 +796,7 @@ the string "Quaternion"
 
 > **getHashCode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4600](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4600)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4591](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4591)
 
 Gets a hash code for this quaternion
 
@@ -800,7 +816,7 @@ the quaternion hash code
 
 > **invert**(): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5094](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5094)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5131)
 
 Returns the inverse of the current quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#84
@@ -817,7 +833,7 @@ a new quaternion
 
 > **invertInPlace**(): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5109)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5146)
 
 Invert in place the current quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#85
@@ -834,7 +850,7 @@ this quaternion
 
 > **isApprox**(`otherQuaternion`, `epsilon?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4674](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4674)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4665](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4665)
 
 Gets a boolean if two quaternions are equals (using an epsilon value), taking care of double cover : https://www.reedbeta.com/blog/why-quaternions-double-cover/
 
@@ -864,7 +880,7 @@ true if the given quaternion coordinates are close to the current ones by a dist
 
 > **length**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5133)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5170)
 
 Gets length of current quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#28
@@ -881,7 +897,7 @@ the quaternion length (float)
 
 > **lengthSquared**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5124)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5161](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5161)
 
 Gets squared length of current quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#29
@@ -898,7 +914,7 @@ the quaternion length (float)
 
 > **multiply**(`q1`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4901](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4901)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4922](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4922)
 
 Multiplies two quaternions
 Example Playground https://playground.babylonjs.com/#L49EJ7#43
@@ -927,9 +943,9 @@ a new quaternion set as the multiplication result of the current one with the gi
 
 > **multiplyByFloats**(`x`, `y`, `z`, `w`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4933](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4933)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4962](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4962)
 
-Gets a new instance set with the instance coordinates multiplied by the given floats
+Multiplies the current quaternion coordinates by the given floats
 
 #### Parameters
 
@@ -937,23 +953,31 @@ Gets a new instance set with the instance coordinates multiplied by the given fl
 
 `number`
 
+defines the x coordinate
+
 ##### y
 
 `number`
+
+defines the y coordinate
 
 ##### z
 
 `number`
 
+defines the z coordinate
+
 ##### w
 
 `number`
+
+defines the w coordinate
 
 #### Returns
 
 `this`
 
-a new instance
+the current updated quaternion
 
 #### Implementation of
 
@@ -965,7 +989,7 @@ a new instance
 
 > **multiplyInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4929](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4929)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4950](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4950)
 
 Updates the current quaternion with the multiplication of itself with the given one "q1"
 Example Playground https://playground.babylonjs.com/#L49EJ7#46
@@ -994,7 +1018,7 @@ the currentupdated quaternion
 
 > **multiplyToRef**\<`T`\>(`q1`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4914](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4914)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4935](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4935)
 
 Sets the given "result" as the multiplication result of the current one with the given one "q1"
 Example Playground https://playground.babylonjs.com/#L49EJ7#45
@@ -1035,7 +1059,7 @@ the current quaternion
 
 > **negate**(): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4998](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4998)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5027](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5027)
 
 Gets a new instance with current instance negated coordinates
 
@@ -1055,7 +1079,7 @@ a new instance
 
 > **negateInPlace**(): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5002](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5002)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5031](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5031)
 
 Negate this instance in place
 
@@ -1075,7 +1099,7 @@ this
 
 > **negateToRef**\<`T`\>(`result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5011](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5011)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5040](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5040)
 
 Negate the current instance and stores the result in the given instance "result" coordinates
 
@@ -1109,7 +1133,7 @@ the result
 
 > **normalize**(): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5142)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5179)
 
 Normalize in place the current quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#54
@@ -1126,7 +1150,7 @@ the current updated quaternion
 
 > **normalizeFromLength**(`len`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5152)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5189)
 
 Normalize the current quaternion with the given input length.
 Please note that this is an in place operation.
@@ -1151,7 +1175,7 @@ the current updated Quaternion
 
 > **normalizeToNew**(): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5165)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5202](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5202)
 
 Normalize a copy of the current quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#55
@@ -1168,7 +1192,7 @@ the normalized quaternion
 
 > **normalizeToRef**\<`T`\>(`reference`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5176)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5213](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5213)
 
 Normalize the current Quaternion to the reference
 
@@ -1198,7 +1222,7 @@ the updated Quaternion
 
 > **scale**(`value`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4843](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4843)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4864](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4864)
 
 Multiplies the current quaternion by a scale factor
 Example Playground https://playground.babylonjs.com/#L49EJ7#88
@@ -1227,7 +1251,7 @@ a new quaternion set by multiplying the current quaternion coordinates by the fl
 
 > **scaleAndAddToRef**\<`T`\>(`scale`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4886](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4886)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4907](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4907)
 
 Scale the current quaternion values by a factor and add the result to a given quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#91
@@ -1268,7 +1292,7 @@ result input
 
 > **scaleInPlace**(`value`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4869](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4869)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4890](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4890)
 
 Multiplies in place the current quaternion by a scale factor
 Example Playground https://playground.babylonjs.com/#L49EJ7#90
@@ -1297,7 +1321,7 @@ the current modified quaternion
 
 > **scaleToRef**\<`T`\>(`scale`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4854](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4854)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4875](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4875)
 
 Scale the current quaternion values by a factor and stores the result to a given quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#89
@@ -1338,7 +1362,7 @@ result input
 
 > **set**(`x`, `y`, `z`, `w`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4739](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4739)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4730](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4730)
 
 Updates the current quaternion from the given float coordinates
 Example Playground https://playground.babylonjs.com/#L49EJ7#56
@@ -1385,9 +1409,9 @@ the updated current quaternion
 
 > **setAll**(`value`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4743](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4743)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4739](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4739)
 
-Sets the instance coordinates to the given value
+Sets all the quaternion coordinates to the given value
 
 #### Parameters
 
@@ -1395,11 +1419,13 @@ Sets the instance coordinates to the given value
 
 `number`
 
+the value to set
+
 #### Returns
 
 `this`
 
-the current updated instance
+the current updated quaternion
 
 #### Implementation of
 
@@ -1411,7 +1437,7 @@ the current updated instance
 
 > **subtract**(`other`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4818](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4818)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4839](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4839)
 
 Subtract two quaternions
 Example Playground https://playground.babylonjs.com/#L49EJ7#57
@@ -1440,9 +1466,9 @@ a new quaternion as the subtraction result of the given one from the current one
 
 > **subtractFromFloats**(`x`, `y`, `z`, `w`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4799](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4799)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4811](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4811)
 
-Returns a new instance set with the subtraction of the given floats from the current instance coordinates
+Subtracts the given floats from the current quaternion
 
 #### Parameters
 
@@ -1450,23 +1476,31 @@ Returns a new instance set with the subtraction of the given floats from the cur
 
 `number`
 
+defines the x coordinate
+
 ##### y
 
 `number`
+
+defines the y coordinate
 
 ##### z
 
 `number`
 
+defines the z coordinate
+
 ##### w
 
 `number`
+
+defines the w coordinate
 
 #### Returns
 
 `Quaternion`
 
-the resulting instance
+a new quaternion as the subtraction result
 
 #### Implementation of
 
@@ -1478,10 +1512,9 @@ the resulting instance
 
 > **subtractFromFloatsToRef**\<`T`\>(`x`, `y`, `z`, `w`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4803](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4803)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4824](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4824)
 
-Subtracts the given floats from the current instance coordinates and set the given instance "result" with this result
-Note: Implementation uses array magic so types may be confusing.
+Subtracts the given floats from the current quaternion and stores the result in the given one
 
 #### Type Parameters
 
@@ -1495,27 +1528,37 @@ Note: Implementation uses array magic so types may be confusing.
 
 `number`
 
+defines the x coordinate
+
 ##### y
 
 `number`
+
+defines the y coordinate
 
 ##### z
 
 `number`
 
+defines the z coordinate
+
 ##### w
 
 `number`
+
+defines the w coordinate
 
 ##### result
 
 `T`
 
+defines the quaternion to store the result
+
 #### Returns
 
 `T`
 
-the result
+result input
 
 #### Implementation of
 
@@ -1527,7 +1570,7 @@ the result
 
 > **subtractInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4828](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4828)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4849](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4849)
 
 Subtract a quaternion to the current one
 Example Playground https://playground.babylonjs.com/#L49EJ7#58
@@ -1556,7 +1599,7 @@ the current quaternion
 
 > **subtractToRef**\<`T`\>(`other`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4790](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4790)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4794](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4794)
 
 Sets the "result" coordinates with the subtraction of the other's coordinates from the current coordinates.
 
@@ -1596,7 +1639,7 @@ result input
 
 > **toAlphaBetaGammaToRef**\<`T`\>(`result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5243](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5243)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5280](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5280)
 
 Sets the given vector3 "result" with the Alpha, Beta, Gamma Euler angles translated from the current quaternion
 
@@ -1630,7 +1673,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/transforms/center_origi
 
 > **toArray**(`array`, `index?`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4629](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4629)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4620](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4620)
 
 Stores from the starting index in the given array the Quaternion successive values
 Example Playground https://playground.babylonjs.com/#L49EJ7#59
@@ -1665,7 +1708,7 @@ the current Quaternion object
 
 > **toAxisAngle**(): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5305](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5305)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5342](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5342)
 
 Converts the current quaternion to an axis angle representation
 
@@ -1689,7 +1732,7 @@ the axis and angle in radians
 
 > **toAxisAngleToRef**\<`T`\>(`axis`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5316](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5316)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5353](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5353)
 
 Converts the current quaternion to an axis angle representation
 
@@ -1719,7 +1762,7 @@ the angle in radians
 
 > **toEulerAngles**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5191)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5228)
 
 Returns a new Vector3 set with the Euler angles translated from the current quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#32
@@ -1740,7 +1783,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/transforms/center_origi
 
 > **toEulerAnglesToRef**\<`T`\>(`result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5204](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5204)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5241](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5241)
 
 Sets the given vector3 "result" with the Euler angles translated from the current quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#31
@@ -1775,7 +1818,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/transforms/center_origi
 
 > **toRotationMatrix**\<`T`\>(`result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5276](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5276)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5313](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5313)
 
 Updates the given rotation matrix with the current quaternion values
 Example Playground https://playground.babylonjs.com/#L49EJ7#67
@@ -1806,7 +1849,7 @@ the updated matrix with the rotation
 
 > **toString**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:4584](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L4584)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:4575](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L4575)
 
 Gets a string representation for the current quaternion
 
@@ -1822,7 +1865,7 @@ a string with the Quaternion coordinates
 
 > `static` **AreClose**(`quat0`, `quat1`, `epsilon?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5422](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5422)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5459](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5459)
 
 Checks if the orientations of two rotation quaternions are close to each other
 Example Playground https://playground.babylonjs.com/#L49EJ7#60
@@ -1859,7 +1902,7 @@ true if the two quaternions are close to each other within epsilon
 
 > `static` **Center**(`value1`, `value2`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6075](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6075)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6112)
 
 Returns a new Quaternion located at the center between the quaternions "value1" and "value2".
 
@@ -1889,7 +1932,7 @@ the center between the two quaternions
 
 > `static` **CenterToRef**\<`T`\>(`value1`, `value2`, `ref`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6086](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6086)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6123)
 
 Gets the center of the quaternions "value1" and "value2" and stores the result in the quaternion "ref"
 
@@ -1931,7 +1974,7 @@ ref
 
 > `static` **Clamp**(`value`, `min`, `max`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5988](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5988)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6025](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6025)
 
 Returns a new Quaternion set with the coordinates of "value", if the quaternion "value" is in the cube defined by the quaternions "min" and "max"
 If a coordinate value of "value" is lower than one of the "min" coordinate, then this "value" coordinate is set with the "min" one
@@ -1969,7 +2012,7 @@ the new Quaternion
 
 > `static` **ClampToRef**\<`T`\>(`value`, `min`, `max`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6004](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6004)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6041](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6041)
 
 Sets the given quaternion "result" with the coordinates of "value", if the quaternion "value" is in the cube defined by the quaternions "min" and "max"
 If a coordinate value of "value" is lower than one of the "min" coordinate, then this "value" coordinate is set with the "min" one
@@ -2019,7 +2062,7 @@ result input
 
 > `static` **Distance**(`value1`, `value2`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6051](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6051)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6088](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6088)
 
 Returns the distance (float) between the quaternions "value1" and "value2".
 
@@ -2049,7 +2092,7 @@ the distance between the two quaternions
 
 > `static` **DistanceSquared**(`value1`, `value2`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6060](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6060)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6097](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6097)
 
 Returns the squared distance (float) between the quaternions "value1" and "value2".
 
@@ -2079,7 +2122,7 @@ the distance between the two quaternions squared
 
 > `static` **Dot**(`left`, `right`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5410](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5410)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5447](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5447)
 
 Returns the dot product (float) between the quaternions "left" and "right"
 Example Playground https://playground.babylonjs.com/#L49EJ7#61
@@ -2110,7 +2153,7 @@ the dot product
 
 > `static` **FromArray**(`array`, `offset?`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5529](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5529)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5566](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5566)
 
 Creates a new quaternion from data stored into an array
 Example Playground https://playground.babylonjs.com/#L49EJ7#63
@@ -2141,7 +2184,7 @@ a new quaternion
 
 > `static` **FromArrayToRef**\<`T`\>(`array`, `offset`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5544](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5544)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5581](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5581)
 
 Updates the given quaternion "result" from the starting index of the given array.
 Example Playground https://playground.babylonjs.com/#L49EJ7#64
@@ -2184,7 +2227,7 @@ result input
 
 > `static` **FromEulerAngles**(`x`, `y`, `z`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5575](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5575)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5612](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5612)
 
 Create a quaternion from Euler rotation angles
 Example Playground https://playground.babylonjs.com/#L49EJ7#33
@@ -2221,7 +2264,7 @@ the new Quaternion
 
 > `static` **FromEulerAnglesToRef**\<`T`\>(`x`, `y`, `z`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5590](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5590)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5627](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5627)
 
 Updates a quaternion from Euler rotation angles
 Example Playground https://playground.babylonjs.com/#L49EJ7#34
@@ -2270,7 +2313,7 @@ the updated quaternion
 
 > `static` **FromEulerVector**(`vec`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5601](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5601)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5638](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5638)
 
 Create a quaternion from Euler rotation vector
 Example Playground https://playground.babylonjs.com/#L49EJ7#35
@@ -2295,7 +2338,7 @@ the new Quaternion
 
 > `static` **FromEulerVectorToRef**\<`T`\>(`vec`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5614](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5614)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5651](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5651)
 
 Updates a quaternion from Euler rotation vector
 Example Playground https://playground.babylonjs.com/#L49EJ7#36
@@ -2332,7 +2375,7 @@ the updated quaternion
 
 > `static` **FromFloatsToRef**\<`T`\>(`x`, `y`, `z`, `w`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5562](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5562)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5599](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5599)
 
 Sets the given quaternion "result" with the given floats.
 
@@ -2386,7 +2429,7 @@ the result quaternion
 
 > `static` **FromLookDirectionLH**(`forward`, `up`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5767](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5767)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5804](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5804)
 
 Creates a new rotation value to orient an object to look towards the given forward direction, the up direction being oriented like "up".
 This function works in left handed mode
@@ -2418,7 +2461,7 @@ A new quaternion oriented toward the specified forward and up.
 
 > `static` **FromLookDirectionLHToRef**\<`T`\>(`forward`, `up`, `ref`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5782](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5782)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5819](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5819)
 
 Creates a new rotation value to orient an object to look towards the given forward direction with the up direction being oriented like "up", and stores it in the target quaternion.
 This function works in left handed mode
@@ -2462,7 +2505,7 @@ result input
 
 > `static` **FromLookDirectionRH**(`forward`, `up`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5797](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5797)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5834](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5834)
 
 Creates a new rotation value to orient an object to look towards the given forward direction, the up direction being oriented like "up".
 This function works in right handed mode
@@ -2494,7 +2537,7 @@ A new quaternion oriented toward the specified forward and up.
 
 > `static` **FromLookDirectionRHToRef**\<`T`\>(`forward`, `up`, `ref`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5812](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5812)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5849](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5849)
 
 Creates a new rotation value to orient an object to look towards the given forward direction with the up direction being oriented like "up", and stores it in the target quaternion.
 This function works in right handed mode
@@ -2538,7 +2581,7 @@ result input
 
 > `static` **FromRotationMatrix**(`matrix`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5340](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5340)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5377](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5377)
 
 Creates a new quaternion from a rotation matrix
 Example Playground https://playground.babylonjs.com/#L49EJ7#101
@@ -2563,7 +2606,7 @@ a new quaternion created from the given rotation matrix values
 
 > `static` **FromRotationMatrixToRef**\<`T`\>(`matrix`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5353](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5353)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5390](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5390)
 
 Updates the given quaternion with the given rotation matrix values
 Example Playground https://playground.babylonjs.com/#L49EJ7#102
@@ -2600,7 +2643,7 @@ result input
 
 > `static` **FromUnitVectorsToRef**\<`T`\>(`vecFrom`, `vecTo`, `result`, `epsilon?`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5628](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5628)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5665](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5665)
 
 Updates a quaternion so that it rotates vector vecFrom to vector vecTo
 Example Playground - https://playground.babylonjs.com/#L49EJ7#70
@@ -2649,7 +2692,7 @@ the updated quaternion
 
 > `static` **Hermite**(`value1`, `tangent1`, `value2`, `tangent2`, `amount`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5883](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5883)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5920](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5920)
 
 Interpolate between two quaternions using Hermite interpolation
 Example Playground https://playground.babylonjs.com/#L49EJ7#47
@@ -2702,7 +2745,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/drawCurves#hermite-quat
 
 > `static` **Hermite1stDerivative**(`value1`, `tangent1`, `value2`, `tangent2`, `time`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5914](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5914)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5951](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5951)
 
 Returns a new Quaternion which is the 1st derivative of the Hermite spline defined by the quaternions "value1", "value2", "tangent1", "tangent2".
 Example Playground https://playground.babylonjs.com/#L49EJ7#48
@@ -2751,7 +2794,7 @@ define where the derivative must be done
 
 > `static` **Hermite1stDerivativeToRef**\<`T`\>(`value1`, `tangent1`, `value2`, `tangent2`, `time`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5939](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5939)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5976](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5976)
 
 Update a Quaternion with the 1st derivative of the Hermite spline defined by the quaternions "value1", "value2", "tangent1", "tangent2".
 Example Playground https://playground.babylonjs.com/#L49EJ7#49
@@ -2812,7 +2855,7 @@ result input
 
 > `static` **Identity**(): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5480](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5480)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5517](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5517)
 
 Creates an identity quaternion
 
@@ -2828,7 +2871,7 @@ the identity quaternion
 
 > `static` **Inverse**(`q`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5460](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5460)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5497](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5497)
 
 Inverse a given quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#103
@@ -2853,7 +2896,7 @@ a new quaternion as the inverted current quaternion
 
 > `static` **InverseToRef**\<`T`\>(`q`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5471](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5471)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5508](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5508)
 
 Inverse a given quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#104
@@ -2890,7 +2933,7 @@ the result quaternion
 
 > `static` **IsIdentity**(`quaternion`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5489](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5489)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5526](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5526)
 
 Gets a boolean indicating if the given quaternion is identity
 
@@ -2914,7 +2957,7 @@ true if the quaternion is identity
 
 > `static` **Normalize**(`quat`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5962](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5962)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5999](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5999)
 
 Returns a new Quaternion as the normalization of the given Quaternion
 
@@ -2938,7 +2981,7 @@ the new Quaternion
 
 > `static` **NormalizeToRef**\<`T`\>(`quat`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5974](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5974)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6011](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6011)
 
 Sets the given Quaternion "result" with the normalization of the given first Quaternion
 
@@ -2974,7 +3017,7 @@ result input
 
 > `static` **Random**(`min?`, `max?`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6014](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6014)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6051](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6051)
 
 Returns a new Quaternion with random values between min and max
 
@@ -3004,7 +3047,7 @@ a Quaternion with random values between min and max
 
 > `static` **RandomToRef**\<`T`\>(`min?`, `max?`, `ref`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:6025](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L6025)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:6062](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L6062)
 
 Sets a Quaternion with random values between min and max
 
@@ -3046,7 +3089,7 @@ the ref with random values between min and max
 
 > `static` **RotationAlphaBetaGamma**(`alpha`, `beta`, `gamma`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5697](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5697)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5734](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5734)
 
 Creates a new quaternion from the given Euler float angles expressed in z-x-z orientation
 Example Playground https://playground.babylonjs.com/#L49EJ7#68
@@ -3083,7 +3126,7 @@ the new quaternion
 
 > `static` **RotationAlphaBetaGammaToRef**\<`T`\>(`alpha`, `beta`, `gamma`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5712](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5712)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5749](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5749)
 
 Creates a new quaternion from the given Euler float angles expressed in z-x-z orientation and stores it in the target quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#69
@@ -3132,7 +3175,7 @@ result input
 
 > `static` **RotationAxis**(`axis`, `angle`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5500](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5500)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5537](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5537)
 
 Creates a quaternion from a rotation around an axis
 Example Playground https://playground.babylonjs.com/#L49EJ7#72
@@ -3163,7 +3206,7 @@ a new quaternion created from the given axis (Vector3) and angle in radians (flo
 
 > `static` **RotationAxisToRef**\<`T`\>(`axis`, `angle`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5512](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5512)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5549](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5549)
 
 Creates a rotation around an axis and stores it into the given quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#73
@@ -3206,7 +3249,7 @@ the target quaternion
 
 > `static` **RotationQuaternionFromAxis**(`axis1`, `axis2`, `axis3`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5734](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5734)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5771](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5771)
 
 Creates a new quaternion containing the rotation value to reach the target (axis1, axis2, axis3) orientation as a rotated XYZ system (axis1, axis2 and axis3 are normalized during this operation)
 Example Playground https://playground.babylonjs.com/#L49EJ7#75
@@ -3243,7 +3286,7 @@ the new quaternion
 
 > `static` **RotationQuaternionFromAxisToRef**\<`T`\>(`axis1`, `axis2`, `axis3`, `ref`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5749](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5749)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5786](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5786)
 
 Creates a rotation value to reach the target (axis1, axis2, axis3) orientation as a rotated XYZ system (axis1, axis2 and axis3 are normalized during this operation) and stores it in the target quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#76
@@ -3292,7 +3335,7 @@ result input
 
 > `static` **RotationYawPitchRoll**(`yaw`, `pitch`, `roll`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5653](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5653)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5690](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5690)
 
 Creates a new quaternion from the given Euler float angles (y, x, z)
 Example Playground https://playground.babylonjs.com/#L49EJ7#77
@@ -3329,7 +3372,7 @@ the new quaternion
 
 > `static` **RotationYawPitchRollToRef**\<`T`\>(`yaw`, `pitch`, `roll`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5668](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5668)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5705](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5705)
 
 Creates a new rotation from the given Euler float angles (y, x, z) and stores it in the target quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#561
@@ -3378,7 +3421,7 @@ result input
 
 > `static` **Slerp**(`left`, `right`, `amount`): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5826](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5826)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5863](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5863)
 
 Interpolates between two quaternions
 Example Playground https://playground.babylonjs.com/#L49EJ7#79
@@ -3415,7 +3458,7 @@ the new interpolated quaternion
 
 > `static` **SlerpToRef**\<`T`\>(`left`, `right`, `amount`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5843](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5843)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5880](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5880)
 
 Interpolates between two quaternions and stores it into a target quaternion
 Example Playground https://playground.babylonjs.com/#L49EJ7#92
@@ -3464,7 +3507,7 @@ result input
 
 > `static` **SmoothToRef**\<`T`\>(`source`, `goal`, `deltaTime`, `lerpTime`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5438](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5438)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5475](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5475)
 
 Smooth interpolation between two quaternions using Slerp
 Example Playground https://playground.babylonjs.com/#L49EJ7#93
@@ -3519,7 +3562,7 @@ the smoothed quaternion
 
 > `static` **Zero**(): `Quaternion`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.ts:5450](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.vector.ts#L5450)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.pure.ts:5487](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.pure.ts#L5487)
 
 Creates an empty quaternion
 

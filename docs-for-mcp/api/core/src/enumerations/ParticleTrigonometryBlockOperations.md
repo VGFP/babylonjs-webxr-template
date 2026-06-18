@@ -6,7 +6,7 @@
 
 # Enumeration: ParticleTrigonometryBlockOperations
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L16)
 
 Operations supported by the Trigonometry block
 
@@ -16,7 +16,7 @@ Operations supported by the Trigonometry block
 
 > **Abs**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L22)
 
 Abs
 
@@ -26,7 +26,7 @@ Abs
 
 > **ArcCos**: `12`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L42)
 
 Arc cosinus
 
@@ -36,7 +36,7 @@ Arc cosinus
 
 > **ArcSin**: `13`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L44)
 
 Arc sinus
 
@@ -46,7 +46,7 @@ Arc sinus
 
 > **ArcTan**: `11`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L40)
 
 Arc tangent
 
@@ -56,7 +56,7 @@ Arc tangent
 
 > **Ceiling**: `7`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L32)
 
 Ceiling
 
@@ -66,7 +66,7 @@ Ceiling
 
 > **Cos**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L18)
 
 Cos
 
@@ -76,7 +76,7 @@ Cos
 
 > **Exp**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L24)
 
 Exp
 
@@ -86,7 +86,7 @@ Exp
 
 > **Exp2**: `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L26)
 
 Exp2
 
@@ -96,7 +96,7 @@ Exp2
 
 > **Floor**: `6`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L30)
 
 Floor
 
@@ -106,7 +106,7 @@ Floor
 
 > **Fract**: `20`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L58)
 
 Fract
 
@@ -116,7 +116,7 @@ Fract
 
 > **Log**: `9`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L36)
 
 Log
 
@@ -126,7 +126,7 @@ Log
 
 > **Negate**: `15`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L48)
 
 Negate
 
@@ -136,7 +136,7 @@ Negate
 
 > **OneMinus**: `16`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L50)
 
 OneMinus
 
@@ -146,7 +146,7 @@ OneMinus
 
 > **Reciprocal**: `17`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L52)
 
 Reciprocal
 
@@ -156,7 +156,7 @@ Reciprocal
 
 > **Round**: `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L28)
 
 Round
 
@@ -166,7 +166,7 @@ Round
 
 > **Sign**: `14`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L46)
 
 Sign
 
@@ -176,7 +176,7 @@ Sign
 
 > **Sin**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L20)
 
 Sin
 
@@ -186,7 +186,7 @@ Sin
 
 > **Sqrt**: `8`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L34)
 
 Square root
 
@@ -196,7 +196,7 @@ Square root
 
 > **Tan**: `10`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L38)
 
 Tangent
 
@@ -206,7 +206,7 @@ Tangent
 
 > **ToDegrees**: `18`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L54)
 
 ToDegrees
 
@@ -216,6 +216,6 @@ ToDegrees
 
 > **ToRadians**: `19`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleTrigonometryBlock.pure.ts#L56)
 
 ToRadians

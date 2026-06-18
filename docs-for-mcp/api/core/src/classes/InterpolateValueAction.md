@@ -6,7 +6,7 @@
 
 # Class: InterpolateValueAction
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/interpolateValueAction.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/interpolateValueAction.pure.ts#L18)
 
 This defines an action responsible to change the value of a property
 by interpolating between its current value and the newly set one once triggered.
@@ -25,7 +25,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions
 
 > **new InterpolateValueAction**(`triggerOptions`, `target`, `propertyPath`, `value`, `duration?`, `condition?`, `stopOtherAnimations?`, `onInterpolationDone?`): `InterpolateValueAction`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/interpolateValueAction.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.pure.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/interpolateValueAction.pure.ts#L64)
 
 Instantiate the action
 
@@ -93,7 +93,7 @@ defines a callback raised once the interpolation animation has been done
 
 > **duration**: `number` = `1000`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/interpolateValueAction.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/interpolateValueAction.pure.ts#L32)
 
 Defines the time it will take for the property to interpolate to the value.
 
@@ -103,7 +103,7 @@ Defines the time it will take for the property to interpolate to the value.
 
 > **onBeforeExecuteObservable**: [`Observable`](Observable.md)\<[`Action`](Action.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L102)
 
 An event triggered prior to action being executed.
 
@@ -117,7 +117,7 @@ An event triggered prior to action being executed.
 
 > `optional` **onInterpolationDone?**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/interpolateValueAction.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/interpolateValueAction.pure.ts#L42)
 
 Defines a callback raised once the interpolation animation has been done.
 
@@ -131,7 +131,7 @@ Defines a callback raised once the interpolation animation has been done.
 
 > **onInterpolationDoneObservable**: [`Observable`](Observable.md)\<`InterpolateValueAction`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/interpolateValueAction.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/interpolateValueAction.pure.ts#L47)
 
 Observable triggered once the interpolation animation has been done.
 
@@ -141,7 +141,7 @@ Observable triggered once the interpolation animation has been done.
 
 > **propertyPath**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/interpolateValueAction.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/interpolateValueAction.pure.ts#L22)
 
 Defines the path of the property where the value should be interpolated
 
@@ -151,7 +151,7 @@ Defines the path of the property where the value should be interpolated
 
 > `optional` **stopOtherAnimations?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/interpolateValueAction.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/interpolateValueAction.pure.ts#L37)
 
 Defines if the other scene animations should be stopped when the action has been triggered
 
@@ -161,7 +161,7 @@ Defines if the other scene animations should be stopped when the action has been
 
 > **trigger**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L86)
 
 Trigger for the action
 
@@ -175,7 +175,7 @@ Trigger for the action
 
 > **triggerOptions**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L111)
 
 the trigger, with or without parameters, for the action
 
@@ -189,7 +189,7 @@ the trigger, with or without parameters, for the action
 
 > **value**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/interpolateValueAction.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/interpolateValueAction.pure.ts#L27)
 
 Defines the target value at the end of the interpolation.
 
@@ -199,7 +199,7 @@ Defines the target value at the end of the interpolation.
 
 > **execute**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/interpolateValueAction.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.pure.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/interpolateValueAction.pure.ts#L93)
 
 Execute the action starts the value interpolation.
 
@@ -217,7 +217,7 @@ Execute the action starts the value interpolation.
 
 > **getTriggerParameter**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L137)
 
 Gets the trigger parameter
 
@@ -237,7 +237,7 @@ the trigger parameter
 
 > **serialize**(`parent`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/interpolateValueAction.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/interpolateValueAction.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/interpolateValueAction.pure.ts#L146)
 
 Serializes the actions and its related information.
 
@@ -265,7 +265,7 @@ the serialized object
 
 > **setTriggerParameter**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:143](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L143)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L145)
 
 Sets the trigger parameter
 
@@ -291,7 +291,7 @@ defines the new trigger parameter
 
 > **skipToNextActiveAction**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:194](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L194)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L196)
 
 Skips to next active action
 
@@ -309,7 +309,7 @@ Skips to next active action
 
 > **then**(`action`): [`Action`](Action.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Actions/action.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L214)
 
 Adds action to chain of actions, may be a DoNothingAction
 

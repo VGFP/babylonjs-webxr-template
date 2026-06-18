@@ -6,7 +6,7 @@
 
 # Class: FlowGraphDataSwitchBlock\<T\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts#L29)
 
 This block conditionally outputs one of its inputs, based on a condition and a list of cases.
 
@@ -28,7 +28,7 @@ This of it as a passive (data) version of the switch statement in programming la
 
 > **new FlowGraphDataSwitchBlock**\<`T`\>(`config`): `FlowGraphDataSwitchBlock`\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts#L47)
 
 #### Parameters
 
@@ -52,7 +52,7 @@ the configuration of the block
 
 > `readonly` **case**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`FlowGraphNumber`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts#L33)
 
 Current selection value.
 
@@ -62,7 +62,7 @@ Current selection value.
 
 > **config**: [`IFlowGraphDataSwitchBlockConfiguration`](../interfaces/IFlowGraphDataSwitchBlockConfiguration.md)\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts#L51)
 
 the configuration of the block
 
@@ -76,7 +76,7 @@ the configuration of the block
 
 > **dataInputs**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`any`\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L68)
 
 The data inputs of the block.
 
@@ -90,7 +90,7 @@ The data inputs of the block.
 
 > **dataOutputs**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`any`\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L72)
 
 The data outputs of the block.
 
@@ -104,7 +104,7 @@ The data outputs of the block.
 
 > `readonly` **default**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts#L38)
 
 Input: default value to output if no case is matched.
 
@@ -114,7 +114,7 @@ Input: default value to output if no case is matched.
 
 > **metadata**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L77)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L77)
 
 Metadata that can be used by the block.
 
@@ -128,7 +128,7 @@ Metadata that can be used by the block.
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L64)
 
 The name of the block.
 
@@ -142,7 +142,7 @@ The name of the block.
 
 > **uniqueId**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L60)
 
 A randomly generated GUID for each block.
 
@@ -156,7 +156,7 @@ A randomly generated GUID for each block.
 
 > `readonly` **value**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`T` \| `undefined`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts#L43)
 
 Output: the value that is output based on the selection.
 
@@ -166,7 +166,7 @@ Output: the value that is output based on the selection.
 
 > **deserialize**(`_serializationObject`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:181](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L181)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:181](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L181)
 
 Deserializes this block
 
@@ -192,7 +192,7 @@ the object to deserialize from
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts#L91)
 
 Gets the class name of this block
 
@@ -212,7 +212,7 @@ the class name
 
 > **getDataInput**(`name`): [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`any`\> \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L134)
 
 Given the name of a data input, returns the connection if it exists
 
@@ -240,7 +240,7 @@ the connection if it exists, undefined otherwise
 
 > **getDataOutput**(`name`): [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`any`\> \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:143](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L143)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L143)
 
 Given the name of a data output, returns the connection if it exists
 
@@ -268,7 +268,7 @@ the connection if it exists, undefined otherwise
 
 > **registerDataInput**\<`T`\>(`name`, `richType`, `defaultValue?`): [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:110](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L110)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L110)
 
 Registers a data input on the block.
 
@@ -314,7 +314,7 @@ the created connection
 
 > **registerDataOutput**\<`T`\>(`name`, `richType`, `defaultValue?`): [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L123)
 
 Registers a data output on the block.
 
@@ -360,7 +360,7 @@ the created connection
 
 > **serialize**(`serializationObject?`, `_valueSerializeFunction?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:152](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L152)
+Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L152)
 
 Serializes this block
 

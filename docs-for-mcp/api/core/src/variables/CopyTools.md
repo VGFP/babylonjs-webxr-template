@@ -8,7 +8,7 @@
 
 > `const` **CopyTools**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTools.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/copyTools.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTools.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/copyTools.ts#L115)
 
 Class used to host copy specific utilities
 (Back-compat)
@@ -51,13 +51,19 @@ The base64 encoded string or null
 
 #### Param
 
+**pixels**
+
 defines the pixel data to transform to base64
 
 #### Param
 
+**size**
+
 defines the width and height of the (texture) data
 
 #### Param
+
+**invertY**
 
 true if the data must be inverted for the Y coordinate during the conversion
 
@@ -101,13 +107,19 @@ The base64 encoded string or null
 
 #### Param
 
+**texture**
+
 defines the texture to read pixels from
 
 #### Param
 
+**faceIndex**
+
 defines the face of the texture to read (in case of cube texture)
 
 #### Param
+
+**level**
 
 defines the LOD level of the texture to read (in case of Mip Maps)
 
@@ -151,13 +163,19 @@ The base64 encoded string or null wrapped in a promise
 
 #### Param
 
+**texture**
+
 defines the texture to read pixels from
 
 #### Param
 
+**faceIndex**
+
 defines the face of the texture to read (in case of cube texture)
 
 #### Param
+
+**level**
 
 defines the LOD level of the texture to read (in case of Mip Maps)
 

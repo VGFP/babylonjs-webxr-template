@@ -6,7 +6,7 @@
 
 # Interface: ICreateSceneUboOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L108)
 
 Options for creating a scene uniform buffer
 
@@ -16,7 +16,7 @@ Options for creating a scene uniform buffer
 
 > `optional` **forceMono?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:110](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L110)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L112)
 
 When true, always creates a mono (non-multiview) UBO, bypassing any multiview override
 
@@ -26,6 +26,6 @@ When true, always creates a mono (non-multiview) UBO, bypassing any multiview ov
 
 > `optional` **trackUBOsInFrame?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L110)
 
 Define if the UBOs should be tracked in the frame (default: undefined - will use the value from Engine._features.trackUbosInFrame)

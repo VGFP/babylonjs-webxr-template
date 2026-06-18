@@ -8,7 +8,7 @@
 
 > **CompleteGreasedLineWidthTable**(`pointCount`, `widths`, `widthsDistribution`, `defaultWidthUpper?`, `defaultWidthLower?`): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts:309](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts#L309)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts:309](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts#L309)
 
 Completes the width table/fills the missing entries. It means it creates a width entry for every point of the line mesh.
 You can provide more points the widths when creating the mesh. This function will fill the empty entries.

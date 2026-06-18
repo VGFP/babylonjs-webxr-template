@@ -6,7 +6,7 @@
 
 # Class: RefractionBlock
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L26)
 
 Block used to implement the refraction part of the sub surface module of the PBR material
 
@@ -20,7 +20,7 @@ Block used to implement the refraction part of the sub surface module of the PBR
 
 > **new RefractionBlock**(`name`): `RefractionBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L90)
 
 Create a new RefractionBlock
 
@@ -46,7 +46,7 @@ defines the block name
 
 > **comments**: `string` = `""`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L104)
 
 Gets or sets the comments associated with this block
 
@@ -60,7 +60,7 @@ Gets or sets the comments associated with this block
 
 > **inputsAreExclusive**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L55)
 
 Gets or sets a boolean indicating that only one input can be connected at a time
 
@@ -74,7 +74,7 @@ Gets or sets a boolean indicating that only one input can be connected at a time
 
 > **invertRefractionY**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L73)
 
 Controls if refraction needs to be inverted on Y. This could be useful for procedural texture.
 
@@ -84,7 +84,7 @@ Controls if refraction needs to be inverted on Y. This could be useful for proce
 
 > **linkRefractionWithTransparency**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L67)
 
 This parameters will make the material used its opacity to control how much it is refracting against not.
 Materials half opaque for instance using refraction could benefit from this control.
@@ -95,7 +95,7 @@ Materials half opaque for instance using refraction could benefit from this cont
 
 > **onCodeIsReadyObservable**: [`Observable`](Observable.md)\<[`NodeMaterialBlock`](NodeMaterialBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L52)
 
 Observable raised when the block code is ready (if the code loading is async)
 
@@ -109,7 +109,7 @@ Observable raised when the block code is ready (if the code loading is async)
 
 > **texture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L82)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L84)
 
 Gets or sets the texture associated with the node
 
@@ -119,7 +119,7 @@ Gets or sets the texture associated with the node
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L99)
 
 Gets or sets the unique id of the node
 
@@ -133,7 +133,7 @@ Gets or sets the unique id of the node
 
 > **useThicknessAsDepth**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L77)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L79)
 
 Controls if refraction needs to be inverted on Y. This could be useful for procedural texture.
 
@@ -143,7 +143,7 @@ Controls if refraction needs to be inverted on Y. This could be useful for proce
 
 > **visibleInInspector**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L216)
 
 Gets or sets a boolean indicating that this input can be edited in the Inspector (false by default)
 
@@ -157,7 +157,7 @@ Gets or sets a boolean indicating that this input can be edited in the Inspector
 
 > **visibleOnFrame**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L219)
 
 Gets or sets a boolean indicating that this input can be edited from a collapsed frame
 
@@ -173,7 +173,7 @@ Gets or sets a boolean indicating that this input can be edited from a collapsed
 
 > **get** **buildId**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L151)
 
 Gets or sets the build Id
 
@@ -185,7 +185,7 @@ Gets or sets the build Id
 
 > **set** **buildId**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L155)
 
 ##### Parameters
 
@@ -209,7 +209,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialB
 
 > **get** **codeIsReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L81)
 
 Gets a boolean indicating that this block has is code ready to be used
 
@@ -229,7 +229,7 @@ Gets a boolean indicating that this block has is code ready to be used
 
 > **get** **hasTexture**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L162)
 
 Returns true if the block has a texture
 
@@ -245,7 +245,7 @@ Returns true if the block has a texture
 
 > **get** **inputs**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L176)
 
 Gets the list of input points
 
@@ -265,7 +265,7 @@ Gets the list of input points
 
 > **get** **intensity**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L127)
 
 Gets the intensity input component
 
@@ -281,7 +281,7 @@ Gets the intensity input component
 
 > **get** **isFinalMerger**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L116)
 
 Gets a boolean indicating that this block is an end block (e.g. it is generating a system value)
 
@@ -301,7 +301,7 @@ Gets a boolean indicating that this block is an end block (e.g. it is generating
 
 > **get** **isInput**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L123)
 
 Gets a boolean indicating that this block is an input (e.g. it sends data to the shader)
 
@@ -321,7 +321,7 @@ Gets a boolean indicating that this block is an input (e.g. it sends data to the
 
 > **get** **isLoop**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L144)
 
 Gets a boolean indicating if this block is a loop
 
@@ -341,7 +341,7 @@ Gets a boolean indicating if this block is a loop
 
 > **get** **isTeleportIn**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L137)
 
 Gets a boolean indicating if this block is a teleport in
 
@@ -361,7 +361,7 @@ Gets a boolean indicating if this block is a teleport in
 
 > **get** **isTeleportOut**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L130)
 
 Gets a boolean indicating if this block is a teleport out
 
@@ -381,7 +381,7 @@ Gets a boolean indicating if this block is a teleport out
 
 > **get** **isUnique**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L109)
 
 Gets a boolean indicating that this block can only be used once per NodeMaterial
 
@@ -401,7 +401,7 @@ Gets a boolean indicating that this block can only be used once per NodeMaterial
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L74)
 
 Gets the name of the block
 
@@ -413,7 +413,7 @@ Gets the name of the block
 
 > **set** **name**(`newName`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L88)
 
 Sets the name of the block. Will check if the name is valid.
 
@@ -439,7 +439,7 @@ Sets the name of the block. Will check if the name is valid.
 
 > **get** **outputs**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:181](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L181)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:181](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L181)
 
 Gets the list of output points
 
@@ -459,7 +459,7 @@ Gets the list of output points
 
 > **get** **refraction**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L155)
 
 Gets the refraction object output component
 
@@ -475,7 +475,7 @@ Gets the refraction object output component
 
 > **get** **target**(): [`NodeMaterialBlockTargets`](../enumerations/NodeMaterialBlockTargets.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L162)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L162)
 
 Gets or sets the target of the block
 
@@ -487,7 +487,7 @@ Gets or sets the target of the block
 
 > **set** **target**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L166)
 
 ##### Parameters
 
@@ -511,7 +511,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialB
 
 > **get** **tintAtDistance**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L134)
 
 Gets the tint at distance input component
 
@@ -527,7 +527,7 @@ Gets the tint at distance input component
 
 > **get** **view**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L148)
 
 Gets the view input component
 
@@ -543,7 +543,7 @@ Gets the view input component
 
 > **get** **volumeIndexOfRefraction**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L139)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L141)
 
 Gets the volume index of refraction input component
 
@@ -559,7 +559,7 @@ Gets the volume index of refraction input component
 
 > **get** **willBeGeneratedIntoVertexShaderFromFragmentShader**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:551](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L551)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:551](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L551)
 
 Gets a boolean indicating that the code of this block will be promoted to vertex shader even if connected to fragment output
 
@@ -577,7 +577,7 @@ Gets a boolean indicating that the code of this block will be promoted to vertex
 
 > **\_deserialize**(`serializationObject`, `scene`, `rootUrl`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:420](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L420)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:422](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L422)
 
 Deserializes the block
 
@@ -615,7 +615,7 @@ the root URL
 
 > **autoConfigure**(`material`, `additionalFilteringInfo?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:177](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L177)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L179)
 
 Auto configure the block based on the material
 
@@ -647,7 +647,7 @@ additional filtering info
 
 > **bind**(`effect`, `nodeMaterial`, `mesh?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:241](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L241)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L243)
 
 Bind data to effect
 
@@ -685,7 +685,7 @@ the mesh
 
 > **build**(`state`, `activeBlocks`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:686](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L686)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:686](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L686)
 
 Compile the current node and generate the shader code
 
@@ -719,7 +719,7 @@ true if already built
 
 > **clone**(`scene`, `rootUrl?`): [`NodeMaterialBlock`](NodeMaterialBlock.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:909](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L909)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:909](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L909)
 
 Clone the current block to a new identical block
 
@@ -753,7 +753,7 @@ a copy of the current block
 
 > **connectTo**(`other`, `options?`): `RefractionBlock` \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:444](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L444)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:444](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L444)
 
 Connect current block with another block
 
@@ -797,7 +797,7 @@ the current block
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:997](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L997)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:997](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L997)
 
 Release resources
 
@@ -815,7 +815,7 @@ Release resources
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L120)
 
 Gets the current class name
 
@@ -835,7 +835,7 @@ the class name
 
 > **getCode**(`state`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:293](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L293)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:295](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L295)
 
 Gets the main code of the block (fragment side)
 
@@ -859,7 +859,7 @@ the shader code
 
 > **getFirstAvailableInput**(`forOutput?`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:367](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L367)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:367](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L367)
 
 Will return the first available input e.g. the first one which is not an uniform or an attribute
 
@@ -887,7 +887,7 @@ the first available input or null
 
 > **getFirstAvailableOutput**(`forBlock?`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:389](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L389)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:389](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L389)
 
 Will return the first available output e.g. the first one which is not yet connected and not a varying
 
@@ -915,7 +915,7 @@ the first available input or null
 
 > **getInputByName**(`name`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L190)
 
 Find an input by its name
 
@@ -943,7 +943,7 @@ the input or null if not found
 
 > **getOutputByName**(`name`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L205)
 
 Find an output by its name
 
@@ -971,7 +971,7 @@ the output or null if not found
 
 > **getSiblingOutput**(`current`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:404](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L404)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:404](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L404)
 
 Gets the sibling of the given output
 
@@ -999,7 +999,7 @@ the next output in the list or null
 
 > **initialize**(`state`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L111)
 
 Initialize the block and prepare the context for build
 
@@ -1025,7 +1025,7 @@ defines the state that will be used for the build
 
 > **initializeDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:512](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L512)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:512](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L512)
 
 Initialize defines for shader compilation
 
@@ -1051,7 +1051,7 @@ defines the material defines to update
 
 > **isAnAncestorOf**(`block`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:419](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L419)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:419](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L419)
 
 Checks if the current block is an ancestor of a given block
 
@@ -1079,7 +1079,7 @@ true if block is a descendant
 
 > **isConnectedInFragmentShader**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:310](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L310)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L310)
 
 Gets a boolean indicating that this connection will be used in the fragment shader
 
@@ -1099,7 +1099,7 @@ true if connected in fragment shader
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L225)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L227)
 
 Checks if the block is ready
 
@@ -1119,7 +1119,7 @@ true if ready
 
 > **prepareDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:199](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L199)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L201)
 
 Prepare the list of defines
 
@@ -1145,7 +1145,7 @@ the list of defines
 
 > **provideFallbacks**(`fallbacks`, `mesh?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:503](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L503)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:503](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L503)
 
 Add potential fallbacks if shader compilation fails
 
@@ -1177,7 +1177,7 @@ defines the mesh to be rendered
 
 > **registerInput**(`name`, `type`, `isOptional?`, `target?`, `point?`): `RefractionBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L323)
 
 Register a new input. Must be called inside a block constructor
 
@@ -1229,7 +1229,7 @@ the current block
 
 > **registerOutput**(`name`, `type`, `target?`, `point?`): `RefractionBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:350](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L350)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L350)
 
 Register a new output. Must be called inside a block constructor
 
@@ -1275,7 +1275,7 @@ the current block
 
 > **replaceRepeatableContent**(`vertexShaderState`, `defines`, `mesh?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:546](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L546)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:546](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L546)
 
 Function called when a block is declared as repeatable content generator
 
@@ -1313,7 +1313,7 @@ defines the mesh to be rendered
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts:400](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.ts#L400)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts:402](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/PBR/refractionBlock.pure.ts#L402)
 
 Serializes the block
 
@@ -1333,7 +1333,7 @@ the serialized object
 
 > **updateUniformsAndSamples**(`state`, `nodeMaterial`, `defines`, `uniformBuffers`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:493](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L493)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:493](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L493)
 
 Add uniforms, samplers and uniform buffers at compilation time
 
@@ -1377,7 +1377,7 @@ defines the list of uniform buffer names
 
 > **validateBlockName**(`newName`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:643](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L643)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:643](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L643)
 
 Validates the new name for the block node.
 

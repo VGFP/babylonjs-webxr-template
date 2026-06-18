@@ -6,7 +6,7 @@
 
 # Class: GLTFFileLoader
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:457](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L457)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:457](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L457)
 
 File loader for loading glTF files into a scene.
 
@@ -26,7 +26,7 @@ File loader for loading glTF files into a scene.
 
 > **new GLTFFileLoader**(`options?`): `GLTFFileLoader`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:468](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L468)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:468](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L468)
 
 Creates a new glTF file loader.
 
@@ -52,7 +52,7 @@ The options for the loader
 
 > **alwaysComputeBoundingBox**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:209](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L209)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L209)
 
 Defines if the loader should always compute the bounding boxes of meshes and not use the min/max values from the position accessor. Defaults to false.
 
@@ -66,7 +66,7 @@ Defines if the loader should always compute the bounding boxes of meshes and not
 
 > **alwaysComputeSkeletonRootNode**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:215](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L215)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:215](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L215)
 
 Defines if the loader should always compute the nearest common ancestor of the skeleton joints instead of using `skin.skeleton`. Defaults to false.
 Set this to true if loading assets with invalid `skin.skeleton` values.
@@ -81,7 +81,7 @@ Set this to true if loading assets with invalid `skin.skeleton` values.
 
 > **animationStartMode**: [`GLTFLoaderAnimationStartMode`](../enumerations/GLTFLoaderAnimationStartMode.md) = `GLTFLoaderAnimationStartMode.FIRST`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:220](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L220)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:220](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L220)
 
 The animation start mode. Defaults to FIRST.
 
@@ -95,7 +95,7 @@ The animation start mode. Defaults to FIRST.
 
 > **compileMaterials**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L225)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L225)
 
 Defines if the loader should compile materials before raising the success callback. Defaults to false.
 
@@ -109,7 +109,7 @@ Defines if the loader should compile materials before raising the success callba
 
 > **compileShadowGenerators**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:230](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L230)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:230](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L230)
 
 Defines if the loader should compile shadow generators before raising the success callback. Defaults to false.
 
@@ -123,7 +123,7 @@ Defines if the loader should compile shadow generators before raising the succes
 
 > **coordinateSystemMode**: [`GLTFLoaderCoordinateSystemMode`](../enumerations/GLTFLoaderCoordinateSystemMode.md) = `GLTFLoaderCoordinateSystemMode.AUTO`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:235](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L235)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:235](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L235)
 
 The coordinate system mode. Defaults to AUTO.
 
@@ -137,7 +137,7 @@ The coordinate system mode. Defaults to AUTO.
 
 > **createInstances**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:240](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L240)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:240](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L240)
 
 Defines if the loader should create instances when multiple glTF nodes point to the same glTF mesh. Defaults to true.
 
@@ -151,7 +151,7 @@ Defines if the loader should create instances when multiple glTF nodes point to 
 
 > `optional` **customRootNode?**: [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`TransformNode`](../../../core/src/classes/TransformNode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:395](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L395)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:395](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L395)
 
 Defines the node to use as the root of the hierarchy when loading the scene (default: undefined). If not defined, a root node will be automatically created.
 You can also pass null if you don't want a root node to be created.
@@ -166,7 +166,7 @@ You can also pass null if you don't want a root node to be created.
 
 > **dontUseTransmissionHelper**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:322](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L322)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:322](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L322)
 
 If true, the loader will not use the transmission helper when loading materials with transmission.
 
@@ -180,7 +180,7 @@ If true, the loader will not use the transmission helper when loading materials 
 
 > **extensionOptions**: `object` = `{}`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:400](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L400)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:400](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L400)
 
 Defines options for glTF extensions.
 
@@ -720,7 +720,7 @@ Defines if the extension is enabled
 
 > **loadAllMaterials**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L245)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L245)
 
 If true, load all materials defined in the file, even if not used by any mesh. Defaults to false.
 
@@ -734,7 +734,7 @@ If true, load all materials defined in the file, even if not used by any mesh. D
 
 > **loadMorphTargets**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:250](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L250)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:250](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L250)
 
 Defines if the loader should load morph targets. Defaults to true.
 
@@ -748,7 +748,7 @@ Defines if the loader should load morph targets. Defaults to true.
 
 > **loadNodeAnimations**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:256](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L256)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:256](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L256)
 
 Defines if the loader should load node animations. Defaults to true.
 NOTE: The animation of this node will still load if the node is also a joint of a skin and `loadSkins` is true.
@@ -763,7 +763,7 @@ NOTE: The animation of this node will still load if the node is also a joint of 
 
 > **loadOnlyMaterials**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L261)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L261)
 
 If true, load only the materials defined in the file. Defaults to false.
 
@@ -777,7 +777,7 @@ If true, load only the materials defined in the file. Defaults to false.
 
 > **loadSkins**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:266](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L266)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:266](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L266)
 
 Defines if the loader should load skins. Defaults to true.
 
@@ -791,7 +791,7 @@ Defines if the loader should load skins. Defaults to true.
 
 > `readonly` **name**: `"gltf"` = `GLTFFileLoaderMetadata.name`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:766](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L766)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:766](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L766)
 
 Name of the loader ("gltf")
 
@@ -805,7 +805,7 @@ Name of the loader ("gltf")
 
 > `readonly` **onCameraLoadedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Camera`](../../../core/src/classes/Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:608](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L608)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:608](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L608)
 
 Observable raised when the loader creates a camera after parsing the glTF properties of the camera.
 
@@ -815,7 +815,7 @@ Observable raised when the loader creates a camera after parsing the glTF proper
 
 > `readonly` **onCompleteObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:629](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L629)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:629](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L629)
 
 Observable raised when the asset is completely loaded, immediately before the loader is disposed.
 For assets with LODs, raised when all of the LODs are complete.
@@ -827,7 +827,7 @@ For assets without LODs, raised when the model is complete, immediately after th
 
 > `readonly` **onDisposeObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:665](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L665)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:665](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L665)
 
 Observable raised after the loader is disposed.
 
@@ -837,7 +837,7 @@ Observable raised after the loader is disposed.
 
 > `readonly` **onErrorObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<`any`\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:648](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L648)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:648](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L648)
 
 Observable raised when an error occurs.
 
@@ -847,7 +847,7 @@ Observable raised when an error occurs.
 
 > `readonly` **onExtensionLoadedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`IGLTFLoaderExtension`](../interfaces/IGLTFLoaderExtension.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:683](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L683)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:683](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L683)
 
 Observable raised after a loader extension is created.
 Set additional options for a loader extension in this event.
@@ -858,7 +858,7 @@ Set additional options for a loader extension in this event.
 
 > **onLoaderStateChangedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`GLTFLoaderState`](../enumerations/GLTFLoaderState.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:1078](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L1078)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:1078](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L1078)
 
 Observable raised when the loader state changes.
 
@@ -868,7 +868,7 @@ Observable raised when the loader state changes.
 
 > `readonly` **onMaterialLoadedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Material`](../../../core/src/classes/Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:589](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L589)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:589](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L589)
 
 Observable raised when the loader creates a material after parsing the glTF properties of the material.
 
@@ -878,7 +878,7 @@ Observable raised when the loader creates a material after parsing the glTF prop
 
 > `readonly` **onMeshLoadedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`AbstractMesh`](../../../core/src/classes/AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:527](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L527)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:527](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L527)
 
 Observable raised when the loader creates a mesh after parsing the glTF properties of the mesh.
 Note that the observable is raised as soon as the mesh object is created, meaning some data may not have been setup yet for this mesh (vertex data, morph targets, material, ...)
@@ -889,7 +889,7 @@ Note that the observable is raised as soon as the mesh object is created, meanin
 
 > **onParsedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`IGLTFLoaderData`](../interfaces/IGLTFLoaderData.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:480](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L480)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:480](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L480)
 
 Raised when the asset has been parsed
 
@@ -899,7 +899,7 @@ Raised when the asset has been parsed
 
 > `readonly` **onSkinLoadedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<\{ `node`: [`TransformNode`](../../../core/src/classes/TransformNode.md); `skinnedNode`: [`TransformNode`](../../../core/src/classes/TransformNode.md); \}\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:550](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L550)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:550](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L550)
 
 Observable raised when the loader creates a skin after parsing the glTF properties of the skin node.
 
@@ -909,9 +909,13 @@ https://doc.babylonjs.com/features/featuresDeepDive/importers/glTF/glTFSkinning#
 
 #### Param
 
+**node**
+
 the transform node that corresponds to the original glTF skin node used for animations
 
 #### Param
+
+**skinnedNode**
 
 the transform node that is the skinned mesh itself or the parent of the skinned meshes
 
@@ -921,7 +925,7 @@ the transform node that is the skinned mesh itself or the parent of the skinned 
 
 > `readonly` **onTextureLoadedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`BaseTexture`](../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:570](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L570)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:570](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L570)
 
 Observable raised when the loader creates a texture after parsing the glTF properties of the texture.
 
@@ -931,7 +935,7 @@ Observable raised when the loader creates a texture after parsing the glTF prope
 
 > `readonly` **onValidatedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<`IGLTFValidationResults`\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:744](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L744)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:744](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L744)
 
 Observable raised after validation when validate is set to true. The event data is the result of the validation.
 
@@ -941,7 +945,7 @@ Observable raised after validation when validate is set to true. The event data 
 
 > **skipMaterials**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L271)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:271](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L271)
 
 If true, do not load any materials defined in the file. Defaults to false.
 
@@ -955,7 +959,7 @@ If true, do not load any materials defined in the file. Defaults to false.
 
 > **targetFps**: `number` = `60`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:276](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L276)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L276)
 
 When loading glTF animations, which are defined in seconds, target them to this FPS. Defaults to 60.
 
@@ -969,7 +973,7 @@ When loading glTF animations, which are defined in seconds, target them to this 
 
 > **transparencyAsCoverage**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:283](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L283)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L283)
 
 Defines if the Alpha blended materials are only applied as coverage.
 If false, (default) The luminance of each pixel will reduce its opacity to simulate the behaviour of most physical materials.
@@ -985,7 +989,7 @@ If true, no extra effects are applied to transparent pixels.
 
 > **useClipPlane**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:288](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L288)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:288](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L288)
 
 Defines if the loader should also compile materials with clip planes. Defaults to false.
 
@@ -999,7 +1003,7 @@ Defines if the loader should also compile materials with clip planes. Defaults t
 
 > **useGltfTextureNames**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:294](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L294)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:294](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L294)
 
 If true, the loader will derive the name for Babylon textures from the glTF texture name, image name, or image url. Defaults to false.
 Note that it is possible for multiple Babylon textures to share the same name when the Babylon textures load from the same glTF texture or image.
@@ -1014,7 +1018,7 @@ Note that it is possible for multiple Babylon textures to share the same name wh
 
 > **useOpenPBR**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:317](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L317)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:317](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L317)
 
 **`Experimental`**
 
@@ -1030,7 +1034,7 @@ Load the glTF files using the OpenPBR material.
 
 > **useRangeRequests**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:301](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L301)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:301](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L301)
 
 Defines if the loader should use range requests when load binary glTF files from HTTP.
 Enabling will disable offline support and glTF validator.
@@ -1046,7 +1050,7 @@ Defaults to false.
 
 > **useSRGBBuffers**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:306](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L306)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:306](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L306)
 
 If true, load the color (gamma encoded) textures into sRGB buffers (if supported by the GPU), which will yield more accurate results when sampling the texture. Defaults to true.
 
@@ -1060,7 +1064,7 @@ If true, load the color (gamma encoded) textures into sRGB buffers (if supported
 
 > **validate**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:311](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L311)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:311](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L311)
 
 Defines if the loader should validate the asset.
 
@@ -1076,7 +1080,7 @@ Defines if the loader should validate the asset.
 
 > **get** **capturePerformanceCounters**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:721](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L721)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:721](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L721)
 
 Defines if the loader should capture performance counters.
 
@@ -1088,7 +1092,7 @@ Defines if the loader should capture performance counters.
 
 > **set** **capturePerformanceCounters**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:725](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L725)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:725](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L725)
 
 Defines if the loader should capture performance counters.
 
@@ -1114,7 +1118,7 @@ Defines if the loader should capture performance counters.
 
 > **get** **loaderState**(): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`GLTFLoaderState`](../enumerations/GLTFLoaderState.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:1071](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L1071)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:1071](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L1071)
 
 The loader state or null if the loader is not active.
 
@@ -1130,7 +1134,7 @@ The loader state or null if the loader is not active.
 
 > **get** **loggingEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:700](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L700)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:700](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L700)
 
 Defines if the loader logging is enabled.
 
@@ -1142,7 +1146,7 @@ Defines if the loader logging is enabled.
 
 > **set** **loggingEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:704](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L704)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:704](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L704)
 
 If true, enable logging for the loader. Defaults to false.
 
@@ -1168,7 +1172,7 @@ If true, enable logging for the loader. Defaults to false.
 
 > **set** **onCameraLoaded**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:615](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L615)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:615](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L615)
 
 Callback raised when the loader creates a camera after parsing the glTF properties of the camera.
 
@@ -1194,7 +1198,7 @@ Callback raised when the loader creates a camera after parsing the glTF properti
 
 > **set** **onComplete**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:638](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L638)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:638](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L638)
 
 Callback raised when the asset is completely loaded, immediately before the loader is disposed.
 For assets with LODs, raised when all of the LODs are complete.
@@ -1218,7 +1222,7 @@ For assets without LODs, raised when the model is complete, immediately after th
 
 > **set** **onDispose**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:672](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L672)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:672](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L672)
 
 Callback raised after the loader is disposed.
 
@@ -1240,7 +1244,7 @@ Callback raised after the loader is disposed.
 
 > **set** **onError**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:655](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L655)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:655](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L655)
 
 Callback raised when an error occurs.
 
@@ -1262,7 +1266,7 @@ Callback raised when an error occurs.
 
 > **set** **onExtensionLoaded**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:690](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L690)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:690](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L690)
 
 Callback raised after a loader extension is created.
 
@@ -1284,7 +1288,7 @@ Callback raised after a loader extension is created.
 
 > **set** **onMaterialLoaded**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:596](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L596)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:596](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L596)
 
 Callback raised when the loader creates a material after parsing the glTF properties of the material.
 
@@ -1310,7 +1314,7 @@ Callback raised when the loader creates a material after parsing the glTF proper
 
 > **set** **onMeshLoaded**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:535](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L535)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:535](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L535)
 
 Callback raised when the loader creates a mesh after parsing the glTF properties of the mesh.
 Note that the callback is called as soon as the mesh object is created, meaning some data may not have been setup yet for this mesh (vertex data, morph targets, material, ...)
@@ -1337,7 +1341,7 @@ Note that the callback is called as soon as the mesh object is created, meaning 
 
 > **set** **onParsed**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:487](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L487)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:487](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L487)
 
 Raised when the asset has been parsed
 
@@ -1363,7 +1367,7 @@ Raised when the asset has been parsed
 
 > **set** **onSkinLoaded**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:558](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L558)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:558](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L558)
 
 Callback raised when the loader creates a skin after parsing the glTF properties of the skin node.
 
@@ -1393,7 +1397,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/importers/glTF/glTFSkinning#
 
 > **set** **onTextureLoaded**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:577](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L577)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:577](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L577)
 
 Callback raised when the loader creates a texture after parsing the glTF properties of the texture.
 
@@ -1419,7 +1423,7 @@ Callback raised when the loader creates a texture after parsing the glTF propert
 
 > **set** **onValidated**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:751](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L751)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:751](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L751)
 
 Callback raised after the asset is validated.
 
@@ -1443,7 +1447,7 @@ Callback raised after the asset is validated.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:774](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L774)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:774](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L774)
 
 Disposes the loader, releases resources during load, and cancels any outstanding requests.
 
@@ -1461,7 +1465,7 @@ Disposes the loader, releases resources during load, and cancels any outstanding
 
 > **preprocessUrlAsync**(`url`): `Promise`\<`string`\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:451](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L451)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:451](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L451)
 
 Function called before loading a url referenced by the asset.
 
@@ -1489,7 +1493,7 @@ Async url to load
 
 > `optional` **rewriteRootURL**(`rootUrl`, `responseURL?`): `string`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:1061](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L1061)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:1061](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L1061)
 
 The callback that allows custom handling of the root url based on the response url.
 
@@ -1523,7 +1527,7 @@ the new root url
 
 > **whenCompleteAsync**(): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:1084](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L1084)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:1084](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L1084)
 
 Returns a promise that resolves when the asset is completely loaded.
 

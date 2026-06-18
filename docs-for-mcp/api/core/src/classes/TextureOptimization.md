@@ -6,7 +6,7 @@
 
 # Class: TextureOptimization
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L49)
 
 Defines an optimization used to reduce the size of render target textures
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/sceneOptimizer
 
 > **new TextureOptimization**(`priority?`, `maximumSize?`, `step?`): `TextureOptimization`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L64)
 
 Creates the TextureOptimization object
 
@@ -62,7 +62,7 @@ defines the factor (0.5 by default) used to scale down textures bigger than maxi
 
 > **maximumSize**: `number` = `1024`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L72)
 
 [1024] Defines the maximum sized allowed for textures (1024 is the default value). If a texture is bigger, it will be scaled down using a factor defined by the step parameter
 
@@ -72,7 +72,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:71](h
 
 > **priority**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L68)
 
 [0] Defines the priority of this optimization (0 by default which means first in the list)
 
@@ -86,7 +86,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:67](h
 
 > **step**: `number` = `0.5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L76)
 
 [0.5] Defines the factor (0.5 by default) used to scale down textures bigger than maximum sized allowed.
 
@@ -96,7 +96,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:75](h
 
 > **apply**(`scene`, `optimizer`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L87)
 
 This function will be called by the SceneOptimizer when its priority is reached in order to apply the change required by the current optimization
 
@@ -130,7 +130,7 @@ true if everything that can be done was applied
 
 > **getDescription**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/sceneOptimizer.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L54)
 
 Gets a string describing the action executed by the current optimization
 

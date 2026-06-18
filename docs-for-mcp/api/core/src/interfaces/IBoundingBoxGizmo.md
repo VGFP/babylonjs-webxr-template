@@ -6,7 +6,7 @@
 
 # Interface: IBoundingBoxGizmo
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L26)
 
 Interface for bounding box gizmo
 
@@ -20,7 +20,7 @@ Interface for bounding box gizmo
 
 > **\_rootMesh**: [`Mesh`](../classes/Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L66)
 
 The root mesh of the gizmo
 
@@ -34,7 +34,7 @@ The root mesh of the gizmo
 
 > `optional` **additionalTransformNode?**: [`TransformNode`](../classes/TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L120)
 
 Additional transform applied to the gizmo.
 It's useful when the gizmo is attached to a bone: if the bone is part of a skeleton attached to a mesh, you should define the mesh as additionalTransformNode if you want the gizmo to be displayed at the bone's correct location.
@@ -50,7 +50,7 @@ Otherwise, as the gizmo is relative to the skeleton root, the mesh transformatio
 
 > **anchorPoint**: [`GizmoAnchorPoint`](../enumerations/GizmoAnchorPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L93)
 
 Defines where the gizmo will be positioned if `updateGizmoPositionToMatchAttachedMesh` is enabled.
 (Default: GizmoAnchorPoint.Origin)
@@ -65,7 +65,7 @@ Defines where the gizmo will be positioned if `updateGizmoPositionToMatchAttache
 
 > **attachedMesh**: [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](../classes/AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L73)
 
 Mesh that the gizmo will be attached to. (eg. on a drag gizmo the mesh that will be dragged)
 * When set, interactions will be enabled
@@ -80,7 +80,7 @@ Mesh that the gizmo will be attached to. (eg. on a drag gizmo the mesh that will
 
 > **attachedNode**: [`Nullable`](../type-aliases/Nullable.md)\<[`Node`](../classes/Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L78)
 
 Node that the gizmo will be attached to. (eg. on a drag gizmo the mesh, bone or NodeTransform that will be dragged)
 * When set, interactions will be enabled
@@ -95,7 +95,7 @@ Node that the gizmo will be attached to. (eg. on a drag gizmo the mesh, bone or 
 
 > **axisFactor**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L72)
 
 Scale factor vector used for masking some axis
 
@@ -105,7 +105,7 @@ Scale factor vector used for masking some axis
 
 > **coloredMaterial**: [`StandardMaterial`](../classes/StandardMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L103)
 
 Default material used to render when gizmo is not disabled or hovered
 
@@ -115,7 +115,7 @@ Default material used to render when gizmo is not disabled or hovered
 
 > **coordinatesMode**: [`GizmoCoordinatesMode`](../enumerations/GizmoCoordinatesMode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L98)
 
 Set the coordinate mode to use. By default it's local.
 
@@ -129,7 +129,7 @@ Set the coordinate mode to use. By default it's local.
 
 > **customRotationQuaternion**: [`Nullable`](../type-aliases/Nullable.md)\<[`Quaternion`](../classes/Quaternion.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L108)
 
 Orientation that the gizmo will be displayed with.
 When set null, default value will be used (Quaternion(0, 0, 0, 1))
@@ -144,7 +144,7 @@ When set null, default value will be used (Quaternion(0, 0, 0, 1))
 
 > **fixedDragMeshBoundsSize**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L48)
 
 If set, the rotation anchors and scale boxes will increase in size based on the size of the bounding box
 Note : fixedDragMeshScreenSize takes precedence over fixedDragMeshBoundsSize if both are true
@@ -155,7 +155,7 @@ Note : fixedDragMeshScreenSize takes precedence over fixedDragMeshBoundsSize if 
 
 > **fixedDragMeshScreenSize**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L43)
 
 If set, the rotation anchors and scale boxes will increase in size based on the distance away from the camera to have a consistent screen size
 Note : fixedDragMeshScreenSize takes precedence over fixedDragMeshBoundsSize if both are true
@@ -166,7 +166,7 @@ Note : fixedDragMeshScreenSize takes precedence over fixedDragMeshBoundsSize if 
 
 > **fixedDragMeshScreenSizeDistanceFactor**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L52)
 
 The distance away from the object which the draggable meshes should appear world sized when fixedDragMeshScreenSize is set to true
 
@@ -176,7 +176,7 @@ The distance away from the object which the draggable meshes should appear world
 
 > **gizmoLayer**: [`UtilityLayerRenderer`](../classes/UtilityLayerRenderer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L84)
 
 The utility layer the gizmo will be added to
 
@@ -190,7 +190,7 @@ The utility layer the gizmo will be added to
 
 > **hoverMaterial**: [`StandardMaterial`](../classes/StandardMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L105)
 
 Material used to render when gizmo is hovered with mouse
 
@@ -200,7 +200,7 @@ Material used to render when gizmo is hovered with mouse
 
 > **ignoreChildren**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L30)
 
 If child meshes should be ignored when calculating the bounding box. This should be set to true to avoid perf hits with heavily nested meshes.
 
@@ -210,7 +210,7 @@ If child meshes should be ignored when calculating the bounding box. This should
 
 > **includeChildPredicate**: [`Nullable`](../type-aliases/Nullable.md)\<(`abstractMesh`) => `boolean`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L34)
 
 Returns true if a descendant should be included when computing the bounding box. When null, all descendants are included. If ignoreChildren is set this will be ignored.
 
@@ -220,7 +220,7 @@ Returns true if a descendant should be included when computing the bounding box.
 
 > `readonly` **isDragging**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L54)
 
 True when a rotation anchor or scale box or a attached mesh is dragged
 
@@ -230,7 +230,7 @@ True when a rotation anchor or scale box or a attached mesh is dragged
 
 > `readonly` **isHovered**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L64)
 
 True when the mouse pointer is hovered a gizmo mesh
 
@@ -244,7 +244,7 @@ True when the mouse pointer is hovered a gizmo mesh
 
 > **onDragStartObservable**: [`Observable`](../classes/Observable.md)\<\{ `dragAxis`: [`Vector3`](../classes/Vector3.md); `dragOperation`: [`DragOperation`](../enumerations/DragOperation.md); \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L56)
 
 Fired when a rotation anchor or scale box is dragged
 
@@ -254,7 +254,7 @@ Fired when a rotation anchor or scale box is dragged
 
 > **onHoverEndObservable**: [`Observable`](../classes/Observable.md)\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L60)
 
 Fired when the gizmo mesh hovering ends
 
@@ -264,7 +264,7 @@ Fired when the gizmo mesh hovering ends
 
 > **onHoverStartObservable**: [`Observable`](../classes/Observable.md)\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L58)
 
 Fired when the gizmo mesh hovering starts
 
@@ -274,7 +274,7 @@ Fired when the gizmo mesh hovering starts
 
 > **onRotationSphereDragEndObservable**: [`Observable`](../classes/Observable.md)\<\{ `dragAxis`: [`Vector3`](../classes/Vector3.md); `dragOperation`: [`DragOperation`](../enumerations/DragOperation.md); \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L68)
 
 Fired when a rotation anchor drag is ended
 
@@ -284,7 +284,7 @@ Fired when a rotation anchor drag is ended
 
 > **onRotationSphereDragObservable**: [`Observable`](../classes/Observable.md)\<\{ `dragAxis`: [`Vector3`](../classes/Vector3.md); `dragOperation`: [`DragOperation`](../enumerations/DragOperation.md); \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L66)
 
 Fired when a rotation anchor is dragged
 
@@ -294,7 +294,7 @@ Fired when a rotation anchor is dragged
 
 > **onScaleBoxDragEndObservable**: [`Observable`](../classes/Observable.md)\<\{ `dragAxis`: [`Vector3`](../classes/Vector3.md); `dragOperation`: [`DragOperation`](../enumerations/DragOperation.md); \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L64)
 
 Fired when a scale box drag is ended
 
@@ -304,7 +304,7 @@ Fired when a scale box drag is ended
 
 > **onScaleBoxDragObservable**: [`Observable`](../classes/Observable.md)\<\{ `dragAxis`: [`Vector3`](../classes/Vector3.md); `dragOperation`: [`DragOperation`](../enumerations/DragOperation.md); \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L62)
 
 Fired when a scale box is dragged
 
@@ -314,7 +314,7 @@ Fired when a scale box is dragged
 
 > **rotationSnapDistance**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:110](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L110)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L110)
 
 Drag distance in babylon units that the gizmo will snap rotation to when dragged
 
@@ -324,7 +324,7 @@ Drag distance in babylon units that the gizmo will snap rotation to when dragged
 
 > **rotationSphereSize**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L36)
 
 The size of the rotation anchors attached to the bounding box
 
@@ -334,7 +334,7 @@ The size of the rotation anchors attached to the bounding box
 
 > **scaleBoxSize**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L38)
 
 The size of the scale boxes attached to the bounding box
 
@@ -344,7 +344,7 @@ The size of the scale boxes attached to the bounding box
 
 > **scaleDragSpeed**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L74)
 
 Scale factor scalar affecting all axes' drag speed
 
@@ -354,7 +354,7 @@ Scale factor scalar affecting all axes' drag speed
 
 > **scalePivot**: [`Nullable`](../type-aliases/Nullable.md)\<[`Vector3`](../classes/Vector3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L70)
 
 Relative bounding box pivot used when scaling the attached node.
 
@@ -364,7 +364,7 @@ Relative bounding box pivot used when scaling the attached node.
 
 > **scaleRatio**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L68)
 
 Ratio for the scale of the gizmo
 
@@ -378,7 +378,7 @@ Ratio for the scale of the gizmo
 
 > **scalingSnapDistance**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L108)
 
 Drag distance in babylon units that the gizmo will snap scaling to when dragged
 
@@ -388,7 +388,7 @@ Drag distance in babylon units that the gizmo will snap scaling to when dragged
 
 > **updateGizmoPositionToMatchAttachedMesh**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L88)
 
 If set the gizmo's position will be updated to match the attached mesh each frame (Default: true)
 
@@ -402,7 +402,7 @@ If set the gizmo's position will be updated to match the attached mesh each fram
 
 > **updateGizmoRotationToMatchAttachedMesh**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:82](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L82)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L82)
 
 If set the gizmo's rotation will be updated to match the attached mesh each frame (Default: true)
 
@@ -416,7 +416,7 @@ If set the gizmo's rotation will be updated to match the attached mesh each fram
 
 > **updateScale**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L103)
 
 When set, the gizmo will always appear the same size no matter where the camera is (default: true)
 
@@ -430,7 +430,7 @@ When set, the gizmo will always appear the same size no matter where the camera 
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L122)
 
 Releases all held resources
 
@@ -448,7 +448,7 @@ Releases all held resources
 
 > **enableDragBehavior**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L96)
 
 Enables a pointer drag behavior on the bounding box of the gizmo
 
@@ -462,7 +462,7 @@ Enables a pointer drag behavior on the bounding box of the gizmo
 
 > **getScaleBoxes**(): [`AbstractMesh`](../classes/AbstractMesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L81)
 
 Returns an array containing all boxes used for scaling (in increasing x, y and z orders)
 
@@ -476,7 +476,7 @@ Returns an array containing all boxes used for scaling (in increasing x, y and z
 
 > **releaseDrag**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L100)
 
 Force release the drag action by code
 
@@ -490,7 +490,7 @@ Force release the drag action by code
 
 > **setColor**(`color`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L79)
 
 Sets the color of the bounding box gizmo
 
@@ -512,7 +512,7 @@ the color to set
 
 > **setCustomMesh**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/gizmo.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L113)
 
 Disposes and replaces the current meshes in the gizmo with the specified mesh
 
@@ -538,7 +538,7 @@ The mesh to replace the default mesh of the gizmo
 
 > **setEnabledRotationAxis**(`axis`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L88)
 
 Enables rotation on the specified axis and disables rotation on the others
 
@@ -560,7 +560,7 @@ The list of axis that should be enabled (eg. "xy" or "xyz")
 
 > **setEnabledScaling**(`enable`, `homogeneousScaling?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:94](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L94)
 
 Enables/disables scaling
 
@@ -588,7 +588,7 @@ defines if scaling should only be homogeneous
 
 > **updateBoundingBox**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L83)
 
 Updates the bounding box information for the Gizmo
 

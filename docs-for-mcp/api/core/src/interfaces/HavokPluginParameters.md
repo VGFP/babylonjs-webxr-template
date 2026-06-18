@@ -6,7 +6,9 @@
 
 # Interface: HavokPluginParameters
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:280](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L280)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:329](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L329)
+
+Configuration parameters for the Havok plugin
 
 ## Properties
 
@@ -14,7 +16,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlug
 
 > `optional` **floatingOriginWorldRadius?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:291](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L291)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:340](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L340)
 
 Radius of each floating origin world region.
 Bodies within this radius of a world region's origin will use that world.
@@ -27,6 +29,6 @@ Default is 100000 units.
 
 > `optional` **maxQueryCollectorHits?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:284](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L284)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:333](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L333)
 
 Maximum number of raycast hits to process

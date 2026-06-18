@@ -6,7 +6,7 @@
 
 # Interface: IPerfViewerCollectionStrategy
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L11)
 
 Defines the general structure of what is necessary for a collection strategy.
 
@@ -16,7 +16,7 @@ Defines the general structure of what is necessary for a collection strategy.
 
 > **dispose**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L23)
 
 Function which does any necessary cleanup. Called when performanceViewerCollector.dispose() is called.
 
@@ -30,7 +30,7 @@ Function which does any necessary cleanup. Called when performanceViewerCollecto
 
 > **getData**: () => `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L19)
 
 Function which gets the data for the strategy.
 
@@ -44,6 +44,6 @@ Function which gets the data for the strategy.
 
 > **id**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/PerformanceViewer/performanceViewerCollectionStrategies.ts#L15)
 
 The id of the strategy.

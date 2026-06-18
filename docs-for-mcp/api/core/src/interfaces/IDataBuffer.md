@@ -6,7 +6,7 @@
 
 # Interface: IDataBuffer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataReader.ts:6](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dataReader.ts#L6)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataReader.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dataReader.ts#L6)
 
 Interface for a data buffer
 
@@ -16,7 +16,7 @@ Interface for a data buffer
 
 > `readonly` **byteLength**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataReader.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dataReader.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataReader.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dataReader.ts#L18)
 
 The byte length of the buffer.
 
@@ -26,7 +26,7 @@ The byte length of the buffer.
 
 > **readAsync**(`byteOffset`, `byteLength`): `Promise`\<`ArrayBufferView`\<`ArrayBufferLike`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataReader.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/dataReader.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/dataReader.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/dataReader.ts#L13)
 
 Reads bytes from the data buffer.
 

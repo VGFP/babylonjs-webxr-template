@@ -8,7 +8,7 @@
 
 > `const` **FrameGraphUtils**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphUtils.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphUtils.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphUtils.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphUtils.ts#L64)
 
 Class used to host frame graph specific utilities
 
@@ -44,9 +44,13 @@ The created utility layer renderer
 
 #### Param
 
+**frameFraph**
+
 The frame graph to create the utility layer renderer for
 
 #### Param
+
+**handleEvents**
 
 True if the utility layer renderer should handle events, false otherwise
 
@@ -81,6 +85,8 @@ The main camera used by the frame graph, or null if not found
 
 #### Param
 
+**frameGraph**
+
 The frame graph to search in
 
 #### Returns
@@ -113,6 +119,8 @@ The frame graph to search in
 The main object renderer of the frame graph, or null if not found
 
 #### Param
+
+**frameGraph**
 
 The frame graph to search in
 

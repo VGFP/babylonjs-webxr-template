@@ -6,7 +6,7 @@
 
 # Class: TextureBlock
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L30)
 
 Block used to read a texture from a sampler
 
@@ -20,7 +20,7 @@ Block used to read a texture from a sampler
 
 > **new TextureBlock**(`name`, `fragmentOnly?`): `TextureBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L180)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L183)
 
 Create a new TextureBlock
 
@@ -50,7 +50,7 @@ defines the block name
 
 > **comments**: `string` = `""`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L104)
 
 Gets or sets the comments associated with this block
 
@@ -64,7 +64,7 @@ Gets or sets the comments associated with this block
 
 > **disableLevelMultiplication**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:173](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L173)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L176)
 
 Gets or sets a boolean indicating if multiplication of texture with level should be disabled
 
@@ -74,7 +74,7 @@ Gets or sets a boolean indicating if multiplication of texture with level should
 
 > **inputsAreExclusive**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L55)
 
 Gets or sets a boolean indicating that only one input can be connected at a time
 
@@ -88,7 +88,7 @@ Gets or sets a boolean indicating that only one input can be connected at a time
 
 > **onCodeIsReadyObservable**: [`Observable`](Observable.md)\<[`NodeMaterialBlock`](NodeMaterialBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L52)
 
 Observable raised when the block code is ready (if the code loading is async)
 
@@ -102,7 +102,7 @@ Observable raised when the block code is ready (if the code loading is async)
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L99)
 
 Gets or sets the unique id of the node
 
@@ -116,7 +116,7 @@ Gets or sets the unique id of the node
 
 > **visibleInInspector**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L216)
 
 Gets or sets a boolean indicating that this input can be edited in the Inspector (false by default)
 
@@ -130,7 +130,7 @@ Gets or sets a boolean indicating that this input can be edited in the Inspector
 
 > **visibleOnFrame**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L219)
 
 Gets or sets a boolean indicating that this input can be edited from a collapsed frame
 
@@ -146,7 +146,7 @@ Gets or sets a boolean indicating that this input can be edited from a collapsed
 
 > **get** **a**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:286](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L286)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:289](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L289)
 
 Gets the a output component
 
@@ -162,7 +162,7 @@ Gets the a output component
 
 > **get** **b**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:279](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L279)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L282)
 
 Gets the b output component
 
@@ -178,7 +178,7 @@ Gets the b output component
 
 > **get** **buildId**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L151)
 
 Gets or sets the build Id
 
@@ -190,7 +190,7 @@ Gets or sets the build Id
 
 > **set** **buildId**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L155)
 
 ##### Parameters
 
@@ -214,7 +214,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialB
 
 > **get** **codeIsReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L81)
 
 Gets a boolean indicating that this block has is code ready to be used
 
@@ -234,7 +234,7 @@ Gets a boolean indicating that this block has is code ready to be used
 
 > **get** **convertToGammaSpace**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:145](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L145)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L148)
 
 ##### Returns
 
@@ -244,7 +244,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/t
 
 > **set** **convertToGammaSpace**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L135)
 
 Gets or sets a boolean indicating if content needs to be converted to gamma space
 
@@ -266,7 +266,7 @@ Gets or sets a boolean indicating if content needs to be converted to gamma spac
 
 > **get** **convertToLinearSpace**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L169)
 
 ##### Returns
 
@@ -276,7 +276,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/t
 
 > **set** **convertToLinearSpace**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:153](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L153)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L156)
 
 Gets or sets a boolean indicating if content needs to be converted to linear space
 
@@ -298,7 +298,7 @@ Gets or sets a boolean indicating if content needs to be converted to linear spa
 
 > **get** **fragmentOnly**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L52)
 
 Gets or sets a boolean indicating if the block is used in fragment shader only
 If false the system will allow optimizations to use it in vertex shader when possible for the uv computation
@@ -311,7 +311,7 @@ If false the system will allow optimizations to use it in vertex shader when pos
 
 > **set** **fragmentOnly**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L56)
 
 ##### Parameters
 
@@ -331,7 +331,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/t
 
 > **get** **g**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:272](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L272)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:275](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L275)
 
 Gets the g output component
 
@@ -347,7 +347,7 @@ Gets the g output component
 
 > **get** **hasImageSource**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L124)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L127)
 
 Gets a boolean indicating that this block is linked to an ImageSourceBlock
 
@@ -363,7 +363,7 @@ Gets a boolean indicating that this block is linked to an ImageSourceBlock
 
 > **get** **inputs**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L176)
 
 Gets the list of input points
 
@@ -383,7 +383,7 @@ Gets the list of input points
 
 > **get** **isFinalMerger**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L116)
 
 Gets a boolean indicating that this block is an end block (e.g. it is generating a system value)
 
@@ -403,7 +403,7 @@ Gets a boolean indicating that this block is an end block (e.g. it is generating
 
 > **get** **isInput**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L123)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L123)
 
 Gets a boolean indicating that this block is an input (e.g. it sends data to the shader)
 
@@ -423,7 +423,7 @@ Gets a boolean indicating that this block is an input (e.g. it sends data to the
 
 > **get** **isLoop**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L144)
 
 Gets a boolean indicating if this block is a loop
 
@@ -443,7 +443,7 @@ Gets a boolean indicating if this block is a loop
 
 > **get** **isTeleportIn**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L137)
 
 Gets a boolean indicating if this block is a teleport in
 
@@ -463,7 +463,7 @@ Gets a boolean indicating if this block is a teleport in
 
 > **get** **isTeleportOut**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L130)
 
 Gets a boolean indicating if this block is a teleport out
 
@@ -483,7 +483,7 @@ Gets a boolean indicating if this block is a teleport out
 
 > **get** **isUnique**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L109)
 
 Gets a boolean indicating that this block can only be used once per NodeMaterial
 
@@ -503,7 +503,7 @@ Gets a boolean indicating that this block can only be used once per NodeMaterial
 
 > **get** **layer**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:237](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L237)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:240](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L240)
 
 Gets the layer input component
 
@@ -519,7 +519,7 @@ Gets the layer input component
 
 > **get** **level**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:293](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L293)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L296)
 
 Gets the level output component
 
@@ -535,7 +535,7 @@ Gets the level output component
 
 > **get** **lod**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:244](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L244)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:247](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L247)
 
 Gets the LOD input component
 
@@ -551,7 +551,7 @@ Gets the LOD input component
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L74)
 
 Gets the name of the block
 
@@ -563,7 +563,7 @@ Gets the name of the block
 
 > **set** **name**(`newName`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L88)
 
 Sets the name of the block. Will check if the name is valid.
 
@@ -589,7 +589,7 @@ Sets the name of the block. Will check if the name is valid.
 
 > **get** **outputs**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:181](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L181)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:181](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L181)
 
 Gets the list of output points
 
@@ -609,7 +609,7 @@ Gets the list of output points
 
 > **get** **r**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:265](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L265)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:268](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L268)
 
 Gets the r output component
 
@@ -625,7 +625,7 @@ Gets the r output component
 
 > **get** **rgb**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:258](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L258)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L261)
 
 Gets the rgb output component
 
@@ -641,7 +641,7 @@ Gets the rgb output component
 
 > **get** **rgba**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:251](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L251)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L254)
 
 Gets the rgba output component
 
@@ -657,7 +657,7 @@ Gets the rgba output component
 
 > **get** **samplerName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:109](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L109)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L112)
 
 Gets the sampler name associated with this texture
 
@@ -673,7 +673,7 @@ Gets the sampler name associated with this texture
 
 > **get** **source**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:230](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L230)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:233](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L233)
 
 Gets the source input component
 
@@ -689,7 +689,7 @@ Gets the source input component
 
 > **get** **target**(): [`NodeMaterialBlockTargets`](../enumerations/NodeMaterialBlockTargets.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:349](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L349)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:352](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L352)
 
 ##### Returns
 
@@ -699,7 +699,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/t
 
 > **set** **target**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:354](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L354)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:357](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L357)
 
 ##### Parameters
 
@@ -723,7 +723,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/t
 
 > **get** **texture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Texture`](Texture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L63)
 
 Gets or sets the texture associated with the node
 
@@ -735,7 +735,7 @@ Gets or sets the texture associated with the node
 
 > **set** **texture**(`texture`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L70)
 
 ##### Parameters
 
@@ -755,7 +755,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/t
 
 > **get** **uv**(): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:223](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L223)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:226](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L226)
 
 Gets the uv input component
 
@@ -771,7 +771,7 @@ Gets the uv input component
 
 > **get** **willBeGeneratedIntoVertexShaderFromFragmentShader**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:551](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L551)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:551](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L551)
 
 Gets a boolean indicating that the code of this block will be promoted to vertex shader even if connected to fragment output
 
@@ -789,7 +789,7 @@ Gets a boolean indicating that the code of this block will be promoted to vertex
 
 > **\_deserialize**(`serializationObject`, `scene`, `rootUrl`, `urlRewriter?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:765](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L765)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:790](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L790)
 
 Deserializes the block
 
@@ -833,7 +833,7 @@ optional url rewriter
 
 > **autoConfigure**(`material`, `additionalFilteringInfo?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:361](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L361)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:386](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L386)
 
 Auto configure the block based on the material
 
@@ -865,7 +865,7 @@ optional filtering info
 
 > **bind**(`effect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:454](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L454)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:479](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L479)
 
 Bind data to effect
 
@@ -891,7 +891,7 @@ the effect to bind to
 
 > **build**(`state`, `activeBlocks`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:686](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L686)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:686](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L686)
 
 Compile the current node and generate the shader code
 
@@ -925,7 +925,7 @@ true if already built
 
 > **clone**(`scene`, `rootUrl?`): [`NodeMaterialBlock`](NodeMaterialBlock.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:909](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L909)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:909](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L909)
 
 Clone the current block to a new identical block
 
@@ -959,7 +959,7 @@ a copy of the current block
 
 > **connectTo**(`other`, `options?`): `TextureBlock` \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:444](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L444)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:444](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L444)
 
 Connect current block with another block
 
@@ -1003,7 +1003,7 @@ the current block
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:997](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L997)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:997](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L997)
 
 Release resources
 
@@ -1021,7 +1021,7 @@ Release resources
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L219)
 
 Gets the current class name
 
@@ -1041,7 +1041,7 @@ the class name
 
 > **getFirstAvailableInput**(`forOutput?`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:367](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L367)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:367](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L367)
 
 Will return the first available input e.g. the first one which is not an uniform or an attribute
 
@@ -1069,7 +1069,7 @@ the first available input or null
 
 > **getFirstAvailableOutput**(`forBlock?`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:389](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L389)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:389](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L389)
 
 Will return the first available output e.g. the first one which is not yet connected and not a varying
 
@@ -1097,7 +1097,7 @@ the first available input or null
 
 > **getInputByName**(`name`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L190)
 
 Find an input by its name
 
@@ -1125,7 +1125,7 @@ the input or null if not found
 
 > **getOutputByName**(`name`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:205](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L205)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L205)
 
 Find an output by its name
 
@@ -1153,7 +1153,7 @@ the output or null if not found
 
 > **getSiblingOutput**(`current`): [`NodeMaterialConnectionPoint`](NodeMaterialConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:404](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L404)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:404](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L404)
 
 Gets the sibling of the given output
 
@@ -1181,7 +1181,7 @@ the next output in the list or null
 
 > **initialize**(`state`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:264](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L264)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:363](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L363)
 
 Initialize the block and prepare the context for build
 
@@ -1197,7 +1197,7 @@ defines the state that will be used for the build
 
 `void`
 
-#### Inherited from
+#### Overrides
 
 [`NodeMaterialBlock`](NodeMaterialBlock.md).[`initialize`](NodeMaterialBlock.md#initialize)
 
@@ -1207,7 +1207,7 @@ defines the state that will be used for the build
 
 > **initializeDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:387](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L387)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:412](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L412)
 
 Initialize the list of defines
 
@@ -1233,7 +1233,7 @@ the material defines
 
 > **isAnAncestorOf**(`block`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:419](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L419)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:419](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L419)
 
 Checks if the current block is an ancestor of a given block
 
@@ -1261,7 +1261,7 @@ true if block is a descendant
 
 > **isConnectedInFragmentShader**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:310](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L310)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L310)
 
 Gets a boolean indicating that this connection will be used in the fragment shader
 
@@ -1281,7 +1281,7 @@ true if connected in fragment shader
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:438](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L438)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:463](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L463)
 
 Checks if the block is ready
 
@@ -1301,7 +1301,7 @@ true if ready
 
 > **prepareDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:401](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L401)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:426](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L426)
 
 Prepare the list of defines
 
@@ -1327,7 +1327,7 @@ the material defines
 
 > **provideFallbacks**(`fallbacks`, `mesh?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:503](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L503)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:503](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L503)
 
 Add potential fallbacks if shader compilation fails
 
@@ -1359,7 +1359,7 @@ defines the mesh to be rendered
 
 > **registerInput**(`name`, `type`, `isOptional?`, `target?`, `point?`): `TextureBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L323)
 
 Register a new input. Must be called inside a block constructor
 
@@ -1411,7 +1411,7 @@ the current block
 
 > **registerOutput**(`name`, `type`, `target?`, `point?`): `TextureBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:350](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L350)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L350)
 
 Register a new output. Must be called inside a block constructor
 
@@ -1457,7 +1457,7 @@ the current block
 
 > **replaceRepeatableContent**(`vertexShaderState`, `defines`, `mesh?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:546](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L546)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:546](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L546)
 
 Function called when a block is declared as repeatable content generator
 
@@ -1495,7 +1495,7 @@ defines the mesh to be rendered
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts:740](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.ts#L740)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts:765](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Dual/textureBlock.pure.ts#L765)
 
 Serializes the block
 
@@ -1515,7 +1515,7 @@ the serialized object
 
 > **updateUniformsAndSamples**(`state`, `nodeMaterial`, `defines`, `uniformBuffers`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:493](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L493)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:493](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L493)
 
 Add uniforms, samplers and uniform buffers at compilation time
 
@@ -1559,7 +1559,7 @@ defines the list of uniform buffer names
 
 > **validateBlockName**(`newName`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:643](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L643)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts:643](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlock.ts#L643)
 
 Validates the new name for the block node.
 

@@ -8,7 +8,7 @@
 
 > **LerpAngle**(`start`, `end`, `amount`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.scalar.functions.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.scalar.functions.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.scalar.functions.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.scalar.functions.ts#L65)
 
 Same as Lerp but makes sure the values interpolate correctly when they wrap around 360 degrees.
 The parameter t is clamped to the range [0, 1]. Variables a and b are assumed to be in degrees.

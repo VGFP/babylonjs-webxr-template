@@ -6,7 +6,7 @@
 
 # Enumeration: ExtrudeGeometryCap
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.pure.ts#L15)
 
 Cap mode for the extrusion
 
@@ -16,7 +16,7 @@ Cap mode for the extrusion
 
 > **CapAll**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.pure.ts#L23)
 
 Cap both the bottom and top faces (default). Creates a solid
 
@@ -26,7 +26,7 @@ Cap both the bottom and top faces (default). Creates a solid
 
 > **CapEnd**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.pure.ts#L21)
 
 Cap the top face (the offset/extruded geometry face)
 
@@ -36,7 +36,7 @@ Cap the top face (the offset/extruded geometry face)
 
 > **CapStart**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.pure.ts#L19)
 
 Cap the bottom face (the original input geometry face)
 
@@ -46,6 +46,6 @@ Cap the bottom face (the original input geometry face)
 
 > **NoCap**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/extrudeGeometryBlock.pure.ts#L17)
 
 No caps — only the extruded side walls are generated

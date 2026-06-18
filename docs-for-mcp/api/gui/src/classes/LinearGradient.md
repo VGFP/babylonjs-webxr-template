@@ -6,7 +6,7 @@
 
 # Class: LinearGradient
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts:10](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts#L10)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts#L10)
 
 Gradient along a line that connects two coordinates.
 These coordinates are relative to the canvas' space, not to any control's space.
@@ -25,7 +25,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/create
 
 > **new LinearGradient**(`x0?`, `y0?`, `x1?`, `y1?`): `LinearGradient`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts#L23)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts#L23)
 
 Creates a new linear gradient
 
@@ -63,7 +63,7 @@ Creates a new linear gradient
 
 > **get** **colorStops**(): [`GradientColorStop`](../type-aliases/GradientColorStop.md)[]
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L89)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L89)
 
 Color stops of the gradient
 
@@ -83,7 +83,7 @@ Color stops of the gradient
 
 > **get** **x0**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts#L36)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts#L36)
 
 X axis coordinate of the starting point in the line
 
@@ -99,7 +99,7 @@ X axis coordinate of the starting point in the line
 
 > **get** **x1**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts#L41)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts#L41)
 
 X axis coordinate of the ending point in the line
 
@@ -115,7 +115,7 @@ X axis coordinate of the ending point in the line
 
 > **get** **y0**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts#L46)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts#L46)
 
 Y axis coordinate of the starting point in the line
 
@@ -131,7 +131,7 @@ Y axis coordinate of the starting point in the line
 
 > **get** **y1**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts#L51)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts#L51)
 
 Y axis coordinate of the ending point in the line
 
@@ -145,7 +145,7 @@ Y axis coordinate of the ending point in the line
 
 > **addColorStop**(`offset`, `color`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L64)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L64)
 
 Adds a new color stop to the gradient.
 
@@ -177,7 +177,7 @@ the color of the stop
 
 > **clearColorStops**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L81)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L81)
 
 Removes all color stops from the gradient
 
@@ -195,7 +195,7 @@ Removes all color stops from the gradient
 
 > **getCanvasGradient**(`context`): `CanvasGradient`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L49)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L49)
 
 If there are any changes or the context changed, regenerate the canvas gradient object. Else,
 reuse the existing gradient.
@@ -224,7 +224,7 @@ the canvas gradient
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts#L59)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts#L59)
 
 Class name of the gradient
 
@@ -244,7 +244,7 @@ the class name of the gradient
 
 > **parse**(`serializationObject`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts#L79)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts#L79)
 
 Parses a gradient from a serialization object
 
@@ -270,7 +270,7 @@ the object to parse from
 
 > **removeColorStop**(`offset`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L73)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L73)
 
 Removes an existing color stop with the specified offset from the gradient
 
@@ -296,7 +296,7 @@ the offset of the stop to be removed
 
 > **serialize**(`serializationObject`): `void`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts#L67)
+Defined in: [babylonjs-source/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/2D/controls/gradient/LinearGradient.ts#L67)
 
 Serializes this gradient
 

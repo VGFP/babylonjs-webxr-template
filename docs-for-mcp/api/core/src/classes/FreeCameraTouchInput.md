@@ -6,7 +6,7 @@
 
 # Class: FreeCameraTouchInput
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L14)
 
 Manage the touch inputs to control the movement of a free camera.
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **new FreeCameraTouchInput**(`allowMouse?`): `FreeCameraTouchInput`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L53)
 
 Manage the touch inputs to control the movement of a free camera.
 
@@ -50,7 +50,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **allowMouse**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L57)
 
 [false] Define if mouse events can be treated as touch events
 
@@ -60,7 +60,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTou
 
 > **camera**: [`FreeCamera`](FreeCamera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L18)
 
 Defines the camera the input is attached to.
 
@@ -74,7 +74,7 @@ Defines the camera the input is attached to.
 
 > **singleFingerRotate**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L37)
 
 Swap touch actions so that one touch is used for rotation and multiple for movement
 
@@ -84,7 +84,7 @@ Swap touch actions so that one touch is used for rotation and multiple for movem
 
 > **touchAngularSensibility**: `number` = `200000.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L25)
 
 Defines the touch sensibility for rotation.
 The lower the faster.
@@ -95,7 +95,7 @@ The lower the faster.
 
 > **touchMoveSensibility**: `number` = `250.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L32)
 
 Defines the touch sensibility for move.
 The lower the faster.
@@ -106,7 +106,7 @@ The lower the faster.
 
 > **attachControl**(`noPreventDefault?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L66)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -132,7 +132,7 @@ Defines whether event caught by the controls should call preventdefault() (https
 
 > **checkInputs**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:181](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L181)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:181](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L181)
 
 Update the current camera state depending on the inputs that have been used this frame.
 This is a dynamically created lambda to avoid the performance penalty of looping for inputs in the render loop.
@@ -151,7 +151,7 @@ This is a dynamically created lambda to avoid the performance penalty of looping
 
 > **detachControl**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L155)
 
 Detach the current controls from the specified dom element.
 
@@ -169,7 +169,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L225)
 
 Gets the class name of the current input.
 
@@ -189,7 +189,7 @@ the class name
 
 > **getSimpleName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:220](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L220)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts:233](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraTouchInput.ts#L233)
 
 Get the friendly name associated with the input class.
 

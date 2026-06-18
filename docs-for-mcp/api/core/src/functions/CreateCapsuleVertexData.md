@@ -8,7 +8,7 @@
 
 > **CreateCapsuleVertexData**(`options?`): [`VertexData`](../classes/VertexData.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/capsuleBuilder.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/capsuleBuilder.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L16)
 
 Scripts based off of https://github.com/maximeq/three-js-capsule-geometry/blob/master/src/CapsuleBufferGeometry.js
 

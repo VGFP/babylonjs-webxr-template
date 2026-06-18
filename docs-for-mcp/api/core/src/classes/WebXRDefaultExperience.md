@@ -6,7 +6,7 @@
 
 # Class: WebXRDefaultExperience
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L100)
 
 Default experience for webxr
 
@@ -16,7 +16,7 @@ Default experience for webxr
 
 > **baseExperience**: [`WebXRExperienceHelper`](WebXRExperienceHelper.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L104)
 
 Base experience
 
@@ -26,7 +26,7 @@ Base experience
 
 > **enterExitUI**: [`WebXREnterExitUI`](WebXREnterExitUI.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L108)
 
 Enables ui for entering/exiting xr
 
@@ -36,7 +36,7 @@ Enables ui for entering/exiting xr
 
 > **input**: [`WebXRInput`](WebXRInput.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L112)
 
 Input experience extension
 
@@ -46,7 +46,7 @@ Input experience extension
 
 > **nearInteraction**: [`WebXRNearInteraction`](WebXRNearInteraction.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L129)
 
 Enables near interaction for hands/controllers
 
@@ -56,7 +56,7 @@ Enables near interaction for hands/controllers
 
 > **pointerSelection**: [`WebXRControllerPointerSelection`](WebXRControllerPointerSelection.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L116)
 
 Enables laser pointer and selection
 
@@ -66,7 +66,7 @@ Enables laser pointer and selection
 
 > **renderTarget**: [`WebXRRenderTarget`](../interfaces/WebXRRenderTarget.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L120)
 
 Default target xr should render to
 
@@ -76,7 +76,7 @@ Default target xr should render to
 
 > **teleportation**: [`WebXRMotionControllerTeleportation`](WebXRMotionControllerTeleportation.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L124)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L124)
 
 Enables teleportation
 
@@ -86,7 +86,7 @@ Enables teleportation
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:256](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L256)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:256](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L256)
 
 Disposes of the experience helper
 
@@ -100,7 +100,7 @@ Disposes of the experience helper
 
 > `static` **CreateAsync**(`scene`, `options?`): `Promise`\<`WebXRDefaultExperience`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRDefaultExperience.ts#L139)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRDefaultExperience.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRDefaultExperience.ts#L139)
 
 Creates the default xr experience
 

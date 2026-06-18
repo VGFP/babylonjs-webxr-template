@@ -6,7 +6,7 @@
 
 # Class: DepthReducer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/depthReducer.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/depthReducer.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/depthReducer.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/depthReducer.ts#L12)
 
 This class is a small wrapper around the MinMaxReducer class to compute the min/max values of a depth texture
 
@@ -20,7 +20,7 @@ This class is a small wrapper around the MinMaxReducer class to compute the min/
 
 > **new DepthReducer**(`camera`): `DepthReducer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/depthReducer.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/depthReducer.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/depthReducer.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/depthReducer.ts#L28)
 
 Creates a depth reducer
 
@@ -48,7 +48,7 @@ The camera used to render the depth texture
 
 > **get** **activated**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/minMaxReducer.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/minMaxReducer.pure.ts#L140)
 
 Gets the activation status of the reducer
 
@@ -68,7 +68,7 @@ Gets the activation status of the reducer
 
 > **get** **depthRenderer**(): [`Nullable`](../type-aliases/Nullable.md)\<[`DepthRenderer`](DepthRenderer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/depthReducer.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/depthReducer.ts#L20)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/depthReducer.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/depthReducer.ts#L20)
 
 Gets the depth renderer used for the computation.
 Note that the result is null if you provide your own renderer when calling setDepthRenderer.
@@ -85,7 +85,7 @@ Note that the result is null if you provide your own renderer when calling setDe
 
 > **get** **onAfterReductionPerformed**(): [`Observable`](Observable.md)\<\{ `max`: `number`; `min`: `number`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/minMaxReducer.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/minMaxReducer.pure.ts#L25)
 
 Observable triggered when the computation has been performed
 
@@ -105,7 +105,7 @@ Observable triggered when the computation has been performed
 
 > **get** **refreshRate**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/minMaxReducer.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.pure.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/minMaxReducer.pure.ts#L125)
 
 Defines the refresh rate of the computation.
 Use 0 to compute just once, 1 to compute on every frame, 2 to compute every two frames and so on...
@@ -118,7 +118,7 @@ Use 0 to compute just once, 1 to compute on every frame, 2 to compute every two 
 
 > **set** **refreshRate**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/minMaxReducer.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.pure.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/minMaxReducer.pure.ts#L129)
 
 ##### Parameters
 
@@ -142,7 +142,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.ts:130](h
 
 > **get** **sourceTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`RenderTargetTexture`](RenderTargetTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/minMaxReducer.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/minMaxReducer.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/minMaxReducer.pure.ts#L56)
 
 Gets the texture used to read the values from.
 
@@ -160,7 +160,7 @@ Gets the texture used to read the values from.
 
 > **activate**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/depthReducer.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/depthReducer.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/depthReducer.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/depthReducer.ts#L89)
 
 Activates the reduction computation.
 When activated, the observers registered in onAfterReductionPerformed are
@@ -180,7 +180,7 @@ called after the computation is performed
 
 > **deactivate**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/depthReducer.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/depthReducer.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/depthReducer.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/depthReducer.ts#L100)
 
 Deactivates the reduction computation.
 
@@ -198,7 +198,7 @@ Deactivates the reduction computation.
 
 > **dispose**(`disposeAll?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/depthReducer.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/depthReducer.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/depthReducer.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/depthReducer.ts#L112)
 
 Disposes the depth reducer
 
@@ -224,7 +224,7 @@ true to dispose all the resources. You should always call this function with tru
 
 > **setDepthRenderer**(`depthRenderer?`, `type?`, `forceFullscreenViewport?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/depthReducer.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/depthReducer.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/depthReducer.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/depthReducer.ts#L38)
 
 Sets the depth renderer to use to generate the depth map
 

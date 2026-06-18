@@ -6,7 +6,7 @@
 
 # Class: EventState
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:10](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L10)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L12)
 
 A class serves as a medium between the observable and its observers
 
@@ -16,7 +16,7 @@ A class serves as a medium between the observable and its observers
 
 > **new EventState**(`mask`, `skipNextObservers?`, `target?`, `currentTarget?`): `EventState`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L20)
 
 Create a new EventState
 
@@ -56,7 +56,7 @@ defines the current target of the state
 
 > `optional` **currentTarget?**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L58)
 
 The current object in the bubbling phase
 
@@ -66,7 +66,7 @@ The current object in the bubbling phase
 
 > `optional` **lastReturnValue?**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L64)
 
 This will be populated with the return value of the last function that was executed.
 If it is the first function in the callback chain it will be the event data.
@@ -77,7 +77,7 @@ If it is the first function in the callback chain it will be the event data.
 
 > **mask**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L48)
 
 Get the mask value that were used to trigger the event corresponding to this EventState object
 
@@ -87,7 +87,7 @@ Get the mask value that were used to trigger the event corresponding to this Eve
 
 > **skipNextObservers**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L43)
 
 An Observer can set this property to true to prevent subsequent observers of being notified
 
@@ -97,7 +97,7 @@ An Observer can set this property to true to prevent subsequent observers of bei
 
 > `optional` **target?**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L53)
 
 The object that originally notified the event
 
@@ -107,7 +107,7 @@ The object that originally notified the event
 
 > `optional` **userInfo?**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L69)
 
 User defined information that will be sent to observers
 
@@ -117,7 +117,7 @@ User defined information that will be sent to observers
 
 > **initialize**(`mask`, `skipNextObservers?`, `target?`, `currentTarget?`): `EventState`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/observable.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L32)
 
 Initialize the current event state
 

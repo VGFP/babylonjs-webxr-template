@@ -6,7 +6,7 @@
 
 # Class: EquiRectangularCubeTextureAssetTask
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:972](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L972)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:972](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L972)
 
 Define a task used by AssetsManager to load Equirectangular cube textures
 
@@ -24,7 +24,7 @@ Define a task used by AssetsManager to load Equirectangular cube textures
 
 > **new EquiRectangularCubeTextureAssetTask**(`name`, `url`, `size`, `noMipmap?`, `gammaSpace?`, `superSample?`): `EquiRectangularCubeTextureAssetTask`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:999](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L999)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:999](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L999)
 
 Creates a new EquiRectangularCubeTextureAssetTask object
 
@@ -83,7 +83,7 @@ specifies if the texture will be generated with super sampling (default is false
 
 > **gammaSpace**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1020](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1020)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1020](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1020)
 
 [true] Specifies if the texture will be use in gamma or linear space (the PBR material requires those texture in linear space,
 but the standard material would require them in Gamma space) (default is true)
@@ -94,7 +94,7 @@ but the standard material would require them in Gamma space) (default is true)
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1003](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1003)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1003](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1003)
 
 Defines the name of the task
 
@@ -108,7 +108,7 @@ Defines the name of the task
 
 > **noMipmap**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1015](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1015)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1015](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1015)
 
 [false] Defines if mipmaps should not be generated (default is false)
 
@@ -118,7 +118,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1015](
 
 > **onError**: (`task`, `message?`, `exception?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:985](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L985)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:985](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L985)
 
 Callback called when the task is successful
 
@@ -150,7 +150,7 @@ Callback called when the task is successful
 
 > **onSuccess**: (`task`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:981](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L981)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:981](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L981)
 
 Callback called when the task is successful
 
@@ -174,7 +174,7 @@ Callback called when the task is successful
 
 > **size**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1011](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1011)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1011](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1011)
 
 Defines the desired size (the more it increases the longer the generation will be)
 
@@ -184,7 +184,7 @@ Defines the desired size (the more it increases the longer the generation will b
 
 > **superSample**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1022](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1022)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1022](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1022)
 
 specifies if the texture will be generated with super sampling (default is false)
 (the PBR material requires those texture in linear space, but the standard material would require them in Gamma space)
@@ -196,7 +196,7 @@ specifies if the texture will be generated with super sampling (default is false
 
 > **texture**: [`EquiRectangularCubeTexture`](EquiRectangularCubeTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:976](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L976)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:976](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L976)
 
 Gets the loaded texture
 
@@ -210,7 +210,7 @@ Gets the loaded texture
 
 > **url**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1007](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1007)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1007](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1007)
 
 Defines the location of the file to load
 
@@ -222,7 +222,7 @@ Defines the location of the file to load
 
 > **get** **errorObject**(): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L88)
 
 Gets the current error object (if task is in error)
 
@@ -250,7 +250,7 @@ Gets the current error object (if task is in error)
 
 > **get** **isCompleted**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L74)
 
 Get if the task is completed
 
@@ -270,7 +270,7 @@ Get if the task is completed
 
 > **get** **taskState**(): [`AssetTaskState`](../enumerations/AssetTaskState.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L81)
 
 Gets the current state of the task
 
@@ -288,7 +288,7 @@ Gets the current state of the task
 
 > **reset**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L141)
 
 Reset will set the task state back to INIT, so the next load call of the assets manager will execute this task again.
 This can be used with failed tasks that have the reason for failure fixed.
@@ -307,7 +307,7 @@ This can be used with failed tasks that have the reason for failure fixed.
 
 > **run**(`scene`, `onSuccess`, `onError`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L113)
 
 Execute the current task
 
@@ -345,7 +345,7 @@ is a callback called if an error occurs
 
 > **runTask**(`scene`, `onSuccess`, `onError`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1033](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/assetsManager.ts#L1033)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1033](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1033)
 
 Execute the current task
 

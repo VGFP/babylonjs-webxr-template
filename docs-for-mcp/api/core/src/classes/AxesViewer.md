@@ -6,7 +6,7 @@
 
 # Class: AxesViewer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/axesViewer.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/axesViewer.ts#L14)
 
 The Axes viewer will show 3 axes in a specific point in space
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/toolsAndResources/utilities/World_Axes
 
 > **new AxesViewer**(`scene?`, `scaleLines?`, `renderingGroupId?`, `xAxis?`, `yAxis?`, `zAxis?`, `lineThickness?`): `AxesViewer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:66](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/axesViewer.ts#L66)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/axesViewer.ts#L66)
 
 Creates a new AxesViewer
 
@@ -82,7 +82,7 @@ The line thickness to use when creating the arrow. defaults to 1.
 
 > **scene**: [`Nullable`](../type-aliases/Nullable.md)\<[`Scene`](Scene.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/axesViewer.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/axesViewer.ts#L24)
 
 Gets the hosting scene
 
@@ -94,7 +94,7 @@ Gets the hosting scene
 
 > **get** **scaleLines**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/axesViewer.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/axesViewer.ts#L30)
 
 Gets or sets a number used to scale line length
 
@@ -106,7 +106,7 @@ Gets or sets a number used to scale line length
 
 > **set** **scaleLines**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/axesViewer.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/axesViewer.ts#L34)
 
 ##### Parameters
 
@@ -126,7 +126,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:34](http
 
 > **get** **xAxis**(): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/axesViewer.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/axesViewer.ts#L42)
 
 Gets the node hierarchy used to render x-axis
 
@@ -142,7 +142,7 @@ Gets the node hierarchy used to render x-axis
 
 > **get** **yAxis**(): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/axesViewer.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/axesViewer.ts#L47)
 
 Gets the node hierarchy used to render y-axis
 
@@ -158,7 +158,7 @@ Gets the node hierarchy used to render y-axis
 
 > **get** **zAxis**(): [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/axesViewer.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/axesViewer.ts#L52)
 
 Gets the node hierarchy used to render z-axis
 
@@ -172,7 +172,7 @@ Gets the node hierarchy used to render z-axis
 
 > **createInstance**(): `AxesViewer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/axesViewer.ts#L131)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/axesViewer.ts#L131)
 
 Creates an instance of this axes viewer.
 
@@ -188,7 +188,7 @@ a new axes viewer with instanced meshes
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:141](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/axesViewer.ts#L141)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/axesViewer.ts#L141)
 
 Releases resources
 
@@ -202,7 +202,7 @@ Releases resources
 
 > **update**(`position`, `xaxis`, `yaxis`, `zaxis`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/axesViewer.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/axesViewer.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/axesViewer.ts#L116)
 
 Force the viewer to update
 

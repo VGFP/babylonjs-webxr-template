@@ -6,7 +6,7 @@
 
 # Class: IblCdfGeneratorSceneComponent
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.pure.ts#L14)
 
 Defines the IBL CDF Generator scene component responsible for generating CDF maps for a given IBL.
 
@@ -20,7 +20,7 @@ Defines the IBL CDF Generator scene component responsible for generating CDF map
 
 > **new IblCdfGeneratorSceneComponent**(`scene`): `IblCdfGeneratorSceneComponent`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.pure.ts#L29)
 
 Creates a new instance of the component for the given scene
 
@@ -42,7 +42,7 @@ Defines the scene to register the component in
 
 > `readonly` **name**: `"iblCDFGenerator"` = `SceneComponentConstants.NAME_IBLCDFGENERATOR`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.pure.ts#L18)
 
 The component name helpful to identify the component in the list of scene components.
 
@@ -56,7 +56,7 @@ The component name helpful to identify the component in the list of scene compon
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.pure.ts#L23)
 
 The scene the component belongs to.
 
@@ -70,7 +70,7 @@ The scene the component belongs to.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.pure.ts#L53)
 
 Disposes the component and the associated resources
 
@@ -88,7 +88,7 @@ Disposes the component and the associated resources
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.pure.ts#L63)
 
 #### Returns
 
@@ -104,7 +104,7 @@ generated before declaring the scene ready to render.
 
 > **rebuild**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.pure.ts#L46)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -123,7 +123,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGeneratorSceneComponent.pure.ts#L36)
 
 Registers the component in a given scene
 

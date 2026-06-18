@@ -6,7 +6,7 @@
 
 # Class: GamepadSystemSceneComponent
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadSceneComponent.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepadSceneComponent.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadSceneComponent.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepadSceneComponent.pure.ts#L15)
 
 Defines the gamepad scene component responsible to manage gamepads in a given scene
 
@@ -20,7 +20,7 @@ Defines the gamepad scene component responsible to manage gamepads in a given sc
 
 > **new GamepadSystemSceneComponent**(`scene`): `GamepadSystemSceneComponent`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadSceneComponent.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepadSceneComponent.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadSceneComponent.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepadSceneComponent.pure.ts#L30)
 
 Creates a new instance of the component for the given scene
 
@@ -42,7 +42,7 @@ Defines the scene to register the component in
 
 > `readonly` **name**: `"Gamepad"` = `SceneComponentConstants.NAME_GAMEPAD`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadSceneComponent.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepadSceneComponent.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadSceneComponent.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepadSceneComponent.pure.ts#L19)
 
 The component name helpfull to identify the component in the list of scene components.
 
@@ -56,7 +56,7 @@ The component name helpfull to identify the component in the list of scene compo
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadSceneComponent.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepadSceneComponent.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadSceneComponent.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepadSceneComponent.pure.ts#L24)
 
 The scene the component belongs to.
 
@@ -70,7 +70,7 @@ The scene the component belongs to.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadSceneComponent.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepadSceneComponent.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadSceneComponent.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepadSceneComponent.pure.ts#L52)
 
 Disposes the component and the associated resources
 
@@ -88,7 +88,7 @@ Disposes the component and the associated resources
 
 > **rebuild**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadSceneComponent.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepadSceneComponent.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadSceneComponent.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepadSceneComponent.pure.ts#L45)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -107,7 +107,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadSceneComponent.ts:113](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepadSceneComponent.ts#L113)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadSceneComponent.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepadSceneComponent.pure.ts#L37)
 
 Registers the component in a given scene
 

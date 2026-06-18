@@ -6,7 +6,7 @@
 
 # Interface: IXmlBuilder
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L12)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L12)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 > **att**(`ns`, `n`, `v`): `IXmlBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L14)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L14)
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 > **dec**(`version`, `encoding?`, `standalone?`): `IXmlBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L13)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L13)
 
 #### Parameters
 
@@ -66,7 +66,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 > **ele**(`ns`, `n`): `IXmlBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L15)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L15)
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 > **end**(): `IXmlBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L17)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L17)
 
 #### Returns
 
@@ -100,7 +100,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 > **text**(`txt`): `IXmlBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L16)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L16)
 
 #### Parameters
 

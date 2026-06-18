@@ -6,7 +6,7 @@
 
 # Class: GamepadManager
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadManager.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepadManager.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadManager.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepadManager.ts#L14)
 
 Manager for handling gamepads
 
@@ -16,7 +16,7 @@ Manager for handling gamepads
 
 > **new GamepadManager**(`_scene?`): `GamepadManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadManager.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepadManager.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadManager.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepadManager.ts#L40)
 
 Initializes the gamepad manager
 
@@ -38,7 +38,7 @@ BabylonJS scene
 
 > **onGamepadConnectedObservable**: [`Observable`](Observable.md)\<[`Gamepad`](Gamepad.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadManager.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepadManager.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadManager.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepadManager.ts#L26)
 
 observable to be triggered when the gamepad controller has been connected
 
@@ -48,7 +48,7 @@ observable to be triggered when the gamepad controller has been connected
 
 > **onGamepadDisconnectedObservable**: [`Observable`](Observable.md)\<[`Gamepad`](Gamepad.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadManager.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepadManager.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadManager.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepadManager.ts#L31)
 
 observable to be triggered when the gamepad controller has been disconnected
 
@@ -60,7 +60,7 @@ observable to be triggered when the gamepad controller has been disconnected
 
 > **get** **gamepads**(): [`Gamepad`](Gamepad.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadManager.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepadManager.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadManager.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepadManager.ts#L123)
 
 The gamepads in the game pad manager
 
@@ -74,7 +74,7 @@ The gamepads in the game pad manager
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadManager.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepadManager.ts#L142)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadManager.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepadManager.ts#L145)
 
 Disposes the gamepad manager
 
@@ -88,7 +88,7 @@ Disposes the gamepad manager
 
 > **getGamepadByType**(`type?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Gamepad`](Gamepad.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadManager.ts:129](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepadManager.ts#L129)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepadManager.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepadManager.ts#L132)
 
 Get the gamepad controllers based on type
 

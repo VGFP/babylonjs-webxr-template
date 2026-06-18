@@ -6,7 +6,7 @@
 
 # Enumeration: DeviceType
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:5](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L5)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:5](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L5)
 
 Enum for Device Types
 
@@ -16,7 +16,7 @@ Enum for Device Types
 
 > **DualSense**: `7`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L21)
 
 PS5 DualSense
 
@@ -26,7 +26,7 @@ PS5 DualSense
 
 > **DualShock**: `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L15)
 
 PS4 Dual Shock
 
@@ -36,7 +36,7 @@ PS4 Dual Shock
 
 > **Generic**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:7](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L7)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:7](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L7)
 
 Generic
 
@@ -46,7 +46,7 @@ Generic
 
 > **Keyboard**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L9)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L9)
 
 Keyboard
 
@@ -56,7 +56,7 @@ Keyboard
 
 > **Mouse**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L11)
 
 Mouse
 
@@ -66,7 +66,7 @@ Mouse
 
 > **Switch**: `6`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L19)
 
 Switch Controller
 
@@ -76,7 +76,7 @@ Switch Controller
 
 > **Touch**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L13)
 
 Touch Pointers
 
@@ -86,6 +86,6 @@ Touch Pointers
 
 > **Xbox**: `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/DeviceInput/InputDevices/deviceEnums.ts#L17)
 
 Xbox

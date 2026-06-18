@@ -6,7 +6,7 @@
 
 # Class: AutoRotationBehavior
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L14)
 
 The autoRotation behavior (AutoRotationBehavior) is designed to create a smooth rotation of an ArcRotateCamera when there is no user interaction.
 
@@ -34,7 +34,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors/cameraBehaviors#au
 
 > **targetAlpha**: [`Nullable`](../type-aliases/Nullable.md)\<`number`\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L30)
 
 Target alpha
 
@@ -46,7 +46,7 @@ Target alpha
 
 > **get** **attachedNode**(): [`Nullable`](../type-aliases/Nullable.md)\<[`ArcRotateCamera`](ArcRotateCamera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L98)
 
 Attached node of this behavior
 
@@ -68,7 +68,7 @@ Gets the current attached target
 
 > **get** **idleRotationSpeed**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L56)
 
 Gets the default speed at which the camera rotates around the model.
 
@@ -80,7 +80,7 @@ Gets the default speed at which the camera rotates around the model.
 
 > **set** **idleRotationSpeed**(`speed`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L49)
 
 Sets the default speed at which the camera rotates around the model.
 
@@ -102,7 +102,7 @@ Sets the default speed at which the camera rotates around the model.
 
 > **get** **idleRotationSpinupTime**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L84)
 
 Gets the time (milliseconds) to take to spin up to the full idle rotation speed.
 
@@ -114,7 +114,7 @@ Gets the time (milliseconds) to take to spin up to the full idle rotation speed.
 
 > **set** **idleRotationSpinupTime**(`time`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L77)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L77)
 
 Sets the time (milliseconds) to take to spin up to the full idle rotation speed.
 
@@ -136,7 +136,7 @@ Sets the time (milliseconds) to take to spin up to the full idle rotation speed.
 
 > **get** **idleRotationWaitTime**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L70)
 
 Gets the time (milliseconds) to wait after user interaction before the camera starts rotating.
 
@@ -148,7 +148,7 @@ Gets the time (milliseconds) to wait after user interaction before the camera st
 
 > **set** **idleRotationWaitTime**(`time`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L63)
 
 Sets the time (in milliseconds) to wait after user interaction before the camera starts rotating.
 
@@ -170,7 +170,7 @@ Sets the time (in milliseconds) to wait after user interaction before the camera
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L18)
 
 Gets the name of the behavior.
 
@@ -192,7 +192,7 @@ gets or sets behavior's name
 
 > **get** **rotationInProgress**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L91)
 
 Gets a value indicating if the camera is currently rotating because of this behavior
 
@@ -208,7 +208,7 @@ Gets a value indicating if the camera is currently rotating because of this beha
 
 > **get** **zoomStopsAnimation**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L42)
 
 Gets the flag that indicates if user zooming should stop animation.
 
@@ -220,7 +220,7 @@ Gets the flag that indicates if user zooming should stop animation.
 
 > **set** **zoomStopsAnimation**(`flag`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L35)
 
 Sets the flag that indicates if user zooming should stop animation.
 
@@ -240,7 +240,7 @@ Sets the flag that indicates if user zooming should stop animation.
 
 > **attach**(`camera`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L122)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L122)
 
 Attaches the behavior to its arc rotate camera.
 
@@ -266,7 +266,7 @@ Defines the camera to attach the behavior to
 
 > **detach**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L165)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L165)
 
 Detaches the behavior from its current arc rotate camera.
 
@@ -284,7 +284,7 @@ Detaches the behavior from its current arc rotate camera.
 
 > **init**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L114)
 
 Initializes the behavior.
 
@@ -302,7 +302,7 @@ Initializes the behavior.
 
 > **resetLastInteractionTime**(`customTime?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:184](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L184)
+Defined in: [babylonjs-source/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts:184](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Behaviors/Cameras/autoRotationBehavior.ts#L184)
 
 Force-reset the last interaction time
 

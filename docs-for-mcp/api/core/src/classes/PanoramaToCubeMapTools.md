@@ -6,7 +6,7 @@
 
 # Class: PanoramaToCubeMapTools
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L76)
 
 Helper class useful to convert panorama picture to their cubemap representation in 6 faces.
 
@@ -26,7 +26,7 @@ Helper class useful to convert panorama picture to their cubemap representation 
 
 > `static` **ConvertPanoramaToCubemap**(`float32Array`, `inputWidth`, `inputHeight`, `size`, `supersample?`, `invertY?`): [`CubeMapInfo`](../interfaces/CubeMapInfo.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/HighDynamicRange/panoramaToCubemap.ts#L95)
 
 Converts a panorama stored in RGB right to left up to down format into a cubemap (6 faces).
 

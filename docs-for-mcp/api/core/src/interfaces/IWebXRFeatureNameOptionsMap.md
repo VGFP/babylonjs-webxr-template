@@ -6,7 +6,7 @@
 
 # Interface: IWebXRFeatureNameOptionsMap
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:244](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L244)
 
 Maps feature names to their corresponding options interfaces.
 
@@ -16,7 +16,9 @@ Maps feature names to their corresponding options interfaces.
 
 > **xr-anchor-system**: [`IWebXRAnchorSystemOptions`](IWebXRAnchorSystemOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:220](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L220)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:246](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L246)
+
+Anchor system feature options.
 
 ***
 
@@ -24,7 +26,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-background-remover**: [`IWebXRBackgroundRemoverOptions`](IWebXRBackgroundRemoverOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:221](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L221)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:248](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L248)
+
+Background remover feature options.
 
 ***
 
@@ -32,7 +36,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-body-tracking**: [`IWebXRBodyTrackingOptions`](IWebXRBodyTrackingOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:241](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L241)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:288](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L288)
+
+Body tracking feature options.
 
 ***
 
@@ -40,7 +46,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-controller-movement**: [`IWebXRControllerMovementOptions`](IWebXRControllerMovementOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:232](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L232)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:270](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L270)
+
+Controller movement feature options.
 
 ***
 
@@ -48,7 +56,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-controller-pointer-selection**: [`IWebXRControllerPointerSelectionOptions`](IWebXRControllerPointerSelectionOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:236](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L236)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:278](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L278)
+
+Controller pointer selection feature options.
 
 ***
 
@@ -56,7 +66,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-controller-teleportation**: [`IWebXRTeleportationOptions`](IWebXRTeleportationOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:239](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L239)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:284](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L284)
+
+Teleportation feature options.
 
 ***
 
@@ -64,7 +76,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-depth-sensing**: [`IWebXRDepthSensingOptions`](IWebXRDepthSensingOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L222)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:250](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L250)
+
+Depth sensing feature options.
 
 ***
 
@@ -72,7 +86,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-dom-overlay**: [`IWebXRDomOverlayOptions`](IWebXRDomOverlayOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:223](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L223)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:252](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L252)
+
+DOM overlay feature options.
 
 ***
 
@@ -80,7 +96,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-eye-tracking**: `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:224](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L224)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L254)
+
+Eye tracking feature options.
 
 ***
 
@@ -88,7 +106,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-feature-points**: `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L225)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:256](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L256)
+
+Feature points feature options.
 
 ***
 
@@ -96,7 +116,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-hand-tracking**: [`IWebXRHandTrackingOptions`](IWebXRHandTrackingOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:226](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L226)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:258](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L258)
+
+Hand tracking feature options.
 
 ***
 
@@ -104,7 +126,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-hit-test**: [`IWebXRHitTestOptions`](IWebXRHitTestOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:227](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L227)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L260)
+
+Hit test feature options.
 
 ***
 
@@ -112,7 +136,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-image-tracking**: [`IWebXRImageTrackingOptions`](IWebXRImageTrackingOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:228](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L228)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:262](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L262)
+
+Image tracking feature options.
 
 ***
 
@@ -120,7 +146,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-layers**: [`IWebXRLayersOptions`](IWebXRLayersOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:229](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L229)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:264](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L264)
+
+Layers feature options.
 
 ***
 
@@ -128,7 +156,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-light-estimation**: [`IWebXRLightEstimationOptions`](IWebXRLightEstimationOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:230](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L230)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:266](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L266)
+
+Light estimation feature options.
 
 ***
 
@@ -136,7 +166,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-mesh-detection**: [`IWebXRMeshDetectorOptions`](IWebXRMeshDetectorOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:231](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L231)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:268](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L268)
+
+Mesh detection feature options.
 
 ***
 
@@ -144,7 +176,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-near-interaction**: [`IWebXRNearInteractionOptions`](IWebXRNearInteractionOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:233](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L233)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:272](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L272)
+
+Near interaction feature options.
 
 ***
 
@@ -152,7 +186,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-physics-controller**: [`IWebXRControllerPhysicsOptions`](../classes/IWebXRControllerPhysicsOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:234](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L234)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:274](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L274)
+
+Physics controllers feature options.
 
 ***
 
@@ -160,7 +196,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-plane-detection**: [`IWebXRPlaneDetectorOptions`](IWebXRPlaneDetectorOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:235](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L235)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L276)
+
+Plane detection feature options.
 
 ***
 
@@ -168,7 +206,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-raw-camera-access**: [`IWebXRRawCameraAccessOptions`](IWebXRRawCameraAccessOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:237](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L237)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:280](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L280)
+
+Raw camera access feature options.
 
 ***
 
@@ -176,7 +216,9 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-space-warp**: `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:238](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L238)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L282)
+
+Space warp feature options.
 
 ***
 
@@ -184,4 +226,6 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:2
 
 > **xr-walking-locomotion**: [`IWebXRWalkingLocomotionOptions`](IWebXRWalkingLocomotionOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:240](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L240)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:286](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L286)
+
+Walking locomotion feature options.

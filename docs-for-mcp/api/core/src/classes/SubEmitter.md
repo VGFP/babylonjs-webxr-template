@@ -6,7 +6,7 @@
 
 # Class: SubEmitter
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/subEmitter.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/subEmitter.ts#L27)
 
 Sub emitter class used to emit particles from an existing particle
 
@@ -16,7 +16,7 @@ Sub emitter class used to emit particles from an existing particle
 
 > **new SubEmitter**(`particleSystem`): `SubEmitter`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/subEmitter.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/subEmitter.ts#L46)
 
 Creates a sub emitter
 
@@ -38,7 +38,7 @@ the particle system to be used by the sub emitter
 
 > **inheritDirection**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/subEmitter.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/subEmitter.ts#L36)
 
 If the particle should inherit the direction from the particle it's attached to. (+Y will face the direction the particle is moving) (Default: false)
 Note: This only is supported when using an emitter of type Mesh
@@ -49,7 +49,7 @@ Note: This only is supported when using an emitter of type Mesh
 
 > **inheritedVelocityAmount**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/subEmitter.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/subEmitter.ts#L40)
 
 How much of the attached particles speed should be added to the sub emitted particle (default: 0)
 
@@ -59,7 +59,7 @@ How much of the attached particles speed should be added to the sub emitted part
 
 > **particleSystem**: [`ParticleSystem`](ParticleSystem.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/subEmitter.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/subEmitter.ts#L50)
 
 the particle system to be used by the sub emitter
 
@@ -69,7 +69,7 @@ the particle system to be used by the sub emitter
 
 > **type**: [`SubEmitterType`](../enumerations/SubEmitterType.md) = `SubEmitterType.END`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/subEmitter.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/subEmitter.ts#L31)
 
 Type of the submitter (Default: END)
 
@@ -79,7 +79,7 @@ Type of the submitter (Default: END)
 
 > **clone**(): `SubEmitter`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/subEmitter.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/subEmitter.ts#L63)
 
 Clones the sub emitter
 
@@ -95,7 +95,7 @@ the cloned sub emitter
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/subEmitter.ts#L131)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/subEmitter.ts#L131)
 
 Release associated resources
 
@@ -109,7 +109,7 @@ Release associated resources
 
 > **serialize**(`serializeTexture?`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:93](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/subEmitter.ts#L93)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/subEmitter.ts#L93)
 
 Serialize current object to a JSON object
 
@@ -133,7 +133,7 @@ the serialized object
 
 > `static` **Parse**(`serializationObject`, `sceneOrEngine`, `rootUrl`): `SubEmitter`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/subEmitter.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/subEmitter.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/subEmitter.ts#L119)
 
 Creates a new SubEmitter from a serialized JSON version
 

@@ -6,7 +6,7 @@
 
 # Class: FreeCameraVirtualJoystickInput
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.pure.ts#L14)
 
 Manage the Virtual Joystick inputs to control the movement of a free camera.
 
@@ -34,7 +34,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **camera**: [`FreeCamera`](FreeCamera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.pure.ts#L18)
 
 Defines the camera the input is attached to.
 
@@ -48,7 +48,7 @@ Defines the camera the input is attached to.
 
 > **attachControl**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.pure.ts#L68)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -66,7 +66,7 @@ Attach the input controls to a specific dom element to get the input from.
 
 > **checkInputs**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.pure.ts#L43)
 
 Update the current camera state depending on the inputs that have been used this frame.
 This is a dynamically created lambda to avoid the performance penalty of looping for inputs in the render loop.
@@ -85,7 +85,7 @@ This is a dynamically created lambda to avoid the performance penalty of looping
 
 > **detachControl**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.pure.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.pure.ts#L84)
 
 Detach the current controls from the specified dom element.
 
@@ -103,7 +103,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.pure.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.pure.ts#L93)
 
 Gets the class name of the current input.
 
@@ -123,7 +123,7 @@ the class name
 
 > **getLeftJoystick**(): [`VirtualJoystick`](VirtualJoystick.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.pure.ts#L27)
 
 Gets the left stick of the virtual joystick.
 
@@ -139,7 +139,7 @@ The virtual Joystick
 
 > **getRightJoystick**(): [`VirtualJoystick`](VirtualJoystick.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.pure.ts#L35)
 
 Gets the right stick of the virtual joystick.
 
@@ -155,7 +155,7 @@ The virtual Joystick
 
 > **getSimpleName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.pure.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraVirtualJoystickInput.pure.ts#L101)
 
 Get the friendly name associated with the input class.
 

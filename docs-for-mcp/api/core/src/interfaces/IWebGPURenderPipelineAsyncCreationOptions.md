@@ -6,7 +6,7 @@
 
 # Interface: IWebGPURenderPipelineAsyncCreationOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/webgpuEngine.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L198)
 
 Options for pre-warming a render pipeline asynchronously.
 All render state properties are optional and default to the most common opaque rendering state.
@@ -17,7 +17,7 @@ All render state properties are optional and default to the most common opaque r
 
 > `optional` **alphaMode?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.ts:241](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/webgpuEngine.ts#L241)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L227)
 
 The alpha blending mode (e.g. Constants.ALPHA_DISABLE, Constants.ALPHA_COMBINE).
 Defaults to Constants.ALPHA_DISABLE.
@@ -28,7 +28,7 @@ Defaults to Constants.ALPHA_DISABLE.
 
 > `optional` **colorFormat?**: `GPUTextureFormat`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.ts:232](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/webgpuEngine.ts#L232)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L218)
 
 The color render target format. Defaults to the engine's current canvas color format.
 
@@ -38,7 +38,7 @@ The color render target format. Defaults to the engine's current canvas color fo
 
 > `optional` **cullEnabled?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.ts:257](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/webgpuEngine.ts#L257)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L243)
 
 Whether back-face culling is enabled. Defaults to true.
 
@@ -48,7 +48,7 @@ Whether back-face culling is enabled. Defaults to true.
 
 > `optional` **cullFace?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.ts:261](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/webgpuEngine.ts#L261)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:247](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L247)
 
 Which face to cull (1 = back, 2 = front). Defaults to 1 (back).
 
@@ -58,7 +58,7 @@ Which face to cull (1 = back, 2 = front). Defaults to 1 (back).
 
 > `optional` **depthCompare?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.ts:253](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/webgpuEngine.ts#L253)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L239)
 
 The depth comparison function (e.g. Constants.LEQUAL). Defaults to Constants.LEQUAL.
 
@@ -68,7 +68,7 @@ The depth comparison function (e.g. Constants.LEQUAL). Defaults to Constants.LEQ
 
 > `optional` **depthStencilFormat?**: `GPUTextureFormat`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.ts:236](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/webgpuEngine.ts#L236)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L222)
 
 The depth-stencil render target format. Defaults to the engine's current depth format.
 
@@ -78,7 +78,7 @@ The depth-stencil render target format. Defaults to the engine's current depth f
 
 > `optional` **depthTest?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.ts:249](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/webgpuEngine.ts#L249)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:235](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L235)
 
 Whether depth testing is enabled. Defaults to true.
 
@@ -88,7 +88,7 @@ Whether depth testing is enabled. Defaults to true.
 
 > `optional` **depthWrite?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.ts:245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/webgpuEngine.ts#L245)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L231)
 
 Whether depth writing is enabled. Defaults to true.
 
@@ -98,7 +98,7 @@ Whether depth writing is enabled. Defaults to true.
 
 > **effect**: [`Effect`](../classes/Effect.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.ts:216](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/webgpuEngine.ts#L216)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:202](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L202)
 
 The compiled effect (shader stages) for the pipeline.
 
@@ -108,7 +108,7 @@ The compiled effect (shader stages) for the pipeline.
 
 > `optional` **fillMode?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.ts:224](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/webgpuEngine.ts#L224)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L210)
 
 The fill mode / primitive topology. Defaults to Constants.MATERIAL_TriangleFillMode.
 
@@ -118,7 +118,7 @@ The fill mode / primitive topology. Defaults to Constants.MATERIAL_TriangleFillM
 
 > `optional` **frontFace?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.ts:265](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/webgpuEngine.ts#L265)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L251)
 
 Front face winding order (1 = CCW, 2 = CW). Defaults to 2 (CW).
 
@@ -128,7 +128,7 @@ Front face winding order (1 = CCW, 2 = CW). Defaults to 2 (CW).
 
 > **mesh**: [`AbstractMesh`](../classes/AbstractMesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.ts:220](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/webgpuEngine.ts#L220)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:206](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L206)
 
 The mesh whose vertex buffer layout to use.
 
@@ -138,7 +138,7 @@ The mesh whose vertex buffer layout to use.
 
 > `optional` **sampleCount?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.ts:228](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/webgpuEngine.ts#L228)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L214)
 
 The MSAA sample count. Defaults to the engine's current sample count.
 
@@ -148,7 +148,7 @@ The MSAA sample count. Defaults to the engine's current sample count.
 
 > `optional` **stencilEnabled?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.ts:273](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/webgpuEngine.ts#L273)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:259](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L259)
 
 Whether stencil testing is enabled. Defaults to false.
 
@@ -158,6 +158,6 @@ Whether stencil testing is enabled. Defaults to false.
 
 > `optional` **writeMask?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.ts:269](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/webgpuEngine.ts#L269)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:255](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L255)
 
 Color channel write mask (bitmask of RGBA channels). Defaults to 0xF (all channels).

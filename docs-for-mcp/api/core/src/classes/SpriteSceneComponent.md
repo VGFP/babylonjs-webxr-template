@@ -6,7 +6,7 @@
 
 # Class: SpriteSceneComponent
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.ts:298](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteSceneComponent.ts#L298)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteSceneComponent.pure.ts#L27)
 
 Defines the sprite scene component responsible to manage sprites
 in a given scene.
@@ -21,7 +21,7 @@ in a given scene.
 
 > **new SpriteSceneComponent**(`scene`): `SpriteSceneComponent`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.ts:316](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteSceneComponent.ts#L316)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteSceneComponent.pure.ts#L45)
 
 Creates a new instance of the component for the given scene
 
@@ -43,7 +43,7 @@ Defines the scene to register the component in
 
 > `readonly` **name**: `"Sprite"` = `SceneComponentConstants.NAME_SPRITE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.ts:302](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteSceneComponent.ts#L302)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteSceneComponent.pure.ts#L31)
 
 The component name helpfull to identify the component in the list of scene components.
 
@@ -57,7 +57,7 @@ The component name helpfull to identify the component in the list of scene compo
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.ts:307](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteSceneComponent.ts#L307)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteSceneComponent.pure.ts#L36)
 
 The scene the component belongs to.
 
@@ -71,7 +71,7 @@ The scene the component belongs to.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.ts:351](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteSceneComponent.ts#L351)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.pure.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteSceneComponent.pure.ts#L80)
 
 Disposes the component and the associated resources.
 
@@ -89,7 +89,7 @@ Disposes the component and the associated resources.
 
 > **rebuild**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.ts:344](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteSceneComponent.ts#L344)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.pure.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteSceneComponent.pure.ts#L73)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -108,7 +108,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.ts:334](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Sprites/spriteSceneComponent.ts#L334)
+Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteSceneComponent.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteSceneComponent.pure.ts#L63)
 
 Registers the component in a given scene
 

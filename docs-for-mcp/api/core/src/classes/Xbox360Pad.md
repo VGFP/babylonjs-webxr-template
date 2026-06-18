@@ -6,7 +6,7 @@
 
 # Class: Xbox360Pad
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L44)
 
 Defines a XBox360 gamepad
 
@@ -20,7 +20,7 @@ Defines a XBox360 gamepad
 
 > **new Xbox360Pad**(`id`, `index`, `gamepad`, `xboxOne?`): `Xbox360Pad`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L90)
 
 Creates a new XBox360 gamepad object
 
@@ -64,7 +64,7 @@ defines if it is a XBox One gamepad
 
 > **browserGamepad**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L132)
 
 The browser gamepad
 
@@ -78,7 +78,7 @@ The browser gamepad
 
 > **id**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L124)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L124)
 
 The id of the gamepad
 
@@ -92,7 +92,7 @@ The id of the gamepad
 
 > **index**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L128)
 
 The index of the gamepad
 
@@ -106,7 +106,7 @@ The index of the gamepad
 
 > **onButtonDownObservable**: [`Observable`](Observable.md)\<[`Xbox360Button`](../enumerations/Xbox360Button.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L57)
 
 Observable raised when a button is pressed
 
@@ -116,7 +116,7 @@ Observable raised when a button is pressed
 
 > **onButtonUpObservable**: [`Observable`](Observable.md)\<[`Xbox360Button`](../enumerations/Xbox360Button.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L59)
 
 Observable raised when a button is released
 
@@ -126,7 +126,7 @@ Observable raised when a button is released
 
 > **onPadDownObservable**: [`Observable`](Observable.md)\<[`Xbox360Dpad`](../enumerations/Xbox360Dpad.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L61)
 
 Observable raised when a pad is pressed
 
@@ -136,7 +136,7 @@ Observable raised when a pad is pressed
 
 > **onPadUpObservable**: [`Observable`](Observable.md)\<[`Xbox360Dpad`](../enumerations/Xbox360Dpad.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L63)
 
 Observable raised when a pad is released
 
@@ -146,7 +146,7 @@ Observable raised when a pad is released
 
 > **type**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L54)
 
 Specifies what type of gamepad this represents
 
@@ -160,7 +160,7 @@ Specifies what type of gamepad this represents
 
 > `static` **DUALSHOCK**: `number` = `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:96](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L96)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L96)
 
 Represents an Dual Shock controller
 
@@ -174,7 +174,7 @@ Represents an Dual Shock controller
 
 > `static` **GAMEPAD**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L80)
 
 Represents a gamepad controller
 
@@ -188,7 +188,7 @@ Represents a gamepad controller
 
 > `static` **GENERIC**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L84)
 
 Represents a generic controller
 
@@ -202,7 +202,7 @@ Represents a generic controller
 
 > `static` **POSE\_ENABLED**: `number` = `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L92)
 
 Represents a pose-enabled controller
 
@@ -216,7 +216,7 @@ Represents a pose-enabled controller
 
 > `static` **XBOX**: `number` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L88)
 
 Represents an XBox controller
 
@@ -232,7 +232,7 @@ Represents an XBox controller
 
 > **get** **buttonA**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L219)
 
 Gets the value of the `A` button
 
@@ -244,7 +244,7 @@ Gets the value of the `A` button
 
 > **set** **buttonA**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:225](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L225)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L225)
 
 Sets the value of the `A` button
 
@@ -266,7 +266,7 @@ Sets the value of the `A` button
 
 > **get** **buttonB**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:232](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L232)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L232)
 
 Gets the value of the `B` button
 
@@ -278,7 +278,7 @@ Gets the value of the `B` button
 
 > **set** **buttonB**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:238](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L238)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L238)
 
 Sets the value of the `B` button
 
@@ -300,7 +300,7 @@ Sets the value of the `B` button
 
 > **get** **buttonBack**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:284](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L284)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:284](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L284)
 
 Gets the value of the `Back` button
 
@@ -312,7 +312,7 @@ Gets the value of the `Back` button
 
 > **set** **buttonBack**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:290](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L290)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:290](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L290)
 
 Sets the value of the `Back` button
 
@@ -334,7 +334,7 @@ Sets the value of the `Back` button
 
 > **get** **buttonLB**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:298](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L298)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L298)
 
 Gets the value of the `Left` button
 
@@ -346,7 +346,7 @@ Gets the value of the `Left` button
 
 > **set** **buttonLB**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:305](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L305)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:305](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L305)
 
 Sets the value of the `Left` button
 
@@ -368,7 +368,7 @@ Sets the value of the `Left` button
 
 > **get** **buttonLeftStick**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:327](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L327)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:327](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L327)
 
 Gets the value of the Left joystick
 
@@ -380,7 +380,7 @@ Gets the value of the Left joystick
 
 > **set** **buttonLeftStick**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:333](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L333)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:333](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L333)
 
 Sets the value of the Left joystick
 
@@ -402,7 +402,7 @@ Sets the value of the Left joystick
 
 > **get** **buttonRB**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:313](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L313)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:313](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L313)
 
 Gets the value of the `Right` button
 
@@ -414,7 +414,7 @@ Gets the value of the `Right` button
 
 > **set** **buttonRB**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:320](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L320)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:320](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L320)
 
 Sets the value of the `Right` button
 
@@ -436,7 +436,7 @@ Sets the value of the `Right` button
 
 > **get** **buttonRightStick**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:340](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L340)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:340](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L340)
 
 Gets the value of the Right joystick
 
@@ -448,7 +448,7 @@ Gets the value of the Right joystick
 
 > **set** **buttonRightStick**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:346](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L346)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:346](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L346)
 
 Sets the value of the Right joystick
 
@@ -470,7 +470,7 @@ Sets the value of the Right joystick
 
 > **get** **buttonStart**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L271)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:271](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L271)
 
 Gets the value of the `Start` button
 
@@ -482,7 +482,7 @@ Gets the value of the `Start` button
 
 > **set** **buttonStart**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:277](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L277)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:277](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L277)
 
 Sets the value of the `Start` button
 
@@ -504,7 +504,7 @@ Sets the value of the `Start` button
 
 > **get** **buttonX**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L245)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L245)
 
 Gets the value of the `X` button
 
@@ -516,7 +516,7 @@ Gets the value of the `X` button
 
 > **set** **buttonX**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:251](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L251)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L251)
 
 Sets the value of the `X` button
 
@@ -538,7 +538,7 @@ Sets the value of the `X` button
 
 > **get** **buttonY**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:258](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L258)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:258](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L258)
 
 Gets the value of the `Y` button
 
@@ -550,7 +550,7 @@ Gets the value of the `Y` button
 
 > **set** **buttonY**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:264](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L264)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:264](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L264)
 
 Sets the value of the `Y` button
 
@@ -572,7 +572,7 @@ Sets the value of the `Y` button
 
 > **get** **dPadDown**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:366](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L366)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:366](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L366)
 
 Gets the value of D-pad down
 
@@ -584,7 +584,7 @@ Gets the value of D-pad down
 
 > **set** **dPadDown**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:372](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L372)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:372](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L372)
 
 Sets the value of D-pad down
 
@@ -606,7 +606,7 @@ Sets the value of D-pad down
 
 > **get** **dPadLeft**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:379](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L379)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:379](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L379)
 
 Gets the value of D-pad left
 
@@ -618,7 +618,7 @@ Gets the value of D-pad left
 
 > **set** **dPadLeft**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:385](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L385)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:385](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L385)
 
 Sets the value of D-pad left
 
@@ -640,7 +640,7 @@ Sets the value of D-pad left
 
 > **get** **dPadRight**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:392](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L392)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:392](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L392)
 
 Gets the value of D-pad right
 
@@ -652,7 +652,7 @@ Gets the value of D-pad right
 
 > **set** **dPadRight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:398](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L398)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:398](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L398)
 
 Sets the value of D-pad right
 
@@ -674,7 +674,7 @@ Sets the value of D-pad right
 
 > **get** **dPadUp**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:353](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L353)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:353](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L353)
 
 Gets the value of D-pad up
 
@@ -686,7 +686,7 @@ Gets the value of D-pad up
 
 > **set** **dPadUp**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:359](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L359)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:359](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L359)
 
 Sets the value of D-pad up
 
@@ -708,7 +708,7 @@ Sets the value of D-pad up
 
 > **get** **isConnected**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L106)
 
 Specifies if the gamepad has been connected
 
@@ -728,7 +728,7 @@ Specifies if the gamepad has been connected
 
 > **get** **leftStick**(): [`StickValues`](StickValues.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L170)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L170)
 
 Gets the left joystick
 
@@ -740,7 +740,7 @@ Gets the left joystick
 
 > **set** **leftStick**(`newValues`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L176)
 
 Sets the left joystick values
 
@@ -766,7 +766,7 @@ Sets the left joystick values
 
 > **get** **leftTrigger**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L115)
 
 Gets the left trigger value
 
@@ -778,7 +778,7 @@ Gets the left trigger value
 
 > **set** **leftTrigger**(`newValue`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:121](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L121)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L121)
 
 Sets the left trigger value
 
@@ -800,7 +800,7 @@ Sets the left trigger value
 
 > **get** **rightStick**(): [`StickValues`](StickValues.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L185)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L185)
 
 Gets the right joystick
 
@@ -812,7 +812,7 @@ Gets the right joystick
 
 > **set** **rightStick**(`newValues`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L191)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:191](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L191)
 
 Sets the right joystick value
 
@@ -838,7 +838,7 @@ Sets the right joystick value
 
 > **get** **rightTrigger**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:131](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L131)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L131)
 
 Gets the right trigger value
 
@@ -850,7 +850,7 @@ Gets the right trigger value
 
 > **set** **rightTrigger**(`newValue`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L137)
 
 Sets the right trigger value
 
@@ -870,7 +870,7 @@ Sets the right trigger value
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:447](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L447)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:447](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L447)
 
 Disposes the gamepad
 
@@ -888,7 +888,7 @@ Disposes the gamepad
 
 > **onbuttondown**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:148](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L148)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L148)
 
 Defines the callback to call when a button is pressed
 
@@ -910,7 +910,7 @@ defines the callback to use
 
 > **onbuttonup**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:156](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L156)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L156)
 
 Defines the callback to call when a button is released
 
@@ -932,7 +932,7 @@ defines the callback to use
 
 > **ondpaddown**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:164](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L164)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:164](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L164)
 
 Defines the callback to call when a pad is pressed
 
@@ -954,7 +954,7 @@ defines the callback to use
 
 > **ondpadup**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:172](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L172)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L172)
 
 Defines the callback to call when a pad is released
 
@@ -976,7 +976,7 @@ defines the callback to use
 
 > **onleftstickchanged**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L155)
 
 Callback triggered when the left joystick has changed
 
@@ -1002,7 +1002,7 @@ callback to trigger
 
 > **onlefttriggerchanged**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L100)
 
 Defines the callback to call when left trigger is pressed
 
@@ -1024,7 +1024,7 @@ defines the callback to use
 
 > **onrightstickchanged**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:163](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/gamepad.ts#L163)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/gamepad.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/gamepad.ts#L163)
 
 Callback triggered when the right joystick has changed
 
@@ -1050,7 +1050,7 @@ callback to trigger
 
 > **onrighttriggerchanged**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:108](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L108)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L108)
 
 Defines the callback to call when right trigger is pressed
 
@@ -1072,7 +1072,7 @@ defines the callback to use
 
 > **update**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:405](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Gamepads/xboxGamepad.ts#L405)
+Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/xboxGamepad.ts:405](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/xboxGamepad.ts#L405)
 
 Force the gamepad to synchronize with device values
 

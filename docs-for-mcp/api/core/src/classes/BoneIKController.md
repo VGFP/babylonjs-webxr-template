@@ -6,7 +6,7 @@
 
 # Class: BoneIKController
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneIKController.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneIKController.ts#L12)
 
 Class used to apply inverse kinematics to bones
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/bonesSkeletons#boneikco
 
 > **new BoneIKController**(`mesh`, `bone`, `options?`): `BoneIKController`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneIKController.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneIKController.ts#L107)
 
 Creates a new BoneIKController
 
@@ -84,7 +84,7 @@ defines options to set up the controller
 
 > **mesh**: [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneIKController.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneIKController.ts#L55)
 
 Gets or sets the TransformNode associated with the controller
 Name kept as mesh for back compatibility
@@ -95,7 +95,7 @@ Name kept as mesh for back compatibility
 
 > **poleAngle**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneIKController.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneIKController.ts#L49)
 
 Gets or sets the pole angle
 
@@ -105,7 +105,7 @@ Gets or sets the pole angle
 
 > **poleTargetBone**: [`Nullable`](../type-aliases/Nullable.md)\<[`Bone`](Bone.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneIKController.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneIKController.ts#L29)
 
 Gets or sets the bone used as pole
 
@@ -115,7 +115,7 @@ Gets or sets the bone used as pole
 
 > **poleTargetLocalOffset**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneIKController.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneIKController.ts#L44)
 
 Gets or sets the pole target local offset
 
@@ -125,7 +125,7 @@ Gets or sets the pole target local offset
 
 > **poleTargetMesh**: [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneIKController.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneIKController.ts#L24)
 
 Gets or sets the mesh used as pole
 
@@ -135,7 +135,7 @@ Gets or sets the mesh used as pole
 
 > **poleTargetPosition**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneIKController.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneIKController.ts#L39)
 
 Gets or sets the pole target position
 
@@ -145,7 +145,7 @@ Gets or sets the pole target position
 
 > **slerpAmount**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneIKController.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneIKController.ts#L60)
 
 The amount to slerp (spherical linear interpolation) to the target.  Set this to a value between 0 and 1 (a value of 1 disables slerp)
 
@@ -155,7 +155,7 @@ The amount to slerp (spherical linear interpolation) to the target.  Set this to
 
 > **targetMesh**: [`TransformNode`](TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneIKController.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneIKController.ts#L21)
 
 Gets or sets the target TransformNode
 Name kept as mesh for back compatibility
@@ -166,7 +166,7 @@ Name kept as mesh for back compatibility
 
 > **targetPosition**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneIKController.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneIKController.ts#L34)
 
 Gets or sets the target position
 
@@ -178,7 +178,7 @@ Gets or sets the target position
 
 > **get** **maxAngle**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneIKController.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneIKController.ts#L85)
 
 Gets or sets maximum allowed angle
 
@@ -190,7 +190,7 @@ Gets or sets maximum allowed angle
 
 > **set** **maxAngle**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneIKController.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneIKController.ts#L89)
 
 ##### Parameters
 
@@ -208,7 +208,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:89
 
 > **update**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:242](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Bones/boneIKController.ts#L242)
+Defined in: [babylonjs-source/packages/dev/core/src/Bones/boneIKController.ts:242](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Bones/boneIKController.ts#L242)
 
 Force the controller to update the bones
 

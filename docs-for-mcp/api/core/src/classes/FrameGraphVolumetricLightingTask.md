@@ -6,7 +6,7 @@
 
 # Class: FrameGraphVolumetricLightingTask
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L17)
 
 A frame graph task that performs volumetric lighting.
 
@@ -20,7 +20,7 @@ A frame graph task that performs volumetric lighting.
 
 > **new FrameGraphVolumetricLightingTask**(`name`, `frameGraph`, `enableExtinction?`): `FrameGraphVolumetricLightingTask`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:169](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L169)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L169)
 
 Creates a new FrameGraphVolumetricLightingTask.
 
@@ -58,7 +58,7 @@ Whether to enable extinction in the volumetric lighting effect (default: false).
 
 > `optional` **dependencies?**: `Set`\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
 
 The (texture) dependencies of the task (optional).
 
@@ -72,7 +72,7 @@ The (texture) dependencies of the task (optional).
 
 > **depthTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L42)
 
 The depth texture used for volumetric lighting calculations.
 It must be the depth texture used to generate targetTexture.
@@ -83,7 +83,7 @@ It must be the depth texture used to generate targetTexture.
 
 > `readonly` **enableExtinction**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L99)
 
 Whether to enable extinction in the volumetric lighting effect (default: false).
 Read-only property set in the constructor.
@@ -94,7 +94,7 @@ Read-only property set in the constructor.
 
 > **light**: [`DirectionalLight`](DirectionalLight.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L70)
 
 The directional light used for volumetric lighting.
 
@@ -104,7 +104,7 @@ The directional light used for volumetric lighting.
 
 > **lightingVolumeMesh**: [`FrameGraphObjectList`](FrameGraphObjectList.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L65)
 
 The mesh representing the lighting volume.
 This is the mesh that will be rendered to create the volumetric lighting effect.
@@ -115,7 +115,7 @@ This is the mesh that will be rendered to create the volumetric lighting effect.
 
 > `optional` **lightingVolumeTexture?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L77)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L77)
 
 The lighting volume texture (optional).
 If not provided, a new texture will be created, with the same size, format and type as targetTexture.
@@ -127,7 +127,7 @@ This is the texture that will store the volumetric lighting information, before 
 
 > **onAfterTaskExecute**: [`Observable`](Observable.md)\<[`FrameGraphTask`](FrameGraphTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
 
 An observable that is triggered after the task is executed.
 
@@ -141,7 +141,7 @@ An observable that is triggered after the task is executed.
 
 > **onBeforeTaskExecute**: [`Observable`](Observable.md)\<[`FrameGraphTask`](FrameGraphTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
 
 An observable that is triggered before the task is executed.
 
@@ -155,7 +155,7 @@ An observable that is triggered before the task is executed.
 
 > **onTexturesAllocatedObservable**: [`Observable`](Observable.md)\<[`FrameGraphRenderContext`](FrameGraphRenderContext.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
 
 An observable that is triggered after the textures have been allocated.
 
@@ -169,7 +169,7 @@ An observable that is triggered after the textures have been allocated.
 
 > `readonly` **outputTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:156](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L156)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L156)
 
 The output texture of the task. It will be the same as targetTexture.
 
@@ -179,7 +179,7 @@ The output texture of the task. It will be the same as targetTexture.
 
 > **sourceSamplingMode**: `number` = `Constants.TEXTURE_BILINEAR_SAMPLINGMODE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L36)
 
 The sampling mode to use when blending the volumetric lighting texture with targetTexture.
 
@@ -189,7 +189,7 @@ The sampling mode to use when blending the volumetric lighting texture with targ
 
 > **targetTexture**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L31)
 
 The target texture to which the volumetric lighting will be applied.
 
@@ -201,7 +201,7 @@ The target texture to which the volumetric lighting will be applied.
 
 > **get** **camera**(): [`Camera`](Camera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L48)
 
 The camera used for volumetric lighting calculations.
 
@@ -213,7 +213,7 @@ The camera used for volumetric lighting calculations.
 
 > **set** **camera**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L52)
 
 ##### Parameters
 
@@ -233,7 +233,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcess
 
 > **get** **disabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L43)
 
 Whether the task is disabled.
 
@@ -245,7 +245,7 @@ Whether the task is disabled.
 
 > **set** **disabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L47)
 
 ##### Parameters
 
@@ -269,7 +269,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts
 
 > **get** **extinction**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L106)
 
 The extinction coefficient for the volumetric lighting effect (default: (0, 0, 0) - no extinction).
 This parameter controls how much light is absorbed and scattered as it travels through the medium.
@@ -283,7 +283,7 @@ Will only have an effect if enableExtinction is set to true in the constructor!
 
 > **set** **extinction**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:110](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L110)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L110)
 
 ##### Parameters
 
@@ -303,7 +303,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcess
 
 > **get** **lightPower**(): [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L124)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L124)
 
 The light power/color for the volumetric lighting effect (default: (1, 1, 1)).
 This parameter controls the intensity and color of the light used for volumetric lighting.
@@ -316,7 +316,7 @@ This parameter controls the intensity and color of the light used for volumetric
 
 > **set** **lightPower**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L128)
 
 ##### Parameters
 
@@ -336,7 +336,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcess
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L133)
 
 The name of the task.
 
@@ -348,7 +348,7 @@ The name of the task.
 
 > **set** **name**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:137](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L137)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L137)
 
 The name of the task.
 
@@ -374,7 +374,7 @@ The name of the task.
 
 > **get** **passes**(): [`IFrameGraphPass`](../interfaces/IFrameGraphPass.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
 
 Gets the passes of the task.
 
@@ -394,7 +394,7 @@ Gets the passes of the task.
 
 > **get** **passesDisabled**(): [`IFrameGraphPass`](../interfaces/IFrameGraphPass.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
 
 Gets the disabled passes of the task.
 
@@ -414,7 +414,7 @@ Gets the disabled passes of the task.
 
 > **get** **phaseG**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L86)
 
 The phase G parameter for the volumetric lighting effect (default: 0).
 This parameter controls the anisotropy of the scattering.
@@ -428,7 +428,7 @@ A value of 0 means isotropic scattering, while a value of 1 means forward scatte
 
 > **set** **phaseG**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L90)
 
 ##### Parameters
 
@@ -446,7 +446,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcess
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:305](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L305)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:305](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L305)
 
 Disposes of the task.
 
@@ -464,7 +464,7 @@ Disposes of the task.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:231](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L231)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L231)
 
 Gets the current class name
 
@@ -484,7 +484,7 @@ the class name
 
 > **initAsync**(): `Promise`\<`unknown`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:214](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L214)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L214)
 
 This function is called once after the task has been added to the frame graph and before the frame graph is built for the first time.
 This allows you to initialize asynchronous resources, which is not possible in the constructor.
@@ -505,7 +505,7 @@ A promise that resolves when the initialization is complete.
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L222)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L222)
 
 Checks if the task is ready to be executed.
 
@@ -525,7 +525,7 @@ True if the task is ready to be executed, else false.
 
 > **record**(`skipCreationOfDisabledPasses?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:235](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L235)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:235](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L235)
 
 Records the task in the frame graph. Use this function to add content (render passes, ...) to the task.
 
@@ -551,7 +551,7 @@ If true, the disabled passe(s) won't be created.
 
 > `static` **IsSupported**(`engine`, `enableExtinction?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/PostProcesses/volumetricLightingTask.ts#L24)
 
 Returns whether volumetric lighting is supported by the engine.
 

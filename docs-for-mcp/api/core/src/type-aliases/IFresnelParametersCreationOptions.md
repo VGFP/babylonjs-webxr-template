@@ -8,7 +8,7 @@
 
 > **IFresnelParametersCreationOptions** = `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/fresnelParameters.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/fresnelParameters.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/fresnelParameters.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/fresnelParameters.pure.ts#L14)
 
 Options to be used when creating a FresnelParameters.
 
@@ -18,7 +18,7 @@ Options to be used when creating a FresnelParameters.
 
 > `optional` **bias?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/fresnelParameters.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/fresnelParameters.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/fresnelParameters.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/fresnelParameters.pure.ts#L28)
 
 Define bias applied to computed fresnel term
 
@@ -28,7 +28,7 @@ Define bias applied to computed fresnel term
 
 > `optional` **isEnabled?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/fresnelParameters.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/fresnelParameters.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/fresnelParameters.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/fresnelParameters.pure.ts#L38)
 
 Define if the fresnel effect is enable or not.
 
@@ -38,7 +38,7 @@ Define if the fresnel effect is enable or not.
 
 > `optional` **leftColor?**: [`Color3`](../classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/fresnelParameters.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/fresnelParameters.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/fresnelParameters.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/fresnelParameters.pure.ts#L18)
 
 Define the color used on edges (grazing angle)
 
@@ -48,7 +48,7 @@ Define the color used on edges (grazing angle)
 
 > `optional` **power?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/fresnelParameters.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/fresnelParameters.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/fresnelParameters.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/fresnelParameters.pure.ts#L33)
 
 Defined the power exponent applied to fresnel term
 
@@ -58,6 +58,6 @@ Defined the power exponent applied to fresnel term
 
 > `optional` **rightColor?**: [`Color3`](../classes/Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/fresnelParameters.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/fresnelParameters.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/fresnelParameters.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/fresnelParameters.pure.ts#L23)
 
 Define the color used on center

@@ -6,7 +6,7 @@
 
 # Class: DracoCompression
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L62)
 
 Draco compression (https://google.github.io/draco/)
 
@@ -51,7 +51,7 @@ https://playground.babylonjs.com/#DMZIBD#0
 
 > **new DracoCompression**(`numWorkersOrOptions?`): `DracoCompression`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L127)
 
 Creates a new DracoCompression object.
 
@@ -75,7 +75,7 @@ Overrides for the Configuration. Either:
 
 > `static` **DefaultNumWorkers**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L95)
 
 Default number of workers to create when creating the draco compression object.
 
@@ -87,7 +87,7 @@ Default number of workers to create when creating the draco compression object.
 
 > **get** `static` **Configuration**(): [`IDracoCompressionConfiguration`](../interfaces/IDracoCompressionConfiguration.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L71)
 
 The configuration. Defaults to the following urls:
 - wasmUrl: "https://cdn.babylonjs.com/draco_wasm_wrapper_gltf.js"
@@ -102,7 +102,7 @@ The configuration. Defaults to the following urls:
 
 > **set** `static` **Configuration**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:81](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L81)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L81)
 
 ##### Parameters
 
@@ -122,7 +122,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoComp
 
 > **get** `static` **DecoderAvailable**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L88)
 
 Returns true if the decoder configuration is available.
 
@@ -138,7 +138,7 @@ Returns true if the decoder configuration is available.
 
 > **get** `static` **Default**(): `DracoCompression`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L101)
 
 Default instance for the DracoCompression.
 
@@ -152,7 +152,7 @@ Default instance for the DracoCompression.
 
 > **decodeMeshAsync**(`data`, `attributes?`): `Promise`\<[`VertexData`](VertexData.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:197](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L197)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L197)
 
 Decode Draco compressed mesh data to Babylon vertex data.
 
@@ -184,7 +184,7 @@ Use [decodeMeshToGeometryAsync](#decodemeshtogeometryasync) for better performan
 
 > **decodeMeshToGeometryAsync**(`name`, `scene`, `data`, `attributes?`): `Promise`\<[`Geometry`](Geometry.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:174](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L174)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L174)
 
 Decode Draco compressed mesh data to Babylon geometry.
 
@@ -224,7 +224,7 @@ A promise that resolves with the decoded geometry
 
 > **decodeMeshToMeshDataAsync**(`data`, `attributes?`, `gltfNormalizedOverride?`): `Promise`\<`MeshData`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:158](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L158)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L158)
 
 Decode Draco compressed mesh data to mesh data.
 
@@ -256,7 +256,7 @@ A promise that resolves with the decoded mesh data
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L138)
 
 Stop all async operations and release resources.
 
@@ -270,7 +270,7 @@ Stop all async operations and release resources.
 
 > **whenReadyAsync**(): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L146)
 
 Returns a promise that resolves when ready. Call this manually to ensure draco compression is ready before use.
 
@@ -286,7 +286,7 @@ a promise that resolves when ready
 
 > `static` **ResetDefault**(`skipDispose?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L112)
 
 Reset the default draco compression object to null and disposing the removed default instance.
 Note that if the workerPool is a member of the static Configuration object it is recommended not to run dispose,

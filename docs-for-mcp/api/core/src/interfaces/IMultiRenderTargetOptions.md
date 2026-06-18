@@ -6,7 +6,7 @@
 
 # Interface: IMultiRenderTargetOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L14)
 
 Creation options of the multi render target texture.
 
@@ -16,7 +16,7 @@ Creation options of the multi render target texture.
 
 > `optional` **createMipMaps?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L18)
 
 Specifies if mipmaps must be created. If undefined, the value from generateMipMaps is taken instead
 
@@ -26,7 +26,7 @@ Specifies if mipmaps must be created. If undefined, the value from generateMipMa
 
 > `optional` **creationFlags?**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L99)
 
 Define the creation flags of the textures (Constants.TEXTURE_CREATIONFLAG_STORAGE for storage textures, for eg)
 
@@ -36,7 +36,7 @@ Define the creation flags of the textures (Constants.TEXTURE_CREATIONFLAG_STORAG
 
 > `optional` **defaultType?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L66)
 
 Define the default type of the buffers we are creating (default: Constants.TEXTURETYPE_UNSIGNED_BYTE). types[] is prioritized over defaultType if provided.
 
@@ -46,7 +46,7 @@ Define the default type of the buffers we are creating (default: Constants.TEXTU
 
 > `optional` **depthTextureFormat?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L54)
 
 Define depth texture format to use
 
@@ -56,7 +56,7 @@ Define depth texture format to use
 
 > `optional` **doNotChangeAspectRatio?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L62)
 
 Define if aspect ratio should be adapted to the texture or stay the scene one (default: true)
 
@@ -66,7 +66,7 @@ Define if aspect ratio should be adapted to the texture or stay the scene one (d
 
 > `optional` **dontCreateTextures?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L112)
 
 Define if the textures should not be created by the MultiRenderTarget (default: false)
 If true, you will need to set the textures yourself by calling setTexture on the MultiRenderTarget.
@@ -77,7 +77,7 @@ If true, you will need to set the textures yourself by calling setTexture on the
 
 > `optional` **drawOnlyOnFirstAttachmentByDefault?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L74)
 
 Defines if we should draw into all attachments or the first one only by default (default: false)
 
@@ -87,7 +87,7 @@ Defines if we should draw into all attachments or the first one only by default 
 
 > `optional` **faceIndex?**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L86)
 
 Define the face index of each texture in the textures array (if applicable, given the corresponding targetType) at creation time (for Constants.TEXTURE_CUBE_MAP and .TEXTURE_CUBE_MAP_ARRAY).
 Can be changed at any time by calling setLayerAndFaceIndices or setLayerAndFaceIndex
@@ -98,7 +98,7 @@ Can be changed at any time by calling setLayerAndFaceIndices or setLayerAndFaceI
 
 > `optional` **formats?**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L50)
 
 Define the internal format of the buffer in the RTT (RED, RG, RGB, RGBA (default), ALPHA...) of all the draw buffers (render textures) we want to create
 
@@ -108,7 +108,7 @@ Define the internal format of the buffer in the RTT (RED, RG, RGB, RGBA (default
 
 > `optional` **generateDepthBuffer?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L38)
 
 Define if a depth buffer is required (default: true)
 
@@ -118,7 +118,7 @@ Define if a depth buffer is required (default: true)
 
 > `optional` **generateDepthTexture?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L46)
 
 Define if a depth texture is required instead of a depth buffer (default: false)
 
@@ -128,7 +128,7 @@ Define if a depth texture is required instead of a depth buffer (default: false)
 
 > `optional` **generateMipMaps?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L22)
 
 Define if the texture needs to create mip maps after render (default: false).
 
@@ -138,7 +138,7 @@ Define if the texture needs to create mip maps after render (default: false).
 
 > `optional` **generateStencilBuffer?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L42)
 
 Define if a stencil buffer is required (default: false)
 
@@ -148,7 +148,7 @@ Define if a stencil buffer is required (default: false)
 
 > `optional` **label?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L107)
 
 Label of the RenderTargetWrapper (used for debugging only)
 
@@ -158,7 +158,7 @@ Label of the RenderTargetWrapper (used for debugging only)
 
 > `optional` **labels?**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L103)
 
 Define the names of the textures (used for debugging purpose)
 
@@ -168,7 +168,7 @@ Define the names of the textures (used for debugging purpose)
 
 > `optional` **layerCounts?**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L95)
 
 Define the number of layer of each texture in the textures array (if applicable, given the corresponding targetType) (for Constants.TEXTURE_3D, .TEXTURE_2D_ARRAY, and .TEXTURE_CUBE_MAP_ARRAY)
 
@@ -178,7 +178,7 @@ Define the number of layer of each texture in the textures array (if applicable,
 
 > `optional` **layerIndex?**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L91)
 
 Define the layer index of each texture in the textures array (if applicable, given the corresponding targetType) at creation time (for Constants.TEXTURE_3D, .TEXTURE_2D_ARRAY, and .TEXTURE_CUBE_MAP_ARRAY).
 Can be changed at any time by calling setLayerAndFaceIndices or setLayerAndFaceIndex
@@ -189,7 +189,7 @@ Can be changed at any time by calling setLayerAndFaceIndices or setLayerAndFaceI
 
 > `optional` **samples?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L70)
 
 Defines sample count (1 by default)
 
@@ -199,7 +199,7 @@ Defines sample count (1 by default)
 
 > `optional` **samplingModes?**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L30)
 
 Define the sampling modes of all the draw buffers (render textures) we want to create
 
@@ -209,7 +209,7 @@ Define the sampling modes of all the draw buffers (render textures) we want to c
 
 > `optional` **targetTypes?**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L81)
 
 Define the type of texture at each attahment index (of Constants.TEXTURE_2D, .TEXTURE_2D_ARRAY, .TEXTURE_CUBE_MAP, .TEXTURE_CUBE_MAP_ARRAY, .TEXTURE_3D).
 You can also use the -1 value to indicate that no texture should be created but that you will assign a texture to that attachment index later.
@@ -222,7 +222,7 @@ method for that purpose, after the MultiRenderTarget has been created.
 
 > `optional` **textureCount?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L58)
 
 Define the number of desired draw buffers (render textures). You can set it to 0 if you don't need any color attachment. (default: 1)
 
@@ -232,7 +232,7 @@ Define the number of desired draw buffers (render textures). You can set it to 0
 
 > `optional` **types?**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L26)
 
 Define the types of all the draw buffers (render textures) we want to create
 
@@ -242,6 +242,6 @@ Define the types of all the draw buffers (render textures) we want to create
 
 > `optional` **useSRGBBuffers?**: `boolean`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/multiRenderTarget.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/multiRenderTarget.pure.ts#L34)
 
 Define if sRGB format should be used for each of the draw buffers (render textures) we want to create

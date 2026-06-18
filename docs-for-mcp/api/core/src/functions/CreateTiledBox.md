@@ -8,7 +8,7 @@
 
 > **CreateTiledBox**(`name`, `options`, `scene?`): [`Mesh`](../classes/Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/tiledBoxBuilder.ts:242](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/tiledBoxBuilder.ts#L242)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/tiledBoxBuilder.ts:242](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/tiledBoxBuilder.ts#L242)
 
 Creates a tiled box mesh
 

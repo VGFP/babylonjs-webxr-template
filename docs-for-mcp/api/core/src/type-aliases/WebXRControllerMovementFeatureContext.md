@@ -8,7 +8,7 @@
 
 > **WebXRControllerMovementFeatureContext** = `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L74)
 
 Feature context is used in handlers and on each XR frame to control the camera movement/direction.
 
@@ -18,7 +18,7 @@ Feature context is used in handlers and on each XR frame to control the camera m
 
 > **movementEnabled**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L75)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerM
 
 > **movementOrientationFollowsController**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L77)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerM
 
 > **movementOrientationFollowsViewerPose**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L76)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerM
 
 > **movementSpeed**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L79)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerM
 
 > **movementThreshold**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L77)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L80)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerM
 
 > `optional` **orientationPreferredHandedness?**: `XRHandedness`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L78)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerM
 
 > **rotationEnabled**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L81)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerM
 
 > **rotationSpeed**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:79](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L79)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L82)
 
 ***
 
@@ -82,4 +82,4 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerM
 
 > **rotationThreshold**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerMovement.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L83)

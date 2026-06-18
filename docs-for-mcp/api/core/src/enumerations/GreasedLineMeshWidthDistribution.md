@@ -6,7 +6,7 @@
 
 # Enumeration: GreasedLineMeshWidthDistribution
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts#L51)
 
 How are the widths distributed along the width table
 [https://doc.babylonjs.com/features/featuresDeepDive/mesh/creation/param/greased\_line#widths-and-widthdistribution](https://doc.babylonjs.com/features/featuresDeepDive/mesh/creation/param/greased_line#widths-and-widthdistribution)
@@ -17,7 +17,7 @@ How are the widths distributed along the width table
 
 > **WIDTH\_DISTRIBUTION\_END**: `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts#L71)
 
 Put the widths to the end of the width table and fill the rest with the default width
 
@@ -27,7 +27,7 @@ Put the widths to the end of the width table and fill the rest with the default 
 
 > **WIDTH\_DISTRIBUTION\_EVEN**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts#L63)
 
 Distribute the widths evenly through the width table
 
@@ -37,7 +37,7 @@ Distribute the widths evenly through the width table
 
 > **WIDTH\_DISTRIBUTION\_NONE**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts#L55)
 
 Do no modify the width table
 
@@ -47,7 +47,7 @@ Do no modify the width table
 
 > **WIDTH\_DISTRIBUTION\_REPEAT**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts#L59)
 
 Repeat the widths until the width table is full
 
@@ -57,7 +57,7 @@ Repeat the widths until the width table is full
 
 > **WIDTH\_DISTRIBUTION\_START**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts#L67)
 
 Put the widths to start of the width table a fill the rest with the default width
 
@@ -67,6 +67,6 @@ Put the widths to start of the width table a fill the rest with the default widt
 
 > **WIDTH\_DISTRIBUTION\_START\_END**: `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts#L75)
 
 Put the widths to start and to the end of the width table and fill the gap between with the default width

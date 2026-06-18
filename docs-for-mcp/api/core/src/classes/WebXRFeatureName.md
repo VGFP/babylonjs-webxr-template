@@ -6,7 +6,7 @@
 
 # Class: WebXRFeatureName
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L98)
 
 A list of the currently available features without referencing them
 
@@ -26,7 +26,7 @@ A list of the currently available features without referencing them
 
 > `readonly` `static` **ANCHOR\_SYSTEM**: `"xr-anchor-system"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L102)
 
 The name of the anchor system feature
 
@@ -36,7 +36,7 @@ The name of the anchor system feature
 
 > `readonly` `static` **BACKGROUND\_REMOVER**: `"xr-background-remover"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L106)
 
 The name of the background remover feature
 
@@ -46,7 +46,7 @@ The name of the background remover feature
 
 > `readonly` `static` **BODY\_TRACKING**: `"xr-body-tracking"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:186](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L186)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:186](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L186)
 
 The name of the body tracking feature
 
@@ -56,7 +56,7 @@ The name of the body tracking feature
 
 > `readonly` `static` **DEPTH\_SENSING**: `"xr-depth-sensing"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:174](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L174)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L174)
 
 The name of the depth sensing feature
 
@@ -66,7 +66,7 @@ The name of the depth sensing feature
 
 > `readonly` `static` **DOM\_OVERLAY**: `"xr-dom-overlay"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L150)
 
 The name of the DOM overlay feature
 
@@ -76,7 +76,7 @@ The name of the DOM overlay feature
 
 > `readonly` `static` **EYE\_TRACKING**: `"xr-eye-tracking"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:162](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L162)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L162)
 
 The name of the eye tracking feature
 
@@ -86,7 +86,7 @@ The name of the eye tracking feature
 
 > `readonly` `static` **FEATURE\_POINTS**: `"xr-feature-points"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L134)
 
 The name of the feature points feature.
 
@@ -96,7 +96,7 @@ The name of the feature points feature.
 
 > `readonly` `static` **HAND\_TRACKING**: `"xr-hand-tracking"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L138)
 
 The name of the hand tracking feature.
 
@@ -106,7 +106,7 @@ The name of the hand tracking feature.
 
 > `readonly` `static` **HIT\_TEST**: `"xr-hit-test"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:110](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L110)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L110)
 
 The name of the hit test feature
 
@@ -116,7 +116,7 @@ The name of the hit test feature
 
 > `readonly` `static` **IMAGE\_TRACKING**: `"xr-image-tracking"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:142](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L142)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L142)
 
 The name of the image tracking feature
 
@@ -126,7 +126,7 @@ The name of the image tracking feature
 
 > `readonly` `static` **LAYERS**: `"xr-layers"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L170)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L170)
 
 The name of the composition layers feature
 
@@ -136,7 +136,7 @@ The name of the composition layers feature
 
 > `readonly` `static` **LIGHT\_ESTIMATION**: `"xr-light-estimation"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:158](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L158)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L158)
 
 The name of the light estimation feature
 
@@ -146,7 +146,7 @@ The name of the light estimation feature
 
 > `readonly` `static` **MESH\_DETECTION**: `"xr-mesh-detection"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:114](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L114)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L114)
 
 The name of the mesh detection feature
 
@@ -156,7 +156,7 @@ The name of the mesh detection feature
 
 > `readonly` `static` **MOVEMENT**: `"xr-controller-movement"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:154](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L154)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:154](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L154)
 
 The name of the movement feature
 
@@ -166,7 +166,7 @@ The name of the movement feature
 
 > `readonly` `static` **NEAR\_INTERACTION**: `"xr-near-interaction"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L146)
 
 The name of the near interaction feature
 
@@ -176,7 +176,7 @@ The name of the near interaction feature
 
 > `readonly` `static` **PHYSICS\_CONTROLLERS**: `"xr-physics-controller"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L118)
 
 physics impostors for xr controllers feature
 
@@ -186,7 +186,7 @@ physics impostors for xr controllers feature
 
 > `readonly` `static` **PLANE\_DETECTION**: `"xr-plane-detection"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L122)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L122)
 
 The name of the plane detection feature
 
@@ -196,7 +196,7 @@ The name of the plane detection feature
 
 > `readonly` `static` **POINTER\_SELECTION**: `"xr-controller-pointer-selection"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L126)
 
 The name of the pointer selection feature
 
@@ -206,7 +206,7 @@ The name of the pointer selection feature
 
 > `readonly` `static` **RAW\_CAMERA\_ACCESS**: `"xr-raw-camera-access"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:182](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L182)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L182)
 
 The name of the WebXR Raw Camera Access feature
 
@@ -216,7 +216,7 @@ The name of the WebXR Raw Camera Access feature
 
 > `readonly` `static` **SPACE\_WARP**: `"xr-space-warp"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L178)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L178)
 
 The name of the WebXR Space Warp feature
 
@@ -226,7 +226,7 @@ The name of the WebXR Space Warp feature
 
 > `readonly` `static` **TELEPORTATION**: `"xr-controller-teleportation"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L130)
 
 The name of the teleportation feature
 
@@ -236,6 +236,6 @@ The name of the teleportation feature
 
 > `readonly` `static` **WALKING\_LOCOMOTION**: `"xr-walking-locomotion"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:166](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L166)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L166)
 
 The name of the walking locomotion feature

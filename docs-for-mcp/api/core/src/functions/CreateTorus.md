@@ -8,7 +8,7 @@
 
 > **CreateTorus**(`name`, `options?`, `scene?`): [`Mesh`](../classes/Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/torusBuilder.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/torusBuilder.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/torusBuilder.pure.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/torusBuilder.pure.ts#L102)
 
 Creates a torus mesh
 * The parameter `diameter` sets the diameter size (float) of the torus (default 1)

@@ -9,26 +9,26 @@ importers:
   .:
     dependencies:
       '@babylonjs/addons':
-        specifier: ^9.7.0
-        version: 9.7.0(@babylonjs/core@9.7.0)
+        specifier: ^9.13.0
+        version: 9.13.0(@babylonjs/core@9.13.0)
       '@babylonjs/core':
-        specifier: ^9.7.0
-        version: 9.7.0
+        specifier: ^9.13.0
+        version: 9.13.0
       '@babylonjs/gui':
-        specifier: ^9.7.0
-        version: 9.7.0(@babylonjs/core@9.7.0)
+        specifier: ^9.13.0
+        version: 9.13.0(@babylonjs/core@9.13.0)
       '@babylonjs/havok':
         specifier: ^1.3.12
         version: 1.3.12
       '@babylonjs/inspector':
-        specifier: ^9.7.0
-        version: 9.7.0(43fb65a0a99728005a0ead3eae46c9d7)
+        specifier: ^9.13.0
+        version: 9.13.0(3d286661118a2e999ded0cf461f57cdd)
       '@babylonjs/loaders':
-        specifier: ^9.7.0
-        version: 9.7.0(@babylonjs/core@9.7.0)(babylonjs-gltf2interface@9.7.0)
+        specifier: ^9.13.0
+        version: 9.13.0(@babylonjs/core@9.13.0)(babylonjs-gltf2interface@9.7.0)
       '@babylonjs/materials':
-        specifier: ^9.7.0
-        version: 9.7.0(@babylonjs/core@9.7.0)
+        specifier: ^9.13.0
+        version: 9.13.0(@babylonjs/core@9.13.0)
       '@colyseus/schema':
         specifier: 4.0.26
         version: 4.0.26(typescript@5.9.3)
@@ -66,6 +66,9 @@ importers:
       concurrently:
         specifier: ^10.0.3
         version: 10.0.3
+      cross-env:
+        specifier: ^10.1.0
+        version: 10.1.0
       eslint:
         specifier: ^10.4.1
         version: 10.4.1
@@ -106,13 +109,13 @@ packages:
     resolution: {integrity: sha512-JiDShH45zKHWyGe4ZNVRrCjBz8Nh9TMmZG1kh4QTK8hCBTWBi8Da+i7s1fJw7/lYpM4ccepSNfqzZ/QvABBi5g==}
     engines: {node: '>=6.9.0'}
 
-  '@babylonjs/addons@9.7.0':
-    resolution: {integrity: sha512-fvqzXaCU0tEiH5VoUWeOFr9sr+354Zx0GWmDrDD4BVgfJQaUsDXCuM3DeM/HMRaZCSktHmET0Law5PYNBPlNfQ==}
+  '@babylonjs/addons@9.13.0':
+    resolution: {integrity: sha512-a9liASLJXAeWY7vHoZj2AZPUDFuqg6t/5tyrPqzExJh37mqP9r/ViD+7SZtMp6FOTiejOO4MbJn+pVWNQCgvxQ==}
     peerDependencies:
       '@babylonjs/core': ^9.0.0
 
-  '@babylonjs/core@9.7.0':
-    resolution: {integrity: sha512-Mulaumz9LnrlqBmiQtntNCwqBBNqPnNX3hziPPkKXvtCxrAnUNtz+RfT6LYW3f/OM+YN92FPRNO/ktHNBfjX6g==}
+  '@babylonjs/core@9.13.0':
+    resolution: {integrity: sha512-QJa3Eetlj8ycIxZ8s7XcYOTOP8Y8v5K69bvcJ7psFeI9cE+p9xZBSlck4rd8/t1BImcngJ9BxhoCEnaF7R1spQ==}
 
   '@babylonjs/gui-editor@9.7.0':
     resolution: {integrity: sha512-5LGB5SqxBbgB+V7k85rGNOD1aJUybT78yvRyUzR8dCJP6XkgRDMsNqcqqEWLCg7+1Z0XVRWvJLwu8QAA0XxbcA==}
@@ -122,16 +125,16 @@ packages:
       '@types/react': '>=16.7.3'
       '@types/react-dom': '>=16.0.9'
 
-  '@babylonjs/gui@9.7.0':
-    resolution: {integrity: sha512-ziSsHlQmYTfLnet1fpZaC8Ngay/GgUAJktrE+/z1uGK3fH6x7TYVipchBJ/CUu0xnrllgp7zZo68HFMDQEmdWA==}
+  '@babylonjs/gui@9.13.0':
+    resolution: {integrity: sha512-DSx1NwbCydjMEs0/+3s5VPGRgO/z4tzc1/VnTCfBnNvNvG9/9PsVQjEs0OU4Wy5v6ruwzIZH9YrTn5GEba1dOQ==}
     peerDependencies:
       '@babylonjs/core': ^9.0.0
 
   '@babylonjs/havok@1.3.12':
     resolution: {integrity: sha512-KR5Z7DBkVEgdvHLMDh2VWe/nHvUG8+MdLBiAE0iM19KIHAPqPRVITPAZKx4SQusK5nqm4ZXDcKv5OYtViIxLzA==}
 
-  '@babylonjs/inspector@9.7.0':
-    resolution: {integrity: sha512-xaU4ncurBj8tyTtun68Pj/34mrrzx06pEz1upJjj9/eAQPpj4h5bFmSwYv2OwunE4j6iThJnRzoLsFr0rh8OsA==}
+  '@babylonjs/inspector@9.13.0':
+    resolution: {integrity: sha512-d1g4X3EyxPANoBc6JvPlmPrz8J3j6TSYCDJi2sZPpdFjroFDyJNFK+pCtdtCz7w4NIRhX3E7iPxzMCvm1sEM6w==}
     hasBin: true
     peerDependencies:
       '@babylonjs/addons': ^9.0.0
@@ -149,14 +152,14 @@ packages:
       react-dom: '>=16.14.0 <20.0.0'
       usehooks-ts: ^3.1.1
 
-  '@babylonjs/loaders@9.7.0':
-    resolution: {integrity: sha512-mAKmF83dl8KET21QpPo5UMiEjQ49Uki993KWhtx9OO6Ts/ZgbKixXxF6gCaYfsu1K9m5PoGIRHKkB1/fDIS1kQ==}
+  '@babylonjs/loaders@9.13.0':
+    resolution: {integrity: sha512-IXoP3ULrake0MjhLvMIJybutocJN5B/b+Ld7GVsRzXzSfv6hfQ7q63jDI6U0QIEX+FhYHU7qmjdVv0uuO/vvzA==}
     peerDependencies:
       '@babylonjs/core': ^9.0.0
       babylonjs-gltf2interface: ^9.0.0
 
-  '@babylonjs/materials@9.7.0':
-    resolution: {integrity: sha512-oRCgHhPGxa2k6enZNzawgNSb6yJCh2JvvNhKvVQ/OEAp92MjPpyP9fxpm3FUYQsV916eY3Zy3vdM4BqyBcMeJQ==}
+  '@babylonjs/materials@9.13.0':
+    resolution: {integrity: sha512-rDZLB+eXudlV7HIDEdUQJxO809QK2z88A+YJfjxvMMXFkzs9Vz599YwHqsDz2204W2QW1aBrKGFhsMNyN5UyOQ==}
     peerDependencies:
       '@babylonjs/core': ^9.0.0
 
@@ -208,6 +211,9 @@ packages:
 
   '@emotion/hash@0.9.2':
     resolution: {integrity: sha512-MyqliTZGuOm3+5ZRSaaBGP3USLw6+EGykkwZns2EPC5g8jJ4z9OrdZY9apkl3+UP9+sdz76YYkwCKP5gh8iY3g==}
+
+  '@epic-web/invariant@1.0.0':
+    resolution: {integrity: sha512-lrTPqgvfFQtR/eY/qkIzp98OGdNJu0m5ji3q/nJI8v3SXkRKEnWiOxMmbvcSoAIzv/cGiuvRy57k4suKQSAdwA==}
 
   '@esbuild/aix-ppc64@0.25.12':
     resolution: {integrity: sha512-Hhmwd6CInZ3dwpuGTF8fJG6yoWmsToE+vYgD4nytZVxcu1ulHpUQRAB1UJ8+N1Am3Mz4+xOByoQoSZf4D+CpkA==}
@@ -1528,6 +1534,11 @@ packages:
     resolution: {integrity: sha512-tJtZBBHA6vjIAaF6EnIaq6laBBP9aq/Y3ouVJjEfoHbRBcHBAHYcMh/w8LDrk2PvIMMq8gmopa5D4V8RmbrxGw==}
     engines: {node: '>= 0.10'}
 
+  cross-env@10.1.0:
+    resolution: {integrity: sha512-GsYosgnACZTADcmEyJctkJIoqAhHjttw7RsFrVoJNXbsWWqaq6Ym+7kZjq6mS45O0jij6vtiReppKQEtqWy6Dw==}
+    engines: {node: '>=20'}
+    hasBin: true
+
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
@@ -2485,36 +2496,36 @@ snapshots:
 
   '@babel/runtime@7.29.2': {}
 
-  '@babylonjs/addons@9.7.0(@babylonjs/core@9.7.0)':
+  '@babylonjs/addons@9.13.0(@babylonjs/core@9.13.0)':
     dependencies:
-      '@babylonjs/core': 9.7.0
+      '@babylonjs/core': 9.13.0
 
-  '@babylonjs/core@9.7.0': {}
+  '@babylonjs/core@9.13.0': {}
 
-  '@babylonjs/gui-editor@9.7.0(@babylonjs/core@9.7.0)(@babylonjs/gui@9.7.0(@babylonjs/core@9.7.0))(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)':
+  '@babylonjs/gui-editor@9.7.0(@babylonjs/core@9.13.0)(@babylonjs/gui@9.13.0(@babylonjs/core@9.13.0))(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)':
     dependencies:
-      '@babylonjs/core': 9.7.0
-      '@babylonjs/gui': 9.7.0(@babylonjs/core@9.7.0)
+      '@babylonjs/core': 9.13.0
+      '@babylonjs/gui': 9.13.0(@babylonjs/core@9.13.0)
       '@types/react': 19.2.14
       '@types/react-dom': 19.2.3(@types/react@19.2.14)
 
-  '@babylonjs/gui@9.7.0(@babylonjs/core@9.7.0)':
+  '@babylonjs/gui@9.13.0(@babylonjs/core@9.13.0)':
     dependencies:
-      '@babylonjs/core': 9.7.0
+      '@babylonjs/core': 9.13.0
 
   '@babylonjs/havok@1.3.12':
     dependencies:
       '@types/emscripten': 1.41.5
 
-  '@babylonjs/inspector@9.7.0(43fb65a0a99728005a0ead3eae46c9d7)':
+  '@babylonjs/inspector@9.13.0(3d286661118a2e999ded0cf461f57cdd)':
     dependencies:
-      '@babylonjs/addons': 9.7.0(@babylonjs/core@9.7.0)
-      '@babylonjs/core': 9.7.0
-      '@babylonjs/gui': 9.7.0(@babylonjs/core@9.7.0)
-      '@babylonjs/gui-editor': 9.7.0(@babylonjs/core@9.7.0)(@babylonjs/gui@9.7.0(@babylonjs/core@9.7.0))(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)
-      '@babylonjs/loaders': 9.7.0(@babylonjs/core@9.7.0)(babylonjs-gltf2interface@9.7.0)
-      '@babylonjs/materials': 9.7.0(@babylonjs/core@9.7.0)
-      '@babylonjs/serializers': 9.7.0(@babylonjs/core@9.7.0)(babylonjs-gltf2interface@9.7.0)
+      '@babylonjs/addons': 9.13.0(@babylonjs/core@9.13.0)
+      '@babylonjs/core': 9.13.0
+      '@babylonjs/gui': 9.13.0(@babylonjs/core@9.13.0)
+      '@babylonjs/gui-editor': 9.7.0(@babylonjs/core@9.13.0)(@babylonjs/gui@9.13.0(@babylonjs/core@9.13.0))(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)
+      '@babylonjs/loaders': 9.13.0(@babylonjs/core@9.13.0)(babylonjs-gltf2interface@9.7.0)
+      '@babylonjs/materials': 9.13.0(@babylonjs/core@9.13.0)
+      '@babylonjs/serializers': 9.7.0(@babylonjs/core@9.13.0)(babylonjs-gltf2interface@9.7.0)
       '@fluentui-contrib/react-resize-handle': 0.8.4(@fluentui/react-components@9.73.8(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(scheduler@0.27.0))(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       '@fluentui-contrib/react-virtualizer': 1.0.0(@fluentui/react-shared-contexts@9.26.2(@types/react@19.2.14)(react@19.2.6))(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       '@fluentui/react-components': 9.73.8(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(scheduler@0.27.0)
@@ -2523,18 +2534,18 @@ snapshots:
       react-dom: 19.2.6(react@19.2.6)
       usehooks-ts: 3.1.1(react@19.2.6)
 
-  '@babylonjs/loaders@9.7.0(@babylonjs/core@9.7.0)(babylonjs-gltf2interface@9.7.0)':
+  '@babylonjs/loaders@9.13.0(@babylonjs/core@9.13.0)(babylonjs-gltf2interface@9.7.0)':
     dependencies:
-      '@babylonjs/core': 9.7.0
+      '@babylonjs/core': 9.13.0
       babylonjs-gltf2interface: 9.7.0
 
-  '@babylonjs/materials@9.7.0(@babylonjs/core@9.7.0)':
+  '@babylonjs/materials@9.13.0(@babylonjs/core@9.13.0)':
     dependencies:
-      '@babylonjs/core': 9.7.0
+      '@babylonjs/core': 9.13.0
 
-  '@babylonjs/serializers@9.7.0(@babylonjs/core@9.7.0)(babylonjs-gltf2interface@9.7.0)':
+  '@babylonjs/serializers@9.7.0(@babylonjs/core@9.13.0)(babylonjs-gltf2interface@9.7.0)':
     dependencies:
-      '@babylonjs/core': 9.7.0
+      '@babylonjs/core': 9.13.0
       babylonjs-gltf2interface: 9.7.0
 
   '@better-auth/utils@0.3.1': {}
@@ -2579,6 +2590,8 @@ snapshots:
   '@ctrl/tinycolor@3.6.1': {}
 
   '@emotion/hash@0.9.2': {}
+
+  '@epic-web/invariant@1.0.0': {}
 
   '@esbuild/aix-ppc64@0.25.12':
     optional: true
@@ -4393,6 +4406,11 @@ snapshots:
     dependencies:
       object-assign: 4.1.1
       vary: 1.1.2
+
+  cross-env@10.1.0:
+    dependencies:
+      '@epic-web/invariant': 1.0.0
+      cross-spawn: 7.0.6
 
   cross-spawn@7.0.6:
     dependencies:

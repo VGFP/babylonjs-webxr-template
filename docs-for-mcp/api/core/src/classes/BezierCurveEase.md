@@ -6,7 +6,7 @@
 
 # Class: BezierCurveEase
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:346](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/easing.ts#L346)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:346](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/easing.ts#L346)
 
 Easing function with a bezier shape (see link below).
 
@@ -29,7 +29,7 @@ Easing function with a bezier shape (see link below).
 
 > **new BezierCurveEase**(`x1?`, `y1?`, `x2?`, `y2?`): `BezierCurveEase`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:355](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/easing.ts#L355)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:355](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/easing.ts#L355)
 
 Instantiates a bezier function
 
@@ -77,7 +77,7 @@ http://cubic-bezier.com/#.17,.67,.83,.67
 
 > **x1**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:357](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/easing.ts#L357)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:357](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/easing.ts#L357)
 
 [0] Defines the x component of the start tangent in the bezier curve
 
@@ -87,7 +87,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:357](ht
 
 > **x2**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:361](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/easing.ts#L361)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:361](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/easing.ts#L361)
 
 [1] Defines the x component of the end tangent in the bezier curve
 
@@ -97,7 +97,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:361](ht
 
 > **y1**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:359](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/easing.ts#L359)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:359](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/easing.ts#L359)
 
 [0] Defines the y component of the start tangent in the bezier curve
 
@@ -107,7 +107,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:359](ht
 
 > **y2**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:363](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/easing.ts#L363)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:363](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/easing.ts#L363)
 
 [1] Defines the y component of the end tangent in the bezier curve
 
@@ -117,7 +117,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:363](ht
 
 > `readonly` `static` **EASINGMODE\_EASEIN**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/easing.ts#L28)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/easing.ts#L28)
 
 Interpolation follows the mathematical formula associated with the easing function.
 
@@ -131,7 +131,7 @@ Interpolation follows the mathematical formula associated with the easing functi
 
 > `readonly` `static` **EASINGMODE\_EASEINOUT**: `2` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:38](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/easing.ts#L38)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/easing.ts#L38)
 
 Interpolation uses EaseIn for the first half of the animation and EaseOut for the second half.
 
@@ -145,7 +145,7 @@ Interpolation uses EaseIn for the first half of the animation and EaseOut for th
 
 > `readonly` `static` **EASINGMODE\_EASEOUT**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/easing.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/easing.ts#L33)
 
 Interpolation follows 100% interpolation minus the output of the formula associated with the easing function.
 
@@ -159,7 +159,7 @@ Interpolation follows 100% interpolation minus the output of the formula associa
 
 > **ease**(`gradient`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:72](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/easing.ts#L72)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/easing.ts#L72)
 
 Given an input gradient between 0 and 1, this returns the corresponding value
 of the easing function.
@@ -192,7 +192,7 @@ the corresponding value on the curve defined by the easing function
 
 > **getEasingMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/easing.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/easing.ts#L54)
 
 Gets the current easing mode.
 
@@ -212,7 +212,7 @@ the easing mode
 
 > **setEasingMode**(`easingMode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Animations/easing.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Animations/easing.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/easing.ts#L46)
 
 Sets the easing mode of the current function.
 

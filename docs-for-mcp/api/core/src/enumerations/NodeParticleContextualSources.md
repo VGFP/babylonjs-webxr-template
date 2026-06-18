@@ -6,7 +6,7 @@
 
 # Enumeration: NodeParticleContextualSources
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:5](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L5)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:5](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L5)
 
 Defines the kind of contextual sources for node particles
 
@@ -16,7 +16,7 @@ Defines the kind of contextual sources for node particles
 
 > **Age**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L13)
 
 Age
 
@@ -26,7 +26,7 @@ Age
 
 > **AgeGradient**: `8`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L23)
 
 AgeGradient
 
@@ -36,7 +36,7 @@ AgeGradient
 
 > **Angle**: `9`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L25)
 
 Angle
 
@@ -46,7 +46,7 @@ Angle
 
 > **Color**: `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L17)
 
 Color
 
@@ -56,7 +56,7 @@ Color
 
 > **ColorDead**: `20`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L35)
 
 Color Dead
 
@@ -66,7 +66,7 @@ Color Dead
 
 > **ColorStep**: `22`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L39)
 
 Color Step
 
@@ -76,7 +76,7 @@ Color Step
 
 > **Direction**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L11)
 
 Direction
 
@@ -86,7 +86,7 @@ Direction
 
 > **DirectionScale**: `32`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L47)
 
 Direction Scale
 
@@ -96,7 +96,7 @@ Direction Scale
 
 > **InitialColor**: `19`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L33)
 
 Initial Color
 
@@ -106,7 +106,7 @@ Initial Color
 
 > **InitialDirection**: `21`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L37)
 
 Initial Direction
 
@@ -116,7 +116,7 @@ Initial Direction
 
 > **Lifetime**: `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L15)
 
 Lifetime
 
@@ -126,7 +126,7 @@ Lifetime
 
 > **LocalPositionUpdated**: `24`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L43)
 
 Local Position Updated
 
@@ -136,7 +136,7 @@ Local Position Updated
 
 > **None**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:7](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L7)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:7](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L7)
 
 None
 
@@ -146,7 +146,7 @@ None
 
 > **Position**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L9)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L9)
 
 Position
 
@@ -156,7 +156,7 @@ Position
 
 > **Scale**: `7`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L21)
 
 Scale
 
@@ -166,7 +166,7 @@ Scale
 
 > **ScaledColorStep**: `23`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L41)
 
 Scaled Color Step
 
@@ -176,7 +176,7 @@ Scaled Color Step
 
 > **ScaledDirection**: `6`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L19)
 
 ScaledDirection
 
@@ -186,7 +186,7 @@ ScaledDirection
 
 > **Size**: `25`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L45)
 
 Size
 
@@ -196,7 +196,7 @@ Size
 
 > **SpriteCellEnd**: `18`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L31)
 
 SpriteCellEnd
 
@@ -206,7 +206,7 @@ SpriteCellEnd
 
 > **SpriteCellIndex**: `16`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L27)
 
 SpriteCellIndex
 
@@ -216,6 +216,6 @@ SpriteCellIndex
 
 > **SpriteCellStart**: `17`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Enums/nodeParticleContextualSources.ts#L29)
 
 SpriteCellStart

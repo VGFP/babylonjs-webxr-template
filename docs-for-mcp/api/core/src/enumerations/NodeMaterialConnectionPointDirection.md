@@ -6,7 +6,7 @@
 
 # Enumeration: NodeMaterialConnectionPointDirection
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlockConnectionPoint.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlockConnectionPoint.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlockConnectionPoint.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlockConnectionPoint.ts#L25)
 
 Defines the direction of a connection point
 
@@ -16,7 +16,7 @@ Defines the direction of a connection point
 
 > **Input**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlockConnectionPoint.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlockConnectionPoint.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlockConnectionPoint.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlockConnectionPoint.ts#L27)
 
 Input
 
@@ -26,6 +26,6 @@ Input
 
 > **Output**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlockConnectionPoint.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Node/nodeMaterialBlockConnectionPoint.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterialBlockConnectionPoint.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterialBlockConnectionPoint.ts#L29)
 
 Output

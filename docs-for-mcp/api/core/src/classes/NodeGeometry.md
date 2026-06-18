@@ -6,7 +6,7 @@
 
 # Class: NodeGeometry
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L45)
 
 Defines a node based geometry
 
@@ -20,7 +20,7 @@ demo at https://playground.babylonjs.com#PYY6XE#69
 
 > **new NodeGeometry**(`name`): `NodeGeometry`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L130)
 
 Creates a new geometry
 
@@ -42,7 +42,7 @@ defines the name of the geometry
 
 > **attachedBlocks**: [`NodeGeometryBlock`](NodeGeometryBlock.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L99)
 
 Gets an array of blocks that needs to be serialized even if they are not yet connected
 
@@ -52,7 +52,7 @@ Gets an array of blocks that needs to be serialized even if they are not yet con
 
 > **comment**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:124](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L124)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L124)
 
 A free comment about the geometry
 
@@ -62,7 +62,7 @@ A free comment about the geometry
 
 > **editorData**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:94](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L94)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:94](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L94)
 
 Gets or sets data used by visual editor
 
@@ -76,7 +76,7 @@ https://nge.babylonjs.com
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L118)
 
 The name of the geometry
 
@@ -86,7 +86,7 @@ The name of the geometry
 
 > **onBuildObservable**: [`Observable`](Observable.md)\<`NodeGeometry`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L104)
 
 Observable raised when the geometry is built
 
@@ -96,7 +96,7 @@ Observable raised when the geometry is built
 
 > **outputBlock**: [`Nullable`](../type-aliases/Nullable.md)\<[`GeometryOutputBlock`](GeometryOutputBlock.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L107)
 
 Gets or sets the GeometryOutputBlock used to gather the final geometry data
 
@@ -106,7 +106,7 @@ Gets or sets the GeometryOutputBlock used to gather the final geometry data
 
 > **snippetId**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:112](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L112)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L112)
 
 Snippet ID if the material was created from the snippet server
 
@@ -116,7 +116,7 @@ Snippet ID if the material was created from the snippet server
 
 > `static` **EditorURL**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L53)
 
 Define the Url to load node editor script
 
@@ -126,7 +126,7 @@ Define the Url to load node editor script
 
 > `static` **SnippetUrl**: `string` = `Constants.SnippetUrl`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L56)
 
 Define the Url to load snippets
 
@@ -138,7 +138,7 @@ Define the Url to load snippets
 
 > **get** **buildExecutionTime**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L86)
 
 Gets the time spent to build this block (in ms)
 
@@ -154,7 +154,7 @@ Gets the time spent to build this block (in ms)
 
 > **get** **vertexData**(): [`Nullable`](../type-aliases/Nullable.md)\<[`VertexData`](VertexData.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:146](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L146)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L146)
 
 Gets the vertex data. This needs to be done after build() was called.
 This is used to access vertexData when creating a mesh is not required.
@@ -169,7 +169,7 @@ This is used to access vertexData when creating a mesh is not required.
 
 > **build**(`verbose?`, `updateBuildId?`, `autoConfigure?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:245](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L245)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L245)
 
 Build the final geometry. Please note that the geometry MAY not be ready until the onBuildObservable is raised.
 
@@ -203,7 +203,7 @@ defines if the autoConfigure method should be called when initializing blocks (d
 
 > **clear**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:366](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L366)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:366](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L366)
 
 Clear the current geometry
 
@@ -217,7 +217,7 @@ Clear the current geometry
 
 > **clone**(`name`): `NodeGeometry`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:594](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L594)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:594](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L594)
 
 Makes a duplicate of the current geometry.
 
@@ -241,7 +241,7 @@ the new geometry
 
 > **createMesh**(`name`, `scene?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Mesh`](Mesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:301](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L301)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:301](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L301)
 
 Creates a mesh from the geometry blocks
 
@@ -271,7 +271,7 @@ The new mesh
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:649](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L649)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:649](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L649)
 
 Disposes the resources
 
@@ -285,7 +285,7 @@ Disposes the resources
 
 > **edit**(`config?`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:207](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L207)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:207](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L207)
 
 Launch the node geometry editor
 
@@ -309,7 +309,7 @@ a promise fulfilled when the node editor is visible
 
 > **generateCode**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:513](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L513)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:513](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L513)
 
 Generate a string containing the code declaration required to create an equivalent of this geometry
 
@@ -325,7 +325,7 @@ a string
 
 > **getBlockByName**(`name`): [`NodeGeometryBlock`](NodeGeometryBlock.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L155)
 
 Get a block by its name
 
@@ -349,7 +349,7 @@ the required block or null if not found
 
 > **getBlockByPredicate**(`predicate`): [`NodeGeometryBlock`](NodeGeometryBlock.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L176)
 
 Get a block using a predicate
 
@@ -373,7 +373,7 @@ the required block or null if not found
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:138](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L138)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L138)
 
 Gets the current class name of the geometry e.g. "NodeGeometry"
 
@@ -389,7 +389,7 @@ the class name
 
 > **getInputBlocks**(): [`GeometryInputBlock`](GeometryInputBlock.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L190)
 
 Gets the list of input blocks attached to this material
 
@@ -405,7 +405,7 @@ an array of InputBlocks
 
 > **parseSerializedObject**(`source`, `merge?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:391](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L391)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:391](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L391)
 
 Clear the current graph and load a new one from a serialization object
 
@@ -433,7 +433,7 @@ defines whether or not the source must be merged or replace the current content
 
 > **removeBlock**(`block`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:375](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L375)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:375](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L375)
 
 Remove a block from the current geometry
 
@@ -455,7 +455,7 @@ defines the block to remove
 
 > **serialize**(`selectedBlocks?`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:612](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L612)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:612](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L612)
 
 Serializes this geometry in a JSON representation
 
@@ -479,7 +479,7 @@ the serialized geometry object
 
 > **setToDefault**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:573](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L573)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:573](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L573)
 
 Clear the current geometry and set it to a default state
 
@@ -493,7 +493,7 @@ Clear the current geometry and set it to a default state
 
 > **updateMesh**(`mesh`): `false` \| [`Mesh`](Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:324](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L324)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:324](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L324)
 
 Creates a mesh from the geometry blocks
 
@@ -517,7 +517,7 @@ True if successfully updated
 
 > `static` **CreateDefault**(`name`): `NodeGeometry`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:663](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L663)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:663](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L663)
 
 Creates a new node geometry set to default basic configuration
 
@@ -541,7 +541,7 @@ a new NodeGeometry
 
 > `static` **Parse**(`source`): `NodeGeometry`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:677](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L677)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:677](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L677)
 
 Creates a node geometry from parsed geometry data
 
@@ -565,7 +565,7 @@ a new node geometry
 
 > `static` **ParseFromSnippetAsync**(`snippetId`, `nodeGeometry?`, `skipBuild?`): `Promise`\<`NodeGeometry`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:694](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L694)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometry.ts:694](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometry.ts#L694)
 
 Creates a node geometry from a snippet saved by the node geometry editor
 

@@ -6,7 +6,7 @@
 
 # Enumeration: DeviceInputEventType
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:6](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/deviceInputEvents.ts#L6)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/deviceInputEvents.ts#L6)
 
 Event Types
 
@@ -16,7 +16,7 @@ Event Types
 
 > **PointerDown**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:11](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/deviceInputEvents.ts#L11)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/deviceInputEvents.ts#L11)
 
 PointerDown
 
@@ -26,7 +26,7 @@ PointerDown
 
 > **PointerMove**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:9](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/deviceInputEvents.ts#L9)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/deviceInputEvents.ts#L9)
 
 PointerMove
 
@@ -36,6 +36,6 @@ PointerMove
 
 > **PointerUp**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Events/deviceInputEvents.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Events/deviceInputEvents.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Events/deviceInputEvents.ts#L13)
 
 PointerUp

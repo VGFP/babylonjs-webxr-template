@@ -6,7 +6,7 @@
 
 # Class: IWebXRControllerPhysicsOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPhysics.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPhysics.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPhysics.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPhysics.pure.ts#L21)
 
 Options for the controller physics feature
 
@@ -26,7 +26,7 @@ Options for the controller physics feature
 
 > `optional` **enableHeadsetImpostor?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPhysics.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPhysics.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPhysics.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPhysics.pure.ts#L25)
 
 Should the headset get its own impostor
 
@@ -36,7 +36,7 @@ Should the headset get its own impostor
 
 > `optional` **headsetImpostorParams?**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPhysics.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPhysics.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPhysics.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPhysics.pure.ts#L29)
 
 Optional parameters for the headset impostor
 
@@ -70,7 +70,7 @@ Restitution
 
 > `optional` **physicsProperties?**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPhysics.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPhysics.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPhysics.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPhysics.pure.ts#L50)
 
 The physics properties of the future impostors
 
@@ -111,6 +111,6 @@ Note that this requires a physics engine that supports mesh impostors!
 
 > **xrInput**: [`WebXRInput`](WebXRInput.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPhysics.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRControllerPhysics.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerPhysics.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerPhysics.pure.ts#L76)
 
 the xr input to use with this pointer selection

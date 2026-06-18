@@ -6,7 +6,7 @@
 
 # Class: SceneInstrumentation
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L12)
 
 This class can be used to get instrumentation data from a Babylon engine
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/optimize_your_scene#sc
 
 > **new SceneInstrumentation**(`scene`): `SceneInstrumentation`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:490](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L490)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:490](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L490)
 
 Instantiates a new scene instrumentation.
 This class can be used to get instrumentation data from a Babylon engine
@@ -51,7 +51,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/optimize_your_scene#sc
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:494](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L494)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:494](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L494)
 
 Defines the scene to instrument
 
@@ -63,7 +63,7 @@ Defines the scene to instrument
 
 > **get** **activeMeshesEvaluationTimeCounter**(): [`PerfCounter`](PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:76](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L76)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L76)
 
 Gets the perf counter used for active meshes evaluation time
 
@@ -79,7 +79,7 @@ Gets the perf counter used for active meshes evaluation time
 
 > **get** **animationsTimeCounter**(): [`PerfCounter`](PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:306](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L306)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:306](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L306)
 
 Gets the perf counter used for animations time
 
@@ -95,7 +95,7 @@ Gets the perf counter used for animations time
 
 > **get** **cameraRenderTimeCounter**(): [`PerfCounter`](PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:438](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L438)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:438](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L438)
 
 Gets the perf counter used for camera render time capture
 
@@ -111,7 +111,7 @@ Gets the perf counter used for camera render time capture
 
 > **get** **captureActiveMeshesEvaluationTime**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L83)
 
 Gets the active meshes evaluation time capture status
 
@@ -123,7 +123,7 @@ Gets the active meshes evaluation time capture status
 
 > **set** **captureActiveMeshesEvaluationTime**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L90)
 
 Enable or disable the active meshes evaluation time capture
 
@@ -145,7 +145,7 @@ Enable or disable the active meshes evaluation time capture
 
 > **get** **captureAnimationsTime**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:313](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L313)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:313](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L313)
 
 Gets the animations time capture status
 
@@ -157,7 +157,7 @@ Gets the animations time capture status
 
 > **set** **captureAnimationsTime**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:320](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L320)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:320](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L320)
 
 Enable or disable the animations time capture
 
@@ -179,7 +179,7 @@ Enable or disable the animations time capture
 
 > **get** **captureCameraRenderTime**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:445](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L445)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:445](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L445)
 
 Gets the camera render time capture status
 
@@ -191,7 +191,7 @@ Gets the camera render time capture status
 
 > **set** **captureCameraRenderTime**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:452](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L452)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:452](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L452)
 
 Enable or disable the camera render time capture
 
@@ -213,7 +213,7 @@ Enable or disable the camera render time capture
 
 > **get** **captureFrameTime**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:347](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L347)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:347](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L347)
 
 Gets the frame time capture status
 
@@ -225,7 +225,7 @@ Gets the frame time capture status
 
 > **set** **captureFrameTime**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:354](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L354)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:354](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L354)
 
 Enable or disable the frame time capture
 
@@ -247,7 +247,7 @@ Enable or disable the frame time capture
 
 > **get** **captureInterFrameTime**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:368](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L368)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:368](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L368)
 
 Gets the inter-frames time capture status
 
@@ -259,7 +259,7 @@ Gets the inter-frames time capture status
 
 > **set** **captureInterFrameTime**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:375](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L375)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:375](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L375)
 
 Enable or disable the inter-frames time capture
 
@@ -281,7 +281,7 @@ Enable or disable the inter-frames time capture
 
 > **get** **captureParticlesRenderTime**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:176](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L176)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L176)
 
 Gets the particles render time capture status
 
@@ -293,7 +293,7 @@ Gets the particles render time capture status
 
 > **set** **captureParticlesRenderTime**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:183](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L183)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L183)
 
 Enable or disable the particles render time capture
 
@@ -315,7 +315,7 @@ Enable or disable the particles render time capture
 
 > **get** **capturePhysicsTime**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:266](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L266)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:266](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L266)
 
 Gets the physics time capture status
 
@@ -327,7 +327,7 @@ Gets the physics time capture status
 
 > **set** **capturePhysicsTime**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:273](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L273)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:273](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L273)
 
 Enable or disable the physics time capture
 
@@ -349,7 +349,7 @@ Enable or disable the physics time capture
 
 > **get** **captureRenderTargetsRenderTime**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L126)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L126)
 
 Gets the render targets render time capture status
 
@@ -361,7 +361,7 @@ Gets the render targets render time capture status
 
 > **set** **captureRenderTargetsRenderTime**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L133)
 
 Enable or disable the render targets render time capture
 
@@ -383,7 +383,7 @@ Enable or disable the render targets render time capture
 
 > **get** **captureRenderTime**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:389](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L389)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:389](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L389)
 
 Gets the render time capture status
 
@@ -395,7 +395,7 @@ Gets the render time capture status
 
 > **set** **captureRenderTime**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:396](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L396)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:396](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L396)
 
 Enable or disable the render time capture
 
@@ -417,7 +417,7 @@ Enable or disable the render time capture
 
 > **get** **captureSpritesRenderTime**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:219](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L219)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L219)
 
 Gets the sprites render time capture status
 
@@ -429,7 +429,7 @@ Gets the sprites render time capture status
 
 > **set** **captureSpritesRenderTime**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:226](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L226)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:226](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L226)
 
 Enable or disable the sprites render time capture
 
@@ -451,7 +451,7 @@ Enable or disable the sprites render time capture
 
 > **get** **drawCallsCounter**(): [`PerfCounter`](PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:480](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L480)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:480](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L480)
 
 Gets the perf counter used for draw calls
 
@@ -467,7 +467,7 @@ Gets the perf counter used for draw calls
 
 > **get** **frameTimeCounter**(): [`PerfCounter`](PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:340](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L340)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:340](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L340)
 
 Gets the perf counter used for frame time capture
 
@@ -483,7 +483,7 @@ Gets the perf counter used for frame time capture
 
 > **get** **interFrameTimeCounter**(): [`PerfCounter`](PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:361](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L361)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:361](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L361)
 
 Gets the perf counter used for inter-frames time capture
 
@@ -499,7 +499,7 @@ Gets the perf counter used for inter-frames time capture
 
 > **get** **particlesRenderTimeCounter**(): [`PerfCounter`](PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:169](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L169)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L169)
 
 Gets the perf counter used for particles render time
 
@@ -515,7 +515,7 @@ Gets the perf counter used for particles render time
 
 > **get** **physicsTimeCounter**(): [`PerfCounter`](PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:259](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L259)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:259](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L259)
 
 Gets the perf counter used for physics time
 
@@ -531,7 +531,7 @@ Gets the perf counter used for physics time
 
 > **get** **renderTargetsRenderTimeCounter**(): [`PerfCounter`](PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L119)
 
 Gets the perf counter used for render targets render time
 
@@ -547,7 +547,7 @@ Gets the perf counter used for render targets render time
 
 > **get** **renderTimeCounter**(): [`PerfCounter`](PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:382](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L382)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:382](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L382)
 
 Gets the perf counter used for render time capture
 
@@ -563,7 +563,7 @@ Gets the perf counter used for render time capture
 
 > **get** **spritesRenderTimeCounter**(): [`PerfCounter`](PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:212](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L212)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:212](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L212)
 
 Gets the perf counter used for sprites render time
 
@@ -577,7 +577,7 @@ Gets the perf counter used for sprites render time
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:599](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L599)
+Defined in: [babylonjs-source/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts:599](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Instrumentation/sceneInstrumentation.ts#L599)
 
 Dispose and release associated resources.
 

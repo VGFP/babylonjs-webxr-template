@@ -6,7 +6,7 @@
 
 # Interface: IEditablePropertyOption
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L51)
 
 Interface that defines the options available for an editable property
 
@@ -16,7 +16,7 @@ Interface that defines the options available for an editable property
 
 > `optional` **embedded?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L55)
 
 Define if the property is displayed inside the source block or in a separate property tab
 
@@ -26,7 +26,7 @@ Define if the property is displayed inside the source block or in a separate pro
 
 > `optional` **max?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L59)
 
 max value
 
@@ -36,7 +36,7 @@ max value
 
 > `optional` **min?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L57)
 
 min value
 
@@ -46,7 +46,7 @@ min value
 
 > `optional` **notifiers?**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L61)
 
 notifiers: indicates which actions to take when the property is changed
 
@@ -114,6 +114,6 @@ the preview should be updated
 
 > `optional` **options?**: [`IEditablePropertyListOption`](IEditablePropertyListOption.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Decorators/nodeDecorator.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L74)
 
 list of the options for a variable of type list

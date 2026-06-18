@@ -6,7 +6,7 @@
 
 # Interface: IGetSetVerticesData
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L21)
 
 Define an interface for all classes that will get and set the data on vertices
 
@@ -16,7 +16,7 @@ Define an interface for all classes that will get and set the data on vertices
 
 > **getIndices**(`copyWhenShared?`, `forceCopy?`): [`Nullable`](../type-aliases/Nullable.md)\<[`IndicesArray`](../type-aliases/IndicesArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L42)
 
 Returns an array of integers or a typed array (Int32Array, Uint32Array, Uint16Array) populated with the mesh indices.
 
@@ -46,7 +46,7 @@ the indices array or an empty array if the mesh has no geometry
 
 > **getVerticesData**(`kind`, `copyWhenShared?`, `forceCopy?`): [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L35)
 
 Gets a specific vertex data attached to this geometry. Float data is constructed if the vertex buffer data cannot be returned directly.
 
@@ -82,7 +82,7 @@ a float array containing vertex data
 
 > **isVerticesDataPresent**(`kind`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L27)
 
 Gets a boolean indicating if specific vertex data is present
 
@@ -106,7 +106,7 @@ true is data kind is present
 
 > **setIndices**(`indices`, `totalVertices`, `updatable?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L77)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L77)
 
 Creates a new index buffer
 
@@ -140,7 +140,7 @@ defines if the index buffer must be flagged as updatable (false by default)
 
 > **setVerticesData**(`kind`, `data`, `updatable`, `stride?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L50)
 
 Set specific vertex data
 
@@ -180,7 +180,7 @@ defines the stride to use (0 by default). This value is deduced from the kind va
 
 > **updateVerticesData**(`kind`, `data`, `updateExtends?`, `makeItUnique?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/mesh.vertexData.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L70)
 
 Update a specific associated vertex buffer
 

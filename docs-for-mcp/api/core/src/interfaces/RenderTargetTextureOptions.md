@@ -6,7 +6,7 @@
 
 # Interface: RenderTargetTextureOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:51](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L51)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L34)
 
 Options for the RenderTargetTexture constructor
 
@@ -20,7 +20,7 @@ Options for the RenderTargetTexture constructor
 
 > `optional` **colorAttachment?**: [`InternalTexture`](../classes/InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L75)
 
 Specifies the internal texture to use directly instead of creating one (ignores `noColorAttachment` flag when set) *
 
@@ -30,7 +30,7 @@ Specifies the internal texture to use directly instead of creating one (ignores 
 
 > `optional` **creationFlags?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L69)
 
 specific flags to use when creating the texture (e.g., Constants.TEXTURE_CREATIONFLAG_STORAGE for storage textures)
 
@@ -40,7 +40,7 @@ specific flags to use when creating the texture (e.g., Constants.TEXTURE_CREATIO
 
 > `optional` **delayAllocation?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L63)
 
 True (default: false) if the texture allocation should be delayed
 
@@ -50,7 +50,7 @@ True (default: false) if the texture allocation should be delayed
 
 > `optional` **doNotChangeAspectRatio?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L39)
 
 True (default) to not change the aspect ratio of the scene in the RTT
 
@@ -60,7 +60,7 @@ True (default) to not change the aspect ratio of the scene in the RTT
 
 > `optional` **enableClusteredLights?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L87)
 
 True to enable clustered lights (default: false)
 
@@ -70,7 +70,7 @@ True to enable clustered lights (default: false)
 
 > `optional` **existingObjectRenderer?**: [`ObjectRenderer`](../classes/ObjectRenderer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:101](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L101)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L84)
 
 If not provided (default), a new object renderer instance will be created
 
@@ -80,7 +80,7 @@ If not provided (default), a new object renderer instance will be created
 
 > `optional` **format?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L77)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L60)
 
 The internal format of the buffer in the RTT (RED, RG, RGB, RGBA (default), ALPHA...)
 
@@ -90,7 +90,7 @@ The internal format of the buffer in the RTT (RED, RG, RGB, RGBA (default), ALPH
 
 > `optional` **gammaSpace?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L81)
 
 Defines the underlying texture texture space
 
@@ -100,7 +100,7 @@ Defines the underlying texture texture space
 
 > `optional` **generateDepthBuffer?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L51)
 
 True (default) to generate a depth buffer
 
@@ -110,7 +110,7 @@ True (default) to generate a depth buffer
 
 > `optional` **generateMipMaps?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L36)
 
 True (default: false) if mipmaps need to be generated after render
 
@@ -120,7 +120,7 @@ True (default: false) if mipmaps need to be generated after render
 
 > `optional` **generateStencilBuffer?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L54)
 
 True (default: false) to generate a stencil buffer
 
@@ -130,7 +130,7 @@ True (default: false) to generate a stencil buffer
 
 > `optional` **isCube?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:62](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L62)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L45)
 
 True (default: false) if a cube texture needs to be created
 
@@ -140,7 +140,7 @@ True (default: false) if a cube texture needs to be created
 
 > `optional` **isMulti?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L57)
 
 True (default: false) if multiple textures need to be created (Draw Buffers)
 
@@ -150,7 +150,7 @@ True (default: false) if multiple textures need to be created (Draw Buffers)
 
 > `optional` **noColorAttachment?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:89](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L89)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L72)
 
 True (default: false) to indicate that no color target should be created. (e.g., if you only want to write to the depth buffer)
 
@@ -160,7 +160,7 @@ True (default: false) to indicate that no color target should be created. (e.g.,
 
 > `optional` **samples?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L66)
 
 Sample count to use when creating the RTT
 
@@ -170,7 +170,7 @@ Sample count to use when creating the RTT
 
 > `optional` **samplingMode?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L48)
 
 The sampling mode to be used with the render target (Trilinear (default), Linear, Nearest...)
 
@@ -180,7 +180,7 @@ The sampling mode to be used with the render target (Trilinear (default), Linear
 
 > `optional` **type?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:59](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L59)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L42)
 
 The type of the buffer in the RTT (byte (default), half float, float...)
 
@@ -190,6 +190,6 @@ The type of the buffer in the RTT (byte (default), half float, float...)
 
 > `optional` **useSRGBBuffer?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/renderTargetTexture.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/renderTargetTexture.pure.ts#L78)
 
 True (default: false) to create a SRGB texture

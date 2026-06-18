@@ -6,7 +6,7 @@
 
 # Class: Particle
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L111)
 
 A particle represents one of the element emitted by a particle system.
 This is mainly define by its coordinates, direction, velocity and age.
@@ -17,7 +17,7 @@ This is mainly define by its coordinates, direction, velocity and age.
 
 > **new Particle**(`particleSystem`): `Particle`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:199](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L199)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:199](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L199)
 
 Creates a new instance Particle
 
@@ -39,7 +39,7 @@ the particle system the particle belongs to
 
 > **age**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L155)
 
 The current age of the particle.
 
@@ -49,7 +49,7 @@ The current age of the particle.
 
 > **angle**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:170](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L170)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L170)
 
 The current angle of the particle.
 
@@ -59,7 +59,7 @@ The current angle of the particle.
 
 > **angularSpeed**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:175](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L175)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L175)
 
 Defines how fast is the angle changing.
 
@@ -69,7 +69,7 @@ Defines how fast is the angle changing.
 
 > **cellIndex**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L180)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L180)
 
 Defines the cell index used by the particle to be rendered from a sprite.
 
@@ -79,7 +79,7 @@ Defines the cell index used by the particle to be rendered from a sprite.
 
 > **color**: [`Color4`](Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L130)
 
 The color of the particle.
 
@@ -89,7 +89,7 @@ The color of the particle.
 
 > **colorDead**: [`Color4`](Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:145](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L145)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L145)
 
 The color used when the end of life of the particle.
 
@@ -99,7 +99,7 @@ The color used when the end of life of the particle.
 
 > **colorStep**: [`Color4`](Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:135](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L135)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L135)
 
 The color change of the particle per step.
 
@@ -109,7 +109,7 @@ The color change of the particle per step.
 
 > **direction**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L125)
 
 The world direction of the particle in the scene.
 
@@ -119,7 +119,7 @@ The world direction of the particle in the scene.
 
 > **id**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L116)
 
 Unique ID of the particle
 
@@ -129,7 +129,7 @@ Unique ID of the particle
 
 > **initialColor**: [`Color4`](Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:140](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L140)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L140)
 
 The creation color of the particle.
 
@@ -139,7 +139,7 @@ The creation color of the particle.
 
 > **lifeTime**: `number` = `1.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:150](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L150)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L150)
 
 Defines how long will the life of the particle be.
 
@@ -149,7 +149,7 @@ Defines how long will the life of the particle be.
 
 > **metadata**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L190)
 
 Gets or sets an object used to store user defined information for the particle
 
@@ -159,7 +159,7 @@ Gets or sets an object used to store user defined information for the particle
 
 > **particleSystem**: `ThinParticleSystem`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:203](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L203)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:203](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L203)
 
 The particle system the particle belongs to.
 
@@ -169,7 +169,7 @@ The particle system the particle belongs to.
 
 > **position**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L120)
 
 The world position of the particle in the scene.
 
@@ -179,7 +179,7 @@ The world position of the particle in the scene.
 
 > **remapData**: [`Vector4`](Vector4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:185](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L185)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L185)
 
 The information required to support color remapping
 
@@ -189,7 +189,7 @@ The information required to support color remapping
 
 > **scale**: [`Vector2`](Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:165](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L165)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L165)
 
 The current scale of the particle.
 
@@ -199,7 +199,7 @@ The current scale of the particle.
 
 > **size**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L160)
 
 The current size of the particle.
 
@@ -209,7 +209,7 @@ The current size of the particle.
 
 > **copyTo**(`other`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:294](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L294)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:294](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L294)
 
 Copy the properties of particle to another one.
 
@@ -231,7 +231,7 @@ the particle to copy the information to.
 
 > **updateCellIndex**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:220](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/particle.ts#L220)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/particle.ts:220](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particle.ts#L220)
 
 Defines how the sprite cell index is updated for the particle
 

@@ -6,7 +6,7 @@
 
 # Interface: IGeometryBufferTextureTypeAndFormat
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:46](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L46)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L44)
 
 Type, format and sampling settings for a geometry buffer render target.
 
@@ -16,7 +16,7 @@ Type, format and sampling settings for a geometry buffer render target.
 
 > `optional` **samplingMode?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L50)
 
 Optional sampling mode for the target texture. Defaults to bilinear when omitted.
 
@@ -26,7 +26,7 @@ Optional sampling mode for the target texture. Defaults to bilinear when omitted
 
 > **textureFormat**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L48)
 
 Texture format for the target.
 
@@ -36,6 +36,6 @@ Texture format for the target.
 
 > **textureType**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Rendering/geometryBufferRenderer.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/geometryBufferRenderer.pure.ts#L46)
 
 Texture type for the target.

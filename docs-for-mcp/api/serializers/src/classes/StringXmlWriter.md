@@ -6,7 +6,7 @@
 
 # Class: StringXmlWriter
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts:4](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts#L4)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts:4](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts#L4)
 
 ## Implements
 
@@ -28,7 +28,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.buil
 
 > **count**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts:6](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts#L6)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts#L6)
 
 #### Implementation of
 
@@ -40,7 +40,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.buil
 
 > **clear**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts#L34)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts#L34)
 
 #### Returns
 
@@ -56,7 +56,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.buil
 
 > **toString**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts#L28)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts#L28)
 
 #### Returns
 
@@ -68,7 +68,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.buil
 
 > **write**(...`data`): [`IXmlWriter`](../interfaces/IXmlWriter.md)
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts#L13)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.builder.string.ts#L13)
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IWebXRFeature
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L31)
 
 Defining the interface required for a (webxr) feature
 
@@ -24,7 +24,7 @@ Defining the interface required for a (webxr) feature
 
 > **attached**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L35)
 
 Is this feature attached
 
@@ -34,7 +34,7 @@ Is this feature attached
 
 > `optional` **dependsOn?**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:78](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L78)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L78)
 
 A list of (Babylon WebXR) features this feature depends on
 
@@ -44,7 +44,7 @@ A list of (Babylon WebXR) features this feature depends on
 
 > **disableAutoAttach**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L39)
 
 Should auto-attach be disabled?
 
@@ -54,7 +54,7 @@ Should auto-attach be disabled?
 
 > `optional` **getXRSessionInitExtension?**: () => `Promise`\<`Partial`\<`XRSessionInit`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:83](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L83)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L83)
 
 If this feature requires to extend the XRSessionInit object, this function will return the partial XR session init object
 
@@ -68,7 +68,7 @@ If this feature requires to extend the XRSessionInit object, this function will 
 
 > **isDisposed**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L68)
 
 Was this feature disposed;
 
@@ -78,7 +78,7 @@ Was this feature disposed;
 
 > **onFeatureAttachObservable**: [`Observable`](../classes/Observable.md)\<`IWebXRFeature`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:88](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L88)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L88)
 
 Triggered when the feature is attached
 
@@ -88,7 +88,7 @@ Triggered when the feature is attached
 
 > **onFeatureDetachObservable**: [`Observable`](../classes/Observable.md)\<`IWebXRFeature`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:92](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L92)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L92)
 
 Triggered when the feature is detached
 
@@ -98,7 +98,7 @@ Triggered when the feature is detached
 
 > `optional` **xrNativeFeatureName?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L73)
 
 The name of the native xr feature name, if applicable (like anchor, hit-test, or hand-tracking)
 
@@ -108,7 +108,7 @@ The name of the native xr feature name, if applicable (like anchor, hit-test, or
 
 > **attach**(`force?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:48](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L48)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L48)
 
 Attach the feature to the session
 Will usually be called by the features manager
@@ -133,7 +133,7 @@ true if successful.
 
 > **detach**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L55)
 
 Detach the feature from the session
 Will usually be called by the features manager
@@ -150,7 +150,7 @@ true if successful.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/scene.ts#L120)
+Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L122)
 
 Releases all held resources
 
@@ -168,7 +168,7 @@ Releases all held resources
 
 > **isCompatible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:63](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRFeaturesManager.ts#L63)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L63)
 
 This function will be executed during before enabling the feature and can be used to not-allow enabling it.
 Note that at this point the session has NOT started, so this is purely checking if the browser supports it

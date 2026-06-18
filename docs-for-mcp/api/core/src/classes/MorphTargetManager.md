@@ -6,7 +6,7 @@
 
 # Class: MorphTargetManager
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L17)
 
 This class is used to deform meshes using morphing between different targets
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/morphTargets
 
 > **new MorphTargetManager**(`scene?`, `meshName?`): `MorphTargetManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:128](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L128)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L128)
 
 Creates a new MorphTargetManager
 
@@ -52,7 +52,7 @@ name of the mesh this morph target manager is associated with
 
 > **enableColorMorphing**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:100](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L100)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L100)
 
 Gets or sets a boolean indicating if colors must be morphed
 
@@ -62,7 +62,7 @@ Gets or sets a boolean indicating if colors must be morphed
 
 > **enableNormalMorphing**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L80)
 
 Gets or sets a boolean indicating if normals must be morphed
 
@@ -72,7 +72,7 @@ Gets or sets a boolean indicating if normals must be morphed
 
 > **enablePositionMorphing**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L75)
 
 Gets or sets a boolean indicating if positions must be morphed
 
@@ -82,7 +82,7 @@ Gets or sets a boolean indicating if positions must be morphed
 
 > **enableTangentMorphing**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:85](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L85)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L85)
 
 Gets or sets a boolean indicating if tangents must be morphed
 
@@ -92,7 +92,7 @@ Gets or sets a boolean indicating if tangents must be morphed
 
 > **enableUV2Morphing**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L95)
 
 Gets or sets a boolean indicating if UV2 must be morphed
 
@@ -102,7 +102,7 @@ Gets or sets a boolean indicating if UV2 must be morphed
 
 > **enableUVMorphing**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L90)
 
 Gets or sets a boolean indicating if UV must be morphed
 
@@ -112,7 +112,7 @@ Gets or sets a boolean indicating if UV must be morphed
 
 > `optional` **meshName?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:130](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L130)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L130)
 
 name of the mesh this morph target manager is associated with
 
@@ -122,7 +122,7 @@ name of the mesh this morph target manager is associated with
 
 > **metadata**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:335](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L335)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:335](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L335)
 
 Gets or sets an object used to store user defined information for the MorphTargetManager
 
@@ -132,7 +132,7 @@ Gets or sets an object used to store user defined information for the MorphTarge
 
 > **optimizeInfluencers**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L70)
 
 Gets or sets a boolean indicating if influencers must be optimized (eg. recompiling the shader if less influencers are used)
 
@@ -142,7 +142,7 @@ Gets or sets a boolean indicating if influencers must be optimized (eg. recompil
 
 > `static` **ConstantTargetCountForTextureMode**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L27)
 
 When used in texture mode, if greather than 0, this will override the the morph manager numMaxInfluencers value.
 
@@ -152,7 +152,7 @@ When used in texture mode, if greather than 0, this will override the the morph 
 
 > `static` **EnableTextureStorage**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L19)
 
 Enable storing morph target data into textures when set to true (true by default)
 
@@ -162,7 +162,7 @@ Enable storing morph target data into textures when set to true (true by default
 
 > `static` **MaxActiveMorphTargetsInVertexAttributeMode**: `number` = `8`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L22)
 
 Maximum number of active morph targets supported in the "vertex attribute" mode (i.e., not the "texture" mode)
 
@@ -174,7 +174,7 @@ Maximum number of active morph targets supported in the "vertex attribute" mode 
 
 > **get** **areUpdatesFrozen**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:119](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L119)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L119)
 
 ##### Returns
 
@@ -184,7 +184,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:
 
 > **set** **areUpdatesFrozen**(`block`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:105](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L105)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L105)
 
 Sets a boolean indicating that adding new target or updating an existing target will not update the underlying data buffers
 
@@ -206,7 +206,7 @@ Sets a boolean indicating that adding new target or updating an existing target 
 
 > **get** **hasColors**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:271](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L271)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:271](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L271)
 
 Gets a boolean indicating if this manager has data for morphing colors
 
@@ -222,7 +222,7 @@ Gets a boolean indicating if this manager has data for morphing colors
 
 > **get** **hasNormals**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:243](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L243)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L243)
 
 Gets a boolean indicating if this manager has data for morphing normals
 
@@ -238,7 +238,7 @@ Gets a boolean indicating if this manager has data for morphing normals
 
 > **get** **hasPositions**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:236](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L236)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:236](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L236)
 
 Gets a boolean indicating if this manager has data for morphing positions
 
@@ -254,7 +254,7 @@ Gets a boolean indicating if this manager has data for morphing positions
 
 > **get** **hasTangents**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:250](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L250)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:250](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L250)
 
 Gets a boolean indicating if this manager has data for morphing tangents
 
@@ -270,7 +270,7 @@ Gets a boolean indicating if this manager has data for morphing tangents
 
 > **get** **hasUV2s**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:264](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L264)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:264](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L264)
 
 Gets a boolean indicating if this manager has data for morphing texture coordinates 2
 
@@ -286,7 +286,7 @@ Gets a boolean indicating if this manager has data for morphing texture coordina
 
 > **get** **hasUVs**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:257](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L257)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:257](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L257)
 
 Gets a boolean indicating if this manager has data for morphing texture coordinates
 
@@ -302,7 +302,7 @@ Gets a boolean indicating if this manager has data for morphing texture coordina
 
 > **get** **influences**(): `Float32Array`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:295](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L295)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:295](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L295)
 
 Gets the list of influences (one per target)
 
@@ -318,7 +318,7 @@ Gets the list of influences (one per target)
 
 > **get** **isUsingTextureForTargets**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:323](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L323)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L323)
 
 Gets a boolean indicating that the targets are stored into a texture (instead of as attributes)
 
@@ -334,7 +334,7 @@ Gets a boolean indicating that the targets are stored into a texture (instead of
 
 > **get** **numInfluencers**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:285](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L285)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:285](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L285)
 
 Gets the number of influencers (ie. the number of targets with influences > 0)
 
@@ -350,7 +350,7 @@ Gets the number of influencers (ie. the number of targets with influences > 0)
 
 > **get** **numMaxInfluencers**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:160](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L160)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L160)
 
 Gets or sets the maximum number of influencers (targets) (default value: 0).
 Setting a value for this property can lead to a smoother experience, as only one shader will be compiled, which will use this value as the maximum number of influencers.
@@ -368,7 +368,7 @@ Note as well that if MorphTargetManager.ConstantTargetCountForTextureMode is gre
 
 > **set** **numMaxInfluencers**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:167](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L167)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L167)
 
 ##### Parameters
 
@@ -388,7 +388,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:
 
 > **get** **numTargets**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:278](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L278)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:278](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L278)
 
 Gets the number of targets stored in this manager
 
@@ -404,7 +404,7 @@ Gets the number of targets stored in this manager
 
 > **get** **supportsColors**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:229](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L229)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L229)
 
 Gets a boolean indicating if this manager supports morphing of colors
 
@@ -420,7 +420,7 @@ Gets a boolean indicating if this manager supports morphing of colors
 
 > **get** **supportsNormals**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:201](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L201)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L201)
 
 Gets a boolean indicating if this manager supports morphing of normals
 
@@ -436,7 +436,7 @@ Gets a boolean indicating if this manager supports morphing of normals
 
 > **get** **supportsPositions**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:194](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L194)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L194)
 
 Gets a boolean indicating if this manager supports morphing of positions
 
@@ -452,7 +452,7 @@ Gets a boolean indicating if this manager supports morphing of positions
 
 > **get** **supportsTangents**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:208](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L208)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L208)
 
 Gets a boolean indicating if this manager supports morphing of tangents
 
@@ -468,7 +468,7 @@ Gets a boolean indicating if this manager supports morphing of tangents
 
 > **get** **supportsUV2s**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:222](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L222)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L222)
 
 Gets a boolean indicating if this manager supports morphing of texture coordinates 2
 
@@ -484,7 +484,7 @@ Gets a boolean indicating if this manager supports morphing of texture coordinat
 
 > **get** **supportsUVs**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:215](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L215)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:215](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L215)
 
 Gets a boolean indicating if this manager supports morphing of texture coordinates
 
@@ -500,7 +500,7 @@ Gets a boolean indicating if this manager supports morphing of texture coordinat
 
 > **get** **uniqueId**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:180](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L180)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L180)
 
 Gets the unique ID of this manager
 
@@ -516,7 +516,7 @@ Gets the unique ID of this manager
 
 > **get** **useTextureToStoreTargets**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:307](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L307)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:307](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L307)
 
 Gets or sets a boolean indicating that targets should be stored as a texture instead of using vertex attributes (default is true).
 Please note that this option is not available if the hardware does not support it
@@ -529,7 +529,7 @@ Please note that this option is not available if the hardware does not support i
 
 > **set** **useTextureToStoreTargets**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:311](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L311)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:311](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L311)
 
 ##### Parameters
 
@@ -549,7 +549,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:
 
 > **get** **vertexCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:187](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L187)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L187)
 
 Gets the number of vertices handled by this manager
 
@@ -563,7 +563,7 @@ Gets the number of vertices handled by this manager
 
 > **addTarget**(`target`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:380](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L380)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:380](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L380)
 
 Add a new target to this manager
 
@@ -585,7 +585,7 @@ defines the target to add
 
 > **clone**(): `MorphTargetManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:438](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L438)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:438](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L438)
 
 Clone the current manager
 
@@ -601,7 +601,7 @@ a new MorphTargetManager
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:693](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L693)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:693](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L693)
 
 Release all resources
 
@@ -619,7 +619,7 @@ Release all resources
 
 > **getActiveTarget**(`index`): [`MorphTarget`](MorphTarget.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:342](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L342)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:342](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L342)
 
 Gets the active target at specified index. An active target is a target with an influence > 0
 
@@ -643,7 +643,7 @@ the requested target
 
 > **getTarget**(`index`): [`MorphTarget`](MorphTarget.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:354](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L354)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:354](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L354)
 
 Gets the target at specified index
 
@@ -667,7 +667,7 @@ the requested target
 
 > **getTargetByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`MorphTarget`](MorphTarget.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:363](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L363)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:363](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L363)
 
 Gets the first target with the specified name
 
@@ -691,7 +691,7 @@ the requested target
 
 > **removeTarget**(`target`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:405](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L405)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:405](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L405)
 
 Removes a target from the manager
 
@@ -713,7 +713,7 @@ defines the target to remove
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:462](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L462)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:462](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L462)
 
 Serializes the current manager into a Serialization object
 
@@ -729,7 +729,7 @@ the serialized object
 
 > **synchronize**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:549](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L549)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:549](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L549)
 
 Synchronize the targets with all the meshes using this morph target manager
 
@@ -743,7 +743,7 @@ Synchronize the targets with all the meshes using this morph target manager
 
 > `static` **Parse**(`serializationObject`, `scene`): `MorphTargetManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:727](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Morph/morphTargetManager.ts#L727)
+Defined in: [babylonjs-source/packages/dev/core/src/Morph/morphTargetManager.ts:727](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Morph/morphTargetManager.ts#L727)
 
 Creates a new MorphTargetManager from serialized data
 

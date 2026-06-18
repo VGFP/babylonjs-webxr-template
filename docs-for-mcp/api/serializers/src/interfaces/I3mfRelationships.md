@@ -6,7 +6,7 @@
 
 # Interface: I3mfRelationships
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L116)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L116)
 
 ## Properties
 
@@ -14,4 +14,4 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.op
 
 > **items**: [`I3mfRelationship`](I3mfRelationship.md)[]
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:120](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L120)
+Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L120)

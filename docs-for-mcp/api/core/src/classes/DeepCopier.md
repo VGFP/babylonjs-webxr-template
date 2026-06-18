@@ -6,7 +6,7 @@
 
 # Class: DeepCopier
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/deepCopier.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/deepCopier.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/deepCopier.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/deepCopier.ts#L42)
 
 Class containing a set of static utilities functions for deep copy.
 
@@ -26,7 +26,7 @@ Class containing a set of static utilities functions for deep copy.
 
 > `static` **DeepCopy**(`source`, `destination`, `doNotCopyList?`, `mustCopyList?`, `shallowCopyValues?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/deepCopier.ts:52](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/deepCopier.ts#L52)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/deepCopier.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/deepCopier.ts#L52)
 
 Tries to copy an object by duplicating every property
 

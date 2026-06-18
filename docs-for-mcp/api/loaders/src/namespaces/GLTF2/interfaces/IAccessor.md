@@ -6,7 +6,7 @@
 
 # Interface: IAccessor
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L26)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L26)
 
 Loader interface with additional members.
 
@@ -20,7 +20,7 @@ Loader interface with additional members.
 
 > `optional` **bufferView?**: `number`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:358](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L358)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:358](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L358)
 
 The index of the bufferview
 
@@ -34,7 +34,7 @@ The index of the bufferview
 
 > `optional` **byteOffset?**: `number`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:362](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L362)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:362](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L362)
 
 The offset relative to the start of the bufferView in bytes
 
@@ -48,7 +48,7 @@ The offset relative to the start of the bufferView in bytes
 
 > **componentType**: `AccessorComponentType`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:366](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L366)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:366](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L366)
 
 The datatype of components in the attribute
 
@@ -62,7 +62,7 @@ The datatype of components in the attribute
 
 > **count**: `number`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:374](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L374)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:374](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L374)
 
 The number of attributes referenced by this accessor
 
@@ -76,7 +76,7 @@ The number of attributes referenced by this accessor
 
 > `optional` **extensions?**: `object`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:282](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L282)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L282)
 
 Dictionary object with extension-specific objects
 
@@ -94,7 +94,7 @@ Dictionary object with extension-specific objects
 
 > `optional` **extras?**: `any`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:288](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L288)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:288](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L288)
 
 Application-Specific data
 
@@ -108,7 +108,7 @@ Application-Specific data
 
 > **index**: `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:20](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L20)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L20)
 
 The index of this item in the array.
 
@@ -122,7 +122,7 @@ The index of this item in the array.
 
 > `optional` **max?**: `number`[]
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:382](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L382)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:382](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L382)
 
 Maximum value of each component in this attribute
 
@@ -136,7 +136,7 @@ Maximum value of each component in this attribute
 
 > `optional` **min?**: `number`[]
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:386](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L386)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:386](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L386)
 
 Minimum value of each component in this attribute
 
@@ -150,7 +150,7 @@ Minimum value of each component in this attribute
 
 > `optional` **name?**: `string`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:298](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L298)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L298)
 
 The user-defined name of this object
 
@@ -164,7 +164,7 @@ The user-defined name of this object
 
 > `optional` **normalized?**: `boolean`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:370](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L370)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:370](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L370)
 
 Specifies whether integer data values should be normalized
 
@@ -178,7 +178,7 @@ Specifies whether integer data values should be normalized
 
 > `optional` **sparse?**: `IAccessorSparse`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:390](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L390)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:390](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L390)
 
 Sparse storage of attributes that deviate from their initialization value
 
@@ -192,7 +192,7 @@ Sparse storage of attributes that deviate from their initialization value
 
 > **type**: `AccessorType`
 
-Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:378](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L378)
+Defined in: [babylonjs-source/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:378](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L378)
 
 Specifies if the attribute is a scalar, vector, or matrix
 

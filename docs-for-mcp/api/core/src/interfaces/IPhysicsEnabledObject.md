@@ -6,7 +6,7 @@
 
 # Interface: IPhysicsEnabledObject
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:91](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L91)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L95)
 
 Interface for a physics-enabled object
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/physics/usingPhysicsEngine
 
 > `optional` **parent?**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:111](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L111)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L115)
 
 The parent of the physics-enabled object
 
@@ -30,7 +30,7 @@ The parent of the physics-enabled object
 
 > **position**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:95](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L95)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L99)
 
 The position of the physics-enabled object
 
@@ -40,7 +40,7 @@ The position of the physics-enabled object
 
 > `optional` **rotation?**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L111)
 
 The rotation of the physics-enabled object
 
@@ -50,7 +50,7 @@ The rotation of the physics-enabled object
 
 > **rotationQuaternion**: [`Nullable`](../type-aliases/Nullable.md)\<[`Quaternion`](../classes/Quaternion.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L103)
 
 The rotation of the physics-enabled object
 
@@ -60,7 +60,7 @@ The rotation of the physics-enabled object
 
 > **scaling**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:103](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L103)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L107)
 
 The scale of the physics-enabled object
 
@@ -70,7 +70,7 @@ The scale of the physics-enabled object
 
 > **computeWorldMatrix**(`force`): [`Matrix`](../classes/Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L122)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L126)
 
 Computes the world matrix
 
@@ -94,7 +94,7 @@ A world matrix
 
 > **getAbsolutePivotPoint**(): [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:159](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L159)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L163)
 
 Gets the absolute pivot point from the mesh
 
@@ -110,7 +110,7 @@ the absolute pivot point
 
 > **getAbsolutePosition**(): [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:154](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L154)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L158)
 
 Gets the absolute position from the mesh
 
@@ -126,7 +126,7 @@ the absolute position
 
 > **getBoundingInfo**(): [`BoundingInfo`](../classes/BoundingInfo.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L116)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L120)
 
 The bounding info of the physics-enabled object
 
@@ -142,7 +142,7 @@ The bounding info of the physics-enabled object
 
 > `optional` **getChildMeshes**(`directDescendantsOnly?`): [`AbstractMesh`](../classes/AbstractMesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:133](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L133)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L137)
 
 Gets the child meshes
 
@@ -166,7 +166,7 @@ An array of abstract meshes
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:186](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L186)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L190)
 
 Gets the class name of the mesh
 
@@ -182,7 +182,7 @@ The class name
 
 > `optional` **getIndices**(): [`Nullable`](../type-aliases/Nullable.md)\<[`IndicesArray`](../type-aliases/IndicesArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:144](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L144)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L148)
 
 Gets the indices from the mesh
 
@@ -198,7 +198,7 @@ A nullable array of index arrays
 
 > `optional` **getScene**(): [`Scene`](../classes/Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:149](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L149)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L153)
 
 Gets the scene from the mesh
 
@@ -214,7 +214,7 @@ the indices array or null
 
 > **getVerticesData**(`kind`): [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L139)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L143)
 
 Gets the vertex data
 
@@ -238,7 +238,7 @@ A nullable array of numbers, or a float32 array
 
 > `optional` **getWorldMatrix**(): [`Matrix`](../classes/Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L131)
 
 Gets the world matrix
 
@@ -254,7 +254,7 @@ A world matrix
 
 > **rotate**(`axis`, `amount`, `space?`): [`TransformNode`](../classes/TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:167](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L167)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:171](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L171)
 
 Rotates the mesh
 
@@ -290,7 +290,7 @@ The rotation transform node
 
 > **setAbsolutePosition**(`absolutePosition`): [`TransformNode`](../classes/TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:181](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L181)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L185)
 
 Sets the absolute position of the mesh
 
@@ -314,7 +314,7 @@ The transform node
 
 > **translate**(`axis`, `distance`, `space?`): [`TransformNode`](../classes/TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.ts:175](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v1/physicsImpostor.ts#L175)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsImpostor.pure.ts#L179)
 
 Translates the mesh
 

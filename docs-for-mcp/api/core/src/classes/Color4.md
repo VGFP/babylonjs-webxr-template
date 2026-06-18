@@ -6,7 +6,7 @@
 
 # Class: Color4
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1019](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1019)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1017](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1017)
 
 Class used to hold a RBGA color
 
@@ -20,7 +20,7 @@ Class used to hold a RBGA color
 
 > **new Color4**(`r?`, `g?`, `b?`, `a?`): `Color4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1045](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1045)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1043](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1043)
 
 Creates a new Color4 object from red, green, blue values, all between 0 and 1
 
@@ -60,7 +60,7 @@ defines the alpha component (between 0 and 1, default is 1)
 
 > **a**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1061](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1061)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1059](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1059)
 
 [1] Defines the alpha component (between 0 and 1, default is 1)
 
@@ -74,7 +74,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1061](ht
 
 > **b**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1057](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1057)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1055](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1055)
 
 [0] Defines the blue component (between 0 and 1, default is 0)
 
@@ -88,7 +88,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1057](ht
 
 > `readonly` **dimension**: \[`4`\]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1031](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1031)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1029](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1029)
 
 #### See
 
@@ -104,7 +104,7 @@ Tensor.dimension
 
 > **g**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1053](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1053)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1051](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1051)
 
 [0] Defines the green component (between 0 and 1, default is 0)
 
@@ -118,7 +118,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1053](ht
 
 > **r**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1049](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1049)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1047](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1047)
 
 [0] Defines the red component (between 0 and 1, default is 0)
 
@@ -132,7 +132,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1049](ht
 
 > `readonly` **rank**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1036](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1036)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1034](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1034)
 
 #### See
 
@@ -148,7 +148,7 @@ Tensor.rank
 
 > `static` **\_V8PerformanceHack**: [`DeepImmutableObject`](../type-aliases/DeepImmutableObject.md)\<`Color4`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1027](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1027)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1025](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1025)
 
 If the first color is flagged with integers (as everything is 0,0,0,0), V8 stores all of the properties as integers internally because it doesn't know any better yet.
 If subsequent colors are created with non-integer values, V8 determines that it would be best to represent these properties as doubles instead of integers,
@@ -162,7 +162,7 @@ If we keep using the color instances from step 1, it will now be a poison pill w
 
 > **add**(`otherColor`): `Color4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1116](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1116)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1114)
 
 Creates a new Color4 set with the added values of the current Color4 and of the given one
 
@@ -190,7 +190,7 @@ a new Color4 object
 
 > **addInPlace**(`otherColor`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1139)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1137)
 
 Adds in place the given Color4 values to the current Color4 object
 
@@ -218,7 +218,7 @@ the current updated Color4 object
 
 > **addInPlaceFromFloats**(`r`, `g`, `b`, `a`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1155)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1153)
 
 Adds the given coordinates to the current Color4
 
@@ -264,7 +264,7 @@ the current updated Color4
 
 > **addToRef**\<`T`\>(`otherColor`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1126](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1126)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1124)
 
 Updates the given color "result" with the result of the addition of the current Color4 and the given one.
 
@@ -304,7 +304,7 @@ result input
 
 > **asArray**(): \[`number`, `number`, `number`, `number`\]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1070](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1070)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1068](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1068)
 
 Creates a new array populated with 4 numeric elements : red, green, blue, alpha values
 
@@ -324,7 +324,7 @@ the new array
 
 > **clampToRef**\<`T`\>(`min?`, `max?`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1285](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1285)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1283)
 
 Clamps the rgb values by the min and max values and stores the result into "result"
 
@@ -366,7 +366,7 @@ the result Color4
 
 > **clone**(): `Color4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1537](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1537)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1535](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1535)
 
 Creates a new Color4 copied from the current one
 
@@ -386,7 +386,7 @@ a new Color4 object
 
 > **copyFrom**(`source`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1547](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1547)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1545](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1545)
 
 Copies the given Color4 values into the current one
 
@@ -414,7 +414,7 @@ the current updated Color4 object
 
 > **copyFromFloats**(`r`, `g`, `b`, `a`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1563](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1563)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1561](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1561)
 
 Copies the given float values into the current one
 
@@ -460,7 +460,7 @@ the current updated Color4 object
 
 > **equals**(`otherColor`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1107)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1105)
 
 Determines equality between Color4 objects
 
@@ -488,7 +488,7 @@ true if the rgba values are equal to the given ones
 
 > **equalsToFloats**(`x`, `y`, `z`, `w`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1501](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1501)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1499](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1499)
 
 Boolean : True if the given floats are strictly equal to the current Color4 coordinates.
 
@@ -534,7 +534,7 @@ true if equal
 
 > **equalsWithEpsilon**(`otherColor`, `epsilon?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1484](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1484)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1482](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1482)
 
 Boolean : True if the current Color4 coordinates are each beneath the distance "epsilon" from the given color ones.
 
@@ -568,7 +568,7 @@ true if they are equal
 
 > **fromArray**(`array`, `offset?`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1094](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1094)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1092](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1092)
 
 Update the current color with values stored in an array from the starting index of the given array
 
@@ -602,7 +602,7 @@ the current Color4 object
 
 > **fromHexString**(`hex`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1624](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1624)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1622](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1622)
 
 Updates the Color4 rgba values from the string containing valid hexadecimal values.
 
@@ -633,7 +633,7 @@ the current updated Color4 object
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1517](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1517)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1515](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1515)
 
 Returns the string "Color4"
 
@@ -653,7 +653,7 @@ Returns the string "Color4"
 
 > **getHashCode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1525](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1525)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1523](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1523)
 
 Compute the Color4 hash code
 
@@ -673,7 +673,7 @@ an unique number that can be used to hash Color4 objects
 
 > **maximizeInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1382](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1382)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1380](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1380)
 
 Updates the Color4 coordinates with the maximum values between its own and the given color ones
 
@@ -701,7 +701,7 @@ the current updated Color4
 
 > **maximizeInPlaceFromFloats**(`r`, `g`, `b`, `a`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1414](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1414)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1412](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1412)
 
 Updates the current Color4 with the maximal coordinate values between its and the given coordinates.
 
@@ -747,7 +747,7 @@ the current updated Color4
 
 > **minimizeInPlace**(`other`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1370](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1370)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1368](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1368)
 
 Updates the Color4 coordinates with the minimum values between its own and the given color ones
 
@@ -775,7 +775,7 @@ the current updated Color4
 
 > **minimizeInPlaceFromFloats**(`r`, `g`, `b`, `a`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1398](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1398)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1396](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1396)
 
 Updates the current Color4 with the minimal coordinate values between its and the given coordinates
 
@@ -821,7 +821,7 @@ the current updated Color4
 
 > **multiply**(`color`): `Color4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1298](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1298)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1296](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1296)
 
 Multiply an Color4 value by another and return a new Color4 object
 
@@ -849,7 +849,7 @@ a new Color4 object
 
 > **multiplyByFloats**(`r`, `g`, `b`, `a`): `Color4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1337](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1337)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1335](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1335)
 
 Returns a new Color4 set with the multiplication result of the given floats and the current Color4 coordinates.
 
@@ -895,7 +895,7 @@ resulting new color
 
 > **multiplyInPlace**(`otherColor`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1321](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1321)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1319](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1319)
 
 Multiplies in place the current Color4 by the given one.
 
@@ -923,7 +923,7 @@ the updated Color4.
 
 > **multiplyToRef**\<`T`\>(`color`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1308](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1308)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1306](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1306)
 
 Multiply a Color4 value by another and push the result in a reference value
 
@@ -963,7 +963,7 @@ the result Color4
 
 > **scale**(`scale`): `Color4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1233](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1233)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1231)
 
 Creates a new Color4 with the current Color4 values multiplied by scale
 
@@ -991,7 +991,7 @@ a new Color4 object
 
 > **scaleAndAddToRef**\<`T`\>(`scale`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1270](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1270)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1268](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1268)
 
 Scale the current Color4 values by a factor and add the result to a given Color4
 
@@ -1031,7 +1031,7 @@ the result Color4
 
 > **scaleInPlace**(`scale`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1242](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1242)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1240](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1240)
 
 Multiplies the Color4 values by the float "scale"
 
@@ -1059,7 +1059,7 @@ the current updated Color4
 
 > **scaleToRef**\<`T`\>(`scale`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1256](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1256)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1254)
 
 Multiplies the current Color4 values by scale and stores the result in "result"
 
@@ -1099,7 +1099,7 @@ the result Color4
 
 > **set**(`r`, `g`, `b`, `a`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1579](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1579)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1577](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1577)
 
 Copies the given float values into the current one
 
@@ -1145,7 +1145,7 @@ the current updated Color4 object
 
 > **setAll**(`v`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1588](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1588)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1586](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1586)
 
 Copies the given float to the current Vector4 coordinates
 
@@ -1173,7 +1173,7 @@ the current updated Vector4
 
 > **subtract**(`otherColor`): `Color4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1168](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1168)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1166)
 
 Creates a new Color4 set with the subtracted values of the given one from the current Color4
 
@@ -1201,7 +1201,7 @@ a new Color4 object
 
 > **subtractFromFloats**(`r`, `g`, `b`, `a`): `Color4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1207](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1207)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1205)
 
 Returns a new Color4 set with the result of the subtraction of the given floats from the current Color4 coordinates.
 
@@ -1247,7 +1247,7 @@ new color containing the result
 
 > **subtractFromFloatsToRef**\<`T`\>(`r`, `g`, `b`, `a`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1220](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1220)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1218)
 
 Sets the given color "result" set with the result of the subtraction of the given floats from the current Color4 coordinates.
 
@@ -1305,7 +1305,7 @@ result input
 
 > **subtractInPlace**(`otherColor`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1191](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1191)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1189)
 
 Subtract in place the given color from the current Color4.
 
@@ -1333,7 +1333,7 @@ the updated Color4.
 
 > **subtractToRef**\<`T`\>(`otherColor`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1178](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1178)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1176)
 
 Subtracts the given ones from the current Color4 values and stores the results in "result"
 
@@ -1373,7 +1373,7 @@ the result Color4 object
 
 > **toArray**(`array`, `index?`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1080](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1080)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1078](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1078)
 
 Stores from the starting index in the given array the Color4 successive values
 
@@ -1407,7 +1407,7 @@ the current Color4 object
 
 > **toGammaSpace**(`exact?`): `Color4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1675](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1675)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1673](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1673)
 
 Computes a new Color4 converted from the current one to gamma space
 
@@ -1431,7 +1431,7 @@ a new Color4 object
 
 > **toGammaSpaceToRef**(`convertedColor`, `exact?`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1687](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1687)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1685](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1685)
 
 Converts the Color4 values to gamma space and stores the result in "convertedColor"
 
@@ -1461,7 +1461,7 @@ the unmodified Color4
 
 > **toHexString**(`returnAsColor3?`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1598](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1598)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1596](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1596)
 
 Compute the Color4 hexadecimal code as a string
 
@@ -1485,7 +1485,7 @@ a string containing the hexadecimal representation of the Color4 object
 
 > **toLinearSpace**(`exact?`): `Color4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1644](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1644)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1642](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1642)
 
 Computes a new Color4 converted from the current one to linear space
 
@@ -1509,7 +1509,7 @@ a new Color4 object
 
 > **toLinearSpaceToRef**(`convertedColor`, `exact?`): `this`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1656](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1656)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1654](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1654)
 
 Converts the Color4 values to linear space and stores the result in "convertedColor"
 
@@ -1539,7 +1539,7 @@ the unmodified Color4
 
 > **toString**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1509](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1509)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1507](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1507)
 
 Creates a string with the Color4 current values
 
@@ -1555,7 +1555,7 @@ the string representation of the Color4 object
 
 > `static` **CheckColors4**(`colors`, `count`): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1882](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1882)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1880](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1880)
 
 Check the content of a given array and convert it to an array containing RGBA data
 If the original array was already containing count * 4 values then it is returned directly
@@ -1586,7 +1586,7 @@ an array containing count * 4 values (RGBA)
 
 > `static` **FromArray**(`array`, `offset?`): `Color4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1846](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1846)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1844](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1844)
 
 Creates a new Color4 from the starting index element of the given array
 
@@ -1616,7 +1616,7 @@ a new Color4 object
 
 > `static` **FromArrayToRef**(`array`, `offset?`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1856](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1856)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1854](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1854)
 
 Creates a new Color4 from the starting index element of the given array
 
@@ -1650,7 +1650,7 @@ defines the target Color4 object
 
 > `static` **FromColor3**(`color3`, `alpha?`): `Color4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1836](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1836)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1834](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1834)
 
 Creates a new Color4 from a Color3 and an alpha value
 
@@ -1680,7 +1680,7 @@ a new Color4 object
 
 > `static` **FromHexString**(`hex`): `Color4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1717](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1717)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1715](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1715)
 
 Creates a new Color4 from the string containing valid hexadecimal values.
 
@@ -1712,7 +1712,7 @@ a new Color4 object
 
 > `static` **FromInts**(`r`, `g`, `b`, `a`): `Color4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1871](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1871)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1869](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1869)
 
 Creates a new Color3 from integer values (less than 256)
 
@@ -1754,7 +1754,7 @@ a new Color3 object
 
 > `static` **Hermite**(`value1`, `tangent1`, `value2`, `tangent2`, `amount`): `Color4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1761](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1761)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1759](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1759)
 
 Interpolate between two Color4 using Hermite interpolation
 
@@ -1802,7 +1802,7 @@ the new interpolated Color4
 
 > `static` **Hermite1stDerivative**(`value1`, `tangent1`, `value2`, `tangent2`, `time`): `Color4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1791](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1791)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1789](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1789)
 
 Returns a new Color4 which is the 1st derivative of the Hermite spline defined by the colors "value1", "value2", "tangent1", "tangent2".
 
@@ -1850,7 +1850,7 @@ define where the derivative must be done
 
 > `static` **Hermite1stDerivativeToRef**(`value1`, `tangent1`, `value2`, `tangent2`, `time`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1814](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1814)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1812](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1812)
 
 Update a Color4 with the 1st derivative of the Hermite spline defined by the colors "value1", "value2", "tangent1", "tangent2".
 
@@ -1902,7 +1902,7 @@ define where to store the derivative
 
 > `static` **Lerp**(`left`, `right`, `amount`): `Color4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1732](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1732)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1730](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1730)
 
 Creates a new Color4 object set with the linearly interpolated values of "amount" between the left Color4 object and the right Color4 object
 
@@ -1938,7 +1938,7 @@ a new Color4 object
 
 > `static` **LerpToRef**\<`T`\>(`left`, `right`, `amount`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.ts:1744](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.color.ts#L1744)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.color.pure.ts:1742](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.color.pure.ts#L1742)
 
 Set the given "result" with the linearly interpolated values of "amount" between the left Color4 object and the right Color4 object
 

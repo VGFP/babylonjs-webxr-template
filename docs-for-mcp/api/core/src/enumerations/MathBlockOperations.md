@@ -6,7 +6,7 @@
 
 # Enumeration: MathBlockOperations
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.pure.ts#L15)
 
 Operations supported by the Math block
 
@@ -16,7 +16,7 @@ Operations supported by the Math block
 
 > **Add**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.ts:15](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.ts#L15)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.pure.ts#L17)
 
 Add
 
@@ -26,7 +26,7 @@ Add
 
 > **Divide**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.pure.ts#L23)
 
 Divide
 
@@ -36,7 +36,7 @@ Divide
 
 > **Max**: `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.pure.ts#L25)
 
 Max
 
@@ -46,7 +46,7 @@ Max
 
 > **Min**: `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.pure.ts#L27)
 
 Min
 
@@ -56,7 +56,7 @@ Min
 
 > **Multiply**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.pure.ts#L21)
 
 Multiply
 
@@ -66,6 +66,6 @@ Multiply
 
 > **Subtract**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/mathBlock.pure.ts#L19)
 
 Subtract

@@ -6,7 +6,7 @@
 
 # Enumeration: WebXRTrackingState
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:29](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRTypes.ts#L29)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRTypes.ts#L29)
 
 The state of the XR camera's tracking
 
@@ -16,7 +16,7 @@ The state of the XR camera's tracking
 
 > **NOT\_TRACKING**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRTypes.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRTypes.ts#L33)
 
 No transformation received, device is not being tracked
 
@@ -26,7 +26,7 @@ No transformation received, device is not being tracked
 
 > **TRACKING**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:41](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRTypes.ts#L41)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRTypes.ts#L41)
 
 Transformation tracking works normally
 
@@ -36,6 +36,6 @@ Transformation tracking works normally
 
 > **TRACKING\_LOST**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/webXRTypes.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRTypes.ts#L37)
 
 Tracking lost - using emulated position

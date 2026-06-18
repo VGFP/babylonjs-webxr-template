@@ -6,7 +6,7 @@
 
 # Class: Ray
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L57)
 
 Class representing a ray with position and direction
 
@@ -16,7 +16,7 @@ Class representing a ray with position and direction
 
 > **new Ray**(`origin`, `direction`, `length?`, `epsilon?`): `Ray`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:69](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L69)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L69)
 
 Creates a new ray
 
@@ -56,7 +56,7 @@ The epsilon value to use when calculating the ray/triangle intersection (default
 
 > **direction**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L73)
 
 direction
 
@@ -66,7 +66,7 @@ direction
 
 > **epsilon**: `number` = `Epsilon`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:77](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L77)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L77)
 
 [Epsilon] The epsilon value to use when calculating the ray/triangle intersection (default: Epsilon from math constants)
 
@@ -76,7 +76,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:77](http
 
 > **length**: `number` = `Number.MAX_VALUE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L75)
 
 [Number.MAX_VALUE] length of the ray
 
@@ -86,7 +86,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:75](http
 
 > **origin**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:71](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L71)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L71)
 
 origin point
 
@@ -96,7 +96,7 @@ origin point
 
 > **clone**(): `Ray`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:86](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L86)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L86)
 
 Clone the current ray
 
@@ -112,7 +112,7 @@ a new ray
 
 > **intersectionSegment**(`sega`, `segb`, `threshold`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:415](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L415)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:415](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L415)
 
 Intersection test between the ray and a given segment within a given tolerance (threshold)
 
@@ -148,7 +148,7 @@ the distance from the ray origin to the intersection point if there's intersecti
 
 > **intersectsAxis**(`axis`, `offset?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Vector3`](Vector3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:308](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L308)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:308](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L308)
 
 Calculate the intercept of a ray on a given axis
 
@@ -178,7 +178,7 @@ a vector containing the coordinates where 'axis' is equal to zero (else offset),
 
 > **intersectsBox**(`box`, `intersectionTreshold?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:196](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L196)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L196)
 
 Checks if the ray intersects a box
 This does not account for the ray length by design to improve perfs.
@@ -209,7 +209,7 @@ if the box was hit
 
 > **intersectsBoxMinMax**(`minimum`, `maximum`, `intersectionTreshold?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L98)
 
 Checks if the ray intersects a box
 This does not account for the ray length by design to improve perfs.
@@ -246,7 +246,7 @@ if the box was hit
 
 > **intersectsMesh**(`mesh`, `fastCheck?`, `trianglePredicate?`, `onlyBoundingInfo?`, `worldToUse?`, `skipBoundingInfo?`): [`PickingInfo`](PickingInfo.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:347](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L347)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:347](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L347)
 
 Checks if ray intersects a mesh. The ray is defined in WORLD space. A mesh triangle can be picked both from its front and back sides,
 irrespective of orientation.
@@ -301,7 +301,7 @@ picking info of the intersection
 
 > **intersectsMeshes**(`meshes`, `fastCheck?`, `results?`): [`PickingInfo`](PickingInfo.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:375](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L375)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:375](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L375)
 
 Checks if ray intersects a mesh
 
@@ -337,7 +337,7 @@ Array of picking infos
 
 > **intersectsPlane**(`plane`): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:283](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L283)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L283)
 
 Checks if ray intersects a plane
 
@@ -361,7 +361,7 @@ the distance away it was hit
 
 > **intersectsSphere**(`sphere`, `intersectionTreshold?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:206](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L206)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:206](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L206)
 
 If the ray hits a sphere
 
@@ -391,7 +391,7 @@ true if it hits the sphere
 
 > **intersectsTriangle**(`vertex0`, `vertex1`, `vertex2`): [`Nullable`](../type-aliases/Nullable.md)\<`IntersectionInfo`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:235](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L235)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:235](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L235)
 
 If the ray hits a triange
 
@@ -427,7 +427,7 @@ intersection information if hit
 
 > **unprojectRayToRef**(`sourceX`, `sourceY`, `viewportWidth`, `viewportHeight`, `world`, `view`, `projection`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:670](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L670)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:670](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L670)
 
 Unproject a ray from screen space to object space
 
@@ -485,7 +485,7 @@ defines the projection matrix to use
 
 > **update**(`x`, `y`, `viewportWidth`, `viewportHeight`, `world`, `view`, `projection`, `enableDistantPicking?`): `Ray`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:522](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L522)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:522](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L522)
 
 Update the ray from viewport position
 
@@ -551,7 +551,7 @@ this ray updated
 
 > `static` **CreateFromToToRef**(`origin`, `end`, `result`, `world?`): `Ray`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:610](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L610)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:610](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L610)
 
 Function will update a transformed ray starting from origin and ending at the end point. Ray's length will be set, and ray will be
 transformed to the given world matrix.
@@ -594,7 +594,7 @@ the ref ray
 
 > `static` **CreateNew**(`x`, `y`, `viewportWidth`, `viewportHeight`, `world`, `view`, `projection`): `Ray`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:574](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L574)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:574](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L574)
 
 Creates a new ray from screen space and viewport
 
@@ -654,7 +654,7 @@ new ray
 
 > `static` **CreateNewFromTo**(`origin`, `end`, `world?`): `Ray`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:596](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L596)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:596](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L596)
 
 Function will create a new transformed ray starting from origin and ending at the end point. Ray's length will be set, and ray will be
 transformed to the given world matrix.
@@ -691,7 +691,7 @@ the new ray
 
 > `static` **Transform**(`ray`, `matrix`): `Ray`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:626](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L626)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:626](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L626)
 
 Transforms a ray by a matrix
 
@@ -721,7 +721,7 @@ the resulting new ray
 
 > `static` **TransformToRef**(`ray`, `matrix`, `result`): `Ray`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:640](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L640)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:640](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L640)
 
 Transforms a ray by a matrix
 
@@ -757,7 +757,7 @@ the updated result ray
 
 > `static` **Zero**(): `Ray`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:559](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Culling/ray.core.ts#L559)
+Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:559](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L559)
 
 Creates a ray with origin and direction of 0,0,0
 

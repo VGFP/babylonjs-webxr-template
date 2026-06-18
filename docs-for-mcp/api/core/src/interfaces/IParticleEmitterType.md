@@ -6,7 +6,7 @@
 
 # Interface: IParticleEmitterType
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L13)
 
 Particle emitter represents a volume emitting particles.
 This is the responsibility of the implementation to define the volume shape like cone/sphere/box.
@@ -17,7 +17,7 @@ This is the responsibility of the implementation to define the volume shape like
 
 > **applyToShader**(`uboOrEffect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L43)
 
 Called by the GPUParticleSystem to setup the update shader
 
@@ -39,7 +39,7 @@ defines the update shader
 
 > **buildUniformLayout**(`ubo`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L49)
 
 Creates the structure of the ubo for this particle emitter
 
@@ -61,7 +61,7 @@ ubo to create the structure for
 
 > **clone**(): `IParticleEmitterType`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:37](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L37)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L37)
 
 Clones the current emitter and returns a copy of it
 
@@ -77,7 +77,7 @@ the new emitter
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L61)
 
 Returns a string representing the class name
 
@@ -93,7 +93,7 @@ a string containing the class name
 
 > **getEffectDefines**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L55)
 
 Returns a string to use to update the GPU particles update shader
 
@@ -109,7 +109,7 @@ the effect defines string
 
 > **parse**(`serializationObject`, `scene`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L74)
 
 Parse properties from a JSON object
 
@@ -137,7 +137,7 @@ defines the hosting scene
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:67](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L67)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L67)
 
 Serializes the particle system to a JSON object.
 
@@ -153,7 +153,7 @@ the JSON object
 
 > **startDirectionFunction**(`worldMatrix`, `directionToUpdate`, `particle`, `isLocal`, `inverseWorldMatrix`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L22)
 
 Called by the particle System when the direction is computed for the created particle.
 
@@ -199,7 +199,7 @@ defines the inverted world matrix to use if isLocal is false
 
 > **startPositionFunction**(`worldMatrix`, `positionToUpdate`, `particle`, `isLocal`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/EmitterTypes/IParticleEmitterType.ts#L31)
 
 Called by the particle System when the position is computed for the created particle.
 

@@ -6,7 +6,7 @@
 
 # Interface: IWebXRHitResult
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHitTest.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHitTest.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHitTest.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHitTest.pure.ts#L51)
 
 Interface defining the babylon result of hit-test
 
@@ -20,7 +20,7 @@ Interface defining the babylon result of hit-test
 
 > `optional` **inputSource?**: `XRInputSource`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHitTest.ts:53](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHitTest.ts#L53)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHitTest.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHitTest.pure.ts#L55)
 
 The input source that generated this hit test (if transient)
 
@@ -30,7 +30,7 @@ The input source that generated this hit test (if transient)
 
 > `optional` **isTransient?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHitTest.ts:57](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHitTest.ts#L57)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHitTest.pure.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHitTest.pure.ts#L59)
 
 Is this a transient hit test
 
@@ -40,7 +40,7 @@ Is this a transient hit test
 
 > **position**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHitTest.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHitTest.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHitTest.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHitTest.pure.ts#L63)
 
 Position of the hit test result
 
@@ -50,7 +50,7 @@ Position of the hit test result
 
 > **rotationQuaternion**: [`Quaternion`](../classes/Quaternion.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHitTest.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHitTest.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHitTest.pure.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHitTest.pure.ts#L67)
 
 Rotation of the hit test result
 
@@ -60,7 +60,7 @@ Rotation of the hit test result
 
 > **transformationMatrix**: [`Matrix`](../classes/Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHitTestLegacy.ts:42](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHitTestLegacy.ts#L42)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHitTestLegacy.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHitTestLegacy.ts#L42)
 
 Transformation matrix that can be applied to a node that will put it in the hit point location
 
@@ -74,7 +74,7 @@ Transformation matrix that can be applied to a node that will put it in the hit 
 
 > **xrHitResult**: `XRHitTestResult`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHitTest.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRHitTest.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRHitTest.pure.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRHitTest.pure.ts#L72)
 
 The native hit test result
 

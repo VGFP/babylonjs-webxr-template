@@ -6,7 +6,7 @@
 
 # Class: FrameGraphObjectListPass
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Passes/objectListPass.ts:7](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Passes/objectListPass.ts#L7)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Passes/objectListPass.ts:7](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Passes/objectListPass.ts#L7)
 
 Object list pass used to generate a list of objects.
 
@@ -20,7 +20,7 @@ Object list pass used to generate a list of objects.
 
 > **disabled**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Passes/pass.ts:13](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Passes/pass.ts#L13)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Passes/pass.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Passes/pass.ts#L13)
 
 Whether the pass is disabled. Disabled passes will be skipped during execution.
 
@@ -34,7 +34,7 @@ Whether the pass is disabled. Disabled passes will be skipped during execution.
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Passes/pass.ts:17](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Passes/pass.ts#L17)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Passes/pass.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Passes/pass.ts#L17)
 
 The name of the pass.
 
@@ -50,7 +50,7 @@ The name of the pass.
 
 > **get** **objectList**(): [`FrameGraphObjectList`](FrameGraphObjectList.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Passes/objectListPass.ts:23](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Passes/objectListPass.ts#L23)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Passes/objectListPass.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Passes/objectListPass.ts#L23)
 
 Gets the object list used by the pass.
 
@@ -64,7 +64,7 @@ Gets the object list used by the pass.
 
 > **setExecuteFunc**(`func`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Passes/pass.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Passes/pass.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Passes/pass.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Passes/pass.ts#L35)
 
 Sets the function to execute when the pass is executed
 
@@ -90,7 +90,7 @@ The function to execute when the pass is executed
 
 > **setInitializeFunc**(`func`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Passes/pass.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Passes/pass.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Passes/pass.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Passes/pass.ts#L27)
 
 Initializes the pass.
 This function is called once after the frame graph has been built
@@ -117,7 +117,7 @@ The function to initialize the pass.
 
 > **setObjectList**(`objectList`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Passes/objectListPass.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Passes/objectListPass.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Passes/objectListPass.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Passes/objectListPass.ts#L31)
 
 Sets the object list to use for the pass.
 
@@ -139,7 +139,7 @@ The object list to use for the pass.
 
 > `static` **IsObjectListPass**(`pass`): `pass is FrameGraphObjectListPass`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Passes/objectListPass.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Passes/objectListPass.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Passes/objectListPass.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Passes/objectListPass.ts#L16)
 
 Checks if a pass is an object list pass.
 

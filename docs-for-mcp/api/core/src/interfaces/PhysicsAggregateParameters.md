@@ -6,7 +6,7 @@
 
 # Interface: PhysicsAggregateParameters
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:21](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L21)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L21)
 
 The interface for the physics aggregate parameters
 
@@ -16,7 +16,7 @@ The interface for the physics aggregate parameters
 
 > `optional` **center?**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:65](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L65)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L65)
 
 mesh local center
 
@@ -26,7 +26,7 @@ mesh local center
 
 > `optional` **extents?**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:55](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L55)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L55)
 
 Extents for box
 
@@ -36,7 +36,7 @@ Extents for box
 
 > `optional` **friction?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L30)
 
 The friction of the physics aggregate
 
@@ -46,7 +46,7 @@ The friction of the physics aggregate
 
 > `optional` **isTriggerShape?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:80](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L80)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L80)
 
 If true, mark the created shape as a trigger shape
 
@@ -56,7 +56,7 @@ If true, mark the created shape as a trigger shape
 
 > **mass**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:25](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L25)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L25)
 
 The mass of the physics aggregate
 
@@ -66,7 +66,7 @@ The mass of the physics aggregate
 
 > `optional` **mesh?**: [`Mesh`](../classes/Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:70](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L70)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L70)
 
 mesh object. Used for mesh and convex hull aggregates.
 
@@ -76,7 +76,7 @@ mesh object. Used for mesh and convex hull aggregates.
 
 > `optional` **pointA?**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:45](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L45)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L45)
 
 Starting point for cylinder/capsule
 
@@ -86,7 +86,7 @@ Starting point for cylinder/capsule
 
 > `optional` **pointB?**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:50](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L50)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L50)
 
 Ending point for cylinder/capsule
 
@@ -96,7 +96,7 @@ Ending point for cylinder/capsule
 
 > `optional` **radius?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L40)
 
 Radius for sphere, cylinder and capsule
 
@@ -106,7 +106,7 @@ Radius for sphere, cylinder and capsule
 
 > `optional` **restitution?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:35](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L35)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L35)
 
 The coefficient of restitution of the physics aggregate
 
@@ -116,7 +116,7 @@ The coefficient of restitution of the physics aggregate
 
 > `optional` **rotation?**: [`Quaternion`](../classes/Quaternion.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L60)
 
 Orientation for box
 
@@ -126,6 +126,6 @@ Orientation for box
 
 > `optional` **startAsleep?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:75](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L75)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsAggregate.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsAggregate.ts#L75)
 
 Physics engine will try to make this body sleeping and not active

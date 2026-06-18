@@ -6,7 +6,7 @@
 
 # Interface: ITextureProcessOperand
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureProcessor.ts:99](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L99)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureProcessor.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L99)
 
 Represents an operand for a texture processing operation, or the result of one.
 
@@ -31,7 +31,7 @@ At least one of `texture` or `factor` must be provided when used as an operand.
 
 > `optional` **channel?**: [`TextureChannel`](../enumerations/TextureChannel.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureProcessor.ts:117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L117)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureProcessor.ts:117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L117)
 
 Optional channel selection applied to the sampled texture value before any factor
 multiplication. When omitted or set to `TextureChannel.RGBA`, the sample is used
@@ -44,7 +44,7 @@ as-is. When set to a single channel, that channel's scalar is broadcast to RGB
 
 > `optional` **colorSpace?**: [`TextureColorSpace`](../enumerations/TextureColorSpace.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureProcessor.ts:125](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L125)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureProcessor.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L125)
 
 Color space of the texture data. When set to `TextureColorSpace.SRGB`, the sampled
 RGB channels are converted from sRGB to linear space (IEC 61966-2-1) before the channel
@@ -57,7 +57,7 @@ Defaults to `TextureColorSpace.Linear` (no conversion). Only meaningful when `te
 
 > `optional` **dispose?**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureProcessor.ts:134](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L134)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureProcessor.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L134)
 
 Disposes the texture produced by a processing operation. Only present on results
 returned by the texture processing functions. When a result is passed as an operand
@@ -75,7 +75,7 @@ is no longer needed (or skip it if transferring ownership to a material).
 
 > `optional` **factor?**: [`Color4`](../classes/Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureProcessor.ts:110](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L110)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureProcessor.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L110)
 
 Optional constant RGBA factor. If `texture` is also set, the sampled value is
 multiplied by this factor. If `texture` is not set, this becomes the constant output.
@@ -87,7 +87,7 @@ When omitted and `texture` is set, defaults to (1, 1, 1, 1) — no scaling.
 
 > **texture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](../classes/BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureProcessor.ts:104](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L104)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureProcessor.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L104)
 
 Texture to sample. When combined with `factor`, the sampled value is multiplied
 component-wise by the factor. Null when the operand or result is a constant.

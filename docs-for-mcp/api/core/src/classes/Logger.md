@@ -6,7 +6,7 @@
 
 # Class: Logger
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:6](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/logger.ts#L6)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/logger.ts#L6)
 
 Logger used throughout the application to allow configuration of
 the log level required for the messages.
@@ -27,7 +27,7 @@ the log level required for the messages.
 
 > `readonly` `static` **AllLogLevel**: `7` = `7`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/logger.ts#L26)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/logger.ts#L26)
 
 All logs
 
@@ -37,7 +37,7 @@ All logs
 
 > `static` **Error**: (`message`, `limit?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/logger.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/logger.ts#L127)
 
 Write an error message to the console
 
@@ -61,7 +61,7 @@ Write an error message to the console
 
 > `readonly` `static` **ErrorLogLevel**: `4` = `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/logger.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/logger.ts#L22)
 
 Only error logs
 
@@ -71,7 +71,7 @@ Only error logs
 
 > `static` **errorsCount**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/logger.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/logger.ts#L49)
 
 **`Ignorenaming`**
 
@@ -83,7 +83,7 @@ Gets a value indicating the number of loading errors
 
 > `static` **Log**: (`message`, `limit?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:117](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/logger.ts#L117)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/logger.ts#L117)
 
 Log a message to the console
 
@@ -107,7 +107,7 @@ Log a message to the console
 
 > `static` **MessageLimitReached**: `string` = `"Too many %TYPE%s (%LIMIT%), no more %TYPE%s will be reported for this message."`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/logger.ts#L31)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/logger.ts#L31)
 
 Message to display when a message has been logged too many times
 
@@ -117,7 +117,7 @@ Message to display when a message has been logged too many times
 
 > `readonly` `static` **MessageLogLevel**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:14](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/logger.ts#L14)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/logger.ts#L14)
 
 Only message logs
 
@@ -127,7 +127,7 @@ Only message logs
 
 > `readonly` `static` **NoneLogLevel**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:10](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/logger.ts#L10)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/logger.ts#L10)
 
 No log
 
@@ -137,7 +137,7 @@ No log
 
 > `static` **OnNewCacheEntry**: (`entry`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/logger.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/logger.ts#L54)
 
 Callback called when a new log is added
 
@@ -157,7 +157,7 @@ Callback called when a new log is added
 
 > `static` **Warn**: (`message`, `limit?`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:122](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/logger.ts#L122)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/logger.ts#L122)
 
 Write a warning message to the console
 
@@ -181,7 +181,7 @@ Write a warning message to the console
 
 > `readonly` `static` **WarningLogLevel**: `2` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:18](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/logger.ts#L18)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/logger.ts#L18)
 
 Only warning logs
 
@@ -193,7 +193,7 @@ Only warning logs
 
 > **get** `static` **LogCache**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:132](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/logger.ts#L132)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/logger.ts#L132)
 
 Gets current log cache (list of logs)
 
@@ -209,7 +209,7 @@ Gets current log cache (list of logs)
 
 > **set** `static` **LogLevels**(`level`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:149](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/logger.ts#L149)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/logger.ts#L149)
 
 Sets the current log level. This property is a bit field, allowing you to combine different levels (MessageLogLevel / WarningLogLevel / ErrorLogLevel).
 Use NoneLogLevel to disable logging and AllLogLevel for a quick way to enable all levels.
@@ -230,7 +230,7 @@ Use NoneLogLevel to disable logging and AllLogLevel for a quick way to enable al
 
 > `static` **ClearLogCache**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:139](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/logger.ts#L139)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/logger.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/logger.ts#L139)
 
 Clears the log cache
 

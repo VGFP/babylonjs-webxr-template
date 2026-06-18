@@ -6,7 +6,7 @@
 
 # Class: FrameGraphComputeShaderTask
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:24](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L24)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L24)
 
 Task used to execute a compute shader (WebGPU only)
 
@@ -20,7 +20,7 @@ Task used to execute a compute shader (WebGPU only)
 
 > **new FrameGraphComputeShaderTask**(`name`, `frameGraph`, `shaderPath`, `options?`): `FrameGraphComputeShaderTask`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:73](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L73)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L73)
 
 Creates a new compute shader task.
 
@@ -68,7 +68,7 @@ Define the options used to create the shader
 
 > `optional` **dependencies?**: `Set`\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
 
 The (texture) dependencies of the task (optional).
 
@@ -82,7 +82,7 @@ The (texture) dependencies of the task (optional).
 
 > **dispatchSize**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L32)
 
 Defines the dispatch size for the compute shader
 
@@ -92,7 +92,7 @@ Defines the dispatch size for the compute shader
 
 > `optional` **execute?**: (`context`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:44](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L44)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L44)
 
 An optional execute function that will be called at the beginning of the task execution
 
@@ -112,7 +112,7 @@ An optional execute function that will be called at the beginning of the task ex
 
 > `optional` **indirectDispatch?**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:39](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L39)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L39)
 
 Defines an indirect dispatch buffer and offset.
 If set, this will be used instead of the dispatchSize property and an indirect dispatch will be performed.
@@ -132,7 +132,7 @@ If set, this will be used instead of the dispatchSize property and an indirect d
 
 > **onAfterTaskExecute**: [`Observable`](Observable.md)\<[`FrameGraphTask`](FrameGraphTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
 
 An observable that is triggered after the task is executed.
 
@@ -146,7 +146,7 @@ An observable that is triggered after the task is executed.
 
 > **onBeforeTaskExecute**: [`Observable`](Observable.md)\<[`FrameGraphTask`](FrameGraphTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
 
 An observable that is triggered before the task is executed.
 
@@ -160,7 +160,7 @@ An observable that is triggered before the task is executed.
 
 > **onTexturesAllocatedObservable**: [`Observable`](Observable.md)\<[`FrameGraphRenderContext`](FrameGraphRenderContext.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
 
 An observable that is triggered after the textures have been allocated.
 
@@ -176,7 +176,7 @@ An observable that is triggered after the textures have been allocated.
 
 > **get** **computeShader**(): [`ComputeShader`](ComputeShader.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:49](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L49)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L49)
 
 Gets the compute shader used by the task
 
@@ -192,7 +192,7 @@ Gets the compute shader used by the task
 
 > **get** **disabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L43)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L43)
 
 Whether the task is disabled.
 
@@ -204,7 +204,7 @@ Whether the task is disabled.
 
 > **set** **disabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:47](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L47)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L47)
 
 ##### Parameters
 
@@ -228,7 +228,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L30)
 
 The name of the task.
 
@@ -240,7 +240,7 @@ The name of the task.
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:34](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L34)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L34)
 
 ##### Parameters
 
@@ -264,7 +264,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts
 
 > **get** **passes**(): [`IFrameGraphPass`](../interfaces/IFrameGraphPass.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
 
 Gets the passes of the task.
 
@@ -284,7 +284,7 @@ Gets the passes of the task.
 
 > **get** **passesDisabled**(): [`IFrameGraphPass`](../interfaces/IFrameGraphPass.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
 
 Gets the disabled passes of the task.
 
@@ -302,7 +302,7 @@ Gets the disabled passes of the task.
 
 > **createUniformBuffer**(`name`, `description`, `autoUpdate?`): [`UniformBuffer`](UniformBuffer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:98](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L98)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L98)
 
 Creates a uniform buffer and binds it to the shader
 
@@ -336,7 +336,7 @@ The created uniform buffer
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:227](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L227)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L227)
 
 Disposes of the task.
 
@@ -354,7 +354,7 @@ Disposes of the task.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:186](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L186)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:186](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L186)
 
 Gets the current class name
 
@@ -374,7 +374,7 @@ the class name
 
 > **getUniformBuffer**(`name`): [`UniformBuffer`](UniformBuffer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:58](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L58)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L58)
 
 Gets a uniform buffer created by a call to createUniformBuffer()
 
@@ -398,7 +398,7 @@ The uniform buffer
 
 > **initAsync**(): `Promise`\<`unknown`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L90)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L90)
 
 This function is called once after the task has been added to the frame graph and before the frame graph is built for the first time.
 This allows you to initialize asynchronous resources, which is not possible in the constructor.
@@ -419,7 +419,7 @@ A promise that resolves when the initialization is complete.
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L87)
 
 Checks if the task is ready to be executed.
 
@@ -439,7 +439,7 @@ True if the task is ready to be executed, else false.
 
 > **record**(`skipCreationOfDisabledPasses?`): [`FrameGraphPass`](FrameGraphPass.md)\<[`FrameGraphContext`](FrameGraphContext.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:190](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L190)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L190)
 
 Records the task in the frame graph. Use this function to add content (render passes, ...) to the task.
 
@@ -465,7 +465,7 @@ If true, the disabled passe(s) won't be created.
 
 > **setExternalTexture**(`name`, `texture`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:145](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L145)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L145)
 
 Binds an external texture to the shader
 
@@ -493,7 +493,7 @@ Texture to bind
 
 > **setInternalTexture**(`name`, `texture`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:127](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L127)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L127)
 
 Binds an internal texture to the shader
 
@@ -521,7 +521,7 @@ Texture to bind
 
 > **setStorageBuffer**(`name`, `buffer`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:173](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L173)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L173)
 
 Binds a storage buffer to the shader
 
@@ -549,7 +549,7 @@ Buffer to bind
 
 > **setStorageTexture**(`name`, `texture`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:136](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L136)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L136)
 
 Binds a storage texture to the shader
 
@@ -577,7 +577,7 @@ Texture to bind
 
 > **setTexture**(`name`, `texture`, `bindSampler?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:118](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L118)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L118)
 
 Binds a texture to the shader
 
@@ -611,7 +611,7 @@ Bind the sampler corresponding to the texture (default: true). The sampler will 
 
 > **setTextureSampler**(`name`, `sampler`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:182](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L182)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L182)
 
 Binds a texture sampler to the shader
 
@@ -639,7 +639,7 @@ Sampler to bind
 
 > **setUniformBuffer**(`name`, `buffer`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:164](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L164)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:164](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L164)
 
 Binds a uniform buffer to the shader
 
@@ -667,7 +667,7 @@ Buffer to bind
 
 > **setVideoTexture**(`name`, `texture`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:155](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L155)
+Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Tasks/Misc/computeShaderTask.ts#L155)
 
 Binds a video texture to the shader (by binding the external texture attached to this video)
 

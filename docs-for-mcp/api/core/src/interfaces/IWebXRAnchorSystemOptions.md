@@ -6,7 +6,7 @@
 
 # Interface: IWebXRAnchorSystemOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:12](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L12)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L14)
 
 Configuration options of the anchor system
 
@@ -16,7 +16,7 @@ Configuration options of the anchor system
 
 > `optional` **clearAnchorsOnSessionInit?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L29)
 
 If set to true, all anchor arrays will be cleared when the session initializes
 
@@ -26,7 +26,7 @@ If set to true, all anchor arrays will be cleared when the session initializes
 
 > `optional` **doNotRemoveAnchorsOnSessionEnded?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:22](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L22)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L24)
 
 If set to true a reference of the created anchors will be kept until the next session starts
 If not defined, anchors will be removed from the array when the feature is detached or the session ended.
@@ -37,6 +37,6 @@ If not defined, anchors will be removed from the array when the feature is detac
 
 > `optional` **worldParentNode?**: [`TransformNode`](../classes/TransformNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts:16](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/XR/features/WebXRAnchorSystem.ts#L16)
+Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L18)
 
 a node that will be used to convert local to world coordinates

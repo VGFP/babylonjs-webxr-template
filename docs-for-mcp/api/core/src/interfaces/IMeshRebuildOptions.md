@@ -6,7 +6,7 @@
 
 # Interface: IMeshRebuildOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:56](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L56)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L57)
 
 Interface to customize the mesh rebuild options
 
@@ -16,7 +16,7 @@ Interface to customize the mesh rebuild options
 
 > `optional` **centerMesh?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:64](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L64)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L65)
 
 True to center the mesh on 0,0,0
 
@@ -26,7 +26,7 @@ True to center the mesh on 0,0,0
 
 > `optional` **materialToUse?**: [`Material`](../classes/Material.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:68](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L68)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L69)
 
 Defines a material to use for that mesh. When not defined the system will either reuse the one from the source or create a multimaterial if several materials were involved
 
@@ -36,6 +36,6 @@ Defines a material to use for that mesh. When not defined the system will either
 
 > `optional` **rebuildNormals?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:60](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/csg2.ts#L60)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/csg2.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/csg2.ts#L61)
 
 Rebuild normals

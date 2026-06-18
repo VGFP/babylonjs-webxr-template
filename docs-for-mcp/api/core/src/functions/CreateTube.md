@@ -8,7 +8,7 @@
 
 > **CreateTube**(`name`, `options`, `scene?`): [`Mesh`](../classes/Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/tubeBuilder.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Meshes/Builders/tubeBuilder.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/tubeBuilder.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/tubeBuilder.pure.ts#L33)
 
 Creates a tube mesh.
 The tube is a parametric shape. It has no predefined shape. Its final shape will depend on the input parameters

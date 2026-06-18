@@ -6,7 +6,7 @@
 
 # Interface: ComputeCompilationMessages
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.computeShader.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Extensions/engine.computeShader.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.computeShader.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.computeShader.pure.ts#L34)
 
 Messages generated during compilation
 
@@ -16,7 +16,7 @@ Messages generated during compilation
 
 > **messages**: `object`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.computeShader.ts:40](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Extensions/engine.computeShader.ts#L40)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.computeShader.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.computeShader.pure.ts#L42)
 
 List of messages generated during compilation
 
@@ -50,6 +50,6 @@ List of messages generated during compilation
 
 > **numErrors**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.computeShader.ts:36](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Engines/Extensions/engine.computeShader.ts#L36)
+Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.computeShader.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.computeShader.pure.ts#L38)
 
 Number of errors generated during compilation

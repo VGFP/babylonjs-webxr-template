@@ -6,7 +6,7 @@
 
 # Class: PhysicsUpdraftEventOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1083](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1083)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1083](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1083)
 
 Options for the updraft event
 
@@ -30,7 +30,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/physics/usingPhysicsEngine#f
 
 > **height**: `number` = `10`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1097](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1097)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1097](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1097)
 
 The height of the cylinder for the updraft.
 
@@ -40,7 +40,7 @@ The height of the cylinder for the updraft.
 
 > **radius**: `number` = `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1087](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1087)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1087](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1087)
 
 The radius of the cylinder for the vortex
 
@@ -50,7 +50,7 @@ The radius of the cylinder for the vortex
 
 > **strength**: `number` = `10`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1092](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1092)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1092](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1092)
 
 The strength of the updraft.
 
@@ -60,6 +60,6 @@ The strength of the updraft.
 
 > **updraftMode**: [`PhysicsUpdraftMode`](../enumerations/PhysicsUpdraftMode.md) = `PhysicsUpdraftMode.Center`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1102](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Physics/physicsHelper.ts#L1102)
+Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1102)
 
 The mode for the updraft.

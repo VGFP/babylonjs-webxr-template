@@ -6,7 +6,7 @@
 
 # Class: PhysicsViewer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.ts:32](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/physicsViewer.ts#L32)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/physicsViewer.pure.ts#L32)
 
 Used to show the physics impostor around the specific mesh
 
@@ -16,7 +16,7 @@ Used to show the physics impostor around the specific mesh
 
 > **new PhysicsViewer**(`scene?`, `size?`, `utilityLayer?`): `PhysicsViewer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.ts:84](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/physicsViewer.ts#L84)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.pure.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/physicsViewer.pure.ts#L84)
 
 Creates a new PhysicsViewer
 
@@ -50,7 +50,7 @@ The utility layer the viewer will be added to
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.ts:1091](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/physicsViewer.ts#L1091)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.pure.ts:1091](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/physicsViewer.pure.ts#L1091)
 
 Clean up physics debug display
 
@@ -64,7 +64,7 @@ Clean up physics debug display
 
 > **hideBody**(`body`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.ts:497](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/physicsViewer.ts#L497)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.pure.ts:497](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/physicsViewer.pure.ts#L497)
 
 Hides a body from the physics engine.
 
@@ -93,7 +93,7 @@ This is useful for hiding a body from the physics engine without deleting it.
 
 > **hideConstraint**(`constraint`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.ts:580](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/physicsViewer.ts#L580)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.pure.ts:580](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/physicsViewer.pure.ts#L580)
 
 Hide a physics constraint from the viewer utility layer
 
@@ -115,7 +115,7 @@ the constraint to hide
 
 > **hideImpostor**(`impostor`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.ts:443](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/physicsViewer.ts#L443)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.pure.ts:443](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/physicsViewer.pure.ts#L443)
 
 Hides an impostor from the scene.
 
@@ -142,7 +142,7 @@ list, it also unregisters the render function.
 
 > **hideInertia**(`body`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.ts:542](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/physicsViewer.ts#L542)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.pure.ts:542](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/physicsViewer.pure.ts#L542)
 
 Hides a body's inertia from the viewer utility layer
 
@@ -166,7 +166,7 @@ true if inertia actually removed
 
 > **showBody**(`body`): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.ts:342](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/physicsViewer.ts#L342)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.pure.ts:342](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/physicsViewer.pure.ts#L342)
 
 Shows a debug mesh for a given physics body.
 
@@ -194,7 +194,7 @@ It also registers a before render function to update the debug mesh position and
 
 > **showConstraint**(`constraint`): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.ts:407](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/physicsViewer.ts#L407)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.pure.ts:407](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/physicsViewer.pure.ts#L407)
 
 Shows a debug mesh for a given physics constraint.
 
@@ -218,7 +218,7 @@ the debug mesh, or null if the constraint is already shown
 
 > **showImpostor**(`impostor`, `targetMesh?`): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.ts:305](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/physicsViewer.ts#L305)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.pure.ts:305](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/physicsViewer.pure.ts#L305)
 
 Renders a specified physic impostor
 
@@ -248,7 +248,7 @@ the new debug mesh used to render the impostor
 
 > **showInertia**(`body`): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.ts:375](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Debug/physicsViewer.ts#L375)
+Defined in: [babylonjs-source/packages/dev/core/src/Debug/physicsViewer.pure.ts:375](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/physicsViewer.pure.ts#L375)
 
 Shows a debug box corresponding to the inertia of a given body
 

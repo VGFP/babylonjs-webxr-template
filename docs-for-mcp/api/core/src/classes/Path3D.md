@@ -6,7 +6,7 @@
 
 # Class: Path3D
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:498](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L498)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:498](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L498)
 
 Represents a 3D path made up of multiple 3D points
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/path3D
 
 > **new Path3D**(`path`, `firstNormal?`, `raw?`, `alignTangentsWithPath?`): `Path3D`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:529](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L529)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:529](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L529)
 
 new Path3D(path, normal, raw)
 Creates a Path3D. A Path3D is a logical math object, so not a mesh.
@@ -62,7 +62,7 @@ an array of Vector3, the curve axis of the Path3D
 
 > **path**: [`Vector3`](Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:533](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L533)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:533](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L533)
 
 an array of Vector3, the curve axis of the Path3D
 
@@ -72,7 +72,7 @@ an array of Vector3, the curve axis of the Path3D
 
 > **getBinormalAt**(`position`, `interpolated?`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:638](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L638)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:638](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L638)
 
 Returns the binormal vector of an interpolated Path3D curve point at the specified position along this path.
 
@@ -102,7 +102,7 @@ a binormal vector corresponding to the interpolated Path3D curve point, if not i
 
 > **getBinormals**(): [`Vector3`](Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:589](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L589)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:589](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L589)
 
 Returns an array populated with binormal vectors on each Path3D curve point.
 
@@ -118,7 +118,7 @@ an array populated with binormal vectors on each Path3D curve point.
 
 > **getClosestPositionTo**(`target`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:677](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L677)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:677](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L677)
 
 Returns the position of the closest virtual point on this path to an arbitrary Vector3, from 0.0 to 1.0
 
@@ -142,7 +142,7 @@ the position of the closest virtual point on this path to the target vector
 
 > **getCurve**(): [`Vector3`](Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:550](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L550)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:550](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L550)
 
 Returns the Path3D array of successive Vector3 designing its curve.
 
@@ -158,7 +158,7 @@ the Path3D array of successive Vector3 designing its curve.
 
 > **getDistanceAt**(`position`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:648](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L648)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:648](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L648)
 
 Returns the distance (float) of an interpolated Path3D curve point at the specified position along this path.
 
@@ -182,7 +182,7 @@ the distance of the interpolated Path3D curve point at the specified position al
 
 > **getDistances**(): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:597](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L597)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:597](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L597)
 
 Returns an array populated with distances (float) of the i-th point from the first curve point.
 
@@ -198,7 +198,7 @@ an array populated with distances (float) of the i-th point from the first curve
 
 > **getNormalAt**(`position`, `interpolated?`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:627](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L627)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:627](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L627)
 
 Returns the tangent vector of an interpolated Path3D curve point at the specified position along this path.
 
@@ -228,7 +228,7 @@ a normal vector corresponding to the interpolated Path3D curve point, if not int
 
 > **getNormals**(): [`Vector3`](Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:581](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L581)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:581](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L581)
 
 Returns an array populated with normal vectors on each Path3D curve point.
 
@@ -244,7 +244,7 @@ an array populated with normal vectors on each Path3D curve point.
 
 > **getPointAt**(`position`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:606](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L606)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:606](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L606)
 
 Returns an interpolated point along this path
 
@@ -268,7 +268,7 @@ a new Vector3 as the point
 
 > **getPoints**(): [`Vector3`](Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:558](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L558)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:558](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L558)
 
 Returns the Path3D array of successive Vector3 designing its curve.
 
@@ -284,7 +284,7 @@ the Path3D array of successive Vector3 designing its curve.
 
 > **getPreviousPointIndexAt**(`position`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:657](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L657)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:657](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L657)
 
 Returns the array index of the previous point of an interpolated point along this path
 
@@ -308,7 +308,7 @@ the array index
 
 > **getSubPositionAt**(`position`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:667](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L667)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:667](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L667)
 
 Returns the position of an interpolated point relative to the two path points it lies between, from 0.0 (point A) to 1.0 (point B)
 
@@ -332,7 +332,7 @@ the sub position
 
 > **getTangentAt**(`position`, `interpolated?`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:616](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L616)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:616](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L616)
 
 Returns the tangent vector of an interpolated Path3D curve point at the specified position along this path.
 
@@ -362,7 +362,7 @@ a tangent vector corresponding to the interpolated Path3D curve point, if not in
 
 > **getTangents**(): [`Vector3`](Vector3.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:573](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L573)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:573](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L573)
 
 Returns an array populated with tangent vectors on each Path3D curve point.
 
@@ -378,7 +378,7 @@ an array populated with tangent vectors on each Path3D curve point.
 
 > **length**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:565](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L565)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:565](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L565)
 
 #### Returns
 
@@ -392,7 +392,7 @@ the computed length (float) of the path.
 
 > **slice**(`start?`, `end?`): `Path3D`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:701](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L701)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:701](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L701)
 
 Returns a sub path (slice) of this path
 
@@ -422,7 +422,7 @@ a sub path (slice) of this path
 
 > **update**(`path`, `firstNormal?`, `alignTangentsWithPath?`): `Path3D`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:741](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Maths/math.path.ts#L741)
+Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:741](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L741)
 
 Forces the Path3D tangent, normal, binormal and distance recomputation.
 

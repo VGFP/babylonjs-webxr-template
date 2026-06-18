@@ -6,7 +6,7 @@
 
 # Interface: IIOptionShadowDepthMaterial
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:19](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L19)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L19)
 
 Options to be used when creating a shadow depth material
 
@@ -16,7 +16,7 @@ Options to be used when creating a shadow depth material
 
 > `optional` **doNotInjectCode?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:33](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L33)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L33)
 
 Set doNotInjectCode if the specific shadow map generation code is already implemented by the material. That will prevent this code to be injected twice by ShadowDepthWrapper
 
@@ -26,7 +26,7 @@ Set doNotInjectCode if the specific shadow map generation code is already implem
 
 > `optional` **remappedVariables?**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:27](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L27)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L27)
 
 Variables in the vertex shader code that need to have their names remapped.
 The format is: ["var_name", "var_remapped_name", "var_name", "var_remapped_name", ...]
@@ -41,6 +41,6 @@ If the normal must also be remapped: ["worldPos", "myWorldPosVar", "vNormalW", "
 
 > `optional` **standalone?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:30](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L30)
+Defined in: [babylonjs-source/packages/dev/core/src/Materials/shadowDepthWrapper.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shadowDepthWrapper.ts#L30)
 
 Set standalone to true if the base material wrapped by ShadowDepthMaterial is not used for a regular object but for depth shadow generation only

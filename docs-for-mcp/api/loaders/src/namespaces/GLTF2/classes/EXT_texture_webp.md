@@ -6,7 +6,7 @@
 
 # Class: EXT\_texture\_webp
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_texture\_webp.ts:26](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_texture_webp.ts#L26)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_texture\_webp.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_texture_webp.ts#L26)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Vendor/EXT_texture_webp/README.md)
 
@@ -20,7 +20,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_
 
 > **enabled**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_texture\_webp.ts:31](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_texture_webp.ts#L31)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_texture\_webp.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_texture_webp.ts#L31)
 
 Defines whether this extension is enabled.
 
@@ -34,7 +34,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `"EXT_texture_webp"` = `NAME`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_texture\_webp.ts:28](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_texture_webp.ts#L28)
+Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_texture\_webp.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_texture_webp.ts#L28)
 
 The name of this extension.
 

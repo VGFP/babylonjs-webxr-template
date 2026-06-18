@@ -6,7 +6,7 @@
 
 # Class: VideoRecorder
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:74](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/videoRecorder.ts#L74)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/videoRecorder.ts#L74)
 
 This can help with recording videos from BabylonJS.
 This is based on the available WebRTC functionalities of the browser.
@@ -21,7 +21,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/renderToVideo
 
 > **new VideoRecorder**(`engine`, `options?`): `VideoRecorder`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:115](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/videoRecorder.ts#L115)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/videoRecorder.ts#L115)
 
 Create a new VideoCapture object which can help converting what you see in Babylon to a video file.
 
@@ -51,7 +51,7 @@ Defines options that can be used to customize the capture.
 
 > **get** **isRecording**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:106](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/videoRecorder.ts#L106)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/videoRecorder.ts#L106)
 
 True when a recording is already in progress.
 
@@ -65,7 +65,7 @@ True when a recording is already in progress.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:207](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/videoRecorder.ts#L207)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:207](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/videoRecorder.ts#L207)
 
 Releases internal resources used during the recording.
 
@@ -79,7 +79,7 @@ Releases internal resources used during the recording.
 
 > **startRecording**(`fileName?`, `maxDuration?`): `Promise`\<`Blob`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:173](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/videoRecorder.ts#L173)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/videoRecorder.ts#L173)
 
 Starts recording the canvas for a max duration specified in parameters.
 
@@ -111,7 +111,7 @@ A promise callback at the end of the recording with the video data in Blob.
 
 > **stopRecording**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:151](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/videoRecorder.ts#L151)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/videoRecorder.ts#L151)
 
 Stops the current recording before the default capture timeout passed in the startRecording function.
 
@@ -125,7 +125,7 @@ Stops the current recording before the default capture timeout passed in the sta
 
 > `static` **IsSupported**(`engine`, `canvas?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:87](https://github.com/BabylonJS/Babylon.js/blob/28caae20c63c6938ebffe216e1f3a0ce58f7ca0e/packages/dev/core/src/Misc/videoRecorder.ts#L87)
+Defined in: [babylonjs-source/packages/dev/core/src/Misc/videoRecorder.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/videoRecorder.ts#L87)
 
 Returns whether or not the VideoRecorder is available in your browser.
 
