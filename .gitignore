@@ -148,9 +148,6 @@ vite.config.ts.timestamp-*
 
 .kilo/
 
-babylonjs-source/
-babylonjs-docs/
-
 opencode.json
 
 *.wav
