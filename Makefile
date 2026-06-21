@@ -1,4 +1,4 @@
-.PHONY: setup-ai generate-docs help
+.PHONY: setup-ai help
 
 help: ## Show this help
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | \
@@ -17,11 +17,3 @@ ifeq ($(filter setup-ai,$(MAKECMDGOALS)),setup-ai)
 	@:
   endif
 endif
-
-# ---------------------------------------------------------------------------
-# Documentation regeneration (docs are tracked in git; run this to update)
-# ---------------------------------------------------------------------------
-generate-docs: ## Regenerate BabylonJS docs from source (clones repos if needed)
-	@bash scripts/clone-babylonjs-source.sh
-	@bash scripts/clone-babylonjs-docs.sh
-	@bash scripts/generate-docs-for-mcp.sh
