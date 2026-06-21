@@ -13,3 +13,4 @@ minimumReleaseAgeExclude:
   - '@babylonjs/inspector@9.13.0'
   - '@babylonjs/loaders@9.13.0'
   - '@babylonjs/materials@9.13.0'
+  - babylonjs-docs-mcp@9.13.0-mcp.2
