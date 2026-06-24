@@ -52,4 +52,7 @@ export const UI_LAYOUT = {
 export const BACK_BUTTON_COLORS = {
     bgColor: '#2a1a0a',
     borderColor: '#ffb45044',
+    /** Colors when the button is in the armed (awaiting confirm) state. */
+    armedBgColor: '#5a1a0a',
+    armedBorderColor: '#ff6020aa',
 } as const;

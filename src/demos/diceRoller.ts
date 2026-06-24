@@ -114,6 +114,7 @@ export class DiceRollerDemo {
     private _statusText = 'Tap Roll to begin';
     private _resultText = '';
     private _rolling = false;
+    private _backArmed = false;
 
     private _trayAggregates: PhysicsAggregate[] = [];
     private _physicsReady = false;
@@ -149,7 +150,12 @@ export class DiceRollerDemo {
             scene,
             cleanup: this._cleanup,
             parent: this._panelRoot,
-            position: new Vector3(0, -0.34, 0),
+            position: new Vector3(0, 0.3, 0),
+            requireDoubleTap: true,
+            onArmChange: (armed) => {
+                this._backArmed = armed;
+                this._rebuildText();
+            },
             onGoBack: () => {
                 const goBack = getGoBackCallback(this._scene);
                 if (goBack) goBack();
@@ -783,11 +789,11 @@ export class DiceRollerDemo {
         }
         this._textManager.addParagraph(
             this._statusText,
-            new Vector3(px, py - 0.27 + ty, pz + tz),
+            new Vector3(px, py - 0.25 + ty, pz + tz),
             UI_LAYOUT.panel.statusTextScale,
         );
         this._textManager.addParagraph(
-            'Return to Main Scene',
+            this._backArmed ? 'Tap again to exit' : 'Return to Main Scene',
             new Vector3(
                 px + this._backBtn.plane.position.x,
                 py + this._backBtn.plane.position.y + ty,
