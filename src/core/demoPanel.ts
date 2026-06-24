@@ -61,16 +61,61 @@ export interface CreateBackButtonOptions {
     heightRatio?: number;
     /** Prefix for the mesh name; defaults to 'btn'. */
     namePrefix?: string;
+    /**
+     * When true, the first tap arms the button (color change + `onArmChange`)
+     * and a second tap within `doubleTapTimeoutMs` fires `onGoBack`.
+     * Prevents accidental exits during active interaction.
+     */
+    requireDoubleTap?: boolean;
+    /** Called whenever the armed state changes (requires `requireDoubleTap`). */
+    onArmChange?: (armed: boolean) => void;
+    /** Auto-disarm timeout in milliseconds (default 3000). */
+    doubleTapTimeoutMs?: number;
+    /** Background color when armed (defaults to `BACK_BUTTON_COLORS.armedBgColor`). */
+    armedBgColor?: string;
+    /** Border color when armed (defaults to `BACK_BUTTON_COLORS.armedBorderColor`). */
+    armedBorderColor?: string;
 }
 
 /**
  * Standardized "Return to Main Scene" button used by every demo panel.
  * Pulls dimensions from `UI_LAYOUT.panel` and colors from `BACK_BUTTON_COLORS`.
+ *
+ * When `requireDoubleTap` is enabled, the first tap arms the button (visual
+ * change + `onArmChange(true)`). A second tap within the timeout fires
+ * `onGoBack`; otherwise it auto-disarms. The timeout is cleaned up via
+ * the provided `DisposableStack`.
  */
 export function createBackButton(options: CreateBackButtonOptions): CreateUiButtonResult {
     const widthRatio = options.widthRatio ?? UI_LAYOUT.panel.backWidthRatio;
     const heightRatio = options.heightRatio ?? UI_LAYOUT.panel.backHeightRatio;
-    return createPanelButton({
+    const bgColor = options.bgColor ?? BACK_BUTTON_COLORS.bgColor;
+    const borderColor = options.borderColor ?? BACK_BUTTON_COLORS.borderColor;
+
+    if (!options.requireDoubleTap) {
+        return createPanelButton({
+            scene: options.scene,
+            cleanup: options.cleanup,
+            namePrefix: options.namePrefix ?? 'btn',
+            label: 'back',
+            width: UI_LAYOUT.panel.btnWidth * widthRatio,
+            height: UI_LAYOUT.panel.btnHeight * heightRatio,
+            position: options.position,
+            parent: options.parent,
+            bgColor,
+            borderColor,
+            onClick: options.onGoBack,
+        });
+    }
+
+    const timeoutMs = options.doubleTapTimeoutMs ?? 3000;
+    const armedBgColor = options.armedBgColor ?? BACK_BUTTON_COLORS.armedBgColor;
+    const armedBorderColor = options.armedBorderColor ?? BACK_BUTTON_COLORS.armedBorderColor;
+
+    let armed = false;
+    let timeout: ReturnType<typeof setTimeout> | null = null;
+
+    const result = createPanelButton({
         scene: options.scene,
         cleanup: options.cleanup,
         namePrefix: options.namePrefix ?? 'btn',
@@ -79,10 +124,44 @@ export function createBackButton(options: CreateBackButtonOptions): CreateUiButt
         height: UI_LAYOUT.panel.btnHeight * heightRatio,
         position: options.position,
         parent: options.parent,
-        bgColor: options.bgColor ?? BACK_BUTTON_COLORS.bgColor,
-        borderColor: options.borderColor ?? BACK_BUTTON_COLORS.borderColor,
-        onClick: options.onGoBack,
+        bgColor,
+        borderColor,
+        onClick: () => {
+            if (!armed) {
+                armed = true;
+                result.rect.background = armedBgColor;
+                result.rect.color = armedBorderColor;
+                options.onArmChange?.(true);
+                if (timeout) clearTimeout(timeout);
+                timeout = setTimeout(() => {
+                    timeout = null;
+                    armed = false;
+                    result.rect.background = bgColor;
+                    result.rect.color = borderColor;
+                    options.onArmChange?.(false);
+                }, timeoutMs);
+                return;
+            }
+            if (timeout) {
+                clearTimeout(timeout);
+                timeout = null;
+            }
+            armed = false;
+            result.rect.background = bgColor;
+            result.rect.color = borderColor;
+            options.onArmChange?.(false);
+            options.onGoBack();
+        },
     });
+
+    options.cleanup.register(() => {
+        if (timeout) {
+            clearTimeout(timeout);
+            timeout = null;
+        }
+    });
+
+    return result;
 }
 
 /**
